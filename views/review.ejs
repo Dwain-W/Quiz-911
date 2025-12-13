@@ -1,0 +1,70 @@
+<h2 class="mb-3">Review: <%= lesson.title %></h2>
+<p class="text-muted">Your latest attempt for each question.</p>
+
+<% if (!rows.length) { %>
+  <div class="alert alert-info">No attempts yet. Try the lesson first.</div>
+<% } %>
+
+<div class="list-group">
+  <% rows.forEach(({ i, q, at }) => { %>
+    <div class="list-group-item">
+      <div class="d-flex justify-content-between align-items-center">
+        <strong>Q<%= i %></strong>
+        <div>
+          <% if (at) { %>
+            <span class="badge <%= at.isCorrect ? 'bg-success' : 'bg-danger' %>">
+              <%= at.isCorrect ? 'Correct' : 'Incorrect' %>
+            </span>
+            <span class="badge bg-secondary ms-2"><%= at.timeTakenSec %>s</span>
+            <span class="badge bg-light text-dark ms-2">+<%= at.awardedPoints %> pts</span>
+          <% } else { %>
+            <span class="badge bg-warning text-dark">No attempt</span>
+          <% } %>
+        </div>
+      </div>
+
+      <div class="mt-2 fs-5"><%- q.stem || '' %></div>
+
+      <% if (q.type === 'mcq' && Array.isArray(q.choices)) {
+           const correct = q.choices.find(c => c.is_correct);
+           const userChoice = at?.answerPayload?.choiceId;
+      %>
+        <div class="mt-2">
+          <% q.choices.forEach(c => { %>
+            <div class="d-flex align-items-center mb-1">
+              <div class="me-2"><strong><%= c.id %>.</strong></div>
+              <div><%= c.text %></div>
+              <% if (correct && c.id === correct.id) { %><span class="badge bg-success ms-2">Answer</span><% } %>
+              <% if (userChoice && c.id === userChoice) { %><span class="badge bg-primary ms-2">You</span><% } %>
+            </div>
+          <% }) %>
+        </div>
+      <% } else if (q.type === 'true_false') { %>
+        <div class="mt-2">
+          <span class="badge bg-success">Answer: <%= String(q.answer) %></span>
+          <% if (at) { %><span class="badge bg-primary ms-2">You: <%= String(at.answerPayload?.value) %></span><% } %>
+        </div>
+      <% } else if (q.type === 'fill_blank') { %>
+        <div class="mt-2">
+          <span class="badge bg-success">Answer: <%= q.answer %></span>
+          <% if (at) { %><span class="badge bg-primary ms-2">You: <%= at.answerPayload?.value %></span><% } %>
+        </div>
+      <% } else if (q.type === 'matching') { %>
+        <pre class="mt-2 small bg-light p-2">Answer: <%- JSON.stringify(q.answer, null, 2) %></pre>
+        <% if (at) { %><pre class="small bg-light p-2">You: <%- JSON.stringify(at.answerPayload?.pairs, null, 2) %></pre><% } %>
+      <% } %>
+
+      <% const expl = (q.type === 'mcq')
+           ? (q.choices.find(c => c.is_correct)?.explanation)
+           : q.solution; %>
+      <% if (expl) { %>
+        <details class="mt-2"><summary>Show explanation</summary><div class="mt-2"><%- expl %></div></details>
+      <% } %>
+    </div>
+  <% }) %>
+</div>
+
+<div class="mt-4 d-flex gap-2">
+  <a class="btn btn-outline-secondary" href="/lessons/<%= lesson.slug %>">← Back to lesson</a>
+  <a class="btn btn-primary" href="/learn">Back to Learn</a>
+</div>

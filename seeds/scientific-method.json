@@ -1,0 +1,432 @@
+{
+  "lesson": {
+    "slug": "scientific-method",
+    "title": "Scientific Method & Why Science Is Successful",
+    "topic": "Scientific Method",
+    "order": 1,
+    "objectives": [
+      "Describe the steps of the scientific method.",
+      "Explain the difference between a hypothesis, theory, and law.",
+      "Identify what makes scientific ideas reliable.",
+      "Explain how repeatability supports scientific success.",
+      "Recognize the importance of controlled observations.",
+      "Understand the role of mathematics in science.",
+      "Identify limitations of science.",
+      "Explain why scientific ideas change over time.",
+      "Describe peer review.",
+      "Explain why science relies on evidence."
+    ],
+    "questionIds": [
+      "SM-MCQ-001",
+      "SM-MCQ-002",
+      "SM-MCQ-003",
+      "SM-MCQ-004",
+      "SM-MCQ-005",
+      "SM-MCQ-006",
+      "SM-MCQ-007",
+      "SM-MCQ-008",
+      "SM-MCQ-009",
+      "SM-MCQ-010",
+      "SM-TF-001",
+      "SM-TF-002",
+      "SM-TF-003",
+      "SM-TF-004",
+      "SM-TF-005",
+      "SM-TF-006",
+      "SM-TF-007",
+      "SM-TF-008",
+      "SM-TF-009",
+      "SM-TF-010",
+      "SM-FB-001",
+      "SM-FB-002",
+      "SM-FB-003",
+      "SM-FB-004",
+      "SM-FB-005",
+      "SM-FB-006",
+      "SM-FB-007",
+      "SM-FB-008",
+      "SM-FB-009",
+      "SM-FB-010",
+      "SM-MATCH-001"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "SM-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "science",
+      "topic": "Scientific Method",
+      "subtopic": "Definitions",
+      "stem": "Which step of the scientific method involves forming a possible explanation?",
+      "choices": [
+        { "id": "A", "text": "Prediction", "is_correct": false },
+        { "id": "B", "text": "Observation", "is_correct": false },
+        {
+          "id": "C",
+          "text": "Hypothesis",
+          "is_correct": true,
+          "explanation": "A hypothesis proposes a testable explanation."
+        },
+        { "id": "D", "text": "Analysis", "is_correct": false }
+      ],
+      "hints": ["A hypothesis suggests a cause or mechanism."],
+      "solution": "A hypothesis is a testable proposed explanation.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": ["scientific-method", "hypothesis"],
+      "references": []
+    },
+    {
+      "question_id": "SM-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "science",
+      "topic": "Scientific Method",
+      "subtopic": "Hypotheses",
+      "stem": "What makes a scientific hypothesis scientific?",
+      "choices": [
+        { "id": "A", "text": "It is popular", "is_correct": false },
+        { "id": "B", "text": "It agrees with intuition", "is_correct": false },
+        { "id": "C", "text": "It can be tested", "is_correct": true },
+        { "id": "D", "text": "Experts approve it", "is_correct": false }
+      ],
+      "hints": ["Testing separates scientific ideas from speculation."],
+      "solution": "A hypothesis must be testable.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": ["hypothesis", "testing"],
+      "references": []
+    },
+    {
+      "question_id": "SM-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "science",
+      "topic": "Laws vs Theories",
+      "subtopic": "Definitions",
+      "stem": "A scientific law:",
+      "choices": [
+        { "id": "A", "text": "Explains why something happens", "is_correct": false },
+        {
+          "id": "B",
+          "text": "Describes a natural relationship or pattern",
+          "is_correct": true
+        },
+        { "id": "C", "text": "Is an untested idea", "is_correct": false },
+        { "id": "D", "text": "Can never be changed", "is_correct": false }
+      ],
+      "solution": "A law describes what happens, typically in a mathematical form.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "SM-MCQ-004",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "science",
+      "topic": "Scientific Theory",
+      "stem": "Which statement about theories is true?",
+      "choices": [
+        { "id": "A", "text": "They are guesses", "is_correct": false },
+        { "id": "B", "text": "They are proven beyond doubt", "is_correct": false },
+        {
+          "id": "C",
+          "text": "They are supported by large amounts of evidence",
+          "is_correct": true
+        },
+        { "id": "D", "text": "They cannot change", "is_correct": false }
+      ],
+      "solution": "A theory is an evidence-based explanation.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "SM-MCQ-005",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "Science is considered successful mainly because it:",
+      "choices": [
+        { "id": "A", "text": "Accepts tradition", "is_correct": false },
+        { "id": "B", "text": "Uses unchanging knowledge", "is_correct": false },
+        { "id": "C", "text": "Requires repeatable testing", "is_correct": true },
+        { "id": "D", "text": "Depends on authority", "is_correct": false }
+      ],
+      "solution": "Repeatability ensures reliability.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "SM-MCQ-006",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "Peer review helps science because it:",
+      "choices": [
+        { "id": "A", "text": "Guarantees personal beliefs", "is_correct": false },
+        { "id": "B", "text": "Removes the need for experiments", "is_correct": false },
+        {
+          "id": "C",
+          "text": "Checks methods and results for accuracy",
+          "is_correct": true
+        },
+        { "id": "D", "text": "Prevents new ideas", "is_correct": false }
+      ],
+      "solution": "Peer review validates quality and methods.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "SM-MCQ-007",
+      "type": "mcq",
+      "stem": "A prediction in science is:",
+      "choices": [
+        { "id": "A", "text": "Always correct", "is_correct": false },
+        { "id": "B", "text": "A statement of expected results", "is_correct": true },
+        { "id": "C", "text": "A law", "is_correct": false },
+        { "id": "D", "text": "A theory", "is_correct": false }
+      ],
+      "solution": "A prediction flows from a hypothesis.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "SM-MCQ-008",
+      "type": "mcq",
+      "stem": "Which behavior is NOT part of scientific thinking?",
+      "choices": [
+        { "id": "A", "text": "Testing ideas", "is_correct": false },
+        { "id": "B", "text": "Seeking natural explanations", "is_correct": false },
+        { "id": "C", "text": "Transparency", "is_correct": false },
+        {
+          "id": "D",
+          "text": "Accepting claims without evidence",
+          "is_correct": true
+        }
+      ],
+      "solution": "Unverified claims contradict the scientific approach.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "SM-MCQ-009",
+      "type": "mcq",
+      "stem": "A scientific theory becomes stronger when:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Evidence repeatedly supports it",
+          "is_correct": true
+        },
+        { "id": "B", "text": "It is popular", "is_correct": false },
+        { "id": "C", "text": "It is old", "is_correct": false },
+        { "id": "D", "text": "Scientists stop studying it", "is_correct": false }
+      ],
+      "solution": "Scientific strength comes from evidence.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "SM-MCQ-010",
+      "type": "mcq",
+      "stem": "Science changes over time because:",
+      "choices": [
+        { "id": "A", "text": "Scientists constantly disagree", "is_correct": false },
+        {
+          "id": "B",
+          "text": "Evidence improves and expands",
+          "is_correct": true
+        },
+        { "id": "C", "text": "Theories expire", "is_correct": false },
+        { "id": "D", "text": "Math changes", "is_correct": false }
+      ],
+      "solution": "Science updates as new evidence appears.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "SM-TF-001",
+      "type": "true_false",
+      "stem": "Science relies on evidence rather than authority.",
+      "answer": "true",
+      "solution": "Evidence, not authority, is the foundation of science.",
+      "difficulty": "easy",
+      "time_limit_sec": 20,
+      "points": 5
+    },
+    {
+      "question_id": "SM-TF-002",
+      "type": "true_false",
+      "stem": "A hypothesis must be testable.",
+      "answer": "true",
+      "time_limit_sec": 20,
+      "points": 5
+    },
+    {
+      "question_id": "SM-TF-003",
+      "type": "true_false",
+      "stem": "A scientific theory is just a guess.",
+      "answer": "false",
+      "solution": "A theory is an evidence-based explanation.",
+      "time_limit_sec": 20,
+      "points": 5
+    },
+    {
+      "question_id": "SM-TF-004",
+      "type": "true_false",
+      "stem": "Scientific laws explain why phenomena happen.",
+      "answer": "false",
+      "solution": "Laws describe relationships; theories explain why.",
+      "time_limit_sec": 20,
+      "points": 5
+    },
+    {
+      "question_id": "SM-TF-005",
+      "type": "true_false",
+      "stem": "Peer review helps correct mistakes.",
+      "answer": "true",
+      "time_limit_sec": 20,
+      "points": 5
+    },
+    {
+      "question_id": "SM-TF-006",
+      "type": "true_false",
+      "stem": "Science never changes once a theory is accepted.",
+      "answer": "false",
+      "time_limit_sec": 20,
+      "points": 5
+    },
+    {
+      "question_id": "SM-TF-007",
+      "type": "true_false",
+      "stem": "A prediction is based on a hypothesis.",
+      "answer": "true",
+      "time_limit_sec": 20,
+      "points": 5
+    },
+    {
+      "question_id": "SM-TF-008",
+      "type": "true_false",
+      "stem": "Experiments must be repeatable.",
+      "answer": "true",
+      "time_limit_sec": 20,
+      "points": 5
+    },
+    {
+      "question_id": "SM-TF-009",
+      "type": "true_false",
+      "stem": "Science can answer questions about morality.",
+      "answer": "false",
+      "time_limit_sec": 20,
+      "points": 5
+    },
+    {
+      "question_id": "SM-TF-010",
+      "type": "true_false",
+      "stem": "Evidence that contradicts a theory may require modifying that theory.",
+      "answer": "true",
+      "time_limit_sec": 20,
+      "points": 5
+    },
+    {
+      "question_id": "SM-FB-001",
+      "type": "fill_blank",
+      "stem": "A proposed explanation that can be tested is called a __________.",
+      "answer": "hypothesis",
+      "difficulty": "easy",
+      "points": 5,
+      "time_limit_sec": 30
+    },
+    {
+      "question_id": "SM-FB-002",
+      "type": "fill_blank",
+      "stem": "A scientific __________ is a well-supported explanation.",
+      "answer": "theory",
+      "points": 5,
+      "time_limit_sec": 30
+    },
+    {
+      "question_id": "SM-FB-003",
+      "type": "fill_blank",
+      "stem": "A scientific __________ describes a recurring pattern in nature.",
+      "answer": "law",
+      "points": 5,
+      "time_limit_sec": 30
+    },
+    {
+      "question_id": "SM-FB-004",
+      "type": "fill_blank",
+      "stem": "Science relies on __________, not authority.",
+      "answer": "evidence",
+      "points": 5,
+      "time_limit_sec": 30
+    },
+    {
+      "question_id": "SM-FB-005",
+      "type": "fill_blank",
+      "stem": "A __________ states what should happen if a hypothesis is correct.",
+      "answer": "prediction",
+      "points": 5,
+      "time_limit_sec": 30
+    },
+    {
+      "question_id": "SM-FB-006",
+      "type": "fill_blank",
+      "stem": "__________ strengthens scientific results through repetition.",
+      "answer": "repeatability",
+      "points": 5,
+      "time_limit_sec": 30
+    },
+    {
+      "question_id": "SM-FB-007",
+      "type": "fill_blank",
+      "stem": "Peer __________ checks the accuracy of scientific work.",
+      "answer": "review",
+      "points": 5,
+      "time_limit_sec": 30
+    },
+    {
+      "question_id": "SM-FB-008",
+      "type": "fill_blank",
+      "stem": "A theory explains __________ something happens.",
+      "answer": "why",
+      "points": 5,
+      "time_limit_sec": 30
+    },
+    {
+      "question_id": "SM-FB-009",
+      "type": "fill_blank",
+      "stem": "A law describes __________ happens.",
+      "answer": "what",
+      "points": 5,
+      "time_limit_sec": 30
+    },
+    {
+      "question_id": "SM-FB-010",
+      "type": "fill_blank",
+      "stem": "Science deals only with __________ phenomena.",
+      "answer": "natural",
+      "points": 5,
+      "time_limit_sec": 30
+    },
+    {
+      "question_id": "SM-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match each scientific concept with its correct description.",
+      "answer": [
+        ["Hypothesis", "Testable explanation"],
+        ["Theory", "Well-supported explanation"],
+        ["Law", "Describes natural pattern"],
+        ["Prediction", "Expected outcome"],
+        ["Evidence", "Data supporting or refuting ideas"],
+        ["Peer review", "Independent evaluation"],
+        ["Observation", "Noticing phenomena carefully"],
+        ["Revision", "Updating ideas based on results"],
+        ["Experiment", "Structured test procedure"],
+        ["Natural explanation", "Based on measurable causes"]
+      ],
+      "points": 10,
+      "time_limit_sec": 60
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<h2 class="mb-3">Learn Physics</h2>
+<% if (!user) { %>
+  <div class="alert alert-info">Sign in to save your progress.</div>
+<% } %>
+
+<div class="row g-3">
+  <% lessons.forEach(L => { 
+    const p = (progress && progress[L.slug]) || { done:0, total:L.questionIds.length };
+    const pct = p.total ? Math.round(100 * p.done / p.total) : 0; %>
+    <div class="col-md-6">
+      <div class="card p-3 h-100">
+        <h5 class="mb-1">
+  <%= L.title %>
+  <% if (progress[L.slug]?.completed) { %>
+    <span class="badge bg-success ms-2">Completed</span>
+  <% } %>
+</h5>
+        <div class="text-muted mb-2"><%= L.topic %></div>
+        <div class="progress mb-2" style="height:8px;">
+          <div class="progress-bar" style="width:<%= pct %>%"></div>
+        </div>
+        <div class="small mb-2"><%= p.done %>/<%= p.total %> correct</div>
+        <a class="btn btn-primary" href="/lessons/<%= L.slug %>">Start lesson</a>
+      </div>
+    </div>
+  <% }) %>
+</div>

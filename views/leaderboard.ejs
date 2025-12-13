@@ -1,0 +1,22 @@
+<h2 class="mb-3">🏆 Leaderboard</h2>
+<p class="text-muted">Top players ranked by XP (then streak)</p>
+
+<% if (!top || !top.length) { %>
+  <div class="alert alert-info">No players yet—be the first to earn XP!</div>
+<% } else { %>
+  <ol class="list-group list-group-numbered">
+    <% top.forEach(u => { %>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div><strong><%= u.displayName %></strong></div>
+        <div>
+          <span class="badge bg-primary">XP: <%= u.xp || 0 %></span>
+          <span class="badge bg-warning text-dark ms-2">🔥 <%= u.streak || 0 %></span>
+        </div>
+      </li>
+    <% }) %>
+  </ol>
+<% } %>
+
+<div class="mt-4">
+  <a class="btn btn-outline-secondary" href="/learn">← Back to Learn</a>
+</div>

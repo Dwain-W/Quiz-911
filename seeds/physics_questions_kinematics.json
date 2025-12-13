@@ -1,0 +1,218 @@
+[
+  {
+    "question_id": "KIN-MCQ-001",
+    "domain": "physics",
+    "topic": "Kinematics",
+    "subtopic": "1D motion",
+    "difficulty": "easy",
+    "type": "mcq",
+    "stem": "A car accelerates uniformly from rest at $a=2\\,\\text{m/s}^2$. What is its speed after $t=5\\,\\text{s}$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$5\\,\\text{m/s}$",
+        "is_correct": false,
+        "explanation": "Wrong multiplication."
+      },
+      {
+        "id": "B",
+        "text": "$10\\,\\text{m/s}$",
+        "is_correct": true,
+        "explanation": "$v=at=2\\times5=10$ m/s."
+      },
+      {
+        "id": "C",
+        "text": "$20\\,\\text{m/s}$",
+        "is_correct": false,
+        "explanation": "Double the correct value."
+      },
+      {
+        "id": "D",
+        "text": "$25\\,\\text{m/s}$",
+        "is_correct": false,
+        "explanation": "Incorrect formula used."
+      }
+    ],
+    "hints": [
+      "Use $v=u+at$ with $u=0$."
+    ],
+    "solution": "From rest, $v=at=2\\times5=10$ m/s.",
+    "time_limit_sec": 45,
+    "points": 10,
+    "tags": [
+      "1D",
+      "acceleration",
+      "units"
+    ],
+    "references": [
+      {
+        "source": "Physics Textbook",
+        "chapter": "2",
+        "section": "2.1"
+      }
+    ]
+  },
+  {
+    "question_id": "KIN-MCQ-002",
+    "domain": "physics",
+    "topic": "Kinematics",
+    "subtopic": "1D motion",
+    "difficulty": "medium",
+    "type": "mcq",
+    "stem": "Displacement under constant acceleration is given by $s=ut+\\tfrac{1}{2}at^2$. For $u=3\\,\\text{m/s}$, $a=2\\,\\text{m/s}^2$, $t=4\\,\\text{s}$, find $s$.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$20\\,\\text{m}$",
+        "is_correct": false,
+        "explanation": "Missed acceleration term."
+      },
+      {
+        "id": "B",
+        "text": "$28\\,\\text{m}$",
+        "is_correct": true,
+        "explanation": "s=12+16=28 m."
+      },
+      {
+        "id": "C",
+        "text": "$44\\,\\text{m}$",
+        "is_correct": false,
+        "explanation": "Wrong arithmetic."
+      },
+      {
+        "id": "D",
+        "text": "$60\\,\\text{m}$",
+        "is_correct": false,
+        "explanation": "Overcounted terms."
+      }
+    ],
+    "hints": [
+      "Compute each term separately."
+    ],
+    "solution": "$s=ut+\\tfrac{1}{2}at^2=3\\times4+0.5\\times2\\times16=12+16=28$ m.",
+    "time_limit_sec": 60,
+    "points": 10,
+    "tags": [
+      "1D",
+      "equations of motion"
+    ],
+    "references": [
+      {
+        "source": "Physics Textbook",
+        "chapter": "2",
+        "section": "2.2"
+      }
+    ]
+  },
+  {
+    "question_id": "KIN-TF-001",
+    "domain": "physics",
+    "topic": "Kinematics",
+    "subtopic": "Concepts",
+    "difficulty": "easy",
+    "type": "true_false",
+    "stem": "Velocity and speed always have the same magnitude.",
+    "answer": "false",
+    "hints": [
+      "Think about negative velocities."
+    ],
+    "solution": "Speed is scalar and non-negative; velocity can be negative.",
+    "time_limit_sec": 30,
+    "points": 5,
+    "tags": [
+      "concepts"
+    ]
+  },
+  {
+    "question_id": "KIN-FB-001",
+    "domain": "physics",
+    "topic": "Kinematics",
+    "subtopic": "Definitions",
+    "difficulty": "easy",
+    "type": "fill_blank",
+    "stem": "The slope of a position\u2013time graph gives the __________.",
+    "answer": "velocity",
+    "hints": [
+      "It's the derivative of position."
+    ],
+    "solution": "v = dx/dt so the slope is velocity.",
+    "time_limit_sec": 30,
+    "points": 5,
+    "tags": [
+      "graphs"
+    ]
+  },
+  {
+    "question_id": "KIN-MATCH-001",
+    "domain": "physics",
+    "topic": "Kinematics",
+    "subtopic": "Graphs",
+    "difficulty": "medium",
+    "type": "matching",
+    "stem": "Match each graph feature to the correct physical meaning.",
+    "answer": [
+      [
+        "position\u2013time slope",
+        "velocity"
+      ],
+      [
+        "velocity\u2013time slope",
+        "acceleration"
+      ],
+      [
+        "area under velocity\u2013time",
+        "displacement"
+      ]
+    ],
+    "hints": [
+      "Recall calculus relationships."
+    ],
+    "solution": "Slope and area relationships connect kinematics graphs.",
+    "time_limit_sec": 60,
+    "points": 10,
+    "tags": [
+      "graphs"
+    ]
+  },
+  {
+    "question_id": "KIN-MCQ-003",
+    "domain": "physics",
+    "topic": "Kinematics",
+    "subtopic": "Free fall",
+    "difficulty": "medium",
+    "type": "mcq",
+    "stem": "An object is thrown upward with $u=20\\,\\text{m/s}$. Ignoring air resistance, how long until it returns to the launch height? ($g=9.8\\,\\text{m/s}^2$)",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$2.04\\,\\text{s}$",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "$4.08\\,\\text{s}$",
+        "is_correct": true,
+        "explanation": "t=2u/g."
+      },
+      {
+        "id": "C",
+        "text": "$3.27\\,\\text{s}$",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "$1.96\\,\\text{s}$",
+        "is_correct": false
+      }
+    ],
+    "hints": [
+      "Use symmetry of projectile motion."
+    ],
+    "solution": "Total time = 2u/g = 40/9.8 \u2248 4.08 s.",
+    "time_limit_sec": 60,
+    "points": 10,
+    "tags": [
+      "free fall"
+    ]
+  }
+]

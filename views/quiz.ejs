@@ -1,0 +1,37 @@
+
+
+<div class="container my-4">
+  <!-- Title -->
+  <h2 class="mb-3"><%= lesson.title %></h2>
+<p class="text-muted" id="loading-text">
+  Loading questions…
+</p>
+
+
+  <!-- Quiz wrapper (script reads from here) -->
+  <div id="qwrap" data-lesson="<%= lesson.slug %>"></div>
+
+  <div id="hud" class="position-fixed top-0 end-0 p-3" style="z-index:1100;">
+  <div class="card p-2 small shadow">
+    <div>Session pts: <span id="hud-pts">0</span></div>
+    <div>Progress: <span id="hud-prog">0/0</span></div>
+    <div>Streak: <span id="hud-streak">—</span></div>
+  </div>
+</div>
+
+
+</div>
+
+
+
+
+<!-- External quiz logic -->
+<script src="/js/quiz.js"></script>
+
+
+  <!-- Optional back/home link -->
+  <div class="mt-4">
+    <a href="/" class="btn btn-outline-secondary">← Back to Home</a>
+  </div>
+</div>
+

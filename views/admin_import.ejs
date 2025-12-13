@@ -1,0 +1,29 @@
+<h3>Import Questions JSON</h3>
+<form method="post" action="/admin/import" class="row g-3">
+  <div class="col-12">
+    <label class="form-label">JSON file path (absolute)</label>
+    <input class="form-control" name="jsonPath" placeholder="C:\path\to\physics_questions_kinematics.json" required>
+  </div>
+  <div class="col-md-4">
+    <label class="form-label">Lesson Slug</label>
+    <input class="form-control" name="lessonSlug" value="kinematics-basics">
+  </div>
+  <div class="col-md-4">
+    <label class="form-label">Lesson Title</label>
+    <input class="form-control" name="lessonTitle" value="Kinematics Basics">
+  </div>
+  <div class="col-md-4">
+    <label class="form-label">Topic</label>
+    <input class="form-control" name="topic" value="Kinematics">
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary">Import</button>
+  </div>
+</form>
+
+<% if (ok) { %>
+  <div class="alert alert-success mt-3">
+    Import complete. Open your lesson:
+    <a href="/lessons/kinematics-basics">/lessons/kinematics-basics</a>
+  </div>
+<% } %>

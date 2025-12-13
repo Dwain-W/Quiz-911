@@ -1,0 +1,20 @@
+<nav class="navbar navbar-light mb-3">
+  <a class="navbar-brand" href="/">Physics Quiz</a>
+  <div class="d-flex gap-2">
+<a class="btn btn-sm btn-outline-secondary" href="/learn">Learn</a>
+<a class="btn btn-sm btn-outline-secondary" href="/leaderboard">Leaderboard</a>
+
+
+<% if (user) { %>
+  <span id="badge-xp" class="badge bg-primary">XP: <%= user.xp || 0 %></span>
+  <span id="badge-streak" class="badge bg-warning text-dark">🔥 <%= user.streak || 0 %></span>
+  <a class="btn btn-sm btn-outline-secondary" href="/profile">Profile</a>
+  <form method="post" action="/auth/logout" class="d-inline">
+    <button class="btn btn-sm btn-outline-danger">Logout</button>
+  </form>
+<% } else { %>
+  <a class="btn btn-sm btn-outline-primary" href="/auth/login">Sign in</a>
+<% } %>
+
+  </div>
+</nav>
