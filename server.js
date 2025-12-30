@@ -74,7 +74,17 @@ app.use(cookieParser());
 app.use(attachUser);
 app.use((req, res, next) => { res.locals.user = req.user || null; next(); });
 
-app.get("/", (req, res) => res.render("home", { title: "Physics Quiz" }));
+// Global 911 branding available in ALL EJS pages
+app.use((req, res, next) => {
+  res.locals.APP_NAME = "Quiz-911";
+  res.locals.APP_TAGLINE = "911 Calltaker Procedures — Study Quiz";
+  res.locals.APP_DISCLAIMER =
+    "Study tool only. Not official guidance. Always follow your agency SOPs and current directives.";
+  next();
+});
+
+
+app.get("/", (req, res) => res.render("home", { title: "911 Quiz" }));
 app.use("/auth", authRouter);
 app.use("/learn", learnRouter);
 app.use("/review", reviewRouter);
@@ -92,7 +102,7 @@ app.use(async (req, res, next) => {
 });
 
 // Routes
-app.get("/", (req, res) => res.render("home", { title: "Physics Quiz" }));
+app.get("/", (req, res) => res.render("home", { title: "911 Quiz" }));
 app.use("/questions", questionsRouter);
 app.use("/attempts", attemptsRouter);
 app.use("/lessons", lessonsRouter);

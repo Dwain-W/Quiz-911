@@ -4,17 +4,51 @@
   <!-- Title -->
   <h2 class="mb-3"><%= lesson.title %></h2>
 <p class="text-muted" id="loading-text">
-  Loading questions…
+  Loading procedure questions…
 </p>
+
+<%
+  const procNum = (lesson && lesson.order !== undefined && lesson.order !== null) ? lesson.order : null;
+%>
+
+<%
+  const currentDiff = (typeof selectedDifficulty !== "undefined" && selectedDifficulty) ? selectedDifficulty : "";
+%>
+
+<div class="mb-3 d-flex justify-content-between align-items-end gap-3">
+  <div>
+    <% if (procNum !== null) { %>
+      <div class="text-muted small">Procedure <%= procNum %></div>
+    <% } %>
+    <h1 class="h3 mb-0"><%= lesson.title %></h1>
+  </div>
+
+  <div style="min-width: 260px;">
+    <div class="d-flex justify-content-between align-items-center">
+      <label class="form-label small mb-1">Difficulty</label>
+      <a id="btnContinueProgression" class="small" href="#" style="text-decoration:none;">Continue progression</a>
+    </div>
+
+    <select id="difficultySelect" class="form-select">
+      <option value="">Loading…</option>
+    </select>
+
+    <div id="difficultyNote" class="small text-muted mt-1"></div>
+  </div>
+
+</div>
+
+
 
 
   <!-- Quiz wrapper (script reads from here) -->
-  <div id="qwrap" data-lesson="<%= lesson.slug %>"></div>
+  <div id="qwrap" data-lesson="<%= lesson.slug %>" data-proc="<%= lesson.order ?? '' %>"></div>
+
 
   <div id="hud" class="position-fixed top-0 end-0 p-3" style="z-index:1100;">
   <div class="card p-2 small shadow">
-    <div>Session pts: <span id="hud-pts">0</span></div>
-    <div>Progress: <span id="hud-prog">0/0</span></div>
+    <div>Session points: <span id="hud-pts">0</span></div>
+    <div>Question: <span id="hud-prog">0/0</span></div>
     <div>Streak: <span id="hud-streak">—</span></div>
   </div>
 </div>
@@ -31,7 +65,7 @@
 
   <!-- Optional back/home link -->
   <div class="mt-4">
-    <a href="/" class="btn btn-outline-secondary">← Back to Home</a>
+    <a href="/lessons" class="btn btn-outline-secondary">← Back to Procedures</a>
   </div>
 </div>
 

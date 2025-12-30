@@ -1,4 +1,39 @@
-<h1 class="mb-3">Physics Quiz (Node + Express)</h1>
-<p class="lead">Start with the Kinematics lesson after you import questions.</p>
-<a class="btn btn-primary" href="/lessons/kinematics-basics">Go to Kinematics Basics</a>
-<a class="btn btn-outline-secondary ms-2" href="/admin/import">Admin: Import Questions</a>
+<%
+  const APPNAME = (typeof APP_NAME !== "undefined" && APP_NAME) ? APP_NAME : "Quiz-911";
+  const TAGLINE = (typeof APP_TAGLINE !== "undefined" && APP_TAGLINE) ? APP_TAGLINE : "911 Calltaker Procedures — Study Quiz";
+%>
+
+<div class="p-4 p-md-5 mb-4 bg-white rounded border">
+  <h1 class="display-6 mb-2"><%= TAGLINE %></h1>
+
+  <p class="text-muted mb-3">
+    Study one procedure at a time, in order (101 → 102 → 103…). Each procedure is its own lesson with timed questions.
+  </p>
+
+  <div class="d-flex gap-2">
+    <a class="btn btn-primary" href="/lessons">Start Procedures</a>
+    <a class="btn btn-outline-secondary" href="/admin/import">Import a Procedure Lesson</a>
+  </div>
+</div>
+
+<div class="row g-3">
+  <div class="col-md-6">
+    <div class="bg-white border rounded p-3 h-100">
+      <h5 class="mb-2">How this app is organized</h5>
+      <ul class="mb-0">
+        <li><strong>1 procedure = 1 lesson</strong></li>
+        <li>Lessons sort by <code>order</code> (use 101, 102, 103...)</li>
+        <li>Use Review to repeat missed questions</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="bg-white border rounded p-3 h-100">
+      <h5 class="mb-2">Your next move</h5>
+      <p class="mb-0">
+        Import Procedure <strong>101</strong>, then <strong>102</strong>, then <strong>103</strong> — and keep going in order.
+      </p>
+    </div>
+  </div>
+</div>

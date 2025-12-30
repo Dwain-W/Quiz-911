@@ -1,29 +1,93 @@
-<h3>Import Questions JSON</h3>
-<form method="post" action="/admin/import" class="row g-3">
-  <div class="col-12">
-    <label class="form-label">JSON file path (absolute)</label>
-    <input class="form-control" name="jsonPath" placeholder="C:\path\to\physics_questions_kinematics.json" required>
-  </div>
-  <div class="col-md-4">
-    <label class="form-label">Lesson Slug</label>
-    <input class="form-control" name="lessonSlug" value="kinematics-basics">
-  </div>
-  <div class="col-md-4">
-    <label class="form-label">Lesson Title</label>
-    <input class="form-control" name="lessonTitle" value="Kinematics Basics">
-  </div>
-  <div class="col-md-4">
-    <label class="form-label">Topic</label>
-    <input class="form-control" name="topic" value="Kinematics">
-  </div>
-  <div class="col-12">
-    <button class="btn btn-primary">Import</button>
-  </div>
-</form>
+<%
+  // Safe defaults (prevents ReferenceError when locals aren't passed)
+  const okFlag = (typeof ok !== "undefined") ? !!ok : false;
+  const errMsg = (typeof error !== "undefined") ? error : null;
+  const msg = (typeof message !== "undefined") ? message : null;
+  const lessonSlug = (typeof slug !== "undefined") ? slug : null;
+  const f = (typeof form !== "undefined" && form) ? form : {};
 
-<% if (ok) { %>
-  <div class="alert alert-success mt-3">
-    Import complete. Open your lesson:
-    <a href="/lessons/kinematics-basics">/lessons/kinematics-basics</a>
-  </div>
-<% } %>
+  const pageTitle = (typeof title !== "undefined" && title) ? title : "Admin Import";
+%>
+
+<div class="container py-4">
+  <h1 class="mb-3"><%= pageTitle %></h1>
+
+  <p class="text-muted">
+    Import a seed JSON file by path (example: <code>seeds/911-intake-basics.json</code>).
+  </p>
+
+  <% if (errMsg) { %>
+    <div class="alert alert-danger" role="alert">
+      <strong>Import failed:</strong> <%= errMsg %>
+    </div>
+  <% } %>
+
+  <% if (okFlag) { %>
+    <div class="alert alert-success" role="alert">
+      <%= msg || "Import complete." %>
+      <% if (lessonSlug) { %>
+        <div class="mt-2">
+          <a href="/lessons/<%= lessonSlug %>">Open your lesson: /lessons/<%= lessonSlug %></a>
+        </div>
+      <% } %>
+    </div>
+  <% } %>
+
+  <form method="POST" action="/admin/import" class="card p-3">
+    <div class="mb-3">
+      <label class="form-label">JSON Path</label>
+      <input
+        type="text"
+        name="jsonPath"
+        class="form-control"
+        placeholder="seeds/911-intake-basics.json"
+        value="<%= (f.jsonPath ? f.jsonPath : '') %>"
+        required
+      />
+      <div class="form-text">
+        Relative paths are resolved from your project root (process.cwd()).
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <label class="form-label">Lesson Slug (optional)</label>
+        <input
+          type="text"
+          name="lessonSlug"
+          class="form-control"
+          placeholder="911-intake-basics"
+          value="<%= (f.lessonSlug ? f.lessonSlug : '') %>"
+        />
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <label class="form-label">Lesson Title (optional)</label>
+        <input
+          type="text"
+          name="lessonTitle"
+          class="form-control"
+          placeholder="911 Intake Basics"
+          value="<%= (f.lessonTitle ? f.lessonTitle : '') %>"
+        />
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <label class="form-label">Topic (optional)</label>
+        <input
+          type="text"
+          name="topic"
+          class="form-control"
+          placeholder="NYPD Calltaking"
+          value="<%= (f.topic ? f.topic : '') %>"
+        />
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+      Import
+    </button>
+  </form>
+</div>

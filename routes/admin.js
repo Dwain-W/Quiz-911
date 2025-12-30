@@ -11,15 +11,29 @@ const r = Router();
  * Simple form page (EJS) to import JSON by path and create a lesson.
  */
 r.get("/import", (req, res) => {
-  res.render("admin_import", { title: "Import", ok: !!req.query.ok });
+  res.render("admin_import", {
+    title: "Import",
+    ok: req.query.ok === "1",
+    slug: req.query.slug || null,
+    message: req.query.message || null,
+    error: null,
+    form: {
+      jsonPath: req.query.jsonPath || "",
+      lessonSlug: req.query.lessonSlug || "",
+      lessonTitle: req.query.lessonTitle || "",
+      topic: req.query.topic || ""
+    }
+  });
 });
-
-
 
 r.get("/debug/lesson/:slug", async (req, res) => {
   const lesson = await Lesson.findOne({ slug: req.params.slug });
   if (!lesson) return res.json({ foundLesson: false });
-  const count = await Question.countDocuments({ question_id: { $in: lesson.questionIds } });
+
+  const count = await Question.countDocuments({
+    question_id: { $in: lesson.questionIds }
+  });
+
   res.json({
     foundLesson: true,
     slug: lesson.slug,
@@ -29,18 +43,18 @@ r.get("/debug/lesson/:slug", async (req, res) => {
     sampleIds: lesson.questionIds.slice(0, 5)
   });
 });
+
 /**
  * POST /admin/import
  * body: { jsonPath, lessonSlug?, lessonTitle?, topic? }
  * Upserts questions from the JSON. Optionally creates/updates a Lesson using all IDs.
  */
-r.post("/import", async (req, res, next) => {
-
+r.post("/import", async (req, res) => {
   try {
     const { jsonPath, lessonSlug, lessonTitle, topic } = req.body;
 
-    if (!jsonPath) {
-      throw new Error("jsonPath is required");
+    if (!jsonPath || !String(jsonPath).trim()) {
+      throw new Error("jsonPath is required (example: seeds/911-intake-basics.json)");
     }
 
     // Allow relative paths like "seeds/scientific-method.json"
@@ -48,8 +62,11 @@ r.post("/import", async (req, res, next) => {
       ? jsonPath
       : path.join(process.cwd(), jsonPath);
 
-    const fileContent = fs.readFileSync(fullPath, "utf8");
+    if (!fs.existsSync(fullPath)) {
+      throw new Error(`File not found at path: ${fullPath}`);
+    }
 
+    const fileContent = fs.readFileSync(fullPath, "utf8");
     const payload = JSON.parse(fileContent);
 
     // Handle two possible shapes:
@@ -70,7 +87,7 @@ r.post("/import", async (req, res, next) => {
       lesson = {
         slug,
         title: lessonTitle && lessonTitle.trim() ? lessonTitle.trim() : "Imported Lesson",
-        topic: topic && topic.trim() ? topic.trim() : "Physics",
+        topic: topic && topic.trim() ? topic.trim() : "911",
         order: 1,
         objectives: [],
         questionIds: questions.map((q) => q.question_id)
@@ -80,6 +97,18 @@ r.post("/import", async (req, res, next) => {
       if (!lesson.questionIds || !lesson.questionIds.length) {
         lesson.questionIds = questions.map((q) => q.question_id);
       }
+    }
+    // If order is missing, try to infer it from the title like "P103 – Call Answering Procedure"
+    if (lesson.order === undefined || lesson.order === null) {
+      const m = String(lesson.title || "").match(/\bP(\d{3})\b/i);
+      if (m) lesson.order = Number(m[1]);
+    }
+
+
+    // Basic validation: every question should have question_id
+    const missingIds = questions.filter((q) => !q.question_id).length;
+    if (missingIds > 0) {
+      throw new Error(`Found ${missingIds} question(s) missing "question_id".`);
     }
 
     // Upsert questions
@@ -94,19 +123,31 @@ r.post("/import", async (req, res, next) => {
     );
 
     // Upsert lesson
-    await Lesson.findOneAndUpdate(
-      { slug: lesson.slug },
-      lesson,
-      { upsert: true, new: true }
-    );
+    await Lesson.findOneAndUpdate({ slug: lesson.slug }, lesson, { upsert: true, new: true });
 
-    res.render("admin_import", {
-      title: "Admin Import",
-      message: `Imported ${questions.length} questions for lesson "${lesson.slug}".`
-    });
+    const msg = `Imported ${questions.length} questions for lesson "${lesson.slug}".`;
+
+    // Redirect back to GET so EJS always has ok/slug/message defined
+    return res.redirect(
+      `/admin/import?ok=1&slug=${encodeURIComponent(lesson.slug)}&message=${encodeURIComponent(msg)}`
+    );
   } catch (err) {
     console.error("Import error:", err);
-    next(err);
+
+    // Render with ok/error defined so EJS never throws ReferenceError
+    return res.status(400).render("admin_import", {
+      title: "Import",
+      ok: false,
+      slug: null,
+      message: null,
+      error: err.message || String(err),
+      form: {
+        jsonPath: req.body?.jsonPath || "",
+        lessonSlug: req.body?.lessonSlug || "",
+        lessonTitle: req.body?.lessonTitle || "",
+        topic: req.body?.topic || ""
+      }
+    });
   }
 });
 

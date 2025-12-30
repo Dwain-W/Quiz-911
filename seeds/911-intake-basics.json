@@ -1,0 +1,163 @@
+{
+  "lesson": {
+    "slug": "911-intake-basics",
+    "title": "911 Intake Basics (Greeting, Location, Professionalism)",
+    "topic": "NYPD Calltaking Fundamentals",
+    "order": 1,
+    "objectives": [
+      "Use the required call greeting.",
+      "Confirm location using cross streets.",
+      "Apply professional calltaker language (avoid prohibited phrasing).",
+      "Understand the crimes-in-past threshold basics.",
+      "Know what identifying info may/must be provided when requested."
+    ],
+    "questionIds": [
+      "NYC911-MCQ-001",
+      "NYC911-MCQ-002",
+      "NYC911-TF-001",
+      "NYC911-TF-002",
+      "NYC911-FB-001",
+      "NYC911-FB-002",
+      "NYC911-MCQ-003",
+      "NYC911-MCQ-004",
+      "NYC911-MATCH-001"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Call Answering",
+      "subtopic": "Greeting",
+      "stem": "What is the required greeting when answering a NYC 911 call?",
+      "choices": [
+        { "id": "A", "text": "NYC emergency services, what do you want?", "is_correct": false },
+        { "id": "B", "text": "New York City 911, do you need Police, Fire or Medical?", "is_correct": true },
+        { "id": "C", "text": "911 operator, what's your emergency?", "is_correct": false },
+        { "id": "D", "text": "NYPD, state your emergency.", "is_correct": false }
+      ],
+      "solution": "The guide requires the greeting to be stated verbatim.",
+      "time_limit_sec": 30,
+      "points": 10,
+      "tags": ["greeting"]
+    },
+    {
+      "question_id": "NYC911-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Identification",
+      "subtopic": "End of Call",
+      "stem": "At the end of every call, what statement is the calltaker required to say (including operator number)?",
+      "choices": [
+        { "id": "A", "text": "Help is coming now, bye.", "is_correct": false },
+        { "id": "B", "text": "Assistance will be provided as soon as possible, Operator #____", "is_correct": true },
+        { "id": "C", "text": "Police are on the way immediately.", "is_correct": false },
+        { "id": "D", "text": "Call back if it gets worse.", "is_correct": false }
+      ],
+      "solution": "The guide requires the operator number be stated at the end of every call.",
+      "time_limit_sec": 30,
+      "points": 10,
+      "tags": ["operator-number"]
+    },
+    {
+      "question_id": "NYC911-TF-001",
+      "type": "true_false",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Location Verification",
+      "stem": "Calltakers should always ask the caller what two streets the address is between to verify the location.",
+      "answer": "true",
+      "time_limit_sec": 20,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-TF-002",
+      "type": "true_false",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Professionalism",
+      "stem": "Using slang (e.g., 'yo', 'bro') is acceptable if it calms the caller down.",
+      "answer": "false",
+      "time_limit_sec": 20,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-FB-001",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Location Verification",
+      "stem": "Always ask the caller: “What two __________ are you between?”",
+      "answer": "streets",
+      "time_limit_sec": 30,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-FB-002",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Crimes Timing",
+      "stem": "A crime is entered as 'in the past' when it occurred __________ minutes or more ago (and the perpetrator is not still in the immediate area).",
+      "answer": "5",
+      "time_limit_sec": 30,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-MCQ-003",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Professionalism",
+      "subtopic": "Phrasing",
+      "stem": "Which option is MOST consistent with the guide’s professionalism approach?",
+      "choices": [
+        { "id": "A", "text": "Tell the caller to stop yelling or you won’t help.", "is_correct": false },
+        { "id": "B", "text": "Use calm, respectful terms of address like sir/madam and avoid escalating.", "is_correct": true },
+        { "id": "C", "text": "Use sarcasm to show the caller they’re wrong.", "is_correct": false },
+        { "id": "D", "text": "Use police jargon so the caller knows you’re serious.", "is_correct": false }
+      ],
+      "solution": "The guide emphasizes tact, restraint, and respectful address; avoid escalating language.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Eliciting Information",
+      "subtopic": "Address Entry",
+      "stem": "Which is part of the normal order/requirement for eliciting location information?",
+      "choices": [
+        { "id": "A", "text": "Get apartment/floor details and include them with the address entry.", "is_correct": true },
+        { "id": "B", "text": "Skip the address until you fully understand the story.", "is_correct": false },
+        { "id": "C", "text": "Only enter cross streets—street address is optional.", "is_correct": false },
+        { "id": "D", "text": "Tell the caller the address is invalid if it doesn’t verify.", "is_correct": false }
+      ],
+      "solution": "The guide emphasizes capturing address details (including apt/floor) and not telling callers the address is 'not valid'.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Core Intake",
+      "stem": "Match each item to the best reason it matters.",
+      "answer": [
+        ["Required greeting", "Standardized opening that must be stated verbatim"],
+        ["Cross streets", "Helps verify the correct location"],
+        ["Professional tone", "Prevents escalation and supports information-gathering"],
+        ["Apt/floor info", "Improves response accuracy within a building"],
+        ["5-minute threshold", "Helps classify crimes as 'past' based on time"]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    }
+  ]
+}

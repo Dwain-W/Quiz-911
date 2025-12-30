@@ -1,0 +1,83 @@
+<%
+  const list = Array.isArray(lessons) ? lessons : [];
+%>
+
+<h1 class="mb-3">Procedure Manual</h1>
+
+
+<div class="mb-3">
+  <a class="btn btn-outline-primary" href="/admin/import">Import next procedure</a>
+</div>
+
+
+<% if (!list.length) { %>
+  <div class="alert alert-info">
+    No procedures yet. Go to <a href="/admin/import">Admin Import</a> and import a seed file.
+  </div>
+<% } else { %>
+  <div class="list-group">
+    <% list.forEach(l => { 
+      const order = (l.order !== undefined && l.order !== null) ? l.order : "";
+      const qCount = Array.isArray(l.questionIds) ? l.questionIds.length : 0;
+            const prog = (typeof progressBySlug !== "undefined" && progressBySlug && progressBySlug[l.slug])
+        ? progressBySlug[l.slug]
+        : "easy";
+      const progCls = prog === "easy" ? "bg-success" : (prog === "medium" ? "bg-warning text-dark" : "bg-danger");
+
+    %>
+    <% const ok = qCount > 0; %>
+
+    <%
+    const rawTitle = (l.title || l.slug);
+    const cleanedTitle = rawTitle.replace(/^P\d+\s*[-–]\s*/i, "");
+    %>
+      <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+        href="/lessons/<%= l.slug %>?difficulty=<%= encodeURIComponent(prog) %>">
+        <div>
+
+          <strong>Procedure <%= order %></strong> — <%= cleanedTitle %>
+            <% if (ok) { %><span class="ms-2 text-success">✅</span><% } %>
+
+            <% if (ok) { %>
+                <span class="ms-2 text-success">✅</span>
+                <% } else { %>
+                <span class="ms-2 badge bg-warning text-dark">0 questions</span>
+                <% } %>
+
+
+            <%
+                const tc = (typeof tierCountsBySlug !== "undefined" && tierCountsBySlug && tierCountsBySlug[l.slug])
+                    ? tierCountsBySlug[l.slug]
+                    : { easy: 0, medium: 0, hard: 0 };
+            %>
+
+            <div class="text-muted small">
+                <%= qCount %> total •
+                Easy: <%= tc.easy %> •
+                Medium: <%= tc.medium %> •
+                Hard: <%= tc.hard %>
+            </div>
+
+            
+
+
+        </div>
+        
+                <div class="d-flex flex-column align-items-end gap-1">
+                    
+          <span class="badge <%= progCls %>">Progress: <%= prog.toUpperCase() %></span>
+          <span class="badge bg-dark rounded-pill"><%= qCount %></span>
+        </div>
+
+        <div class="d-flex flex-column align-items-end gap-1">
+            <a class="btn btn-sm btn-primary"
+            href="/lessons/<%= l.slug %>?difficulty=<%= encodeURIComponent(prog) %>"
+            onclick="event.stopPropagation();">
+            Resume
+            </a>
+        </div>
+
+      </a>
+    <% }) %>
+  </div>
+<% } %>
