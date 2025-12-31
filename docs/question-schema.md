@@ -168,3 +168,46 @@ These fields **must or should** exist on **every** question object:
   "points": 10,
   "time_limit_sec": 60
 }
+
+
+
+## 3. Lesson Object Schema
+
+When using the **object format**:
+
+```jsonc
+{
+  "lesson": { ... },
+  "questions": [ ... ]
+}
+
+
+{
+  "lesson": {
+    "slug": "911-intake-basics",
+    "title": "911 Intake Basics (Greeting, Location, Professionalism)",
+    "topic": "NYPD Calltaking Fundamentals",
+    "order": 1,
+    "objectives": [
+      "Use the required call greeting.",
+      "Confirm location using cross streets.",
+      "Apply professional calltaker language (avoid prohibited phrasing).",
+      "Understand the crimes-in-past threshold basics.",
+      "Know what identifying info may/must be provided when requested."
+    ],
+    "questionIds": [
+      "NYC911-MCQ-001",
+      "NYC911-MCQ-002",
+      "NYC911-TF-001",
+      "NYC911-TF-002",
+      "NYC911-FB-001",
+      "NYC911-FB-002",
+      "NYC911-MCQ-003",
+      "NYC911-MCQ-004",
+      "NYC911-MATCH-001"
+    ]
+  },
+  "questions": [ /* see question schema */ ]
+}
+
+
