@@ -1,0 +1,64 @@
+<div class="container py-4">
+  <h1 class="mb-2">Procedure Results</h1>
+
+  <div class="text-muted mb-3">
+    <strong><%= lesson.title %></strong>
+    <span class="ms-2">(<%= lesson.slug %>)</span>
+  </div>
+
+  <% if (advanced && next) { %>
+    <div class="alert alert-info">
+        Next unlocked: <strong><%= String(next).toUpperCase() %></strong>
+    </div>
+    <% } else if (practice) { %>
+    <div class="alert alert-secondary">
+        Practice complete — progression unchanged.
+    </div>
+    <% } %>
+
+
+  <div class="card p-3 mb-3">
+    <% if (correct !== null && total !== null) { %>
+        <div class="d-flex justify-content-between align-items-center mb-2">
+        <div class="fs-5">
+            Score: <strong><%= correct %> / <%= total %></strong>
+            <% if (pct !== null) { %>
+            <span class="badge bg-dark ms-2"><%= pct %>%</span>
+            <% } %>
+        </div>
+
+        <% if (pct !== null) { %>
+            <% const pass = pct >= 80; %>
+            <span class="badge <%= pass ? 'bg-success' : 'bg-danger' %>">
+            <%= pass ? 'PASS' : 'REVIEW' %>
+            </span>
+        <% } %>
+        </div>
+
+        <% if (pct !== null) { %>
+        <div class="progress" style="height:10px;">
+            <div class="progress-bar" role="progressbar" style="width:<%= pct %>%;" aria-valuenow="<%= pct %>" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <% } %>
+
+    <% } else { %>
+        <div class="text-muted">Score data not provided.</div>
+    <% } %>
+
+    <% if (points !== null && !Number.isNaN(points)) { %>
+        <div class="text-muted mt-2">Points earned: <strong><%= points %></strong></div>
+    <% } %>
+    </div>
+
+
+    <% if (points !== null && !Number.isNaN(points)) { %>
+      <div class="text-muted">Points earned: <strong><%= points %></strong></div>
+    <% } %>
+  </div>
+
+  <div class="d-flex gap-2">
+    <a class="btn btn-primary" href="/lessons/<%= lesson.slug %>">Retry Procedure</a>
+    <a class="btn btn-outline-secondary" href="/review/<%= lesson.slug %>">Review Answers</a>
+    <a class="btn btn-outline-secondary" href="/learn">Back to Procedures</a>
+  </div>
+</div>

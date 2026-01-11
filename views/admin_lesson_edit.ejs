@@ -1,0 +1,26 @@
+<div class="container py-4">
+  <h1 class="mb-2">Edit Lesson JSON</h1>
+  <div class="text-muted mb-3">
+    <strong><%= lesson.title %></strong>
+    <span class="ms-2">(<code><%= lesson.slug %></code>)</span>
+  </div>
+
+  <div class="alert alert-info">
+    This is the reconstructed seed JSON for this lesson. You can copy it out to edit
+    in your editor and re-import via <a href="/admin/import">Admin &gt; Import</a>.
+    (Saving changes directly from this page can be added later.)
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Lesson JSON</label>
+    <textarea
+      class="form-control"
+      rows="20"
+      spellcheck="false"
+      style="font-family: monospace; font-size: 0.85rem;"
+      readonly
+    ><%= json %></textarea>
+  </div>
+
+  <a href="/admin/lessons" class="btn btn-outline-secondary">Back to All Lessons</a>
+</div>

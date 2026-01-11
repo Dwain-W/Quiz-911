@@ -1,70 +1,279 @@
-<h2 class="mb-3">Review: <%= lesson.title %></h2>
-<p class="text-muted">Your latest attempt for each question.</p>
+  <div class="container py-4">
+    <h2 class="mb-3">Review: <%= lesson.title %></h2>
+    <p class="text-muted">Your latest attempt for each question.</p>
 
-<% if (!rows.length) { %>
-  <div class="alert alert-info">No attempts yet. Try the lesson first.</div>
-<% } %>
+    <%
+        // Overall score
+        const totalQuestions = rows.length;
+        const correctQuestions = rows.filter(r => r.at && r.at.isCorrect).length;
+        const percent = totalQuestions ? Math.round((correctQuestions / totalQuestions) * 100) : 0;
 
-<div class="list-group">
-  <% rows.forEach(({ i, q, at }) => { %>
-    <div class="list-group-item">
-      <div class="d-flex justify-content-between align-items-center">
-        <strong>Q<%= i %></strong>
-        <div>
-          <% if (at) { %>
-            <span class="badge <%= at.isCorrect ? 'bg-success' : 'bg-danger' %>">
-              <%= at.isCorrect ? 'Correct' : 'Incorrect' %>
-            </span>
-            <span class="badge bg-secondary ms-2"><%= at.timeTakenSec %>s</span>
-            <span class="badge bg-light text-dark ms-2">+<%= at.awardedPoints %> pts</span>
+        // Per-difficulty stats
+        const diffStats = {
+          easy:   { label: "Easy",   total: 0, correct: 0 },
+          medium: { label: "Medium", total: 0, correct: 0 },
+          hard:   { label: "Hard",   total: 0, correct: 0 }
+        };
+
+        // XP weights per difficulty
+        const xpPerDiff = {
+          easy: 10,
+          medium: 20,
+          hard: 30
+        };
+
+        let xpEarned = 0;
+
+        rows.forEach(({ q, at }) => {
+          const d = (q.difficulty || "easy").toLowerCase();
+          const bucket = diffStats[d] || diffStats.easy;
+          bucket.total++;
+          if (at && at.isCorrect) {
+            bucket.correct++;
+            xpEarned += xpPerDiff[d] || xpPerDiff.easy;
+          }
+        });
+
+            // Rank based on XP for this attempt
+            let rankLabel = "Trainee";
+            if (xpEarned >= 200) {
+              rankLabel = "Senior Operator";
+            } else if (xpEarned >= 120) {
+              rankLabel = "Operator";
+            } else if (xpEarned >= 60) {
+              rankLabel = "Rookie";
+            }
+
+
+          // Missed question IDs (no attempt or incorrect)
+          const missedIds = rows
+            .filter(r => !r.at || !r.at.isCorrect)
+            .map(r => r.q && r.q.question_id)
+            .filter(Boolean);
+
+          const missedParam = missedIds.join(",");
+
+      %>
+
+
+    <% if (totalQuestions > 0) { %>
+      <div class="alert alert-secondary d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-3">
+             <div>
+              <strong>Overall score:</strong>
+              <%= correctQuestions %> / <%= totalQuestions %> (<%= percent %>%)
+              <br />
+              <strong>XP this attempt:</strong> <%= xpEarned %>
+              <br />
+              <strong>Rank:</strong> <%= rankLabel %>
+            </div>
+
+        <div class="small mt-2 mt-md-0">
+          <strong>By difficulty:</strong>
+          Easy: <%= diffStats.easy.correct %>/<%= diffStats.easy.total %> |
+          Medium: <%= diffStats.medium.correct %>/<%= diffStats.medium.total %> |
+          Hard: <%= diffStats.hard.correct %>/<%= diffStats.hard.total %>
+        </div>
+      </div>
+    <% } %>
+
+
+    <% if (!rows.length) { %>
+      <div class="alert alert-info">No attempts yet. Try the lesson first.</div>
+    <% } %>
+
+
+
+    <div class="d-flex flex-wrap gap-3 mb-4">
+    <!-- Simple retake: restart lesson at easy for now -->
+    <a href="/lessons/<%= lesson.slug %>?difficulty=easy" class="btn btn-primary">
+      🔁 Retake Lesson
+    </a>
+
+    <button type="button" id="btnPracticeMissed" class="btn btn-outline-secondary">
+      🔧 Practice Missed Questions
+    </button>
+
+    <% if (missedIds.length > 0) { %>
+      <a
+        href="/lessons/<%= lesson.slug %>?difficulty=easy&mode=missed&missed=<%= encodeURIComponent(missedParam) %>"
+        class="btn btn-outline-primary"
+      >
+        🎯 Start Missed-Only Quiz
+      </a>
+    <% } %>
+  </div>
+
+
+  <% if (rows.length) { %>
+    <% rows.forEach(function(row) { 
+         const i = row.i;
+         const q = row.q;
+         const at = row.at;
+         const isCorrect = at && at.isCorrect;
+         const userAns = (at && at.answerPayload) || {};
+    %>
+
+      <div class="card mb-4 shadow-sm review-question <%= isCorrect ? 'border-success' : 'border-danger' %>"
+        data-correct="<%= isCorrect ? '1' : '0' %>">
+        <div class="card-header d-flex justify-content-between align-items-center">
+          <strong>Question <%= i %></strong>
+
+          <% if (!at) { %>
+            <span class="badge bg-warning text-dark">Not answered</span>
+          <% } else if (isCorrect) { %>
+            <span class="badge bg-success">Correct</span>
           <% } else { %>
-            <span class="badge bg-warning text-dark">No attempt</span>
+            <span class="badge bg-danger">Incorrect</span>
           <% } %>
+        </div>
+
+        <div class="card-body">
+          <!-- Stem -->
+          <p class="fw-semibold fs-5"><%= q.stem %></p>
+
+          <!-- MCQ -->
+          <% if (q.type === "mcq") { 
+               const choices = q.choices || [];
+               const userChoiceId = userAns.choiceId;
+          %>
+            <ul class="list-group mb-3">
+              <% choices.forEach(function(c) { 
+                   const isCorrectChoice = !!c.is_correct;
+                   const isUser = c.id === userChoiceId;
+              %>
+                <li class="list-group-item
+                  <%= isCorrectChoice ? 'list-group-item-success' : '' %>
+                  <%= (isUser && !isCorrectChoice) ? ' list-group-item-danger' : '' %>">
+                  <strong><%= c.id %></strong>. <%= c.text %>
+
+                  <% if (isUser) { %>
+                    <span class="badge bg-dark ms-2">Your answer</span>
+                  <% } %>
+
+                  <% if (isCorrectChoice) { %>
+                    <span class="badge bg-success ms-2">Correct</span>
+                  <% } %>
+                </li>
+              <% }); %>
+            </ul>
+          <% } %>
+
+          <!-- TRUE / FALSE -->
+          <% if (q.type === "true_false") { 
+               const userTF = userAns.value;
+          %>
+            <p>
+              <span class="badge bg-success">Correct: <%= q.answer %></span>
+              <% if (userTF != null) { %>
+                <% if (isCorrect) { %>
+                  <span class="badge bg-primary ms-2">You: <%= userTF %></span>
+                <% } else { %>
+                  <span class="badge bg-danger ms-2">You: <%= userTF %></span>
+                <% } %>
+              <% } %>
+            </p>
+          <% } %>
+
+          <!-- FILL BLANK -->
+          <% if (q.type === "fill_blank") { 
+               const userFB = userAns.value;
+          %>
+            <p>
+              <span class="badge bg-success">Correct: <%= q.answer %></span>
+              <% if (userFB != null) { %>
+                <% if (isCorrect) { %>
+                  <span class="badge bg-primary ms-2">You: <%= userFB %></span>
+                <% } else { %>
+                  <span class="badge bg-danger ms-2">You: <%= userFB %></span>
+                <% } %>
+              <% } %>
+            </p>
+          <% } %>
+
+          <!-- MATCHING -->
+          <% if (q.type === "matching") { 
+               const correctPairs = q.answer || [];
+               const userPairs = userAns.pairs || [];
+          %>
+            <p class="fw-bold">Correct Pairs:</p>
+            <ul class="list-group mb-3">
+              <% correctPairs.forEach(function(pair) { %>
+                <li class="list-group-item list-group-item-success">
+                  <%= pair[0] %> → <%= pair[1] %>
+                </li>
+              <% }); %>
+            </ul>
+
+            <% if (userPairs.length) { %>
+              <p class="fw-bold">Your Pairs:</p>
+              <ul class="list-group mb-3">
+                <% userPairs.forEach(function(pair) { %>
+                  <li class="list-group-item <%= isCorrect ? 'list-group-item-primary' : 'list-group-item-danger' %>">
+                    <%= pair[0] %> → <%= pair[1] %>
+                  </li>
+                <% }); %>
+              </ul>
+            <% } %>
+          <% } %>
+
+          <!-- Explanation -->
+                    <%
+                      let expl = q.solution;
+                      if (!expl && q.type === "mcq" && q.choices && q.choices.length) {
+                        const correctForExpl = q.choices.find(c => c.is_correct && c.explanation);
+                        if (correctForExpl) expl = correctForExpl.explanation;
+                      }
+
+                      const explClass = isCorrect ? "alert-info" : "alert-warning";
+                      const explLabel = isCorrect ? "Explanation:" : "Study this:";
+                    %>
+
+                    <% if (expl) { %>
+                      <div class="alert <%= explClass %> mt-3">
+                        <strong><%= explLabel %></strong> <%= expl %>
+                      </div>
+                    <% } %>
+
         </div>
       </div>
 
-      <div class="mt-2 fs-5"><%- q.stem || '' %></div>
+    <% }); %>
+  <% } %>
 
-      <% if (q.type === 'mcq' && Array.isArray(q.choices)) {
-           const correct = q.choices.find(c => c.is_correct);
-           const userChoice = at?.answerPayload?.choiceId;
-      %>
-        <div class="mt-2">
-          <% q.choices.forEach(c => { %>
-            <div class="d-flex align-items-center mb-1">
-              <div class="me-2"><strong><%= c.id %>.</strong></div>
-              <div><%= c.text %></div>
-              <% if (correct && c.id === correct.id) { %><span class="badge bg-success ms-2">Answer</span><% } %>
-              <% if (userChoice && c.id === userChoice) { %><span class="badge bg-primary ms-2">You</span><% } %>
-            </div>
-          <% }) %>
-        </div>
-      <% } else if (q.type === 'true_false') { %>
-        <div class="mt-2">
-          <span class="badge bg-success">Answer: <%= String(q.answer) %></span>
-          <% if (at) { %><span class="badge bg-primary ms-2">You: <%= String(at.answerPayload?.value) %></span><% } %>
-        </div>
-      <% } else if (q.type === 'fill_blank') { %>
-        <div class="mt-2">
-          <span class="badge bg-success">Answer: <%= q.answer %></span>
-          <% if (at) { %><span class="badge bg-primary ms-2">You: <%= at.answerPayload?.value %></span><% } %>
-        </div>
-      <% } else if (q.type === 'matching') { %>
-        <pre class="mt-2 small bg-light p-2">Answer: <%- JSON.stringify(q.answer, null, 2) %></pre>
-        <% if (at) { %><pre class="small bg-light p-2">You: <%- JSON.stringify(at.answerPayload?.pairs, null, 2) %></pre><% } %>
-      <% } %>
+  <div class="mt-4 d-flex gap-3">
+    <a href="/lessons/<%= lesson.slug %>" class="btn btn-outline-primary">← Back to Lesson</a>
+    <a href="/learn" class="btn btn-secondary">📚 Back to Learn</a>
+  </div>
 
-      <% const expl = (q.type === 'mcq')
-           ? (q.choices.find(c => c.is_correct)?.explanation)
-           : q.solution; %>
-      <% if (expl) { %>
-        <details class="mt-2"><summary>Show explanation</summary><div class="mt-2"><%- expl %></div></details>
-      <% } %>
-    </div>
-  <% }) %>
-</div>
+      <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var btn = document.getElementById("btnPracticeMissed");
+        if (!btn) return;
 
-<div class="mt-4 d-flex gap-2">
-  <a class="btn btn-outline-secondary" href="/lessons/<%= lesson.slug %>">← Back to lesson</a>
-  <a class="btn btn-primary" href="/learn">Back to Learn</a>
+        var onlyMissed = false;
+
+        btn.addEventListener("click", function () {
+          onlyMissed = !onlyMissed;
+
+          // Update button text
+          if (onlyMissed) {
+            btn.textContent = "Show All Questions";
+          } else {
+            btn.textContent = "🔧 Practice Missed Questions";
+          }
+
+          // Hide/show cards
+          var cards = document.querySelectorAll(".review-question");
+          cards.forEach(function (card) {
+            var isCorrect = card.getAttribute("data-correct") === "1";
+            if (onlyMissed && isCorrect) {
+              card.style.display = "none";
+            } else {
+              card.style.display = "";
+            }
+          });
+        });
+      });
+    </script>
+
 </div>

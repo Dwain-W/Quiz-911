@@ -1,0 +1,33 @@
+.review-question {
+  margin-bottom: 2rem;
+  padding: 1.25rem;
+  border-radius: 8px;
+}
+
+.review-question.correct {
+  border-left: 6px solid #28a745;
+}
+
+.review-question.incorrect {
+  border-left: 6px solid #dc3545;
+}
+
+.review-question h5 {
+  margin-bottom: 0.75rem;
+}
+
+.review-explanation {
+  background: #f8f9fa;
+  padding: 0.75rem;
+  border-radius: 6px;
+  margin-top: 0.75rem;
+}
+
+@media (max-width: 576px) {
+  .review-question {
+    padding: 1rem;
+  }
+  .review-explanation {
+    padding: 0.5rem;
+  }
+}

@@ -1,0 +1,86 @@
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h1 class="mb-0">All Lessons</h1>
+        <div class="d-flex gap-2">
+            <a href="/admin/import" class="btn btn-sm btn-outline-primary">Import Lesson</a>
+            <a href="/admin/import-history" class="btn btn-sm btn-outline-secondary">Import History</a>
+        </div>
+    </div>
+
+
+  <% if (!lessons || lessons.length === 0) { %>
+    <div class="alert alert-info">
+      No lessons found. Try importing one from the <a href="/admin/import">Import page</a>.
+    </div>
+  <% } else { %>
+    <div class="table-responsive">
+      <table class="table table-sm align-middle">
+        <thead>
+            <tr>
+                <th>Lesson ID</th>
+                <th>Title</th>
+                <th>Topic</th>
+                <th>Order</th>
+                <th class="text-end">Questions</th>
+                <th class="text-end">Last Updated</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+
+
+        <tbody>
+            <% lessons.forEach(l => { %>
+                <tr>
+                <!-- Lesson ID = slug -->
+                <td><code><%= l.slug %></code></td>
+
+                <td><%= l.title %></td>
+
+                <td class="text-muted"><%= l.topic || '-' %></td>
+
+                <td><%= typeof l.order === "number" ? l.order : '-' %></td>
+
+                <td class="text-end">
+                    <% if (Array.isArray(l.questionIds)) { %>
+                        <%= l.questionIds.length %>
+                    <% } else { %>
+                        0
+                    <% } %>
+                    </td>
+
+                    <td class="text-end text-muted">
+                    <%= l.updatedAt ? new Date(l.updatedAt).toLocaleString() : '-' %>
+                    </td>
+
+                    <td>
+                    <a href="/lessons/<%= l.slug %>" class="btn btn-sm btn-outline-primary me-1">
+                        View
+                    </a>
+
+                    <a href="/admin/lessons/<%= l.slug %>/edit" class="btn btn-sm btn-outline-secondary me-1">
+                        Edit JSON
+                    </a>
+
+                    <form
+                        method="POST"
+                        action="/admin/lessons/<%= l.slug %>/delete"
+                        class="d-inline"
+                        onsubmit="return confirm('Delete lesson <%= l.slug %> and all its questions & stats?');"
+                    >
+                        <button type="submit" class="btn btn-sm btn-outline-danger">
+                        Delete
+                        </button>
+                    </form>
+                </td>
+
+
+
+                </tr>
+            <% }) %>
+        </tbody>
+
+      </table>
+    </div>
+  <% } %>
+</div>

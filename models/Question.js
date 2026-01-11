@@ -13,6 +13,7 @@ const ReferenceSchema = new mongoose.Schema(
 const QuestionSchema = new mongoose.Schema(
   {
     question_id: { type: String, unique: true, index: true, required: true },
+    lessonSlug: { type: String, index: true },
     domain: { type: String, default: "physics" },
     topic: { type: String, required: true },
     subtopic: String,

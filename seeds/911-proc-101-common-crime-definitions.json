@@ -1,0 +1,678 @@
+{
+  "lesson": {
+    "slug": "911-proc-101-common-crime-definitions",
+    "title": "911-Procedure 101 – Common Crime Definitions",
+    "topic": "NYPD Calltaking – Crime Classification",
+    "order": 101,
+    "objectives": [
+      "Differentiate between robbery, burglary, larceny, and assault according to the procedure.",
+      "Identify key elements that must be present to classify a crime correctly.",
+      "Recognize when a crime involves force, threat, or unlawful entry.",
+      "Apply the correct crime category during call intake based on the caller’s description."
+    ],
+    "questionIds": [
+      "NYC911-101-MCQ-001",
+      "NYC911-101-MCQ-002",
+      "NYC911-101-MCQ-003",
+      "NYC911-101-MCQ-004",
+      "NYC911-101-TF-001",
+      "NYC911-101-TF-002",
+      "NYC911-101-TF-003",
+      "NYC911-101-MATCH-001",
+      "NYC911-101-MATCH-002",
+      "NYC911-101-FB-001",
+      "NYC911-101-MCQ-005",
+    "NYC911-101-MCQ-006",
+    "NYC911-101-MCQ-007",
+    "NYC911-101-MCQ-008",
+    "NYC911-101-MCQ-009",
+    "NYC911-101-MCQ-010",
+    "NYC911-101-MCQ-011",
+    "NYC911-101-MCQ-012",
+    "NYC911-101-TF-003",
+    "NYC911-101-TF-004",
+    "NYC911-101-TF-005",
+    "NYC911-101-TF-006",
+    "NYC911-101-TF-007",
+    "NYC911-101-TF-008",
+    "NYC911-101-MATCH-002",
+    "NYC911-101-MATCH-003",
+    "NYC911-101-MATCH-004",
+    "NYC911-101-FB-002",
+    "NYC911-101-FB-003",
+    "NYC911-101-FB-004",
+    "NYC911-101-FB-005",
+    "NYC911-101-FB-006"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-101-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Crime Definitions",
+      "subtopic": "Robbery vs Larceny",
+      "stem": "According to the Common Crime Definitions procedure, which key element MUST be present for an incident to be classified as a robbery?",
+      "choices": [
+        { "id": "A", "text": "Property taken from a parked, unoccupied vehicle", "is_correct": false },
+        { "id": "B", "text": "Property taken from a person by force or threat of force", "is_correct": true },
+        { "id": "C", "text": "Property missing from a store shelf after closing", "is_correct": false },
+        { "id": "D", "text": "Property left behind in a taxi by mistake", "is_correct": false }
+      ],
+      "solution": "The procedure defines robbery as property taken from a person or in their presence by force, threat of force, or intimidation.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": ["robbery", "force", "definitions"]
+    },
+    {
+      "question_id": "NYC911-101-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Crime Definitions",
+      "subtopic": "Burglary",
+      "stem": "Per the procedure, which scenario MOST clearly meets the definition of a burglary?",
+      "choices": [
+        { "id": "A", "text": "Caller’s wallet taken from their hand after being shoved", "is_correct": false },
+        { "id": "B", "text": "Caller’s bike taken from a rack while they were at work", "is_correct": false },
+        { "id": "C", "text": "Unknown person enters a residence unlawfully and takes property", "is_correct": true },
+        { "id": "D", "text": "Caller left a bag on the train and it is gone now", "is_correct": false }
+      ],
+      "solution": "The procedure defines burglary as the unlawful entry into a building or structure with intent to commit a crime inside.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": ["burglary", "unlawful entry", "definitions"]
+    },
+    {
+      "question_id": "NYC911-101-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Crime Definitions",
+      "subtopic": "Larceny",
+      "stem": "According to the procedure, which of the following is BEST described as a larceny (theft) rather than a robbery or burglary?",
+      "choices": [
+        { "id": "A", "text": "Caller was punched and their phone was taken from their hand", "is_correct": false },
+        { "id": "B", "text": "Caller’s package was taken from the locked lobby by someone who forced the door", "is_correct": false },
+        { "id": "C", "text": "Caller’s unattended bag was taken from a restaurant chair while they were at the table", "is_correct": true },
+        { "id": "D", "text": "Unknown person broke a window and entered the apartment", "is_correct": false }
+      ],
+      "solution": "Larceny in the procedure is the unlawful taking of property without force, threat, or unlawful entry into a structure.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": ["larceny", "theft", "definitions"]
+    },
+    {
+      "question_id": "NYC911-101-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Crime Definitions",
+      "subtopic": "Assault",
+      "stem": "The procedure defines an assault as involving which of the following elements?",
+      "choices": [
+        { "id": "A", "text": "Only property damage with no threat or injury to a person", "is_correct": false },
+        { "id": "B", "text": "Physical injury or attempted injury to a person", "is_correct": true },
+        { "id": "C", "text": "Breaking a window to enter an empty apartment", "is_correct": false },
+        { "id": "D", "text": "Any dispute between neighbors, even if verbal only", "is_correct": false }
+      ],
+      "solution": "Assault involves causing or attempting to cause physical injury to another person, as described in the procedure.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": ["assault", "injury", "definitions"]
+    },
+    {
+      "question_id": "NYC911-101-TF-001",
+      "type": "true_false",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Crime Definitions",
+      "subtopic": "Robbery vs Larceny",
+      "stem": "Per the procedure, if there is NO force, threat, or intimidation used, the incident should NOT be classified as a robbery.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-101-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Crime Definitions",
+      "subtopic": "Burglary",
+      "stem": "According to the Common Crime Definitions procedure, a burglary can occur even if no property is taken, as long as there was unlawful entry with intent to commit a crime inside.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-101-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Crime Definitions",
+      "subtopic": "Lost vs Stolen",
+      "stem": "If a caller believes they may have simply misplaced an item with no indication of unlawful taking, the procedure directs calltakers to treat it as a crime in progress.",
+      "answer": "false",
+      "time_limit_sec": 30,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-101-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Crime Definitions",
+      "subtopic": "Core Categories",
+      "stem": "Match each crime type to the key element emphasized in the Common Crime Definitions procedure.",
+      "answer": [
+        ["Robbery", "Property taken from a person by force or threat"],
+        ["Burglary", "Unlawful entry into a building/structure"],
+        ["Larceny", "Property taken without force or unlawful entry"],
+        ["Assault", "Physical injury or attempted injury to a person"]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-101-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Crime Definitions",
+      "subtopic": "Scenario Classification",
+      "stem": "Using the procedure’s definitions, match each scenario to the MOST appropriate crime classification.",
+      "answer": [
+        ["Stranger punches caller and takes phone from hand", "Robbery"],
+        ["Unknown person found inside home with window forced open", "Burglary"],
+        ["Caller’s unattended purse gone from restaurant chair", "Larceny"],
+        ["Caller reports being punched during an argument, no property taken", "Assault"]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-101-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Crime Definitions",
+      "subtopic": "Robbery Elements",
+      "stem": "According to the Common Crime Definitions procedure, a robbery requires that property be taken from a person or in their presence by use of __________ or threat of __________.",
+      "answer": "force",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+  "question_id": "NYC911-101-MCQ-005",
+  "type": "mcq",
+  "difficulty": "easy",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "subtopic": "Robbery vs Larceny",
+  "stem": "Which situation BEST matches the procedure’s definition of robbery?",
+  "choices": [
+    {
+      "id": "A",
+      "text": "Someone takes a package from a porch when no one is home.",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "A person grabs a purse off a shoulder while threatening the caller with a knife.",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "A parked car is keyed overnight.",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "Money is missing from a wallet with no confrontation.",
+      "is_correct": false
+    }
+  ],
+  "solution": "Robbery involves taking property from a person by use or threat of force.",
+  "time_limit_sec": 45,
+  "points": 10,
+  "tags": ["robbery", "force", "crime-definitions"]
+},
+{
+  "question_id": "NYC911-101-MCQ-006",
+  "type": "mcq",
+  "difficulty": "easy",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "subtopic": "Burglary Basics",
+  "stem": "According to the procedure, which BEST fits burglary?",
+  "choices": [
+    {
+      "id": "A",
+      "text": "Caller’s phone is grabbed out of their hand on the street with no force.",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "Someone breaks a window and enters an apartment to steal property.",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "A wallet is pickpocketed in a crowded train.",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "Caller finds graffiti on their door.",
+      "is_correct": false
+    }
+  ],
+  "solution": "Burglary involves unlawful entry into a structure with intent to commit a crime inside.",
+  "time_limit_sec": 45,
+  "points": 10,
+  "tags": ["burglary", "unlawful-entry"]
+},
+{
+  "question_id": "NYC911-101-MCQ-007",
+  "type": "mcq",
+  "difficulty": "easy",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "subtopic": "Larceny",
+  "stem": "Which example MOST closely matches larceny according to the procedure?",
+  "choices": [
+    {
+      "id": "A",
+      "text": "Caller is punched in the face during an argument.",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "Caller leaves a bag unattended and later finds it missing.",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "Someone drives a car into a storefront.",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "Neighbor is yelling loudly on the sidewalk.",
+      "is_correct": false
+    }
+  ],
+  "solution": "Larceny is theft of property without force or unlawful entry.",
+  "time_limit_sec": 45,
+  "points": 10,
+  "tags": ["larceny", "theft"]
+},
+{
+  "question_id": "NYC911-101-MCQ-008",
+  "type": "mcq",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "subtopic": "Assault vs Harassment",
+  "stem": "Which call description is MOST likely to be classified as assault under the procedure?",
+  "choices": [
+    {
+      "id": "A",
+      "text": "Caller reports someone is sending rude text messages.",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "Caller reports being punched and now has visible injury.",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "Caller reports a loud argument with no physical contact.",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "Caller reports a person staring at them in a store.",
+      "is_correct": false
+    }
+  ],
+  "solution": "Assault generally involves physical injury or attempt to cause physical injury.",
+  "time_limit_sec": 45,
+  "points": 10,
+  "tags": ["assault", "injury"]
+},
+{
+  "question_id": "NYC911-101-MCQ-009",
+  "type": "mcq",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "subtopic": "Grand vs Petit Larceny",
+  "stem": "The procedure distinguishes between grand and petit larceny mainly based on:",
+  "choices": [
+    {
+      "id": "A",
+      "text": "Whether the suspect is a stranger or family.",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "The type and value of the property taken.",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "The time of day when the theft occurred.",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "Whether the caller wants to press charges.",
+      "is_correct": false
+    }
+  ],
+  "solution": "Grand vs petit larceny is primarily determined by the value/type of property under the procedure.",
+  "time_limit_sec": 45,
+  "points": 10,
+  "tags": ["grand-larceny", "petit-larceny"]
+},
+{
+  "question_id": "NYC911-101-MCQ-010",
+  "type": "mcq",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "subtopic": "Menacing vs Assault",
+  "stem": "Which description BEST fits menacing rather than assault?",
+  "choices": [
+    {
+      "id": "A",
+      "text": "Caller reports being hit with a bottle and bleeding.",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "Caller reports someone is waving a knife and threatening them but has not made physical contact.",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "Caller reports a car accident with property damage only.",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "Caller reports a neighbor playing loud music.",
+      "is_correct": false
+    }
+  ],
+  "solution": "Menacing typically involves threats with a weapon or behavior that places someone in fear of injury, without actual physical injury yet.",
+  "time_limit_sec": 45,
+  "points": 10,
+  "tags": ["menacing", "threat"]
+},
+{
+  "question_id": "NYC911-101-MCQ-011",
+  "type": "mcq",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "subtopic": "Criminal Mischief",
+  "stem": "The procedure uses criminal mischief for which type of incident?",
+  "choices": [
+    {
+      "id": "A",
+      "text": "Property is intentionally damaged, such as windows broken or tires slashed.",
+      "is_correct": true
+    },
+    {
+      "id": "B",
+      "text": "Caller reports a stolen credit card with no damage.",
+      "is_correct": false
+    },
+    {
+      "id": "C",
+      "text": "Caller reports being followed home repeatedly.",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "Caller reports loud talking outside their window.",
+      "is_correct": false
+    }
+  ],
+  "solution": "Criminal mischief deals with intentional damage to property per the procedure.",
+  "time_limit_sec": 45,
+  "points": 10,
+  "tags": ["criminal-mischief", "property-damage"]
+},
+{
+  "question_id": "NYC911-101-MCQ-012",
+  "type": "mcq",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "subtopic": "Hate Crime Context",
+  "stem": "When classifying a possible hate crime, what is the calltaker’s main focus according to the procedure?",
+  "choices": [
+    {
+      "id": "A",
+      "text": "Determining the exact charges on the phone.",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "Capturing the caller’s description of what was said or done, and any bias indicators.",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "Determining if the caller knows the penal law code.",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "Having the caller label it as a hate crime.",
+      "is_correct": false
+    }
+  ],
+  "solution": "The calltaker should document statements, actions, and possible bias factors; classification is handled later by investigators.",
+  "time_limit_sec": 60,
+  "points": 10,
+  "tags": ["hate-crime", "classification"]
+},
+{
+  "question_id": "NYC911-101-TF-003",
+  "type": "true_false",
+  "difficulty": "easy",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "stem": "Robbery always involves taking property directly from a person by the use or threat of force.",
+  "answer": "true",
+  "time_limit_sec": 25,
+  "points": 5
+},
+{
+  "question_id": "NYC911-101-TF-004",
+  "type": "true_false",
+  "difficulty": "easy",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "stem": "If there is no forced entry, the incident can never be considered burglary under the procedure.",
+  "answer": "false",
+  "time_limit_sec": 25,
+  "points": 5
+},
+{
+  "question_id": "NYC911-101-TF-005",
+  "type": "true_false",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "stem": "Larceny generally involves theft without the use of force against the victim.",
+  "answer": "true",
+  "time_limit_sec": 25,
+  "points": 5
+},
+{
+  "question_id": "NYC911-101-TF-006",
+  "type": "true_false",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "stem": "Criminal mischief is used for incidents where the main issue is damage to property.",
+  "answer": "true",
+  "time_limit_sec": 25,
+  "points": 5
+},
+{
+  "question_id": "NYC911-101-TF-007",
+  "type": "true_false",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "stem": "Menacing may involve threats or weapons that place someone in fear of injury, even if no injury has occurred yet.",
+  "answer": "true",
+  "time_limit_sec": 25,
+  "points": 5
+},
+{
+  "question_id": "NYC911-101-TF-008",
+  "type": "true_false",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "stem": "For classification, the calltaker should ignore any possible bias language or symbols and leave that to the responding officers.",
+  "answer": "false",
+  "time_limit_sec": 25,
+  "points": 5
+},
+{
+  "question_id": "NYC911-101-MATCH-002",
+  "type": "matching",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "subtopic": "Matching Offense Types",
+  "stem": "Match each scenario with the MOST appropriate offense type according to the procedure.",
+  "answer": [
+    [
+      "Property taken from caller with a punch to the face",
+      "Robbery"
+    ],
+    [
+      "Caller returns home and finds door forced, property missing",
+      "Burglary"
+    ],
+    [
+      "Caller’s unattended bike is missing from a rack",
+      "Larceny"
+    ],
+    [
+      "Caller reports car windows smashed overnight, nothing taken",
+      "Criminal mischief"
+    ]
+  ],
+  "time_limit_sec": 60,
+  "points": 10
+},
+{
+  "question_id": "NYC911-101-MATCH-003",
+  "type": "matching",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "subtopic": "Elements",
+  "stem": "Match each crime type to a key element emphasized in the procedure.",
+  "answer": [
+    ["Robbery", "Taking property from a person by force or threat"],
+    ["Burglary", "Unlawful entry into a building to commit a crime"],
+    ["Larceny", "Taking property without force or unlawful entry"],
+    ["Assault", "Causing or attempting to cause physical injury"]
+  ],
+  "time_limit_sec": 60,
+  "points": 10
+},
+{
+  "question_id": "NYC911-101-MATCH-004",
+  "type": "matching",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "subtopic": "Classification Factors",
+  "stem": "Match each factor to how it influences the way a call is classified.",
+  "answer": [
+    ["Use of a weapon", "May elevate the seriousness or change the offense type"],
+    ["Forced entry", "Supports classifying as burglary when combined with theft intent"],
+    ["Value of stolen property", "Helps determine grand vs petit larceny"],
+    ["Presence of injury", "Relevant for assault vs harassment classification"]
+  ],
+  "time_limit_sec": 60,
+  "points": 10
+},
+{
+  "question_id": "NYC911-101-FB-002",
+  "type": "fill_blank",
+  "difficulty": "hard",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "subtopic": "Robbery Core",
+  "stem": "Robbery involves taking property from a person by the use or threat of __________.",
+  "answer": "force",
+  "time_limit_sec": 40,
+  "points": 10
+},
+{
+  "question_id": "NYC911-101-FB-003",
+  "type": "fill_blank",
+  "difficulty": "hard",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "subtopic": "Burglary Core",
+  "stem": "Burglary generally requires unlawful __________ into a building or dwelling with intent to commit a crime inside.",
+  "answer": "entry",
+  "time_limit_sec": 40,
+  "points": 10
+},
+{
+  "question_id": "NYC911-101-FB-004",
+  "type": "fill_blank",
+  "difficulty": "hard",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "subtopic": "Larceny Core",
+  "stem": "Larceny focuses on the unlawful taking of __________ without the use of force against the victim.",
+  "answer": "property",
+  "time_limit_sec": 40,
+  "points": 10
+},
+{
+  "question_id": "NYC911-101-FB-005",
+  "type": "fill_blank",
+  "difficulty": "hard",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "subtopic": "Criminal Mischief Core",
+  "stem": "Criminal mischief covers incidents where the primary issue is intentional damage to __________.",
+  "answer": "property",
+  "time_limit_sec": 40,
+  "points": 10
+},
+{
+  "question_id": "NYC911-101-FB-006",
+  "type": "fill_blank",
+  "difficulty": "hard",
+  "domain": "911",
+  "topic": "Crime Definitions",
+  "subtopic": "Menacing Core",
+  "stem": "Menacing may involve behavior that places someone in reasonable fear of physical __________.",
+  "answer": "injury",
+  "time_limit_sec": 40,
+  "points": 10
+}
+
+  ]
+}

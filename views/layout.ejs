@@ -12,30 +12,309 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title><%= pageTitle ? `${pageTitle} · ${APPNAME}` : APPNAME %></title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+     <!-- Bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+      <!-- Inter font -->
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+      />
+
+      <!-- Bootstrap Icons -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
   </head>
 
+      <style>
+      
+
+      
+        /* Global font */
+        body {
+          font-family: "Inter", sans-serif;
+          letter-spacing: 0.1px;
+        }
+
+        /* ==============================
+          GLOBAL LAYOUT SPACING SYSTEM
+          ============================== */
+
+        /* Standard container padding */
+        .page-container {
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+        }
+
+        /* Heading spacing */
+        h1, h2, h3 {
+          margin-bottom: 1rem;
+          margin-top: 0.5rem;
+        }
+
+        /* Card spacing */
+        .card {
+          border-radius: 0.65rem;
+          margin-bottom: 1.25rem;
+        }
+
+        /* Section separation (home, learn, quiz views) */
+        .section {
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+        }
+
+        /* Cleaner paragraph spacing */
+        p {
+          margin-bottom: 0.75rem;
+        }
+
+        /* Quiz-specific spacing */
+        .quiz-question {
+          margin-bottom: 1.5rem;
+        }
+
+        .quiz-answers button,
+        .quiz-answers input {
+          margin-bottom: 0.5rem;
+        }
+
+        /* Mobile-friendly fixes */
+        @media (max-width: 576px) {
+          .page-container {
+            padding-top: 1.25rem;
+            padding-bottom: 1.25rem;
+          }
+          .navbar-brand {
+            font-size: 1rem;
+          }
+        }
+      
+
+
+          /* ==============================
+            QUIZ QUESTION CARD STYLING
+            ============================== */
+
+          .quiz-container .card {
+            border-radius: 0.8rem;
+            border: 1px solid rgba(0, 0, 0, 0.06);
+            box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+            margin-bottom: 1.25rem;
+          }
+
+          .quiz-container .card-body {
+            padding: 1.5rem 1.5rem 1.25rem;
+          }
+
+          /* Question header meta line (type, difficulty, etc.) */
+          .quiz-container .badge {
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-size: 0.7rem;
+          }
+
+          .quiz-container .small.text-muted {
+            font-size: 0.8rem;
+          }
+
+          /* MCQ + True/False buttons */
+          .quiz-container .mcq-choice,
+          .quiz-container .tf-choice {
+            border-radius: 0.6rem;
+            padding: 0.6rem 0.75rem;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 0.35rem;
+          }
+
+          .quiz-container .mcq-choice strong {
+            flex-shrink: 0;
+          }
+
+          .quiz-container .mcq-choice:hover,
+          .quiz-container .tf-choice:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+          }
+
+          /* Fill-in-the-blank field sizing */
+          .quiz-container #fb {
+            max-width: 420px;
+          }
+
+          .quiz-container #btn-fb-submit {
+            padding-inline: 1.25rem;
+          }
+
+          /* Result / explanation area inside quiz */
+          .quiz-container #result .alert {
+            margin-top: 1rem;
+            font-size: 0.95rem;
+            line-height: 1.4;
+          }
+
+            .quiz-container .explanation-body {
+              margin-top: 0.75rem;
+              padding-top: 0.5rem;
+              border-top: 1px solid rgba(0, 0, 0, 0.08);
+            }
+
+            .quiz-container .explanation-text {
+              white-space: pre-wrap;  /* preserve line breaks from backend */
+              line-height: 1.5;
+              font-size: 0.9rem;
+            }
+
+
+            /* ==============================
+                MOBILE LAYOUT CLEANUP
+                ============================== */
+
+              @media (max-width: 576px) {
+
+                /* Page padding tighter */
+                .page-container {
+                  padding-left: 0.75rem;
+                  padding-right: 0.75rem;
+                }
+
+                /* Headings scale down slightly */
+                h1 { font-size: 1.5rem; }
+                h2 { font-size: 1.25rem; }
+                h3 { font-size: 1.1rem; }
+
+                /* Navbar brand tighter */
+                .navbar-brand {
+                  font-size: 1rem;
+                }
+
+                /* Lesson cards */
+                .card {
+                  border-radius: 0.6rem;
+                }
+
+                /* Quiz container spacing */
+                .quiz-container .card-body {
+                  padding: 1rem;
+                }
+
+                /* MCQ / TF buttons: full width, taller */
+                .quiz-container .mcq-choice,
+                .quiz-container .tf-choice {
+                  width: 100%;
+                  padding: 0.75rem 0.75rem;
+                  font-size: 0.95rem;
+                }
+
+                /* Fill-in-the-blank input */
+                .quiz-container #fb {
+                  max-width: 100%;
+                }
+
+                /* Result / explanation text */
+                .quiz-container .explanation-text {
+                  font-size: 0.9rem;
+                }
+
+                /* Progress bar spacing */
+                .progress {
+                  height: 8px;
+                }
+
+                /* Buttons stack nicely */
+                .d-flex.gap-2,
+                .d-flex.gap-3 {
+                  flex-wrap: wrap;
+                }
+
+                /* Hide less-critical HUD items on mobile */
+                #badge-xp,
+                #badge-streak {
+                  display: none !important;
+                }
+              }
+
+
+
+
+    </style>
+
+
   <body class="bg-light">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-danger">
       <div class="container">
-        <a class="navbar-brand" href="/"><%= APPNAME %></a>
 
-        <div class="navbar-nav">
-          <a class="nav-link" href="/lessons">Procedures</a>
-          <a class="nav-link" href="/review">Review</a>
-          <a class="nav-link" href="/leaderboard">Leaderboard</a>
-          <a class="nav-link" href="/admin/import">Admin Import</a>
+        <!-- Brand with 911 badge -->
+        <a class="navbar-brand d-flex align-items-center" href="/">
+          <span class="badge bg-danger me-2" style="font-size: 0.7rem;">911</span>
+          <span><%= APPNAME %></span>
+        </a>
+
+        <!-- Hamburger button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsed nav content -->
+        <div class="collapse navbar-collapse" id="mainNav">
+
+          <!-- Left side menu -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/learn">Procedures</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/review">Review</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/leaderboard">Leaderboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/admin/import">Admin Import</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/stats">Stats</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/admin/lessons">Admin</a>
+            </li>
+          </ul>
+
+          <!-- Right side user area -->
+          <div class="d-flex align-items-center gap-2">
+
+            <!-- Optional XP and streak badges (used by quiz.js) -->
+            <span id="badge-xp" class="badge bg-primary d-none d-sm-inline">XP: 0</span>
+            <span id="badge-streak" class="badge bg-warning text-dark d-none d-sm-inline">🔥 0</span>
+
+            <% if (currentUser) { %>
+              <span class="text-light small me-2">
+                <i class="bi bi-person-fill"></i>
+                <%= currentUser.displayName || currentUser.email %>
+              </span>
+              <a class="btn btn-outline-light btn-sm" href="/auth/logout">Logout</a>
+            <% } else { %>
+              <a class="btn btn-outline-light btn-sm" href="/auth/login">Login</a>
+            <% } %>
+          </div>
         </div>
 
-        <div class="ms-auto navbar-nav">
-          <% if (currentUser) { %>
-            <a class="nav-link" href="/profile"><%= currentUser.displayName || currentUser.email %></a>
-          <% } else { %>
-            <a class="nav-link" href="/auth/login">Login</a>
-          <% } %>
-        </div>
       </div>
     </nav>
+
 
     <main class="container py-4">
       <%- body %>

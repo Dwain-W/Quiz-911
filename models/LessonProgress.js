@@ -1,24 +1,28 @@
 import mongoose from "mongoose";
 
-const LessonProgressSchema = new mongoose.Schema(
+const { Schema } = mongoose;
+
+const LessonProgressSchema = new Schema(
   {
-    userId: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
-      required: true,
-      index: true
-    },
-    lessonSlug: { type: String, required: true, index: true },
+    // Lesson identifier (we’ll use lesson.slug or lessonId consistently later)
+    lessonId: { type: String, required: true, index: true },
 
-    // 0 = easy, 1 = medium, 2 = hard
-    stage: { type: Number, default: 0 },
+    // Optional now, required later if you enforce login
+    userId: { type: Schema.Types.ObjectId, ref: "User", index: true, default: null },
 
-    // optional: track completed stages like [0,1]
-    completedStages: { type: [Number], default: [] }
+    // Progress stats (we’ll define what “correct” means in controller step)
+    correct: { type: Number, required: true, default: 0, min: 0 },
+    total: { type: Number, required: true, default: 0, min: 0 },
   },
-  { timestamps: true }
+  { timestamps: true } // adds createdAt + updatedAt automatically
 );
 
-LessonProgressSchema.index({ userId: 1, lessonSlug: 1 }, { unique: true });
+// Helpful uniqueness rule once login exists:
+// one progress doc per (userId, lessonId)
+LessonProgressSchema.index({ userId: 1, lessonId: 1 }, { unique: false });
 
-export default mongoose.model("LessonProgress", LessonProgressSchema);
+const LessonProgress =
+  mongoose.models.LessonProgress ||
+  mongoose.model("LessonProgress", LessonProgressSchema);
+
+export default LessonProgress;

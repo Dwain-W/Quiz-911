@@ -1,0 +1,41 @@
+<div class="container py-4">
+  <h1 class="mb-3">Stats</h1>
+
+  <div class="card p-3 mb-3">
+    <div class="text-muted">Total quizzes taken:</div>
+    <div class="fs-4 fw-bold"><%= totals.quizzesTaken %></div>
+  </div>
+
+  <div class="card p-3">
+    <% if (!rows || rows.length === 0) { %>
+        <div class="text-muted">No attempts yet. Complete a procedure to generate stats.</div>
+    <% } else { %>
+        <div class="table-responsive">
+        <table class="table table-sm align-middle mb-0">
+            <thead>
+            <tr>
+                <th>Lesson</th>
+                <th class="text-end">Attempts</th>
+                <th class="text-end">Best</th>
+                <th class="text-end">Avg</th>
+                <th class="text-end">Last Taken</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% rows.forEach(r => { %>
+                <tr>
+                <td><code><%= r.lessonId %></code></td>
+                <td class="text-end"><%= r.attempts %></td>
+                <td class="text-end"><span class="badge bg-success"><%= r.bestPct %>%</span></td>
+                <td class="text-end"><span class="badge bg-dark"><%= r.avgPct %>%</span></td>
+                <td class="text-end text-muted"><%= r.lastTakenAt ? new Date(r.lastTakenAt).toLocaleString() : "-" %></td>
+                </tr>
+            <% }) %>
+            </tbody>
+        </table>
+        </div>
+    <% } %>
+    </div>
+
+
+</div>

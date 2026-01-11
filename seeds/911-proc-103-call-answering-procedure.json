@@ -1,0 +1,649 @@
+{
+  "lesson": {
+    "slug": "911-proc-103-call-answering-procedure",
+    "title": "911-Procedure 103 – CALL ANSWERING PROCEDURE",
+    "topic": "NYPD Calltaking – Call Flow & Operator Rules",
+    "order": 103,
+    "objectives": [
+      "Apply the official required NYC 911 greeting verbatim.",
+      "Verify caller location using cross streets and apartment/floor info.",
+      "Follow the correct call flow: greeting → location → callback → emergency.",
+      "Use professional calltaker language and avoid prohibited phrasing.",
+      "End every call with the required identification statement including operator number."
+    ],
+    "questionIds": [
+      "NYC911-103-MCQ-001",
+      "NYC911-103-MCQ-002",
+      "NYC911-103-MCQ-003",
+      "NYC911-103-MCQ-004",
+      "NYC911-103-MCQ-005",
+      "NYC911-103-TF-001",
+      "NYC911-103-TF-002",
+      "NYC911-103-TF-003",
+      "NYC911-103-TF-004",
+      "NYC911-103-FB-001",
+      "NYC911-103-FB-002",
+      "NYC911-103-MATCH-001",
+      "NYC911-103-MATCH-002",
+      "NYC911-103-MCQ-006",
+  "NYC911-103-MCQ-007",
+  "NYC911-103-MCQ-008",
+  "NYC911-103-MCQ-009",
+  "NYC911-103-MCQ-010",
+  "NYC911-103-MCQ-011",
+  "NYC911-103-MCQ-012",
+  "NYC911-103-TF-005",
+  "NYC911-103-TF-006",
+  "NYC911-103-TF-007",
+  "NYC911-103-TF-008",
+  "NYC911-103-MATCH-003",
+  "NYC911-103-MATCH-004",
+  "NYC911-103-FB-003",
+  "NYC911-103-FB-004",
+  "NYC911-103-FB-005",
+  "NYC911-103-FB-006"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-103-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Greeting",
+      "subtopic": "Required Greeting",
+      "stem": "Which of the following is the REQUIRED NYC 911 greeting that must be stated verbatim?",
+      "choices": [
+        { "id": "A", "text": "Emergency services, what do you need?", "is_correct": false },
+        { "id": "B", "text": "New York City 911, do you need Police, Fire or Medical?", "is_correct": true },
+        { "id": "C", "text": "911, what's going on?", "is_correct": false },
+        { "id": "D", "text": "NYPD, please state your emergency.", "is_correct": false }
+      ],
+      "solution": "The procedure requires this exact greeting at the start of every call.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": ["greeting", "procedure"]
+    },
+    {
+      "question_id": "NYC911-103-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Call Flow",
+      "subtopic": "Call Flow Order",
+      "stem": "According to the procedure, what is the correct order for the initial steps of the call?",
+      "choices": [
+        { "id": "A", "text": "Emergency → greeting → location → callback", "is_correct": false },
+        { "id": "B", "text": "Greeting → location → callback → emergency", "is_correct": true },
+        { "id": "C", "text": "Callback → emergency → greeting → location", "is_correct": false },
+        { "id": "D", "text": "Location → greeting → callback → emergency", "is_correct": false }
+      ],
+      "solution": "The training specifies greeting first, then verifying location, then callback, then emergency.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": ["call-flow", "procedure"]
+    },
+    {
+      "question_id": "NYC911-103-MCQ-003",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Location Verification",
+      "subtopic": "Cross Streets",
+      "stem": "Why must the calltaker always ask the caller for the two streets the address is between?",
+      "choices": [
+        { "id": "A", "text": "It makes the caller feel more comfortable.", "is_correct": false },
+        { "id": "B", "text": "It verifies the location in the system and ensures responders are sent to the correct place.", "is_correct": true },
+        { "id": "C", "text": "It is only necessary for fire emergencies.", "is_correct": false },
+        { "id": "D", "text": "It's optional unless the caller sounds unsure.", "is_correct": false }
+      ],
+      "solution": "Cross streets are required to verify the exact location and ensure accurate response routing.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-103-MCQ-004",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Professionalism",
+      "subtopic": "Forbidden Phrasing",
+      "stem": "Which option contains language that is PROHIBITED according to the call-answering procedure?",
+      "choices": [
+        { "id": "A", "text": "Sir, I need you to speak slowly please.", "is_correct": false },
+        { "id": "B", "text": "Ma’am, I am trying to understand you.", "is_correct": false },
+        { "id": "C", "text": "You need to calm down or I can’t help you.", "is_correct": true },
+        { "id": "D", "text": "Thank you, I understand.", "is_correct": false }
+      ],
+      "solution": "The procedure forbids escalating language and anything that blames the caller.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": ["forbidden-phrasing"]
+    },
+    {
+      "question_id": "NYC911-103-MCQ-005",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Apartment/Floor Information",
+      "subtopic": "Location Details",
+      "stem": "Which statement BEST aligns with the procedure’s requirement for obtaining building details?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Apartment and floor information are optional if the caller sounds stressed.",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Apartment/floor info must be included with the address whenever applicable.",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Calltakers should only ask for apartment numbers on burglary calls.",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Address is enough; apartment/floor info is added by dispatch.",
+          "is_correct": false
+        }
+      ],
+      "solution": "The procedure requires collecting apartment and floor details as part of proper address entry.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-103-TF-001",
+      "type": "true_false",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Greeting",
+      "stem": "The required NYC 911 greeting must be spoken exactly as written in the procedure.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-103-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Caller Control",
+      "stem": "It is acceptable to threaten to disconnect the caller if they are yelling or upset.",
+      "answer": "false",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-103-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Location",
+      "stem": "Cross streets must always be asked for when verifying an address, regardless of the type of emergency.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-103-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Operator Number",
+      "stem": "Calltakers are required to give their operator number only when the caller requests it.",
+      "answer": "false",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-103-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Call Flow",
+      "stem": "The correct order of the call flow begins with greeting, then verifying the caller’s __________.",
+      "answer": "location",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-103-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Operator Number",
+      "stem": "At the end of a call, the required statement includes: “Assistance will be provided as soon as possible, Operator #_____.”",
+      "answer": "your operator number",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-103-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Call Flow",
+      "subtopic": "Matching",
+      "stem": "Match each step of the call with its correct purpose.",
+      "answer": [
+        ["Greeting", "Start the call with the mandated phrase"],
+        ["Location verification", "Confirm where the emergency is happening"],
+        ["Callback number", "Ensure we can reach the caller if disconnected"],
+        ["Emergency", "Determine what responders are needed"]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-103-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Language & Professionalism",
+      "stem": "Match each phrase to whether it is PERMITTED or PROHIBITED.",
+      "answer": [
+        ["“Sir, I'm trying to understand you.”", "Permitted"],
+        ["“Stop yelling or I can’t help you.”", "Prohibited"],
+        ["“Thank you, I understand.”", "Permitted"],
+        ["“Calm down or I will disconnect the call.”", "Prohibited"]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+    {
+  "question_id": "NYC911-103-MCQ-006",
+  "type": "mcq",
+  "difficulty": "easy",
+  "domain": "911",
+  "topic": "Greeting",
+  "subtopic": "Discipline",
+  "stem": "Why does the procedure require the greeting to be spoken the same way every time?",
+  "choices": [
+    {
+      "id": "A",
+      "text": "To let calltakers improvise the opening.",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "To maintain consistency and meet legal/procedural standards.",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "To make the greeting shorter.",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "So callers know which operator they reached.",
+      "is_correct": false
+    }
+  ],
+  "solution": "Standardized greeting ensures uniformity, clarity, and compliance with official policy.",
+  "time_limit_sec": 45,
+  "points": 10,
+  "tags": ["greeting", "policy"]
+},
+{
+  "question_id": "NYC911-103-MCQ-007",
+  "type": "mcq",
+  "difficulty": "easy",
+  "domain": "911",
+  "topic": "Call Flow",
+  "subtopic": "Location Priority",
+  "stem": "Why does the procedure place LOCATION so early in the call flow?",
+  "choices": [
+    {
+      "id": "A",
+      "text": "Because location is optional, but it's easy to ask first.",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "So units can be sent quickly even if the call disconnects.",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "To avoid having to ask for the caller’s name.",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "So the caller feels more comfortable.",
+      "is_correct": false
+    }
+  ],
+  "solution": "Location is needed to dispatch help; getting it early protects against disconnects.",
+  "time_limit_sec": 45,
+  "points": 10,
+  "tags": ["call-flow", "location"]
+},
+{
+  "question_id": "NYC911-103-MCQ-008",
+  "type": "mcq",
+  "difficulty": "easy",
+  "domain": "911",
+  "topic": "Callback Number",
+  "subtopic": "Verification",
+  "stem": "According to the call-answering procedure, what is the main reason for confirming a callback number?",
+  "choices": [
+    {
+      "id": "A",
+      "text": "To sign the caller up for alerts.",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "So the calltaker can call back if the line disconnects.",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "To verify the caller's identity for billing.",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "It is not required in emergencies.",
+      "is_correct": false
+    }
+  ],
+  "solution": "Callback confirmation ensures contact if the call drops or more information is needed.",
+  "time_limit_sec": 45,
+  "points": 10
+},
+{
+  "question_id": "NYC911-103-MCQ-009",
+  "type": "mcq",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Professionalism",
+  "subtopic": "Tone and Control",
+  "stem": "The procedure emphasizes staying calm and professional. What is the BEST example of procedure-compliant caller control?",
+  "choices": [
+    {
+      "id": "A",
+      "text": "“If you don't stop yelling, I’m going to hang up.”",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "“I need you to take a breath so I can understand and get you help.”",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "“If you keep talking like that, I won’t help you.”",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "“I’m tired of repeating myself, listen carefully.”",
+      "is_correct": false
+    }
+  ],
+  "solution": "The procedure supports calm, directive language that focuses on understanding and getting help.",
+  "time_limit_sec": 45,
+  "points": 10,
+  "tags": ["caller-control", "professionalism"]
+},
+{
+  "question_id": "NYC911-103-MCQ-010",
+  "type": "mcq",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Location",
+  "subtopic": "Cross Streets",
+  "stem": "The procedure requires asking, “What two streets are you between?” primarily to:",
+  "choices": [
+    {
+      "id": "A",
+      "text": "Check if the caller knows the neighborhood.",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "Verify the address and improve dispatch accuracy.",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "Delay the call while preparing the screen.",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "Determine which operator will handle the case.",
+      "is_correct": false
+    }
+  ],
+  "solution": "Cross streets help confirm the location so responders go to the correct place.",
+  "time_limit_sec": 45,
+  "points": 10
+},
+{
+  "question_id": "NYC911-103-MCQ-011",
+  "type": "mcq",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Apartment/Floor",
+  "subtopic": "Building Details",
+  "stem": "Which prompt BEST matches the procedure for obtaining apartment or floor information?",
+  "choices": [
+    {
+      "id": "A",
+      "text": "“If you want, you can tell me the floor, but it’s not important.”",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "“What is the apartment or floor number where this is happening?”",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "“I’ll let the officers figure out which floor it is.”",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "“Is this close to the lobby or not really?”",
+      "is_correct": false
+    }
+  ],
+  "solution": "Apartment/floor details must be explicitly captured when applicable, not left for responders to guess.",
+  "time_limit_sec": 45,
+  "points": 10
+},
+{
+  "question_id": "NYC911-103-MCQ-012",
+  "type": "mcq",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Call Ending",
+  "subtopic": "Operator Number",
+  "stem": "Which closing line BEST follows the procedure for ending a call?",
+  "choices": [
+    {
+      "id": "A",
+      "text": "“Okay, good luck. Try to stay safe.”",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "“Assistance will be provided as soon as possible, Operator #____.”",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "“If you have more problems, call back later.”",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "“That’s all I can do, goodbye.”",
+      "is_correct": false
+    }
+  ],
+  "solution": "The procedure requires the specific closing phrase including the operator number.",
+  "time_limit_sec": 45,
+  "points": 10,
+  "tags": ["closing", "operator-number"]
+},
+{
+  "question_id": "NYC911-103-TF-005",
+  "type": "true_false",
+  "difficulty": "easy",
+  "domain": "911",
+  "topic": "Call Flow",
+  "stem": "The procedure requires greeting, then location, then callback, then emergency.",
+  "answer": "true",
+  "time_limit_sec": 25,
+  "points": 5
+},
+{
+  "question_id": "NYC911-103-TF-006",
+  "type": "true_false",
+  "difficulty": "easy",
+  "domain": "911",
+  "topic": "Greeting",
+  "stem": "It is acceptable to replace the official greeting with your own version as long as the caller understands you.",
+  "answer": "false",
+  "time_limit_sec": 25,
+  "points": 5
+},
+{
+  "question_id": "NYC911-103-TF-007",
+  "type": "true_false",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Professionalism",
+  "stem": "According to the procedure, calltakers must avoid blaming language, even if the caller is yelling or upset.",
+  "answer": "true",
+  "time_limit_sec": 25,
+  "points": 5
+},
+{
+  "question_id": "NYC911-103-TF-008",
+  "type": "true_false",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Operator Number",
+  "stem": "The required end-of-call statement includes the operator number on every call, not only when the caller requests it.",
+  "answer": "true",
+  "time_limit_sec": 25,
+  "points": 5
+},
+{
+  "question_id": "NYC911-103-MATCH-003",
+  "type": "matching",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Call Flow",
+  "subtopic": "Detailed Flow",
+  "stem": "Match each step of the call-answering procedure with what the calltaker focuses on at that step.",
+  "answer": [
+    [
+      "Greeting",
+      "State the official phrase that opens every call"
+    ],
+    [
+      "Location",
+      "Get address, cross streets, and apartment/floor details"
+    ],
+    [
+      "Callback",
+      "Confirm the best number to reach the caller"
+    ],
+    [
+      "Emergency",
+      "Find out what is happening and what help is needed"
+    ]
+  ],
+  "time_limit_sec": 60,
+  "points": 10
+},
+{
+  "question_id": "NYC911-103-MATCH-004",
+  "type": "matching",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Language & Professionalism",
+  "stem": "Match the phrase with whether it is consistent with the procedure.",
+  "answer": [
+    [
+      "“Ma’am, I need you to speak slowly so I can help you.”",
+      "Consistent"
+    ],
+    [
+      "“If you keep yelling, I’m going to hang up on you.”",
+      "Not consistent"
+    ],
+    [
+      "“Thank you, I understand.”",
+      "Consistent"
+    ],
+    [
+      "“If you don’t calm down, I won’t send anyone.”",
+      "Not consistent"
+    ]
+  ],
+  "time_limit_sec": 60,
+  "points": 10
+},
+{
+  "question_id": "NYC911-103-FB-003",
+  "type": "fill_blank",
+  "difficulty": "hard",
+  "domain": "911",
+  "topic": "Greeting",
+  "subtopic": "Required Phrase",
+  "stem": "The required greeting begins: “New York City __________, do you need Police, Fire or Medical?”",
+  "answer": "911",
+  "time_limit_sec": 40,
+  "points": 10
+},
+{
+  "question_id": "NYC911-103-FB-004",
+  "type": "fill_blank",
+  "difficulty": "hard",
+  "domain": "911",
+  "topic": "Location",
+  "subtopic": "Cross Streets",
+  "stem": "To confirm the location, calltakers are required to ask: “What two __________ are you between?”",
+  "answer": "streets",
+  "time_limit_sec": 40,
+  "points": 10
+},
+{
+  "question_id": "NYC911-103-FB-005",
+  "type": "fill_blank",
+  "difficulty": "hard",
+  "domain": "911",
+  "topic": "Call Flow",
+  "subtopic": "Order",
+  "stem": "The procedure teaches the call flow as: greeting, location, callback, and then the caller’s __________.",
+  "answer": "emergency",
+  "time_limit_sec": 40,
+  "points": 10
+},
+{
+  "question_id": "NYC911-103-FB-006",
+  "type": "fill_blank",
+  "difficulty": "hard",
+  "domain": "911",
+  "topic": "Call Ending",
+  "subtopic": "Closing Phrase",
+  "stem": "At the end of the call, the calltaker must say: “Assistance will be provided as soon as possible, __________ #_____.”",
+  "answer": "Operator",
+  "time_limit_sec": 40,
+  "points": 10
+}
+
+  ]
+}

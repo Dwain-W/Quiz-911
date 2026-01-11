@@ -1,20 +1,43 @@
 <%
   const APPNAME = (typeof APP_NAME !== "undefined" && APP_NAME) ? APP_NAME : "Quiz-911";
-  const TAGLINE = (typeof APP_TAGLINE !== "undefined" && APP_TAGLINE) ? APP_TAGLINE : "911 Calltaker Procedures — Study Quiz";
+  const TAGLINE = (typeof APP_TAGLINE !== "undefined" && APP_TAGLINE)
+    ? APP_TAGLINE
+    : "NYC 911 Calltaker Training Portal";
 %>
 
-<div class="p-4 p-md-5 mb-4 bg-white rounded border">
-  <h1 class="display-6 mb-2"><%= TAGLINE %></h1>
 
-  <p class="text-muted mb-3">
-    Study one procedure at a time, in order (101 → 102 → 103…). Each procedure is its own lesson with timed questions.
+<div class="p-4 p-md-5 mb-4 bg-white rounded border">
+  <div class="d-flex justify-content-between align-items-start flex-wrap gap-2 mb-2">
+    <div>
+      <h1 class="display-6 mb-1"><%= TAGLINE %></h1>
+      <div class="text-muted small">
+        Study live-call procedures, build muscle memory, and test yourself under timed conditions.
+      </div>
+    </div>
+    <div class="text-end">
+      <span class="badge bg-danger mb-1">Training Only</span>
+      <div class="small text-muted">Not connected to the real 911 system.</div>
+    </div>
+  </div>
+
+  <p class="text-muted mb-3 mt-2">
+    Each lesson in Quiz-911 is built from real calltaker procedures (greeting, location, radio codes, timing rules).
+    Work through procedures in order and use Review mode to tighten up weak spots.
   </p>
 
-  <div class="d-flex gap-2">
-    <a class="btn btn-primary" href="/lessons">Start Procedures</a>
-    <a class="btn btn-outline-secondary" href="/admin/import">Import a Procedure Lesson</a>
+  <div class="d-flex flex-wrap gap-2 mt-3">
+    <!-- Main CTA → real procedures page -->
+    <a class="btn btn-primary" href="/learn">
+      View Procedures &amp; Start Training
+    </a>
+
+    <!-- Secondary CTA → import tool -->
+    <a class="btn btn-outline-secondary" href="/admin/import">
+      Import a Procedure Lesson
+    </a>
   </div>
 </div>
+
 
 <div class="row g-3">
   <div class="col-md-6">

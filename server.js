@@ -23,6 +23,12 @@ import questionsRouter from "./routes/questions.js";
 import attemptsRouter from "./routes/attempts.js";
 import lessonsRouter from "./routes/lessons.js";
 import adminRouter from "./routes/admin.js";
+import progressRoutes from "./routes/progress.js";
+import statsRouter from "./routes/stats.js";
+
+
+
+
 
 // Basic setup
 dotenv.config();
@@ -33,9 +39,19 @@ const __dirname = path.dirname(__filename);
 const app = express();
 
 // Connect to MongoDB
-await mongoose.connect(process.env.MONGO_URL);
+const MONGO_URI =
+  process.env.MONGO_URI ||
+  process.env.MONGODB_URI ||
+  process.env.MONGO_URL;
 
-console.log("Connected to Mongo:", process.env.MONGO_URL);
+if (!MONGO_URI) {
+  console.error("❌ Missing Mongo connection string (MONGO_URI)");
+  process.exit(1);
+}
+
+await mongoose.connect(MONGO_URI);
+console.log("✅ Connected to Mongo:", MONGO_URI);
+
 
 
 // EJS template engine setup
@@ -44,6 +60,7 @@ app.set("views", path.join(__dirname, "views"));
 app.use(expressLayouts);   
 app.set("layout", "layout");               // ← default layout is views/layout.ejs  
 app.use(express.static(path.join(__dirname, "public")));
+
 
 // Security & utilities
 app.use(helmet({
@@ -111,6 +128,10 @@ app.get("/auth/login", (req,res)=> res.render("auth_login", { title: "Login" }))
 app.use("/auth", authRouter);
 app.use("/profile", profileRouter);
 app.use("/leaderboard", leaderboardRouter);
+app.use("/api/progress", progressRoutes);
+app.use("/stats", statsRouter);
+
+
 
 // protect learn + lessons if you want:
 app.get("/learn", requireAuth, async (req,res,next)=> next()); // the /learn route will be defined below

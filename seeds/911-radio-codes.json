@@ -1,0 +1,187 @@
+[
+  {
+    "question_id": "911-radio-001",
+    "type": "mcq",
+    "difficulty": "easy",
+    "stem": "What is the primary purpose of using radio codes on a 911 channel?",
+    "topic": "radio-codes",
+    "choices": [
+      { "id": "A", "text": "To make calls sound more secret and confusing", "is_correct": false, "explanation": "Radio codes are meant to clarify communication, not confuse it." },
+      { "id": "B", "text": "To speed up and standardize communication between units", "is_correct": true, "explanation": "Codes provide a shared, compact language that is faster and more consistent." },
+      { "id": "C", "text": "To replace all plain language", "is_correct": false, "explanation": "Plain language is still used, especially for critical details like exact locations." },
+      { "id": "D", "text": "To encrypt transmissions", "is_correct": false, "explanation": "Codes do not encrypt; they just shorten common phrases." }
+    ],
+    "answer": "B",
+    "solution": "Radio codes exist to speed up and standardize frequently used phrases so units and dispatch stay in sync.",
+    "hints": [
+      "Think about why shorthand is helpful on a busy radio channel.",
+      "Is the goal clarity and speed, or secrecy?"
+    ],
+    "points": 10,
+    "time_limit_sec": 60
+  },
+  {
+    "question_id": "911-radio-002",
+    "type": "mcq",
+    "difficulty": "easy",
+    "stem": "When you hear a unit say they are '10-4', what does that usually mean?",
+    "topic": "radio-codes",
+    "choices": [
+      { "id": "A", "text": "They need backup immediately", "is_correct": false, "explanation": "Backup requests usually have their own distinct codes or plain-language requests." },
+      { "id": "B", "text": "They did not understand the transmission", "is_correct": false, "explanation": "The opposite of 10-4: they DID understand." },
+      { "id": "C", "text": "They acknowledge and understand the message", "is_correct": true, "explanation": "10-4 is commonly used as 'Acknowledged / Understood'." },
+      { "id": "D", "text": "They are ending their shift", "is_correct": false, "explanation": "Shift changes have separate procedures or codes." }
+    ],
+    "answer": "C",
+    "solution": "10-4 is one of the most widely recognized codes: it means 'Message received and understood.'",
+    "hints": [
+      "Think of common movies/TV scenes where someone says '10-4'.",
+      "It’s a confirmation, not a request for help."
+    ],
+    "points": 10,
+    "time_limit_sec": 45
+  },
+  {
+    "question_id": "911-radio-003",
+    "type": "true_false",
+    "difficulty": "easy",
+    "stem": "True or False: You should freely invent your own radio codes as long as officers seem to understand them.",
+    "topic": "radio-codes",
+    "answer": "false",
+    "solution": "Using unofficial or improvised codes creates confusion and safety risk. Stick to agency-approved codes or plain language.",
+    "hints": [
+      "Ask yourself: is consistency or creativity more important on a 911 channel?"
+    ],
+    "points": 10,
+    "time_limit_sec": 45
+  },
+  {
+    "question_id": "911-radio-004",
+    "type": "mcq",
+    "difficulty": "easy",
+    "stem": "Why is it important to know both radio codes AND the plain-language versions of what they mean?",
+    "topic": "radio-codes",
+    "choices": [
+      { "id": "A", "text": "Because codes change with every shift", "is_correct": false, "explanation": "Codes don’t usually change per shift; they’re standardized department-wide." },
+      { "id": "B", "text": "Because some agencies may phase out codes and use plain language", "is_correct": true, "explanation": "Agencies sometimes move toward plain language for interop and clarity, so you should understand both." },
+      { "id": "C", "text": "Because callers use radio codes when they dial 911", "is_correct": false, "explanation": "Callers almost never use radio codes; they speak normally." },
+      { "id": "D", "text": "Because radio codes are only used internally by IT staff", "is_correct": false, "explanation": "Codes are used by field units and dispatch, not just IT." }
+    ],
+    "answer": "B",
+    "solution": "Many agencies mix or move between codes and plain language. Understanding both keeps you flexible and ready for changes.",
+    "hints": [
+      "Think about mutual aid and different agencies working together.",
+      "What happens if one side doesn’t use the same code list?"
+    ],
+    "points": 10,
+    "time_limit_sec": 60
+  },
+  {
+    "question_id": "911-radio-005",
+    "type": "mcq",
+    "difficulty": "medium",
+    "stem": "If an officer repeats a code back to you incorrectly, what is your BEST immediate action as a 911 call taker/dispatcher?",
+    "topic": "radio-codes",
+    "choices": [
+      { "id": "A", "text": "Ignore it as long as they sound confident", "is_correct": false, "explanation": "Confidence doesn’t equal accuracy when safety is involved." },
+      { "id": "B", "text": "Correct the code or restate the information clearly on the air", "is_correct": true, "explanation": "Clarifying immediately prevents units from acting on wrong information." },
+      { "id": "C", "text": "Wait until the incident is over and then send them an email", "is_correct": false, "explanation": "Delayed corrections can lead to serious mistakes in the moment." },
+      { "id": "D", "text": "Assume they meant something else and move on", "is_correct": false, "explanation": "Never assume; clarify." }
+    ],
+    "answer": "B",
+    "solution": "Communication errors should be corrected as soon as possible to protect responders and the public.",
+    "hints": [
+      "Ask: what keeps everyone safest in real time?",
+      "Is silence safer than correcting them?"
+    ],
+    "points": 10,
+    "time_limit_sec": 60
+  },
+  {
+    "question_id": "911-radio-006",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "stem": "A good practice when learning radio codes is to review them in short, focused sessions and then __________ them out loud.",
+    "topic": "radio-codes",
+    "answer": "practice",
+    "solution": "Actively saying the codes out loud builds muscle memory and makes them easier to recall under stress.",
+    "hints": [
+      "Think of what you do with vocabulary when learning a new language.",
+      "It starts with 'p'."
+    ],
+    "points": 10,
+    "time_limit_sec": 60
+  },
+  {
+    "question_id": "911-radio-007",
+    "type": "mcq",
+    "difficulty": "medium",
+    "stem": "Which of the following is the MOST important when using radio codes on a busy channel?",
+    "topic": "radio-codes",
+    "choices": [
+      { "id": "A", "text": "Speaking as fast as possible so you clear the air", "is_correct": false, "explanation": "Speed without clarity produces more repeats and confusion." },
+      { "id": "B", "text": "Clear, steady tone and correct use of codes", "is_correct": true, "explanation": "Clear tone and correct codes reduce repeats and miscommunication." },
+      { "id": "C", "text": "Using as much slang as possible to sound relaxed", "is_correct": false, "explanation": "Slang doesn’t belong on the radio channel." },
+      { "id": "D", "text": "Being casual because radio traffic isn’t recorded", "is_correct": false, "explanation": "Radio traffic is almost always recorded." }
+    ],
+    "answer": "B",
+    "solution": "Clarity beats speed; using correct codes with a steady tone keeps the channel efficient and safe.",
+    "hints": [
+      "What matters more: how fast you speak, or how clearly you speak?",
+      "Think about what helps units ACT on your info correctly."
+    ],
+    "points": 10,
+    "time_limit_sec": 60
+  },
+  {
+    "question_id": "911-radio-008",
+    "type": "true_false",
+    "difficulty": "medium",
+    "stem": "True or False: You should memorize every code on day one before taking live calls.",
+    "topic": "radio-codes",
+    "answer": "false",
+    "solution": "Codes are usually learned in stages. Knowing the most critical ones first is more realistic and safer than forcing all at once.",
+    "hints": [
+      "Think about realistic training expectations.",
+      "Quality and retention matter more than cramming."
+    ],
+    "points": 10,
+    "time_limit_sec": 45
+  },
+  {
+    "question_id": "911-radio-009",
+    "type": "mcq",
+    "difficulty": "hard",
+    "stem": "During multi-agency incidents, which approach to radio codes is generally safest?",
+    "topic": "radio-codes",
+    "choices": [
+      { "id": "A", "text": "Each agency uses its own codes and assumes others will adapt", "is_correct": false, "explanation": "Assuming others know your codes can cause serious miscommunication." },
+      { "id": "B", "text": "Use a shared, agreed set of codes or plain language", "is_correct": true, "explanation": "Shared standards or plain language reduce confusion between agencies." },
+      { "id": "C", "text": "Avoid radio communication and rely on texting only", "is_correct": false, "explanation": "Radio is still primary for fast tactical communication." },
+      { "id": "D", "text": "Use whichever codes are fastest for your agency, regardless of others", "is_correct": false, "explanation": "Interoperability and mutual understanding are key." }
+    ],
+    "answer": "B",
+    "solution": "When multiple agencies operate together, shared codes or plain language improve safety and coordination.",
+    "hints": [
+      "Think about large-scale incidents where fire, police, EMS, and others work together.",
+      "Is it safer if everyone uses their own secret shorthand?"
+    ],
+    "points": 10,
+    "time_limit_sec": 75
+  },
+  {
+    "question_id": "911-radio-010",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "stem": "When you are unsure whether a unit used the correct code, you should always __________ the information instead of guessing.",
+    "topic": "radio-codes",
+    "answer": "clarify",
+    "solution": "Clarifying in the moment is safer than assuming and letting a possible miscommunication stand.",
+    "hints": [
+      "Think: 'When in doubt, _____ it out.'",
+      "It starts with 'c'."
+    ],
+    "points": 10,
+    "time_limit_sec": 75
+  }
+]

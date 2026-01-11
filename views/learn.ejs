@@ -1,27 +1,111 @@
-<h2 class="mb-3">Learn Physics</h2>
+<%
+  const heading = "911 Procedures & Lessons";
+%>
+
+<h2 class="mb-2"><%= heading %></h2>
+
+<div class="d-flex align-items-center mb-3">
+  <div class="border-start border-3 border-danger ps-3">
+    <div class="small text-muted">
+      Practice the exact steps you’ll use on live calls — greeting, location, classification, and radio codes.
+    </div>
+  </div>
+</div>
+
 <% if (!user) { %>
-  <div class="alert alert-info">Sign in to save your progress.</div>
+  <div class="alert alert-info">
+    Sign in to save your progress across sessions and see your streak across procedures.
+  </div>
 <% } %>
 
-<div class="row g-3">
-  <% lessons.forEach(L => { 
-    const p = (progress && progress[L.slug]) || { done:0, total:L.questionIds.length };
-    const pct = p.total ? Math.round(100 * p.done / p.total) : 0; %>
-    <div class="col-md-6">
-      <div class="card p-3 h-100">
-        <h5 class="mb-1">
-  <%= L.title %>
-  <% if (progress[L.slug]?.completed) { %>
-    <span class="badge bg-success ms-2">Completed</span>
-  <% } %>
-</h5>
-        <div class="text-muted mb-2"><%= L.topic %></div>
-        <div class="progress mb-2" style="height:8px;">
-          <div class="progress-bar" style="width:<%= pct %>%"></div>
-        </div>
-        <div class="small mb-2"><%= p.done %>/<%= p.total %> correct</div>
-        <a class="btn btn-primary" href="/lessons/<%= L.slug %>">Start lesson</a>
-      </div>
-    </div>
-  <% }) %>
+<p class="text-muted mb-3">
+  Each card below is a 911 procedure or training module. Start a lesson to run through timed questions,
+  earn points, and see which procedures need more review.
+</p>
+
+
+<% if (!lessons || !lessons.length) { %>
+  <div class="alert alert-warning">
+    No lessons are available yet. Use the Admin Import page to load your first 911 procedure.
+  </div>
+<% } else { %>
+  <div class="row g-3">
+        <% lessons.forEach(L => {
+
+      const prog = (typeof lessonProgress !== "undefined" && lessonProgress && lessonProgress[L.slug])
+        ? lessonProgress[L.slug]
+        : { attempts: 0, bestPercent: 0 };
+
+      const pct = (typeof prog.bestPercent === "number")
+        ? Math.round(prog.bestPercent)
+        : 0;
+
+      let status = "Not started";
+      let badgeClass = "secondary";
+
+      if (prog.attempts > 0 && pct < 100) {
+        status = "In progress";
+        badgeClass = "warning";
+      }
+      if (prog.attempts > 0 && pct >= 100) {
+        status = "Perfect";
+        badgeClass = "success";
+      }
+
+      const firstObjective = (Array.isArray(L.objectives) && L.objectives.length)
+        ? L.objectives[0]
+        : null;
+
+      // description priority: explicit description > first objective > topic
+      const desc = L.description || firstObjective || L.topic || null;
+    %>
+
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <div class="d-flex justify-content-between align-items-start mb-1">
+              <div>
+                <% if (L.order !== undefined && L.order !== null) { %>
+                  <div class="text-muted small">
+                    Procedure <%= L.order %>
+                  </div>
+                <% } %>
+                <h5 class="card-title mb-1">
+                  <%= L.title %>
+                  <span class="badge bg-<%= badgeClass %> ms-1"><%= status %></span>
+
+                </h5>
+                <% if (L.topic) { %>
+                  <div class="text-muted small"><%= L.topic %></div>
+                <% } %>
+              </div>
+            </div>
+
+            <% if (desc) { %>
+              <p class="card-text small text-muted mb-2">
+                <%= desc %>
+              </p>
+            <% } %>
+
+
+            <div class="mb-2">
+              <div class="progress" style="height: 8px;">
+                <div class="progress-bar" style="width:<%= pct %>%"></div>
+              </div>
+              <div class="small text-muted mt-1">
+  Best score: <%= pct %>%
 </div>
+
+            </div>
+
+            <div class="mt-auto">
+              <a class="btn btn-primary btn-sm" href="/lessons/<%= L.slug %>">
+                Start Lesson
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <% }) %>
+  </div>
+<% } %>

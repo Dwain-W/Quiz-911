@@ -1,0 +1,702 @@
+{
+  "lesson": {
+    "slug": "911-proc-102-crimes-in-progress-vs-past",
+    "title": "911-Procedure 102 – CRIMES IN PROGRESS vs CRIMES IN THE PAST",
+    "topic": "NYPD Calltaking – Crime Timing",
+    "order": 102,
+    "objectives": [
+      "Distinguish between crimes in progress and crimes in the past using the timing rules in the procedure.",
+      "Apply the 5-minute threshold for classifying past crimes when the perpetrator has left.",
+      "Recognize when a caller’s description still indicates a potential in-progress situation.",
+      "Use correct terminology when entering jobs that involve delayed reporting."
+    ],
+    "questionIds": [
+      "NYC911-102-MCQ-001",
+      "NYC911-102-MCQ-002",
+      "NYC911-102-MCQ-003",
+      "NYC911-102-MCQ-004",
+      "NYC911-102-TF-001",
+      "NYC911-102-TF-002",
+      "NYC911-102-TF-003",
+      "NYC911-102-MATCH-001",
+      "NYC911-102-MATCH-002",
+      "NYC911-102-FB-001",
+      "NYC911-102-MCQ-005",
+    "NYC911-102-MCQ-006",
+    "NYC911-102-MCQ-007",
+    "NYC911-102-MCQ-008",
+    "NYC911-102-MCQ-009",
+    "NYC911-102-MCQ-010",
+    "NYC911-102-MCQ-011",
+    "NYC911-102-MCQ-012",
+    "NYC911-102-TF-004",
+    "NYC911-102-TF-005",
+    "NYC911-102-TF-006",
+    "NYC911-102-TF-007",
+    "NYC911-102-TF-008",
+    "NYC911-102-MATCH-003",
+    "NYC911-102-MATCH-004",
+    "NYC911-102-FB-002",
+    "NYC911-102-FB-003",
+    "NYC911-102-FB-004",
+    "NYC911-102-FB-005",
+    "NYC911-102-FB-006"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-102-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Crime Timing",
+      "subtopic": "Basic Rule",
+      "stem": "According to the crimes-in-progress vs crimes-in-the-past procedure, which situation is MOST clearly a crime IN PROGRESS?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Caller reports their car was broken into sometime overnight, perpetrator long gone.",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Caller reports someone is currently breaking their apartment window and trying to get in.",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Caller reports they noticed their wallet missing sometime last week.",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Caller reports they found graffiti on their door from earlier today.",
+          "is_correct": false
+        }
+      ],
+      "solution": "The procedure classifies situations as in progress when the threat or criminal activity is occurring now or appears to be ongoing.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": ["in-progress", "timing", "procedure"]
+    },
+    {
+      "question_id": "NYC911-102-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Crime Timing",
+      "subtopic": "5-Minute Rule",
+      "stem": "The procedure states that a crime should generally be entered as 'in the past' when it occurred ______ minutes or more ago and the perpetrator is not believed to be in the immediate area.",
+      "choices": [
+        { "id": "A", "text": "2 minutes", "is_correct": false },
+        { "id": "B", "text": "3 minutes", "is_correct": false },
+        { "id": "C", "text": "5 minutes", "is_correct": true },
+        { "id": "D", "text": "10 minutes", "is_correct": false }
+      ],
+      "solution": "The training procedure uses a 5-minute threshold when the perpetrator is no longer on scene or nearby.",
+      "time_limit_sec": 30,
+      "points": 10,
+      "tags": ["5-minute-threshold", "past", "timing"]
+    },
+    {
+      "question_id": "NYC911-102-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Crime Timing",
+      "subtopic": "Perp Still Nearby",
+      "stem": "According to the procedure, which scenario should a calltaker treat as potentially IN PROGRESS even if more than 5 minutes have passed?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Caller reports a burglary occurred 30 minutes ago, perpetrator left in a taxi and is not seen.",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Caller reports an assault that occurred yesterday, and the suspect is out of town.",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Caller reports being threatened with a knife 10 minutes ago and the suspect is still standing outside the location.",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Caller reports a package theft from earlier in the week, no suspect information.",
+          "is_correct": false
+        }
+      ],
+      "solution": "The procedure emphasizes that if the caller still sees the suspect or threat nearby, it may be treated as in progress regardless of the exact minutes elapsed.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": ["perp-nearby", "in-progress", "timing"]
+    },
+    {
+      "question_id": "NYC911-102-MCQ-004",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Crime Timing",
+      "subtopic": "Delayed Reporting",
+      "stem": "The procedure instructs calltakers to handle delayed reports correctly. Which option BEST reflects a crime in the past with delayed reporting?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Caller is watching a live fight happening on the corner right now.",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Caller just discovered their car was stolen sometime yesterday and has no suspect on scene.",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Caller hears someone currently trying door handles in the hallway.",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Caller is unsure whether the incident happened or is a misunderstanding.",
+          "is_correct": false
+        }
+      ],
+      "solution": "The car stolen sometime yesterday with no suspect present fits the procedure’s guidance for a crime in the past with delayed reporting.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": ["delayed-report", "past-crime"]
+    },
+    {
+      "question_id": "NYC911-102-TF-001",
+      "type": "true_false",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Crime Timing",
+      "subtopic": "Threshold Rule",
+      "stem": "According to the procedure, if a crime occurred more than 5 minutes ago and the suspect is not believed to be in the immediate area, it is normally entered as a crime in the past.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-102-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Crime Timing",
+      "subtopic": "Caller Perception",
+      "stem": "If the caller believes the suspect might still be nearby or returning, the procedure allows the calltaker to treat the job as potentially in progress, even when the exact time is slightly over 5 minutes.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-102-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Crime Timing",
+      "subtopic": "Overuse of In-Progress",
+      "stem": "The procedure encourages calltakers to mark as many incidents as possible as in progress, even when the suspect is clearly gone, so units respond faster.",
+      "answer": "false",
+      "time_limit_sec": 30,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-102-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Crime Timing",
+      "subtopic": "Classification",
+      "stem": "Using the procedure’s guidelines, match each situation to the MOST appropriate classification.",
+      "answer": [
+        ["Suspect seen breaking window right now", "Crime in progress"],
+        ["Caller returns home to find door forced, no suspect seen", "Crime in the past"],
+        ["Caller followed by the same person for several blocks at this moment", "Crime in progress"],
+        ["Caller discovered money missing from wallet from earlier today, no suspect seen", "Crime in the past"]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-102-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Crime Timing",
+      "subtopic": "Key Factors",
+      "stem": "Match each factor from the procedure to how it influences in-progress vs past classification.",
+      "answer": [
+        ["Time since incident", "Used with the 5-minute guideline when suspect is gone"],
+        ["Suspect still on scene", "Strong indicator of crime in progress"],
+        ["Suspect believed to have fled area", "Supports crime in the past classification"],
+        ["Ongoing sounds of disturbance", "Suggests possible in-progress situation"]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-102-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Crime Timing",
+      "subtopic": "Core Rule",
+      "stem": "The procedure teaches that a crime is generally entered as 'in the past' when it occurred 5 minutes or more ago and the perpetrator is not believed to be in the immediate __________.",
+      "answer": "area",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+  "question_id": "NYC911-102-MCQ-005",
+  "type": "mcq",
+  "difficulty": "easy",
+  "domain": "911",
+  "topic": "Crime Timing",
+  "subtopic": "Caller Statements",
+  "stem": "Which caller statement MOST clearly indicates a crime in progress according to the timing procedure?",
+  "choices": [
+    {
+      "id": "A",
+      "text": "“I think my car was broken into sometime last night.”",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "“Someone is banging on my door and trying the handle right now.”",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "“I noticed my wallet missing from my bag this morning.”",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "“Earlier today I heard yelling outside but it stopped.”",
+      "is_correct": false
+    }
+  ],
+  "solution": "The procedure considers current behavior at the location as an in-progress indicator.",
+  "time_limit_sec": 45,
+  "points": 10,
+  "tags": ["in-progress", "caller-words"]
+},
+{
+  "question_id": "NYC911-102-MCQ-006",
+  "type": "mcq",
+  "difficulty": "easy",
+  "domain": "911",
+  "topic": "Crime Timing",
+  "subtopic": "Caller Uncertainty",
+  "stem": "If the caller is unsure exactly when the crime occurred but the suspect is clearly gone, the procedure suggests the calltaker should:",
+  "choices": [
+    {
+      "id": "A",
+      "text": "Treat it as in progress because the exact time isn’t known.",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "Treat it as a crime in the past and document the best estimate of time.",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "Tell the caller the job cannot be entered.",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "Delay entry until the caller can confirm the time.",
+      "is_correct": false
+    }
+  ],
+  "solution": "When the suspect is gone and time is approximate, the procedure supports entering it as past with the best available info.",
+  "time_limit_sec": 45,
+  "points": 10
+},
+{
+  "question_id": "NYC911-102-MCQ-007",
+  "type": "mcq",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Timing",
+  "subtopic": "5-Minute Rule Application",
+  "stem": "Which situation MOST closely matches the procedure’s use of the 5-minute rule for a crime in the past?",
+  "choices": [
+    {
+      "id": "A",
+      "text": "Caller reports someone broke their car window 30 minutes ago and the suspect ran off down the block.",
+      "is_correct": true
+    },
+    {
+      "id": "B",
+      "text": "Caller is watching someone smash windows on cars right now.",
+      "is_correct": false
+    },
+    {
+      "id": "C",
+      "text": "Caller heard loud arguing on the corner ten minutes ago, suspects still in view.",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "Caller reports their package is missing but just realized it.",
+      "is_correct": false
+    }
+  ],
+  "solution": "Over 5 minutes with suspect gone from the immediate area supports classification as past.",
+  "time_limit_sec": 45,
+  "points": 10,
+  "tags": ["5-minute-threshold"]
+},
+{
+  "question_id": "NYC911-102-MCQ-008",
+  "type": "mcq",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Timing",
+  "subtopic": "Ongoing Threat",
+  "stem": "The caller says, “He hit me with a bottle 15 minutes ago, but he’s still standing outside yelling and pacing.” How should the calltaker view this under the procedure?",
+  "choices": [
+    {
+      "id": "A",
+      "text": "Clearly a crime in the past, because more than 5 minutes have passed.",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "Potentially in progress because the suspect is still on scene and agitated.",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "Not a police matter since the assault already happened.",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "Treat as noise complaint because the yelling is loud.",
+      "is_correct": false
+    }
+  ],
+  "solution": "The presence of the suspect and ongoing behavior can override the strict time factor and support an in-progress approach.",
+  "time_limit_sec": 45,
+  "points": 10
+},
+{
+  "question_id": "NYC911-102-MCQ-009",
+  "type": "mcq",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Timing",
+  "subtopic": "Delayed Report Examples",
+  "stem": "Which call would MOST clearly be a delayed report of a crime in the past?",
+  "choices": [
+    {
+      "id": "A",
+      "text": "Caller is watching two people fighting right now in front of their building.",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "Caller reports their store was broken into overnight and they discovered it upon opening.",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "Caller hears someone inside their backyard at this moment.",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "Caller sees someone trying car doors on the block now.",
+      "is_correct": false
+    }
+  ],
+  "solution": "The burglary discovered the next morning with no suspect present is a classic delayed report of a past crime.",
+  "time_limit_sec": 45,
+  "points": 10
+},
+{
+  "question_id": "NYC911-102-MCQ-010",
+  "type": "mcq",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Timing",
+  "subtopic": "Information Gathering",
+  "stem": "When deciding in progress vs past, which factor should the calltaker focus on FIRST according to the procedure?",
+  "choices": [
+    {
+      "id": "A",
+      "text": "The caller’s emotional tone.",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "Whether the suspect is still on scene or might return.",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "Whether the caller wants to sign a complaint.",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "What the neighbors think happened.",
+      "is_correct": false
+    }
+  ],
+  "solution": "The suspect’s presence or potential return is a primary factor for in-progress classification.",
+  "time_limit_sec": 45,
+  "points": 10
+},
+{
+  "question_id": "NYC911-102-MCQ-011",
+  "type": "mcq",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Timing",
+  "subtopic": "Ambiguous Time",
+  "stem": "The caller says, “I just noticed the damage, but it could have happened anytime in the last two hours. Nobody is around now.” According to the procedure, this should be treated as:",
+  "choices": [
+    {
+      "id": "A",
+      "text": "Crime in progress, because the exact time is unknown.",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "Crime in the past, with documented approximate time frame.",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "Noise complaint only.",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "Not a recordable incident.",
+      "is_correct": false
+    }
+  ],
+  "solution": "No suspect on scene plus broad time window fits a past classification with approximate timing noted.",
+  "time_limit_sec": 45,
+  "points": 10
+},
+{
+  "question_id": "NYC911-102-MCQ-012",
+  "type": "mcq",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Timing",
+  "subtopic": "Special Circumstances",
+  "stem": "Which factor might cause a calltaker to lean toward in-progress classification, even when more than 5 minutes have passed?",
+  "choices": [
+    {
+      "id": "A",
+      "text": "Caller is calm and speaking clearly.",
+      "is_correct": false
+    },
+    {
+      "id": "B",
+      "text": "Caller believes the suspect is hiding nearby or might return any moment.",
+      "is_correct": true
+    },
+    {
+      "id": "C",
+      "text": "The incident happened in daylight.",
+      "is_correct": false
+    },
+    {
+      "id": "D",
+      "text": "The caller is unsure whether a crime really happened.",
+      "is_correct": false
+    }
+  ],
+  "solution": "Ongoing risk due to suspect possibly nearby or returning can support in-progress handling.",
+  "time_limit_sec": 60,
+  "points": 10
+},
+{
+  "question_id": "NYC911-102-TF-004",
+  "type": "true_false",
+  "difficulty": "easy",
+  "domain": "911",
+  "topic": "Crime Timing",
+  "stem": "If the suspect is definitely gone from the location and more than 5 minutes have passed, the procedure generally treats the crime as in the past.",
+  "answer": "true",
+  "time_limit_sec": 25,
+  "points": 5
+},
+{
+  "question_id": "NYC911-102-TF-005",
+  "type": "true_false",
+  "difficulty": "easy",
+  "domain": "911",
+  "topic": "Crime Timing",
+  "stem": "If the caller is still watching the suspect at the location, the situation may be considered in progress even if more than 5 minutes have passed.",
+  "answer": "true",
+  "time_limit_sec": 25,
+  "points": 5
+},
+{
+  "question_id": "NYC911-102-TF-006",
+  "type": "true_false",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Timing",
+  "stem": "The procedure instructs calltakers to always mark incidents as in progress to ensure faster response.",
+  "answer": "false",
+  "time_limit_sec": 25,
+  "points": 5
+},
+{
+  "question_id": "NYC911-102-TF-007",
+  "type": "true_false",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Timing",
+  "stem": "Delayed reports discovered long after the incident with no suspect present are treated as crimes in the past.",
+  "answer": "true",
+  "time_limit_sec": 25,
+  "points": 5
+},
+{
+  "question_id": "NYC911-102-TF-008",
+  "type": "true_false",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Timing",
+  "stem": "If the caller cannot give an exact time of occurrence, the calltaker must refuse to enter the job.",
+  "answer": "false",
+  "time_limit_sec": 25,
+  "points": 5
+},
+{
+  "question_id": "NYC911-102-MATCH-003",
+  "type": "matching",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Timing",
+  "subtopic": "Progress vs Past",
+  "stem": "Match each caller description to the most appropriate classification using the timing procedure.",
+  "answer": [
+    [
+      "“He’s outside right now trying car doors.”",
+      "Crime in progress"
+    ],
+    [
+      "“My car window was smashed sometime last night, nobody around now.”",
+      "Crime in the past"
+    ],
+    [
+      "“They were fighting five minutes ago and are still in front of my building.”",
+      "Potentially in progress"
+    ],
+    [
+      "“I just noticed today that my bike is missing from the basement.”",
+      "Delayed report of crime in the past"
+    ]
+  ],
+  "time_limit_sec": 60,
+  "points": 10
+},
+{
+  "question_id": "NYC911-102-MATCH-004",
+  "type": "matching",
+  "difficulty": "medium",
+  "domain": "911",
+  "topic": "Crime Timing",
+  "subtopic": "Key Factors",
+  "stem": "Match each factor with its effect on in-progress vs past classification.",
+  "answer": [
+    [
+      "Suspect still visible at the scene",
+      "Supports in-progress classification"
+    ],
+    [
+      "Over 5 minutes with suspect gone",
+      "Supports past classification"
+    ],
+    [
+      "Caller fears suspect will return shortly",
+      "May still be treated as in progress"
+    ],
+    [
+      "Incident discovered hours later",
+      "Clear delayed past crime"
+    ]
+  ],
+  "time_limit_sec": 60,
+  "points": 10
+},
+{
+  "question_id": "NYC911-102-FB-002",
+  "type": "fill_blank",
+  "difficulty": "hard",
+  "domain": "911",
+  "topic": "Crime Timing",
+  "subtopic": "General Rule",
+  "stem": "The procedure states that a crime is normally entered as “in the past” when it occurred 5 minutes or more ago and the perpetrator is not believed to be in the immediate __________.",
+  "answer": "area",
+  "time_limit_sec": 40,
+  "points": 10
+},
+{
+  "question_id": "NYC911-102-FB-003",
+  "type": "fill_blank",
+  "difficulty": "hard",
+  "domain": "911",
+  "topic": "Crime Timing",
+  "subtopic": "Suspect Presence",
+  "stem": "Even if more than 5 minutes have passed, the situation may be treated as in progress if the suspect is still __________ by the caller.",
+  "answer": "seen",
+  "time_limit_sec": 40,
+  "points": 10
+},
+{
+  "question_id": "NYC911-102-FB-004",
+  "type": "fill_blank",
+  "difficulty": "hard",
+  "domain": "911",
+  "topic": "Crime Timing",
+  "subtopic": "Delayed Reporting",
+  "stem": "When a crime is reported long after it occurred with no suspect present, the procedure treats it as a __________ report.",
+  "answer": "delayed",
+  "time_limit_sec": 40,
+  "points": 10
+},
+{
+  "question_id": "NYC911-102-FB-005",
+  "type": "fill_blank",
+  "difficulty": "hard",
+  "domain": "911",
+  "topic": "Crime Timing",
+  "subtopic": "Documentation",
+  "stem": "For crimes in the past, the calltaker should document the best available __________ of when the incident occurred.",
+  "answer": "estimate",
+  "time_limit_sec": 40,
+  "points": 10
+},
+{
+  "question_id": "NYC911-102-FB-006",
+  "type": "fill_blank",
+  "difficulty": "hard",
+  "domain": "911",
+  "topic": "Crime Timing",
+  "subtopic": "Risk Assessment",
+  "stem": "The procedure emphasizes balancing the time of occurrence with the current level of __________ to decide in progress vs past.",
+  "answer": "risk",
+  "time_limit_sec": 40,
+  "points": 10
+}
+
+  ]
+}

@@ -1,71 +1,81 @@
-
-
 <div class="container my-4">
-  <!-- Title -->
-  <h2 class="mb-3"><%= lesson.title %></h2>
-<p class="text-muted" id="loading-text">
-  Loading procedure questions…
-</p>
+  <% 
+    const procNum = (lesson && lesson.order !== undefined && lesson.order !== null)
+      ? lesson.order
+      : null;
 
-<%
-  const procNum = (lesson && lesson.order !== undefined && lesson.order !== null) ? lesson.order : null;
-%>
+    const topic = lesson && lesson.topic ? lesson.topic : null;
+    const objectives = (lesson && Array.isArray(lesson.objectives)) ? lesson.objectives : [];
+  %>
 
-<%
-  const currentDiff = (typeof selectedDifficulty !== "undefined" && selectedDifficulty) ? selectedDifficulty : "";
-%>
+  <!-- Header: title + difficulty selector -->
+  <div class="mb-3 d-flex justify-content-between align-items-end gap-3">
+    <div>
+      <% if (procNum !== null) { %>
+        <div class="text-muted small">Procedure <%= procNum %></div>
+      <% } %>
+      <h1 class="h3 mb-0"><%= lesson.title %></h1>
 
-<div class="mb-3 d-flex justify-content-between align-items-end gap-3">
-  <div>
-    <% if (procNum !== null) { %>
-      <div class="text-muted small">Procedure <%= procNum %></div>
-    <% } %>
-    <h1 class="h3 mb-0"><%= lesson.title %></h1>
-  </div>
-
-  <div style="min-width: 260px;">
-    <div class="d-flex justify-content-between align-items-center">
-      <label class="form-label small mb-1">Difficulty</label>
-      <a id="btnContinueProgression" class="small" href="#" style="text-decoration:none;">Continue progression</a>
+      <% if (topic) { %>
+        <div class="text-muted small"><%= topic %></div>
+      <% } %>
     </div>
 
-    <select id="difficultySelect" class="form-select">
-      <option value="">Loading…</option>
-    </select>
+    <div style="min-width: 260px;">
+      <div class="d-flex justify-content-between align-items-center">
+        <label class="form-label small mb-1">Difficulty</label>
+        <a id="btnContinueProgression" class="small" href="#" style="text-decoration:none;">
+          Continue progression
+        </a>
+      </div>
 
-    <div id="difficultyNote" class="small text-muted mt-1"></div>
+      <select id="difficultySelect" class="form-select">
+        <option value="">Loading…</option>
+      </select>
+
+      <div id="difficultyNote" class="small text-muted mt-1"></div>
+    </div>
   </div>
 
-</div>
+  <% if (objectives.length) { %>
+    <div class="mb-3">
+      <h2 class="h6 mb-1">Objectives</h2>
+      <ul class="text-muted mb-0">
+        <% objectives.forEach(function (obj) { %>
+          <li><%= obj %></li>
+        <% }); %>
+      </ul>
+    </div>
+  <% } %>
 
-
-
+  <!-- Loading text -->
+  <p class="text-muted" id="loading-text">
+    Loading procedure questions…
+  </p>
 
   <!-- Quiz wrapper (script reads from here) -->
-  <div id="qwrap" data-lesson="<%= lesson.slug %>" data-proc="<%= lesson.order ?? '' %>"></div>
+ <div
+  id="qwrap"
+  class="quiz-container"
+  data-lesson="<%= lesson.slug %>"
+  data-proc="<%= lesson.order ?? '' %>">
+</div>
 
 
+  <!-- HUD -->
   <div id="hud" class="position-fixed top-0 end-0 p-3" style="z-index:1100;">
-  <div class="card p-2 small shadow">
-    <div>Session points: <span id="hud-pts">0</span></div>
-    <div>Question: <span id="hud-prog">0/0</span></div>
-    <div>Streak: <span id="hud-streak">—</span></div>
+    <div class="card p-2 small shadow">
+      <div>Session points: <span id="hud-pts">0</span></div>
+      <div>Question: <span id="hud-prog">0/0</span></div>
+      <div>Streak: <span id="hud-streak">—</span></div>
+    </div>
   </div>
-</div>
 
-
-</div>
-
-
-
-
-<!-- External quiz logic -->
-<script src="/js/quiz.js"></script>
-
+  <!-- External quiz logic -->
+  <script src="/js/quiz.js"></script>
 
   <!-- Optional back/home link -->
   <div class="mt-4">
     <a href="/lessons" class="btn btn-outline-secondary">← Back to Procedures</a>
   </div>
 </div>
-

@@ -1,43 +1,51 @@
 import { Router } from "express";
 import Lesson from "../models/Lesson.js";
 import Attempt from "../models/Attempt.js";
+import LessonProgress from "../models/LessonProgress.js";
+
 
 const r = Router();
 
 r.get("/", async (req, res) => {
-  const lessons = await Lesson.find({}).sort({ createdAt: 1 }).lean();
-  const progress = {};
+  try {
+    const lessons = await Lesson.find({})
+      .sort({ order: 1, title: 1 })
+      .lean();
 
-  if (req.user) {
-    // Get user's latest attempts per question across all lessons
-    const allQids = lessons.flatMap(L => L.questionIds || []);
-    const latest = await Attempt.aggregate([
-      { $match: { userId: req.user.id, question_id: { $in: allQids } } },
-      { $sort: { createdAt: -1 } },
-      { $group: { _id: "$question_id", doc: { $first: "$$ROOT" } } }
-    ]);
+    // Load all progress entries
+    const progressDocs = await LessonProgress.find({}).lean();
 
-    const correctSet = new Set(latest.filter(x => x.doc?.isCorrect).map(x => x._id));
+    // Build a map by lessonId (which matches lesson.slug in your setup)
+    const progressMap = {};
+    for (const p of progressDocs) {
+      const id = p.lessonId;
+      if (!id) continue;
 
-    for (const L of lessons) {
-      const total = (L.questionIds || []).length;
-      const done  = (L.questionIds || []).filter(id => correctSet.has(id)).length;
+      if (!progressMap[id]) {
+        progressMap[id] = {
+          attempts: 0,
+          bestPercent: 0
+        };
+      }
 
-      // ✅ initialize first
-      progress[L.slug] = { done, total };
+      const bucket = progressMap[id];
+      bucket.attempts += 1;
 
-      // ✅ then set completed flag
-      progress[L.slug].completed = total > 0 && done === total;
+      // If percent exists on this doc, track the best
+      if (typeof p.percent === "number" && p.percent > bucket.bestPercent) {
+        bucket.bestPercent = p.percent;
+      }
     }
-  } else {
-    // Not signed in → initialize progress for display without crashing
-    for (const L of lessons) {
-      const total = (L.questionIds || []).length;
-      progress[L.slug] = { done: 0, total, completed: false };
-    }
+
+    res.render("learn", {
+      title: "Learn 911 Procedures",
+      lessons,
+      lessonProgress: progressMap
+    });
+  } catch (err) {
+    console.error("learn route error:", err);
+    res.status(500).send("Error loading learn page");
   }
-
-  res.render("learn", { title: "Learn", lessons, progress });
 });
 
 export default r;

@@ -2,29 +2,26 @@ import { Router } from "express";
 import Lesson from "../models/Lesson.js";
 import Question from "../models/Question.js";
 import LessonProgress from "../models/LessonProgress.js";
+import {  normDiff,  stageToDifficulty,  difficultyToStage,  DIFFICULTIES} from "../helpers/difficulty.js";
+import {  computeTierCounts,  filterQuestionsByDifficulty} from "../helpers/questions.js";
+import LessonAttempt from "../models/LessonAttempt.js";
+
+
+
 
 
 const r = Router();
 
-function stageToDifficulty(stage) {
-  if (stage === 1) return "medium";
-  if (stage === 2) return "hard";
-  return "easy";
-}
 
-function normDiff(d) {
-  if (d === undefined || d === null) return null;
-  const s = String(d).trim().toLowerCase();
-  return s || null;
-}
 
-function difficultyToStage(diff) {
-  const d = normDiff(diff);
-  if (d === "medium") return 1;
-  if (d === "hard") return 2;
-  return 0; // easy/default
+function shuffleArray(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
 }
-
 
 
 
@@ -38,183 +35,212 @@ function escapeHtml(str = "") {
     .replaceAll("'", "&#39;");
 }
 
-/**
- * GET /lessons
- * Procedures list (sorted by lesson.order)
- */
+    /**
+     * GET /lessons
+     * Procedures list (sorted by lesson.order)
+     */
 
 
-/**
- * GET /lessons/:slug.json
- * returns { lesson: {...}, questions: [...] }
- */
-// returns { lesson: {...}, questions: [...], stageInfo: {...} }
-
-r.get("/:slug.json", async (req, res) => {
+    /**
+     * GET /lessons/:slug.json
+     * Returns all questions for a lesson in the order of lesson.questionIds.
+     * Keeps it simple: no stage gating, no over-filtering.
+     */
+   r.get("/:slug.json", async (req, res) => {
   try {
-    const lesson = await Lesson.findOne({ slug: req.params.slug }).lean();
-    if (!lesson) return res.status(404).json({ error: "Lesson not found" });
+    const rawSlug = req.params.slug || "";
+    const slug = String(rawSlug).trim();
+    if (!slug) {
+      return res.status(400).json({ error: "Missing lesson slug" });
+    }
+
+    const lesson = await Lesson.findOne({ slug }).lean();
+    if (!lesson) {
+      return res.status(404).json({ error: "Lesson not found" });
+    }
 
     const questionIds = Array.isArray(lesson.questionIds) ? lesson.questionIds : [];
+
+    // If lesson has no questionIds, return early (this should NOT be the case for 101)
     if (questionIds.length === 0) {
       return res.json({
-        lesson: { slug: lesson.slug, title: lesson.title, order: lesson.order },
-        stageInfo: { stage: 0, difficulty: "easy", unlockedStages: [0] },
-        questions: []
+        ok: true,
+        lesson: {
+          slug: lesson.slug,
+          title: lesson.title,
+          topic: lesson.topic,
+          order: lesson.order,
+          objectives: lesson.objectives || [],
+          questionCount: 0
+        },
+        questions: [],
+        stageInfo: {
+          difficulty: (req.query.difficulty || "easy").toLowerCase(),
+          servedDifficulty: (req.query.difficulty || "easy").toLowerCase()
+        }
       });
     }
 
-    // Load all questions, keep lesson order
-    const qs = await Question.find({ question_id: { $in: questionIds } }).lean();
-    const byId = new Map(qs.map(q => [q.question_id, q]));
-    const orderedAll = questionIds.map(id => byId.get(id)).filter(Boolean);
+    // Fetch all questions that belong to this lesson
+    const docs = await Question.find({
+      question_id: { $in: questionIds }
+    }).lean();
 
-    // Count questions per tier for this procedure (used by UI to disable empty tiers)
-    const tierCounts = { easy: 0, medium: 0, hard: 0 };
-    for (const q of orderedAll) {
-      const d = normDiff(q.difficulty);
-      if (tierCounts[d] != null) tierCounts[d] += 1;
-    }
+    // Preserve order of lesson.questionIds
+    const byId = new Map(docs.map((q) => [q.question_id, q]));
+    const ordered = questionIds
+      .map((id) => byId.get(id))
+      .filter(Boolean);
 
+    // Fallback in case something is off
+    const source = ordered.length > 0 ? ordered : docs;
 
-    // Determine user's progress
-    const userId = req.user?.id || req.user?._id || null;
-    let stage = 0;              // current progression stage (0 easy, 1 medium, 2 hard)
-    let completedStages = [];   // stages you've completed
+    const questionsPayload = source.map((q) => ({
+      question_id: q.question_id,
+      type: q.type,
+      difficulty: q.difficulty || "easy",
+      domain: q.domain || "911",
+      topic: q.topic || null,
+      subtopic: q.subtopic || null,
+      stem: q.stem,
+      choices: Array.isArray(q.choices) ? q.choices : [],
+      answer: q.answer,
+      solution: q.solution || "",
+      hints: Array.isArray(q.hints) ? q.hints : [],
+      tags: Array.isArray(q.tags) ? q.tags : []
+    }));
 
-    if (userId) {
-      const prog = await LessonProgress.findOneAndUpdate(
-        { userId, lessonSlug: lesson.slug },
-        { $setOnInsert: { stage: 0, completedStages: [] } },
-        { upsert: true, new: true }
-      ).lean();
+    const diff = (req.query.difficulty || "easy").toLowerCase();
 
-      stage = prog?.stage ?? 0;
-      completedStages = Array.isArray(prog?.completedStages) ? prog.completedStages : [];
-    }
+    // --- Difficulty filtering ---
+        let filtered = questionsPayload;
 
-    // Highest tier you've unlocked is the max of: stage + completed stages (and always at least 0)
-    const maxUnlocked = Math.max(0, stage, ...(completedStages || []));
+        // Normalize the requested difficulty
+        const norm = ["easy", "medium", "hard"];
+        const requested = norm.includes(diff) ? diff : "easy";
 
-    // Unlock = all tiers up to maxUnlocked (so if you're on medium, easy stays unlocked)
-    const unlockedStages = Array.from({ length: maxUnlocked + 1 }, (_, i) => i);
+        // Start with requested tier
+        let actualTier = requested;
 
+        filtered = questionsPayload.filter(q =>
+          (q.difficulty || "easy").toLowerCase() === actualTier
+        );
 
-    // Requested difficulty (optional)
-    const requestedDifficulty = normDiff(req.query.difficulty);
-    const requestedStage = requestedDifficulty ? difficultyToStage(requestedDifficulty) : stage;
-
-    // Enforce lock: you can only request <= maxUnlocked
-    const allowedStage = (requestedStage <= maxUnlocked) ? requestedStage : stage;
-    const targetDiff = stageToDifficulty(allowedStage);
-
-    // Try the selected/allowed tier first
-    let servedDifficulty = targetDiff;
-    let ordered = orderedAll.filter(q => normDiff(q.difficulty) === servedDifficulty);
-
-    let tierEmpty = false;
-    let fallbackFrom = null;
-
-// If tier has no questions, fall back to the nearest tier that DOES have questions.
-// Prefer unlocked tiers first (downward), then any tier (to avoid a broken page).
-if (ordered.length === 0 && orderedAll.length > 0) {
-  tierEmpty = true;
-  fallbackFrom = servedDifficulty;
-
-  // 1) check unlocked tiers downward: allowedStage -> 0
-  let found = null;
-  for (let s = allowedStage; s >= 0; s--) {
-    if (!unlockedStages.includes(s)) continue;
-    const d = stageToDifficulty(s);
-    const tmp = orderedAll.filter(q => normDiff(q.difficulty) === d);
-    if (tmp.length) { found = { d, tmp }; break; }
-  }
-
-  // 2) if still nothing, check any tier (easy/medium/hard)
-  if (!found) {
-    for (const d of ["easy", "medium", "hard"]) {
-      const tmp = orderedAll.filter(q => normDiff(q.difficulty) === d);
-      if (tmp.length) { found = { d, tmp }; break; }
-    }
-  }
-
-  if (found) {
-    servedDifficulty = found.d;
-    ordered = found.tmp;
-  }
-}
-
-return res.json({
-  lesson: { slug: lesson.slug, title: lesson.title, order: lesson.order },
-  stageInfo: {
-    stage,
-    difficulty: stageToDifficulty(stage),
-    unlockedStages,
-    tierCounts,
-    requestedDifficulty: requestedDifficulty || null,
-    servedDifficulty,
-    locked: requestedStage > maxUnlocked,
-    tierEmpty,
-    fallbackFrom,
-    fallbackTo: tierEmpty ? servedDifficulty : null
-  },
-  questions: ordered
-});
-
-  } catch (e) {
-    console.error("[LESSON JSON ERROR]", req.params.slug, e);
-    return res.status(500).json({ error: "Lesson JSON failed", message: e.message });
-  }
-});
-
-
-    r.get("/", async (req, res) => {
-      const lessons = await Lesson.find().sort({ order: 1 }).lean();
-
-      // Build tierCountsBySlug: { slug: { easy: n, medium: n, hard: n } }
-    const tierCountsBySlug = {};
-    if (lessons.length) {
-      const allIds = lessons.flatMap(l => Array.isArray(l.questionIds) ? l.questionIds : []);
-      const qs = await Question.find({ question_id: { $in: allIds } })
-        .select("question_id difficulty")
-        .lean();
-
-      const diffById = new Map(qs.map(q => [q.question_id, normDiff(q.difficulty)]));
-
-      for (const l of lessons) {
-        const counts = { easy: 0, medium: 0, hard: 0 };
-        const ids = Array.isArray(l.questionIds) ? l.questionIds : [];
-        for (const id of ids) {
-          const d = diffById.get(id);
-          if (counts[d] != null) counts[d] += 1;
+        // If no questions at that tier, fallback to EASY
+        if (filtered.length === 0) {
+          actualTier = "easy";
+          filtered = questionsPayload.filter(q =>
+            (q.difficulty || "easy").toLowerCase() === "easy"
+          );
         }
-        tierCountsBySlug[l.slug] = counts;
-      }
-    }
+
+        // If absolutely nothing matches, final fallback: all questions
+        if (filtered.length === 0) {
+          actualTier = requested;
+          filtered = questionsPayload;
+        }
 
 
-  const userId = req.user?.id || req.user?._id || null;
 
-  // map: { "lesson-slug": "easy" | "medium" | "hard" }
-  let progressBySlug = {};
-    if (userId) {
-      const progs = await LessonProgress.find({ userId })
-        .select("lessonSlug stage")
-        .lean();
+        // Compute tier counts
+        let tierCounts = computeTierCounts(ordered);
 
-      progressBySlug = Object.fromEntries(
-        progs.map(p => [p.lessonSlug, stageToDifficulty(p.stage)])
-      );
-    }
+        // All tiers unlocked for now
+        const unlockedStages = [0,1,2];
 
-    res.render("procedures", {
-    title: "Procedure Manual",
-    lessons,
-    progressBySlug,
-    tierCountsBySlug
+    return res.json({
+      ok: true,
+      lesson: {
+        slug: lesson.slug,
+        title: lesson.title,
+        topic: lesson.topic,
+        order: lesson.order,
+        objectives: lesson.objectives || [],
+        questionCount: filtered.length
+      },
+      questions: filtered,
+      stageInfo: {
+        difficulty: requested,      // what user asked for
+        servedDifficulty: actualTier, // what they actually got,
+            tierCounts,
+            unlockedStages
+              }
     });
-
+  } catch (err) {
+    console.error("Lesson JSON failed:", err);
+    return res.status(500).json({
+      error: "Lesson JSON failed",
+      message: err.message || String(err)
+    });
+  }
 });
+
+
+
+        r.get("/", async (req, res) => {
+          const lessons = await Lesson.find().sort({ order: 1 }).lean();
+
+          // Build tierCountsBySlug: { slug: { easy: n, medium: n, hard: n } }
+        const tierCountsBySlug = {};
+        if (lessons.length) {
+          const allIds = lessons.flatMap(l => Array.isArray(l.questionIds) ? l.questionIds : []);
+          const qs = await Question.find({ question_id: { $in: allIds } })
+            .select("question_id difficulty")
+            .lean();
+
+          // Normalize difficulty for all questions
+            const diffById = new Map(
+              qs.map(q => {
+                const raw = (q.difficulty || "").toString().trim().toLowerCase();
+                let d;
+
+                if (raw === "easy") d = "easy";
+                else if (raw === "medium") d = "medium";
+                else if (raw === "hard") d = "hard";
+                else d = "easy"; // default fallback
+
+                return [q.question_id, d];
+              })
+            );
+
+            // Build tier counts for each lesson
+            for (const l of lessons) {
+              const counts = { easy: 0, medium: 0, hard: 0 };
+              const ids = Array.isArray(l.questionIds) ? l.questionIds : [];
+
+              for (const id of ids) {
+                const d = diffById.get(id) || "easy";
+                counts[d] += 1;
+              }
+
+              tierCountsBySlug[l.slug] = counts;
+            }
+
+        }
+
+
+      const userId = req.user?.id || req.user?._id || null;
+
+      // map: { "lesson-slug": "easy" | "medium" | "hard" }
+      let progressBySlug = {};
+        if (userId) {
+          const progs = await LessonProgress.find({ userId })
+            .select("lessonSlug stage")
+            .lean();
+
+          progressBySlug = Object.fromEntries(
+            progs.map(p => [p.lessonSlug, stageToDifficulty(p.stage)])
+          );
+        }
+
+        res.render("procedures", {
+        title: "Procedure Manual",
+        lessons,
+        progressBySlug,
+        tierCountsBySlug
+        });
+
+    });
 
 
 /**
@@ -222,77 +248,135 @@ return res.json({
  * Advances the user's stage for this procedure (easy -> medium -> hard),
  * skipping tiers that have 0 questions.
  */
-r.post("/:slug/advance-stage", async (req, res) => {
-  try {
-    const userId = req.user?.id || req.user?._id;
-    if (!userId) return res.status(401).json({ error: "Login required" });
 
-    const lesson = await Lesson.findOne({ slug: req.params.slug });
-    if (!lesson) return res.status(404).json({ error: "Lesson not found" });
-
-    // Count available questions by difficulty for this lesson
-    const qs = await Question.find({ question_id: { $in: lesson.questionIds } })
-      .select("difficulty")
-      .lean();
-
-    const counts = { easy: 0, medium: 0, hard: 0 };
-    for (const q of qs) {
-      const d = normDiff(q.difficulty);
-      if (counts[d] != null) counts[d] += 1;
-    }
-
-    // Ensure progress doc exists
-    const prog0 = await LessonProgress.findOneAndUpdate(
-      { userId, lessonSlug: lesson.slug },
-      { $setOnInsert: { stage: 0, completedStages: [] } },
-      { upsert: true, new: true }
-    ).lean();
-
-    const currentStage = prog0?.stage ?? 0;
-
-    // Find next stage that actually has questions
-    let nextStage = currentStage;
-    for (let candidate = currentStage + 1; candidate <= 2; candidate++) {
-      const diff = stageToDifficulty(candidate);
-      if ((counts[diff] || 0) > 0) {
-        nextStage = candidate;
-        break;
-      }
-    }
-
-    // No further tiers available
-    if (nextStage === currentStage) {
-      return res.json({
-        ok: true,
-        advanced: false,
-        stage: currentStage,
-        difficulty: stageToDifficulty(currentStage),
-        counts
-      });
-    }
-
-    const prog = await LessonProgress.findOneAndUpdate(
-      { userId, lessonSlug: lesson.slug },
-      {
-        $set: { stage: nextStage },
-        $addToSet: { completedStages: currentStage }
-      },
-      { new: true }
-    ).lean();
-
-    return res.json({
-      ok: true,
-      advanced: true,
-      stage: prog.stage,
-      difficulty: stageToDifficulty(prog.stage),
-      counts
-    });
-  } catch (e) {
-    console.error("[advance-stage] error", e);
-    res.status(500).json({ error: "Server error" });
-  }
+r.post("/:slug/advance-stage", async (_req, res) => {
+  return res.json({
+    ok: true,
+    advanced: false,
+    difficulty: null,
+    message: "Progression disabled during schema upgrade"
+  });
 });
 
+
+
+// r.post("/:slug/advance-stage", async (req, res) => {
+//   try {
+//     const userId = req.user?.id || req.user?._id;
+//     if (!userId) return res.status(401).json({ error: "Login required" });
+
+//     const lesson = await Lesson.findOne({ slug: req.params.slug });
+//     if (!lesson) return res.status(404).json({ error: "Lesson not found" });
+
+//     // Count available questions by difficulty for this lesson
+//     const qs = await Question.find({ question_id: { $in: lesson.questionIds } })
+//       .select("difficulty")
+//       .lean();
+
+//     const counts = { easy: 0, medium: 0, hard: 0 };
+//     for (const q of qs) {
+//       const d = normDiff(q.difficulty);
+//       if (counts[d] != null) counts[d] += 1;
+//     }
+
+//     // Ensure progress doc exists
+//     const prog0 = await LessonProgress.findOneAndUpdate(
+//       { userId, lessonSlug: lesson.slug },
+//       { $setOnInsert: { stage: 0, completedStages: [] } },
+//       { upsert: true, new: true }
+//     ).lean();
+
+//     const currentStage = prog0?.stage ?? 0;
+
+//     // Find next stage that actually has questions
+//     let nextStage = currentStage;
+//     for (let candidate = currentStage + 1; candidate <= 2; candidate++) {
+//       const diff = stageToDifficulty(candidate);
+//       if ((counts[diff] || 0) > 0) {
+//         nextStage = candidate;
+//         break;
+//       }
+//     }
+
+//     // No further tiers available
+//     if (nextStage === currentStage) {
+//       return res.json({
+//         ok: true,
+//         advanced: false,
+//         stage: currentStage,
+//         difficulty: stageToDifficulty(currentStage),
+//         counts
+//       });
+//     }
+
+//     const prog = await LessonProgress.findOneAndUpdate(
+//       { userId, lessonSlug: lesson.slug },
+//       {
+//         $set: { stage: nextStage },
+//         $addToSet: { completedStages: currentStage }
+//       },
+//       { new: true }
+//     ).lean();
+
+//     return res.json({
+//       ok: true,
+//       advanced: true,
+//       stage: prog.stage,
+//       difficulty: stageToDifficulty(prog.stage),
+//       counts
+//     });
+//   } catch (e) {
+//     console.error("[advance-stage] error", e);
+//     res.status(500).json({ error: "Server error" });
+//   }
+// });
+
+
+
+// GET /lessons/:slug/results
+r.get("/:slug/results", async (req, res) => {
+  try {
+    const slug = String(req.params.slug || "").trim();
+    const lesson = await Lesson.findOne({ slug }).lean();
+    let advanced = req.query.advanced === "true";
+    let next = req.query.next || null;
+
+
+    if (!lesson) return res.status(404).render("error", { message: "Lesson not found" });
+
+    const correct = Number(req.query.correct);
+    const total = Number(req.query.total);
+    const points = req.query.points != null ? Number(req.query.points) : null;
+
+    const safeCorrect = Number.isFinite(correct) ? correct : null;
+    const safeTotal = Number.isFinite(total) ? total : null;
+    const pct =
+      safeCorrect != null && safeTotal != null && safeTotal > 0
+        ? Math.round((safeCorrect / safeTotal) * 100)
+        : null;
+
+    advanced = req.query.advanced === "true";
+    next = req.query.next ? String(req.query.next) : null;
+    const practice = req.query.practice === "true";
+
+
+    return res.render("lesson_results", {
+      title: "Results",
+      lesson,
+      correct: safeCorrect,
+      total: safeTotal,
+      points,
+      pct,
+      advanced,
+      next,
+      practice
+    });
+
+  } catch (err) {
+    console.error("GET /lessons/:slug/results error:", err);
+    return res.status(500).render("error", { message: "Server error" });
+  }
+});
 
 
 /**
@@ -300,9 +384,98 @@ r.post("/:slug/advance-stage", async (req, res) => {
  * Renders the quiz UI (EJS)
  */
 r.get("/:slug", async (req, res) => {
-  const lesson = await Lesson.findOne({ slug: req.params.slug }).lean();
-  if (!lesson) return res.status(404).send("Lesson not found");
-  res.render("quiz", { title: lesson.title, lesson });
+  const slug = req.params.slug;
+
+  // Find lesson by slug (canonical identifier)
+  const lessonDoc = await Lesson.findOne({ slug }).lean();
+
+    if (!lessonDoc) {
+      return res.status(404).render("lesson_not_found", {
+        title: "Lesson Not Found",
+        slug
+      });
+    }
+
+
+  // Normalize the lesson metadata we pass into the view
+  const lesson = {
+    slug: lessonDoc.slug,
+    title: lessonDoc.title,
+    topic: lessonDoc.topic || null,
+    order: lessonDoc.order ?? null,
+    objectives: Array.isArray(lessonDoc.objectives)
+      ? lessonDoc.objectives
+      : []
+  };
+
+  // Page title = lesson title
+  res.render("quiz", {
+    title: lesson.title,
+    lesson
+  });
 });
+
+
+
+
+
+
+
+
+// ✅ POST /lessons/:slug/complete
+// body: { correct, total, points? }
+// Saves a final snapshot of lesson completion for anonymous user (userId = null for now)
+r.post("/:slug/complete", async (req, res) => {
+  try {
+    const slug = String(req.params.slug || "").trim();
+    if (!slug) return res.status(400).json({ ok: false, error: "Missing lesson slug" });
+
+    const lesson = await Lesson.findOne({ slug }).lean();
+    if (!lesson) return res.status(404).json({ ok: false, error: "Lesson not found" });
+
+    const correct = Number(req.body?.correct);
+    const total = Number(req.body?.total);
+    const points = req.body?.points != null ? Number(req.body.points) : null;
+
+    if (!Number.isFinite(correct) || !Number.isFinite(total)) {
+      return res.status(400).json({ ok: false, error: "correct and total must be numbers" });
+    }
+    if (correct < 0 || total < 0 || correct > total) {
+      return res.status(400).json({ ok: false, error: "Invalid score range" });
+    }
+
+    // anonymous for now
+    const userId = null;
+
+    // ✅ Save snapshot (overwrite), not increment
+    const doc = await LessonProgress.findOneAndUpdate(
+      { lessonId: slug, userId },
+      { $set: { lessonId: slug, userId, correct, total } },
+      { upsert: true, new: true }
+    );
+
+    // ✅ Always record an attempt history entry
+    await LessonAttempt.create({
+      lessonId: slug,
+      userId: null,
+      correct,
+      total,
+      points: Number.isFinite(points) ? points : null
+    });
+
+
+    console.log(`[complete] ${slug} score ${correct}/${total} points=${points ?? "n/a"}`);
+
+    return res.json({
+      ok: true,
+      progress: { lessonId: doc.lessonId, correct: doc.correct, total: doc.total },
+      points
+    });
+  } catch (err) {
+    console.error("POST /lessons/:slug/complete error:", err);
+    return res.status(500).json({ ok: false, error: "Server error" });
+  }
+});
+
 
 export default r;

@@ -1,0 +1,38 @@
+<%
+  const pageTitle = typeof title !== "undefined" && title
+    ? title
+    : "Lesson Not Found";
+%>
+
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h1 class="h3 mb-3"><%= pageTitle %></h1>
+
+          <p class="mb-3">
+            We couldn't find a lesson with the slug:
+            <code><%= slug %></code>
+          </p>
+
+          <p class="text-muted">
+            This might mean:
+          </p>
+          <ul class="text-muted">
+            <li>The lesson was never imported (try using the Admin Import page).</li>
+            <li>The slug in the URL is misspelled.</li>
+            <li>The lesson was removed or renamed.</li>
+          </ul>
+
+          <div class="mt-4">
+            <a href="/" class="btn btn-primary">Back to Home</a>
+            <a href="/admin/import" class="btn btn-outline-secondary ms-2">
+              Go to Admin Import
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
