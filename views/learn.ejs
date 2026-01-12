@@ -24,12 +24,32 @@
 </p>
 
 
-<% if (!lessons || !lessons.length) { %>
-  <div class="alert alert-warning">
-    No lessons are available yet. Use the Admin Import page to load your first 911 procedure.
+<div class="row align-items-center mb-3">
+  <div class="col-md-6">
+    <h2 class="h4 mb-0">All Procedures</h2>
   </div>
-<% } else { %>
-  <div class="row g-3">
+  <div class="col-md-6 mt-2 mt-md-0">
+    <input
+      id="lessonSearch"
+      type="text"
+      class="form-control"
+      placeholder="Search procedures by name or topic..."
+      autocomplete="off"
+    />
+  </div>
+</div>
+
+<div id="noResultsMessage" class="alert alert-warning py-2 px-3 d-none">
+  No matching lessons found.
+</div>
+
+
+      <% if (!lessons || !lessons.length) { %>
+        <div class="alert alert-warning">
+          No lessons are available yet. Use the Admin Import page to load your first 911 procedure.
+        </div>
+      <% } else { %>
+  <div id="homeLessonsList" class="row g-3">
         <% lessons.forEach(L => {
 
       const prog = (typeof lessonProgress !== "undefined" && lessonProgress && lessonProgress[L.slug])
@@ -60,8 +80,13 @@
       const desc = L.description || firstObjective || L.topic || null;
     %>
 
-      <div class="col-md-6">
-        <div class="card h-100 shadow-sm">
+            <div
+              class="col-md-6"
+              data-lesson="1"
+              data-search="<%= (L.title + ' ' + (L.topic || '') + ' ' + (desc || '')).toLowerCase() %>"
+            >
+              <div class="card h-100 shadow-sm">
+
           <div class="card-body d-flex flex-column">
             <div class="d-flex justify-content-between align-items-start mb-1">
               <div>
@@ -76,16 +101,18 @@
 
                 </h5>
                 <% if (L.topic) { %>
-                  <div class="text-muted small"><%= L.topic %></div>
+                  <div class="text-muted small lesson-topic"><%= L.topic %></div>
                 <% } %>
+
               </div>
             </div>
 
             <% if (desc) { %>
-              <p class="card-text small text-muted mb-2">
+              <p class="card-text small text-muted mb-2 lesson-desc">
                 <%= desc %>
               </p>
             <% } %>
+
 
 
             <div class="mb-2">
@@ -109,3 +136,116 @@
     <% }) %>
   </div>
 <% } %>
+
+<script>
+  (function () {
+    const searchInput = document.getElementById("lessonSearch");
+    const list = document.getElementById("homeLessonsList");
+    const noResults = document.getElementById("noResultsMessage");
+
+    if (!searchInput || !list) return;
+
+    const items = Array.from(list.querySelectorAll("[data-lesson]"));
+
+    // Capture original text for highlighting
+    items.forEach((item) => {
+      const titleEl = item.querySelector(".card-title");
+      const topicEl = item.querySelector(".lesson-topic");
+      const descEl = item.querySelector(".lesson-desc");
+
+      if (titleEl && !item.dataset.titleOriginal) {
+        item.dataset.titleOriginal = titleEl.innerText;
+      }
+      if (topicEl && !item.dataset.topicOriginal) {
+        item.dataset.topicOriginal = topicEl.innerText;
+      }
+      if (descEl && !item.dataset.descOriginal) {
+        item.dataset.descOriginal = descEl.innerText;
+      }
+    });
+
+    function highlightText(el, original, query) {
+      if (!el || !original) return;
+
+      if (!query) {
+        el.innerHTML = original;
+        return;
+      }
+
+      const lower = original.toLowerCase();
+      const q = query.toLowerCase();
+      const idx = lower.indexOf(q);
+
+      if (idx === -1) {
+        el.innerHTML = original;
+        return;
+      }
+
+      const before = original.slice(0, idx);
+      const match = original.slice(idx, idx + q.length);
+      const after = original.slice(idx + q.length);
+
+      el.innerHTML = before + "<mark>" + match + "</mark>" + after;
+    }
+
+    function applyFilter(query) {
+      const q = query.trim().toLowerCase();
+      let visibleCount = 0;
+
+      items.forEach((item) => {
+        const haystack = (item.dataset.search || "");
+        const matches = !q || haystack.includes(q);
+
+        const titleEl = item.querySelector(".card-title");
+        const topicEl = item.querySelector(".lesson-topic");
+        const descEl = item.querySelector(".lesson-desc");
+
+        if (matches) {
+          item.classList.remove("d-none");
+          visibleCount++;
+
+          // Highlight matches
+          highlightText(titleEl, item.dataset.titleOriginal, q);
+          if (topicEl) highlightText(topicEl, item.dataset.topicOriginal, q);
+          if (descEl) highlightText(descEl, item.dataset.descOriginal, q);
+        } else {
+          item.classList.add("d-none");
+
+          // Restore original text so it doesn't stay marked if shown later
+          if (titleEl && item.dataset.titleOriginal) {
+            titleEl.innerHTML = item.dataset.titleOriginal;
+          }
+          if (topicEl && item.dataset.topicOriginal) {
+            topicEl.innerHTML = item.dataset.topicOriginal;
+          }
+          if (descEl && item.dataset.descOriginal) {
+            descEl.innerHTML = item.dataset.descOriginal;
+          }
+        }
+      });
+
+      if (noResults) {
+        if (visibleCount === 0 && q) {
+          noResults.classList.remove("d-none");
+        } else {
+          noResults.classList.add("d-none");
+        }
+      }
+    }
+
+    // Debounced input handler
+    let debounceTimer = null;
+    searchInput.addEventListener("input", (e) => {
+      const value = e.target.value;
+
+      if (debounceTimer) {
+        clearTimeout(debounceTimer);
+      }
+
+      debounceTimer = setTimeout(() => {
+        applyFilter(value);
+      }, 200);
+    });
+  })();
+</script>
+
