@@ -2,8 +2,6 @@
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 import bcrypt from "bcrypt";
-
-// adjust this path if your User model lives somewhere else
 import User from "../models/User.js";
 
 dotenv.config();
@@ -20,12 +18,9 @@ async function run() {
     await mongoose.connect(uri);
     console.log("✅ Connected");
 
-    // 👉 Pick whatever you want here
     const email = "magusblockbully@gmail.com";
-    const password = "maneoman9"; // choose a strong password you’ll remember
+    const password = "maneoman9"; // change to whatever you want
 
-    // ⚠️ Check your models/User.js – if it uses "username" instead of "email",
-    // or "password" instead of "passwordHash", tweak this object to match.
     const existing = await User.findOne({ email });
     if (existing) {
       console.log("User already exists:", existing.email);
@@ -36,8 +31,10 @@ async function run() {
 
     const user = new User({
       email,
-      passwordHash: hashed,
-      role: "admin"
+      displayName: "Admin Trainer",
+      hash: hashed,
+      xp: 0,
+      streak: 0
     });
 
     await user.save();
