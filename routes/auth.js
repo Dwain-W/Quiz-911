@@ -126,12 +126,7 @@ r.post("/login", async (req, res) => {
     }
 
     if (!process.env.JWT_SECRET) {
-      console.error("❌ JWT_SECRET is not set in environment");
-      return res.status(500).render("auth_login", {
-        title: "Sign in",
-        error: "Server configuration error (missing JWT_SECRET).",
-        form: { email: normalizedEmail },
-      });
+      throw new Error("JWT_SECRET is not set in environment");
     }
 
     const token = jwt.sign(
@@ -144,13 +139,12 @@ r.post("/login", async (req, res) => {
     return res.redirect("/learn");
   } catch (err) {
     console.error("Login error:", err);
-    return res.status(500).render("auth_login", {
-      title: "Sign in",
-      error: "Login failed. Please try again.",
-      form: { email: req.body?.email || "" },
-    });
+    return res
+      .status(500)
+      .send("Login error: " + (err?.message || String(err)));
   }
 });
+
 
 // POST /auth/logout
 r.post("/logout", (req, res) => {
