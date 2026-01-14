@@ -12,22 +12,33 @@ import ImportLog from "../models/ImportLog.js";
 const r = Router();
 
 
+// List of admin emails from env (comma-separated)
+const ADMIN_EMAILS = (process.env.ADMIN_EMAILS || "")
+  .split(",")
+  .map(e => e.trim().toLowerCase())
+  .filter(Boolean);
+
 
 
 // Simple admin guard.
 // In development: allows access but logs a warning.
-// In production: requires req.user.isAdmin === true.
+// In production: requires user email to be in ADMIN_EMAILS.
 function isAdmin(req, res, next) {
   const isProd = process.env.NODE_ENV === "production";
+  const user = req.user || null;
+  const email = (user?.email || "").toLowerCase();
 
-  // If you already have auth + a user object, enforce role here:
-  if (req.user && req.user.isAdmin) {
+  // If user is in the admin list, allow
+  if (email && ADMIN_EMAILS.includes(email)) {
     return next();
   }
 
+  // Dev mode – allow anyone, but warn loudly
   if (!isProd) {
-    // Dev mode – allow but warn
-    console.warn("[admin] Access without authenticated admin user (DEV MODE)");
+    console.warn(
+      "[admin] Access without authenticated admin user (DEV MODE). req.user=",
+      req.user
+    );
     return next();
   }
 
@@ -36,6 +47,7 @@ function isAdmin(req, res, next) {
     message: "Admin access only."
   });
 }
+
 
 
 // All routes in this file require admin
