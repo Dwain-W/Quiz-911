@@ -1,0 +1,198 @@
+{
+  "lesson": {
+    "slug": "911-proc-104-vehicle-routing",
+    "title": "911 – Procedure 104: Vehicle Checks & Automatic Routing Codes",
+    "topic": "Radio Code Signals – Vehicle & Routing",
+    "order": 104.2,
+    "objectives": [
+      "Use vehicle check codes 10-14 through 10-19 correctly.",
+      "Apply the language restrictions for 'stolen' and 'hit/no hit' wording.",
+      "Explain the purpose of automatic routing codes such as 10-60, I8, H, and H8.",
+      "Select appropriate codes for pursuits and disabled vehicle incidents."
+    ],
+    "questionIds": [
+      "NYC911-104-VR-MCQ-001",
+      "NYC911-104-VR-MCQ-002",
+      "NYC911-104-VR-TF-001",
+      "NYC911-104-VR-TF-002",
+      "NYC911-104-VR-FB-001",
+      "NYC911-104-VR-FB-002",
+      "NYC911-104-VR-MATCH-001",
+      "NYC911-104-VR-MATCH-002"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-104-VR-MCQ-001",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Vehicle Checks",
+      "subtopic": "Stolen Vehicle Codes",
+      "stem": "A unit asks you to run a plate, and the system shows the vehicle IS reported stolen. According to Procedure 104, how should you transmit this result?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Say, “Vehicle is stolen,” in plain language.",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Transmit code 10-16 and do NOT use the word “stolen.”",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Transmit code 10-14 and say 'stolen' once.",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Transmit code 10-17 and state 'negative stolen'.",
+          "is_correct": false
+        }
+      ],
+      "solution": "10-16 is VEHICLE IS REPORTED STOLEN and Procedure 104 specifically states DO NOT transmit the word STOLEN over the air; use the code instead.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-VR-MCQ-002",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Automatic Routing Codes",
+      "subtopic": "Chase/Pursuit",
+      "stem": "Which code is used when an RMP advises the dispatcher that they are in a chase or pursuit of a vehicle?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10-18 WARRANT CHECK SHOWS ACTIVE WARRANT",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "10-60 I BROADCAST (CHASE/PURSUIT)",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "H RESEARCH (DISABLED VEHICLE)",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "10-61 PRECINCT ASSIGNMENT",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 104 lists 10-60 as I BROADCAST (CHASE/PURSUIT) when an RMP advises they are in a chase/pursuit of a vehicle.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-VR-TF-001",
+      "type": "true_false",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Vehicle Checks",
+      "stem": "For codes 10-14, 10-15, 10-16, and 10-17, the word “stolen” should NEVER be transmitted over the air. The code itself carries that meaning.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-104-VR-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Warrant Checks",
+      "stem": "When a warrant check is positive, it is acceptable to say 'HIT' over the air as long as you also give code 10-18.",
+      "answer": "false",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-104-VR-FB-001",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Warrant Checks",
+      "subtopic": "10-18 Instructions",
+      "stem": "For code 10-18 WARRANT CHECK SHOWS ACTIVE WARRANT, Procedure 104 instructs dispatchers: DO NOT transmit the word __________ over the air.",
+      "answer": "HIT",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-VR-FB-002",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Vehicle Checks",
+      "subtopic": "10-19 Instructions",
+      "stem": "For code 10-19 WARRANT CHECK NEGATIVE, dispatchers are told not to transmit the words “__________” over the air.",
+      "answer": "NO HIT",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-VR-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Vehicle Checks",
+      "subtopic": "Code Definitions",
+      "stem": "Match each vehicle check code from Procedure 104 with the correct meaning.",
+      "answer": [
+        [
+          "10-14",
+          "OCCUPIED AND SUSPICIOUS VERIFY IF STOLEN (word 'stolen' not transmitted)."
+        ],
+        [
+          "10-15",
+          "VERIFY IF STOLEN OCCUPIED OR NOT (ascertain unit’s location upon request)."
+        ],
+        [
+          "10-16",
+          "VEHICLE IS REPORTED STOLEN (do NOT transmit the word 'stolen'; use the code)."
+        ],
+        [
+          "10-17",
+          "VEHICLE IS NOT REPORTED STOLEN (do NOT transmit the word 'stolen'; use the code)."
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-VR-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Automatic Routing Codes",
+      "subtopic": "Usage",
+      "stem": "Match each automatic routing/research code with its description.",
+      "answer": [
+        [
+          "10-60",
+          "I BROADCAST (CHASE/PURSUIT) – RMP advises they are in chase/pursuit of a vehicle."
+        ],
+        [
+          "I8",
+          "BROADCAST/LMT AC HWY – broadcast and limited access highway routing."
+        ],
+        [
+          "H",
+          "RESEARCH (DISABLED VEHICLE) – unit advises they are pushing a disabled vehicle creating a hazard."
+        ],
+        [
+          "H8",
+          "RESEARCH/LMT AC HWY – disabled vehicle on a limited access highway."
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "lesson": {
+    "slug": "911-proc-104-interim-status",
+    "title": "911 – Procedure 104: Interim Status Codes (10-80 to 10-89)",
+    "topic": "Radio Code Signals – Interim Status",
+    "order": 104.4,
+    "objectives": [
+      "Explain what interim status codes are and when they are used.",
+      "Correctly apply codes 10-80 through 10-89 while units remain on assignments.",
+      "Describe how interim codes affect service time and unit alarms.",
+      "Avoid mis-applying interim/final codes to the wrong jobs by displaying the correct event."
+    ],
+    "questionIds": [
+      "NYC911-104-IS-MCQ-001",
+      "NYC911-104-IS-MCQ-002",
+      "NYC911-104-IS-TF-001",
+      "NYC911-104-IS-TF-002",
+      "NYC911-104-IS-FB-001",
+      "NYC911-104-IS-FB-002",
+      "NYC911-104-IS-MATCH-001",
+      "NYC911-104-IS-MATCH-002"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-104-IS-MCQ-001",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Interim Status",
+      "subtopic": "Definition",
+      "stem": "Which statement BEST describes interim status codes according to Procedure 104?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "They are used only after a unit has completely finished an assignment, including all paperwork.",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "They show the present status of a job while the unit is still on the assignment, and service time continues to run.",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "They permanently mark a unit as out of service.",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "They replace all final disposition codes.",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 104 states that interim codes show the present status of a job while the unit is still on assignment, and service time continues until a final disposition is entered.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-IS-MCQ-002",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Interim Status",
+      "subtopic": "Scene Arrival",
+      "stem": "A unit wants to indicate that they have arrived at the location of the assignment. Which interim code should they use?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10-80 CANCEL",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "10-84 ARRIVED AT SCENE",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "10-87 UNIT TO HOSPITAL",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "10-89 OTHER INTERIM STATUS",
+          "is_correct": false
+        }
+      ],
+      "solution": "10-84 is specifically defined as ARRIVED AT SCENE.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-IS-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Interim Status",
+      "stem": "Service time on an event stops as soon as any interim status code is entered.",
+      "answer": "false",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-104-IS-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Interim Status",
+      "stem": "Entering an interim disposition will also remove a Unit Alarm for the unit concerned.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-104-IS-FB-001",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Interim Status",
+      "subtopic": "10-85",
+      "stem": "Code 10-85 indicates that a unit NEEDS __________ UNIT(S) and should specify if a supervisor is needed.",
+      "answer": "ADDITIONAL",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-IS-FB-002",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Interim Status",
+      "subtopic": "Correct Job",
+      "stem": "Procedure 104 warns that interim or final codes may end up on the wrong job if the dispatcher does not first __________ the correct event before entering the code.",
+      "answer": "display",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-IS-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Interim Status",
+      "subtopic": "Code Meanings",
+      "stem": "Match each interim status code with its correct meaning.",
+      "answer": [
+        [
+          "10-80",
+          "CANCEL (Specify unneeded service)."
+        ],
+        [
+          "10-82",
+          "VERIFICATION/ARREST."
+        ],
+        [
+          "10-83",
+          "REPORT/NOTIFICATION AT STATION HOUSE."
+        ],
+        [
+          "10-87",
+          "UNIT TO HOSPITAL (Specify hospital)."
+        ],
+        [
+          "10-88",
+          "VEHICLE PURSUIT."
+        ],
+        [
+          "10-89",
+          "OTHER INTERIM STATUS."
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-IS-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Interim vs Final",
+      "subtopic": "Code Ranges",
+      "stem": "Match each description with whether it refers to INTERIM STATUS or FINAL DISPOSITIONS.",
+      "answer": [
+        [
+          "Service time continues to run and the unit is still on the job.",
+          "Interim status"
+        ],
+        [
+          "Codes 10-80 through 10-89.",
+          "Interim status"
+        ],
+        [
+          "Unit has completed the assignment, including all paperwork and notifications.",
+          "Final disposition"
+        ],
+        [
+          "Codes 90–99 (except 98).",
+          "Final disposition"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    }
+  ]
+}

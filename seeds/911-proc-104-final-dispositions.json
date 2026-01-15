@@ -1,0 +1,218 @@
+{
+  "lesson": {
+    "slug": "911-proc-104-final-dispositions",
+    "title": "911 – Procedure 104: Final Dispositions (90–99 Series)",
+    "topic": "Radio Code Signals – Final Dispositions",
+    "order": 104.5,
+    "objectives": [
+      "Explain when final dispositions may be entered on an event.",
+      "Use 10-90 disposition expansions (F1, F2, J1, J2, N, N3) correctly.",
+      "Differentiate between UNFOUNDED, UNNECESSARY, and GONE ON ARRIVAL outcomes.",
+      "Apply 10-91 NON-CRIME CONDITION CORRECTED and related home visit codes."
+    ],
+    "questionIds": [
+      "NYC911-104-FD-MCQ-001",
+      "NYC911-104-FD-MCQ-002",
+      "NYC911-104-FD-TF-001",
+      "NYC911-104-FD-TF-002",
+      "NYC911-104-FD-FB-001",
+      "NYC911-104-FD-FB-002",
+      "NYC911-104-FD-MATCH-001",
+      "NYC911-104-FD-MATCH-002"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-104-FD-MCQ-001",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Final Dispositions",
+      "subtopic": "When to Use",
+      "stem": "According to Procedure 104, when should a final disposition be entered for an assignment?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "As soon as the unit arrives on the scene.",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "After the unit finishes all work related to the assignment, including paperwork, forms, and notifications, and is available for another assignment.",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Any time the dispatcher believes the call is probably over.",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "As soon as the caller hangs up.",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 104 states that final dispositions are to be input only when a unit is completely finished with the assignment and available for another assignment.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-FD-MCQ-002",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Final Dispositions",
+      "subtopic": "10-91 Example",
+      "stem": "A crime in progress is reported, but the responding unit finds only a minor dispute which they correct. No crime occurred. Which final disposition BEST matches the example in Procedure 104?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10-90 X – UNFOUNDED",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "10-91 NON-CRIME CONDITION CORRECTED",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "10-90 Y – UNNECESSARY",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "10-80 CANCEL",
+          "is_correct": false
+        }
+      ],
+      "solution": "The guide explicitly gives this as an example where 10-91 should be used; it is not an unfounded call.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-FD-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Final Dispositions",
+      "stem": "A 10-91 Non-crime condition corrected should be treated the same as an unfounded call.",
+      "answer": "false",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-104-FD-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Final Dispositions",
+      "stem": "Code 10-90 F1 is used when a Domestic Incident Report (DIR) is prepared but no offense is alleged.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-104-FD-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Final Dispositions",
+      "subtopic": "Domestic / Child Abuse DIR",
+      "stem": "10-90 F2 is DOMESTIC INCIDENT REPORT (DIR PREPARED) __________ INCIDENT, while 10-90 J2 is DOMESTIC INCIDENT REPORT (DIR PREPARED) __________ for child abuse cases.",
+      "answer": "UNFOUNDED; UNFOUNDED",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-FD-FB-002",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Final Dispositions",
+      "subtopic": "Alarm Service",
+      "stem": "Code 10-90 N3 is NOTICE/DEFERRED SERVICE – UNFOUNDED OR UNNECESSARY ALARM, used when service of a notice is to be made at a later time when the premise is __________.",
+      "answer": "open",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-FD-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Final Dispositions",
+      "subtopic": "10-90 Expansions",
+      "stem": "Match each 10-90 disposition expansion with its description.",
+      "answer": [
+        [
+          "10-90 F1",
+          "DOMESTIC INCIDENT REPORT (DIR PREPARED) – NO OFFENSE ALLEGED."
+        ],
+        [
+          "10-90 F2",
+          "DOMESTIC INCIDENT REPORT (DIR PREPARED) – UNFOUNDED INCIDENT."
+        ],
+        [
+          "10-90 J1",
+          "DOMESTIC INCIDENT REPORT (DIR PREPARED) – NO OFFENSE (Child Abuse DIR)."
+        ],
+        [
+          "10-90 J2",
+          "DOMESTIC INCIDENT REPORT (DIR PREPARED) – UNFOUNDED (Child Abuse DIR)."
+        ],
+        [
+          "10-90 N",
+          "NOTICE SERVED – UNFOUNDED OR UNNECESSARY ALARM."
+        ],
+        [
+          "10-90 N3",
+          "NOTICE/DEFERRED SERVICE – UNFOUNDED OR UNNECESSARY ALARM (service later when premise is open)."
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-FD-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Final Dispositions",
+      "subtopic": "Outcome Types",
+      "stem": "Match each disposition letter from the final dispositions section with its meaning.",
+      "answer": [
+        [
+          "U",
+          "UNABLE TO GAIN ENTRY – unknown if event occurred because entry could not be made."
+        ],
+        [
+          "V2",
+          "UNSUCCESSFUL VISIT – used to track Domestic Violence Officer home visits."
+        ],
+        [
+          "X",
+          "UNFOUNDED – incident reported (or related incident) never happened; report is untrue."
+        ],
+        [
+          "Y",
+          "UNNECESSARY – incident did occur, but police response was not necessary."
+        ],
+        [
+          "Z",
+          "GONE ON ARRIVAL – incident did occur, but parties left before police arrived."
+        ],
+        [
+          "I1–I5",
+          "LEP FINALS (Domestic Incidents only): Language Line, Certified MOS, bilingual public, or no interpretation necessary."
+        ],
+        [
+          "10-91 V",
+          "HOME VISIT/NON-CRIME used to track domestic violence home visits and document DV data."
+        ]
+      ],
+      "time_limit_sec": 90,
+      "points": 15
+    }
+  ]
+}
