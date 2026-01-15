@@ -1,0 +1,892 @@
+{
+  "lesson": {
+    "slug": "911-proc-500-abbreviations-and-jargon-part-3",
+    "title": "911 – Procedure 500: Abbreviations and Jargon (Part 3)",
+    "topic": "NYPD Radio Dispatching – Abbreviations & Jargon",
+    "order": 500.3,
+    "objectives": [
+      "Master the meaning and correct radio use of GLA/GL through Not Likely from Procedure 500.",
+      "Apply abbreviations in real-life CAD and radio scenarios with accuracy.",
+      "Retain terminology through four question types: MCQ, Matching, True/False, and Fill-in-the-Blank.",
+      "Ensure understanding of Transit-specific terms like Man Under, The Hole, and Hand Collector."
+    ]
+  },
+  "questions": [
+
+    /* -----------------------------
+       GLA/GL — Grand Larceny Auto
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P3-GLA-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "GLA/GL refers to which type of crime?",
+      "choices": [
+        { "id": "A", "text": "Grand larceny of auto/property", "is_correct": true },
+        { "id": "B", "text": "Graffiti larceny", "is_correct": false },
+        { "id": "C", "text": "Gas line alarm", "is_correct": false },
+        { "id": "D", "text": "General larceny", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-GLA-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match GLA/GL elements to their meaning.",
+      "answer": [
+        ["GLA/GL", "Grand larceny auto/property"],
+        ["Related crimes", "Stolen vehicles, property"],
+        ["Investigation", "Often requires detectives"],
+        ["CAD notes", "Used to classify theft incidents"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-GLA-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "GLA/GL is the correct shorthand for grand larceny of auto or property.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P3-GLA-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The abbreviation for grand larceny of auto/property is ______.",
+      "answer": "GLA/GL"
+    },
+
+    /* -----------------------------
+       GOA — Gone On Arrival
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P3-GOA-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "GOA stands for:",
+      "choices": [
+        { "id": "A", "text": "Gone on arrival", "is_correct": true },
+        { "id": "B", "text": "Guard on assignment", "is_correct": false },
+        { "id": "C", "text": "General officer alert", "is_correct": false },
+        { "id": "D", "text": "Gone over area", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-GOA-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match GOA with its proper context.",
+      "answer": [
+        ["GOA", "Gone on arrival"],
+        ["Unit meaning", "Condition no longer present"],
+        ["CAD disposition", "Used by units at scene"],
+        ["Procedural use", "Common final clarification"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-GOA-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "GOA means the unit found no condition or complainant upon arrival.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P3-GOA-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The abbreviation indicating nothing was found at the scene is _____.",
+      "answer": "GOA"
+    },
+
+
+    /* -----------------------------
+       The Hole — Units going into system
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P3-HOLE-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "What does \"The Hole\" refer to in Procedure 500?",
+      "choices": [
+        { "id": "A", "text": "A track tunnel area where units enter the transit system", "is_correct": true },
+        { "id": "B", "text": "An RMP parking garage", "is_correct": false },
+        { "id": "C", "text": "A communications dead zone", "is_correct": false },
+        { "id": "D", "text": "A holding cell", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-HOLE-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match \"The Hole\" to its components.",
+      "answer": [
+        ["The Hole", "When units go into the transit system"],
+        ["Radio implication", "Loss of signal possible"],
+        ["Environment", "Tracks / tunnels"],
+        ["Dispatcher note", "Track access time matters"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-HOLE-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "The Hole refers to the transit system area where radio communication may weaken.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P3-HOLE-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The slang term for units entering the transit system is \"The ______.\"",
+      "answer": "Hole"
+    },
+
+
+    /* -----------------------------
+       Hand — Handled by
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P3-HAND-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "In Procedure 500, \"Hand\" means:",
+      "choices": [
+        { "id": "A", "text": "Handled by", "is_correct": true },
+        { "id": "B", "text": "Hand search", "is_correct": false },
+        { "id": "C", "text": "Give me a hand", "is_correct": false },
+        { "id": "D", "text": "Hand signal used underground", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-HAND-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match the term Hand with the proper meaning.",
+      "answer": [
+        ["Hand", "Handled by"],
+        ["CAD context", "Final disposition shorthand"],
+        ["Field use", "Unit states job was handled"],
+        ["Dispatcher effect", "Closes or updates event"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-HAND-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "The term \"Hand\" means the job was handled by the unit.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P3-HAND-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The term indicating that a job was handled by the unit is ______.",
+      "answer": "Hand"
+    },
+
+
+    /* -----------------------------
+       Hand Collector
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P3-HANDCOL-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Who is a \"Hand Collector\"?",
+      "choices": [
+        { "id": "A", "text": "Person illegally collecting fares", "is_correct": true },
+        { "id": "B", "text": "Conductor performing collections", "is_correct": false },
+        { "id": "C", "text": "Supervisor checking tokens", "is_correct": false },
+        { "id": "D", "text": "Panhandler inside the station", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-HANDCOL-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match Hand Collector with its description.",
+      "answer": [
+        ["Hand Collector", "Person illegally collecting fares"],
+        ["Setting", "Transit stations"],
+        ["Related offenses", "Theft of service"],
+        ["Dispatcher note", "May involve enforcement units"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-HANDCOL-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "A Hand Collector illegally collects fares from passengers.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P3-HANDCOL-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The jargon term for a person illegally collecting fares is ______ __________.",
+      "answer": "Hand Collector"
+    },
+
+
+    /* -----------------------------
+       House / SH — The Station House
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P3-HOUSE-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "\"House\" or \"SH\" refers to:",
+      "choices": [
+        { "id": "A", "text": "The precinct station house", "is_correct": true },
+        { "id": "B", "text": "A homeless shelter", "is_correct": false },
+        { "id": "C", "text": "Transit headquarters", "is_correct": false },
+        { "id": "D", "text": "Central booking", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-HOUSE-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match House/SH with its use.",
+      "answer": [
+        ["House / SH", "Precinct station house"],
+        ["Use", "Directing units to call or respond"],
+        ["CAD remarks", "Indicating officer is at precinct"],
+        ["Formal name", "Station House"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-HOUSE-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "SH is shorthand for Station House.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P3-HOUSE-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The abbreviation SH stands for ________ ________.",
+      "answer": "Station House"
+    },
+
+
+    /* -----------------------------
+       HPT — Handled by Previous Tour
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P3-HPT-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "HPT means:",
+      "choices": [
+        { "id": "A", "text": "Handled by previous tour", "is_correct": true },
+        { "id": "B", "text": "High priority transmission", "is_correct": false },
+        { "id": "C", "text": "Hold pending transfer", "is_correct": false },
+        { "id": "D", "text": "Hazardous patrol track", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-HPT-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match HPT with proper meaning.",
+      "answer": [
+        ["HPT", "Handled by previous tour"],
+        ["Dispatcher meaning", "Job was resolved earlier"],
+        ["Effect", "Closes assignment"],
+        ["Usage", "Final clarification by unit or desk"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-HPT-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "HPT stands for Handled by Previous Tour.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P3-HPT-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "A job resolved by an earlier shift is marked as ____.",
+      "answer": "HPT"
+    },
+
+
+    /* -----------------------------
+       Jostling
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P3-JOST-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Jostling is defined as:",
+      "choices": [
+        { "id": "A", "text": "Hands/body near another’s property with intent to steal", "is_correct": true },
+        { "id": "B", "text": "Pushing someone on the train", "is_correct": false },
+        { "id": "C", "text": "A subway fight", "is_correct": false },
+        { "id": "D", "text": "Crowd control", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-JOST-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match Jostling to its meaning.",
+      "answer": [
+        ["Jostling", "Intent to steal by placing hands/body near property"],
+        ["Related crime", "Pickpocketing"],
+        ["Common area", "Transit system"],
+        ["Dispatcher note", "May require Transit or plainclothes units"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-JOST-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Jostling involves intentionally placing hands/body near someone's property to steal it.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P3-JOST-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The term for attempting to steal by placing hands/body near another person's property is __________.",
+      "answer": "Jostling"
+    },
+
+
+    /* -----------------------------
+       Jumper — Suicide Threat
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P3-JUMP-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "A \"Jumper\" refers to:",
+      "choices": [
+        { "id": "A", "text": "A person threatening suicide from a building or bridge", "is_correct": true },
+        { "id": "B", "text": "A person who jumps turnstiles", "is_correct": false },
+        { "id": "C", "text": "A Transit jumper cable operator", "is_correct": false },
+        { "id": "D", "text": "A homeless individual", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-JUMP-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match Jumper with correct context.",
+      "answer": [
+        ["Jumper", "Person threatening suicide from building or bridge"],
+        ["Priority", "Immediate/emergency response"],
+        ["Notification", "ESU, supervisor, EMS"],
+        ["Dispatcher concern", "Location and access routes"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-JUMP-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "A Jumper is a person threatening suicide from a high location.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P3-JUMP-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The term for a person threatening suicide from a height is \"________.\"",
+      "answer": "Jumper"
+    },
+
+
+    /* -----------------------------
+       "K"
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P3-K-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "In radio jargon, \"K\" is used to:",
+      "choices": [
+        { "id": "A", "text": "End a transmission", "is_correct": true },
+        { "id": "B", "text": "Indicate a crime in progress", "is_correct": false },
+        { "id": "C", "text": "Signal caution", "is_correct": false },
+        { "id": "D", "text": "Request a callback", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-K-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match \"K\" to its use.",
+      "answer": [
+        ["K", "End of transmission"],
+        ["Dispatcher use", "Completes radio statement"],
+        ["Field use", "Signals they are done speaking"],
+        ["Procedure", "Standard radio protocol"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-K-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "\"K\" is transmitted at the end of a radio message.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P3-K-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Radio transmissions traditionally end with the letter ___.",
+      "answer": "K"
+    },
+
+    /* -----------------------------
+       Likely — Likely to Result in Death
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P3-LIKELY-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "In Procedure 500, \"Likely\" describes:",
+      "choices": [
+        { "id": "A", "text": "Injury/illness likely to result in death", "is_correct": true },
+        { "id": "B", "text": "Minor injuries", "is_correct": false },
+        { "id": "C", "text": "Stable aided condition", "is_correct": false },
+        { "id": "D", "text": "Possible shoplifter", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-LIKELY-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match Likely with its characteristics.",
+      "answer": [
+        ["Likely", "Injury/illness likely to result in death"],
+        ["EMS priority", "High"],
+        ["Dispatcher action", "Urgent notifications"],
+        ["Opposite term", "Not Likely"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-LIKELY-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Likely describes a life-threatening injury or illness.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P3-LIKELY-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The term ______ describes an injury likely to result in death.",
+      "answer": "Likely"
+    },
+
+    /* -----------------------------
+       LOC — Location
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P3-LOC-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "LOC is shorthand for:",
+      "choices": [
+        { "id": "A", "text": "Location", "is_correct": true },
+        { "id": "B", "text": "Loss of consciousness", "is_correct": false },
+        { "id": "C", "text": "Locked car", "is_correct": false },
+        { "id": "D", "text": "Local precinct", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-LOC-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match LOC with its meaning.",
+      "answer": [
+        ["LOC", "Location"],
+        ["Dispatcher use", "Clarifying address/area"],
+        ["Remarks", "Often prefixed before info"],
+        ["Purpose", "Avoid confusion"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-LOC-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "LOC stands for Location in Procedure 500.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P3-LOC-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The abbreviation used for the location of an incident is ____.",
+      "answer": "LOC"
+    },
+
+
+    /* -----------------------------
+       Man Under
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P3-MANUNDER-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "What does \"Man Under\" mean?",
+      "choices": [
+        { "id": "A", "text": "Person under a train", "is_correct": true },
+        { "id": "B", "text": "Track worker", "is_correct": false },
+        { "id": "C", "text": "Homeless person sleeping by stairs", "is_correct": false },
+        { "id": "D", "text": "Trespasser on platform", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-MANUNDER-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match Man Under with its elements.",
+      "answer": [
+        ["Man Under", "Person under a train"],
+        ["Seriousness", "Life-threatening"],
+        ["Notifications", "EMS/ESU/Supervisor"],
+        ["Dispatcher priority", "Immediate"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-MANUNDER-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Man Under refers to a person located underneath a train.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P3-MANUNDER-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The term for a person under a train is \"___ ______.\"",
+      "answer": "Man Under"
+    },
+
+    /* -----------------------------
+       MC — Meet Complainant
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P3-MC-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "MC stands for:",
+      "choices": [
+        { "id": "A", "text": "Meet a complainant", "is_correct": true },
+        { "id": "B", "text": "Medical call", "is_correct": false },
+        { "id": "C", "text": "Mandatory check", "is_correct": false },
+        { "id": "D", "text": "Motorcycle unit", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-MC-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match MC to its meaning.",
+      "answer": [
+        ["MC", "Meet a complainant"],
+        ["Dispatcher note", "Used to direct units to meet RP"],
+        ["Field context", "Complainant waiting at location"],
+        ["CAD use", "Clarifies unit action"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-MC-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "MC indicates the unit must meet the complainant on scene.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P3-MC-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The abbreviation for \"meet complainant\" is ___.",
+      "answer": "MC"
+    },
+
+
+    /* -----------------------------
+       MOS — Member of the Service
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P3-MOS-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "MOS stands for:",
+      "choices": [
+        { "id": "A", "text": "Member of the service/force", "is_correct": true },
+        { "id": "B", "text": "Medical observer service", "is_correct": false },
+        { "id": "C", "text": "Metro officer supervisor", "is_correct": false },
+        { "id": "D", "text": "Mandatory officer status", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-MOS-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match MOS with its meaning.",
+      "answer": [
+        ["MOS", "Member of the service"],
+        ["Category", "Sworn or civilian NYPD staff"],
+        ["Radio context", "Identifying officers"],
+        ["Documentation", "Used in reports and CAD"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-MOS-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "MOS is the abbreviation for Member of the Service.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P3-MOS-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The term identifying a member of the force or staff is ___.",
+      "answer": "MOS"
+    },
+
+
+    /* -----------------------------
+       MVO — Motor Vehicle Operator
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P3-MVO-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "What does MVO stand for?",
+      "choices": [
+        { "id": "A", "text": "Motor Vehicle Operator", "is_correct": true },
+        { "id": "B", "text": "Major Violent Offender", "is_correct": false },
+        { "id": "C", "text": "Metro Vehicle Office", "is_correct": false },
+        { "id": "D", "text": "Motorized Operations", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-MVO-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match MVO with the correct meaning.",
+      "answer": [
+        ["MVO", "Motor Vehicle Operator"],
+        ["Use", "Describing vehicle drivers"],
+        ["Context", "Accident reports / investigations"],
+        ["Dispatcher relevance", "Identifying roles at scene"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-MVO-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "MVO identifies the driver of a vehicle.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P3-MVO-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The abbreviation for motor vehicle operator is ___.",
+      "answer": "MVO"
+    },
+
+
+    /* -----------------------------
+       NCA — No Cars Available
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P3-NCA-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "NCA means:",
+      "choices": [
+        { "id": "A", "text": "No cars available", "is_correct": true },
+        { "id": "B", "text": "No communications active", "is_correct": false },
+        { "id": "C", "text": "No contact attempted", "is_correct": false },
+        { "id": "D", "text": "Non-critical assignment", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-NCA-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match NCA to its meaning.",
+      "answer": [
+        ["NCA", "No cars available"],
+        ["Dispatcher meaning", "Zone has no free units"],
+        ["Action", "Job holds until a car frees"],
+        ["CAD effect", "Shows backlog"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-NCA-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "NCA is transmitted when there are no available units to assign.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P3-NCA-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "When there are no units free on a zone, the dispatcher uses the term ___.",
+      "answer": "NCA"
+    },
+
+
+    /* -----------------------------
+       Negative — No
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P3-NEG-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "\"Negative\" on the radio means:",
+      "choices": [
+        { "id": "A", "text": "No", "is_correct": true },
+        { "id": "B", "text": "Unknown", "is_correct": false },
+        { "id": "C", "text": "Yes", "is_correct": false },
+        { "id": "D", "text": "Stand by", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-NEG-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match Negative with its use.",
+      "answer": [
+        ["Negative", "No"],
+        ["Opposite", "Affirmative"],
+        ["Radio use", "Responding to queries"],
+        ["Purpose", "Clear communication"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-NEG-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "\"Negative\" means no.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P3-NEG-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The radio term meaning \"no\" is __________.",
+      "answer": "Negative"
+    },
+
+
+    /* -----------------------------
+       NFI — No Further Information
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P3-NFI-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "NFI stands for:",
+      "choices": [
+        { "id": "A", "text": "No further information", "is_correct": true },
+        { "id": "B", "text": "New field intel", "is_correct": false },
+        { "id": "C", "text": "No formal identification", "is_correct": false },
+        { "id": "D", "text": "Next file incoming", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-NFI-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match NFI with its description.",
+      "answer": [
+        ["NFI", "No further information"],
+        ["Usage", "Ending transmission with limited info"],
+        ["CAD remarks", "No additional details available"],
+        ["Opposite", "More to follow (MTF)"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-NFI-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "NFI means no further information is available.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P3-NFI-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The abbreviation for “no further information” is ___.",
+      "answer": "NFI"
+    },
+
+
+    /* -----------------------------
+       Not Likely — Not Likely to Result in Death
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P3-NOTLIKELY-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "\"Not Likely\" refers to:",
+      "choices": [
+        { "id": "A", "text": "Injury/illness not likely to result in death", "is_correct": true },
+        { "id": "B", "text": "No response from unit", "is_correct": false },
+        { "id": "C", "text": "Non-criminal activity", "is_correct": false },
+        { "id": "D", "text": "Not likely to assign a unit", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-NOTLIKELY-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match Not Likely with its meaning.",
+      "answer": [
+        ["Not Likely", "Injury/illness not likely to result in death"],
+        ["Opposite", "Likely"],
+        ["EMS impact", "Non-life-threatening"],
+        ["Dispatcher note", "Aided severity classification"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P3-NOTLIKELY-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Not Likely indicates an injury or illness that is not life-threatening.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P3-NOTLIKELY-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The aided classification meaning not life-threatening is \"___ ______.\"",
+      "answer": "Not Likely"
+    }
+
+  ]
+}

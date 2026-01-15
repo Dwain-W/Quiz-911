@@ -1,0 +1,2225 @@
+{
+  "lesson": {
+    "slug": "911-proc-500-abbreviations-and-jargon-part-1",
+    "title": "911 – Procedure 500: Abbreviations and Jargon (Part 1: 2X2 through Correction)",
+    "topic": "NYPD Radio Dispatching – Abbreviations & Jargon",
+    "order": 500.1,
+    "objectives": [
+      "Identify and define core abbreviations and jargon from Procedure 500 (2X2 through Correction).",
+      "Select the correct abbreviation or jargon when given its meaning.",
+      "Recall exact wordings so you avoid inventing non-standard abbreviations."
+    ],
+    "questionIds": [
+      "NYC911-500-P1-001-MCQ",
+      "NYC911-500-P1-001-TF",
+      "NYC911-500-P1-001-FB",
+      "NYC911-500-P1-001-MATCH",
+      "NYC911-500-P1-002-MCQ",
+      "NYC911-500-P1-002-TF",
+      "NYC911-500-P1-002-FB",
+      "NYC911-500-P1-002-MATCH",
+      "NYC911-500-P1-003-MCQ",
+      "NYC911-500-P1-003-TF",
+      "NYC911-500-P1-003-FB",
+      "NYC911-500-P1-003-MATCH",
+      "NYC911-500-P1-004-MCQ",
+      "NYC911-500-P1-004-TF",
+      "NYC911-500-P1-004-FB",
+      "NYC911-500-P1-004-MATCH",
+      "NYC911-500-P1-005-MCQ",
+      "NYC911-500-P1-005-TF",
+      "NYC911-500-P1-005-FB",
+      "NYC911-500-P1-005-MATCH",
+      "NYC911-500-P1-006-MCQ",
+      "NYC911-500-P1-006-TF",
+      "NYC911-500-P1-006-FB",
+      "NYC911-500-P1-006-MATCH",
+      "NYC911-500-P1-007-MCQ",
+      "NYC911-500-P1-007-TF",
+      "NYC911-500-P1-007-FB",
+      "NYC911-500-P1-007-MATCH",
+      "NYC911-500-P1-008-MCQ",
+      "NYC911-500-P1-008-TF",
+      "NYC911-500-P1-008-FB",
+      "NYC911-500-P1-008-MATCH",
+      "NYC911-500-P1-009-MCQ",
+      "NYC911-500-P1-009-TF",
+      "NYC911-500-P1-009-FB",
+      "NYC911-500-P1-009-MATCH",
+      "NYC911-500-P1-010-MCQ",
+      "NYC911-500-P1-010-TF",
+      "NYC911-500-P1-010-FB",
+      "NYC911-500-P1-010-MATCH",
+      "NYC911-500-P1-011-MCQ",
+      "NYC911-500-P1-011-TF",
+      "NYC911-500-P1-011-FB",
+      "NYC911-500-P1-011-MATCH",
+      "NYC911-500-P1-012-MCQ",
+      "NYC911-500-P1-012-TF",
+      "NYC911-500-P1-012-FB",
+      "NYC911-500-P1-012-MATCH",
+      "NYC911-500-P1-013-MCQ",
+      "NYC911-500-P1-013-TF",
+      "NYC911-500-P1-013-FB",
+      "NYC911-500-P1-013-MATCH",
+      "NYC911-500-P1-014-MCQ",
+      "NYC911-500-P1-014-TF",
+      "NYC911-500-P1-014-FB",
+      "NYC911-500-P1-014-MATCH",
+      "NYC911-500-P1-015-MCQ",
+      "NYC911-500-P1-015-TF",
+      "NYC911-500-P1-015-FB",
+      "NYC911-500-P1-015-MATCH",
+      "NYC911-500-P1-016-MCQ",
+      "NYC911-500-P1-016-TF",
+      "NYC911-500-P1-016-FB",
+      "NYC911-500-P1-016-MATCH",
+      "NYC911-500-P1-017-MCQ",
+      "NYC911-500-P1-017-TF",
+      "NYC911-500-P1-017-FB",
+      "NYC911-500-P1-017-MATCH",
+      "NYC911-500-P1-018-MCQ",
+      "NYC911-500-P1-018-TF",
+      "NYC911-500-P1-018-FB",
+      "NYC911-500-P1-018-MATCH",
+      "NYC911-500-P1-019-MCQ",
+      "NYC911-500-P1-019-TF",
+      "NYC911-500-P1-019-FB",
+      "NYC911-500-P1-019-MATCH",
+      "NYC911-500-P1-020-MCQ",
+      "NYC911-500-P1-020-TF",
+      "NYC911-500-P1-020-FB",
+      "NYC911-500-P1-020-MATCH",
+      "NYC911-500-P1-021-MCQ",
+      "NYC911-500-P1-021-TF",
+      "NYC911-500-P1-021-FB",
+      "NYC911-500-P1-021-MATCH",
+      "NYC911-500-P1-022-MCQ",
+      "NYC911-500-P1-022-TF",
+      "NYC911-500-P1-022-FB",
+      "NYC911-500-P1-022-MATCH",
+      "NYC911-500-P1-023-MCQ",
+      "NYC911-500-P1-023-TF",
+      "NYC911-500-P1-023-FB",
+      "NYC911-500-P1-023-MATCH",
+      "NYC911-500-P1-024-MCQ",
+      "NYC911-500-P1-024-TF",
+      "NYC911-500-P1-024-FB",
+      "NYC911-500-P1-024-MATCH"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-500-P1-001-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "2X2",
+      "stem": "What does the abbreviation or jargon \"2X2\" mean according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Audio low and weak",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Audio loud and clear",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Complaint (crime) report, derived from former numerical designation",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Automatic Call Distributor",
+          "is_correct": false
+        }
+      ],
+      "solution": "Audio low and weak",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-001-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "2X2",
+      "stem": "In Procedure 500, \"2X2\" is defined as: Audio low and weak.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-001-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "2X2",
+      "stem": "Which abbreviation or jargon is used in Procedure 500 for: Audio low and weak? ______",
+      "answer": "2X2",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-001-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "2X2",
+      "stem": "Match the details that apply to \"2X2\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "2X2"
+        ],
+        [
+          "Meaning",
+          "Audio low and weak"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-002-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "5X5",
+      "stem": "What does the abbreviation or jargon \"5X5\" mean according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Audio loud and clear",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Audio low and weak",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Estimated time of arrival",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Grand larceny of auto/property",
+          "is_correct": false
+        }
+      ],
+      "solution": "Audio loud and clear",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-002-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "5X5",
+      "stem": "In Procedure 500, \"5X5\" is defined as: Audio loud and clear.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-002-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "5X5",
+      "stem": "Which abbreviation or jargon is used in Procedure 500 for: Audio loud and clear? ______",
+      "answer": "5X5",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-002-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "5X5",
+      "stem": "Match the details that apply to \"5X5\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "5X5"
+        ],
+        [
+          "Meaning",
+          "Audio loud and clear"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-003-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "61",
+      "stem": "What does the abbreviation or jargon \"\"61\"\" mean according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Complaint (crime) report, derived from former numerical designation",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Automatic Call Distributor",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Directed Accident Response Program",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Dead human body",
+          "is_correct": false
+        }
+      ],
+      "solution": "Complaint (crime) report, derived from former numerical designation",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-003-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "61",
+      "stem": "In Procedure 500, \"\"61\"\" is defined as a complaint (crime) report, derived from a former numerical designation.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-003-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "61",
+      "stem": "Which abbreviation or jargon is used in Procedure 500 for: Complaint (crime) report, derived from former numerical designation? ______",
+      "answer": "\"61\"",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-003-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "61",
+      "stem": "Match the details that apply to \"\"61\"\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "\"61\""
+        ],
+        [
+          "Meaning",
+          "Complaint (crime) report, derived from former numerical designation"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-004-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "ACD",
+      "stem": "What does the abbreviation or jargon \"ACD\" mean according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Automatic Call Distributor",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Assault and Robbery",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Emergency Service District",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Estimated time of arrival",
+          "is_correct": false
+        }
+      ],
+      "solution": "Automatic Call Distributor",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-004-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "ACD",
+      "stem": "In Procedure 500, \"ACD\" is defined as Automatic Call Distributor.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-004-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "ACD",
+      "stem": "Which abbreviation or jargon is used in Procedure 500 for: Automatic Call Distributor? ______",
+      "answer": "ACD",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-004-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "ACD",
+      "stem": "Match the details that apply to \"ACD\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "ACD"
+        ],
+        [
+          "Meaning",
+          "Automatic Call Distributor"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-005-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Affirmative",
+      "stem": "What does the term \"Affirmative\" mean according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Used when answering \"YES\" to an inquiry",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "No response from unit",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Used when answering \"NO\" to an inquiry",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "No further information",
+          "is_correct": false
+        }
+      ],
+      "solution": "Used when answering \"YES\" to an inquiry",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-005-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Affirmative",
+      "stem": "In Procedure 500, \"Affirmative\" is used when answering \"YES\" to an inquiry.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-005-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Affirmative",
+      "stem": "Which term is used in Procedure 500 when answering \"YES\" to an inquiry? ______",
+      "answer": "Affirmative",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-005-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Affirmative",
+      "stem": "Match the details that apply to \"Affirmative\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "Affirmative"
+        ],
+        [
+          "Meaning",
+          "Used when answering \"YES\" to an inquiry"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-006-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Aided Cases",
+      "stem": "What does the term \"Aided Cases\" mean according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Injured/sick person needing assistance",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dead body found in water",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Job initiated by a field unit",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Injury or illness not resulting from a crime",
+          "is_correct": false
+        }
+      ],
+      "solution": "Injured/sick person needing assistance",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-006-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Aided Cases",
+      "stem": "In Procedure 500, \"Aided Cases\" refers to an injured or sick person needing assistance.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-006-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Aided Cases",
+      "stem": "Which term in Procedure 500 is used for an injured or sick person needing assistance? ______",
+      "answer": "Aided Cases",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-006-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Aided Cases",
+      "stem": "Match the details that apply to \"Aided Cases\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "Aided Cases"
+        ],
+        [
+          "Meaning",
+          "Injured/sick person needing assistance"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-007-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Area Search",
+      "stem": "What does the term \"Area Search\" mean according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Careful search of an area",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Field identification method for suspects",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Same as \"GOA\"",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "An exit located throughout the system",
+          "is_correct": false
+        }
+      ],
+      "solution": "Careful search of an area",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-007-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Area Search",
+      "stem": "In Procedure 500, \"Area Search\" is defined as a careful search of an area.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-007-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Area Search",
+      "stem": "Which term in Procedure 500 is used for a careful search of an area? ______",
+      "answer": "Area Search",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-007-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Area Search",
+      "stem": "Match the details that apply to \"Area Search\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "Area Search"
+        ],
+        [
+          "Meaning",
+          "Careful search of an area"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-008-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Arrive Alive",
+      "stem": "What does the term \"Arrive Alive\" emphasize according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safe arrival of members of the public and officers while responding to emergency incidents",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Safe transport of prisoners to court",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Clearing the air for a 10-13",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Returning to the terminal out of service",
+          "is_correct": false
+        }
+      ],
+      "solution": "Term used to ensure the safe arrival of members of the public and police officers while responding to emergency incidents",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-008-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Arrive Alive",
+      "stem": "In Procedure 500, \"Arrive Alive\" is a term used to ensure the safe arrival of members of the public and police officers while responding to emergency incidents.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-008-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Arrive Alive",
+      "stem": "Which phrase in Procedure 500 is used as a safety reminder about the safe arrival of members of the public and officers while responding to emergencies? ______",
+      "answer": "Arrive Alive",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-008-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Arrive Alive",
+      "stem": "Match the details that apply to \"Arrive Alive\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "Arrive Alive"
+        ],
+        [
+          "Meaning",
+          "Term used to ensure the safe arrival of members of the public and officers while responding to emergency incidents"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-009-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "A & R",
+      "stem": "What does the abbreviation \"A & R\" mean according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Assault and Robbery",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Automatic Call Distributor",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Area Search",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Patrol Guide",
+          "is_correct": false
+        }
+      ],
+      "solution": "Assault and Robbery",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-009-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "A & R",
+      "stem": "In Procedure 500, \"A & R\" stands for Assault and Robbery.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-009-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "A & R",
+      "stem": "Which abbreviation in Procedure 500 is used for Assault and Robbery? ______",
+      "answer": "A & R",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-009-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "A & R",
+      "stem": "Match the details that apply to \"A & R\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "A & R"
+        ],
+        [
+          "Meaning",
+          "Assault and Robbery"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-010-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Ascertain",
+      "stem": "What does the term \"Ascertain\" mean according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Used to find out information",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "No further information",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Used to advise a perp fled the area or vehicle",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Used when answering \"NO\" to an inquiry",
+          "is_correct": false
+        }
+      ],
+      "solution": "Used to find out information",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-010-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Ascertain",
+      "stem": "In Procedure 500, \"Ascertain\" is used to mean finding out information.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-010-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Ascertain",
+      "stem": "Which word in Procedure 500 is used to mean finding out information? ______",
+      "answer": "Ascertain",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-010-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Ascertain",
+      "stem": "Match the details that apply to \"Ascertain\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "Ascertain"
+        ],
+        [
+          "Meaning",
+          "Used to find out information"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-011-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Avail",
+      "stem": "What does the term \"Avail\" mean according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Available",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Possible",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "No cars available",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "No response from unit",
+          "is_correct": false
+        }
+      ],
+      "solution": "Available",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-011-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Avail",
+      "stem": "In Procedure 500, \"Avail\" is short for Available.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-011-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Avail",
+      "stem": "Which shorthand term in Procedure 500 is used for Available? ______",
+      "answer": "Avail",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-011-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Avail",
+      "stem": "Match the details that apply to \"Avail\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "Avail"
+        ],
+        [
+          "Meaning",
+          "Available"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-012-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Bailed",
+      "stem": "What does the term \"Bailed\" mean according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Used to advise a perp fled the area or vehicle",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Refuse medical attention",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Gone on arrival",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Handled by previous tour",
+          "is_correct": false
+        }
+      ],
+      "solution": "Used to advise a perp fled the area or vehicle",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-012-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Bailed",
+      "stem": "In Procedure 500, \"Bailed\" is used to advise that a perp fled the area or vehicle.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-012-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Bailed",
+      "stem": "Which term in Procedure 500 is used to advise that a perp fled the area or vehicle? ______",
+      "answer": "Bailed",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-012-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Bailed",
+      "stem": "Match the details that apply to \"Bailed\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "Bailed"
+        ],
+        [
+          "Meaning",
+          "Used to advise a perp fled the area or vehicle"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-013-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Be advised",
+      "stem": "What does the phrase \"Be advised\" do according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Alerts field unit of specific information",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Directs the unit to call their command",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Signals the unit to start their transmission",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Directs the unit to disregard previous transmission",
+          "is_correct": false
+        }
+      ],
+      "solution": "Alerts field unit of specific information",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-013-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Be advised",
+      "stem": "In Procedure 500, \"Be advised\" is used to alert field units of specific information.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-013-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Be advised",
+      "stem": "Which phrase in Procedure 500 is used to alert the field unit of specific information? ______",
+      "answer": "Be advised",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-013-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Be advised",
+      "stem": "Match the details that apply to \"Be advised\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "Be advised"
+        ],
+        [
+          "Meaning",
+          "Alerts field unit of specific information"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-014-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "BIE",
+      "stem": "What does the abbreviation \"BIE\" mean according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Brakes in Emergency",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bike post",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Brakes inspection event",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Bus in emergency",
+          "is_correct": false
+        }
+      ],
+      "solution": "Brakes in Emergency",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-014-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "BIE",
+      "stem": "In Procedure 500, \"BIE\" stands for Brakes in Emergency.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-014-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "BIE",
+      "stem": "Which abbreviation in Procedure 500 is used for Brakes in Emergency? ______",
+      "answer": "BIE",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-014-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "BIE",
+      "stem": "Match the details that apply to \"BIE\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "BIE"
+        ],
+        [
+          "Meaning",
+          "Brakes in Emergency"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-015-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "BP",
+      "stem": "What does the abbreviation \"BP\" mean according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Bike post",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bus post",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Bike patrol",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Bus platform",
+          "is_correct": false
+        }
+      ],
+      "solution": "Bike post",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-015-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "BP",
+      "stem": "In Procedure 500, \"BP\" stands for Bike post.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-015-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "BP",
+      "stem": "Which abbreviation in Procedure 500 is used for Bike post? ______",
+      "answer": "BP",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-015-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "BP",
+      "stem": "Match the details that apply to \"BP\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "BP"
+        ],
+        [
+          "Meaning",
+          "Bike post"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-016-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Bus",
+      "stem": "What does the term \"Bus\" mean according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Unit requesting EMS",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Train not picking up passengers",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Road car inspector",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Transit police station",
+          "is_correct": false
+        }
+      ],
+      "solution": "Unit requesting EMS",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-016-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Bus",
+      "stem": "In Procedure 500, \"Bus\" means a unit requesting EMS.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-016-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Bus",
+      "stem": "Which term in Procedure 500 is used for a unit requesting EMS? ______",
+      "answer": "Bus",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-016-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Bus",
+      "stem": "Match the details that apply to \"Bus\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "Bus"
+        ],
+        [
+          "Meaning",
+          "Unit requesting EMS"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-017-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Canvas",
+      "stem": "What does the term \"Canvas\" mean according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Same as area search",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Broken window/door at store",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Field identification method",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Exit located throughout the system",
+          "is_correct": false
+        }
+      ],
+      "solution": "Same as area search",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-017-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Canvas",
+      "stem": "In Procedure 500, \"Canvas\" is defined as the same as an area search.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-017-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Canvas",
+      "stem": "Which term in Procedure 500 is defined as being the same as an area search? ______",
+      "answer": "Canvas",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-017-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Canvas",
+      "stem": "Match the details that apply to \"Canvas\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "Canvas"
+        ],
+        [
+          "Meaning",
+          "Same as area search"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-018-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Car booster",
+      "stem": "What does the term \"Car booster\" mean according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "One who steals from parked cars",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Criminal receiver of stolen property",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Person not paying fare",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Person illegally collecting fares",
+          "is_correct": false
+        }
+      ],
+      "solution": "One who steals from parked cars",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-018-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Car booster",
+      "stem": "In Procedure 500, a \"Car booster\" is one who steals from parked cars.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-018-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Car booster",
+      "stem": "Which term in Procedure 500 refers to one who steals from parked cars? ______",
+      "answer": "Car booster",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-018-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Car booster",
+      "stem": "Match the details that apply to \"Car booster\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "Car booster"
+        ],
+        [
+          "Meaning",
+          "One who steals from parked cars"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-019-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Cat Walk",
+      "stem": "What does the term \"Cat Walk\" mean according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Elevated walkway alongside tracks in tunnel",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Platform area near the train doors",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Patrol path inside a precinct",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Stairway to station mezzanine",
+          "is_correct": false
+        }
+      ],
+      "solution": "Elevated walkway alongside tracks in tunnel",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-019-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Cat Walk",
+      "stem": "In Procedure 500, \"Cat Walk\" means an elevated walkway alongside tracks in a tunnel.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-019-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Cat Walk",
+      "stem": "Which term in Procedure 500 refers to an elevated walkway alongside tracks in a tunnel? ______",
+      "answer": "Cat Walk",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-019-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Cat Walk",
+      "stem": "Match the details that apply to \"Cat Walk\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "Cat Walk"
+        ],
+        [
+          "Meaning",
+          "Elevated walkway alongside tracks in tunnel"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-020-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Central",
+      "stem": "Who does the term \"Central\" refer to according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Radio dispatcher",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Commanding officer",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Patrol supervisor",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Transit cleaner",
+          "is_correct": false
+        }
+      ],
+      "solution": "Radio dispatcher",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-020-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Central",
+      "stem": "In Procedure 500, \"Central\" refers to the radio dispatcher.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-020-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Central",
+      "stem": "Which term in Procedure 500 is used to refer to the radio dispatcher? ______",
+      "answer": "Central",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-020-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Central",
+      "stem": "Match the details that apply to \"Central\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "Central"
+        ],
+        [
+          "Meaning",
+          "Radio dispatcher"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-021-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Central will advise",
+      "stem": "What does the phrase \"Central will advise\" mean according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The dispatcher will advise the units of information concerning an inquiry",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "The unit must call their command for further information",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "The dispatcher is signaling the unit to start transmission",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "The dispatcher is directing the unit to disregard previous transmission",
+          "is_correct": false
+        }
+      ],
+      "solution": "The dispatcher will advise the units of information concerning an inquiry",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-021-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Central will advise",
+      "stem": "In Procedure 500, \"Central will advise\" means the dispatcher will advise the units of information concerning an inquiry.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-021-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Central will advise",
+      "stem": "Which phrase in Procedure 500 means the dispatcher will advise the units of information concerning an inquiry? ______",
+      "answer": "Central will advise",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-021-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Central will advise",
+      "stem": "Match the details that apply to \"Central will advise\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "Central will advise"
+        ],
+        [
+          "Meaning",
+          "Dispatcher will advise the units of information concerning an inquiry"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-022-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Check with Command",
+      "stem": "What does the phrase \"Check with Command\" mean according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The unit has to call their command for further information",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "The dispatcher will advise the unit momentarily",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "The unit should disregard the last transmission",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "The unit is to stand by at current location",
+          "is_correct": false
+        }
+      ],
+      "solution": "The unit has to call their command for further information",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-022-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Check with Command",
+      "stem": "In Procedure 500, \"Check with Command\" means the unit has to call their command for further information.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-022-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Check with Command",
+      "stem": "Which phrase in Procedure 500 indicates the unit must call their command for further information? ______",
+      "answer": "Check with Command",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-022-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Check with Command",
+      "stem": "Match the details that apply to \"Check with Command\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "Check with Command"
+        ],
+        [
+          "Meaning",
+          "Unit has to call their command for further information"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-023-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "CO",
+      "stem": "What does the abbreviation \"CO\" mean according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Commanding Officer",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Central Operator",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Car Operator",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Court Officer",
+          "is_correct": false
+        }
+      ],
+      "solution": "Commanding Officer",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-023-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "CO",
+      "stem": "In Procedure 500, \"CO\" is defined as Commanding Officer.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-023-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "CO",
+      "stem": "Which abbreviation in Procedure 500 stands for Commanding Officer? ______",
+      "answer": "CO",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-023-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "CO",
+      "stem": "Match the details that apply to \"CO\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "CO"
+        ],
+        [
+          "Meaning",
+          "Commanding Officer"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-500-P1-024-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Correction",
+      "stem": "What does the term \"Correction\" indicate according to Procedure 500?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Previous statement was incorrect; corrected information should immediately follow",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Unit has to call their command",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Dispatcher will advise with more information later",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Unit should disregard the last transmission",
+          "is_correct": false
+        }
+      ],
+      "solution": "Used to notify field unit the previous statement was incorrect; corrected information should immediately follow",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-024-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Correction",
+      "stem": "In Procedure 500, \"Correction\" is used to notify the field unit that the previous statement was incorrect and the corrected information should immediately follow.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-500-P1-024-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Correction",
+      "stem": "Which word in Procedure 500 is used when the dispatcher needs to indicate the previous statement was incorrect and immediately give new information? ______",
+      "answer": "Correction",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P1-024-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Correction",
+      "stem": "Match the details that apply to \"Correction\" in Procedure 500.",
+      "answer": [
+        [
+          "Abbreviation/Jargon",
+          "Correction"
+        ],
+        [
+          "Meaning",
+          "Used to notify field unit the previous statement was incorrect; corrected information should immediately follow"
+        ],
+        [
+          "Procedure",
+          "500 – Abbreviations and Jargon"
+        ],
+        [
+          "Category",
+          "Commonly used radio abbreviations and jargon"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    }
+  ]
+}
+

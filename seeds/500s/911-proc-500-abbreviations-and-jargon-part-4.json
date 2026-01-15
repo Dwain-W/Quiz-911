@@ -1,0 +1,1306 @@
+{
+  "lesson": {
+    "slug": "911-proc-500-abbreviations-and-jargon-part-4",
+    "title": "911 – Procedure 500: Abbreviations and Jargon (Part 4)",
+    "topic": "NYPD Radio Dispatching – Abbreviations & Jargon",
+    "order": 500.4,
+    "objectives": [
+      "Master the meaning and proper use of NR through Tin from Procedure 500.",
+      "Use each abbreviation/jargon item correctly in radio and CAD contexts.",
+      "Reinforce learning through MCQ, Matching, True/False, and Fill-in-the-Blank questions for every term."
+    ]
+  },
+  "questions": [
+
+    /* -----------------------------
+       NR — No Response from Unit
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-NR-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "In Procedure 500, NR stands for:",
+      "choices": [
+        { "id": "A", "text": "No response from unit", "is_correct": true },
+        { "id": "B", "text": "No report", "is_correct": false },
+        { "id": "C", "text": "Not recorded", "is_correct": false },
+        { "id": "D", "text": "Non-repeatable", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-NR-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match NR to its meaning and use.",
+      "answer": [
+        ["NR", "No response from unit"],
+        ["Dispatcher use", "When a unit does not answer calls"],
+        ["Possible follow-up", "Re-try, notify supervisor"],
+        ["CAD remark", "Indicates attempted contact with no answer"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-NR-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "NR is used when there is no response from a unit after a radio call.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-NR-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The abbreviation for \"no response from unit\" is ___.",
+      "answer": "NR"
+    },
+
+    /* -----------------------------
+       O/O — Out of Order
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-OO-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "O/O (Out of order) describes which condition in the transit system?",
+      "choices": [
+        { "id": "A", "text": "Train not picking up passengers and returning to terminal", "is_correct": true },
+        { "id": "B", "text": "Ticket machine temporarily offline", "is_correct": false },
+        { "id": "C", "text": "Station closed for cleaning only", "is_correct": false },
+        { "id": "D", "text": "Turnstiles operating in free mode", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-OO-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match O/O with its correct description.",
+      "answer": [
+        ["O/O", "Out of order"],
+        ["Train status", "Not picking up passengers"],
+        ["Movement", "Returning to terminal"],
+        ["Dispatcher awareness", "May affect response/visibility of units on train"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-OO-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "In Procedure 500, O/O indicates that a train is not picking up passengers and is returning to the terminal.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-OO-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The abbreviation used to indicate a train is not picking up passengers and is returning to the terminal is __/__. ",
+      "answer": "O/O"
+    },
+
+    /* -----------------------------
+       On the Job
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-OTJ-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "In the Abbreviations and Jargon list, \"On the Job\" refers to:",
+      "choices": [
+        { "id": "A", "text": "Any NYPD member (MOS)", "is_correct": true },
+        { "id": "B", "text": "Any on-duty civilian employee", "is_correct": false },
+        { "id": "C", "text": "Contractor working for the city", "is_correct": false },
+        { "id": "D", "text": "Security guard at a store", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-OTJ-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match \"On the Job\" to its correct idea.",
+      "answer": [
+        ["On the Job", "Member of the department (NYPD)"],
+        ["Who it refers to", "MOS"],
+        ["Context", "Used informally to identify police personnel"],
+        ["Relevance", "Clarifies that someone is police"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-OTJ-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "\"On the Job\" is slang for being a member of the department.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-OTJ-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The phrase used to indicate that someone is a member of the department is \"On the ______.\"",
+      "answer": "Job"
+    },
+
+    /* -----------------------------
+       OPR — Operator
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-OPR-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "OPR is the abbreviation for:",
+      "choices": [
+        { "id": "A", "text": "Operator", "is_correct": true },
+        { "id": "B", "text": "Operations route", "is_correct": false },
+        { "id": "C", "text": "Office of public records", "is_correct": false },
+        { "id": "D", "text": "Overtime pay rate", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-OPR-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match OPR with its meaning.",
+      "answer": [
+        ["OPR", "Operator"],
+        ["Context", "Train, bus, or vehicle operator"],
+        ["Use", "Identifying who is operating a conveyance"],
+        ["Dispatcher relevance", "Important in accidents or incidents"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-OPR-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "OPR stands for Operator.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-OPR-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The abbreviation for an operator (such as a train or bus operator) is ___.",
+      "answer": "OPR"
+    },
+
+    /* -----------------------------
+       P.A.R. — Precinct Activated Response Program
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-PAR-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "P.A.R. stands for:",
+      "choices": [
+        { "id": "A", "text": "Precinct Activated Response Program", "is_correct": true },
+        { "id": "B", "text": "Public Alert Response", "is_correct": false },
+        { "id": "C", "text": "Patrol Area Rotation", "is_correct": false },
+        { "id": "D", "text": "Precinct Accident Review", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-PAR-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match P.A.R. to its description.",
+      "answer": [
+        ["P.A.R.", "Precinct Activated Response Program"],
+        ["Who initiates it", "Precinct command"],
+        ["Purpose", "Focused enforcement/response plan"],
+        ["Dispatcher note", "May affect sector deployment"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-PAR-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "P.A.R. is the Precinct Activated Response Program.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-PAR-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The abbreviation P.A.R. stands for ________ Activated ________ Program.",
+      "answer": "Precinct; Response"
+    },
+
+    /* -----------------------------
+       PC — Police Commissioner
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-PC-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "In this procedure context, PC stands for:",
+      "choices": [
+        { "id": "A", "text": "Police Commissioner", "is_correct": true },
+        { "id": "B", "text": "Probable Cause", "is_correct": false },
+        { "id": "C", "text": "Public Complaint", "is_correct": false },
+        { "id": "D", "text": "Patrol Car", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-PC-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match PC with its meaning.",
+      "answer": [
+        ["PC", "Police Commissioner"],
+        ["Rank", "Head of the department"],
+        ["Context", "High-level notifications/orders"],
+        ["Dispatcher awareness", "Rare but critical references"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-PC-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "PC in Procedure 500 stands for Police Commissioner.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-PC-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "In this abbreviation list, PC is shorthand for _______ ____________.",
+      "answer": "Police Commissioner"
+    },
+
+    /* -----------------------------
+       Perp — Perpetrator
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-PERP-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "\"Perp\" refers to:",
+      "choices": [
+        { "id": "A", "text": "Perpetrator", "is_correct": true },
+        { "id": "B", "text": "Person reporting", "is_correct": false },
+        { "id": "C", "text": "Parolee", "is_correct": false },
+        { "id": "D", "text": "Parking enforcement officer", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-PERP-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match Perp with its meaning.",
+      "answer": [
+        ["Perp", "Perpetrator"],
+        ["Relation", "Person committing the offense"],
+        ["Use", "Describing suspects"],
+        ["Dispatcher context", "Used in unit transmissions and remarks"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-PERP-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Perp is shorthand for perpetrator.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-PERP-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The common slang for a person who committed the crime is \"_____\".",
+      "answer": "Perp"
+    },
+
+    /* -----------------------------
+       Personal — Personal Necessity
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-PERSONAL-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "In Procedure 500, \"Personal\" means:",
+      "choices": [
+        { "id": "A", "text": "Absence from post for personal necessity", "is_correct": true },
+        { "id": "B", "text": "Officer is off duty", "is_correct": false },
+        { "id": "C", "text": "Person involved in incident", "is_correct": false },
+        { "id": "D", "text": "Private vehicle", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-PERSONAL-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match Personal to its use.",
+      "answer": [
+        ["Personal", "Absence from post for personal necessity"],
+        ["Dispatcher awareness", "Unit temporarily not available"],
+        ["CAD status", "May reflect out-of-service code"],
+        ["Supervisory note", "May require approval"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-PERSONAL-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "\"Personal\" refers to an absence from post for personal necessity.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-PERSONAL-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "When a unit is off post for personal necessity, the term used is \"________.\"",
+      "answer": "Personal"
+    },
+
+    /* -----------------------------
+       PG — Patrol Guide
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-PG-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "PG is the abbreviation for:",
+      "choices": [
+        { "id": "A", "text": "Patrol Guide", "is_correct": true },
+        { "id": "B", "text": "Patrol Group", "is_correct": false },
+        { "id": "C", "text": "Public Guidance", "is_correct": false },
+        { "id": "D", "text": "Precinct Guide", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-PG-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match PG with its meaning.",
+      "answer": [
+        ["PG", "Patrol Guide"],
+        ["Content", "NYPD policies and procedures"],
+        ["Usage", "Reference for how to handle jobs"],
+        ["Dispatcher role", "Follow PG in codes and procedures"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-PG-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "PG stands for Patrol Guide.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-PG-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The book of official procedures is known as the ______ ______.",
+      "answer": "Patrol Guide"
+    },
+
+    /* -----------------------------
+       PH — Private House
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-PH-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "PH is the abbreviation for:",
+      "choices": [
+        { "id": "A", "text": "Private house", "is_correct": true },
+        { "id": "B", "text": "Public housing", "is_correct": false },
+        { "id": "C", "text": "Police headquarters", "is_correct": false },
+        { "id": "D", "text": "Patrol hold", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-PH-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match PH with its meaning.",
+      "answer": [
+        ["PH", "Private house"],
+        ["Environment", "Residential location"],
+        ["CAD remarks", "Indicates type of building"],
+        ["Officer awareness", "Helps with approach tactics"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-PH-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "PH stands for Private House.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-PH-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The building type indicated by PH is a _______ ______.",
+      "answer": "Private house"
+    },
+
+    /* -----------------------------
+       Pickup Job
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-PICKUP-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "A \"Pickup Job\" is:",
+      "choices": [
+        { "id": "A", "text": "A job initiated by the field unit, not assigned by the dispatcher", "is_correct": true },
+        { "id": "B", "text": "A job held for another tour", "is_correct": false },
+        { "id": "C", "text": "A job involving picking up paperwork", "is_correct": false },
+        { "id": "D", "text": "A job involving a tow pickup", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-PICKUP-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match Pickup Job with its description.",
+      "answer": [
+        ["Pickup Job", "Job started by field unit, not by dispatcher"],
+        ["CAD handling", "Unit may request event to be created"],
+        ["Origin", "Observed by unit on patrol"],
+        ["Dispatcher role", "Assign event number if needed"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-PICKUP-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "A Pickup Job is initiated by the field unit, not assigned over the air by the dispatcher.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-PICKUP-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "A job that originates from the field unit observing a condition, rather than being assigned from Central, is called a _______ ____.",
+      "answer": "Pickup Job"
+    },
+
+    /* -----------------------------
+       Plat — Platform
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-PLAT-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Plat is shorthand for:",
+      "choices": [
+        { "id": "A", "text": "Platform", "is_correct": true },
+        { "id": "B", "text": "Platoon", "is_correct": false },
+        { "id": "C", "text": "Parking lot", "is_correct": false },
+        { "id": "D", "text": "Plan of action", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-PLAT-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match Plat with its meaning.",
+      "answer": [
+        ["Plat", "Platform"],
+        ["Environment", "Transit station area where passengers board"],
+        ["Dispatcher relevance", "Clarifies exact location within station"],
+        ["Unit safety", "Important for track vs platform distinction"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-PLAT-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Plat is an abbreviation for platform.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-PLAT-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The shorthand Plat refers to the station ________.",
+      "answer": "platform"
+    },
+
+    /* -----------------------------
+       PO — Place of Occurrence / Police Officer
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-PO-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "In Procedure 500, PO can mean:",
+      "choices": [
+        { "id": "A", "text": "Place of occurrence or Police Officer (depending on context)", "is_correct": true },
+        { "id": "B", "text": "Public order only", "is_correct": false },
+        { "id": "C", "text": "Probation officer only", "is_correct": false },
+        { "id": "D", "text": "Parking office", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-PO-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match PO with its possible meanings.",
+      "answer": [
+        ["PO", "Place of occurrence"],
+        ["PO", "Police Officer"],
+        ["Context decides", "Location vs. NYPD member"],
+        ["Dispatcher task", "Interpret from how it’s used in remarks/transmissions"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-PO-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "PO can mean either Place of Occurrence or Police Officer, depending on context.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-PO-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The abbreviation __ may refer to the place of occurrence or to a police officer, depending on context.",
+      "answer": "PO"
+    },
+
+    /* -----------------------------
+       Poss — Possible
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-POSS-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Poss in the jargon list stands for:",
+      "choices": [
+        { "id": "A", "text": "Possible", "is_correct": true },
+        { "id": "B", "text": "Possession", "is_correct": false },
+        { "id": "C", "text": "Post office", "is_correct": false },
+        { "id": "D", "text": "Post shift", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-POSS-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match Poss with its meaning.",
+      "answer": [
+        ["Poss", "Possible"],
+        ["Use", "Qualifying uncertain information (e.g., poss perp)"],
+        ["Dispatcher note", "Indicates unconfirmed condition"],
+        ["Reason", "Avoids stating uncertain info as fact"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-POSS-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Poss is shorthand for \"possible.\"",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-POSS-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The abbreviation for \"possible\" is ____.",
+      "answer": "Poss"
+    },
+
+    /* -----------------------------
+       Proceed
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-PROCEED-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "On the radio, \"Proceed\" tells the unit to:",
+      "choices": [
+        { "id": "A", "text": "Go ahead with their transmission", "is_correct": true },
+        { "id": "B", "text": "Drive to another location", "is_correct": false },
+        { "id": "C", "text": "End their transmission", "is_correct": false },
+        { "id": "D", "text": "Stand by and wait", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-PROCEED-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match Proceed with its radio use.",
+      "answer": [
+        ["Proceed", "Unit can start their transmission"],
+        ["Used by", "Central or another unit"],
+        ["Purpose", "Avoid overlapping transmissions"],
+        ["Timing", "After call sign acknowledged"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-PROCEED-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "\"Proceed\" signals that the unit may begin speaking.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-PROCEED-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "When Central says \"________,\" it means the unit may go ahead with their transmission.",
+      "answer": "Proceed"
+    },
+
+    /* -----------------------------
+       RCI — Road Car Inspector
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-RCI-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "RCI stands for:",
+      "choices": [
+        { "id": "A", "text": "Road Car Inspector", "is_correct": true },
+        { "id": "B", "text": "Radio Channel Inspector", "is_correct": false },
+        { "id": "C", "text": "Regional Call Investigator", "is_correct": false },
+        { "id": "D", "text": "Rail Command Intercept", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-RCI-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match RCI with its description.",
+      "answer": [
+        ["RCI", "Road Car Inspector"],
+        ["Called when", "Train has mechanical problems"],
+        ["Dispatcher action", "May relay RCI request from TA"],
+        ["Environment", "Transit system operations"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-RCI-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "RCI is requested when a train has mechanical problems.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-RCI-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The abbreviation ____ is used for Road Car Inspector.",
+      "answer": "RCI"
+    },
+
+    /* -----------------------------
+       RDO — Regular Day Off
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-RDO-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "RDO stands for:",
+      "choices": [
+        { "id": "A", "text": "Regular day off", "is_correct": true },
+        { "id": "B", "text": "Radio dispatcher only", "is_correct": false },
+        { "id": "C", "text": "Rapid deployment order", "is_correct": false },
+        { "id": "D", "text": "Record of duty officer", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-RDO-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match RDO with its meaning.",
+      "answer": [
+        ["RDO", "Regular day off"],
+        ["Applies to", "MOS work schedule"],
+        ["Dispatcher awareness", "Explains unit not being on roster that day"],
+        ["Schedule planning", "Used for staffing calculations"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-RDO-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "RDO stands for Regular Day Off.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-RDO-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The acronym for an officer’s scheduled day off is ___.",
+      "answer": "RDO"
+    },
+
+    /* -----------------------------
+       Roving Group
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-ROVING-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "A \"Roving Group\" is defined as:",
+      "choices": [
+        { "id": "A", "text": "Large group moving throughout the transit system", "is_correct": true },
+        { "id": "B", "text": "Group of patrol supervisors", "is_correct": false },
+        { "id": "C", "text": "Mobile ESU team", "is_correct": false },
+        { "id": "D", "text": "Group of tourists on a bus", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-ROVING-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match Roving Group with its elements.",
+      "answer": [
+        ["Roving Group", "Large group moving through Transit System"],
+        ["Potential issues", "Disorder, crime, crowding"],
+        ["Dispatcher concern", "Monitor movement across multiple stations"],
+        ["Unit deployment", "May require multiple sectors to observe"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-ROVING-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "A Roving Group is a large group moving through the Transit System.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-ROVING-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "A large group moving throughout the transit system is called a _______ ______.",
+      "answer": "Roving Group"
+    },
+
+    /* -----------------------------
+       RMA — Refuse Medical Attention
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-RMA-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "RMA stands for:",
+      "choices": [
+        { "id": "A", "text": "Refuse Medical Attention", "is_correct": true },
+        { "id": "B", "text": "Report Medical Accident", "is_correct": false },
+        { "id": "C", "text": "Registered Medical Aided", "is_correct": false },
+        { "id": "D", "text": "Rapid Medical Assessment", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-RMA-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match RMA with its description.",
+      "answer": [
+        ["RMA", "Refuse Medical Attention"],
+        ["Condition", "Aided refuses EMS/hospital treatment"],
+        ["Documentation", "Must be properly recorded"],
+        ["Dispatcher note", "Unit may request event remarks updated"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-RMA-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "RMA indicates a person refused medical attention.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-RMA-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "When an aided refuses treatment, this is documented as ___.",
+      "answer": "RMA"
+    },
+
+    /* -----------------------------
+       RUN — Radio Car Assignment
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-RUN-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "RUN refers to:",
+      "choices": [
+        { "id": "A", "text": "Radio car assignment", "is_correct": true },
+        { "id": "B", "text": "Foot pursuit", "is_correct": false },
+        { "id": "C", "text": "Random unit notification", "is_correct": false },
+        { "id": "D", "text": "Routine unit note", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-RUN-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match RUN with its meaning.",
+      "answer": [
+        ["RUN", "Radio car assignment"],
+        ["Dispatcher use", "Refers to a car’s assigned job"],
+        ["Unit awareness", "May say \"we’re on a run\""],
+        ["CAD link", "Tied to event number"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-RUN-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "RUN is jargon for a radio car assignment.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-RUN-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "When a unit says they are \"on a ___,\" they mean they are handling a radio car assignment.",
+      "answer": "run"
+    },
+
+    /* -----------------------------
+       SC/SFC/SMC — See Complaint
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-SC-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "SC, SFC, and SMC mean:",
+      "choices": [
+        { "id": "A", "text": "See complaint / See female complainant / See male complainant", "is_correct": true },
+        { "id": "B", "text": "Secure car / secure female / secure male", "is_correct": false },
+        { "id": "C", "text": "Station contact codes", "is_correct": false },
+        { "id": "D", "text": "Supervisor call levels", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-SC-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match SC, SFC, and SMC with their meanings.",
+      "answer": [
+        ["SC", "See complaint"],
+        ["SFC", "See female complainant"],
+        ["SMC", "See male complainant"],
+        ["Dispatcher use", "Direct unit who to meet at scene"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-SC-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "SC means See Complaint, while SFC and SMC specify female and male complainants.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-SC-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The abbreviation SFC stands for \"See _______ complainant,\" and SMC stands for \"See ______ complainant.\"",
+      "answer": "female; male"
+    },
+
+    /* -----------------------------
+       Show Up — Field Identification
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-SHOWUP-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "A \"Show Up\" is:",
+      "choices": [
+        { "id": "A", "text": "Field identification of possible suspects by a witness", "is_correct": true },
+        { "id": "B", "text": "Line-up conducted at the precinct", "is_correct": false },
+        { "id": "C", "text": "Roll call attendance check", "is_correct": false },
+        { "id": "D", "text": "Supervisor performance review", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-SHOWUP-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match Show Up with its description.",
+      "answer": [
+        ["Show Up", "Field identification method"],
+        ["Who participates", "Complainant/witness and potential suspect"],
+        ["Location", "Typically in the field, near scene"],
+        ["Dispatcher note", "Units may request SHOW UP in remarks"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-SHOWUP-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "In Procedure 500, a Show Up is a field identification method for possible suspects.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-SHOWUP-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "When a witness is brought to view a possible suspect in the field, this is called a \"______ ___.\"",
+      "answer": "Show Up"
+    },
+
+    /* -----------------------------
+       Slashing
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-SLASH-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Slashing is defined as:",
+      "choices": [
+        { "id": "A", "text": "Serious injury inflicted with a knife, razor, or box cutter", "is_correct": true },
+        { "id": "B", "text": "Graffiti incident", "is_correct": false },
+        { "id": "C", "text": "Scraping a car's paint", "is_correct": false },
+        { "id": "D", "text": "Breaking store windows", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-SLASH-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match Slashing with its elements.",
+      "answer": [
+        ["Slashing", "Serious cutting injury"],
+        ["Weapons", "Knife, razor, box cutter"],
+        ["Severity", "High; likely major aided"],
+        ["Dispatcher response", "Priority, EMS and possibly ESU"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-SLASH-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Slashing refers to a serious injury involving a cutting weapon such as a knife or razor.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-SLASH-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "A serious cutting injury with a knife, razor, or box cutter is called a \"________.\"",
+      "answer": "Slashing"
+    },
+
+    /* -----------------------------
+       Space Case — Between Train & Platform
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-SPACECASE-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "A \"Space Case\" is defined as:",
+      "choices": [
+        { "id": "A", "text": "Person caught between the train and the platform", "is_correct": true },
+        { "id": "B", "text": "Person stuck in a turnstile", "is_correct": false },
+        { "id": "C", "text": "Person stranded on tracks", "is_correct": false },
+        { "id": "D", "text": "Person trapped in elevator", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-SPACECASE-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match Space Case to its description.",
+      "answer": [
+        ["Space Case", "Person caught between train and platform"],
+        ["Environment", "Transit station"],
+        ["Seriousness", "Life-threatening emergency"],
+        ["Dispatcher actions", "Immediate EMS/ESU and supervisor notifications"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-SPACECASE-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "A Space Case describes a person caught between the train and the platform.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-SPACECASE-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "A person caught between the train and the platform is referred to as a \"______ _____.\"",
+      "answer": "Space Case"
+    },
+
+    /* -----------------------------
+       SLA — State Liquor Authority
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-SLA-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "SLA stands for:",
+      "choices": [
+        { "id": "A", "text": "State Liquor Authority", "is_correct": true },
+        { "id": "B", "text": "Street Level Action", "is_correct": false },
+        { "id": "C", "text": "Station Lockdown Alert", "is_correct": false },
+        { "id": "D", "text": "Special Law Assignment", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-SLA-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match SLA with its role.",
+      "answer": [
+        ["SLA", "State Liquor Authority"],
+        ["Jurisdiction", "Liquor license and enforcement issues"],
+        ["Dispatcher involvement", "Notifications or license checks may reference SLA"],
+        ["Context", "Bars, clubs, licensed premises"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-SLA-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "SLA refers to the State Liquor Authority.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-SLA-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The agency that regulates liquor licenses is abbreviated ___ (State Liquor Authority).",
+      "answer": "SLA"
+    },
+
+    /* -----------------------------
+       Straight Aided
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-STRAIGHTAID-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "A \"Straight Aided\" is:",
+      "choices": [
+        { "id": "A", "text": "An injury or illness not resulting from a crime", "is_correct": true },
+        { "id": "B", "text": "A DOA case", "is_correct": false },
+        { "id": "C", "text": "A witness in a criminal case", "is_correct": false },
+        { "id": "D", "text": "Any aided case at a crime scene", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-STRAIGHTAID-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match Straight Aided with its meaning.",
+      "answer": [
+        ["Straight Aided", "Injury/illness not caused by a crime"],
+        ["Examples", "Medical issues, falls with no criminality"],
+        ["Dispatcher classification", "Aided job, non-crime"],
+        ["Follow-up", "Primarily EMS and report if required"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-STRAIGHTAID-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "A Straight Aided is an aided case that did not result from a crime.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-STRAIGHTAID-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "An aided incident with no criminality involved is called a ________ ______.",
+      "answer": "Straight Aided"
+    },
+
+    /* -----------------------------
+       Sweep — Multiple Arrests for Specific Offense
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-SWEEP-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "In Procedure 500, a \"Sweep\" is:",
+      "choices": [
+        { "id": "A", "text": "Multiple arrests for a specific offense", "is_correct": true },
+        { "id": "B", "text": "Cleaning of a station", "is_correct": false },
+        { "id": "C", "text": "One large arrest operation at a club", "is_correct": false },
+        { "id": "D", "text": "Area search for missing person", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-SWEEP-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match Sweep with its description.",
+      "answer": [
+        ["Sweep", "Multiple arrests for specific offense"],
+        ["Examples", "Fare evasion sweep, warrant sweep"],
+        ["Planning", "Often part of enforcement operations"],
+        ["Dispatcher note", "Many units tied up simultaneously"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-SWEEP-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "A Sweep refers to multiple arrests for a specific type of offense.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-SWEEP-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "An operation resulting in multiple arrests for one target offense is called a \"______.\"",
+      "answer": "Sweep"
+    },
+
+    /* -----------------------------
+       Swing — Day Off
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-SWING-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "In this jargon list, a \"Swing\" is:",
+      "choices": [
+        { "id": "A", "text": "A day off", "is_correct": true },
+        { "id": "B", "text": "A swing shift", "is_correct": false },
+        { "id": "C", "text": "A change in tour assignment", "is_correct": false },
+        { "id": "D", "text": "A transfer between units", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-SWING-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match Swing with its meaning.",
+      "answer": [
+        ["Swing", "Day off"],
+        ["Schedule context", "Used by MOS describing time off"],
+        ["Dispatcher awareness", "Explains officer not working that day"],
+        ["Related term", "RDO"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-SWING-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Swing is another term for a MOS day off.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-SWING-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "A day off may be referred to as a \"______\" in Procedure 500 jargon.",
+      "answer": "Swing"
+    },
+
+    /* -----------------------------
+       THV — Temporary Headquarters Vehicle
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-THV-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "THV stands for:",
+      "choices": [
+        { "id": "A", "text": "Temporary Headquarters Vehicle", "is_correct": true },
+        { "id": "B", "text": "Transit Headquarters Van", "is_correct": false },
+        { "id": "C", "text": "Traffic Highway Vehicle", "is_correct": false },
+        { "id": "D", "text": "Tactical Hostage Vehicle", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-THV-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match THV with the correct idea.",
+      "answer": [
+        ["THV", "Temporary Headquarters Vehicle"],
+        ["Purpose", "Mobile command post"],
+        ["Use", "Major incidents, events, or operations"],
+        ["Dispatcher note", "May be referenced as command location"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-THV-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "THV stands for Temporary Headquarters Vehicle.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-THV-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "A mobile command post is referred to as a _________ ___________ ________ (THV).",
+      "answer": "Temporary Headquarters Vehicle"
+    },
+
+    /* -----------------------------
+       Tin — Police Shield
+       ----------------------------- */
+
+    {
+      "question_id": "NYC911-500-P4-TIN-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "\"Tin\" is slang for:",
+      "choices": [
+        { "id": "A", "text": "Police shield", "is_correct": true },
+        { "id": "B", "text": "Handcuffs", "is_correct": false },
+        { "id": "C", "text": "Radio", "is_correct": false },
+        { "id": "D", "text": "Ticket book", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-TIN-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match Tin with its meaning.",
+      "answer": [
+        ["Tin", "Police shield"],
+        ["Who has it", "MOS"],
+        ["Use", "Identification as police"],
+        ["Context", "May be referenced in off-duty actions"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P4-TIN-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Tin is a slang word for a police shield.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P4-TIN-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "An MOS’s police shield is often called their \"____.\"",
+      "answer": "tin"
+    }
+
+  ]
+}

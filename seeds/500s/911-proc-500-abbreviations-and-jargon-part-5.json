@@ -1,0 +1,443 @@
+{
+  "lesson": {
+    "slug": "911-proc-500-abbreviations-and-jargon-part-5",
+    "title": "911 – Procedure 500: Abbreviations and Jargon (Part 5)",
+    "topic": "NYPD Radio Dispatching – Abbreviations & Jargon (After Tin)",
+    "order": 500.5,
+    "objectives": [
+      "Master the meaning and proper use of all abbreviations and jargon listed after Tin in Procedure 500.",
+      "Correctly interpret TOS, TPI, TPU, Unauthorized Transmission, Un-domiciled, UNK, Unknown to Central, VOC, W, Wagon, and Xmit in radio and CAD contexts.",
+      "Practice recall using MCQ, Matching, True/False, and Fill-in-the-Blank questions for each term."
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-500-P5-TOS-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "TOS stands for:",
+      "choices": [
+        { "id": "A", "text": "Theft of Service", "is_correct": true },
+        { "id": "B", "text": "Transfer of Supervision", "is_correct": false },
+        { "id": "C", "text": "Temporary Operating Status", "is_correct": false },
+        { "id": "D", "text": "Transit Operations Sector", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-TOS-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match TOS with its correct description.",
+      "answer": [
+        ["TOS", "Theft of Service"],
+        ["Typical scenario", "Fare evasion or non-payment for services"],
+        ["Dispatcher use", "May appear in event description or remarks"],
+        ["Enforcement focus", "Quality of life / theft offense"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-TOS-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "TOS is the abbreviation for Theft of Service.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P5-TOS-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "An incident involving non-payment for a service (such as fare evasion) is often coded as ___ (Theft of Service).",
+      "answer": "TOS"
+    },
+
+    {
+      "question_id": "NYC911-500-P5-TPI-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "TPI stands for:",
+      "choices": [
+        { "id": "A", "text": "Third Party Information", "is_correct": true },
+        { "id": "B", "text": "Transit Police Investigation", "is_correct": false },
+        { "id": "C", "text": "Terminal Point Incident", "is_correct": false },
+        { "id": "D", "text": "Temporary Priority Index", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-TPI-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match TPI with its meaning and source.",
+      "answer": [
+        ["TPI", "Third Party Information"],
+        ["Example", "Passenger reports something to clerk or RCC"],
+        ["Source chain", "Passenger → railroad clerk/RCC → NYPD"],
+        ["Dispatcher note", "Caller is not direct witness on the phone"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-TPI-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "TPI indicates information that comes from a third party, such as a passenger relaying information via a railroad clerk or RCC.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P5-TPI-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Information relayed from a passenger to a railroad clerk or RCC and then to NYPD is labeled ___ (Third Party Information).",
+      "answer": "TPI"
+    },
+
+    {
+      "question_id": "NYC911-500-P5-TPU-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "TPU is the abbreviation for:",
+      "choices": [
+        { "id": "A", "text": "Tactical Patrol Unit", "is_correct": true },
+        { "id": "B", "text": "Transit Patrol Uniform", "is_correct": false },
+        { "id": "C", "text": "Traffic Patrol Unit", "is_correct": false },
+        { "id": "D", "text": "Temporary Patrol Upgrade", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-TPU-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match TPU with its role.",
+      "answer": [
+        ["TPU", "Tactical Patrol Unit"],
+        ["Typical use", "Targeted enforcement or tactical operations"],
+        ["Deployment", "Assigned to specific crime or disorder areas"],
+        ["Dispatcher awareness", "Can be requested or routed to special jobs"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-TPU-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "TPU stands for Tactical Patrol Unit.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P5-TPU-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "A specialized unit used for targeted enforcement is abbreviated ___ (Tactical Patrol Unit).",
+      "answer": "TPU"
+    },
+
+    {
+      "question_id": "NYC911-500-P5-UNAUTHXMIT-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "An \"Unauthorized Transmission\" is:",
+      "choices": [
+        { "id": "A", "text": "Terminology used over the frequency that is not acceptable by the Department and the FCC", "is_correct": true },
+        { "id": "B", "text": "Any encrypted radio transmission", "is_correct": false },
+        { "id": "C", "text": "A transmission from another agency", "is_correct": false },
+        { "id": "D", "text": "A unit not answering Central", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-UNAUTHXMIT-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match Unauthorized Transmission with its elements.",
+      "answer": [
+        ["Unauthorized Transmission", "Terminology not acceptable by Department and FCC"],
+        ["Policy impact", "Violates radio procedures and regulations"],
+        ["Dispatcher response", "Log and notify supervisor if necessary"],
+        ["Example", "Profanity or non-police chatter on the air"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-UNAUTHXMIT-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "An Unauthorized Transmission is any radio communication that uses terminology not acceptable to the Department and the FCC.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P5-UNAUTHXMIT-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Radio traffic that uses terminology not acceptable to the Department and the FCC is classified as an ____________ ____________.",
+      "answer": "Unauthorized Transmission"
+    },
+
+    {
+      "question_id": "NYC911-500-P5-UNDOMICILED-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Un-domiciled refers to a person who is:",
+      "choices": [
+        { "id": "A", "text": "Homeless", "is_correct": true },
+        { "id": "B", "text": "Out of town", "is_correct": false },
+        { "id": "C", "text": "On vacation", "is_correct": false },
+        { "id": "D", "text": "A tenant in an apartment", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-UNDOMICILED-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match Un-domiciled with its meaning.",
+      "answer": [
+        ["Un-domiciled", "Homeless"],
+        ["Context", "Person without a permanent residence"],
+        ["Dispatcher remarks", "Clarifies social and safety needs"],
+        ["Coordination", "May require city services or shelters"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-UNDOMICILED-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Un-domiciled is the term used in Procedure 500 to describe a homeless person.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P5-UNDOMICILED-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "In the abbreviations and jargon list, a homeless person is described as \"__-__________.\"",
+      "answer": "Un-domiciled"
+    },
+
+    {
+      "question_id": "NYC911-500-P5-UNK-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "UNK stands for:",
+      "choices": [
+        { "id": "A", "text": "Unknown", "is_correct": true },
+        { "id": "B", "text": "Unmarked", "is_correct": false },
+        { "id": "C", "text": "Unsafe", "is_correct": false },
+        { "id": "D", "text": "Unnoticed", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-UNK-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match UNK with its meaning.",
+      "answer": [
+        ["UNK", "Unknown"],
+        ["Usage", "Used when details are not known"],
+        ["Example", "UNK sex, UNK age, UNK cause"],
+        ["Dispatcher role", "Update UNK fields as info comes in"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-UNK-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "UNK is used when something is unknown, such as unknown sex, age, or cause.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P5-UNK-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "When the sex, age, or other details are not known, they may be recorded as ___.",
+      "answer": "UNK"
+    },
+
+    {
+      "question_id": "NYC911-500-P5-UNKTOCENTRAL-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "\"Unknown to Central\" means:",
+      "choices": [
+        { "id": "A", "text": "The information is not available to Central", "is_correct": true },
+        { "id": "B", "text": "Central has not yet called the unit", "is_correct": false },
+        { "id": "C", "text": "The event has been closed", "is_correct": false },
+        { "id": "D", "text": "The unit is ignoring Central", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-UNKTOCENTRAL-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match Unknown to Central with its description.",
+      "answer": [
+        ["Unknown to Central", "Information is not available to the dispatcher"],
+        ["Use case", "Caller did not provide or does not know"],
+        ["CAD remark", "Explains data gaps (e.g., UNK apt, Unknown to Central)"],
+        ["Follow-up", "Update if information is later obtained"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-UNKTOCENTRAL-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "\"Unknown to Central\" indicates that the information is not currently available to the dispatcher.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P5-UNKTOCENTRAL-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "When the dispatcher does not have certain information at all, it may be described as \"________ __ ________.\"",
+      "answer": "Unknown to Central"
+    },
+
+    {
+      "question_id": "NYC911-500-P5-VOC-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "VOC stands for:",
+      "choices": [
+        { "id": "A", "text": "Victim of a crime", "is_correct": true },
+        { "id": "B", "text": "Violation of code", "is_correct": false },
+        { "id": "C", "text": "Vehicle on curb", "is_correct": false },
+        { "id": "D", "text": "Verification of complaint", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-VOC-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match VOC with its meaning.",
+      "answer": [
+        ["VOC", "Victim of a crime"],
+        ["Role", "Person harmed by the offense"],
+        ["Dispatcher remarks", "Identifies who needs assistance or interview"],
+        ["Follow-up", "Units may need VOC info for reports and notifications"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-VOC-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "VOC is the abbreviation used for \"Victim of a crime.\"",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P5-VOC-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The abbreviation used to refer to a victim of a crime is ___.",
+      "answer": "VOC"
+    },
+
+    {
+      "question_id": "NYC911-500-P5-W-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "In the abbreviations list, W stands for:",
+      "choices": [
+        { "id": "A", "text": "With", "is_correct": true },
+        { "id": "B", "text": "West", "is_correct": false },
+        { "id": "C", "text": "Warning", "is_correct": false },
+        { "id": "D", "text": "Witness", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-W-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match W with its meaning.",
+      "answer": [
+        ["W", "With"],
+        ["Usage", "Used in shorthand (e.g., VOC W friend)"],
+        ["Benefit", "Keeps remarks concise"],
+        ["Dispatcher practice", "Use standard abbreviations to avoid confusion"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-W-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "W is used as an abbreviation for the word \"with\" in CAD remarks and radio-related notes.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P5-W-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The single-letter abbreviation for \"with\" in the jargon list is __.",
+      "answer": "W"
+    },
+
+    {
+      "question_id": "NYC911-500-P5-WAGON-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "In Procedure 500, a \"Wagon\" is:",
+      "choices": [
+        { "id": "A", "text": "A Department vehicle used to transport prisoners", "is_correct": true },
+        { "id": "B", "text": "A regular RMP patrol car", "is_correct": false },
+        { "id": "C", "text": "A city tow truck", "is_correct": false },
+        { "id": "D", "text": "A private contractor vehicle", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-WAGON-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match Wagon with its correct description.",
+      "answer": [
+        ["Wagon", "Department vehicle used to transport prisoners"],
+        ["Primary purpose", "Moving arrestees to command or central booking"],
+        ["Dispatcher role", "Assign wagon when prisoner transport is needed"],
+        ["Operational impact", "Units may be held until wagon arrives"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-WAGON-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "A Wagon is a Department vehicle used to transport prisoners.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P5-WAGON-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The Department vehicle used specifically to move prisoners is called a \"_______.\"",
+      "answer": "Wagon"
+    },
+
+    {
+      "question_id": "NYC911-500-P5-XMIT-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Xmit is an abbreviation for:",
+      "choices": [
+        { "id": "A", "text": "Transmit", "is_correct": true },
+        { "id": "B", "text": "Exit Metro", "is_correct": false },
+        { "id": "C", "text": "External message", "is_correct": false },
+        { "id": "D", "text": "Extended midnight tour", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-XMIT-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match Xmit with its meaning.",
+      "answer": [
+        ["Xmit", "Transmit"],
+        ["Context", "Radio or data transmission"],
+        ["Dispatcher reference", "Used in notes/training for sending traffic"],
+        ["Related word", "Transmission"]
+      ]
+    },
+    {
+      "question_id": "NYC911-500-P5-XMIT-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Xmit is shorthand for the word \"Transmit.\"",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-500-P5-XMIT-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "In the abbreviations list, the short form for \"Transmit\" is ____.",
+      "answer": "Xmit"
+    }
+  ]
+}

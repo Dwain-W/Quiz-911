@@ -1,0 +1,1377 @@
+{
+  "lesson": {
+    "slug": "911-proc-500-abbreviations-and-jargon-part-2",
+    "title": "911 – Procedure 500: Abbreviations and Jargon (Part 2)",
+    "topic": "NYPD Radio Dispatching – Abbreviations & Jargon",
+    "order": 500.2,
+    "objectives": [
+      "Identify and correctly interpret all abbreviations and jargon from CTA through General Order/GO in Procedure 500.",
+      "Apply the correct meanings of transit- and crime-related jargon in realistic dispatch scenarios.",
+      "Distinguish between similar-sounding terms and use them accurately in radio and CAD entries.",
+      "Reinforce retention through multiple question types per term: MCQ, matching, true/false, and fill-in-the-blank."
+    ],
+    "questionIds": [
+      "NYC911-500-P2-CTA-MCQ",
+      "NYC911-500-P2-CTA-MATCH",
+      "NYC911-500-P2-CTA-TF",
+      "NYC911-500-P2-CTA-FB",
+      "NYC911-500-P2-DAADA-MCQ",
+      "NYC911-500-P2-DAADA-MATCH",
+      "NYC911-500-P2-DAADA-TF",
+      "NYC911-500-P2-DAADA-FB",
+      "NYC911-500-P2-DARP-MCQ",
+      "NYC911-500-P2-DARP-MATCH",
+      "NYC911-500-P2-DARP-TF",
+      "NYC911-500-P2-DARP-FB",
+      "NYC911-500-P2-DD-MCQ",
+      "NYC911-500-P2-DD-MATCH",
+      "NYC911-500-P2-DD-TF",
+      "NYC911-500-P2-DD-FB",
+      "NYC911-500-P2-DISREGARD-MCQ",
+      "NYC911-500-P2-DISREGARD-MATCH",
+      "NYC911-500-P2-DISREGARD-TF",
+      "NYC911-500-P2-DISREGARD-FB",
+      "NYC911-500-P2-DISCON-MCQ",
+      "NYC911-500-P2-DISCON-MATCH",
+      "NYC911-500-P2-DISCON-TF",
+      "NYC911-500-P2-DISCON-FB",
+      "NYC911-500-P2-DISTOFF-MCQ",
+      "NYC911-500-P2-DISTOFF-MATCH",
+      "NYC911-500-P2-DISTOFF-TF",
+      "NYC911-500-P2-DISTOFF-FB",
+      "NYC911-500-P2-DRAGGING-MCQ",
+      "NYC911-500-P2-DRAGGING-MATCH",
+      "NYC911-500-P2-DRAGGING-TF",
+      "NYC911-500-P2-DRAGGING-FB",
+      "NYC911-500-P2-DOA-MCQ",
+      "NYC911-500-P2-DOA-MATCH",
+      "NYC911-500-P2-DOA-TF",
+      "NYC911-500-P2-DOA-FB",
+      "NYC911-500-P2-EDP-MCQ",
+      "NYC911-500-P2-EDP-MATCH",
+      "NYC911-500-P2-EDP-TF",
+      "NYC911-500-P2-EDP-FB",
+      "NYC911-500-P2-EMEXIT-MCQ",
+      "NYC911-500-P2-EMEXIT-MATCH",
+      "NYC911-500-P2-EMEXIT-TF",
+      "NYC911-500-P2-EMEXIT-FB",
+      "NYC911-500-P2-ESD-MCQ",
+      "NYC911-500-P2-ESD-MATCH",
+      "NYC911-500-P2-ESD-TF",
+      "NYC911-500-P2-ESD-FB",
+      "NYC911-500-P2-ETA-MCQ",
+      "NYC911-500-P2-ETA-MATCH",
+      "NYC911-500-P2-ETA-TF",
+      "NYC911-500-P2-ETA-FB",
+      "NYC911-500-P2-FAREBEATER-MCQ",
+      "NYC911-500-P2-FAREBEATER-MATCH",
+      "NYC911-500-P2-FAREBEATER-TF",
+      "NYC911-500-P2-FAREBEATER-FB",
+      "NYC911-500-P2-FENCE-MCQ",
+      "NYC911-500-P2-FENCE-MATCH",
+      "NYC911-500-P2-FENCE-TF",
+      "NYC911-500-P2-FENCE-FB",
+      "NYC911-500-P2-FLOATER-MCQ",
+      "NYC911-500-P2-FLOATER-MATCH",
+      "NYC911-500-P2-FLOATER-TF",
+      "NYC911-500-P2-FLOATER-FB",
+      "NYC911-500-P2-FOIFO-MCQ",
+      "NYC911-500-P2-FOIFO-MATCH",
+      "NYC911-500-P2-FOIFO-TF",
+      "NYC911-500-P2-FOIFO-FB",
+      "NYC911-500-P2-FOOTMAN-MCQ",
+      "NYC911-500-P2-FOOTMAN-MATCH",
+      "NYC911-500-P2-FOOTMAN-TF",
+      "NYC911-500-P2-FOOTMAN-FB",
+      "NYC911-500-P2-FORTHWITH-MCQ",
+      "NYC911-500-P2-FORTHWITH-MATCH",
+      "NYC911-500-P2-FORTHWITH-TF",
+      "NYC911-500-P2-FORTHWITH-FB",
+      "NYC911-500-P2-FRONTBREAK-MCQ",
+      "NYC911-500-P2-FRONTBREAK-MATCH",
+      "NYC911-500-P2-FRONTBREAK-TF",
+      "NYC911-500-P2-FRONTBREAK-FB",
+      "NYC911-500-P2-GO-MCQ",
+      "NYC911-500-P2-GO-MATCH",
+      "NYC911-500-P2-GO-TF",
+      "NYC911-500-P2-GO-FB"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-500-P2-CTA-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "CTA",
+      "stem": "In Procedure 500, what does CTA stand for?",
+      "choices": [
+        { "id": "A", "text": "Central Transit Authority", "is_correct": false },
+        { "id": "B", "text": "Cleaner Transit Authority, keeps station clean", "is_correct": true },
+        { "id": "C", "text": "Communications Transit Agent", "is_correct": false },
+        { "id": "D", "text": "City Transit Administrator", "is_correct": false }
+      ],
+      "solution": "CTA is defined as Cleaner Transit Authority, who keeps the station clean.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-CTA-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "CTA",
+      "stem": "Match CTA with the correct description.",
+      "answer": [
+        ["CTA", "Cleaner Transit Authority, keeps station clean"],
+        ["Primary role", "Responsible for keeping the station clean"],
+        ["Related environment", "Transit system subway stations"],
+        ["Procedure reference", "Procedure 500 – Abbreviations and Jargon"]
+      ],
+      "time_limit_sec": 60,
+      "points": 8
+    },
+    {
+      "question_id": "NYC911-500-P2-CTA-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "CTA",
+      "stem": "CTA, as used in Procedure 500, refers to a Cleaner with the Transit Authority who keeps the station clean.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-CTA-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "CTA",
+      "stem": "The abbreviation used in Procedure 500 for a Cleaner with the Transit Authority who keeps the station clean is ____.",
+      "answer": "CTA",
+      "time_limit_sec": 40,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-500-P2-DAADA-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "DA/ADA",
+      "stem": "DA/ADA in the Radio Dispatcher’s Guide stands for:",
+      "choices": [
+        { "id": "A", "text": "Duty Agent / Arrest Desk Agent", "is_correct": false },
+        { "id": "B", "text": "District Attorney / Assistant District Attorney", "is_correct": true },
+        { "id": "C", "text": "Desk Administrator / Area Desk Administrator", "is_correct": false },
+        { "id": "D", "text": "Deputy Attorney / Area Detective Assistant", "is_correct": false }
+      ],
+      "solution": "DA/ADA stands for District Attorney / Assistant District Attorney.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-DAADA-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "DA/ADA",
+      "stem": "Match DA/ADA with its correct meaning and role.",
+      "answer": [
+        ["DA", "District Attorney"],
+        ["ADA", "Assistant District Attorney"],
+        ["Type of role", "Prosecution/legal authority"],
+        ["Procedure section", "Abbreviations & Jargon – Procedure 500"]
+      ],
+      "time_limit_sec": 60,
+      "points": 8
+    },
+    {
+      "question_id": "NYC911-500-P2-DAADA-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "DA/ADA",
+      "stem": "DA/ADA is the abbreviation used in Procedure 500 for District Attorney / Assistant District Attorney.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-DAADA-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "DA/ADA",
+      "stem": "When documenting a notification to the District Attorney or Assistant District Attorney, Procedure 500 uses the combined abbreviation ______.",
+      "answer": "DA/ADA",
+      "time_limit_sec": 40,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-500-P2-DARP-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "DARP",
+      "stem": "According to Procedure 500, DARP stands for:",
+      "choices": [
+        { "id": "A", "text": "Directed Accident Response Program", "is_correct": true },
+        { "id": "B", "text": "District Accident Reporting Plan", "is_correct": false },
+        { "id": "C", "text": "Department Accident Review Panel", "is_correct": false },
+        { "id": "D", "text": "Dispatch Accident Response Procedure", "is_correct": false }
+      ],
+      "solution": "DARP is defined as Directed Accident Response Program.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-DARP-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "DARP",
+      "stem": "Match DARP with the correct description.",
+      "answer": [
+        ["DARP", "Directed Accident Response Program"],
+        ["Related to", "Handling vehicle accidents"],
+        ["Dispatcher interaction", "May involve arranging tow/response for accidents"],
+        ["Procedure reference", "Listed in Abbreviations and Jargon (Proc 500)"]
+      ],
+      "time_limit_sec": 60,
+      "points": 9
+    },
+    {
+      "question_id": "NYC911-500-P2-DARP-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "DARP",
+      "stem": "DARP, as defined in Procedure 500, refers to the Directed Accident Response Program.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-DARP-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "DARP",
+      "stem": "The abbreviation ______ is used in Procedure 500 for the Directed Accident Response Program.",
+      "answer": "DARP",
+      "time_limit_sec": 40,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-500-P2-DD-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "D/D",
+      "stem": "What does D/D stand for in the Abbreviations and Jargon list?",
+      "choices": [
+        { "id": "A", "text": "Disposition Desk", "is_correct": false },
+        { "id": "B", "text": "Detective Division", "is_correct": true },
+        { "id": "C", "text": "District Desk", "is_correct": false },
+        { "id": "D", "text": "Double Desk", "is_correct": false }
+      ],
+      "solution": "D/D is defined as Detective Division.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-DD-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "D/D",
+      "stem": "Match D/D with its correct meaning.",
+      "answer": [
+        ["D/D", "Detective Division"],
+        ["Unit type", "Investigative division"],
+        ["Possible notifications", "Serious crimes may require D/D notification"],
+        ["Procedure section", "Abbreviations and Jargon – Procedure 500"]
+      ],
+      "time_limit_sec": 60,
+      "points": 8
+    },
+    {
+      "question_id": "NYC911-500-P2-DD-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "D/D",
+      "stem": "D/D is the abbreviation used in Procedure 500 for Detective Division.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-DD-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "D/D",
+      "stem": "When referring to the Detective Division in shorthand, Procedure 500 uses the abbreviation ____.",
+      "answer": "D/D",
+      "time_limit_sec": 40,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-500-P2-DISREGARD-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Disregard",
+      "stem": "In Procedure 500, what does the term \"Disregard\" instruct a field unit to do?",
+      "choices": [
+        { "id": "A", "text": "Repeat their last transmission", "is_correct": false },
+        { "id": "B", "text": "Forget the previous transmission", "is_correct": true },
+        { "id": "C", "text": "Switch to another frequency", "is_correct": false },
+        { "id": "D", "text": "Report to their command", "is_correct": false }
+      ],
+      "solution": "Disregard directs the field unit to forget the previous transmission.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-DISREGARD-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Disregard",
+      "stem": "Match the term \"Disregard\" with how it is used in Procedure 500.",
+      "answer": [
+        ["Disregard", "Directing the field unit to forget the previous transmission"],
+        ["Primary effect", "Cancels previous instruction just given"],
+        ["Who uses it", "Dispatcher or field unit over the radio"],
+        ["When appropriate", "When earlier information is no longer valid or needed"]
+      ],
+      "time_limit_sec": 60,
+      "points": 9
+    },
+    {
+      "question_id": "NYC911-500-P2-DISREGARD-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Disregard",
+      "stem": "The radio term \"Disregard\" tells the field unit to forget the previous transmission.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-DISREGARD-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Disregard",
+      "stem": "When a dispatcher wants a field unit to forget the prior instruction, they will transmit the word __________.",
+      "answer": "Disregard",
+      "time_limit_sec": 40,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-500-P2-DISCON-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Dis Con",
+      "stem": "In Procedure 500, \"Dis Con\" is shorthand for:",
+      "choices": [
+        { "id": "A", "text": "Disorderly conduct", "is_correct": true },
+        { "id": "B", "text": "Dismissed complaint", "is_correct": false },
+        { "id": "C", "text": "Discontinued call", "is_correct": false },
+        { "id": "D", "text": "Dispatch concern", "is_correct": false }
+      ],
+      "solution": "Dis Con is defined as Disorderly conduct.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-DISCON-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Dis Con",
+      "stem": "Match \"Dis Con\" with the correct meaning and category.",
+      "answer": [
+        ["Dis Con", "Disorderly conduct"],
+        ["Type of incident", "Minor criminal offense / violation"],
+        ["Possible radio use", "Describing disorderly conduct conditions"],
+        ["Procedure section", "Abbreviations and Jargon – Procedure 500"]
+      ],
+      "time_limit_sec": 60,
+      "points": 8
+    },
+    {
+      "question_id": "NYC911-500-P2-DISCON-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Dis Con",
+      "stem": "\"Dis Con\" is the abbreviated form of Disorderly conduct in Procedure 500.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-DISCON-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Dis Con",
+      "stem": "The shorthand term used in Procedure 500 for disorderly conduct is ________.",
+      "answer": "Dis Con",
+      "time_limit_sec": 40,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-500-P2-DISTOFF-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "District Office",
+      "stem": "What is meant by \"District Office\" in the Abbreviations and Jargon list?",
+      "choices": [
+        { "id": "A", "text": "Transit Police Station", "is_correct": true },
+        { "id": "B", "text": "Borough Command Office", "is_correct": false },
+        { "id": "C", "text": "Patrol precinct house", "is_correct": false },
+        { "id": "D", "text": "Communications Section office", "is_correct": false }
+      ],
+      "solution": "District Office is defined as Transit Police Station.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-DISTOFF-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "District Office",
+      "stem": "Match \"District Office\" with its correct meaning and use.",
+      "answer": [
+        ["District Office", "Transit Police Station"],
+        ["Bureau", "Transit"],
+        ["Use in remarks", "Location where Transit Police are assigned"],
+        ["Related environment", "Subway / transit system operations"]
+      ],
+      "time_limit_sec": 60,
+      "points": 8
+    },
+    {
+      "question_id": "NYC911-500-P2-DISTOFF-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "District Office",
+      "stem": "In Procedure 500, \"District Office\" refers to the Transit Police Station.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-DISTOFF-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "District Office",
+      "stem": "The term \"District Office\" in Procedure 500 is defined as the ______ ______ ______.",
+      "answer": "Transit Police Station",
+      "time_limit_sec": 40,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-500-P2-DRAGGING-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Dragging",
+      "stem": "What does \"Dragging\" mean in Procedure 500?",
+      "choices": [
+        { "id": "A", "text": "Train being dragged to the yard", "is_correct": false },
+        { "id": "B", "text": "Person dragged by train", "is_correct": true },
+        { "id": "C", "text": "Vehicle dragged by tow truck", "is_correct": false },
+        { "id": "D", "text": "Slow-moving transit service", "is_correct": false }
+      ],
+      "solution": "Dragging is defined as a person dragged by train.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-DRAGGING-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Dragging",
+      "stem": "Match \"Dragging\" with the situation it describes.",
+      "answer": [
+        ["Dragging", "Person dragged by train"],
+        ["Environment", "Transit system / track area"],
+        ["Seriousness", "Life-threatening emergency"],
+        ["Likely response", "Priority aided, ESU/EMS notifications"]
+      ],
+      "time_limit_sec": 60,
+      "points": 9
+    },
+    {
+      "question_id": "NYC911-500-P2-DRAGGING-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Dragging",
+      "stem": "In the Abbreviations and Jargon list, \"Dragging\" refers to a person being dragged by a train.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-DRAGGING-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Dragging",
+      "stem": "The jargon term for a person being dragged by a train is __________.",
+      "answer": "Dragging",
+      "time_limit_sec": 40,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-500-P2-DOA-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "DOA",
+      "stem": "What does DOA stand for, according to Procedure 500?",
+      "choices": [
+        { "id": "A", "text": "Delayed on Arrival", "is_correct": false },
+        { "id": "B", "text": "\"Dead on Arrival\" meaning dead human body", "is_correct": true },
+        { "id": "C", "text": "Deceased on Avenue", "is_correct": false },
+        { "id": "D", "text": "Detained on Arrival", "is_correct": false }
+      ],
+      "solution": "DOA is defined as \"Dead on Arrival\" meaning a dead human body.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-DOA-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "DOA",
+      "stem": "Match DOA with its definition and implications.",
+      "answer": [
+        ["DOA", "\"Dead on Arrival\" meaning dead human body"],
+        ["Type of case", "Serious aided / potential crime scene"],
+        ["Likely notifications", "Radio supervisor, ESU, EMS, field supervisor"],
+        ["Procedure reference", "Abbreviations & Jargon – Procedure 500; also DOA procedures elsewhere"]
+      ],
+      "time_limit_sec": 60,
+      "points": 9
+    },
+    {
+      "question_id": "NYC911-500-P2-DOA-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "DOA",
+      "stem": "In Procedure 500, DOA is defined as \"Dead on Arrival\" meaning a dead human body.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-DOA-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "DOA",
+      "stem": "When an incident involves a dead human body, the abbreviation ______ is used to mean \"Dead on Arrival.\"",
+      "answer": "DOA",
+      "time_limit_sec": 40,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-500-P2-EDP-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "EDP",
+      "stem": "EDP is the abbreviation for:",
+      "choices": [
+        { "id": "A", "text": "Emergency Dispatch Protocol", "is_correct": false },
+        { "id": "B", "text": "Emotionally Disturbed Person", "is_correct": true },
+        { "id": "C", "text": "Elevated Danger Person", "is_correct": false },
+        { "id": "D", "text": "Emergency Detention Procedure", "is_correct": false }
+      ],
+      "solution": "EDP is defined as Emotionally disturbed person.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-EDP-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "EDP",
+      "stem": "Match EDP with its correct meaning and context.",
+      "answer": [
+        ["EDP", "Emotionally disturbed person"],
+        ["Type of situation", "Person exhibiting mental/emotional disturbance"],
+        ["Priority", "Often treated as high risk for safety"],
+        ["Possible resources", "ESU, supervisor, EMS, depending on situation"]
+      ],
+      "time_limit_sec": 60,
+      "points": 9
+    },
+    {
+      "question_id": "NYC911-500-P2-EDP-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "EDP",
+      "stem": "In Procedure 500, EDP is the abbreviation used for an emotionally disturbed person.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-EDP-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "EDP",
+      "stem": "The correct abbreviation for an emotionally disturbed person, as listed in Procedure 500, is ____.",
+      "answer": "EDP",
+      "time_limit_sec": 40,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-500-P2-EMEXIT-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Emergency Exit",
+      "stem": "How does Procedure 500 define \"Emergency Exit\" in the transit system?",
+      "choices": [
+        { "id": "A", "text": "Any exit used by employees only", "is_correct": false },
+        { "id": "B", "text": "Exit located throughout the system to enable passengers to leave in case of emergencies (usually from tracks)", "is_correct": true },
+        { "id": "C", "text": "Exit for fare evasion enforcement", "is_correct": false },
+        { "id": "D", "text": "Exit used only by police personnel", "is_correct": false }
+      ],
+      "solution": "Emergency Exit is an exit located throughout the system to enable passengers to leave in emergencies, usually from tracks.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-EMEXIT-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Emergency Exit",
+      "stem": "Match \"Emergency Exit\" with its features.",
+      "answer": [
+        ["Emergency Exit", "Exit located throughout the system for emergencies"],
+        ["Typical use", "Enable passengers to leave system in case of emergencies"],
+        ["Location", "Often leads from track areas to street level/safe areas"],
+        ["Relevant environment", "Transit/subway system"]
+      ],
+      "time_limit_sec": 60,
+      "points": 9
+    },
+    {
+      "question_id": "NYC911-500-P2-EMEXIT-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Emergency Exit",
+      "stem": "In Procedure 500, Emergency Exit is defined as an exit located throughout the system to enable passengers to leave in case of emergencies, usually from the tracks.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-EMEXIT-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Emergency Exit",
+      "stem": "An __________ ______ is an exit located throughout the transit system to enable passengers to leave in case of emergencies, usually from the tracks.",
+      "answer": "Emergency Exit",
+      "time_limit_sec": 40,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-500-P2-ESD-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "ESD",
+      "stem": "What does ESD stand for in Procedure 500?",
+      "choices": [
+        { "id": "A", "text": "Emergency Service Division", "is_correct": false },
+        { "id": "B", "text": "Emergency Service District", "is_correct": true },
+        { "id": "C", "text": "Emergency System Dispatch", "is_correct": false },
+        { "id": "D", "text": "Emergency Signal Device", "is_correct": false }
+      ],
+      "solution": "ESD is defined as Emergency Service District.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-ESD-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "ESD",
+      "stem": "Match ESD with the correct expansion.",
+      "answer": [
+        ["ESD", "Emergency Service District"],
+        ["Related to", "Emergency Service operations"],
+        ["Likely involvement", "Serious or tactical incidents"],
+        ["Procedure section", "Abbreviations & Jargon – Procedure 500"]
+      ],
+      "time_limit_sec": 60,
+      "points": 8
+    },
+    {
+      "question_id": "NYC911-500-P2-ESD-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "ESD",
+      "stem": "According to Procedure 500, ESD stands for Emergency Service District.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-ESD-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "ESD",
+      "stem": "The abbreviation ______ is used for Emergency Service District in the Abbreviations and Jargon list.",
+      "answer": "ESD",
+      "time_limit_sec": 40,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-500-P2-ETA-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "E.T.A.",
+      "stem": "E.T.A., as defined in Procedure 500, stands for:",
+      "choices": [
+        { "id": "A", "text": "Estimated time of arrival", "is_correct": true },
+        { "id": "B", "text": "Emergency transit alert", "is_correct": false },
+        { "id": "C", "text": "Estimated transit access", "is_correct": false },
+        { "id": "D", "text": "Emergency time announcement", "is_correct": false }
+      ],
+      "solution": "E.T.A. stands for Estimated time of arrival.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-ETA-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "E.T.A.",
+      "stem": "Match E.T.A. with its correct expansion and use.",
+      "answer": [
+        ["E.T.A.", "Estimated time of arrival"],
+        ["Used for", "Advising when a unit or service will reach a location"],
+        ["Common context", "Units, EMS, or ESU en route times"],
+        ["Procedure section", "Abbreviations & Jargon – Procedure 500"]
+      ],
+      "time_limit_sec": 60,
+      "points": 8
+    },
+    {
+      "question_id": "NYC911-500-P2-ETA-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "E.T.A.",
+      "stem": "E.T.A. stands for Estimated Time of Arrival in the Abbreviations and Jargon procedure.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-ETA-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "E.T.A.",
+      "stem": "When a dispatcher asks for a unit’s ________ ______ __ ________, they are asking for the E.T.A.",
+      "answer": "Estimated time of arrival",
+      "time_limit_sec": 40,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-500-P2-FAREBEATER-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Fare Beater",
+      "stem": "How does Procedure 500 define a \"Fare Beater\"?",
+      "choices": [
+        { "id": "A", "text": "Person stealing from fare machines", "is_correct": false },
+        { "id": "B", "text": "Person not paying fare", "is_correct": true },
+        { "id": "C", "text": "Employee underpaying fares", "is_correct": false },
+        { "id": "D", "text": "Dispatcher who miscodes fare-related jobs", "is_correct": false }
+      ],
+      "solution": "Fare Beater is defined as a person not paying fare.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-FAREBEATER-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Fare Beater",
+      "stem": "Match \"Fare Beater\" with its correct meaning and context.",
+      "answer": [
+        ["Fare Beater", "Person not paying fare"],
+        ["Location", "Transit system, turnstiles or fare control"],
+        ["Type of problem", "Fare evasion / theft of service"],
+        ["Possible response", "Transit/precinct units for enforcement"]
+      ],
+      "time_limit_sec": 60,
+      "points": 8
+    },
+    {
+      "question_id": "NYC911-500-P2-FAREBEATER-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Fare Beater",
+      "stem": "A \"Fare Beater\" in Procedure 500 is a person who is not paying the required fare.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-FAREBEATER-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Fare Beater",
+      "stem": "The jargon term used in Procedure 500 for a person not paying fare is \"_____ _________.\"",
+      "answer": "Fare Beater",
+      "time_limit_sec": 40,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-500-P2-FENCE-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Fence",
+      "stem": "According to Procedure 500, what is a \"Fence\"?",
+      "choices": [
+        { "id": "A", "text": "Barrier between tracks and platform", "is_correct": false },
+        { "id": "B", "text": "Criminal receiver of stolen property", "is_correct": true },
+        { "id": "C", "text": "Person trespassing on private property", "is_correct": false },
+        { "id": "D", "text": "Transit fare barrier", "is_correct": false }
+      ],
+      "solution": "Fence is defined as a criminal receiver of stolen property.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-FENCE-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Fence",
+      "stem": "Match \"Fence\" with its correct meaning and role.",
+      "answer": [
+        ["Fence", "Criminal receiver of stolen property"],
+        ["Related crimes", "GLA/GL, burglaries, robberies"],
+        ["Role in crime", "Buys or receives property taken by others"],
+        ["Investigation focus", "Links between perps and stolen property"]
+      ],
+      "time_limit_sec": 60,
+      "points": 9
+    },
+    {
+      "question_id": "NYC911-500-P2-FENCE-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Fence",
+      "stem": "In the Abbreviations and Jargon procedure, a \"Fence\" is a criminal receiver of stolen property.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-FENCE-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Fence",
+      "stem": "A criminal receiver of stolen property is described in Procedure 500 using the term \"_______.\"",
+      "answer": "Fence",
+      "time_limit_sec": 40,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-500-P2-FLOATER-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Floater",
+      "stem": "What does \"Floater\" refer to in Procedure 500?",
+      "choices": [
+        { "id": "A", "text": "Train floating between stations", "is_correct": false },
+        { "id": "B", "text": "Dead body found in water", "is_correct": true },
+        { "id": "C", "text": "Homeless person in the station", "is_correct": false },
+        { "id": "D", "text": "Person sleeping on park benches", "is_correct": false }
+      ],
+      "solution": "Floater is defined as a dead body found in water.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-FLOATER-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Floater",
+      "stem": "Match \"Floater\" with the correct description.",
+      "answer": [
+        ["Floater", "Dead body found in water"],
+        ["Environment", "Rivers, lakes, harbor, or similar bodies of water"],
+        ["Likely notifications", "Harbor, ESU, detectives, EMS, radio supervisor"],
+        ["Classification", "Serious aided / possible crime scene"]
+      ],
+      "time_limit_sec": 60,
+      "points": 9
+    },
+    {
+      "question_id": "NYC911-500-P2-FLOATER-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Floater",
+      "stem": "A \"Floater\" is defined as a dead body found in water.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-FLOATER-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Floater",
+      "stem": "The radio jargon term \"________\" is used to describe a dead body found in water.",
+      "answer": "Floater",
+      "time_limit_sec": 40,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-500-P2-FOIFO-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "FO or IFO",
+      "stem": "According to Procedure 500, FO or IFO means:",
+      "choices": [
+        { "id": "A", "text": "In front of", "is_correct": true },
+        { "id": "B", "text": "Inside first office", "is_correct": false },
+        { "id": "C", "text": "Field officer only", "is_correct": false },
+        { "id": "D", "text": "First on-scene", "is_correct": false }
+      ],
+      "solution": "FO or IFO stands for In front of.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-FOIFO-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "FO or IFO",
+      "stem": "Match FO/IFO with its correct meaning and use.",
+      "answer": [
+        ["FO", "In front of"],
+        ["IFO", "In front of"],
+        ["Typical use", "Clarifying location in remarks (e.g., IFO 123 Main St)"],
+        ["Procedure section", "Abbreviations and Jargon – Procedure 500"]
+      ],
+      "time_limit_sec": 60,
+      "points": 8
+    },
+    {
+      "question_id": "NYC911-500-P2-FOIFO-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "FO or IFO",
+      "stem": "FO and IFO both mean \"In front of\" in the Abbreviations and Jargon procedure.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-FOIFO-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "FO or IFO",
+      "stem": "When specifying that an incident is occurring in front of a location, Procedure 500 uses the shorthand FO or ____.",
+      "answer": "IFO",
+      "time_limit_sec": 40,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-500-P2-FOOTMAN-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Footman",
+      "stem": "In the Abbreviations and Jargon list, a \"Footman\" is:",
+      "choices": [
+        { "id": "A", "text": "Transit cleaner on the platform", "is_correct": false },
+        { "id": "B", "text": "Precinct police officer on foot patrol", "is_correct": true },
+        { "id": "C", "text": "Undercover detective in uniform", "is_correct": false },
+        { "id": "D", "text": "Civilian crossing guard", "is_correct": false }
+      ],
+      "solution": "Footman is defined as precinct police officer on foot patrol.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-FOOTMAN-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Footman",
+      "stem": "Match \"Footman\" with the correct description.",
+      "answer": [
+        ["Footman", "Precinct police officer on foot patrol"],
+        ["Primary function", "Patrolling on foot within a precinct"],
+        ["Environment", "Street-level patrol, not in RMP"],
+        ["Procedural context", "May be assigned to jobs on the radio like other units"]
+      ],
+      "time_limit_sec": 60,
+      "points": 8
+    },
+    {
+      "question_id": "NYC911-500-P2-FOOTMAN-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Footman",
+      "stem": "A \"Footman\" is a precinct police officer on foot patrol, as defined in Procedure 500.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-FOOTMAN-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Footman",
+      "stem": "The radio jargon for a precinct police officer on foot patrol is \"________.\"",
+      "answer": "Footman",
+      "time_limit_sec": 40,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-500-P2-FORTHWITH-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Forthwith",
+      "stem": "In the Abbreviations and Jargon list, \"Forthwith\" means:",
+      "choices": [
+        { "id": "A", "text": "At your convenience", "is_correct": false },
+        { "id": "B", "text": "Immediately", "is_correct": true },
+        { "id": "C", "text": "Within one hour", "is_correct": false },
+        { "id": "D", "text": "After current assignment", "is_correct": false }
+      ],
+      "solution": "Forthwith is defined as Immediately.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-FORTHWITH-MATCH",
+      "type": "matching",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Forthwith",
+      "stem": "Match \"Forthwith\" with its correct meaning and use.",
+      "answer": [
+        ["Forthwith", "Immediately"],
+        ["Typical use", "Used with urgent assignments (e.g., 10-85 forthwith)"],
+        ["Response expectation", "Unit should respond without delay"],
+        ["Procedure section", "Abbreviations & Jargon – Procedure 500"]
+      ],
+      "time_limit_sec": 60,
+      "points": 8
+    },
+    {
+      "question_id": "NYC911-500-P2-FORTHWITH-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Forthwith",
+      "stem": "The term \"Forthwith\" in Procedure 500 is defined as \"Immediately.\"",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-FORTHWITH-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Forthwith",
+      "stem": "When a dispatcher tells a unit to respond _________, they are instructing them to respond immediately.",
+      "answer": "forthwith",
+      "time_limit_sec": 40,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-500-P2-FRONTBREAK-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Front break",
+      "stem": "How is \"Front break\" defined in the Abbreviations and Jargon list?",
+      "choices": [
+        { "id": "A", "text": "Broken front train coupler", "is_correct": false },
+        { "id": "B", "text": "Broken window/door at store", "is_correct": true },
+        { "id": "C", "text": "Front brake failure on RMP", "is_correct": false },
+        { "id": "D", "text": "Front seat damage in RMP", "is_correct": false }
+      ],
+      "solution": "Front break is defined as broken window/door at store.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-FRONTBREAK-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Front break",
+      "stem": "Match \"Front break\" with the correct description and likely incident type.",
+      "answer": [
+        ["Front break", "Broken window/door at store"],
+        ["Possible classification", "Burglary, attempted burglary, criminal mischief"],
+        ["Location", "Storefront or commercial location"],
+        ["Dispatcher awareness", "May indicate forced entry or vandalism"]
+      ],
+      "time_limit_sec": 60,
+      "points": 9
+    },
+    {
+      "question_id": "NYC911-500-P2-FRONTBREAK-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Front break",
+      "stem": "According to Procedure 500, a \"Front break\" refers to a broken window or door at a store.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-FRONTBREAK-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "Front break",
+      "stem": "The term \"_______ ______\" is used for a broken window or door at a store.",
+      "answer": "Front break",
+      "time_limit_sec": 40,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-500-P2-GO-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "General Order/GO",
+      "stem": "How does Procedure 500 define \"General Order/GO\" in the transit context?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "An internal NYPD memo about patrol procedures",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "A scheduled time set up by the Transit Authority where normal service is re-routed or suspended due to repairs, usually on weekends, with signs posted in stations",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "A general order from the borough commander",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "An emergency train stop order issued during incidents",
+          "is_correct": false
+        }
+      ],
+      "solution": "General Order/GO is a scheduled time when TA re-routes or suspends normal service due to repairs, usually on weekends, with posted signs.",
+      "time_limit_sec": 60,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-500-P2-GO-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "General Order/GO",
+      "stem": "Match \"General Order/GO\" with its key characteristics.",
+      "answer": [
+        ["General Order/GO", "Scheduled time set up by the Transit Authority"],
+        ["Effect on service", "Normal service re-routed or suspended due to repairs"],
+        ["Typical timing", "Usually on weekends"],
+        ["Passenger notification", "Signs posted in the subway station when it will occur"]
+      ],
+      "time_limit_sec": 60,
+      "points": 9
+    },
+    {
+      "question_id": "NYC911-500-P2-GO-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "General Order/GO",
+      "stem": "General Order/GO refers to scheduled Transit Authority changes where normal service is re-routed or suspended for repairs, usually on weekends, with signs posted in stations.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 6
+    },
+    {
+      "question_id": "NYC911-500-P2-GO-FB",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Abbreviations & Jargon",
+      "subtopic": "General Order/GO",
+      "stem": "A ________ ______/___ is a scheduled time set up by the Transit Authority where normal service is re-routed or suspended due to repairs, usually on weekends, with signs posted in the station.",
+      "answer": "General Order/GO",
+      "time_limit_sec": 45,
+      "points": 12
+    }
+  ]
+}
