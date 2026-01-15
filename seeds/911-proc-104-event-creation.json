@@ -5,192 +5,837 @@
     "topic": "Radio Code Signals – Event Creation",
     "order": 104.1,
     "objectives": [
-      "Explain the purpose and five main areas covered by Procedure 104 radio codes.",
-      "Correctly identify and use event-creation codes 10-01 through 10-07.",
-      "Recognize when 10-08 and 10-09 are NOT used.",
-      "Apply the special instructions tied to event-creation codes (e.g., when NOT to use 10-04)."
+      "Identify and explain the purpose of each event-creation code from 10-01 through 10-09.",
+      "Apply the specific usage rules and restrictions for each event-creation code.",
+      "Differentiate between codes that instruct units to contact their command, the dispatcher, or verify location.",
+      "Recognize that 10-08 and 10-09 are not used, as specified in Procedure 104."
     ],
     "questionIds": [
-      "NYC911-104-EC-MCQ-001",
-      "NYC911-104-EC-MCQ-002",
-      "NYC911-104-EC-TF-001",
-      "NYC911-104-EC-TF-002",
-      "NYC911-104-EC-FB-001",
-      "NYC911-104-EC-FB-002",
-      "NYC911-104-EC-MATCH-001",
-      "NYC911-104-EC-MATCH-002"
+      "NYC911-104-EC-01-MCQ",
+      "NYC911-104-EC-01-TF",
+      "NYC911-104-EC-01-FB",
+      "NYC911-104-EC-01-MATCH",
+      "NYC911-104-EC-02-MCQ",
+      "NYC911-104-EC-02-TF",
+      "NYC911-104-EC-02-FB",
+      "NYC911-104-EC-02-MATCH",
+      "NYC911-104-EC-03-MCQ",
+      "NYC911-104-EC-03-TF",
+      "NYC911-104-EC-03-FB",
+      "NYC911-104-EC-03-MATCH",
+      "NYC911-104-EC-04-MCQ",
+      "NYC911-104-EC-04-TF",
+      "NYC911-104-EC-04-FB",
+      "NYC911-104-EC-04-MATCH",
+      "NYC911-104-EC-05-MCQ",
+      "NYC911-104-EC-05-TF",
+      "NYC911-104-EC-05-FB",
+      "NYC911-104-EC-05-MATCH",
+      "NYC911-104-EC-06-MCQ",
+      "NYC911-104-EC-06-TF",
+      "NYC911-104-EC-06-FB",
+      "NYC911-104-EC-06-MATCH",
+      "NYC911-104-EC-07-MCQ",
+      "NYC911-104-EC-07-TF",
+      "NYC911-104-EC-07-FB",
+      "NYC911-104-EC-07-MATCH",
+      "NYC911-104-EC-08-MCQ",
+      "NYC911-104-EC-08-TF",
+      "NYC911-104-EC-08-FB",
+      "NYC911-104-EC-08-MATCH",
+      "NYC911-104-EC-09-MCQ",
+      "NYC911-104-EC-09-TF",
+      "NYC911-104-EC-09-FB",
+      "NYC911-104-EC-09-MATCH"
     ]
   },
   "questions": [
     {
-      "question_id": "NYC911-104-EC-MCQ-001",
+      "question_id": "NYC911-104-EC-01-MCQ",
       "type": "mcq",
       "difficulty": "easy",
       "domain": "911",
       "topic": "Event Creation Codes",
-      "subtopic": "Purpose of Codes",
-      "stem": "According to Procedure 104, radio code signals are used by dispatchers to cover which FIVE primary areas?",
+      "subtopic": "10-01 CALL YOUR COMMAND",
+      "stem": "According to Procedure 104, what does radio code 10-01 mean?",
       "choices": [
         {
           "id": "A",
-          "text": "Event creation, vehicle checks, out of service, interim status, and final dispositions.",
-          "is_correct": true
-        },
-        {
-          "id": "B",
-          "text": "Crimes in progress, patrol supervision, training, payroll, and vacations.",
+          "text": "REPORT TO YOUR COMMAND",
           "is_correct": false
         },
         {
+          "id": "B",
+          "text": "CALL YOUR COMMAND",
+          "is_correct": true
+        },
+        {
           "id": "C",
-          "text": "Only crimes in progress and priority incidents.",
+          "text": "CALL DISPATCHER BY TELEPHONE",
           "is_correct": false
         },
         {
           "id": "D",
-          "text": "Only final dispositions and out-of-service statuses.",
+          "text": "VERIFY ADDRESS",
           "is_correct": false
         }
       ],
-      "solution": "Procedure 104 states that radio codes are used for event creation, vehicle checks, out of service, interim status, and final dispositions.",
+      "solution": "Procedure 104 lists 10-01 as CALL YOUR COMMAND, and notes that the message should NOT come over the dispatcher’s air from the command.",
       "time_limit_sec": 45,
-      "points": 10,
-      "tags": ["procedure-104", "overview", "radio-codes"]
+      "points": 10
     },
     {
-      "question_id": "NYC911-104-EC-MCQ-002",
-      "type": "mcq",
-      "difficulty": "easy",
-      "domain": "911",
-      "topic": "Event Creation Codes",
-      "subtopic": "10-01 vs 10-03",
-      "stem": "A unit needs to be told to call their own command, not the dispatcher. Which code should be transmitted?",
-      "choices": [
-        {
-          "id": "A",
-          "text": "10-01 CALL YOUR COMMAND",
-          "is_correct": true
-        },
-        {
-          "id": "B",
-          "text": "10-02 REPORT TO YOUR COMMAND",
-          "is_correct": false
-        },
-        {
-          "id": "C",
-          "text": "10-03 CALL DISPATCHER BY TELEPHONE",
-          "is_correct": false
-        },
-        {
-          "id": "D",
-          "text": "10-07 VERIFY ADDRESS",
-          "is_correct": false
-        }
-      ],
-      "solution": "10-01 is used to tell a unit to CALL YOUR COMMAND, and the message should not come over the dispatcher’s air from the command.",
-      "time_limit_sec": 45,
-      "points": 10,
-      "tags": ["10-01", "event-creation"]
-    },
-    {
-      "question_id": "NYC911-104-EC-TF-001",
+      "question_id": "NYC911-104-EC-01-TF",
       "type": "true_false",
       "difficulty": "medium",
       "domain": "911",
       "topic": "Event Creation Codes",
-      "stem": "Code 10-04 ACKNOWLEDGMENT may be used when a transmission was not heard or understood.",
-      "answer": "false",
-      "time_limit_sec": 25,
-      "points": 5
-    },
-    {
-      "question_id": "NYC911-104-EC-TF-002",
-      "type": "true_false",
-      "difficulty": "easy",
-      "domain": "911",
-      "topic": "Event Creation Codes",
-      "stem": "Codes 10-08 and 10-09 are marked as NOT USED in Procedure 104.",
+      "subtopic": "10-01 CALL YOUR COMMAND",
+      "stem": "For code 10-01 CALL YOUR COMMAND, Procedure 104 states that this message should NOT come over the dispatcher’s air from the command.",
       "answer": "true",
       "time_limit_sec": 25,
       "points": 5
     },
     {
-      "question_id": "NYC911-104-EC-FB-001",
+      "question_id": "NYC911-104-EC-01-FB",
       "type": "fill_blank",
       "difficulty": "medium",
       "domain": "911",
       "topic": "Event Creation Codes",
-      "subtopic": "10-03 Details",
-      "stem": "Code 10-03 CALL DISPATCHER BY TELEPHONE requires the dispatcher to transmit the __________ at the same time if it is unknown to the unit.",
-      "answer": "telephone number",
+      "subtopic": "10-01 CALL YOUR COMMAND",
+      "stem": "Code 10-01 is defined as “CALL YOUR __________,” and the guide notes that this message should not come over the dispatcher’s air from the command.",
+      "answer": "COMMAND",
       "time_limit_sec": 40,
       "points": 10
     },
     {
-      "question_id": "NYC911-104-EC-FB-002",
-      "type": "fill_blank",
-      "difficulty": "medium",
-      "domain": "911",
-      "topic": "Event Creation Codes",
-      "subtopic": "10-07 Use",
-      "stem": "Code 10-07 VERIFY ADDRESS is only used when a dispatcher wants to know the unit’s current __________.",
-      "answer": "location",
-      "time_limit_sec": 40,
-      "points": 10
-    },
-    {
-      "question_id": "NYC911-104-EC-MATCH-001",
+      "question_id": "NYC911-104-EC-01-MATCH",
       "type": "matching",
       "difficulty": "medium",
       "domain": "911",
       "topic": "Event Creation Codes",
-      "subtopic": "Basic Meanings",
-      "stem": "Match each event-creation code with its correct description.",
+      "subtopic": "10-01 CALL YOUR COMMAND",
+      "stem": "Match each detail to code 10-01 CALL YOUR COMMAND.",
       "answer": [
         [
-          "10-01",
-          "CALL YOUR COMMAND (message should not come over dispatcher’s air from the command)."
+          "Who is the unit instructed to contact?",
+          "Their command"
         ],
         [
-          "10-02",
-          "REPORT TO YOUR COMMAND (unit should complete assignment unless it is an emergency)."
+          "Should the command’s message be transmitted over the dispatcher’s air?",
+          "No, it should NOT come over the dispatcher’s air."
         ],
         [
-          "10-03",
-          "CALL DISPATCHER BY TELEPHONE (dispatcher should give the phone number if unknown)."
+          "Is 10-01 an event creation code or a final disposition?",
+          "Event creation code"
         ],
         [
-          "10-06",
-          "STAND BY (used when advising units to wait for a message)."
+          "Under which Procedure is 10-01 defined?",
+          "Procedure 104 – Radio Code Signals"
         ]
       ],
       "time_limit_sec": 60,
       "points": 10
     },
+
     {
-      "question_id": "NYC911-104-EC-MATCH-002",
+      "question_id": "NYC911-104-EC-02-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-02 REPORT TO YOUR COMMAND",
+      "stem": "What instruction does code 10-02 give to the unit?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "CALL YOUR COMMAND",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "REPORT TO YOUR COMMAND",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "STAND BY",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "CALL DISPATCHER BY TELEPHONE",
+          "is_correct": false
+        }
+      ],
+      "solution": "10-02 is REPORT TO YOUR COMMAND, and the guide adds instructions about completing assignments first unless it is an emergency.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-EC-02-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-02 REPORT TO YOUR COMMAND",
+      "stem": "For code 10-02, Procedure 104 states that unless it is an emergency, units should be advised to complete their assignments before responding to their command.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-104-EC-02-FB",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-02 REPORT TO YOUR COMMAND",
+      "stem": "Code 10-02 is REPORT TO YOUR COMMAND, and the guide says that unless it is an __________, units will be advised to complete their assignments before responding.",
+      "answer": "emergency",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-EC-02-MATCH",
       "type": "matching",
       "difficulty": "medium",
       "domain": "911",
       "topic": "Event Creation Codes",
-      "subtopic": "Proper Usage Rules",
-      "stem": "Match each code with the special usage instruction from Procedure 104.",
+      "subtopic": "10-02 REPORT TO YOUR COMMAND",
+      "stem": "Match each statement with how it applies to code 10-02 REPORT TO YOUR COMMAND.",
       "answer": [
         [
-          "10-04 ACKNOWLEDGMENT",
-          "Should NOT be used if a transmission was not heard or understood."
+          "Base instruction to the unit",
+          "Report to your command"
         ],
         [
-          "10-05 REPEAT MESSAGE",
-          "To be used when a message was not heard or understood."
+          "What should the unit do with their current assignment if it is not an emergency?",
+          "Complete the assignment before responding."
         ],
         [
-          "10-07 VERIFY ADDRESS",
-          "Only used when the dispatcher wants to know the unit’s current location."
+          "Is this primarily about radio contact or physical reporting?",
+          "Physical reporting to the command"
         ],
         [
-          "10-08 / 10-09",
-          "NOT USED."
+          "Is 10-02 an event creation or out-of-service code?",
+          "Event creation code"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-104-EC-03-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-03 CALL DISPATCHER BY TELEPHONE",
+      "stem": "What does radio code 10-03 instruct the unit to do?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Call their command",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Call the dispatcher by telephone",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Report to their command in person",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Verify the address with the complainant",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 104 defines 10-03 as CALL DISPATCHER BY TELEPHONE and instructs that if the number is unknown, it should be transmitted at the same time.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-EC-03-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-03 CALL DISPATCHER BY TELEPHONE",
+      "stem": "For code 10-03 CALL DISPATCHER BY TELEPHONE, the dispatcher must transmit the telephone number to be used if it is unknown to the unit.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-104-EC-03-FB",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-03 CALL DISPATCHER BY TELEPHONE",
+      "stem": "When using code 10-03 CALL DISPATCHER BY TELEPHONE, if the phone number is unknown, the dispatcher should transmit the __________ to be used at the same time.",
+      "answer": "telephone number",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-EC-03-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-03 CALL DISPATCHER BY TELEPHONE",
+      "stem": "Match each aspect of code 10-03 CALL DISPATCHER BY TELEPHONE with the correct detail.",
+      "answer": [
+        [
+          "Who the unit is instructed to call",
+          "The dispatcher"
+        ],
+        [
+          "What additional information must be transmitted if unknown",
+          "The telephone number to be used"
+        ],
+        [
+          "Is 10-03 an event creation code or an out-of-service code?",
+          "Event creation code"
+        ],
+        [
+          "Which procedure defines this requirement?",
+          "Procedure 104 – Radio Code Signals"
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-104-EC-04-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-04 ACKNOWLEDGMENT",
+      "stem": "What is the correct use of code 10-04, according to Procedure 104?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To request a repeat of a message that was not heard",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "To acknowledge a transmission that was heard and understood",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "To verify a unit’s current address",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "To place a unit out of service for mechanical issues",
+          "is_correct": false
+        }
+      ],
+      "solution": "10-04 is ACKNOWLEDGMENT and should NOT be used if a transmission was not heard or understood.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-EC-04-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-04 ACKNOWLEDGMENT",
+      "stem": "Code 10-04 ACKNOWLEDGMENT should be used when a transmission was not heard or understood.",
+      "answer": "false",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-104-EC-04-FB",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-04 ACKNOWLEDGMENT",
+      "stem": "Procedure 104 says that 10-04 ACKNOWLEDGMENT should NOT be used if a transmission was not __________ or understood.",
+      "answer": "heard",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-EC-04-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-04 ACKNOWLEDGMENT",
+      "stem": "Match each statement to how it relates to 10-04 ACKNOWLEDGMENT.",
+      "answer": [
+        [
+          "Primary purpose of 10-04",
+          "To acknowledge a transmission that was heard and understood."
+        ],
+        [
+          "Should 10-04 be used when the message was not heard?",
+          "No, it should NOT be used in that case."
+        ],
+        [
+          "If the dispatcher did not understand a unit, what code should be used instead?",
+          "10-05 REPEAT MESSAGE."
+        ],
+        [
+          "Is 10-04 defined in the event-creation section of Procedure 104?",
+          "Yes, it appears with the 10-01 through 10-07 instructions."
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-104-EC-05-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-05 REPEAT MESSAGE",
+      "stem": "When should code 10-05 REPEAT MESSAGE be used?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "When the dispatcher needs the unit to call their command",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "When a message was not heard or understood",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "When verifying the unit’s current address",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "When the unit has arrived on the scene",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 104 states that 10-05 REPEAT MESSAGE is to be used when a message was not heard or understood.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-EC-05-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-05 REPEAT MESSAGE",
+      "stem": "Code 10-05 REPEAT MESSAGE should be used instead of 10-04 when the dispatcher did not hear or understand the transmission.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-104-EC-05-FB",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-05 REPEAT MESSAGE",
+      "stem": "Procedure 104 defines 10-05 REPEAT MESSAGE as to be used when the message was not __________ or understood.",
+      "answer": "heard",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-EC-05-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-05 REPEAT MESSAGE",
+      "stem": "Match each scenario to whether 10-05 should be used, based on Procedure 104.",
+      "answer": [
+        [
+          "Dispatcher clearly heard and understood the unit’s message.",
+          "Do NOT use 10-05; 10-04 may be appropriate."
+        ],
+        [
+          "Dispatcher did NOT hear the message due to static.",
+          "Use 10-05 REPEAT MESSAGE."
+        ],
+        [
+          "Dispatcher heard the unit but did NOT understand what was said.",
+          "Use 10-05 REPEAT MESSAGE."
+        ],
+        [
+          "Dispatcher wants the unit to verify their current address.",
+          "Do NOT use 10-05; use 10-07 VERIFY ADDRESS."
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-104-EC-06-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-06 STAND BY",
+      "stem": "What is the purpose of code 10-06 STAND BY in Procedure 104?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To have the unit call their command",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "To advise units to wait for a message",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "To report to the precinct station house",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "To verify the unit’s current location",
+          "is_correct": false
+        }
+      ],
+      "solution": "10-06 STAND BY is defined as to be used when advising units to wait for a message.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-EC-06-TF",
+      "type": "true_false",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-06 STAND BY",
+      "stem": "Code 10-06 STAND BY is used when advising units to wait for a message.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-104-EC-06-FB",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-06 STAND BY",
+      "stem": "Procedure 104 states that 10-06 STAND BY is to be used when advising units to __________ for a message.",
+      "answer": "wait",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-EC-06-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-06 STAND BY",
+      "stem": "Match each dispatcher action with whether 10-06 STAND BY is appropriate.",
+      "answer": [
+        [
+          "Dispatcher is about to look up more information and will answer shortly.",
+          "Use 10-06 STAND BY."
+        ],
+        [
+          "Dispatcher wants the unit to immediately call the command.",
+          "Do NOT use 10-06; use 10-01."
+        ],
+        [
+          "Dispatcher wants the unit to wait while another transmission is completed.",
+          "Use 10-06 STAND BY."
+        ],
+        [
+          "Dispatcher needs the unit to verify its current location.",
+          "Do NOT use 10-06; use 10-07 VERIFY ADDRESS."
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-104-EC-07-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-07 VERIFY ADDRESS",
+      "stem": "According to Procedure 104, when is code 10-07 VERIFY ADDRESS used?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Whenever a caller’s address needs to be confirmed",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only when a dispatcher wants to know the unit’s current location",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "When the unit must report to their command",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "When the dispatcher wants the unit to stand by",
+          "is_correct": false
+        }
+      ],
+      "solution": "10-07 VERIFY ADDRESS is only used when the dispatcher wants to know the unit’s current location.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-EC-07-TF",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-07 VERIFY ADDRESS",
+      "stem": "Code 10-07 VERIFY ADDRESS may be used whenever the dispatcher wants to confirm the complainant’s home address.",
+      "answer": "false",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-104-EC-07-FB",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-07 VERIFY ADDRESS",
+      "stem": "10-07 VERIFY ADDRESS is only used when a dispatcher wants to know the unit’s current __________.",
+      "answer": "location",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-EC-07-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-07 VERIFY ADDRESS",
+      "stem": "Match each use case with whether 10-07 VERIFY ADDRESS is appropriate.",
+      "answer": [
+        [
+          "Dispatcher needs to know where the responding unit is right now.",
+          "Use 10-07 VERIFY ADDRESS."
+        ],
+        [
+          "Dispatcher needs to confirm the complainant’s callback number.",
+          "Do NOT use 10-07; this is not the unit’s location."
+        ],
+        [
+          "Dispatcher wants the unit to check a different address on the job.",
+          "10-07 is not for checking a second job address; it is for the unit’s current location."
+        ],
+        [
+          "Dispatcher wants to know the exact intersection where the RMP is stopped.",
+          "Use 10-07 VERIFY ADDRESS, as it asks for the unit’s current location."
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-104-EC-08-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-08 NOT USED",
+      "stem": "How is code 10-08 defined in Procedure 104?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "OUT OF SERVICE (MECHANICAL)",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "ARRIVED AT SCENE",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "NOT USED",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "CALL YOUR COMMAND",
+          "is_correct": false
+        }
+      ],
+      "solution": "The 10-08 entry in Procedure 104 is explicitly listed as NOT USED.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-EC-08-TF",
+      "type": "true_false",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-08 NOT USED",
+      "stem": "Code 10-08 is marked as NOT USED in Procedure 104 and should not be transmitted over the air.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-104-EC-08-FB",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-08 NOT USED",
+      "stem": "In the event-creation section of Procedure 104, 10-08 is listed simply as __________.",
+      "answer": "NOT USED",
+      "time_limit_sec": 30,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-EC-08-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-08 NOT USED",
+      "stem": "Match each statement to whether it correctly reflects how 10-08 is treated in Procedure 104.",
+      "answer": [
+        [
+          "Defined with a specific instruction for units.",
+          "Incorrect – 10-08 is listed as NOT USED."
+        ],
+        [
+          "Dispatcher should avoid using this code over the air.",
+          "Correct – it is marked NOT USED."
+        ],
+        [
+          "Appears in the same section as 10-01 through 10-07.",
+          "Correct – it is part of the event-creation list."
+        ],
+        [
+          "May be activated for pilot projects when unused codes are needed.",
+          "Possible – the note in Procedure 104 says unused codes may be activated for pilot projects."
+        ]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-104-EC-09-MCQ",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-09 NOT USED",
+      "stem": "How is code 10-09 defined in Procedure 104?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "MEAL",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "PRECINCT ASSIGNMENT",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "NOT USED",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "CALL DISPATCHER BY TELEPHONE",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 104 lists 10-09 as NOT USED, directly under 10-08 which is also NOT USED.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-EC-09-TF",
+      "type": "true_false",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-09 NOT USED",
+      "stem": "Like 10-08, code 10-09 is also marked NOT USED in the event-creation section of Procedure 104.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-104-EC-09-FB",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-09 NOT USED",
+      "stem": "The guide labels 10-09 as __________, indicating there is no active definition for this code.",
+      "answer": "NOT USED",
+      "time_limit_sec": 30,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-104-EC-09-MATCH",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Event Creation Codes",
+      "subtopic": "10-09 NOT USED",
+      "stem": "Match each statement about 10-09 NOT USED to its correctness under Procedure 104.",
+      "answer": [
+        [
+          "Dispatcher should create their own meaning for 10-09 if needed.",
+          "Incorrect – code is NOT USED and should not be improvised."
+        ],
+        [
+          "10-09 appears in the same block as 10-08, both marked NOT USED.",
+          "Correct – both 10-08 and 10-09 are listed as NOT USED."
+        ],
+        [
+          "10-09 currently has no operational instruction in the event-creation section.",
+          "Correct – it is simply listed as NOT USED."
+        ],
+        [
+          "Unused codes, like 10-09, may be activated for pilot projects if directed.",
+          "Correct – the note in Procedure 104 states that unused codes may be activated for pilot projects."
         ]
       ],
       "time_limit_sec": 60,
