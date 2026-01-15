@@ -28,6 +28,12 @@ function isAdmin(req, res, next) {
   const user = req.user || null;
   const email = (user?.email || "").toLowerCase();
 
+  console.log("[admin] guard check:", {
+    isProd,
+    email,
+    ADMIN_EMAILS,
+  });
+
   // If user is in the admin list, allow
   if (email && ADMIN_EMAILS.includes(email)) {
     return next();
@@ -47,6 +53,7 @@ function isAdmin(req, res, next) {
     message: "Admin access only."
   });
 }
+
 
 
 
