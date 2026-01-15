@@ -12,9 +12,7 @@
   },
   "questions": [
 
-    /* -----------------------------
-       NR — No Response from Unit
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-NR-MCQ",
@@ -55,9 +53,7 @@
       "answer": "NR"
     },
 
-    /* -----------------------------
-       O/O — Out of Order
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-OO-MCQ",
@@ -98,9 +94,7 @@
       "answer": "O/O"
     },
 
-    /* -----------------------------
-       On the Job
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-OTJ-MCQ",
@@ -141,9 +135,7 @@
       "answer": "Job"
     },
 
-    /* -----------------------------
-       OPR — Operator
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-OPR-MCQ",
@@ -184,9 +176,7 @@
       "answer": "OPR"
     },
 
-    /* -----------------------------
-       P.A.R. — Precinct Activated Response Program
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-PAR-MCQ",
@@ -227,9 +217,7 @@
       "answer": "Precinct; Response"
     },
 
-    /* -----------------------------
-       PC — Police Commissioner
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-PC-MCQ",
@@ -270,9 +258,7 @@
       "answer": "Police Commissioner"
     },
 
-    /* -----------------------------
-       Perp — Perpetrator
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-PERP-MCQ",
@@ -313,9 +299,7 @@
       "answer": "Perp"
     },
 
-    /* -----------------------------
-       Personal — Personal Necessity
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-PERSONAL-MCQ",
@@ -356,9 +340,7 @@
       "answer": "Personal"
     },
 
-    /* -----------------------------
-       PG — Patrol Guide
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-PG-MCQ",
@@ -399,9 +381,7 @@
       "answer": "Patrol Guide"
     },
 
-    /* -----------------------------
-       PH — Private House
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-PH-MCQ",
@@ -442,9 +422,7 @@
       "answer": "Private house"
     },
 
-    /* -----------------------------
-       Pickup Job
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-PICKUP-MCQ",
@@ -485,9 +463,7 @@
       "answer": "Pickup Job"
     },
 
-    /* -----------------------------
-       Plat — Platform
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-PLAT-MCQ",
@@ -528,9 +504,6 @@
       "answer": "platform"
     },
 
-    /* -----------------------------
-       PO — Place of Occurrence / Police Officer
-       ----------------------------- */
 
     {
       "question_id": "NYC911-500-P4-PO-MCQ",
@@ -571,9 +544,6 @@
       "answer": "PO"
     },
 
-    /* -----------------------------
-       Poss — Possible
-       ----------------------------- */
 
     {
       "question_id": "NYC911-500-P4-POSS-MCQ",
@@ -614,9 +584,7 @@
       "answer": "Poss"
     },
 
-    /* -----------------------------
-       Proceed
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-PROCEED-MCQ",
@@ -657,9 +625,7 @@
       "answer": "Proceed"
     },
 
-    /* -----------------------------
-       RCI — Road Car Inspector
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-RCI-MCQ",
@@ -700,9 +666,7 @@
       "answer": "RCI"
     },
 
-    /* -----------------------------
-       RDO — Regular Day Off
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-RDO-MCQ",
@@ -743,9 +707,6 @@
       "answer": "RDO"
     },
 
-    /* -----------------------------
-       Roving Group
-       ----------------------------- */
 
     {
       "question_id": "NYC911-500-P4-ROVING-MCQ",
@@ -786,9 +747,7 @@
       "answer": "Roving Group"
     },
 
-    /* -----------------------------
-       RMA — Refuse Medical Attention
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-RMA-MCQ",
@@ -829,9 +788,7 @@
       "answer": "RMA"
     },
 
-    /* -----------------------------
-       RUN — Radio Car Assignment
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-RUN-MCQ",
@@ -872,9 +829,6 @@
       "answer": "run"
     },
 
-    /* -----------------------------
-       SC/SFC/SMC — See Complaint
-       ----------------------------- */
 
     {
       "question_id": "NYC911-500-P4-SC-MCQ",
@@ -915,9 +869,6 @@
       "answer": "female; male"
     },
 
-    /* -----------------------------
-       Show Up — Field Identification
-       ----------------------------- */
 
     {
       "question_id": "NYC911-500-P4-SHOWUP-MCQ",
@@ -958,9 +909,7 @@
       "answer": "Show Up"
     },
 
-    /* -----------------------------
-       Slashing
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-SLASH-MCQ",
@@ -1001,10 +950,6 @@
       "answer": "Slashing"
     },
 
-    /* -----------------------------
-       Space Case — Between Train & Platform
-       ----------------------------- */
-
     {
       "question_id": "NYC911-500-P4-SPACECASE-MCQ",
       "type": "mcq",
@@ -1044,9 +989,7 @@
       "answer": "Space Case"
     },
 
-    /* -----------------------------
-       SLA — State Liquor Authority
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-SLA-MCQ",
@@ -1087,9 +1030,7 @@
       "answer": "SLA"
     },
 
-    /* -----------------------------
-       Straight Aided
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-STRAIGHTAID-MCQ",
@@ -1130,9 +1071,7 @@
       "answer": "Straight Aided"
     },
 
-    /* -----------------------------
-       Sweep — Multiple Arrests for Specific Offense
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-SWEEP-MCQ",
@@ -1173,9 +1112,7 @@
       "answer": "Sweep"
     },
 
-    /* -----------------------------
-       Swing — Day Off
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-SWING-MCQ",
@@ -1216,9 +1153,7 @@
       "answer": "Swing"
     },
 
-    /* -----------------------------
-       THV — Temporary Headquarters Vehicle
-       ----------------------------- */
+
 
     {
       "question_id": "NYC911-500-P4-THV-MCQ",
@@ -1259,9 +1194,6 @@
       "answer": "Temporary Headquarters Vehicle"
     },
 
-    /* -----------------------------
-       Tin — Police Shield
-       ----------------------------- */
 
     {
       "question_id": "NYC911-500-P4-TIN-MCQ",
