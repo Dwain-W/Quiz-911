@@ -1,0 +1,382 @@
+{
+  "lesson": {
+    "slug": "911-proc-100-radio-professionalism",
+    "title": "911 - Procedure 100 – Radio Professionalism",
+    "topic": "NYPD Radio – Professionalism & Confidentiality",
+    "order": 100,
+    "objectives": [
+      "Explain the purpose of Procedure 100 and how it applies to daily radio transmissions.",
+      "Apply confidentiality rules for information entered into the ICAD system.",
+      "Determine when perpetrator names must and must not be transmitted over the radio.",
+      "Demonstrate Courtesy, Professionalism, and Respect (CPR) toward the public and members of service.",
+      "Identify unprofessional behaviors that are prohibited on radio and telephone communications."
+    ],
+    "questionIds": [
+      "NYC911-100-MCQ-001",
+      "NYC911-100-MCQ-002",
+      "NYC911-100-MCQ-003",
+      "NYC911-100-MCQ-004",
+      "NYC911-100-TF-001",
+      "NYC911-100-TF-002",
+      "NYC911-100-TF-003",
+      "NYC911-100-TF-004",
+      "NYC911-100-FB-001",
+      "NYC911-100-FB-002",
+      "NYC911-100-FB-003",
+      "NYC911-100-FB-004",
+      "NYC911-100-MATCH-001",
+      "NYC911-100-MATCH-002",
+      "NYC911-100-MATCH-003",
+      "NYC911-100-MATCH-004"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-100-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Purpose of Procedure 100",
+      "subtopic": "Overall Goal",
+      "stem": "What is the primary PURPOSE of Procedure 100 – Radio Professionalism?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To explain how to log units on and off the ICAD system.",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "To ensure dispatchers transmit all radio runs in a courteous, professional manner.",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "To describe how to assign units near the tour changeover.",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "To provide a list of all radio code signals and expansions.",
+          "is_correct": false
+        }
+      ],
+      "solution": "The stated purpose of Procedure 100 is to ensure dispatchers transmit all radio runs in a courteous, professional manner.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-100-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "CPR Concept",
+      "subtopic": "Definition",
+      "stem": "In Procedure 100, the letters CPR stand for:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Calm, Professional, Responsible",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Courtesy, Professionalism, Respect",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Command, Presence, Radio-control",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Control, Precision, Response",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 100 explicitly defines CPR as Courtesy, Professionalism, Respect.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-100-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Confidentiality",
+      "subtopic": "ICAD Information",
+      "stem": "According to Procedure 100, what happens to information once it has been taken into the police system (ICAD)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It becomes public information and may be freely discussed.",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "It becomes police information, which is confidential.",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "It must be broadcast over the radio at least once.",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "It is automatically deleted after the incident ends.",
+          "is_correct": false
+        }
+      ],
+      "solution": "The procedure states that once in ICAD, the information becomes police information, which is confidential.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-100-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Perpetrator Name Over the Air",
+      "subtopic": "Crimes in Progress",
+      "stem": "In which situation is the dispatcher REQUIRED to transmit the perpetrator’s name over the radio, according to Procedure 100?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "For any minor dispute with no weapons present.",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "For crimes in progress such as 10S’s, 30s, 31s, 32s, 34s (with certain exceptions), 52s with weapons, and 54EDPs (danger to public safety).",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only when the caller requests that the name be given.",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Never; perpetrator names are always prohibited over the air.",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 100 lists specific incidents, including 10S’s, 30s, 31s, 32s, 34s (with an exception), 52s with weapons, and 54EDPs (danger to public safety), where perpetrator names must be given over the air for officer safety.",
+      "time_limit_sec": 60,
+      "points": 12
+    },
+
+    {
+      "question_id": "NYC911-100-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "CPR Concept",
+      "subtopic": "Direction of CPR",
+      "stem": "Procedure 100 states that Courtesy, Professionalism, and Respect (CPR) must flow only from members of the Department to the public.",
+      "answer": "false",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-100-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Law Enforcement as Service",
+      "subtopic": "Service Profession",
+      "stem": "According to Procedure 100, law enforcement is considered a service profession and dispatchers owe it to the communities they serve to treat every citizen with CPR.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-100-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Confidentiality & Discussion",
+      "subtopic": "Discussing Incidents",
+      "stem": "Dispatchers may freely discuss their personal opinions about incidents over the radio or telephone as long as no names are mentioned.",
+      "answer": "false",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-100-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Perpetrator Name Over the Air",
+      "subtopic": "Sexual Assault Exception",
+      "stem": "When dispatching a sexual assault where the perpetrator is a family member and/or lives with the victim, Procedure 100 still requires that you transmit the perpetrator's name over the air.",
+      "answer": "false",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+
+    {
+      "question_id": "NYC911-100-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "CPR Concept",
+      "subtopic": "Acronym Expansion",
+      "stem": "In Procedure 100, CPR is described as the cornerstone concept that \"breathes life\" into daily exchanges with the public and coworkers. CPR stands for ________, Professionalism, and Respect.",
+      "answer": "Courtesy",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-100-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Confidentiality",
+      "subtopic": "Police Information",
+      "stem": "Procedure 100 states that once information has been taken into the police system (the Communications ______ system), it becomes police information, which is confidential.",
+      "answer": "ICAD",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-100-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Handling Sensitive Details",
+      "subtopic": "Alternate Communication",
+      "stem": "Names and detailed descriptions that could hinder the ability of police to respond or apprehend suspects should be given via _________, if necessary and if possible, instead of over the radio.",
+      "answer": "telephone",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-100-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Professional Conduct",
+      "subtopic": "Expectation",
+      "stem": "Procedure 100 states that nothing less than __________ conduct is expected of all personnel assigned to Communications, and nothing less will be accepted.",
+      "answer": "professional",
+      "time_limit_sec": 40,
+      "points": 10
+    },
+
+    {
+      "question_id": "NYC911-100-MATCH-001",
+      "type": "matching",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "CPR Concept",
+      "subtopic": "Meaning",
+      "stem": "Match each letter of CPR with what it stands for in Procedure 100.",
+      "answer": [
+        [
+          "C",
+          "Courtesy"
+        ],
+        [
+          "P",
+          "Professionalism"
+        ],
+        [
+          "R",
+          "Respect"
+        ]
+      ],
+      "time_limit_sec": 45,
+      "points": 8
+    },
+    {
+      "question_id": "NYC911-100-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Perpetrator Name Over the Air",
+      "subtopic": "When Required",
+      "stem": "Match each situation to whether Procedure 100 REQUIRES transmitting the perpetrator’s name over the radio.",
+      "answer": [
+        [
+          "10S’s, 30s, 31s, 32s, 34s (not involving a family-member sexual assault), 52s with weapons, and 54EDPs (danger to public safety)",
+          "Name must be transmitted over the radio for officer safety"
+        ],
+        [
+          "Minor dispute with no weapons and no ongoing crime in progress",
+          "Name does NOT need to be transmitted over the radio"
+        ],
+        [
+          "Sexual assault where the perpetrator is a family member and/or lives with the victim",
+          "Exception – name should not be broadcast; handled more discreetly"
+        ],
+        [
+          "Witness names and detailed complainant information",
+          "Generally should not be transmitted over the air; use telephone or have unit call Central when needed"
+        ]
+      ],
+      "time_limit_sec": 75,
+      "points": 14
+    },
+    {
+      "question_id": "NYC911-100-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Confidentiality & Discussion",
+      "subtopic": "Do / Don’t",
+      "stem": "Match each action with whether it is allowed or prohibited by Procedure 100.",
+      "answer": [
+        [
+          "Giving full incident details (location, hazards, critical information) to responding units",
+          "Required when it may save lives"
+        ],
+        [
+          "Discussing personal opinions about incidents over the radio or telephone",
+          "Prohibited – dispatchers must not discuss these matters during official duties"
+        ],
+        [
+          "Treating each caller and member of service with dignity and helpfulness",
+          "Required to promote respect for the Communications Section"
+        ],
+        [
+          "Exposing complainant identities over the air when not necessary for safety",
+          "Not permitted; may endanger safety or infringe on privacy"
+        ]
+      ],
+      "time_limit_sec": 75,
+      "points": 14
+    },
+    {
+      "question_id": "NYC911-100-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Professional Behavior with Units",
+      "subtopic": "Tact & Control",
+      "stem": "Match each dispatcher behavior with how Procedure 100 views it.",
+      "answer": [
+        [
+          "Remaining calm and maintaining control of the frequency even when a unit is rude or argumentative",
+          "Expected – shows professionalism and leadership"
+        ],
+        [
+          "Responding to an argumentative unit with sarcasm or anger over the air",
+          "Unacceptable – violates professionalism and CPR"
+        ],
+        [
+          "Using a pleasant, efficient voice while keeping complete control over the field units",
+          "Encouraged – the example set may be emulated by units on the frequency"
+        ],
+        [
+          "Allowing levity and emotion to dominate transmissions",
+          "Discouraged – detracts from the professional image of the dispatcher"
+        ]
+      ],
+      "time_limit_sec": 75,
+      "points": 14
+    }
+  ]
+}
