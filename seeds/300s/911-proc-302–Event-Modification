@@ -1,0 +1,362 @@
+{
+  "lesson": {
+    "slug": "nyc911-proc-302-event-modification",
+    "title": "911 - Procedure 302 : Event Modification",
+    "topic": "Dispatching Functions",
+    "order": 302,
+    "objectives": [
+      "Modify existing CAD events correctly.",
+      "Identify which event fields may be edited by a dispatcher.",
+      "Apply restrictions when modifying events.",
+      "Ensure event accuracy and dispatcher accountability."
+    ],
+    "questionIds": [
+      "NYC911-302-MCQ-001",
+      "NYC911-302-TF-001",
+      "NYC911-302-FB-001",
+      "NYC911-302-MATCH-001",
+
+      "NYC911-302-MCQ-002",
+      "NYC911-302-TF-002",
+      "NYC911-302-FB-002",
+      "NYC911-302-MATCH-002",
+
+      "NYC911-302-MCQ-003",
+      "NYC911-302-TF-003",
+      "NYC911-302-FB-003",
+      "NYC911-302-MATCH-003",
+
+      "NYC911-302-MCQ-004",
+      "NYC911-302-TF-004",
+      "NYC911-302-FB-004",
+      "NYC911-302-MATCH-004",
+
+      "NYC911-302-MCQ-005",
+      "NYC911-302-TF-005",
+      "NYC911-302-FB-005",
+      "NYC911-302-MATCH-005",
+
+      "NYC911-302-MCQ-006",
+      "NYC911-302-TF-006",
+      "NYC911-302-FB-006",
+      "NYC911-302-MATCH-006",
+
+      "NYC911-302-MCQ-007",
+      "NYC911-302-TF-007",
+      "NYC911-302-FB-007",
+      "NYC911-302-MATCH-007",
+
+      "NYC911-302-MCQ-008",
+      "NYC911-302-TF-008",
+      "NYC911-302-FB-008",
+      "NYC911-302-MATCH-008"
+    ]
+  },
+  "questions": [
+
+    {
+      "question_id": "NYC911-302-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "What is the purpose of Procedure 302?",
+      "choices": [
+        { "id": "A", "text": "To assign units to events", "is_correct": false },
+        { "id": "B", "text": "To modify existing CAD events", "is_correct": true },
+        { "id": "C", "text": "To add routing destinations", "is_correct": false },
+        { "id": "D", "text": "To clear completed jobs", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-302-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Procedure 302 applies only to newly created events.",
+      "answer": "false"
+    },
+    {
+      "question_id": "NYC911-302-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 302 governs the modification of ________ events.",
+      "answer": "existing"
+    },
+    {
+      "question_id": "NYC911-302-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the term to its meaning.",
+      "answer": [
+        ["Event Modification", "Changing information on an existing event"],
+        ["Dispatcher", "User authorized to modify events"],
+        ["CAD", "System where events are maintained"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-302-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Which event field may be modified by a dispatcher?",
+      "choices": [
+        { "id": "A", "text": "Event number", "is_correct": false },
+        { "id": "B", "text": "Remarks", "is_correct": true },
+        { "id": "C", "text": "Time of creation", "is_correct": false },
+        { "id": "D", "text": "CAD ID", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-302-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Dispatchers may modify event remarks when new information is received.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-302-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Updated information should be entered into the ________ field of the event.",
+      "answer": "remarks"
+    },
+    {
+      "question_id": "NYC911-302-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the field to its function.",
+      "answer": [
+        ["Remarks", "Narrative updates"],
+        ["Location", "Event address"],
+        ["Classification", "Type of incident"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-302-MCQ-003",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "When should an event classification be modified?",
+      "choices": [
+        { "id": "A", "text": "When the dispatcher assumes a different crime", "is_correct": false },
+        { "id": "B", "text": "When verified information indicates a change", "is_correct": true },
+        { "id": "C", "text": "When a unit requests convenience", "is_correct": false },
+        { "id": "D", "text": "When time has elapsed", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-302-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Event classifications should only be modified based on reliable information.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-302-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Event classifications must never be changed based on ________.",
+      "answer": "assumptions"
+    },
+    {
+      "question_id": "NYC911-302-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the source to its validity.",
+      "answer": [
+        ["Officer report", "Valid"],
+        ["Supervisor direction", "Valid"],
+        ["Dispatcher guess", "Invalid"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-302-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Why must event modifications be accurate?",
+      "choices": [
+        { "id": "A", "text": "For payroll tracking", "is_correct": false },
+        { "id": "B", "text": "To support correct dispatch decisions", "is_correct": true },
+        { "id": "C", "text": "For ticket issuance", "is_correct": false },
+        { "id": "D", "text": "To close events faster", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-302-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Inaccurate event modifications can negatively impact operations.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-302-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 302 stresses dispatcher ________ for event accuracy.",
+      "answer": "accountability"
+    },
+    {
+      "question_id": "NYC911-302-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the consequence to the cause.",
+      "answer": [
+        ["Incorrect classification", "Improper unit response"],
+        ["Wrong location", "Delayed response"],
+        ["Accurate update", "Effective dispatch"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-302-MCQ-005",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "Who is responsible for ensuring event modifications are correct?",
+      "choices": [
+        { "id": "A", "text": "Call taker", "is_correct": false },
+        { "id": "B", "text": "Dispatcher", "is_correct": true },
+        { "id": "C", "text": "Assigned unit", "is_correct": false },
+        { "id": "D", "text": "CAD system", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-302-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Dispatchers remain accountable for all event changes they enter.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-302-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Once modified, the dispatcher remains ________ for the event information.",
+      "answer": "accountable"
+    },
+    {
+      "question_id": "NYC911-302-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the role to responsibility.",
+      "answer": [
+        ["Dispatcher", "Event modification"],
+        ["Officer", "Providing updates"],
+        ["Supervisor", "Oversight"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-302-MCQ-006",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem": "Which modification would be inappropriate?",
+      "choices": [
+        { "id": "A", "text": "Updating remarks after officer report", "is_correct": false },
+        { "id": "B", "text": "Changing classification based on assumption", "is_correct": true },
+        { "id": "C", "text": "Correcting location with verified info", "is_correct": false },
+        { "id": "D", "text": "Adding relevant details to remarks", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-302-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Event modifications may be made using reliable information from officers or supervisors.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-302-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Event modifications must be supported by ________ information.",
+      "answer": "reliable"
+    },
+    {
+      "question_id": "NYC911-302-MATCH-006",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the information type to validity.",
+      "answer": [
+        ["Confirmed update", "Valid"],
+        ["Supervisor instruction", "Valid"],
+        ["Speculation", "Invalid"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-302-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Which system is used to modify events?",
+      "choices": [
+        { "id": "A", "text": "RMS", "is_correct": false },
+        { "id": "B", "text": "ICAD", "is_correct": true },
+        { "id": "C", "text": "VESTA", "is_correct": false },
+        { "id": "D", "text": "E-Justice", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-302-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "ICAD is the system used to maintain and modify events.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-302-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 302 states that event modifications are entered into ________.",
+      "answer": "ICAD"
+    },
+    {
+      "question_id": "NYC911-302-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the system to its function.",
+      "answer": [
+        ["ICAD", "Event management"],
+        ["Radio", "Information transmission"],
+        ["Dispatcher", "Data entry"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-302-MCQ-008",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem": "When should an event NOT be modified?",
+      "choices": [
+        { "id": "A", "text": "When new verified information is received", "is_correct": false },
+        { "id": "B", "text": "When modification would misrepresent facts", "is_correct": true },
+        { "id": "C", "text": "When supervisor authorizes change", "is_correct": false },
+        { "id": "D", "text": "When officer reports correction", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-302-TF-008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Events should only be modified to reflect accurate and verified information.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-302-FB-008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 302 requires event information to remain ________ at all times.",
+      "answer": "accurate"
+    },
+    {
+      "question_id": "NYC911-302-MATCH-008",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the action to its appropriateness.",
+      "answer": [
+        ["Verified correction", "Appropriate"],
+        ["Assumed change", "Inappropriate"],
+        ["Supervisor-directed update", "Appropriate"]
+      ]
+    }
+
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "lesson": {
+    "slug": "nyc911-proc-111-selecting-reviewing-events",
+    "title": "911 - Procedure 111: Selecting and Reviewing Events",
+    "topic": "Radio Dispatching (ICAD/Event Monitor)",
+    "order": 111,
+    "objectives": [
+      "Explain what the Event Monitor displays and how it supports dispatcher coverage.",
+      "Explain what Chronology shows for an event.",
+      "Apply dispatcher judgment to select the most serious event to dispatch first while remaining accountable for priority decisions.",
+      "Apply the rules for handling cancellation requests received via 911, including supervisor notification requirements.",
+      "Identify the approved methods to dispatch a unit to a selected event."
+    ],
+    "questionIds": [
+      "NYC911-111-MCQ-001",
+      "NYC911-111-MCQ-002",
+      "NYC911-111-MCQ-003",
+      "NYC911-111-MCQ-004",
+      "NYC911-111-MCQ-005",
+      "NYC911-111-MCQ-006",
+      "NYC911-111-MCQ-007",
+      "NYC911-111-MCQ-008",
+      "NYC911-111-TF-001",
+      "NYC911-111-TF-002",
+      "NYC911-111-TF-003",
+      "NYC911-111-TF-004",
+      "NYC911-111-TF-005",
+      "NYC911-111-TF-006",
+      "NYC911-111-FB-001",
+      "NYC911-111-FB-002",
+      "NYC911-111-FB-003",
+      "NYC911-111-FB-004",
+      "NYC911-111-FB-005",
+      "NYC911-111-FB-006",
+      "NYC911-111-MATCH-001",
+      "NYC911-111-MATCH-002",
+      "NYC911-111-MATCH-003"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-111-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "radio_dispatch",
+      "topic": "Event Monitor",
+      "stem": "In Procedure 111, what does the Event Monitor show?",
+      "choices": [
+        { "id": "A", "text": "A list of all active events for the zone or other dispatcher coverage area", "is_correct": true },
+        { "id": "B", "text": "Only deferred events waiting for supervisor approval", "is_correct": false },
+        { "id": "C", "text": "Only final dispositions for completed events", "is_correct": false },
+        { "id": "D", "text": "Only unit alarms for overdue units", "is_correct": false }
+      ],
+      "solution": "The Event Monitor shows a list of all active events for the zone or other dispatcher coverage area.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-111-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "radio_dispatch",
+      "topic": "Chronology",
+      "stem": "In Procedure 111, what does Chronology show for an event?",
+      "choices": [
+        { "id": "A", "text": "All actions performed against an event in chronological order", "is_correct": true },
+        { "id": "B", "text": "Only the initial call-taker narrative", "is_correct": false },
+        { "id": "C", "text": "Only the dispatcher’s last transmission", "is_correct": false },
+        { "id": "D", "text": "Only unit locations from GPS", "is_correct": false }
+      ],
+      "solution": "Chronology shows all actions performed against an event in chronological order.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-111-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "radio_dispatch",
+      "topic": "Priority Decision-Making",
+      "stem": "When reviewing events displayed in the Event Monitor, what should a dispatcher generally choose first?",
+      "choices": [
+        { "id": "A", "text": "The most serious incident to dispatch first", "is_correct": true },
+        { "id": "B", "text": "The oldest event, regardless of priority", "is_correct": false },
+        { "id": "C", "text": "The event with the longest remarks field", "is_correct": false },
+        { "id": "D", "text": "Any event requested by a caller to be cancelled", "is_correct": false }
+      ],
+      "solution": "Procedure 111 directs dispatchers to choose the most serious incident to dispatch first.",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-111-MCQ-004",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "CAD Priority Logic",
+      "stem": "What is the intent of the CAD system regarding how jobs are presented to dispatchers?",
+      "choices": [
+        { "id": "A", "text": "To arrange jobs according to their relative importance so the most serious jobs are seen first", "is_correct": true },
+        { "id": "B", "text": "To arrange jobs strictly in the order received", "is_correct": false },
+        { "id": "C", "text": "To arrange jobs by which unit is closest without showing priority", "is_correct": false },
+        { "id": "D", "text": "To hide low priority events until all high priority events are cleared", "is_correct": false }
+      ],
+      "solution": "The CAD system is intended to arrange jobs by relative importance so the most serious are seen first.",
+      "time_limit_sec": 50,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-111-MCQ-005",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "Dispatcher Judgment & Accountability",
+      "stem": "Procedure 111 notes that dispatchers may dispatch an assignment other than the highest priority first when:",
+      "choices": [
+        { "id": "A", "text": "They believe another assignment is more serious", "is_correct": true },
+        { "id": "B", "text": "A caller requests cancellation via 911", "is_correct": false },
+        { "id": "C", "text": "The event has the shortest response time", "is_correct": false },
+        { "id": "D", "text": "A unit asks to choose an easier job", "is_correct": false }
+      ],
+      "solution": "Procedure 111 allows flexibility to dispatch another assignment first if it is thought to be more serious, and dispatchers remain accountable for the priority decision.",
+      "time_limit_sec": 50,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-111-MCQ-006",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "Cancellation Requests",
+      "stem": "Under normal circumstances, a request to cancel a radio run received via 911 is:",
+      "choices": [
+        { "id": "A", "text": "Accepted as valid for all incidents", "is_correct": false },
+        { "id": "B", "text": "Not accepted as valid", "is_correct": true },
+        { "id": "C", "text": "Automatically cancels any assigned unit", "is_correct": false },
+        { "id": "D", "text": "Handled only by changing the event to deferred", "is_correct": false }
+      ],
+      "solution": "Procedure 111 states that a cancellation request received via 911 cannot be accepted as valid under normal circumstances.",
+      "time_limit_sec": 50,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-111-MCQ-007",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "Cancellation Requests",
+      "stem": "Even if a subsequent 911 call requests cancellation, in most cases the dispatcher must:",
+      "choices": [
+        { "id": "A", "text": "Cancel the job immediately without dispatching a unit", "is_correct": false },
+        { "id": "B", "text": "Assign an RMP and the RMP must respond to the scene", "is_correct": true },
+        { "id": "C", "text": "Wait for the complainant to call back a second time", "is_correct": false },
+        { "id": "D", "text": "Send the job to another zone without dispatch", "is_correct": false }
+      ],
+      "solution": "Procedure 111 states an RMP must be assigned and must respond to the scene in most cases even if a later 911 call requests cancellation.",
+      "time_limit_sec": 55,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-111-MCQ-008",
+      "type": "mcq",
+      "difficulty": "hard",
+      "domain": "radio_dispatch",
+      "topic": "Dispatch Unit Command",
+      "stem": "Which is an approved method to dispatch a unit to a selected event in Procedure 111?",
+      "choices": [
+        { "id": "A", "text": "While the event is selected, use the “Dispatch Unit” command", "is_correct": true },
+        { "id": "B", "text": "Use “Read Direct” from the command line", "is_correct": false },
+        { "id": "C", "text": "Type the event number into remarks and save", "is_correct": false },
+        { "id": "D", "text": "Only supervisors can dispatch units in ICAD", "is_correct": false }
+      ],
+      "solution": "Procedure 111 states that while an event is selected, the dispatcher can use the “Dispatch Unit” command (or right-click the unit in Unit Monitor and select Dispatch Unit).",
+      "time_limit_sec": 60,
+      "points": 15
+    },
+
+    {
+      "question_id": "NYC911-111-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "Event Monitor",
+      "stem": "The Event Monitor shows a list of all active events for the zone or other dispatcher coverage area.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-111-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "Chronology",
+      "stem": "Chronology shows all actions performed against an event in chronological order.",
+      "answer": "true",
+      "time_limit_sec": 25,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-111-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "Dispatcher Judgment & Accountability",
+      "stem": "Dispatchers are allowed flexibility in deciding which event to dispatch first, and they remain accountable for the priority decision.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-111-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "Cancellation Requests",
+      "stem": "A cancellation request received via 911 can be accepted as valid under normal circumstances.",
+      "answer": "false",
+      "time_limit_sec": 30,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-111-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "Cancellation Requests",
+      "stem": "When a cancellation is received on a low priority incident, the dispatcher must notify the radio supervisor.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 5
+    },
+    {
+      "question_id": "NYC911-111-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "Dispatch Unit Command",
+      "stem": "Procedure 111 allows dispatching a unit by right-clicking on the unit in the Unit Monitor and selecting Dispatch Unit.",
+      "answer": "true",
+      "time_limit_sec": 30,
+      "points": 5
+    },
+
+    {
+      "question_id": "NYC911-111-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "radio_dispatch",
+      "topic": "Event Monitor",
+      "stem": "The Event Monitor shows a list of all active events for the ______ or other dispatcher coverage area.",
+      "answer": "zone",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-111-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "radio_dispatch",
+      "topic": "Chronology",
+      "stem": "Chronology shows all actions performed against an event in __________ order.",
+      "answer": "chronological",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-111-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "radio_dispatch",
+      "topic": "Priority Decision-Making",
+      "stem": "When reviewing events displayed in the Event Monitor, the dispatcher should choose the most __________ incident to dispatch first.",
+      "answer": "serious",
+      "time_limit_sec": 45,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-111-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "radio_dispatch",
+      "topic": "Cancellation Requests",
+      "stem": "A request for the cancellation of a radio run received via ______ cannot be accepted as valid under normal circumstances.",
+      "answer": "911",
+      "time_limit_sec": 50,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-111-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "radio_dispatch",
+      "topic": "Cancellation Requests",
+      "stem": "In most cases, even if a subsequent 911 call requests cancellation, an ______ must be assigned and must respond to the scene.",
+      "answer": "RMP",
+      "time_limit_sec": 50,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-111-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "radio_dispatch",
+      "topic": "Dispatch Unit Command",
+      "stem": "While an event is selected, use the “________ ________” command, OR right click on the unit in the Unit Monitor and select Dispatch Unit.",
+      "answer": "Dispatch Unit",
+      "time_limit_sec": 60,
+      "points": 15
+    },
+
+    {
+      "question_id": "NYC911-111-MATCH-001",
+      "type": "matching",
+      "difficulty": "easy",
+      "domain": "radio_dispatch",
+      "topic": "Core Displays",
+      "stem": "Match each term to what Procedure 111 says it shows.",
+      "answer": [
+        ["Event Monitor", "List of all active events for the zone or other dispatcher coverage area"],
+        ["Chronology", "All actions performed against an event in chronological order"]
+      ],
+      "time_limit_sec": 60,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-111-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "Priority & Accountability",
+      "stem": "Match the statement to the correct idea from Procedure 111.",
+      "answer": [
+        ["CAD intent", "Arrange jobs by relative importance so the most serious jobs are seen first"],
+        ["Dispatcher flexibility", "May dispatch another assignment first if it is thought to be more serious"],
+        ["Dispatcher accountability", "Remains accountable for the priority decision"]
+      ],
+      "time_limit_sec": 75,
+      "points": 10
+    },
+    {
+      "question_id": "NYC911-111-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "Dispatching & Cancellations",
+      "stem": "Match each situation to the correct required action from Procedure 111.",
+      "answer": [
+        ["Cancellation request received via 911 (normal circumstances)", "Do not accept as valid"],
+        ["Cancellation received on a low priority incident", "Notify the radio supervisor to determine whether to dispatch or cancel if assigned"],
+        ["Need to dispatch a unit to a selected event", "Use “Dispatch Unit” command OR right click unit in Unit Monitor and select Dispatch Unit"]
+      ],
+      "time_limit_sec": 90,
+      "points": 15
+    }
+  ]
+}

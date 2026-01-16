@@ -1,0 +1,319 @@
+{
+  "lesson": {
+    "slug": "nyc911-proc-113-unit-status-updates",
+    "title": "911 - Procedure 113 : Unit Status Updates",
+    "topic": "Radio Dispatching – ICAD",
+    "order": 113,
+    "objectives": [
+      "Update unit statuses accurately in ICAD.",
+      "Identify which unit statuses may be entered by a dispatcher.",
+      "Apply restrictions on changing unit status without officer notification.",
+      "Maintain dispatcher accountability for unit status accuracy."
+    ],
+    "questionIds": [
+      "NYC911-113-MCQ-001",
+      "NYC911-113-TF-001",
+      "NYC911-113-FB-001",
+      "NYC911-113-MATCH-001",
+
+      "NYC911-113-MCQ-002",
+      "NYC911-113-TF-002",
+      "NYC911-113-FB-002",
+      "NYC911-113-MATCH-002",
+
+      "NYC911-113-MCQ-003",
+      "NYC911-113-TF-003",
+      "NYC911-113-FB-003",
+      "NYC911-113-MATCH-003",
+
+      "NYC911-113-MCQ-004",
+      "NYC911-113-TF-004",
+      "NYC911-113-FB-004",
+      "NYC911-113-MATCH-004",
+
+      "NYC911-113-MCQ-005",
+      "NYC911-113-TF-005",
+      "NYC911-113-FB-005",
+      "NYC911-113-MATCH-005",
+
+      "NYC911-113-MCQ-006",
+      "NYC911-113-TF-006",
+      "NYC911-113-FB-006",
+      "NYC911-113-MATCH-006",
+
+      "NYC911-113-MCQ-007",
+      "NYC911-113-TF-007",
+      "NYC911-113-FB-007",
+      "NYC911-113-MATCH-007"
+    ]
+  },
+  "questions": [
+
+    {
+      "question_id": "NYC911-113-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "What is the primary purpose of Procedure 113?",
+      "choices": [
+        { "id": "A", "text": "To define radio frequency assignments", "is_correct": false },
+        { "id": "B", "text": "To ensure accurate updating of unit statuses", "is_correct": true },
+        { "id": "C", "text": "To explain event prioritization rules", "is_correct": false },
+        { "id": "D", "text": "To outline call-taking responsibilities", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-113-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Procedure 113 governs how unit status changes are entered and maintained in ICAD.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-113-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 113 emphasizes dispatcher responsibility for the ________ of unit status information.",
+      "answer": "accuracy"
+    },
+    {
+      "question_id": "NYC911-113-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the term to its meaning.",
+      "answer": [
+        ["Unit Status", "Current operational condition of a unit"],
+        ["Dispatcher", "Responsible for entering status changes"],
+        ["ICAD", "System used to track unit activity"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-113-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Who is responsible for updating a unit’s status when information is received?",
+      "choices": [
+        { "id": "A", "text": "The responding officer only", "is_correct": false },
+        { "id": "B", "text": "The dispatcher", "is_correct": true },
+        { "id": "C", "text": "The radio supervisor only", "is_correct": false },
+        { "id": "D", "text": "The call taker", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-113-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Dispatchers may update unit statuses based on reliable information received over the radio.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-113-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Unit status changes must reflect the unit’s ________ operational condition.",
+      "answer": "actual"
+    },
+    {
+      "question_id": "NYC911-113-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the source of information to how status may be updated.",
+      "answer": [
+        ["Radio transmission", "Dispatcher may update status"],
+        ["Direct observation", "Dispatcher may update status"],
+        ["Assumption", "Status must not be changed"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-113-MCQ-003",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "When should a dispatcher NOT change a unit’s status?",
+      "choices": [
+        { "id": "A", "text": "When the unit reports the change", "is_correct": false },
+        { "id": "B", "text": "When reliable information is received", "is_correct": false },
+        { "id": "C", "text": "When the dispatcher assumes the unit’s activity", "is_correct": true },
+        { "id": "D", "text": "When a supervisor authorizes the change", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-113-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "A dispatcher may change a unit’s status based solely on guesswork.",
+      "answer": "false"
+    },
+    {
+      "question_id": "NYC911-113-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Status changes must never be entered based on ________.",
+      "answer": "assumptions"
+    },
+    {
+      "question_id": "NYC911-113-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the action to whether it is permitted.",
+      "answer": [
+        ["Officer reports status", "Permitted"],
+        ["Dispatcher assumption", "Not permitted"],
+        ["Supervisor instruction", "Permitted"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-113-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Why is accurate unit status important?",
+      "choices": [
+        { "id": "A", "text": "For payroll purposes", "is_correct": false },
+        { "id": "B", "text": "For effective resource deployment", "is_correct": true },
+        { "id": "C", "text": "For call-taker statistics", "is_correct": false },
+        { "id": "D", "text": "For event numbering", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-113-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Incorrect unit status can negatively impact dispatch operations.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-113-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 113 stresses that unit status directly affects ________ decisions.",
+      "answer": "dispatch"
+    },
+    {
+      "question_id": "NYC911-113-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the consequence to inaccurate status.",
+      "answer": [
+        ["Delayed response", "Possible outcome"],
+        ["Unavailable units", "Possible outcome"],
+        ["Improved coverage", "Not an outcome"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-113-MCQ-005",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "Who remains accountable for unit status accuracy once entered?",
+      "choices": [
+        { "id": "A", "text": "The responding officer", "is_correct": false },
+        { "id": "B", "text": "The dispatcher", "is_correct": true },
+        { "id": "C", "text": "The call taker", "is_correct": false },
+        { "id": "D", "text": "The CAD system", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-113-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Dispatchers are accountable for the correctness of status changes they enter.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-113-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Once entered, the dispatcher remains ________ for the unit status.",
+      "answer": "accountable"
+    },
+    {
+      "question_id": "NYC911-113-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the role to responsibility.",
+      "answer": [
+        ["Dispatcher", "Status accuracy"],
+        ["Officer", "Reporting activity"],
+        ["Supervisor", "Oversight"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-113-MCQ-006",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem": "Which situation justifies a dispatcher updating unit status without a direct radio transmission?",
+      "choices": [
+        { "id": "A", "text": "Personal judgment", "is_correct": false },
+        { "id": "B", "text": "Reliable secondary confirmation", "is_correct": true },
+        { "id": "C", "text": "Time elapsed on the job", "is_correct": false },
+        { "id": "D", "text": "Unit silence", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-113-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Reliable information may come from sources other than the assigned unit.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-113-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Dispatcher-entered status updates must be based on ________ information.",
+      "answer": "reliable"
+    },
+    {
+      "question_id": "NYC911-113-MATCH-006",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the information type to validity.",
+      "answer": [
+        ["Supervisor direction", "Valid"],
+        ["Confirmed report", "Valid"],
+        ["Speculation", "Invalid"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-113-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Which system is used to record unit status updates?",
+      "choices": [
+        { "id": "A", "text": "VESTA", "is_correct": false },
+        { "id": "B", "text": "ICAD", "is_correct": true },
+        { "id": "C", "text": "RMS", "is_correct": false },
+        { "id": "D", "text": "E-Justice", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-113-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "ICAD is the official system for tracking unit status.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-113-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 113 states that unit status changes are entered into ________.",
+      "answer": "ICAD"
+    },
+    {
+      "question_id": "NYC911-113-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the system to its function.",
+      "answer": [
+        ["ICAD", "Tracks unit status"],
+        ["Radio", "Transmits information"],
+        ["Dispatcher", "Updates system"]
+      ]
+    }
+
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "lesson": {
+    "slug": "nyc911-proc-304-routing-add-route",
+    "title": "911 - Procedure 304 : Routing / Add Route",
+    "topic": "Dispatching Functions",
+    "order": 304,
+    "objectives": [
+      "Explain implicit and explicit routing.",
+      "Add routes using the Add Route button and ADR command.",
+      "Identify all routing destinations.",
+      "Apply routing correctly for transit and patrol incidents."
+    ],
+    "questionIds": [
+      "NYC911-304-MCQ-001",
+      "NYC911-304-TF-001",
+      "NYC911-304-FB-001",
+      "NYC911-304-MATCH-001",
+
+      "NYC911-304-MCQ-002",
+      "NYC911-304-TF-002",
+      "NYC911-304-FB-002",
+      "NYC911-304-MATCH-002",
+
+      "NYC911-304-MCQ-003",
+      "NYC911-304-TF-003",
+      "NYC911-304-FB-003",
+      "NYC911-304-MATCH-003",
+
+      "NYC911-304-MCQ-004",
+      "NYC911-304-TF-004",
+      "NYC911-304-FB-004",
+      "NYC911-304-MATCH-004",
+
+      "NYC911-304-MCQ-005",
+      "NYC911-304-TF-005",
+      "NYC911-304-FB-005",
+      "NYC911-304-MATCH-005",
+
+      "NYC911-304-MCQ-006",
+      "NYC911-304-TF-006",
+      "NYC911-304-FB-006",
+      "NYC911-304-MATCH-006",
+
+      "NYC911-304-MCQ-007",
+      "NYC911-304-TF-007",
+      "NYC911-304-FB-007",
+      "NYC911-304-MATCH-007",
+
+      "NYC911-304-MCQ-008",
+      "NYC911-304-TF-008",
+      "NYC911-304-FB-008",
+      "NYC911-304-MATCH-008"
+    ]
+  },
+  "questions": [
+
+    {
+      "question_id": "NYC911-304-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "What does Procedure 304 govern?",
+      "choices": [
+        { "id": "A", "text": "Event transfers between precincts", "is_correct": false },
+        { "id": "B", "text": "Routing and adding routes to events", "is_correct": true },
+        { "id": "C", "text": "Unit alarms", "is_correct": false },
+        { "id": "D", "text": "Unit assignment priority", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-304-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Procedure 304 applies to adding explicit routes to an event.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-304-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Implicit routing is automatically assigned based on the event’s ________ code signal.",
+      "answer": "expanded"
+    },
+    {
+      "question_id": "NYC911-304-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the routing type to its definition.",
+      "answer": [
+        ["Implicit Routing", "Automatically assigned by system"],
+        ["Explicit Routing", "Manually added by dispatcher"],
+        ["ADR", "Command used to add route"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-304-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Which two methods can be used to add an explicit route?",
+      "choices": [
+        { "id": "A", "text": "TE command or CEL command", "is_correct": false },
+        { "id": "B", "text": "Add Route button or ADR command", "is_correct": true },
+        { "id": "C", "text": "Contact Unit or Notes tab", "is_correct": false },
+        { "id": "D", "text": "Unit Monitor or Alarm button", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-304-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Routes added using the ADR command must exactly match the Route Response box.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-304-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The command used to manually add a route from the command line is ________.",
+      "answer": "ADR"
+    },
+    {
+      "question_id": "NYC911-304-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the tool to its purpose.",
+      "answer": [
+        ["Add Route Button", "Adds route via mouse"],
+        ["ADR Command", "Adds route via keyboard"],
+        ["Route Response Box", "Displays routing options"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-304-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Which route is used for Transit Operations?",
+      "choices": [
+        { "id": "A", "text": "TRAN", "is_correct": false },
+        { "id": "B", "text": "TBOPS", "is_correct": true },
+        { "id": "C", "text": "RTCC", "is_correct": false },
+        { "id": "D", "text": "OPS", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-304-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "TRAN is the routing destination for the Transit Dispatcher.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-304-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The route used for the World Trade Center Dispatcher is ________.",
+      "answer": "WTC"
+    },
+    {
+      "question_id": "NYC911-304-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the route abbreviation to its meaning.",
+      "answer": [
+        ["AMB", "Ambulance Liaison Printer"],
+        ["BS", "Borough Radio Supervisor Printer"],
+        ["INTEL", "Intelligence Division"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-304-MCQ-004",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "Which route is used to notify the Operations Unit?",
+      "choices": [
+        { "id": "A", "text": "CWS", "is_correct": false },
+        { "id": "B", "text": "OPS", "is_correct": true },
+        { "id": "C", "text": "PCTQ", "is_correct": false },
+        { "id": "D", "text": "HWY", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-304-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "PCTQ is used for information only.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-304-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "The abbreviation for Highway / Traffic Dispatcher Program is ________.",
+      "answer": "HWY"
+    },
+    {
+      "question_id": "NYC911-304-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the citywide routes.",
+      "answer": [
+        ["CW234", "Citywide 2, 3, 4"],
+        ["CWA", "Citywide Special Command A"],
+        ["CWB", "Citywide Special Command B"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-304-MCQ-005",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem": "When is explicit routing required?",
+      "choices": [
+        { "id": "A", "text": "When all areas already see the event", "is_correct": false },
+        { "id": "B", "text": "When additional areas must see the event", "is_correct": true },
+        { "id": "C", "text": "Only after unit assignment", "is_correct": false },
+        { "id": "D", "text": "Only during emergencies", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-304-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Explicit routing is used when implicit routing does not include all required destinations.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-304-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Routes added through ADR must be typed exactly as shown in the ________ box.",
+      "answer": "Route Response"
+    },
+    {
+      "question_id": "NYC911-304-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the route to its destination.",
+      "answer": [
+        ["RTCC", "Real Time Crime Center"],
+        ["OCCB", "Organized Crime Control Bureau"],
+        ["SOD", "Special Operations Division Dispatcher"]
+      ]
+    }
+
+  ]
+}

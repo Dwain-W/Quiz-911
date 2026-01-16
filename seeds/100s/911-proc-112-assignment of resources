@@ -1,0 +1,239 @@
+{
+  "lesson": {
+    "slug": "nyc911-proc-112-assignment-of-resources",
+    "title": "911 - Procedure 112: Assignment of Resources",
+    "topic": "Radio Dispatching – ICAD",
+    "order": 112,
+    "objectives": [
+      "Assign multiple units to an event using approved ICAD methods.",
+      "Reassign (preempt) units correctly using approved procedures.",
+      "Apply correct outcomes after preempting single- and multi-assigned events.",
+      "Ensure proper log-on procedures when assigning units not in the lineup."
+    ],
+    "questionIds": [
+      "NYC911-112-MCQ-001",
+      "NYC911-112-TF-001",
+      "NYC911-112-FB-001",
+      "NYC911-112-MATCH-001",
+
+      "NYC911-112-MCQ-002",
+      "NYC911-112-TF-002",
+      "NYC911-112-FB-002",
+      "NYC911-112-MATCH-002",
+
+      "NYC911-112-MCQ-003",
+      "NYC911-112-TF-003",
+      "NYC911-112-FB-003",
+      "NYC911-112-MATCH-003",
+
+      "NYC911-112-MCQ-004",
+      "NYC911-112-TF-004",
+      "NYC911-112-FB-004",
+      "NYC911-112-MATCH-004",
+
+      "NYC911-112-MCQ-005",
+      "NYC911-112-TF-005",
+      "NYC911-112-FB-005",
+      "NYC911-112-MATCH-005",
+
+      "NYC911-112-MCQ-006",
+      "NYC911-112-TF-006",
+      "NYC911-112-FB-006",
+      "NYC911-112-MATCH-006",
+
+      "NYC911-112-MCQ-007",
+      "NYC911-112-TF-007",
+      "NYC911-112-FB-007",
+      "NYC911-112-MATCH-007"
+    ]
+  },
+  "questions": [
+
+    {
+      "question_id": "NYC911-112-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Which command may be used to assign multiple units to an event?",
+      "choices": [
+        { "id": "A", "text": "PU", "is_correct": false },
+        { "id": "B", "text": "D (Dispatch)", "is_correct": true },
+        { "id": "C", "text": "98", "is_correct": false },
+        { "id": "D", "text": "EOT", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-112-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Procedure 112 allows the dispatcher to assign more than one unit to the same event.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-112-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "To assign multiple units using the keyboard, the dispatcher may use the ______ command.",
+      "answer": "DISPATCH"
+    },
+    {
+      "question_id": "NYC911-112-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the assignment method to its description.",
+      "answer": [
+        ["Dispatch (D)", "Assign multiple units via command line"],
+        ["Shift/Ctrl + Click", "Select multiple units in Unit Monitor"],
+        ["Right-click", "Access Dispatch option from menu"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-112-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Which keyboard keys may be held to select multiple units in Unit Monitor?",
+      "choices": [
+        { "id": "A", "text": "Alt only", "is_correct": false },
+        { "id": "B", "text": "Shift or Ctrl", "is_correct": true },
+        { "id": "C", "text": "Tab or Enter", "is_correct": false },
+        { "id": "D", "text": "Esc only", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-112-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Using the mouse is the only approved method to assign multiple units.",
+      "answer": "false"
+    },
+    {
+      "question_id": "NYC911-112-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 112 allows selecting multiple units by holding ______ or ______ while clicking units.",
+      "answer": "Shift, Ctrl"
+    },
+    {
+      "question_id": "NYC911-112-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the tool to where it is used.",
+      "answer": [
+        ["Command line", "Keyboard-based assignment"],
+        ["Unit Monitor", "Mouse-based unit selection"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-112-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Which option reassigns a unit from an event?",
+      "choices": [
+        { "id": "A", "text": "84", "is_correct": false },
+        { "id": "B", "text": "98 – Preempt Unit", "is_correct": true },
+        { "id": "C", "text": "80", "is_correct": false },
+        { "id": "D", "text": "PU", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-112-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "A unit may be preempted using either the command line or the Unit Monitor.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-112-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "To preempt a unit via the Unit Monitor, right-click the unit and select ______ – ______ ______.",
+      "answer": "98 Preempt Unit"
+    },
+    {
+      "question_id": "NYC911-112-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the preempt method to its action.",
+      "answer": [
+        ["Command line", "Use final disposition to preempt"],
+        ["Unit Monitor", "Right-click and select 98"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-112-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "What happens when the only assigned unit is preempted?",
+      "choices": [
+        { "id": "A", "text": "Event cancels automatically", "is_correct": false },
+        { "id": "B", "text": "Event returns to Event Monitor pending", "is_correct": true },
+        { "id": "C", "text": "Event is finalized", "is_correct": false },
+        { "id": "D", "text": "Supervisor is auto-notified", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-112-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "If the only assigned unit is preempted, the event remains assigned.",
+      "answer": "false"
+    },
+    {
+      "question_id": "NYC911-112-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "If only one unit is assigned and it is preempted, the event returns to the Event Monitor in ______ status.",
+      "answer": "pending"
+    },
+    {
+      "question_id": "NYC911-112-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the scenario to the result.",
+      "answer": [
+        ["Single-assigned unit preempted", "Event returns to Event Monitor"],
+        ["Multi-assigned unit preempted", "Only that unit is removed"]
+      ]
+    },
+
+    {
+      "question_id": "NYC911-112-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "What must be done before assigning a unit not in the lineup?",
+      "choices": [
+        { "id": "A", "text": "Notify supervisor", "is_correct": false },
+        { "id": "B", "text": "Log on the unit (LOU)", "is_correct": true },
+        { "id": "C", "text": "Create a new event", "is_correct": false },
+        { "id": "D", "text": "Final the event", "is_correct": false }
+      ]
+    },
+    {
+      "question_id": "NYC911-112-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "A unit not in the precinct lineup must be logged on before assignment.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-112-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 112 requires a unit not in lineup be logged on using the ______ command.",
+      "answer": "LOU"
+    },
+    {
+      "question_id": "NYC911-112-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the condition to the required action.",
+      "answer": [
+        ["Unit not in lineup", "Log on unit first"],
+        ["After log-on", "Assign unit to event"]
+      ]
+    }
+
+  ]
+}
