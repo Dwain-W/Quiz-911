@@ -1,0 +1,527 @@
+{
+  "lesson": {
+    "slug": "radio-proc-300-transit-units-full",
+    "title": "911 - Proc 300 – Transit Special Resources & District Formatting (Pages 11–12)",
+    "topic": "NYPD Radio Dispatch – Transit District Units",
+    "order": 300211,
+    "objectives": [
+      "Identify every Transit Special Resource unit code from Procedure 300 pages 11–12.",
+      "Apply the correct district formatting rule: D + district number + Transit unit code (e.g., D1TP1).",
+      "Distinguish between similar Transit unit types such as Patrol Posts, School Posts, Conditions Units, City Wide units, and special teams.",
+      "Correctly interpret Transit supervisor and sergeant designations (PST1, PSLT1, CWST1, FFST1, IPST1, HCST1, FXST1).",
+      "Recognize the roles of specialized Transit teams such as SP6, ACC1, GT1, GL1, ATU1, and RES1."
+    ],
+    "questionIds": [
+      "NYC911-300-MCQ-001","NYC911-300-TF-001","NYC911-300-FB-001",
+      "NYC911-300-MCQ-002","NYC911-300-TF-002","NYC911-300-FB-002",
+      "NYC911-300-MCQ-003","NYC911-300-TF-003","NYC911-300-FB-003",
+      "NYC911-300-MCQ-004","NYC911-300-TF-004","NYC911-300-FB-004",
+      "NYC911-300-MCQ-005","NYC911-300-TF-005","NYC911-300-FB-005",
+      "NYC911-300-MCQ-006","NYC911-300-TF-006","NYC911-300-FB-006",
+      "NYC911-300-MCQ-007","NYC911-300-TF-007","NYC911-300-FB-007",
+      "NYC911-300-MCQ-008","NYC911-300-TF-008","NYC911-300-FB-008",
+      "NYC911-300-MCQ-009","NYC911-300-TF-009","NYC911-300-FB-009",
+      "NYC911-300-MCQ-010","NYC911-300-TF-010","NYC911-300-FB-010",
+      "NYC911-300-MCQ-011","NYC911-300-TF-011","NYC911-300-FB-011",
+      "NYC911-300-MCQ-012","NYC911-300-TF-012","NYC911-300-FB-012",
+      "NYC911-300-MCQ-013","NYC911-300-TF-013","NYC911-300-FB-013",
+      "NYC911-300-MCQ-014","NYC911-300-TF-014","NYC911-300-FB-014",
+      "NYC911-300-MCQ-015","NYC911-300-TF-015","NYC911-300-FB-015",
+      "NYC911-300-MCQ-016","NYC911-300-TF-016","NYC911-300-FB-016",
+      "NYC911-300-MCQ-017","NYC911-300-TF-017","NYC911-300-FB-017",
+      "NYC911-300-MCQ-018","NYC911-300-TF-018","NYC911-300-FB-018",
+      "NYC911-300-MCQ-019","NYC911-300-TF-019","NYC911-300-FB-019",
+      "NYC911-300-MCQ-020","NYC911-300-TF-020","NYC911-300-FB-020",
+      "NYC911-300-MCQ-021","NYC911-300-TF-021","NYC911-300-FB-021",
+      "NYC911-300-MCQ-022","NYC911-300-TF-022","NYC911-300-FB-022",
+      "NYC911-300-MCQ-023","NYC911-300-TF-023","NYC911-300-FB-023",
+      "NYC911-300-MCQ-024","NYC911-300-TF-024","NYC911-300-FB-024",
+      "NYC911-300-MCQ-025","NYC911-300-TF-025","NYC911-300-FB-025",
+      "NYC911-300-MCQ-026","NYC911-300-TF-026","NYC911-300-FB-026",
+      "NYC911-300-MCQ-027","NYC911-300-TF-027","NYC911-300-FB-027",
+      "NYC911-300-MCQ-028","NYC911-300-TF-028","NYC911-300-FB-028",
+      "NYC911-300-MCQ-029","NYC911-300-TF-029","NYC911-300-FB-029",
+      "NYC911-300-MCQ-030","NYC911-300-TF-030","NYC911-300-FB-030",
+      "NYC911-300-MCQ-031","NYC911-300-TF-031","NYC911-300-FB-031",
+      "NYC911-300-MCQ-032","NYC911-300-TF-032","NYC911-300-FB-032",
+      "NYC911-300-MCQ-033","NYC911-300-TF-033","NYC911-300-FB-033",
+      "NYC911-300-MATCH-001","NYC911-300-MATCH-002","NYC911-300-MATCH-003",
+      "NYC911-300-MATCH-004","NYC911-300-MATCH-005","NYC911-300-MATCH-006",
+      "NYC911-300-MATCH-007"
+    ]
+  },
+  "questions": [
+    /* TP1 – Transit Post */
+    {
+      "question_id": "NYC911-300-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "radio_dispatch",
+      "topic": "TP1",
+      "stem": "In Transit District 2, which unit designation represents a basic Transit Post?",
+      "choices": [
+        { "id": "A", "text": "D2TP1", "is_correct": true },
+        { "id": "B", "text": "D2TPP1", "is_correct": false },
+        { "id": "C", "text": "D2TPS1", "is_correct": false },
+        { "id": "D", "text": "D2TPD1", "is_correct": false }
+      ],
+      "solution": "TP1 is the base code for TRANSIT POST. In a district, it is written as D#TP1 (e.g., D2TP1)."
+    },
+    {
+      "question_id": "NYC911-300-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "TP1",
+      "stem": "D4TP1 would be the correct way to log a basic Transit Post in Transit District 4.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-300-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "radio_dispatch",
+      "topic": "TP1",
+      "stem": "The base code for a Transit Post is ______, which is logged with a district prefix such as D1______, D2______, etc.",
+      "answer": "TP1"
+    },
+
+    /* PS1 – Transit Public Safety */
+    {
+      "question_id": "NYC911-300-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "radio_dispatch",
+      "topic": "PS1",
+      "stem": "In Transit, which of the following is a Transit Public Safety unit in District 1?",
+      "choices": [
+        { "id": "A", "text": "D1PS1", "is_correct": true },
+        { "id": "B", "text": "D1PST1", "is_correct": false },
+        { "id": "C", "text": "D1FF1", "is_correct": false },
+        { "id": "D", "text": "D1CW1", "is_correct": false }
+      ],
+      "solution": "PS1 is TRANSIT PUBLIC SAFETY. With district prefix it appears as D1PS1, D2PS1, etc."
+    },
+    {
+      "question_id": "NYC911-300-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "PS1",
+      "stem": "D3PS1 is a Transit Public Safety car in Transit District 3.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-300-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "radio_dispatch",
+      "topic": "PS1",
+      "stem": "PS1 is the base designation for a Transit ______ ______ unit when formatted as D#PS1.",
+      "answer": "Public Safety"
+    },
+
+    /* PST1 – Transit Public Safety Sergeant */
+    {
+      "question_id": "NYC911-300-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "radio_dispatch",
+      "topic": "PST1",
+      "stem": "Which unit code becomes a Transit Public Safety Sergeant when used as D1____?",
+      "choices": [
+        { "id": "A", "text": "PST1", "is_correct": true },
+        { "id": "B", "text": "PSLT1", "is_correct": false },
+        { "id": "C", "text": "IPST1", "is_correct": false },
+        { "id": "D", "text": "FFST1", "is_correct": false }
+      ],
+      "solution": "PST1 is TRANSIT PUBLIC SAFETY SERGEANT."
+    },
+    {
+      "question_id": "NYC911-300-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "PST1",
+      "stem": "D2PST1 would be the Transit Public Safety Sergeant for District 2.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-300-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "radio_dispatch",
+      "topic": "PST1",
+      "stem": "The Transit Public Safety Sergeant is coded as ______, which in Transit District 4 would be logged as D4______. ",
+      "answer": "PST1"
+    },
+
+    /* PSLT1 – Transit Public Safety Lieutenant */
+    {
+      "question_id": "NYC911-300-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "radio_dispatch",
+      "topic": "PSLT1",
+      "stem": "D1PSLT1 represents which Transit unit?",
+      "choices": [
+        { "id": "A", "text": "Transit Public Safety Sergeant", "is_correct": false },
+        { "id": "B", "text": "Transit Public Safety Lieutenant", "is_correct": true },
+        { "id": "C", "text": "Transit City Wide Sergeant", "is_correct": false },
+        { "id": "D", "text": "Transit Force Field Lieutenant", "is_correct": false }
+      ],
+      "solution": "PSLT1 is TRANSIT PUBLIC SAFETY LIEUTENANT."
+    },
+    {
+      "question_id": "NYC911-300-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "PSLT1",
+      "stem": "PSLT1 is the base designation for a Transit Public Safety Lieutenant when used with a district prefix (e.g., D3PSLT1).",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-300-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "radio_dispatch",
+      "topic": "PSLT1",
+      "stem": "A Transit Public Safety Lieutenant unit is written as PSLT1, and in District 2 appears on the run-down as D2______. ",
+      "answer": "PSLT1"
+    },
+
+    /* ACC1 – Transit Anti Crime Condition */
+    {
+      "question_id": "NYC911-300-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "radio_dispatch",
+      "topic": "ACC1",
+      "stem": "Which Transit unit base code is defined as Transit Anti Crime Condition?",
+      "choices": [
+        { "id": "A", "text": "ACC1", "is_correct": true },
+        { "id": "B", "text": "ATU1", "is_correct": false },
+        { "id": "C", "text": "HCC1", "is_correct": false },
+        { "id": "D", "text": "SP6", "is_correct": false }
+      ],
+      "solution": "ACC1 is TRANSIT ANTI CRIME CONDITION."
+    },
+    {
+      "question_id": "NYC911-300-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "ACC1",
+      "stem": "D4ACC1 would be the Transit Anti Crime Condition car in District 4.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-300-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "radio_dispatch",
+      "topic": "ACC1",
+      "stem": "ACC1 stands for Transit Anti Crime ________, logged with a District prefix such as D1ACC1.",
+      "answer": "Condition"
+    },
+
+    /* CWM1 – City Wide Metrocard Fraud */
+    {
+      "question_id": "NYC911-300-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "radio_dispatch",
+      "topic": "CWM1",
+      "stem": "Which Transit unit handles MetroCard fraud citywide when formatted as D1CWM1, D2CWM1, etc.?",
+      "choices": [
+        { "id": "A", "text": "CWM1", "is_correct": true },
+        { "id": "B", "text": "CW1", "is_correct": false },
+        { "id": "C", "text": "CWTF1", "is_correct": false },
+        { "id": "D", "text": "CWI1", "is_correct": false }
+      ],
+      "solution": "CWM1 is TRANSIT CITY WIDE METROCARD FRAUD."
+    },
+    {
+      "question_id": "NYC911-300-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "CWM1",
+      "stem": "CWM1 is used for Transit City Wide MetroCard Fraud squads, and will appear with a district prefix such as D3CWM1.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-300-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "radio_dispatch",
+      "topic": "CWM1",
+      "stem": "The Transit unit responsible for MetroCard fraud citywide is coded as ______, which in District 2 would appear as D2______. ",
+      "answer": "CWM1"
+    },
+
+    /* CW1 – City Wide Unit */
+    {
+      "question_id": "NYC911-300-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "radio_dispatch",
+      "topic": "CW1",
+      "stem": "Which base code is used for a Transit City Wide Unit such as D1CW1?",
+      "choices": [
+        { "id": "A", "text": "CW1", "is_correct": true },
+        { "id": "B", "text": "CWI1", "is_correct": false },
+        { "id": "C", "text": "CWM1", "is_correct": false },
+        { "id": "D", "text": "CWTF1", "is_correct": false }
+      ],
+      "solution": "CW1 is TRANSIT CITY WIDE UNIT."
+    },
+    {
+      "question_id": "NYC911-300-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "CW1",
+      "stem": "D1CW1 is the example given in Procedure 300 for a District 1 Transit City Wide unit.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-300-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "radio_dispatch",
+      "topic": "CW1",
+      "stem": "CW1 is the base designation for a Transit ______ ______ unit when used with a district prefix like D2CW1.",
+      "answer": "City Wide"
+    },
+
+    /* CWTF1 – City Wide Task Force */
+    {
+      "question_id": "NYC911-300-MCQ-008",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "CWTF1",
+      "stem": "Which Transit code represents a City Wide Task Force unit such as D1CWTF1?",
+      "choices": [
+        { "id": "A", "text": "CWI1", "is_correct": false },
+        { "id": "B", "text": "CWTF1", "is_correct": true },
+        { "id": "C", "text": "CWM1", "is_correct": false },
+        { "id": "D", "text": "CWST1", "is_correct": false }
+      ],
+      "solution": "CWTF1 is TRANSIT CITY WIDE TASK FORCE."
+    },
+    {
+      "question_id": "NYC911-300-TF-008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "CWTF1",
+      "stem": "D3CWTF1 would be a Transit City Wide Task Force unit in District 3.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-300-FB-008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "radio_dispatch",
+      "topic": "CWTF1",
+      "stem": "The Transit City Wide ______ ______ unit is coded CWTF1 and logged as D#CWTF1.",
+      "answer": "Task Force"
+    },
+
+    /* CWI1 – City Wide Impact Post */
+    {
+      "question_id": "NYC911-300-MCQ-009",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "CWI1",
+      "stem": "Which Transit base code is used for a City Wide Impact Post unit?",
+      "choices": [
+        { "id": "A", "text": "CWI1", "is_correct": true },
+        { "id": "B", "text": "CW1", "is_correct": false },
+        { "id": "C", "text": "CWST1", "is_correct": false },
+        { "id": "D", "text": "FF1", "is_correct": false }
+      ],
+      "solution": "CWI1 is TRANSIT CITY WIDE IMPACT POST."
+    },
+    {
+      "question_id": "NYC911-300-TF-009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "CWI1",
+      "stem": "In District 2, D2CWI1 would be the correct designation for a Transit City Wide Impact Post unit.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-300-FB-009",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "radio_dispatch",
+      "topic": "CWI1",
+      "stem": "CWI1 stands for Transit City Wide ______ ______, which appears with a district prefix, e.g., D1CWI1.",
+      "answer": "Impact Post"
+    },
+
+    /* CWST1 – City Wide Sergeant */
+    {
+      "question_id": "NYC911-300-MCQ-010",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "CWST1",
+      "stem": "Which Transit base code indicates a City Wide Sergeant unit?",
+      "choices": [
+        { "id": "A", "text": "CWI1", "is_correct": false },
+        { "id": "B", "text": "CWST1", "is_correct": true },
+        { "id": "C", "text": "FFST1", "is_correct": false },
+        { "id": "D", "text": "PST1", "is_correct": false }
+      ],
+      "solution": "CWST1 is TRANSIT CITY WIDE SERGEANT."
+    },
+    {
+      "question_id": "NYC911-300-TF-010",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "CWST1",
+      "stem": "D1CWST1 would be a Transit City Wide Sergeant for District 1.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-300-FB-010",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "radio_dispatch",
+      "topic": "CWST1",
+      "stem": "CWST1 is the base designation for a Transit City Wide ________, appearing as D#CWST1.",
+      "answer": "Sergeant"
+    },
+
+    /* FF1 – Force Field */
+    {
+      "question_id": "NYC911-300-MCQ-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "radio_dispatch",
+      "topic": "FF1",
+      "stem": "Which Transit code is used for a Transit Force Field unit like D2FF1?",
+      "choices": [
+        { "id": "A", "text": "FF1", "is_correct": true },
+        { "id": "B", "text": "FFST1", "is_correct": false },
+        { "id": "C", "text": "TPP1", "is_correct": false },
+        { "id": "D", "text": "GT1", "is_correct": false }
+      ],
+      "solution": "FF1 is TRANSIT FORCE FIELD."
+    },
+    {
+      "question_id": "NYC911-300-TF-011",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "FF1",
+      "stem": "D4FF1 would be read as 'Transit District 4 Force Field.'",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-300-FB-011",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "radio_dispatch",
+      "topic": "FF1",
+      "stem": "FF1 is the base designation for Transit ______ ______ units.",
+      "answer": "Force Field"
+    },
+
+    /* FFST1 – Force Field Sergeant */
+    {
+      "question_id": "NYC911-300-MCQ-012",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "FFST1",
+      "stem": "Which unit base code represents a Transit Force Field Sergeant?",
+      "choices": [
+        { "id": "A", "text": "FFST1", "is_correct": true },
+        { "id": "B", "text": "PST1", "is_correct": false },
+        { "id": "C", "text": "CWST1", "is_correct": false },
+        { "id": "D", "text": "IPST1", "is_correct": false }
+      ],
+      "solution": "FFST1 is TRANSIT FORCE FIELD SERGEANT."
+    },
+    {
+      "question_id": "NYC911-300-TF-012",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "FFST1",
+      "stem": "A Force Field Sergeant in District 3 would be logged as D3FFST1.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-300-FB-012",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "radio_dispatch",
+      "topic": "FFST1",
+      "stem": "FFST1 stands for Transit Force Field ________ and appears with a district prefix as D#FFST1.",
+      "answer": "Sergeant"
+    },
+
+    /* SP1 – Special Foot Post */
+    {
+      "question_id": "NYC911-300-MCQ-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "radio_dispatch",
+      "topic": "SP1",
+      "stem": "Which designation is used for a Transit Special Foot Post when formatted with a district prefix?",
+      "choices": [
+        { "id": "A", "text": "D1SP1", "is_correct": true },
+        { "id": "B", "text": "D1SP5", "is_correct": false },
+        { "id": "C", "text": "D1SP7", "is_correct": false },
+        { "id": "D", "text": "D1SP4", "is_correct": false }
+      ],
+      "solution": "SP1 is TRANSIT SPECIAL FOOT POST."
+    },
+    {
+      "question_id": "NYC911-300-TF-013",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "SP1",
+      "stem": "D2SP1 would be a Transit Special Foot Post assigned to District 2.",
+      "answer": "true"
+    },
+    {
+      "question_id": "NYC911-300-FB-013",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "radio_dispatch",
+      "topic": "SP1",
+      "stem": "SP1 is the base code for a Transit ______ ______ Post, logged as D#SP1.",
+      "answer": "Special Foot"
+    },
+
+    /* SP5 (SP5/SP50/SP51) – School Post */
+    {
+      "question_id": "NYC911-300-MCQ-014",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "radio_dispatch",
+      "topic": "SP5",
+      "stem": "Which grouped designations are used for Transit School Posts?",
+      "choices": [
+        { "id": "A", "text": "SP5/SP50/SP51", "is_correct": true },
+        { "id": "B", "text": "SP7/SP70/SP71", "is_correct": false },
+        { "id": "C", "text": "SP4/SP40/SP41", "is_correct": false },
+        { "id": "D", "text": "SP6/SP60/SP61", "is_correct": false }
+      ],
+      "solution": "SP5/SP50/SP51 are TRANSIT SCHOOL POST."
+    },
+    {
+      "question_id": "NYC911-300-TF-014",
+      "type": "true_false
