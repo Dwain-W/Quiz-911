@@ -1,0 +1,1092 @@
+{
+  "lesson": {
+    "slug": "911-proc-502-caller-anonymous-ani-ali",
+    "title": "Procedure 502 – Caller Request to Remain Anonymous",
+    "topic": "Miscellaneous Procedures – ANI/ALI Handling",
+    "order": 502,
+    "objectives": [
+      "Identify how to recognize and handle anonymity requests (anon box/remarks).",
+      "Limit disclosure of caller identity over the air per Procedure 502.",
+      "Apply the emergency categories where ANI/ALI may be transmitted over the air.",
+      "Apply prohibitions and alternatives (narcotics restriction, phone caller, landline).",
+      "Follow special handling for Block Watchers and State Mental Hospital incidents.",
+      "Apply supervisor verification requirements before over-air ANI/ALI transmission."
+    ],
+    "questionIds": [
+      "NYC911-502-MCQ-001",
+      "NYC911-502-TF-002",
+      "NYC911-502-FB-003",
+      "NYC911-502-MATCH-004",
+      "NYC911-502-MCQ-005",
+      "NYC911-502-TF-006",
+      "NYC911-502-FB-007",
+      "NYC911-502-MCQ-008",
+      "NYC911-502-TF-009",
+      "NYC911-502-FB-010",
+      "NYC911-502-MATCH-011",
+      "NYC911-502-MCQ-012",
+      "NYC911-502-TF-013",
+      "NYC911-502-FB-014",
+      "NYC911-502-MATCH-015",
+      "NYC911-502-MCQ-016",
+      "NYC911-502-TF-017",
+      "NYC911-502-FB-018",
+      "NYC911-502-MCQ-019",
+      "NYC911-502-TF-020",
+      "NYC911-502-FB-021",
+      "NYC911-502-MATCH-022",
+      "NYC911-502-MCQ-023",
+      "NYC911-502-TF-024",
+      "NYC911-502-FB-025",
+      "NYC911-502-MCQ-026",
+      "NYC911-502-TF-027",
+      "NYC911-502-FB-028",
+      "NYC911-502-MATCH-029",
+      "NYC911-502-MCQ-030",
+      "NYC911-502-TF-031",
+      "NYC911-502-FB-032",
+      "NYC911-502-MATCH-033",
+      "NYC911-502-MCQ-034",
+      "NYC911-502-TF-035",
+      "NYC911-502-FB-036",
+      "NYC911-502-MCQ-037",
+      "NYC911-502-TF-038",
+      "NYC911-502-FB-039",
+      "NYC911-502-MATCH-040",
+      "NYC911-502-MCQ-041",
+      "NYC911-502-TF-042",
+      "NYC911-502-FB-043",
+      "NYC911-502-MATCH-044"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-502-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Under Procedure 502, why do some callers request to remain anonymous?",
+      "hints": "Look for reasons tied to fear/retaliation and avoiding involvement.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "They fear retaliation or do not want to get involved",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "They are required by law",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "They want faster response",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "They want an arrest made immediately",
+          "is_correct": false
+        }
+      ],
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "SCOPE",
+        "coverage": "Anonymous caller handling + limiting identity over air"
+      }
+    },
+    {
+      "question_id": "NYC911-502-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Procedure 502 says dispatchers should pay attention to the anon box and/or remarks indicating the caller wants anonymity.",
+      "hints": "The procedure explicitly tells dispatchers where to look for the anonymous request.",
+      "answer": "true",
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "SCOPE",
+        "coverage": "Anonymous caller handling + limiting identity over air"
+      }
+    },
+    {
+      "question_id": "NYC911-502-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 502: Dispatchers should pay attention to the ________ box and/or the remarks field for anonymity requests.",
+      "hints": "It’s the box specifically mentioned for anonymity.",
+      "answer": "anon",
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "SCOPE",
+        "coverage": "Anonymous caller handling + limiting identity over air"
+      }
+    },
+    {
+      "question_id": "NYC911-502-MATCH-004",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match the element to what it signals (Procedure 502).",
+      "hints": "One item is a CAD indicator, one is narrative, one is on-air behavior.",
+      "answer": [
+        [
+          "Anon box",
+          "Caller requests anonymity"
+        ],
+        [
+          "Remarks field",
+          "Additional anonymity note"
+        ],
+        [
+          "Radio transmission",
+          "Must avoid exposing identity"
+        ]
+      ],
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "SCOPE",
+        "coverage": "Anonymous caller handling + limiting identity over air"
+      }
+    },
+    {
+      "question_id": "NYC911-502-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "What must the dispatcher do when a caller requests anonymity?",
+      "hints": "The key action is notifying units about the anonymity request.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ignore the request",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Refuse the job",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Advise responding units that the caller requests to remain anonymous",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Broadcast the caller name to units",
+          "is_correct": false
+        }
+      ],
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "SCOPE",
+        "coverage": "Anonymous caller handling + limiting identity over air"
+      }
+    },
+    {
+      "question_id": "NYC911-502-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Procedure 502 states the dispatcher will ensure all pertinent event information is transmitted to units in the field.",
+      "hints": "Even with anonymity, pertinent incident details still must be relayed.",
+      "answer": "true",
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "SCOPE",
+        "coverage": "Anonymous caller handling + limiting identity over air"
+      }
+    },
+    {
+      "question_id": "NYC911-502-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 502: The dispatcher will ensure all ________ information regarding the event is transmitted to field units.",
+      "hints": "Think: all important details needed for response.",
+      "answer": "pertinent",
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "SCOPE",
+        "coverage": "Anonymous caller handling + limiting identity over air"
+      }
+    },
+    {
+      "question_id": "NYC911-502-MCQ-008",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "Why does Procedure 502 limit transmitting a caller’s name, location, and phone number over the air?",
+      "hints": "The procedure warns that others may monitor police radio.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It violates unit status rules",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "It slows response",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "It is never recorded",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Radio monitoring could reveal the caller’s identity to unwanted individuals",
+          "is_correct": true
+        }
+      ],
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "SCOPE",
+        "coverage": "Limit revealing caller name/location/phone over air"
+      }
+    },
+    {
+      "question_id": "NYC911-502-TF-009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Even if a caller does not request anonymity, broadcasting name/location/phone over the air might reveal identity.",
+      "hints": "Procedure 502 addresses this risk even without an anonymity request.",
+      "answer": "true",
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "SCOPE",
+        "coverage": "Limit revealing caller name/location/phone over air"
+      }
+    },
+    {
+      "question_id": "NYC911-502-FB-010",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 502: Revealing caller identity over the air should be limited to certain ________.",
+      "hints": "The text says identity should only be revealed in limited cases.",
+      "answer": "situations",
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "SCOPE",
+        "coverage": "Limit revealing caller name/location/phone over air"
+      }
+    },
+    {
+      "question_id": "NYC911-502-MATCH-011",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the item to why it may expose identity if transmitted over the air.",
+      "hints": "Each item reveals a different piece of identity.",
+      "answer": [
+        [
+          "Caller name",
+          "Directly identifies person"
+        ],
+        [
+          "Caller phone number",
+          "Allows callback tracing"
+        ],
+        [
+          "Caller location",
+          "Points to where the caller is"
+        ]
+      ],
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "SCOPE",
+        "coverage": "Limit revealing caller name/location/phone over air"
+      }
+    },
+    {
+      "question_id": "NYC911-502-MCQ-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Procedure 502: ANI/ALI information may be transmitted over the air only if the incident falls into certain categories. Which is one of them?",
+      "hints": "Choose one of the explicitly listed emergency categories.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Lost property",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Noise complaint",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Bomb Threats",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Parking violation",
+          "is_correct": false
+        }
+      ],
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "1(a-d)",
+        "coverage": "ANI/ALI over-air permitted categories"
+      }
+    },
+    {
+      "question_id": "NYC911-502-TF-013",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Procedure 502 allows ANI/ALI over-air transmission for threats to dignitaries.",
+      "hints": "This appears in the list under item 1.",
+      "answer": "true",
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "1(a-d)",
+        "coverage": "ANI/ALI over-air permitted categories"
+      }
+    },
+    {
+      "question_id": "NYC911-502-FB-014",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 502 allowed category: ________ Threats.",
+      "hints": "One of the listed categories is a specific type of threat.",
+      "answer": "Bomb",
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "1(a-d)",
+        "coverage": "ANI/ALI over-air permitted categories"
+      }
+    },
+    {
+      "question_id": "NYC911-502-MATCH-015",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the Procedure 502 category to what it refers to.",
+      "hints": "Match each listed category to the plain-language meaning.",
+      "answer": [
+        [
+          "10-13's",
+          "Officer needs assistance"
+        ],
+        [
+          "Threats to Dignitaries",
+          "Threat against protected person"
+        ],
+        [
+          "Bomb Threats",
+          "Threat involving explosive"
+        ],
+        [
+          "Caller committed the crime",
+          "Admission of involvement"
+        ]
+      ],
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "1(a-d)",
+        "coverage": "ANI/ALI over-air permitted categories"
+      }
+    },
+    {
+      "question_id": "NYC911-502-MCQ-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Procedure 502: For which type of event will dispatchers NOT transmit ANI/ALI information over the air?",
+      "hints": "This is a hard prohibition in item 2.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Events that involve narcotics",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bomb threats",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Threats to dignitaries",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "10-13's",
+          "is_correct": false
+        }
+      ],
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "2",
+        "coverage": "No ANI/ALI over air for narcotics events"
+      }
+    },
+    {
+      "question_id": "NYC911-502-TF-017",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Procedure 502 permits ANI/ALI transmission over the air for narcotics events when units request it.",
+      "hints": "Item 2 says WILL NOT transmit for narcotics.",
+      "answer": "false",
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "2",
+        "coverage": "No ANI/ALI over air for narcotics events"
+      }
+    },
+    {
+      "question_id": "NYC911-502-FB-018",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 502: Dispatchers WILL NOT TRANSMIT ANI/ALI information over the air for events that involve ________.",
+      "hints": "It’s the single prohibited category stated plainly.",
+      "answer": "narcotics",
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "2",
+        "coverage": "No ANI/ALI over air for narcotics events"
+      }
+    },
+    {
+      "question_id": "NYC911-502-MCQ-019",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "If a unit requests ANI/ALI but an emergency transmission is NOT warranted, what does Procedure 502 direct the dispatcher to do first?",
+      "hints": "Look for the step that avoids giving out name/location/phone.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Attempt to phone the caller and relay additional info without revealing identity",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Transmit ANI/ALI anyway",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Tell the unit to self-dispatch",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ignore the request",
+          "is_correct": false
+        }
+      ],
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "3",
+        "coverage": "If not emergency: phone caller, landline for ANI/ALI"
+      }
+    },
+    {
+      "question_id": "NYC911-502-TF-020",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "When emergency transmission is not warranted, units can obtain ANI/ALI by calling the dispatcher over the landline.",
+      "hints": "That option is explicitly provided.",
+      "answer": "true",
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "3",
+        "coverage": "If not emergency: phone caller, landline for ANI/ALI"
+      }
+    },
+    {
+      "question_id": "NYC911-502-FB-021",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 502: Units can obtain ANI/ALI information by calling the dispatcher over the ________.",
+      "hints": "It’s not over the air; it’s the direct phone line.",
+      "answer": "landline",
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "3",
+        "coverage": "If not emergency: phone caller, landline for ANI/ALI"
+      }
+    },
+    {
+      "question_id": "NYC911-502-MATCH-022",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the method to when Procedure 502 uses it.",
+      "hints": "Only one method is explicitly restricted to emergencies.",
+      "answer": [
+        [
+          "Over-the-air ANI/ALI",
+          "Only for listed emergency categories"
+        ],
+        [
+          "Phone the caller",
+          "When units need more details but identity must be protected"
+        ],
+        [
+          "Dispatcher landline",
+          "When units need ANI/ALI without airing identity"
+        ]
+      ],
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "3",
+        "coverage": "If not emergency: phone caller, landline for ANI/ALI"
+      }
+    },
+    {
+      "question_id": "NYC911-502-MCQ-023",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem": "Before ANI/ALI information is transmitted over the air, what must the dispatcher do per Procedure 502 NOTE?",
+      "hints": "The note requires supervisor verification BEFORE transmitting.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Wait for unit arrival",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Immediately notify a supervisor to verify the transmission is appropriate",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Notify the precinct desk officer",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Broadcast it and document later",
+          "is_correct": false
+        }
+      ],
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "NOTE",
+        "coverage": "Supervisor verifies appropriateness before over-air ANI/ALI"
+      }
+    },
+    {
+      "question_id": "NYC911-502-TF-024",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Procedure 502 requires immediate supervisor notification before transmitting ANI/ALI over the air.",
+      "hints": "The NOTE uses 'immediately notify a supervisor'.",
+      "answer": "true",
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "NOTE",
+        "coverage": "Supervisor verifies appropriateness before over-air ANI/ALI"
+      }
+    },
+    {
+      "question_id": "NYC911-502-FB-025",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 502 NOTE: Dispatchers will immediately notify a ________ who will verify the transmission is appropriate.",
+      "hints": "It’s the oversight role mentioned.",
+      "answer": "supervisor",
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "NOTE",
+        "coverage": "Supervisor verifies appropriateness before over-air ANI/ALI"
+      }
+    },
+    {
+      "question_id": "NYC911-502-MCQ-026",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "Procedure 502: What is the rule for transmitting Block watcher ANI/ALI over the air?",
+      "hints": "This section is a strict 'will not transmit' rule.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Transmit only for narcotics",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Transmit after unit arrival",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Dispatchers will not transmit Block watcher ANI/ALI over the air",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Transmit if requested",
+          "is_correct": false
+        }
+      ],
+      "source": {
+        "procedure": 502,
+        "proc_page": 2,
+        "pdf_page": 398,
+        "paragraph": "5",
+        "coverage": "Block watchers: do not transmit ANI/ALI; call; refer identity to precinct"
+      }
+    },
+    {
+      "question_id": "NYC911-502-TF-027",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Procedure 502: Dispatchers will attempt to telephone the Block watcher and relay requested additional information to field units.",
+      "hints": "The procedure states to call the block watcher instead of airing ANI/ALI.",
+      "answer": "true",
+      "source": {
+        "procedure": 502,
+        "proc_page": 2,
+        "pdf_page": 398,
+        "paragraph": "5",
+        "coverage": "Block watchers: do not transmit ANI/ALI; call; refer identity to precinct"
+      }
+    },
+    {
+      "question_id": "NYC911-502-FB-028",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 502: Requests for the identity of a Block watcher will be referred to the ________ concerned.",
+      "hints": "Identity requests go to the local command.",
+      "answer": "precinct",
+      "source": {
+        "procedure": 502,
+        "proc_page": 2,
+        "pdf_page": 398,
+        "paragraph": "5",
+        "coverage": "Block watchers: do not transmit ANI/ALI; call; refer identity to precinct"
+      }
+    },
+    {
+      "question_id": "NYC911-502-MATCH-029",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the Block watcher-related request to the correct dispatcher action.",
+      "hints": "Each request has a distinct required response.",
+      "answer": [
+        [
+          "Unit requests Block watcher ANI/ALI",
+          "Do not transmit over the air"
+        ],
+        [
+          "Unit requests more details",
+          "Telephone Block watcher"
+        ],
+        [
+          "Request for Block watcher identity",
+          "Refer to precinct concerned"
+        ]
+      ],
+      "source": {
+        "procedure": 502,
+        "proc_page": 2,
+        "pdf_page": 398,
+        "paragraph": "5",
+        "coverage": "Block watchers: do not transmit ANI/ALI; call; refer identity to precinct"
+      }
+    },
+    {
+      "question_id": "NYC911-502-MCQ-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "Procedure 502: How should the dispatcher handle anonymous incidents received from any State Mental Hospital?",
+      "hints": "The procedure specifies using VESTA and the Hospital Safety Office.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Use VESTA to call the Hospital Safety Office for the borough of occurrence",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Transmit ANI/ALI over the air",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ignore anonymity request",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Refer to block watcher program",
+          "is_correct": false
+        }
+      ],
+      "source": {
+        "procedure": 502,
+        "proc_page": 2,
+        "pdf_page": 398,
+        "paragraph": "6(a)",
+        "coverage": "State mental hospital anonymous incidents: use VESTA to call Hospital Safety Office"
+      }
+    },
+    {
+      "question_id": "NYC911-502-TF-031",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Procedure 502: For anonymous incidents from State Mental Hospitals, the dispatcher uses VESTA to contact the Hospital Safety Office.",
+      "hints": "This is written directly in item 6(a).",
+      "answer": "true",
+      "source": {
+        "procedure": 502,
+        "proc_page": 2,
+        "pdf_page": 398,
+        "paragraph": "6(a)",
+        "coverage": "State mental hospital anonymous incidents: use VESTA to call Hospital Safety Office"
+      }
+    },
+    {
+      "question_id": "NYC911-502-FB-032",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 502: The dispatcher will utilize ________ to call the Hospital Safety Office.",
+      "hints": "It’s the system/tool named in the procedure.",
+      "answer": "VESTA",
+      "source": {
+        "procedure": 502,
+        "proc_page": 2,
+        "pdf_page": 398,
+        "paragraph": "6(a)",
+        "coverage": "State mental hospital anonymous incidents: use VESTA to call Hospital Safety Office"
+      }
+    },
+    {
+      "question_id": "NYC911-502-MATCH-033",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the borough to the correct State Mental Hospital psychiatric center (Procedure 502 NOTE).",
+      "hints": "Each borough matches a specific psychiatric center listed in the NOTE.",
+      "answer": [
+        [
+          "Manhattan",
+          "Manhattan Psychiatric Center"
+        ],
+        [
+          "Bronx",
+          "Bronx Psychiatric Center"
+        ],
+        [
+          "Brooklyn",
+          "Kingsboro Psychiatric Center"
+        ],
+        [
+          "Queens",
+          "Creedmoor Psychiatric Center"
+        ],
+        [
+          "Staten Island",
+          "South Beach Psychiatric Center"
+        ]
+      ],
+      "source": {
+        "procedure": 502,
+        "proc_page": 2,
+        "pdf_page": 398,
+        "paragraph": "NOTE",
+        "coverage": "List of psychiatric centers by borough"
+      }
+    },
+    {
+      "question_id": "NYC911-502-MCQ-034",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem": "Procedure 502 NOTE: Which psychiatric center corresponds to Brooklyn?",
+      "hints": "Think Brooklyn → Kingsboro.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "South Beach Psychiatric Center",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Kingsboro Psychiatric Center",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bronx Psychiatric Center",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Creedmoor Psychiatric Center",
+          "is_correct": false
+        }
+      ],
+      "source": {
+        "procedure": 502,
+        "proc_page": 2,
+        "pdf_page": 398,
+        "paragraph": "NOTE",
+        "coverage": "List of psychiatric centers by borough"
+      }
+    },
+    {
+      "question_id": "NYC911-502-TF-035",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Procedure 502 NOTE: Creedmoor Psychiatric Center is listed for Queens.",
+      "hints": "Queens is paired with Creedmoor in the NOTE.",
+      "answer": "true",
+      "source": {
+        "procedure": 502,
+        "proc_page": 2,
+        "pdf_page": 398,
+        "paragraph": "NOTE",
+        "coverage": "List of psychiatric centers by borough"
+      }
+    },
+    {
+      "question_id": "NYC911-502-FB-036",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 502 NOTE: Staten Island corresponds to ________ Psychiatric Center.",
+      "hints": "It’s the Staten Island entry in the NOTE.",
+      "answer": "South Beach",
+      "source": {
+        "procedure": 502,
+        "proc_page": 2,
+        "pdf_page": 398,
+        "paragraph": "NOTE",
+        "coverage": "List of psychiatric centers by borough"
+      }
+    },
+    {
+      "question_id": "NYC911-502-MCQ-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "Procedure 502: What is the dispatcher’s responsibility when the address of occurrence is the same as the ANI/ALI location?",
+      "hints": "The procedure calls out the ANI/ALI location in this specific situation.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Advise responding units of the ANI/ALI location",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Request supervisor approval for every call",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Transmit caller phone number",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Close the event",
+          "is_correct": false
+        }
+      ],
+      "source": {
+        "procedure": 502,
+        "proc_page": 2,
+        "pdf_page": 398,
+        "paragraph": "Post-NOTE",
+        "coverage": "Advise units ANI/ALI location when occurrence address is the same"
+      }
+    },
+    {
+      "question_id": "NYC911-502-TF-038",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Procedure 502 states it is the dispatcher’s responsibility to advise responding units of the ANI/ALI location when the occurrence address is the same.",
+      "hints": "This sentence appears after the hospital NOTE.",
+      "answer": "true",
+      "source": {
+        "procedure": 502,
+        "proc_page": 2,
+        "pdf_page": 398,
+        "paragraph": "Post-NOTE",
+        "coverage": "Advise units ANI/ALI location when occurrence address is the same"
+      }
+    },
+    {
+      "question_id": "NYC911-502-FB-039",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 502: It is the dispatcher’s responsibility to advise responding units the ________ location when the address of occurrence is the same.",
+      "hints": "The sentence uses the combined acronym.",
+      "answer": "ANI/ALI",
+      "source": {
+        "procedure": 502,
+        "proc_page": 2,
+        "pdf_page": 398,
+        "paragraph": "Post-NOTE",
+        "coverage": "Advise units ANI/ALI location when occurrence address is the same"
+      }
+    },
+    {
+      "question_id": "NYC911-502-MATCH-040",
+      "type": "matching",
+      "difficulty": "easy",
+      "stem": "Match the situation to the correct dispatcher action (Procedure 502).",
+      "hints": "Each scenario maps to a different required action.",
+      "answer": [
+        [
+          "Caller requests anonymity",
+          "Tell units caller requests to remain anonymous"
+        ],
+        [
+          "Non-emergency ANI/ALI request",
+          "Use landline/phone caller instead of over-air"
+        ],
+        [
+          "Occurrence address equals ANI/ALI",
+          "Advise units of ANI/ALI location"
+        ]
+      ],
+      "source": {
+        "procedure": 502,
+        "proc_page": 2,
+        "pdf_page": 398,
+        "paragraph": "Post-NOTE",
+        "coverage": "Advise units ANI/ALI location when occurrence address is the same"
+      }
+    },
+    {
+      "question_id": "NYC911-502-MCQ-041",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem": "A unit requests ANI/ALI for a possible narcotics sale. Under Procedure 502, what is the correct action?",
+      "hints": "Narcotics events are explicitly prohibited from over-air ANI/ALI transmission.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Transmit after supervisor approval",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Transmit only the phone number",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Do not transmit ANI/ALI over the air; direct unit to obtain info via landline",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Transmit ANI/ALI immediately",
+          "is_correct": false
+        }
+      ],
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "2",
+        "coverage": "No ANI/ALI over air for narcotics events"
+      }
+    },
+    {
+      "question_id": "NYC911-502-TF-042",
+      "type": "true_false",
+      "difficulty": "medium",
+      "stem": "Procedure 502 permits ANI/ALI over-air transmission for a 10-13 incident (subject to supervisor verification).",
+      "hints": "10-13s are listed as allowed categories; the NOTE requires supervisor verification.",
+      "answer": "true",
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "1(a-d)",
+        "coverage": "ANI/ALI over-air permitted categories"
+      }
+    },
+    {
+      "question_id": "NYC911-502-FB-043",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "stem": "Procedure 502: ANI/ALI may be transmitted over the air only if the incident falls into the listed ________ categories.",
+      "hints": "This section header and item 1 are about emergency transmission.",
+      "answer": "emergency",
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "1(a-d)",
+        "coverage": "ANI/ALI over-air permitted categories"
+      }
+    },
+    {
+      "question_id": "NYC911-502-MATCH-044",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match the Procedure 502 control to what it prevents.",
+      "hints": "Each control is designed to reduce a different risk.",
+      "answer": [
+        [
+          "Supervisor verification",
+          "Inappropriate over-air disclosure"
+        ],
+        [
+          "Landline option",
+          "Broadcasting caller identity"
+        ],
+        [
+          "Narcotics prohibition",
+          "Revealing sensitive informant details"
+        ]
+      ],
+      "source": {
+        "procedure": 502,
+        "proc_page": 1,
+        "pdf_page": 397,
+        "paragraph": "NOTE",
+        "coverage": "Supervisor verifies appropriateness before over-air ANI/ALI"
+      }
+    }
+  ]
+}

@@ -1,0 +1,953 @@
+{
+  "lesson": {
+    "slug": "nyc911-proc-507-ani-ali-wireless",
+    "title": "Procedure 507 – ANI/ALI DISPLAYS ON WIRELESS CALLS",
+    "topic": "Operational Procedures – Wireless Location Interpretation",
+    "order": 507,
+    "objectives": [
+      "Explain what Phase II provides to PSAC and how it supports location estimation.",
+      "Identify when the Phase II mapping feature should be utilized.",
+      "Apply dispatcher steps upon receipt of a wireless call.",
+      "Apply callback exception for area code (911) and communicate limitations to field units."
+    ],
+    "questionIds": [
+      "NYC911-507-MCQ-001",
+      "NYC911-507-TF-001",
+      "NYC911-507-FB-001",
+      "NYC911-507-MATCH-001",
+      "NYC911-507-MCQ-002",
+      "NYC911-507-TF-002",
+      "NYC911-507-FB-002",
+      "NYC911-507-MATCH-002",
+      "NYC911-507-MCQ-003",
+      "NYC911-507-TF-003",
+      "NYC911-507-FB-003",
+      "NYC911-507-MATCH-003",
+      "NYC911-507-MCQ-004",
+      "NYC911-507-TF-004",
+      "NYC911-507-FB-004",
+      "NYC911-507-MATCH-004",
+      "NYC911-507-MCQ-005",
+      "NYC911-507-TF-005",
+      "NYC911-507-FB-005",
+      "NYC911-507-MCQ-006",
+      "NYC911-507-TF-006",
+      "NYC911-507-FB-006",
+      "NYC911-507-MCQ-007",
+      "NYC911-507-TF-007",
+      "NYC911-507-FB-007",
+      "NYC911-507-MATCH-005",
+      "NYC911-507-MCQ-008",
+      "NYC911-507-TF-008",
+      "NYC911-507-FB-008",
+      "NYC911-507-MATCH-006",
+      "NYC911-507-MCQ-009",
+      "NYC911-507-TF-009",
+      "NYC911-507-FB-009",
+      "NYC911-507-MATCH-007"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-507-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "In Procedure 507, what does Phase II provide to PSAC?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A precinct sector map",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "LAT/LON coordinates",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Radio channel assignments",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "A unit’s tour schedule",
+          "is_correct": false
+        }
+      ],
+      "solution": "The correct answer is: LAT/LON coordinates",
+      "hints": "Phase II is about coordinates.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "PURPOSE-1",
+        "coverage": "Phase II (LAT/LON) to PSAC"
+      }
+    },
+    {
+      "question_id": "NYC911-507-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507 states that wireless carriers provide Phase II (LAT/LON coordinates) to PSAC.",
+      "answer": "true",
+      "hints": "This is stated in the Purpose section.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "PURPOSE-1",
+        "coverage": "Phase II to PSAC"
+      }
+    },
+    {
+      "question_id": "NYC911-507-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507: Wireless carriers provide Phase II (____/____ coordinates) to PSAC.",
+      "answer": "LAT/LON",
+      "hints": "Two parts separated by a slash.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "PURPOSE-1",
+        "coverage": "LAT/LON term"
+      }
+    },
+    {
+      "question_id": "NYC911-507-MATCH-001",
+      "type": "matching",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Match the term to its role in Procedure 507.",
+      "answer": [
+        [
+          "Wireless carriers",
+          "Source of Phase II data"
+        ],
+        [
+          "PSAC",
+          "Receives Phase II data"
+        ],
+        [
+          "Phase II",
+          "LAT/LON coordinates"
+        ]
+      ],
+      "hints": "Identify provider, receiver, and data type.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "PURPOSE-1",
+        "coverage": "Carriers/PSAC/Phase II"
+      }
+    },
+    {
+      "question_id": "NYC911-507-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "According to Procedure 507, Phase II data is used with which feature to help locate callers?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Unit roster",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Mapping feature",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Radio log book",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Complaint screening tool",
+          "is_correct": false
+        }
+      ],
+      "solution": "The correct answer is: Mapping feature",
+      "hints": "It’s the feature that works with coordinates.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "PURPOSE-2",
+        "coverage": "Phase II + mapping"
+      }
+    },
+    {
+      "question_id": "NYC911-507-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507 indicates Phase II data used with mapping enables calltakers to determine an approximate location from the VESTA screen.",
+      "answer": "true",
+      "hints": "Look for Phase II + mapping + VESTA.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "PURPOSE-2",
+        "coverage": "VESTA + mapping"
+      }
+    },
+    {
+      "question_id": "NYC911-507-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507: Phase II data is used in conjunction with the ________ feature.",
+      "answer": "mapping",
+      "hints": "It supports determining approximate location.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "PURPOSE-2",
+        "coverage": "Mapping feature"
+      }
+    },
+    {
+      "question_id": "NYC911-507-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Match the item to how it’s used in Procedure 507.",
+      "answer": [
+        [
+          "VESTA screen",
+          "Where calltakers view wireless caller info"
+        ],
+        [
+          "Mapping feature",
+          "Helps estimate location"
+        ],
+        [
+          "Approximate location",
+          "Not necessarily a confirmed address"
+        ]
+      ],
+      "hints": "One is the display, one is the tool, one is the result.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "PURPOSE-2",
+        "coverage": "VESTA/mapping/approx"
+      }
+    },
+    {
+      "question_id": "NYC911-507-MCQ-003",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507 says the feature will be utilized when:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only for landline calls",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Location is invalid in the system or difficult to enter as given by the caller",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only after unit arrival",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only when caller refuses to speak",
+          "is_correct": false
+        }
+      ],
+      "solution": "The correct answer is: Location is invalid in the system or difficult to enter as given by the caller",
+      "hints": "It’s used when location entry fails or is invalid.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "PURPOSE-3",
+        "coverage": "Use when invalid/difficult"
+      }
+    },
+    {
+      "question_id": "NYC911-507-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507 limits use of the Phase II mapping feature only to cases where callers refuse to give a location.",
+      "answer": "false",
+      "hints": "The procedure also covers invalid locations and entry difficulty.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "PURPOSE-3",
+        "coverage": "Not only refusal"
+      }
+    },
+    {
+      "question_id": "NYC911-507-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507: Use this feature when the location is provided but ________ in the system.",
+      "answer": "invalid",
+      "hints": "Opposite of valid.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "PURPOSE-3",
+        "coverage": "Invalid location"
+      }
+    },
+    {
+      "question_id": "NYC911-507-MATCH-003",
+      "type": "matching",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Match the condition to Procedure 507 guidance on using the feature.",
+      "answer": [
+        [
+          "Provided location is invalid",
+          "Trigger: invalid-location use"
+        ],
+        [
+          "Difficulty entering caller-stated location",
+          "Trigger: entry-difficulty use"
+        ],
+        [
+          "Location entered and valid",
+          "No trigger: normal processing"
+        ]
+      ],
+      "hints": "Two conditions trigger; one does not.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "PURPOSE-3",
+        "coverage": "Trigger conditions"
+      }
+    },
+    {
+      "question_id": "NYC911-507-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Why must calltakers be cognizant of the three classes of service mentioned in Procedure 507?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To select the radio station ID",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "To determine what information is displayed on the ANI/ALI",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "To approve a lineup change",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "To determine patrol borough staffing",
+          "is_correct": false
+        }
+      ],
+      "solution": "The correct answer is: To determine what information is displayed on the ANI/ALI",
+      "hints": "The sentence links classes of service to ANI/ALI display content.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "PURPOSE-4",
+        "coverage": "Classes affect ANI/ALI"
+      }
+    },
+    {
+      "question_id": "NYC911-507-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507 states that there are three classes of service that affect what is displayed on the ANI/ALI.",
+      "answer": "true",
+      "hints": "It’s explicitly stated.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "PURPOSE-4",
+        "coverage": "Three classes statement"
+      }
+    },
+    {
+      "question_id": "NYC911-507-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507: There are three (3) classes of ________ that calltakers must be cognizant of.",
+      "answer": "service",
+      "hints": "It’s 'classes of ___'.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "PURPOSE-4",
+        "coverage": "Classes of service"
+      }
+    },
+    {
+      "question_id": "NYC911-507-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Match the concept to what it supports in Procedure 507.",
+      "answer": [
+        [
+          "Classes of service",
+          "Correct interpretation of ANI/ALI display"
+        ],
+        [
+          "ANI/ALI",
+          "Wireless call display information"
+        ],
+        [
+          "Cognizant",
+          "Aware enough to interpret correctly"
+        ]
+      ],
+      "hints": "Think: awareness enables correct interpretation.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "PURPOSE-4",
+        "coverage": "Interpretation"
+      }
+    },
+    {
+      "question_id": "NYC911-507-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507 step (a): What should the dispatcher do upon receipt of a wireless call?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Hold the job until supervisor review",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Transmit only if a unit requests",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Call the complainant immediately",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Transmit the incident as per Communications Section procedures",
+          "is_correct": true
+        }
+      ],
+      "solution": "The correct answer is: Transmit the incident as per Communications Section procedures",
+      "hints": "Step (a) focuses on proper transmission.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "RADIO-1a",
+        "coverage": "Step a transmit"
+      }
+    },
+    {
+      "question_id": "NYC911-507-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507 step (a) directs dispatchers to transmit the incident as per Communications Section procedures.",
+      "answer": "true",
+      "hints": "That is the exact instruction.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "RADIO-1a",
+        "coverage": "Step a transmit"
+      }
+    },
+    {
+      "question_id": "NYC911-507-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507 step (a): Transmit the ________ as per Communications Section procedures.",
+      "answer": "incident",
+      "hints": "It’s what you are sending out.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "RADIO-1a",
+        "coverage": "Incident term"
+      }
+    },
+    {
+      "question_id": "NYC911-507-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507 step (b): What must field unit(s) be advised about the location?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It is always the caller’s exact address",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "It is always the nearest station",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "It is the unit’s AVL position",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "It is either the cell site or the caller’s LAT/LON information",
+          "is_correct": true
+        }
+      ],
+      "solution": "The correct answer is: It is either the cell site or the caller’s LAT/LON information",
+      "hints": "Step (b) explains the source of the location.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "RADIO-1b",
+        "coverage": "Cell site vs LAT/LON"
+      }
+    },
+    {
+      "question_id": "NYC911-507-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507 step (b) says the location may reflect a cell site or LAT/LON information.",
+      "answer": "true",
+      "hints": "Both sources are named.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "RADIO-1b",
+        "coverage": "Location source"
+      }
+    },
+    {
+      "question_id": "NYC911-507-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507 step (b): Advise the field unit(s) that the location is either the cell site or caller’s ________/________ information.",
+      "answer": "LAT/LON",
+      "hints": "Same coordinate term used in Purpose.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "RADIO-1b",
+        "coverage": "LAT/LON mention"
+      }
+    },
+    {
+      "question_id": "NYC911-507-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507 step (c): When is the cell phone callback number utilized?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "When requested by a field unit",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Only for Phase II calls",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "For every wireless call automatically",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only if the caller hangs up",
+          "is_correct": false
+        }
+      ],
+      "solution": "The correct answer is: When requested by a field unit",
+      "hints": "It’s conditional on a request.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "RADIO-1c",
+        "coverage": "Callback when requested"
+      }
+    },
+    {
+      "question_id": "NYC911-507-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507 step (c) requires utilizing the callback number only when requested by a field unit.",
+      "answer": "true",
+      "hints": "The step says 'when requested'.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "RADIO-1c",
+        "coverage": "Requested condition"
+      }
+    },
+    {
+      "question_id": "NYC911-507-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507 step (c): The cell phone callback number will be utilized when ________ by a field unit.",
+      "answer": "requested",
+      "hints": "Not automatic.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "RADIO-1c",
+        "coverage": "Requested word"
+      }
+    },
+    {
+      "question_id": "NYC911-507-MATCH-005",
+      "type": "matching",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Match each step to the correct dispatcher action (Procedure 507).",
+      "answer": [
+        [
+          "Step (a)",
+          "Transmit incident per Communications procedures"
+        ],
+        [
+          "Step (b)",
+          "Explain location source (cell site or LAT/LON)"
+        ],
+        [
+          "Step (c)",
+          "Use callback when requested by field unit"
+        ]
+      ],
+      "hints": "A=transmit, B=location explanation, C=callback rule.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "RADIO-1",
+        "coverage": "Steps a/b/c"
+      }
+    },
+    {
+      "question_id": "NYC911-507-MCQ-008",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507 NOTE: If a callback number has area code (911), what is the correct action?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Do not use it to call the complainant; advise the field unit the callback is invalid",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Text the number for details",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Call the number to verify location",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Use it only after supervisor approval",
+          "is_correct": false
+        }
+      ],
+      "solution": "The correct answer is: Do not use it to call the complainant; advise the field unit the callback is invalid",
+      "hints": "Area code 911 callback is invalid for calling the complainant.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "NOTE-1",
+        "coverage": "Area code 911 invalid"
+      }
+    },
+    {
+      "question_id": "NYC911-507-TF-008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507 NOTE: Numbers with area code (911) may be used to call the complainant if the event is urgent.",
+      "answer": "false",
+      "hints": "The note says they will not be used to call the complainant.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "NOTE-1",
+        "coverage": "Not used to call complainant"
+      }
+    },
+    {
+      "question_id": "NYC911-507-FB-008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507 NOTE: Cell phone numbers with area code (____) will not be used to call the complainant.",
+      "answer": "911",
+      "hints": "It’s the emergency number area code.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "NOTE-1",
+        "coverage": "911 area code"
+      }
+    },
+    {
+      "question_id": "NYC911-507-MATCH-006",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Match the note statement to its operational meaning (Procedure 507).",
+      "answer": [
+        [
+          "Area code 911 callback",
+          "Invalid for contacting complainant"
+        ],
+        [
+          "Purpose of that number",
+          "Caller can call 911 only"
+        ],
+        [
+          "Dispatcher responsibility",
+          "Advise field unit callback is invalid"
+        ]
+      ],
+      "hints": "Each clause has a distinct takeaway.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "NOTE-1",
+        "coverage": "Note breakdown"
+      }
+    },
+    {
+      "question_id": "NYC911-507-MCQ-009",
+      "type": "mcq",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "Scenario",
+      "stem": "A calltaker has trouble entering a wireless caller’s location exactly as stated. Under Procedure 507, what supports finding an approximate location?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Unit memo book review",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Phase II data used with the mapping feature on the VESTA screen",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Aided card index search",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Radio log replay",
+          "is_correct": false
+        }
+      ],
+      "solution": "The correct answer is: Phase II data used with the mapping feature on the VESTA screen",
+      "hints": "The Purpose section describes this use-case.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "PURPOSE-2/3",
+        "coverage": "Application: entry difficulty"
+      }
+    },
+    {
+      "question_id": "NYC911-507-TF-009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "Scenario",
+      "stem": "Under Procedure 507, dispatchers should clarify to field units that the listed location may reflect a cell site rather than a confirmed address.",
+      "answer": "true",
+      "hints": "That’s the intent of step (b).",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "RADIO-1b",
+        "coverage": "Communicate limitations"
+      }
+    },
+    {
+      "question_id": "NYC911-507-FB-009",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Procedure 507: The Phase II feature helps determine the ________ location of a wireless caller.",
+      "answer": "approximate",
+      "hints": "Not exact.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "PURPOSE-2",
+        "coverage": "Approximate location term"
+      }
+    },
+    {
+      "question_id": "NYC911-507-MATCH-007",
+      "type": "matching",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 507 – ANI/ALI Displays on Wireless Calls",
+      "subtopic": "",
+      "stem": "Match the procedure section to what it primarily covers (Procedure 507).",
+      "answer": [
+        [
+          "Purpose",
+          "What Phase II/mapping/VESTA do"
+        ],
+        [
+          "Radio Dispatcher",
+          "Steps a–c on receipt of a wireless call"
+        ],
+        [
+          "Note",
+          "Callback exception for area code 911"
+        ]
+      ],
+      "hints": "Why vs what to do vs exception.",
+      "source": {
+        "procedure": 507,
+        "proc_page": 1,
+        "pdf_page": 409,
+        "paragraph": "STRUCTURE",
+        "coverage": "Section mapping"
+      }
+    }
+  ]
+}
