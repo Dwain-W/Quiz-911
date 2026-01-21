@@ -1,0 +1,570 @@
+{
+  "lesson": {
+    "slug": "911-proc-474-emergency-radio-traffic",
+    "title": "Procedure 474 \u2013 EMERGENCY RADIO TRAFFIC / PRIORITY TRANSMISSIONS",
+    "topic": "Emergency and Priority Radio Communications",
+    "order": 474,
+    "objectives": [
+      "Define emergency radio traffic and priority transmissions.",
+      "Apply dispatcher responsibilities during emergency traffic.",
+      "Apply unit responsibilities during emergency traffic.",
+      "Determine when normal radio operations may resume."
+    ],
+    "questionIds": [
+      "NYC911-474-MCQ-001",
+      "NYC911-474-TF-001",
+      "NYC911-474-MATCH-001",
+      "NYC911-474-FB-001",
+      "NYC911-474-MCQ-002",
+      "NYC911-474-TF-002",
+      "NYC911-474-MATCH-002",
+      "NYC911-474-FB-002",
+      "NYC911-474-MCQ-003",
+      "NYC911-474-TF-003",
+      "NYC911-474-MATCH-003",
+      "NYC911-474-FB-003",
+      "NYC911-474-MCQ-004",
+      "NYC911-474-TF-004",
+      "NYC911-474-MATCH-004",
+      "NYC911-474-FB-004"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-474-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 474 \u2013 EMERGENCY RADIO TRAFFIC / PRIORITY TRANSMISSIONS",
+      "subtopic": "Scope",
+      "stem": "Under Procedure 474, what does emergency radio traffic involve?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Training exercises",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Routine administrative updates",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Daily status reports",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Imminent danger or urgent operational need",
+          "is_correct": true
+        }
+      ],
+      "solution": "Emergency traffic is reserved for urgent or dangerous situations.",
+      "hints": "Think danger or urgency.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc474",
+        "radio",
+        "priority"
+      ],
+      "source": {
+        "procedure": 474,
+        "proc_page": 1,
+        "pdf_page": 379,
+        "paragraph": "SCOPE",
+        "coverage": "Definition and scope of emergency radio traffic and priority transmissions"
+      }
+    },
+    {
+      "question_id": "NYC911-474-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 474 \u2013 EMERGENCY RADIO TRAFFIC / PRIORITY TRANSMISSIONS",
+      "stem": "Emergency radio traffic should only be used when immediate attention is required.",
+      "answer": "true",
+      "hints": "It is reserved for urgent situations.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc474",
+        "radio",
+        "priority"
+      ],
+      "source": {
+        "procedure": 474,
+        "proc_page": 1,
+        "pdf_page": 379,
+        "paragraph": "SCOPE",
+        "coverage": "Definition and scope of emergency radio traffic and priority transmissions"
+      },
+      "subtopic": "Scope"
+    },
+    {
+      "question_id": "NYC911-474-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 474 \u2013 EMERGENCY RADIO TRAFFIC / PRIORITY TRANSMISSIONS",
+      "subtopic": "Matching",
+      "stem": "Match the traffic type to its meaning.",
+      "answer": [
+        [
+          "Emergency radio traffic",
+          "Imminent danger"
+        ],
+        [
+          "Priority transmission",
+          "Precedence over routine"
+        ],
+        [
+          "Routine traffic",
+          "Normal operations"
+        ]
+      ],
+      "hints": "Each term has a different urgency level.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc474",
+        "radio",
+        "priority"
+      ],
+      "source": {
+        "procedure": 474,
+        "proc_page": 1,
+        "pdf_page": 379,
+        "paragraph": "SCOPE",
+        "coverage": "Definition and scope of emergency radio traffic and priority transmissions"
+      }
+    },
+    {
+      "question_id": "NYC911-474-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 474 \u2013 EMERGENCY RADIO TRAFFIC / PRIORITY TRANSMISSIONS",
+      "stem": "Procedure 474: Emergency radio traffic involves situations of imminent ________.",
+      "answer": "danger",
+      "hints": "It refers to serious risk.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc474",
+        "radio",
+        "priority"
+      ],
+      "source": {
+        "procedure": 474,
+        "proc_page": 1,
+        "pdf_page": 379,
+        "paragraph": "SCOPE",
+        "coverage": "Definition and scope of emergency radio traffic and priority transmissions"
+      }
+    },
+    {
+      "question_id": "NYC911-474-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 474 \u2013 EMERGENCY RADIO TRAFFIC / PRIORITY TRANSMISSIONS",
+      "subtopic": "Dispatcher Duties",
+      "stem": "When emergency radio traffic is declared, what must the dispatcher do?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Keep the channel clear for emergency communications",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Change tours",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ignore routine traffic",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Continue routine broadcasts",
+          "is_correct": false
+        }
+      ],
+      "solution": "Dispatcher controls the channel to support emergency traffic.",
+      "hints": "Clear the air.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc474",
+        "radio",
+        "priority"
+      ],
+      "source": {
+        "procedure": 474,
+        "proc_page": 2,
+        "pdf_page": 380,
+        "paragraph": "DISPATCHER RESPONSIBILITIES",
+        "coverage": "Dispatcher actions during emergency or priority traffic"
+      }
+    },
+    {
+      "question_id": "NYC911-474-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 474 \u2013 EMERGENCY RADIO TRAFFIC / PRIORITY TRANSMISSIONS",
+      "stem": "Non-essential transmissions should be restricted during emergency radio traffic.",
+      "answer": "true",
+      "hints": "Only necessary traffic is allowed.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc474",
+        "radio",
+        "priority"
+      ],
+      "source": {
+        "procedure": 474,
+        "proc_page": 2,
+        "pdf_page": 380,
+        "paragraph": "DISPATCHER RESPONSIBILITIES",
+        "coverage": "Dispatcher actions during emergency or priority traffic"
+      },
+      "subtopic": "Dispatcher Duties"
+    },
+    {
+      "question_id": "NYC911-474-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 474 \u2013 EMERGENCY RADIO TRAFFIC / PRIORITY TRANSMISSIONS",
+      "subtopic": "Matching",
+      "stem": "Match the dispatcher action to its purpose.",
+      "answer": [
+        [
+          "Restrict non-essential traffic",
+          "Maintain clear channel"
+        ],
+        [
+          "Acknowledge emergency message",
+          "Confirm receipt"
+        ],
+        [
+          "Monitor transmissions",
+          "Maintain awareness"
+        ]
+      ],
+      "hints": "Each action supports emergency handling.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc474",
+        "radio",
+        "priority"
+      ],
+      "source": {
+        "procedure": 474,
+        "proc_page": 2,
+        "pdf_page": 380,
+        "paragraph": "DISPATCHER RESPONSIBILITIES",
+        "coverage": "Dispatcher actions during emergency or priority traffic"
+      }
+    },
+    {
+      "question_id": "NYC911-474-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 474 \u2013 EMERGENCY RADIO TRAFFIC / PRIORITY TRANSMISSIONS",
+      "stem": "Procedure 474: The dispatcher must keep the radio ________ clear during emergency traffic.",
+      "answer": "channel",
+      "hints": "It\u2019s the communication path.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc474",
+        "radio",
+        "priority"
+      ],
+      "source": {
+        "procedure": 474,
+        "proc_page": 2,
+        "pdf_page": 380,
+        "paragraph": "DISPATCHER RESPONSIBILITIES",
+        "coverage": "Dispatcher actions during emergency or priority traffic"
+      }
+    },
+    {
+      "question_id": "NYC911-474-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 474 \u2013 EMERGENCY RADIO TRAFFIC / PRIORITY TRANSMISSIONS",
+      "subtopic": "Unit Duties",
+      "stem": "What is expected of units during emergency radio traffic?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Give long narratives",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Use informal language",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Transmit only essential information clearly and concisely",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Wait for routine turn-taking",
+          "is_correct": false
+        }
+      ],
+      "solution": "Brevity and clarity are required.",
+      "hints": "Short and clear.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc474",
+        "radio",
+        "priority"
+      ],
+      "source": {
+        "procedure": 474,
+        "proc_page": 3,
+        "pdf_page": 381,
+        "paragraph": "UNIT RESPONSIBILITIES",
+        "coverage": "Unit conduct during emergency or priority transmissions"
+      }
+    },
+    {
+      "question_id": "NYC911-474-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 474 \u2013 EMERGENCY RADIO TRAFFIC / PRIORITY TRANSMISSIONS",
+      "stem": "Units should avoid unnecessary details when transmitting emergency traffic.",
+      "answer": "true",
+      "hints": "Only essential info is required.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc474",
+        "radio",
+        "priority"
+      ],
+      "source": {
+        "procedure": 474,
+        "proc_page": 3,
+        "pdf_page": 381,
+        "paragraph": "UNIT RESPONSIBILITIES",
+        "coverage": "Unit conduct during emergency or priority transmissions"
+      },
+      "subtopic": "Unit Duties"
+    },
+    {
+      "question_id": "NYC911-474-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 474 \u2013 EMERGENCY RADIO TRAFFIC / PRIORITY TRANSMISSIONS",
+      "subtopic": "Matching",
+      "stem": "Match the transmission practice to appropriateness.",
+      "answer": [
+        [
+          "Clear concise message",
+          "Best practice"
+        ],
+        [
+          "Lengthy narrative",
+          "Poor practice"
+        ],
+        [
+          "Essential details only",
+          "Required practice"
+        ]
+      ],
+      "hints": "Emergency traffic prioritizes clarity.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc474",
+        "radio",
+        "priority"
+      ],
+      "source": {
+        "procedure": 474,
+        "proc_page": 3,
+        "pdf_page": 381,
+        "paragraph": "UNIT RESPONSIBILITIES",
+        "coverage": "Unit conduct during emergency or priority transmissions"
+      }
+    },
+    {
+      "question_id": "NYC911-474-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 474 \u2013 EMERGENCY RADIO TRAFFIC / PRIORITY TRANSMISSIONS",
+      "stem": "Procedure 474: Units should transmit emergency traffic in a clear and ________ manner.",
+      "answer": "concise",
+      "hints": "It emphasizes brevity.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc474",
+        "radio",
+        "priority"
+      ],
+      "source": {
+        "procedure": 474,
+        "proc_page": 3,
+        "pdf_page": 381,
+        "paragraph": "UNIT RESPONSIBILITIES",
+        "coverage": "Unit conduct during emergency or priority transmissions"
+      }
+    },
+    {
+      "question_id": "NYC911-474-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 474 \u2013 EMERGENCY RADIO TRAFFIC / PRIORITY TRANSMISSIONS",
+      "subtopic": "Termination",
+      "stem": "When may normal radio operations resume after emergency traffic?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "At shift change",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "After roll call",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Immediately",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "After the emergency condition is terminated",
+          "is_correct": true
+        }
+      ],
+      "solution": "Normal traffic resumes only after termination.",
+      "hints": "Look for termination.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc474",
+        "radio",
+        "priority"
+      ],
+      "source": {
+        "procedure": 474,
+        "proc_page": 4,
+        "pdf_page": 382,
+        "paragraph": "TERMINATION",
+        "coverage": "Ending emergency radio traffic and resuming normal operations"
+      }
+    },
+    {
+      "question_id": "NYC911-474-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 474 \u2013 EMERGENCY RADIO TRAFFIC / PRIORITY TRANSMISSIONS",
+      "stem": "Normal radio traffic should not resume until emergency traffic is formally terminated.",
+      "answer": "true",
+      "hints": "Formal termination is required.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc474",
+        "radio",
+        "priority"
+      ],
+      "source": {
+        "procedure": 474,
+        "proc_page": 4,
+        "pdf_page": 382,
+        "paragraph": "TERMINATION",
+        "coverage": "Ending emergency radio traffic and resuming normal operations"
+      },
+      "subtopic": "Termination"
+    },
+    {
+      "question_id": "NYC911-474-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 474 \u2013 EMERGENCY RADIO TRAFFIC / PRIORITY TRANSMISSIONS",
+      "subtopic": "Matching",
+      "stem": "Match the stage to the radio condition.",
+      "answer": [
+        [
+          "Emergency active",
+          "Priority traffic only"
+        ],
+        [
+          "Emergency terminated",
+          "Normal traffic resumes"
+        ],
+        [
+          "Priority transmission",
+          "Routine traffic delayed"
+        ]
+      ],
+      "hints": "Each stage affects allowed traffic.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc474",
+        "radio",
+        "priority"
+      ],
+      "source": {
+        "procedure": 474,
+        "proc_page": 4,
+        "pdf_page": 382,
+        "paragraph": "TERMINATION",
+        "coverage": "Ending emergency radio traffic and resuming normal operations"
+      }
+    },
+    {
+      "question_id": "NYC911-474-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 474 \u2013 EMERGENCY RADIO TRAFFIC / PRIORITY TRANSMISSIONS",
+      "stem": "Procedure 474: Normal radio operations resume after emergency traffic is ________.",
+      "answer": "terminated",
+      "hints": "It means ended.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc474",
+        "radio",
+        "priority"
+      ],
+      "source": {
+        "procedure": 474,
+        "proc_page": 4,
+        "pdf_page": 382,
+        "paragraph": "TERMINATION",
+        "coverage": "Ending emergency radio traffic and resuming normal operations"
+      }
+    }
+  ]
+}

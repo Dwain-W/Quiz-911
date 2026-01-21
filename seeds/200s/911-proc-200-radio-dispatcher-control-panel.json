@@ -1,0 +1,2380 @@
+{
+  "lesson": {
+    "slug": "911-proc-200-radio-dispatcher-control-panel",
+    "title": "Procedure 200 – RADIO DISPATCHER CONTROL PANEL",
+    "topic": "Radio Dispatching – Console Controls, Audio Routing, and Interrupt Rules",
+    "order": 200,
+    "objectives": [
+      "Explain the purpose of Procedure 200 and what the MCC 7500 dispatch console provides.",
+      "Identify on-screen controls (padlock, transmit, 10-13, steady alert, time display, zone box, VU meter).",
+      "Apply alert-tone rules including duration limits and where tones are heard.",
+      "Explain speaker/headset behavior and audio routing during telephone calls.",
+      "Apply foot pedal transmit use and interruption rules for field units versus other console positions."
+    ],
+    "questionIds": [
+      "NYC911-200-MCQ-001",
+      "NYC911-200-TF-001",
+      "NYC911-200-MATCH-001",
+      "NYC911-200-FB-001",
+      "NYC911-200-MCQ-002",
+      "NYC911-200-TF-002",
+      "NYC911-200-MATCH-002",
+      "NYC911-200-FB-002",
+      "NYC911-200-MCQ-003",
+      "NYC911-200-TF-003",
+      "NYC911-200-MATCH-003",
+      "NYC911-200-FB-003",
+      "NYC911-200-MCQ-004",
+      "NYC911-200-TF-004",
+      "NYC911-200-MATCH-004",
+      "NYC911-200-FB-004",
+      "NYC911-200-MCQ-005",
+      "NYC911-200-TF-005",
+      "NYC911-200-MATCH-005",
+      "NYC911-200-FB-005",
+      "NYC911-200-MCQ-006",
+      "NYC911-200-TF-006",
+      "NYC911-200-MATCH-006",
+      "NYC911-200-FB-006",
+      "NYC911-200-MCQ-007",
+      "NYC911-200-TF-007",
+      "NYC911-200-MATCH-007",
+      "NYC911-200-FB-007",
+      "NYC911-200-MCQ-008",
+      "NYC911-200-TF-008",
+      "NYC911-200-MATCH-008",
+      "NYC911-200-FB-008",
+      "NYC911-200-MCQ-009",
+      "NYC911-200-TF-009",
+      "NYC911-200-MATCH-009",
+      "NYC911-200-FB-009",
+      "NYC911-200-MCQ-010",
+      "NYC911-200-TF-010",
+      "NYC911-200-MATCH-010",
+      "NYC911-200-FB-010",
+      "NYC911-200-MCQ-011",
+      "NYC911-200-TF-011",
+      "NYC911-200-MATCH-011",
+      "NYC911-200-FB-011",
+      "NYC911-200-MCQ-012",
+      "NYC911-200-TF-012",
+      "NYC911-200-MATCH-012",
+      "NYC911-200-FB-012",
+      "NYC911-200-MCQ-013",
+      "NYC911-200-TF-013",
+      "NYC911-200-MATCH-013",
+      "NYC911-200-FB-013",
+      "NYC911-200-MCQ-014",
+      "NYC911-200-TF-014",
+      "NYC911-200-MATCH-014",
+      "NYC911-200-FB-014",
+      "NYC911-200-MCQ-015",
+      "NYC911-200-TF-015",
+      "NYC911-200-MATCH-015",
+      "NYC911-200-FB-015",
+      "NYC911-200-MCQ-016",
+      "NYC911-200-TF-016",
+      "NYC911-200-MATCH-016",
+      "NYC911-200-FB-016",
+      "NYC911-200-MCQ-017",
+      "NYC911-200-TF-017",
+      "NYC911-200-MATCH-017",
+      "NYC911-200-FB-017"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-200-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Purpose",
+      "stem": "What is the stated purpose of Procedure 200?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To assign radio call signs to units.",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "To define patrol sector boundaries.",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "To train dispatchers on telephone-only procedures.",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "To familiarize dispatchers with the Radio Dispatch Console.",
+          "is_correct": true
+        }
+      ],
+      "solution": "Procedure 200 PURPOSE states it is to familiarize dispatchers with the Radio Dispatch Console.",
+      "hints": "It’s the one that starts with 'To familiarize…'.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "purpose"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 1,
+        "pdf_page": 75,
+        "paragraph": "PURPOSE",
+        "coverage": "Purpose statement (familiarize dispatchers with Radio Dispatch Console)"
+      }
+    },
+    {
+      "question_id": "NYC911-200-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200 exists to familiarize dispatchers with the Radio Dispatch Console.",
+      "answer": "true",
+      "hints": "This is written under PURPOSE on page 1.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "purpose"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 1,
+        "pdf_page": 75,
+        "paragraph": "PURPOSE",
+        "coverage": "Purpose statement (familiarize dispatchers with Radio Dispatch Console)"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Matching",
+      "stem": "Match the section label to what it tells you (Procedure 200).",
+      "answer": [
+        [
+          "PURPOSE",
+          "Why the procedure exists"
+        ],
+        [
+          "NOTE",
+          "Extra instruction about using the console"
+        ],
+        [
+          "MOTOROLA MCC 7500",
+          "The system the console is based on"
+        ]
+      ],
+      "hints": "Each label describes a different kind of information.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "purpose",
+        "labels"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 1,
+        "pdf_page": 75,
+        "paragraph": "PURPOSE",
+        "coverage": "Purpose statement (familiarize dispatchers with Radio Dispatch Console)"
+      }
+    },
+    {
+      "question_id": "NYC911-200-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200 PURPOSE: To familiarize dispatchers with the Radio Dispatch ________.",
+      "answer": "Console",
+      "hints": "It’s the equipment you operate.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "purpose"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 1,
+        "pdf_page": 75,
+        "paragraph": "PURPOSE",
+        "coverage": "Purpose statement (familiarize dispatchers with Radio Dispatch Console)"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "MCC 7500",
+      "stem": "The Motorola MCC 7500 Elite Master Dispatch Console provides communication between:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Field personnel and the dispatcher",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Telephone operators and callers",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only supervisors and commanders",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "The public and the precinct desk officer",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 200 states the console provides communication between field personnel and the dispatcher.",
+      "hints": "Think: who uses the radio vs who controls it.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "communication"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 1,
+        "pdf_page": 75,
+        "paragraph": "1",
+        "coverage": "Console provides communication between field personnel and dispatcher"
+      }
+    },
+    {
+      "question_id": "NYC911-200-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200 states the MCC 7500 console provides communication between field personnel and the dispatcher.",
+      "answer": "true",
+      "hints": "It’s the first sentence under item 1.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "communication"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 1,
+        "pdf_page": 75,
+        "paragraph": "1",
+        "coverage": "Console provides communication between field personnel and dispatcher"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Matching",
+      "stem": "Match the term to its role (Procedure 200).",
+      "answer": [
+        [
+          "Field personnel",
+          "Radio users in the field"
+        ],
+        [
+          "Dispatcher",
+          "Radio operator at the console"
+        ],
+        [
+          "Dispatch console",
+          "Equipment enabling radio communication"
+        ]
+      ],
+      "hints": "One is people in the field, one is the operator, one is the equipment.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "communication"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 1,
+        "pdf_page": 75,
+        "paragraph": "1",
+        "coverage": "Console provides communication between field personnel and dispatcher"
+      }
+    },
+    {
+      "question_id": "NYC911-200-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: The dispatch console provides communication between field ________ and the dispatcher.",
+      "answer": "personnel",
+      "hints": "It refers to members working out in the field.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "communication"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 1,
+        "pdf_page": 75,
+        "paragraph": "1",
+        "coverage": "Console provides communication between field personnel and dispatcher"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Console Components",
+      "stem": "Which item is specifically listed as included on the console in Procedure 200?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Station house key set",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Roster of units",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "CAD printer",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Zone box",
+          "is_correct": true
+        }
+      ],
+      "solution": "Procedure 200 lists the Zone box among included console items.",
+      "hints": "It’s the one that shows covering zone/precincts.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "components",
+        "zone-box"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 1,
+        "pdf_page": 75,
+        "paragraph": "1",
+        "coverage": "List of components included on the console"
+      }
+    },
+    {
+      "question_id": "NYC911-200-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200 lists a Digital Clock and a Bar Type VU Meter as console features.",
+      "answer": "true",
+      "hints": "Both are explicitly named in the item-1 list.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "components",
+        "clock",
+        "vu-meter"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 1,
+        "pdf_page": 75,
+        "paragraph": "1",
+        "coverage": "List of components included on the console"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Matching",
+      "stem": "Match the listed console feature to what it is (Procedure 200).",
+      "answer": [
+        [
+          "Digital Clock",
+          "Timekeeping feature"
+        ],
+        [
+          "Bar Type VU Meter",
+          "Audio level indicator"
+        ],
+        [
+          "Select/Unselect speakers",
+          "Audio output devices"
+        ]
+      ],
+      "hints": "One tracks time, one shows audio level, one plays audio.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "components"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 1,
+        "pdf_page": 75,
+        "paragraph": "1",
+        "coverage": "List of components included on the console"
+      }
+    },
+    {
+      "question_id": "NYC911-200-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200 lists a Bar Type ________ Meter as part of the console.",
+      "answer": "VU",
+      "hints": "Two letters commonly used for audio level.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "components",
+        "vu-meter"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 1,
+        "pdf_page": 75,
+        "paragraph": "1",
+        "coverage": "List of components included on the console"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "NOTE",
+      "stem": "According to the NOTE in Procedure 200, console icons can be activated by:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only the foot pedal",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Touch or with the mouse",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only the keyboard",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only voice commands",
+          "is_correct": false
+        }
+      ],
+      "solution": "The NOTE states all icons on screen may be activated by touch or with the mouse.",
+      "hints": "It mentions two input methods: touch and ____.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "note",
+        "icons"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 1,
+        "pdf_page": 75,
+        "paragraph": "NOTE",
+        "coverage": "Icons may be activated by touch or with mouse"
+      }
+    },
+    {
+      "question_id": "NYC911-200-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200 notes that all on-screen icons may be activated by touch or with the mouse.",
+      "answer": "true",
+      "hints": "This is exactly what the NOTE says.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "note",
+        "icons"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 1,
+        "pdf_page": 75,
+        "paragraph": "NOTE",
+        "coverage": "Icons may be activated by touch or with mouse"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Matching",
+      "stem": "Match the control method to the type (Procedure 200).",
+      "answer": [
+        [
+          "Touch",
+          "Direct screen input"
+        ],
+        [
+          "Mouse",
+          "Pointer/click input"
+        ],
+        [
+          "Icon",
+          "On-screen control"
+        ]
+      ],
+      "hints": "Two are input methods; one is what you activate.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "note",
+        "icons"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 1,
+        "pdf_page": 75,
+        "paragraph": "NOTE",
+        "coverage": "Icons may be activated by touch or with mouse"
+      }
+    },
+    {
+      "question_id": "NYC911-200-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200 NOTE: All icons on screen may be activated by touch or with the ________.",
+      "answer": "mouse",
+      "hints": "It’s the pointing device.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "note",
+        "icons"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 1,
+        "pdf_page": 75,
+        "paragraph": "NOTE",
+        "coverage": "Icons may be activated by touch or with mouse"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Screen Components",
+      "stem": "What does the padlock button do on the radio dispatch console screen (Procedure 200)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Unlocks the screen for 8 seconds",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Controls telephone audio volume",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Sends a 10-13 alert tone",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Selects the covering zone",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 200 states the padlock button only unlocks the screen for 8 seconds.",
+      "hints": "It’s time-limited and short.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "padlock"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2a",
+        "coverage": "Padlock button unlocks screen for 8 seconds"
+      }
+    },
+    {
+      "question_id": "NYC911-200-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "The padlock button unlocks the console screen for 8 seconds.",
+      "answer": "true",
+      "hints": "Look at item 2(a).",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "padlock"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2a",
+        "coverage": "Padlock button unlocks screen for 8 seconds"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Matching",
+      "stem": "Match the button to its function (Procedure 200).",
+      "answer": [
+        [
+          "Padlock button",
+          "Unlocks screen for 8 seconds"
+        ],
+        [
+          "Transmit button",
+          "Transmit over the frequency"
+        ],
+        [
+          "Steady alert button",
+          "Send steady alert tone (max 6 sec)"
+        ]
+      ],
+      "hints": "Each is a different on-screen control.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "buttons"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2a",
+        "coverage": "Padlock button unlocks screen for 8 seconds"
+      }
+    },
+    {
+      "question_id": "NYC911-200-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: The padlock button unlocks the screen for ________ seconds.",
+      "answer": "8",
+      "hints": "Single digit; same every time.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "padlock"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2a",
+        "coverage": "Padlock button unlocks screen for 8 seconds"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Screen Components",
+      "stem": "In Procedure 200, the transmit button is used to:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Display the time",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Switch the covering zone",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Transmit over the frequency",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Disable the boom microphone",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 200 states the transmit button is used to transmit over the frequency.",
+      "hints": "Think: push-to-talk on screen.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "transmit-button"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2b",
+        "coverage": "Transmit button used to transmit over frequency"
+      }
+    },
+    {
+      "question_id": "NYC911-200-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: The transmit button is used to transmit over the frequency.",
+      "answer": "true",
+      "hints": "It’s stated in item 2(b).",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "transmit-button"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2b",
+        "coverage": "Transmit button used to transmit over frequency"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MATCH-006",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Matching",
+      "stem": "Match the on-screen item to what it does (Procedure 200).",
+      "answer": [
+        [
+          "Transmit button",
+          "Transmit over the frequency"
+        ],
+        [
+          "Time display",
+          "Shows the current time"
+        ],
+        [
+          "Zone box",
+          "Shows covering zone/precincts and volume"
+        ]
+      ],
+      "hints": "Only one actually transmits.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "screen-items"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2b",
+        "coverage": "Transmit button used to transmit over frequency"
+      }
+    },
+    {
+      "question_id": "NYC911-200-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: The transmit button is used to transmit over the ________.",
+      "answer": "frequency",
+      "hints": "It’s the radio channel.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "transmit-button"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2b",
+        "coverage": "Transmit button used to transmit over frequency"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Alerts",
+      "stem": "When the 10-13 alert button is held down, Procedure 200 says it sends the tone for a maximum of:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Thirty seconds",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ten seconds",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Eight seconds",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Six seconds",
+          "is_correct": true
+        }
+      ],
+      "solution": "Procedure 200 states the 10-13 alert tone transmits while held down for a maximum of six seconds.",
+      "hints": "Count to 6 and it stops.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "10-13",
+        "timing"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2c",
+        "coverage": "10-13 alert tone (selected channel[s], max 6 sec, heard on select speaker)"
+      }
+    },
+    {
+      "question_id": "NYC911-200-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Regardless of which tone is transmitted, Procedure 200 says the tone will be heard on the console’s select speaker.",
+      "answer": "true",
+      "hints": "That sentence follows the 10-13 description.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "10-13",
+        "select-speaker"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2c",
+        "coverage": "10-13 alert tone (selected channel[s], max 6 sec, heard on select speaker)"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Matching",
+      "stem": "Match the 10-13 alert detail to what it describes (Procedure 200).",
+      "answer": [
+        [
+          "Selected radio channel(s)",
+          "Where the 10-13 tone is sent"
+        ],
+        [
+          "Maximum of six seconds",
+          "How long the 10-13 tone can transmit"
+        ],
+        [
+          "Select speaker",
+          "Where the console hears the tone"
+        ]
+      ],
+      "hints": "Destination, duration, and where you hear it.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2c",
+        "coverage": "10-13 alert tone (selected channel[s], max 6 sec, heard on select speaker)"
+      }
+    },
+    {
+      "question_id": "NYC911-200-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: The 10-13 alert tone transmits for a maximum of ________ seconds.",
+      "answer": "six",
+      "hints": "Same number as the steady alert limit.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2c",
+        "coverage": "10-13 alert tone (selected channel[s], max 6 sec, heard on select speaker)"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MCQ-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Alerts",
+      "stem": "Procedure 200: Depressing the steady alert button sends out:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A 10-13 tone on all channels continuously",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "A steady alert tone on selected radio channels (max 6 seconds)",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "A telephone ring tone",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "A screen unlock sequence",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 200 states the steady alert sends a steady alert tone on selected channels while held, max six seconds.",
+      "hints": "Steady alert = steady tone; same 6-second cap.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "steady-alert"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2d",
+        "coverage": "Steady alert tone (selected channels, max 6 sec)"
+      }
+    },
+    {
+      "question_id": "NYC911-200-TF-008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: The steady alert tone transmits as long as the button is held down, up to a maximum of six seconds.",
+      "answer": "true",
+      "hints": "It’s stated under 2(d).",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "steady-alert"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2d",
+        "coverage": "Steady alert tone (selected channels, max 6 sec)"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MATCH-008",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Matching",
+      "stem": "Match the alert button to what it sends (Procedure 200).",
+      "answer": [
+        [
+          "10-13 button",
+          "10-13 alert tone"
+        ],
+        [
+          "Steady alert button",
+          "Steady alert tone"
+        ],
+        [
+          "Padlock button",
+          "Temporary screen unlock"
+        ]
+      ],
+      "hints": "Two send tones; one unlocks the screen.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "alerts"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2d",
+        "coverage": "Steady alert tone (selected channels, max 6 sec)"
+      }
+    },
+    {
+      "question_id": "NYC911-200-FB-008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: Depressing the steady alert button sends a ________ alert tone.",
+      "answer": "steady",
+      "hints": "It’s in the name.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "steady-alert"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2d",
+        "coverage": "Steady alert tone (selected channels, max 6 sec)"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MCQ-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Screen Components",
+      "stem": "Where does Procedure 200 say the time display appears on the console screen?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Bottom right corner",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Top right corner",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Top left corner",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Bottom left corner",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 200 states the time display shows current time in the top right corner.",
+      "hints": "Same corner as many clocks on UIs.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "time-display"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2e",
+        "coverage": "Time display (top right corner)"
+      }
+    },
+    {
+      "question_id": "NYC911-200-TF-009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: The time display shows the current time in the top right corner.",
+      "answer": "true",
+      "hints": "It’s listed in item 2(e).",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "time-display"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2e",
+        "coverage": "Time display (top right corner)"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MATCH-009",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Matching",
+      "stem": "Match the screen element to the detail (Procedure 200).",
+      "answer": [
+        [
+          "Time display",
+          "Shows current time"
+        ],
+        [
+          "Time display location",
+          "Top right corner"
+        ],
+        [
+          "Bar Type VU Meter location",
+          "Bottom right of the screen"
+        ]
+      ],
+      "hints": "Two are locations; one is function.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "time-display",
+        "screen-locations"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2e",
+        "coverage": "Time display (top right corner)"
+      }
+    },
+    {
+      "question_id": "NYC911-200-FB-009",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: The time display is in the top ________ corner.",
+      "answer": "right",
+      "hints": "Opposite of left.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "time-display"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2e",
+        "coverage": "Time display (top right corner)"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MCQ-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Screen Components",
+      "stem": "Procedure 200: The zone box shows the covering zone, precincts, and:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Radio station ID",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Volume control",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Unit roster",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Console serial number",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 200 says the zone box shows covering zone, precincts, and volume control.",
+      "hints": "Zone/precincts + sound level.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "zone-box"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2f",
+        "coverage": "Zone box shows zone/precincts/volume; slide bar right for volume control"
+      }
+    },
+    {
+      "question_id": "NYC911-200-TF-010",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: Volume in the zone box can be controlled by sliding the bar to the right.",
+      "answer": "true",
+      "hints": "It’s item 2(f)(a).",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "zone-box",
+        "volume"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2f",
+        "coverage": "Zone box shows zone/precincts/volume; slide bar right for volume control"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MATCH-010",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Matching",
+      "stem": "Match the zone box part to what it provides (Procedure 200).",
+      "answer": [
+        [
+          "Covering zone",
+          "Area the dispatcher covers"
+        ],
+        [
+          "Precincts",
+          "Included commands/units by precinct"
+        ],
+        [
+          "Volume bar",
+          "Sound level control"
+        ]
+      ],
+      "hints": "Two are geography-related; one is sound level.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "zone-box"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2f",
+        "coverage": "Zone box shows zone/precincts/volume; slide bar right for volume control"
+      }
+    },
+    {
+      "question_id": "NYC911-200-FB-010",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: Volume can be controlled by sliding the bar to the ________.",
+      "answer": "right",
+      "hints": "That direction increases/adjusts.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "zone-box",
+        "volume"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2f",
+        "coverage": "Zone box shows zone/precincts/volume; slide bar right for volume control"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MCQ-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Screen Components",
+      "stem": "Procedure 200: The Bar Type VU Meter is located on the:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Center of the screen",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Near the padlock button",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Bottom right of the screen",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Top right of the screen",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 200 states the bar type VU meter is located on the bottom right of the screen.",
+      "hints": "Look for the bottom-right indicator.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "vu-meter",
+        "location"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2g",
+        "coverage": "VU meter location and behavior"
+      }
+    },
+    {
+      "question_id": "NYC911-200-TF-011",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: The VU meter responds to the dispatcher’s voice during transmit and to received audio on the selected radio channel.",
+      "answer": "true",
+      "hints": "Both transmit voice and received audio are mentioned.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "vu-meter",
+        "behavior"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2g",
+        "coverage": "VU meter location and behavior"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MATCH-011",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Matching",
+      "stem": "Match the VU meter detail to what it refers to (Procedure 200).",
+      "answer": [
+        [
+          "Bottom right of the screen",
+          "VU meter location"
+        ],
+        [
+          "Dispatcher’s voice during transmit",
+          "VU meter reacts during transmit"
+        ],
+        [
+          "Received audio on selected channel",
+          "VU meter reacts to received audio"
+        ]
+      ],
+      "hints": "One is location; two are triggers.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "vu-meter",
+        "behavior"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2g",
+        "coverage": "VU meter location and behavior"
+      }
+    },
+    {
+      "question_id": "NYC911-200-FB-011",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: The Bar Type VU Meter responds to received audio on the selected radio ________.",
+      "answer": "channel",
+      "hints": "It’s what you select to listen/transmit on.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "vu-meter"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 2,
+        "pdf_page": 76,
+        "paragraph": "2g",
+        "coverage": "VU meter location and behavior"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MCQ-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Speakers",
+      "stem": "Procedure 200: Select Audio and Unselect Audio speakers allow dispatchers to:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Lock the console screen",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Transmit an alert tone",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Select audio and control volume through the speakers",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Disable headset operation",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 200 states audio can be selected and volume controlled through the speakers.",
+      "hints": "Speakers = audio output + volume.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "speakers"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "3a",
+        "coverage": "Select/Unselect speakers allow selecting audio and controlling volume"
+      }
+    },
+    {
+      "question_id": "NYC911-200-TF-012",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: Audio can be selected and volume controlled through the speakers.",
+      "answer": "true",
+      "hints": "It’s stated in section 3(a).",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "speakers"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "3a",
+        "coverage": "Select/Unselect speakers allow selecting audio and controlling volume"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MATCH-012",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Matching",
+      "stem": "Match the audio output option to what it affects (Procedure 200).",
+      "answer": [
+        [
+          "Select speaker",
+          "Selected audio output"
+        ],
+        [
+          "Unselect speaker",
+          "Unselected audio output"
+        ],
+        [
+          "Speaker volume control",
+          "Speaker loudness"
+        ]
+      ],
+      "hints": "Two outputs, one volume.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "speakers"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "3a",
+        "coverage": "Select/Unselect speakers allow selecting audio and controlling volume"
+      }
+    },
+    {
+      "question_id": "NYC911-200-FB-012",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: Audio can be selected and volume ________ through the speakers.",
+      "answer": "controlled",
+      "hints": "It means you can adjust it.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "speakers"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "3a",
+        "coverage": "Select/Unselect speakers allow selecting audio and controlling volume"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MCQ-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Headset",
+      "stem": "Procedure 200: How is the headset activated at the console?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "By holding the 10-13 button",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "By plugging the headset into the headset jack",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "By pressing the transmit button twice",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "By sliding the zone volume bar fully right",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 200 states the headset is activated by plugging into the headset jack.",
+      "hints": "It’s a physical plug-in.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "headset",
+        "activation"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "4a",
+        "coverage": "Headset activated by plugging in; disables boom mic and select speaker"
+      }
+    },
+    {
+      "question_id": "NYC911-200-TF-013",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: When the headset is plugged into either headset jack, the boom microphone and the select speaker are automatically disabled.",
+      "answer": "true",
+      "hints": "This is explicitly stated.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "headset",
+        "disable"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "4a",
+        "coverage": "Headset activated by plugging in; disables boom mic and select speaker"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MATCH-013",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Matching",
+      "stem": "Match the condition to what happens (Procedure 200).",
+      "answer": [
+        [
+          "Headset plugged in",
+          "Boom mic disabled"
+        ],
+        [
+          "Headset plugged in",
+          "Select speaker disabled"
+        ],
+        [
+          "Dual headset operation",
+          "Two headset jacks available"
+        ]
+      ],
+      "hints": "Two effects occur when plugged in; one describes capability.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "headset"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "4a",
+        "coverage": "Headset activated by plugging in; disables boom mic and select speaker"
+      }
+    },
+    {
+      "question_id": "NYC911-200-FB-013",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: When the headset is plugged in, the boom microphone and the ________ speaker are automatically disabled.",
+      "answer": "select",
+      "hints": "It’s the speaker for selected audio.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "headset",
+        "disable"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "4a",
+        "coverage": "Headset activated by plugging in; disables boom mic and select speaker"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MCQ-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Headset",
+      "stem": "Procedure 200: On the headset jack, which volume control adjusts the telephone audio?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The one furthest away from you",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "The VU meter",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "The padlock button",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "The one closest to you",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 200 states the furthest control adjusts telephone audio; the closest adjusts select audio.",
+      "hints": "Far control = phone.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "headset",
+        "volume-controls"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "4a",
+        "coverage": "Two volume controls: closest=select audio, furthest=telephone audio"
+      }
+    },
+    {
+      "question_id": "NYC911-200-TF-014",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: The volume control closest to you controls the select audio volume.",
+      "answer": "true",
+      "hints": "Closest = select; furthest = telephone.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "headset",
+        "volume-controls"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "4a",
+        "coverage": "Two volume controls: closest=select audio, furthest=telephone audio"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MATCH-014",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Matching",
+      "stem": "Match the headset jack control to what it adjusts (Procedure 200).",
+      "answer": [
+        [
+          "Closest volume control",
+          "Select audio volume"
+        ],
+        [
+          "Furthest volume control",
+          "Telephone audio volume"
+        ],
+        [
+          "Headset jacks",
+          "Support dual headset operation"
+        ]
+      ],
+      "hints": "Two controls adjust volume; one describes the jacks.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "headset",
+        "volume-controls"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "4a",
+        "coverage": "Two volume controls: closest=select audio, furthest=telephone audio"
+      }
+    },
+    {
+      "question_id": "NYC911-200-FB-014",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: The volume control furthest away from you controls the ________ audio.",
+      "answer": "telephone",
+      "hints": "It’s for phone calls.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "headset",
+        "volume-controls"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "4a",
+        "coverage": "Two volume controls: closest=select audio, furthest=telephone audio"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MCQ-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Headset/Telephone",
+      "stem": "Procedure 200: During an active telephone conversation, what happens to the select audio?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It is muted",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "It stays in the headset",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "It becomes unselect audio",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "It is redirected to the select speaker",
+          "is_correct": true
+        }
+      ],
+      "solution": "Procedure 200 says select audio is redirected to the select speaker during an active telephone conversation.",
+      "hints": "Phone call changes where select audio is heard.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "telephone",
+        "audio-routing"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "4a",
+        "coverage": "Normal selected channel in headset; active phone call redirects select audio to select speaker; telephone audio in headset"
+      }
+    },
+    {
+      "question_id": "NYC911-200-TF-015",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: Normally, audio from the selected channel is heard in the headset.",
+      "answer": "true",
+      "hints": "This is stated in section 4(a).",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "telephone",
+        "audio-routing"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "4a",
+        "coverage": "Normal selected channel in headset; active phone call redirects select audio to select speaker; telephone audio in headset"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MATCH-015",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Matching",
+      "stem": "Match the situation to what you hear where (Procedure 200).",
+      "answer": [
+        [
+          "Normal conditions",
+          "Selected channel heard in headset"
+        ],
+        [
+          "Active telephone conversation",
+          "Telephone audio heard in headset"
+        ],
+        [
+          "Active telephone conversation",
+          "Select audio redirected to select speaker"
+        ]
+      ],
+      "hints": "Two apply during phone calls; one applies normally.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "telephone",
+        "audio-routing"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "4a",
+        "coverage": "Normal selected channel in headset; active phone call redirects select audio to select speaker; telephone audio in headset"
+      }
+    },
+    {
+      "question_id": "NYC911-200-FB-015",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: When on an active telephone conversation, the select audio is redirected to the select ________.",
+      "answer": "speaker",
+      "hints": "It is no longer in the headset.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "telephone",
+        "audio-routing"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "4a",
+        "coverage": "Normal selected channel in headset; active phone call redirects select audio to select speaker; telephone audio in headset"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MCQ-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Foot Pedal",
+      "stem": "Procedure 200: The foot pedal can be used to:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Send an alert tone automatically",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Unlock the screen",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Show covering precincts",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Transmit over the frequency",
+          "is_correct": true
+        }
+      ],
+      "solution": "Procedure 200 states the foot pedal can be used to transmit over the frequency.",
+      "hints": "It works like push-to-talk.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "foot-pedal"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "5a",
+        "coverage": "Foot pedal used to transmit over frequency"
+      }
+    },
+    {
+      "question_id": "NYC911-200-TF-016",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: The foot pedal can be used to transmit over the frequency.",
+      "answer": "true",
+      "hints": "It’s in section 5(a).",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "foot-pedal"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "5a",
+        "coverage": "Foot pedal used to transmit over frequency"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MATCH-016",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Matching",
+      "stem": "Match the transmit-related control to what it’s used for (Procedure 200).",
+      "answer": [
+        [
+          "Transmit button/bar",
+          "Hand-control transmit voice"
+        ],
+        [
+          "Foot pedal",
+          "Foot-control transmit voice"
+        ],
+        [
+          "Steady alert button",
+          "Transmit steady alert tone"
+        ]
+      ],
+      "hints": "Make sure each definition is distinct.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "foot-pedal",
+        "transmit"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "5a",
+        "coverage": "Foot pedal used to transmit over frequency"
+      }
+    },
+    {
+      "question_id": "NYC911-200-FB-016",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200: The foot pedal is used to ________ over the frequency.",
+      "answer": "transmit",
+      "hints": "Same verb as the transmit button.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "foot-pedal"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "5a",
+        "coverage": "Foot pedal used to transmit over frequency"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MCQ-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Interrupt Rules",
+      "stem": "Procedure 200 NOTE: If a field unit is transmitting and you interrupt, which statement is correct?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Others hear your audio, but the transmitting field unit will not hear you until they stop transmitting",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "No one hears you",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only the field unit hears you",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "The field unit hears you immediately",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 200 explains others hear you, but the transmitting field unit won’t hear you until they stop.",
+      "hints": "Key detail: who does NOT hear you right away.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "interrupt",
+        "field-unit"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "NOTE",
+        "coverage": "Interrupt rules for field unit vs other console"
+      }
+    },
+    {
+      "question_id": "NYC911-200-TF-017",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200 NOTE: If another console position is transmitting on the radio channel, you cannot interrupt it by pushing the transmit bar or foot switch.",
+      "answer": "true",
+      "hints": "The NOTE explicitly states this restriction.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "interrupt",
+        "console"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "NOTE",
+        "coverage": "Interrupt rules for field unit vs other console"
+      }
+    },
+    {
+      "question_id": "NYC911-200-MATCH-017",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "subtopic": "Matching",
+      "stem": "Match the scenario to the interrupt result (Procedure 200).",
+      "answer": [
+        [
+          "Field unit transmitting",
+          "You can interrupt using transmit bar/foot pedal"
+        ],
+        [
+          "Field unit transmitting",
+          "Transmitting unit won’t hear you until it stops"
+        ],
+        [
+          "Another console transmitting",
+          "You cannot interrupt"
+        ]
+      ],
+      "hints": "Field unit vs console is the key difference.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "interrupt"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "NOTE",
+        "coverage": "Interrupt rules for field unit vs other console"
+      }
+    },
+    {
+      "question_id": "NYC911-200-FB-017",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 200 – Radio Dispatcher Control Panel",
+      "stem": "Procedure 200 NOTE: If another console position is transmitting, you ________ interrupt it with the transmit bar or foot switch.",
+      "answer": "cannot",
+      "hints": "It’s a rule that forbids interruption.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc200",
+        "control-panel",
+        "interrupt",
+        "console"
+      ],
+      "source": {
+        "procedure": 200,
+        "proc_page": 3,
+        "pdf_page": 77,
+        "paragraph": "NOTE",
+        "coverage": "Interrupt rules for field unit vs other console"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1140 @@
+{
+  "lesson": {
+    "slug": "911-proc-410-limiting-sensitive-delicate-announcements",
+    "title": "Procedure 410 – LIMITING SENSITIVE/DELICATE ANNOUNCEMENTS",
+    "topic": "Radio Discipline – Avoiding Sensational Labels While Preserving Officer Safety",
+    "order": 410,
+    "objectives": [
+      "Explain why Procedure 410 limits sensitive/delicate announcements and how media response can disrupt operations.",
+      "Identify example labels that should be avoided over the radio.",
+      "Apply when perpetrator full name and date of birth must be transmitted over the air (and the listed qualifiers/exceptions).",
+      "Apply restrictions (juveniles; sexual assault family/household) and use alternate methods when appropriate.",
+      "Apply supervisor notification and supervisory control requirements for sensitive cases."
+    ],
+    "questionIds": [
+      "NYC911-410-MCQ-001",
+      "NYC911-410-TF-001",
+      "NYC911-410-MATCH-001",
+      "NYC911-410-FB-001",
+      "NYC911-410-MCQ-002",
+      "NYC911-410-TF-002",
+      "NYC911-410-MATCH-002",
+      "NYC911-410-FB-002",
+      "NYC911-410-MCQ-003",
+      "NYC911-410-TF-003",
+      "NYC911-410-MATCH-003",
+      "NYC911-410-FB-003",
+      "NYC911-410-MCQ-004",
+      "NYC911-410-TF-004",
+      "NYC911-410-MATCH-004",
+      "NYC911-410-FB-004",
+      "NYC911-410-MCQ-005",
+      "NYC911-410-TF-005",
+      "NYC911-410-MATCH-005",
+      "NYC911-410-FB-005",
+      "NYC911-410-MCQ-006",
+      "NYC911-410-TF-006",
+      "NYC911-410-MATCH-006",
+      "NYC911-410-FB-006",
+      "NYC911-410-MCQ-007",
+      "NYC911-410-TF-007",
+      "NYC911-410-MATCH-007",
+      "NYC911-410-FB-007",
+      "NYC911-410-MCQ-008",
+      "NYC911-410-TF-008",
+      "NYC911-410-MATCH-008",
+      "NYC911-410-FB-008"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-410-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "subtopic": "Scope",
+      "stem": "Procedure 410 SCOPE: Why should dispatchers avoid unnecessary details, descriptions, and names on the radio?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Because they can cause an extreme response by the news media",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Because they replace the need for unit response",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Because they reduce call volume",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Because they improve officer safety",
+          "is_correct": false
+        }
+      ],
+      "solution": "The SCOPE explains unnecessary details/descriptions/names can cause an extreme news media response.",
+      "hints": "Think: it’s about publicity and media reaction, not safety.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "scope",
+        "media"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "SCOPE",
+        "coverage": "Balance safety details with avoiding unnecessary details/names that drive media response"
+      }
+    },
+    {
+      "question_id": "NYC911-410-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "stem": "Procedure 410 SCOPE says it is necessary for safety to give responding units as much information as the dispatcher is aware of.",
+      "answer": "true",
+      "hints": "The scope starts by emphasizing safety information first.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "scope",
+        "safety"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "SCOPE",
+        "coverage": "Balance safety details with avoiding unnecessary details/names that drive media response"
+      }
+    },
+    {
+      "question_id": "NYC911-410-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "subtopic": "Matching",
+      "stem": "Match the statement to the idea it supports (Procedure 410).",
+      "answer": [
+        [
+          "Give units as much known info",
+          "Officer safety priority"
+        ],
+        [
+          "Avoid unnecessary names/descriptions",
+          "Limit media-driven escalation"
+        ],
+        [
+          "Extreme news media response",
+          "Operational complication risk"
+        ]
+      ],
+      "hints": "Each phrase maps to a different purpose within the SCOPE.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "scope"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "SCOPE",
+        "coverage": "Balance safety details with avoiding unnecessary details/names that drive media response"
+      }
+    },
+    {
+      "question_id": "NYC911-410-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "stem": "Procedure 410 SCOPE: It is not necessary to add unnecessary details, descriptions and ________ that cause an extreme response by the news media.",
+      "answer": "names",
+      "hints": "It’s the identifying information that can draw attention.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "scope",
+        "media"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "SCOPE",
+        "coverage": "Balance safety details with avoiding unnecessary details/names that drive media response"
+      }
+    },
+    {
+      "question_id": "NYC911-410-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "subtopic": "Purpose",
+      "stem": "Procedure 410 PURPOSE: What can happen when an event is dispatched and labeled with a highly publicized name?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It prevents any radio transmissions",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "It automatically upgrades the job type",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "It reduces the need for detective follow-up",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "It can cause a tremendous response by the news media and disrupt police operations/investigations",
+          "is_correct": true
+        }
+      ],
+      "solution": "The PURPOSE explains that publicized labels trigger heavy media response and severe disruption to operations and detective investigations.",
+      "hints": "Look for the effect on media + disruption.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "purpose",
+        "disruption"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "PURPOSE",
+        "coverage": "Publicity labels on dispatched events cause major media response and disrupt operations/investigations"
+      }
+    },
+    {
+      "question_id": "NYC911-410-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "stem": "Procedure 410 PURPOSE states that publicized labeling can cause a severe disruption to police operations and detective investigations.",
+      "answer": "true",
+      "hints": "This is stated directly in the PURPOSE section.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "purpose",
+        "disruption"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "PURPOSE",
+        "coverage": "Publicity labels on dispatched events cause major media response and disrupt operations/investigations"
+      }
+    },
+    {
+      "question_id": "NYC911-410-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "subtopic": "Matching",
+      "stem": "Match the cause to the effect described in Procedure 410 PURPOSE.",
+      "answer": [
+        [
+          "Publicized label used on dispatch",
+          "Tremendous media response"
+        ],
+        [
+          "Tremendous media response",
+          "Severe disruption to operations"
+        ],
+        [
+          "Severe disruption",
+          "Impact on detective investigations"
+        ]
+      ],
+      "hints": "The PURPOSE lays out a chain of consequences.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "purpose"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "PURPOSE",
+        "coverage": "Publicity labels on dispatched events cause major media response and disrupt operations/investigations"
+      }
+    },
+    {
+      "question_id": "NYC911-410-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "stem": "Procedure 410 PURPOSE: Publicized labels can cause a tremendous response by the ________ media.",
+      "answer": "news",
+      "hints": "It’s the media coverage concern.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "purpose",
+        "media"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "PURPOSE",
+        "coverage": "Publicity labels on dispatched events cause major media response and disrupt operations/investigations"
+      }
+    },
+    {
+      "question_id": "NYC911-410-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "subtopic": "Examples",
+      "stem": "Which of the following is an example Procedure 410 says should be avoided as a label over the radio?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "“UNITS RESPONDING”",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "“REQUESTING A BUS”",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "“A MALE REPORTS A ROBBERY”",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "“THE RABBI THAT WAS KIDNAPPED”",
+          "is_correct": true
+        }
+      ],
+      "solution": "Procedure 410 gives example labels to avoid, including “THE RABBI THAT WAS KIDNAPPED.”",
+      "hints": "Pick the sensational, publicity-driving phrase.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "examples",
+        "labels"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "EXAMPLES",
+        "coverage": "Examples of labels that should be avoided on radio"
+      }
+    },
+    {
+      "question_id": "NYC911-410-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "stem": "Procedure 410 includes “THE NUN THAT WAS SEXUALLY ASSAULTED” as an example of what should be avoided.",
+      "answer": "true",
+      "hints": "It is listed under the examples section.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "examples",
+        "labels"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "EXAMPLES",
+        "coverage": "Examples of labels that should be avoided on radio"
+      }
+    },
+    {
+      "question_id": "NYC911-410-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "subtopic": "Matching",
+      "stem": "Match the example label to why it should be avoided (Procedure 410).",
+      "answer": [
+        [
+          "“THE RABBI THAT WAS KIDNAPPED”",
+          "Sensational victim-labeling phrase"
+        ],
+        [
+          "“THE NUN THAT WAS SEXUALLY ASSAULTED”",
+          "High-publicity descriptive label"
+        ],
+        [
+          "Neutral factual phrasing",
+          "Preferred radio wording style"
+        ]
+      ],
+      "hints": "Two are specific examples; one is the recommended style.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "examples"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "EXAMPLES",
+        "coverage": "Examples of labels that should be avoided on radio"
+      }
+    },
+    {
+      "question_id": "NYC911-410-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "stem": "Procedure 410 example to avoid: “THE ________ THAT WAS KIDNAPPED”.",
+      "answer": "RABBI",
+      "hints": "It’s a publicized label tied to a kidnapping.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "examples"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "EXAMPLES",
+        "coverage": "Examples of labels that should be avoided on radio"
+      }
+    },
+    {
+      "question_id": "NYC911-410-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "subtopic": "Radio 1",
+      "stem": "Procedure 410 RADIO (1): Dispatchers should give all details of an event to responding units, bearing in mind that full details may:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Remove the need for follow-up calls",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Replace investigative work",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Save lives",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Delay response",
+          "is_correct": false
+        }
+      ],
+      "solution": "RADIO (1) states full details may save lives, but it isn’t necessary to include certain specific descriptions or names.",
+      "hints": "It’s a life-safety statement.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "radio1",
+        "safety"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "RADIO 1",
+        "coverage": "Give full details for safety, but avoid specific descriptions/names unless required"
+      }
+    },
+    {
+      "question_id": "NYC911-410-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "stem": "Procedure 410 RADIO (1) says it is necessary to include certain specific descriptions or names in every radio transmission.",
+      "answer": "false",
+      "hints": "It says it is *not* necessary to include certain specific descriptions or names.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "radio1",
+        "names"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "RADIO 1",
+        "coverage": "Give full details for safety, but avoid specific descriptions/names unless required"
+      }
+    },
+    {
+      "question_id": "NYC911-410-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "subtopic": "Matching",
+      "stem": "Match the instruction to how it supports Procedure 410 goals.",
+      "answer": [
+        [
+          "Give needed details to units",
+          "Protect officer safety"
+        ],
+        [
+          "Avoid certain names/descriptions",
+          "Reduce sensationalism risk"
+        ],
+        [
+          "When details are too sensitive",
+          "Use alternate method (phone/call central)"
+        ]
+      ],
+      "hints": "Safety first, but sensitive info may need different handling.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "radio1"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "RADIO 1",
+        "coverage": "Give full details for safety, but avoid specific descriptions/names unless required"
+      }
+    },
+    {
+      "question_id": "NYC911-410-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "stem": "Procedure 410 RADIO (1): Full details may save ________.",
+      "answer": "lives",
+      "hints": "Single word safety outcome.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "radio1"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "RADIO 1",
+        "coverage": "Give full details for safety, but avoid specific descriptions/names unless required"
+      }
+    },
+    {
+      "question_id": "NYC911-410-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "subtopic": "Mandatory Transmit",
+      "stem": "Procedure 410: For which situation MUST dispatchers transmit the perpetrator’s full name and date of birth over the air?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only juvenile incidents",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Crimes in progress and certain incidents listed (10S’s, 30s, 31s, 32s, 34s with exception, 52s with weapons, 54EDPs danger to public safety)",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only unfounded calls",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Any sensitive case regardless of type",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 410 lists specific incidents requiring full name and DOB over the air for officer safety.",
+      "hints": "It’s the long list that ends with 'full names and date of birth over the air'.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "mandatory",
+        "codes",
+        "dob"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "RADIO 1 – Mandatory list",
+        "coverage": "Incidents requiring perpetrator full name and DOB over air (specific codes + conditions)"
+      }
+    },
+    {
+      "question_id": "NYC911-410-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "stem": "Procedure 410: For the listed crimes in progress and certain incidents, dispatchers must transmit the perpetrator’s full name and date of birth over the air for officer safety.",
+      "answer": "true",
+      "hints": "This is stated directly after the list of incidents.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "mandatory",
+        "dob"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "RADIO 1 – Mandatory list",
+        "coverage": "Incidents requiring perpetrator full name and DOB over air (specific codes + conditions)"
+      }
+    },
+    {
+      "question_id": "NYC911-410-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "subtopic": "Matching",
+      "stem": "Match the incident category to the condition mentioned in Procedure 410.",
+      "answer": [
+        [
+          "52s",
+          "Requires weapon involvement"
+        ],
+        [
+          "54EDPs",
+          "Requires danger to public safety"
+        ],
+        [
+          "34s",
+          "Contains sexual-assault family/household exception"
+        ]
+      ],
+      "hints": "Each code group has a qualifier/exception.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "mandatory",
+        "codes"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "RADIO 1 – Mandatory list",
+        "coverage": "Incidents requiring perpetrator full name and DOB over air (specific codes + conditions)"
+      }
+    },
+    {
+      "question_id": "NYC911-410-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "stem": "Procedure 410: Dispatchers must transmit perpetrator’s full names and date of ________ over the air for the listed incidents.",
+      "answer": "birth",
+      "hints": "Second identifier paired with full name.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "mandatory",
+        "dob"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "RADIO 1 – Mandatory list",
+        "coverage": "Incidents requiring perpetrator full name and DOB over air (specific codes + conditions)"
+      }
+    },
+    {
+      "question_id": "NYC911-410-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "subtopic": "Alternate Methods",
+      "stem": "Procedure 410: If an incident is NOT in the listed group requiring names/DOB, how should sensitive names/descriptions be given if necessary?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only after media arrives",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Always over the air to all units",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Via telephone if possible, or have the unit call central from the scene for further details",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Only through social media alerts",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 410 states such names/descriptions should be given via telephone if necessary/possible, or units can call central from the scene for details.",
+      "hints": "Look for ‘via telephone’ and ‘call central’.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "alternatives",
+        "telephone"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "RADIO 1 – Alternatives",
+        "coverage": "If not on the required list, avoid sensationalizing; provide via telephone or have unit call central"
+      }
+    },
+    {
+      "question_id": "NYC911-410-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "stem": "Procedure 410: Transmitting sensitive information for incidents other than those listed may sensationalize events and hinder police response/apprehension and solving cases.",
+      "answer": "true",
+      "hints": "It warns about sensationalizing and hindering response/investigations.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "alternatives",
+        "sensationalize"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "RADIO 1 – Alternatives",
+        "coverage": "If not on the required list, avoid sensationalizing; provide via telephone or have unit call central"
+      }
+    },
+    {
+      "question_id": "NYC911-410-MATCH-006",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "subtopic": "Matching",
+      "stem": "Match the approach to when Procedure 410 suggests it.",
+      "answer": [
+        [
+          "Telephone",
+          "Use when sensitive details must be shared"
+        ],
+        [
+          "Unit calls central from the scene",
+          "Use when best for further details"
+        ],
+        [
+          "Avoid sensational details on radio",
+          "Use when not on mandatory list"
+        ]
+      ],
+      "hints": "Two are alternate methods; one is the caution.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "alternatives"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "RADIO 1 – Alternatives",
+        "coverage": "If not on the required list, avoid sensationalizing; provide via telephone or have unit call central"
+      }
+    },
+    {
+      "question_id": "NYC911-410-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "stem": "Procedure 410: Such names or descriptions should be given via ________, if necessary and if possible.",
+      "answer": "telephone",
+      "hints": "Preferred alternative channel.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "alternatives"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "RADIO 1 – Alternatives",
+        "coverage": "If not on the required list, avoid sensationalizing; provide via telephone or have unit call central"
+      }
+    },
+    {
+      "question_id": "NYC911-410-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "subtopic": "Callback Note",
+      "stem": "Procedure 410 NOTE: If the perpetrator’s name for the listed incidents is obtained during a callback, the dispatcher must:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Wait for the next tour to enter it",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only log it without transmission",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Document and transmit it (when allowed)",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Send it to media liaison first",
+          "is_correct": false
+        }
+      ],
+      "solution": "The NOTE says the dispatcher must document and transmit the name if obtained during a callback, subject to restrictions.",
+      "hints": "Two actions: document + transmit.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "note",
+        "callback"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "NOTE",
+        "coverage": "Callback-obtained perpetrator name must be documented/transmitted for above incidents; restrictions for juveniles and certain sexual assaults"
+      }
+    },
+    {
+      "question_id": "NYC911-410-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "stem": "Procedure 410 NOTE: The perpetrator’s name MUST NOT be transmitted over the radio for juveniles on any event.",
+      "answer": "true",
+      "hints": "This prohibition is explicit in the NOTE.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "note",
+        "juveniles"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "NOTE",
+        "coverage": "Callback-obtained perpetrator name must be documented/transmitted for above incidents; restrictions for juveniles and certain sexual assaults"
+      }
+    },
+    {
+      "question_id": "NYC911-410-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "subtopic": "Matching",
+      "stem": "Match the category to the radio rule in Procedure 410 NOTE.",
+      "answer": [
+        [
+          "Callback name for listed incidents",
+          "Document + transmit requirement"
+        ],
+        [
+          "Juveniles (any event)",
+          "Juvenile-name radio prohibition"
+        ],
+        [
+          "Sexual assault – perp family/lives with victim",
+          "Family/household SA name prohibition"
+        ]
+      ],
+      "hints": "One is a requirement; two are specific prohibitions.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "note",
+        "restrictions"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "NOTE",
+        "coverage": "Callback-obtained perpetrator name must be documented/transmitted for above incidents; restrictions for juveniles and certain sexual assaults"
+      }
+    },
+    {
+      "question_id": "NYC911-410-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "stem": "Procedure 410 NOTE: If a perpetrator’s name is obtained during a callback (for the above incidents), the dispatcher must document and ________ it.",
+      "answer": "transmit",
+      "hints": "The second required action after documenting.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "note",
+        "callback"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "NOTE",
+        "coverage": "Callback-obtained perpetrator name must be documented/transmitted for above incidents; restrictions for juveniles and certain sexual assaults"
+      }
+    },
+    {
+      "question_id": "NYC911-410-MCQ-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "subtopic": "Supervisor Notification",
+      "stem": "Procedure 410 RADIO (2): What should dispatchers do immediately when a sensitive case is to be dispatched?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Broadcast the victim’s identity over the air",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Notify the radio supervisor",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hold the event until a unit arrives",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only notify detectives after dispatch",
+          "is_correct": false
+        }
+      ],
+      "solution": "RADIO (2) instructs dispatchers to immediately notify the radio supervisor of sensitive cases to be dispatched.",
+      "hints": "It’s an immediate escalation step.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "radio2",
+        "supervisor"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "RADIO 2",
+        "coverage": "Notify radio supervisor immediately for sensitive cases; supervisor takes active control and guides transmissions"
+      }
+    },
+    {
+      "question_id": "NYC911-410-TF-008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "stem": "Procedure 410 RADIO (2): The supervisor should take active control, advise what information to transmit, and ensure the incident is properly handled.",
+      "answer": "true",
+      "hints": "All three responsibilities are listed in RADIO (2).",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "radio2",
+        "supervisor"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "RADIO 2",
+        "coverage": "Notify radio supervisor immediately for sensitive cases; supervisor takes active control and guides transmissions"
+      }
+    },
+    {
+      "question_id": "NYC911-410-MATCH-008",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "subtopic": "Matching",
+      "stem": "Match the supervisor action to what it accomplishes (Procedure 410).",
+      "answer": [
+        [
+          "Take active control",
+          "Direct the radio handling of the incident"
+        ],
+        [
+          "Advise what to transmit",
+          "Control content of transmissions"
+        ],
+        [
+          "Ensure properly handled",
+          "Oversee correct incident processing"
+        ]
+      ],
+      "hints": "These are the three supervisor responsibilities stated.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "radio2",
+        "supervisor"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "RADIO 2",
+        "coverage": "Notify radio supervisor immediately for sensitive cases; supervisor takes active control and guides transmissions"
+      }
+    },
+    {
+      "question_id": "NYC911-410-FB-008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 410 – Limiting Sensitive/Delicate Announcements",
+      "stem": "Procedure 410 RADIO (2): Immediately notify the radio ________ of any sensitive cases that are to be dispatched.",
+      "answer": "supervisor",
+      "hints": "The person who should take active control.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc410",
+        "radio-discipline",
+        "radio2",
+        "supervisor"
+      ],
+      "source": {
+        "procedure": 410,
+        "proc_page": 1,
+        "pdf_page": 169,
+        "paragraph": "RADIO 2",
+        "coverage": "Notify radio supervisor immediately for sensitive cases; supervisor takes active control and guides transmissions"
+      }
+    }
+  ]
+}

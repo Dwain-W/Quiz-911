@@ -1,0 +1,828 @@
+{
+  "lesson": {
+    "slug": "911-proc-420-dispatcher-notifications-expanded",
+    "title": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+    "topic": "Dispatcher Notification Responsibilities (Expanded Granular Coverage)",
+    "order": 420,
+    "objectives": [
+      "Identify responsible agencies for each notification type.",
+      "Apply dispatcher and supervisor notification responsibilities.",
+      "Differentiate agency-specific notification routing.",
+      "Apply Procedure 420 notification rules with full granularity."
+    ],
+    "questionIds": [
+      "NYC911-420-MCQ-001",
+      "NYC911-420-TF-001",
+      "NYC911-420-MATCH-001",
+      "NYC911-420-FB-001",
+      "NYC911-420-MCQ-002",
+      "NYC911-420-TF-002",
+      "NYC911-420-MATCH-002",
+      "NYC911-420-FB-002",
+      "NYC911-420-MCQ-003",
+      "NYC911-420-TF-003",
+      "NYC911-420-MATCH-003",
+      "NYC911-420-FB-003",
+      "NYC911-420-MCQ-004",
+      "NYC911-420-TF-004",
+      "NYC911-420-MATCH-004",
+      "NYC911-420-FB-004",
+      "NYC911-420-MCQ-005",
+      "NYC911-420-TF-005",
+      "NYC911-420-MATCH-005",
+      "NYC911-420-FB-005",
+      "NYC911-420-MCQ-006",
+      "NYC911-420-TF-006",
+      "NYC911-420-MATCH-006",
+      "NYC911-420-FB-006"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-420-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "subtopic": "Unfounded Address Verification",
+      "stem": "Procedure 420: Who must be notified for Unfounded Address Verification related incidents?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Fire Department",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Complainant",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "City Hall",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Transit Authority",
+          "is_correct": false
+        }
+      ],
+      "solution": "Unfounded Address Verification notifications are handled by Complainant.",
+      "hints": "Look for the responsible agency name in Procedure 420.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 219,
+        "paragraph": "Unfounded Address Verification",
+        "coverage": "Granular notification handling for Unfounded Address Verification"
+      }
+    },
+    {
+      "question_id": "NYC911-420-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "stem": "Procedure 420: Unfounded Address Verification notifications require involvement of the Radio Supervisor.",
+      "answer": "true",
+      "hints": "Radio Supervisor involvement is listed for this notification.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 219,
+        "paragraph": "Unfounded Address Verification",
+        "coverage": "Granular notification handling for Unfounded Address Verification"
+      },
+      "subtopic": "Unfounded Address Verification"
+    },
+    {
+      "question_id": "NYC911-420-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "subtopic": "Unfounded Address Verification",
+      "stem": "Procedure 420: Match the notification type to the responsible entity.",
+      "answer": [
+        [
+          "Unfounded Address Verification",
+          "Complainant"
+        ],
+        [
+          "Supervisor notification",
+          "Radio Supervisor"
+        ],
+        [
+          "Dispatcher role",
+          "Radio Dispatcher"
+        ]
+      ],
+      "hints": "Each notification has a responsible party.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 219,
+        "paragraph": "Unfounded Address Verification",
+        "coverage": "Granular notification handling for Unfounded Address Verification"
+      }
+    },
+    {
+      "question_id": "NYC911-420-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "stem": "Procedure 420: Unfounded Address Verification incidents require notification of ________.",
+      "answer": "Complainant",
+      "hints": "This is the listed responsible agency.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 219,
+        "paragraph": "Unfounded Address Verification",
+        "coverage": "Granular notification handling for Unfounded Address Verification"
+      },
+      "subtopic": "Unfounded Address Verification"
+    },
+    {
+      "question_id": "NYC911-420-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "subtopic": "Sanitation Operations",
+      "stem": "Procedure 420: Who must be notified for Sanitation Operations related incidents?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Sanitation Department",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Transit Authority",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Fire Department",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "City Hall",
+          "is_correct": false
+        }
+      ],
+      "solution": "Sanitation Operations notifications are handled by Sanitation Department.",
+      "hints": "Look for the responsible agency name in Procedure 420.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 219,
+        "paragraph": "Sanitation Operations",
+        "coverage": "Granular notification handling for Sanitation Operations"
+      }
+    },
+    {
+      "question_id": "NYC911-420-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "stem": "Procedure 420: Sanitation Operations notifications require involvement of the Radio Supervisor.",
+      "answer": "true",
+      "hints": "Radio Supervisor involvement is listed for this notification.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 219,
+        "paragraph": "Sanitation Operations",
+        "coverage": "Granular notification handling for Sanitation Operations"
+      },
+      "subtopic": "Sanitation Operations"
+    },
+    {
+      "question_id": "NYC911-420-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "subtopic": "Sanitation Operations",
+      "stem": "Procedure 420: Match the notification type to the responsible entity.",
+      "answer": [
+        [
+          "Sanitation Operations",
+          "Sanitation Department"
+        ],
+        [
+          "Supervisor notification",
+          "Radio Supervisor"
+        ],
+        [
+          "Dispatcher role",
+          "Radio Dispatcher"
+        ]
+      ],
+      "hints": "Each notification has a responsible party.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 219,
+        "paragraph": "Sanitation Operations",
+        "coverage": "Granular notification handling for Sanitation Operations"
+      }
+    },
+    {
+      "question_id": "NYC911-420-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "stem": "Procedure 420: Sanitation Operations incidents require notification of ________.",
+      "answer": "Sanitation Department",
+      "hints": "This is the listed responsible agency.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 219,
+        "paragraph": "Sanitation Operations",
+        "coverage": "Granular notification handling for Sanitation Operations"
+      },
+      "subtopic": "Sanitation Operations"
+    },
+    {
+      "question_id": "NYC911-420-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "subtopic": "MTA Bridges and Tunnels",
+      "stem": "Procedure 420: Who must be notified for MTA Bridges and Tunnels related incidents?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Transit Authority",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Highway & Special Operations Dispatcher",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "City Hall",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Fire Department",
+          "is_correct": false
+        }
+      ],
+      "solution": "MTA Bridges and Tunnels notifications are handled by Highway & Special Operations Dispatcher.",
+      "hints": "Look for the responsible agency name in Procedure 420.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 220,
+        "paragraph": "MTA Bridges and Tunnels",
+        "coverage": "Granular notification handling for MTA Bridges and Tunnels"
+      }
+    },
+    {
+      "question_id": "NYC911-420-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "stem": "Procedure 420: MTA Bridges and Tunnels notifications require involvement of the Radio Supervisor.",
+      "answer": "true",
+      "hints": "Radio Supervisor involvement is listed for this notification.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 220,
+        "paragraph": "MTA Bridges and Tunnels",
+        "coverage": "Granular notification handling for MTA Bridges and Tunnels"
+      },
+      "subtopic": "MTA Bridges and Tunnels"
+    },
+    {
+      "question_id": "NYC911-420-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "subtopic": "MTA Bridges and Tunnels",
+      "stem": "Procedure 420: Match the notification type to the responsible entity.",
+      "answer": [
+        [
+          "MTA Bridges and Tunnels",
+          "Highway & Special Operations Dispatcher"
+        ],
+        [
+          "Supervisor notification",
+          "Radio Supervisor"
+        ],
+        [
+          "Dispatcher role",
+          "Radio Dispatcher"
+        ]
+      ],
+      "hints": "Each notification has a responsible party.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 220,
+        "paragraph": "MTA Bridges and Tunnels",
+        "coverage": "Granular notification handling for MTA Bridges and Tunnels"
+      }
+    },
+    {
+      "question_id": "NYC911-420-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "stem": "Procedure 420: MTA Bridges and Tunnels incidents require notification of ________.",
+      "answer": "Highway & Special Operations Dispatcher",
+      "hints": "This is the listed responsible agency.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 220,
+        "paragraph": "MTA Bridges and Tunnels",
+        "coverage": "Granular notification handling for MTA Bridges and Tunnels"
+      },
+      "subtopic": "MTA Bridges and Tunnels"
+    },
+    {
+      "question_id": "NYC911-420-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "subtopic": "Staten Island Railway Police",
+      "stem": "Procedure 420: Who must be notified for Staten Island Railway Police related incidents?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "City Hall",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Transit Authority",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Fire Department",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "MTA PD",
+          "is_correct": true
+        }
+      ],
+      "solution": "Staten Island Railway Police notifications are handled by MTA PD.",
+      "hints": "Look for the responsible agency name in Procedure 420.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 220,
+        "paragraph": "Staten Island Railway Police",
+        "coverage": "Granular notification handling for Staten Island Railway Police"
+      }
+    },
+    {
+      "question_id": "NYC911-420-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "stem": "Procedure 420: Staten Island Railway Police notifications require involvement of the Radio Supervisor.",
+      "answer": "true",
+      "hints": "Radio Supervisor involvement is listed for this notification.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 220,
+        "paragraph": "Staten Island Railway Police",
+        "coverage": "Granular notification handling for Staten Island Railway Police"
+      },
+      "subtopic": "Staten Island Railway Police"
+    },
+    {
+      "question_id": "NYC911-420-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "subtopic": "Staten Island Railway Police",
+      "stem": "Procedure 420: Match the notification type to the responsible entity.",
+      "answer": [
+        [
+          "Staten Island Railway Police",
+          "MTA PD"
+        ],
+        [
+          "Supervisor notification",
+          "Radio Supervisor"
+        ],
+        [
+          "Dispatcher role",
+          "Radio Dispatcher"
+        ]
+      ],
+      "hints": "Each notification has a responsible party.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 220,
+        "paragraph": "Staten Island Railway Police",
+        "coverage": "Granular notification handling for Staten Island Railway Police"
+      }
+    },
+    {
+      "question_id": "NYC911-420-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "stem": "Procedure 420: Staten Island Railway Police incidents require notification of ________.",
+      "answer": "MTA PD",
+      "hints": "This is the listed responsible agency.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 220,
+        "paragraph": "Staten Island Railway Police",
+        "coverage": "Granular notification handling for Staten Island Railway Police"
+      },
+      "subtopic": "Staten Island Railway Police"
+    },
+    {
+      "question_id": "NYC911-420-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "subtopic": "Bomb Squad / ESU / K9",
+      "stem": "Procedure 420: Who must be notified for Bomb Squad / ESU / K9 related incidents?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Transit Authority",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "City Hall",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Special Operations Dispatcher",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fire Department",
+          "is_correct": false
+        }
+      ],
+      "solution": "Bomb Squad / ESU / K9 notifications are handled by Special Operations Dispatcher.",
+      "hints": "Look for the responsible agency name in Procedure 420.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 220,
+        "paragraph": "Bomb Squad / ESU / K9",
+        "coverage": "Granular notification handling for Bomb Squad / ESU / K9"
+      }
+    },
+    {
+      "question_id": "NYC911-420-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "stem": "Procedure 420: Bomb Squad / ESU / K9 notifications require involvement of the Radio Supervisor.",
+      "answer": "true",
+      "hints": "Radio Supervisor involvement is listed for this notification.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 220,
+        "paragraph": "Bomb Squad / ESU / K9",
+        "coverage": "Granular notification handling for Bomb Squad / ESU / K9"
+      },
+      "subtopic": "Bomb Squad / ESU / K9"
+    },
+    {
+      "question_id": "NYC911-420-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "subtopic": "Bomb Squad / ESU / K9",
+      "stem": "Procedure 420: Match the notification type to the responsible entity.",
+      "answer": [
+        [
+          "Bomb Squad / ESU / K9",
+          "Special Operations Dispatcher"
+        ],
+        [
+          "Supervisor notification",
+          "Radio Supervisor"
+        ],
+        [
+          "Dispatcher role",
+          "Radio Dispatcher"
+        ]
+      ],
+      "hints": "Each notification has a responsible party.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 220,
+        "paragraph": "Bomb Squad / ESU / K9",
+        "coverage": "Granular notification handling for Bomb Squad / ESU / K9"
+      }
+    },
+    {
+      "question_id": "NYC911-420-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "stem": "Procedure 420: Bomb Squad / ESU / K9 incidents require notification of ________.",
+      "answer": "Special Operations Dispatcher",
+      "hints": "This is the listed responsible agency.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 220,
+        "paragraph": "Bomb Squad / ESU / K9",
+        "coverage": "Granular notification handling for Bomb Squad / ESU / K9"
+      },
+      "subtopic": "Bomb Squad / ESU / K9"
+    },
+    {
+      "question_id": "NYC911-420-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "subtopic": "OPS Notifications",
+      "stem": "Procedure 420: Who must be notified for OPS Notifications related incidents?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Fire Department",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "City Hall",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Transit Authority",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Operations Planning Section",
+          "is_correct": true
+        }
+      ],
+      "solution": "OPS Notifications notifications are handled by Operations Planning Section.",
+      "hints": "Look for the responsible agency name in Procedure 420.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 220,
+        "paragraph": "OPS Notifications",
+        "coverage": "Granular notification handling for OPS Notifications"
+      }
+    },
+    {
+      "question_id": "NYC911-420-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "stem": "Procedure 420: OPS Notifications notifications require involvement of the Radio Supervisor.",
+      "answer": "true",
+      "hints": "Radio Supervisor involvement is listed for this notification.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 220,
+        "paragraph": "OPS Notifications",
+        "coverage": "Granular notification handling for OPS Notifications"
+      },
+      "subtopic": "OPS Notifications"
+    },
+    {
+      "question_id": "NYC911-420-MATCH-006",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "subtopic": "OPS Notifications",
+      "stem": "Procedure 420: Match the notification type to the responsible entity.",
+      "answer": [
+        [
+          "OPS Notifications",
+          "Operations Planning Section"
+        ],
+        [
+          "Supervisor notification",
+          "Radio Supervisor"
+        ],
+        [
+          "Dispatcher role",
+          "Radio Dispatcher"
+        ]
+      ],
+      "hints": "Each notification has a responsible party.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 220,
+        "paragraph": "OPS Notifications",
+        "coverage": "Granular notification handling for OPS Notifications"
+      }
+    },
+    {
+      "question_id": "NYC911-420-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 420 \u2013 DISPATCHER NOTIFICATIONS (EXPANDED FULL COVERAGE)",
+      "stem": "Procedure 420: OPS Notifications incidents require notification of ________.",
+      "answer": "Operations Planning Section",
+      "hints": "This is the listed responsible agency.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc420",
+        "notifications"
+      ],
+      "source": {
+        "procedure": 420,
+        "proc_page": 1,
+        "pdf_page": 220,
+        "paragraph": "OPS Notifications",
+        "coverage": "Granular notification handling for OPS Notifications"
+      },
+      "subtopic": "OPS Notifications"
+    }
+  ]
+}

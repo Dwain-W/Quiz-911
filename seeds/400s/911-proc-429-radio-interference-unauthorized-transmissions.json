@@ -1,0 +1,1120 @@
+{
+  "lesson": {
+    "slug": "nyc911-proc-429-radio-interference-unauthorized",
+    "title": "Procedure 429 – RADIO INTERFERENCE / UNAUTHORIZED TRANSMISSIONS",
+    "topic": "Radio Dispatching – Interference, Unauthorized Traffic, and Escalation",
+    "order": 429,
+    "objectives": [
+      "Explain why Procedure 429 requires an assertive dispatcher role for field unit safety.",
+      "Apply timing standards for accidental transmissions, including the 60-second cutoff.",
+      "Apply required on-air warning elements and documentation/notification requirements for unauthorized transmissions.",
+      "Apply supervisory escalation timing (15-minute re-notify rule).",
+      "Identify how supervisors assess serious misconduct from transmission content.",
+      "Apply troubleshooting steps and special handling for aviation requests under unauthorized transmissions."
+    ],
+    "questionIds": [
+      "NYC911-429-MCQ-001",
+      "NYC911-429-TF-001",
+      "NYC911-429-MATCH-001",
+      "NYC911-429-FB-001",
+      "NYC911-429-MCQ-002",
+      "NYC911-429-TF-002",
+      "NYC911-429-MATCH-002",
+      "NYC911-429-FB-002",
+      "NYC911-429-MCQ-003",
+      "NYC911-429-TF-003",
+      "NYC911-429-MATCH-003",
+      "NYC911-429-FB-003",
+      "NYC911-429-MCQ-004",
+      "NYC911-429-TF-004",
+      "NYC911-429-MATCH-004",
+      "NYC911-429-FB-004",
+      "NYC911-429-MCQ-005",
+      "NYC911-429-TF-005",
+      "NYC911-429-MATCH-005",
+      "NYC911-429-FB-005",
+      "NYC911-429-MCQ-006",
+      "NYC911-429-TF-006",
+      "NYC911-429-MATCH-006",
+      "NYC911-429-FB-006",
+      "NYC911-429-MCQ-007",
+      "NYC911-429-TF-007",
+      "NYC911-429-MATCH-007",
+      "NYC911-429-FB-007",
+      "NYC911-429-MCQ-008",
+      "NYC911-429-TF-008",
+      "NYC911-429-MATCH-008",
+      "NYC911-429-FB-008",
+      "NYC911-429-MCQ-009",
+      "NYC911-429-TF-009",
+      "NYC911-429-MATCH-009",
+      "NYC911-429-FB-009",
+      "NYC911-429-MCQ-010",
+      "NYC911-429-TF-010",
+      "NYC911-429-MATCH-010",
+      "NYC911-429-FB-010"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-429-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Purpose",
+      "stem": "Procedure 429: Why must dispatchers take a more assertive role during radio interference/unauthorized transmissions?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To avoid using the zone log book",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "To reduce paperwork",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "To change radio station call letters",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Because of safety concerns for field units",
+          "is_correct": true
+        }
+      ],
+      "hints": "Look for the phrase tied to field unit safety.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 1,
+        "pdf_page": 253,
+        "paragraph": "1",
+        "coverage": "Purpose; safety concern; dispatcher assertive role"
+      }
+    },
+    {
+      "question_id": "NYC911-429-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Purpose",
+      "stem": "Procedure 429 states that increased focus on unauthorized transmissions and concern for field unit safety requires dispatchers to be more assertive.",
+      "answer": "true",
+      "hints": "This is stated in the first dispatcher paragraph.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 1,
+        "pdf_page": 253,
+        "paragraph": "1",
+        "coverage": "Purpose; safety concern; dispatcher assertive role"
+      }
+    },
+    {
+      "question_id": "NYC911-429-MATCH-001",
+      "type": "matching",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Purpose",
+      "stem": "Match the phrase to what it emphasizes in Procedure 429.",
+      "answer": [
+        [
+          "Concern for safety",
+          "Field units at risk"
+        ],
+        [
+          "More assertive role",
+          "Dispatchers must act decisively"
+        ],
+        [
+          "Unauthorized transmissions",
+          "Problem requiring intervention"
+        ]
+      ],
+      "hints": "Each phrase maps to a different emphasis.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 1,
+        "pdf_page": 253,
+        "paragraph": "1",
+        "coverage": "Purpose; safety concern; dispatcher assertive role"
+      }
+    },
+    {
+      "question_id": "NYC911-429-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Purpose",
+      "stem": "Procedure 429: Due to concern for the ________ of field units, dispatchers must take a more assertive role.",
+      "answer": "safety",
+      "hints": "It’s what gets protected.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 1,
+        "pdf_page": 253,
+        "paragraph": "1",
+        "coverage": "Purpose; safety concern; dispatcher assertive role"
+      }
+    },
+    {
+      "question_id": "NYC911-429-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Accidental",
+      "stem": "Procedure 429 (Accidental): The problem should be corrected within:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "15 minutes",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "10 minutes",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "30 seconds",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "One minute",
+          "is_correct": true
+        }
+      ],
+      "hints": "It matches the built-in cutoff duration.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 1,
+        "pdf_page": 253,
+        "paragraph": "2a",
+        "coverage": "Accidental transmissions; correct within one minute; 60-second limit"
+      }
+    },
+    {
+      "question_id": "NYC911-429-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Accidental",
+      "stem": "Procedure 429: Accidental transmission problems should be corrected within one minute.",
+      "answer": "true",
+      "hints": "This is the time standard in the accidental subsection.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 1,
+        "pdf_page": 253,
+        "paragraph": "2a",
+        "coverage": "Accidental transmissions; correct within one minute; 60-second limit"
+      }
+    },
+    {
+      "question_id": "NYC911-429-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Accidental/Timing",
+      "stem": "Match the time limit to the rule (Procedure 429).",
+      "answer": [
+        [
+          "One minute",
+          "Target time to correct accidental problem"
+        ],
+        [
+          "60 seconds",
+          "Maximum transmit time before cutoff"
+        ],
+        [
+          "15 minutes",
+          "Threshold to re-notify supervisor (note)"
+        ]
+      ],
+      "hints": "Each time limit serves a different purpose.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 1,
+        "pdf_page": 253,
+        "paragraph": "2a",
+        "coverage": "Accidental transmissions; correct within one minute; 60-second limit"
+      }
+    },
+    {
+      "question_id": "NYC911-429-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Accidental",
+      "stem": "Procedure 429: The accidental transmission issue should be corrected in ________ minute.",
+      "answer": "one",
+      "hints": "It’s a single-unit time.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 1,
+        "pdf_page": 253,
+        "paragraph": "2a",
+        "coverage": "Accidental transmissions; correct within one minute; 60-second limit"
+      }
+    },
+    {
+      "question_id": "NYC911-429-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Accidental",
+      "stem": "Procedure 429: What is the maximum continuous transmit time before the radio stops transmitting?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "30 seconds",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "90 seconds",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "60 seconds",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "5 minutes",
+          "is_correct": false
+        }
+      ],
+      "hints": "Think 1 minute converted to seconds.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 1,
+        "pdf_page": 253,
+        "paragraph": "2a",
+        "coverage": "All units have 60-second maximum transmit time (cutoff)"
+      }
+    },
+    {
+      "question_id": "NYC911-429-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Accidental",
+      "stem": "Procedure 429: All units have a maximum transmit time of 60 seconds before the radio stops transmitting.",
+      "answer": "true",
+      "hints": "The cutoff is built into the system.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 1,
+        "pdf_page": 253,
+        "paragraph": "2a",
+        "coverage": "All units have 60-second maximum transmit time (cutoff)"
+      }
+    },
+    {
+      "question_id": "NYC911-429-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Accidental/System",
+      "stem": "Match the item to what happens at the limit (Procedure 429).",
+      "answer": [
+        [
+          "Continuous transmit reaches 60 seconds",
+          "Radio stops transmitting"
+        ],
+        [
+          "Accidental problem corrected quickly",
+          "Radio traffic restored"
+        ],
+        [
+          "Persistent interference",
+          "Supervisor involvement required"
+        ]
+      ],
+      "hints": "Pair system behavior with outcome.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 1,
+        "pdf_page": 253,
+        "paragraph": "2a",
+        "coverage": "All units have 60-second maximum transmit time (cutoff)"
+      }
+    },
+    {
+      "question_id": "NYC911-429-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Accidental",
+      "stem": "Procedure 429: All units have a maximum transmit time of ________ seconds.",
+      "answer": "60",
+      "hints": "Same as one minute.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 1,
+        "pdf_page": 253,
+        "paragraph": "2a",
+        "coverage": "All units have 60-second maximum transmit time (cutoff)"
+      }
+    },
+    {
+      "question_id": "NYC911-429-MCQ-004",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Intentional",
+      "stem": "Procedure 429 (Intentional): What must the dispatcher include when addressing an unauthorized transmission?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only a 10-code",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "A warning that it violates FCC and Department regulations plus the station call letters and a time check",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only a request for unit ID",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only a reminder to stand by",
+          "is_correct": false
+        }
+      ],
+      "hints": "Look for FCC + Department + call letters + time check.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 1,
+        "pdf_page": 253,
+        "paragraph": "3b-4b",
+        "coverage": "Intentional unauthorized transmission; warning about FCC/Department; announce call letters and time"
+      }
+    },
+    {
+      "question_id": "NYC911-429-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Intentional",
+      "stem": "Procedure 429: During intentional unauthorized transmissions, the dispatcher must reference FCC and Department regulations.",
+      "answer": "true",
+      "hints": "That warning is explicitly required.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 1,
+        "pdf_page": 253,
+        "paragraph": "3b-4b",
+        "coverage": "Intentional unauthorized transmission; warning about FCC/Department; announce call letters and time"
+      }
+    },
+    {
+      "question_id": "NYC911-429-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Intentional",
+      "stem": "Match the required element to its purpose in Procedure 429.",
+      "answer": [
+        [
+          "FCC/Department warning",
+          "Establishes the violation"
+        ],
+        [
+          "Station call letters",
+          "Identifies the affected station"
+        ],
+        [
+          "Time check",
+          "Creates a traceable reference point"
+        ]
+      ],
+      "hints": "Each element supports accountability.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 1,
+        "pdf_page": 253,
+        "paragraph": "3b-4b",
+        "coverage": "Intentional unauthorized transmission; warning about FCC/Department; announce call letters and time"
+      }
+    },
+    {
+      "question_id": "NYC911-429-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Intentional",
+      "stem": "Procedure 429: Unauthorized transmissions violate FCC and ________ regulations.",
+      "answer": "Department",
+      "hints": "It’s the internal ruleset.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 1,
+        "pdf_page": 253,
+        "paragraph": "3b-4b",
+        "coverage": "Intentional unauthorized transmission; warning about FCC/Department; announce call letters and time"
+      }
+    },
+    {
+      "question_id": "NYC911-429-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Notification/Log",
+      "stem": "Procedure 429: After an unauthorized transmission, whom should the dispatcher promptly notify?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only the precinct desk officer",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "The Radio Supervisor and/or Coordinator",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only the Aviation Unit",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only the next tour dispatcher",
+          "is_correct": false
+        }
+      ],
+      "hints": "Supervisor/Coordinator are specified in the procedure.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 1,
+        "pdf_page": 253,
+        "paragraph": "3c-3d",
+        "coverage": "Notify Radio Supervisor/Coordinator; record time in radio zone log book"
+      }
+    },
+    {
+      "question_id": "NYC911-429-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Notification/Log",
+      "stem": "Procedure 429: The dispatcher must record the time of the unauthorized transmission in the radio zone log book.",
+      "answer": "true",
+      "hints": "The log book entry is required.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 1,
+        "pdf_page": 253,
+        "paragraph": "3c-3d",
+        "coverage": "Notify Radio Supervisor/Coordinator; record time in radio zone log book"
+      }
+    },
+    {
+      "question_id": "NYC911-429-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Notification/Log",
+      "stem": "Match the dispatcher action to where it occurs (Procedure 429).",
+      "answer": [
+        [
+          "Notify Supervisor/Coordinator",
+          "Communication step"
+        ],
+        [
+          "Record time in radio zone log book",
+          "Documentation step"
+        ],
+        [
+          "Broadcast call letters/time check",
+          "On-air step"
+        ]
+      ],
+      "hints": "Separate broadcast vs notify vs log.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 1,
+        "pdf_page": 253,
+        "paragraph": "3c-3d",
+        "coverage": "Notify Radio Supervisor/Coordinator; record time in radio zone log book"
+      }
+    },
+    {
+      "question_id": "NYC911-429-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Notification/Log",
+      "stem": "Procedure 429: Record the time of the unauthorized transmission in the radio ________ log book.",
+      "answer": "zone",
+      "hints": "It’s the specific log book named.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 1,
+        "pdf_page": 253,
+        "paragraph": "3c-3d",
+        "coverage": "Notify Radio Supervisor/Coordinator; record time in radio zone log book"
+      }
+    },
+    {
+      "question_id": "NYC911-429-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Timing/Notification",
+      "stem": "Procedure 429 NOTE: When must the supervisor be re-notified of transmission problems?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "When problems last 15 minutes or longer",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "After 1 minute",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only at end of tour",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "After 5 minutes",
+          "is_correct": false
+        }
+      ],
+      "hints": "It’s the only threshold expressed in minutes on the note.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 2,
+        "pdf_page": 254,
+        "paragraph": "NOTE",
+        "coverage": "Re-notify supervisor if problems last 15 minutes or longer"
+      }
+    },
+    {
+      "question_id": "NYC911-429-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Timing/Notification",
+      "stem": "Procedure 429 NOTE: Dispatchers must re-notify the supervisor of transmission problems lasting 15 minutes or longer.",
+      "answer": "true",
+      "hints": "This is stated in the note.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 2,
+        "pdf_page": 254,
+        "paragraph": "NOTE",
+        "coverage": "Re-notify supervisor if problems last 15 minutes or longer"
+      }
+    },
+    {
+      "question_id": "NYC911-429-MATCH-006",
+      "type": "matching",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Timing",
+      "stem": "Match the duration to the correct instruction (Procedure 429).",
+      "answer": [
+        [
+          "1 minute",
+          "Expected correction time for accidental problem"
+        ],
+        [
+          "15 minutes",
+          "Re-notify supervisor threshold"
+        ],
+        [
+          "60 seconds",
+          "Transmit cutoff limit"
+        ]
+      ],
+      "hints": "All three timing rules appear in Procedure 429.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 2,
+        "pdf_page": 254,
+        "paragraph": "NOTE",
+        "coverage": "Re-notify supervisor if problems last 15 minutes or longer"
+      }
+    },
+    {
+      "question_id": "NYC911-429-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Timing/Notification",
+      "stem": "Procedure 429 NOTE: Re-notify the supervisor of transmission problems that last for ________ minutes or longer.",
+      "answer": "15",
+      "hints": "It’s a quarter-hour.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 2,
+        "pdf_page": 254,
+        "paragraph": "NOTE",
+        "coverage": "Re-notify supervisor if problems last 15 minutes or longer"
+      }
+    },
+    {
+      "question_id": "NYC911-429-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Serious Misconduct",
+      "stem": "Procedure 429: Who determines whether the content indicates serious misconduct, corruption, or criminal activity?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The dispatcher alone",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "The complainant",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "The Radio Supervisor",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "The responding unit",
+          "is_correct": false
+        }
+      ],
+      "hints": "The heading 'RADIO SUPERVISOR' is your clue.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 2,
+        "pdf_page": 254,
+        "paragraph": "5a-5d",
+        "coverage": "Supervisor determines serious misconduct; examples include excessive force comments etc."
+      }
+    },
+    {
+      "question_id": "NYC911-429-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Serious Misconduct",
+      "stem": "Procedure 429: The supervisor determines from the contents/nature of the transmission whether serious misconduct is involved.",
+      "answer": "true",
+      "hints": "It’s stated at the start of the supervisor section.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 2,
+        "pdf_page": 254,
+        "paragraph": "5a-5d",
+        "coverage": "Supervisor determines serious misconduct; examples include excessive force comments etc."
+      }
+    },
+    {
+      "question_id": "NYC911-429-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Serious Misconduct",
+      "stem": "Match the item to the category described in Procedure 429.",
+      "answer": [
+        [
+          "Transmission content review",
+          "Supervisor decision process"
+        ],
+        [
+          "Serious misconduct examples",
+          "Indicators in the transmission"
+        ],
+        [
+          "Criminal activity concern",
+          "Possible escalation factor"
+        ]
+      ],
+      "hints": "This section is about assessing severity.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 2,
+        "pdf_page": 254,
+        "paragraph": "5a-5d",
+        "coverage": "Supervisor determines serious misconduct; examples include excessive force comments etc."
+      }
+    },
+    {
+      "question_id": "NYC911-429-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Serious Misconduct",
+      "stem": "Procedure 429: The supervisor shall determine from the contents and nature of the transmission whether serious misconduct, ________, or criminal activity is involved.",
+      "answer": "corruption",
+      "hints": "It’s listed alongside serious misconduct and criminal activity.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 2,
+        "pdf_page": 254,
+        "paragraph": "5a-5d",
+        "coverage": "Supervisor determines serious misconduct; examples include excessive force comments etc."
+      }
+    },
+    {
+      "question_id": "NYC911-429-MCQ-008",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Troubleshooting",
+      "stem": "Procedure 429: As part of dispatcher troubleshooting, what check is mentioned regarding the select buttons?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Close all active jobs",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Turn off the console",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Change the radio station call letters",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Check switching to the backup select button (or vice versa)",
+          "is_correct": true
+        }
+      ],
+      "hints": "This is a basic console troubleshooting step.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 2,
+        "pdf_page": 254,
+        "paragraph": "6d",
+        "coverage": "Dispatcher troubleshooting: switch backup select button or vice versa"
+      }
+    },
+    {
+      "question_id": "NYC911-429-TF-008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Troubleshooting",
+      "stem": "Procedure 429: The procedure includes checking whether switching to the backup select button (or vice versa) changes the condition.",
+      "answer": "true",
+      "hints": "This is listed as a troubleshooting action.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 2,
+        "pdf_page": 254,
+        "paragraph": "6d",
+        "coverage": "Dispatcher troubleshooting: switch backup select button or vice versa"
+      }
+    },
+    {
+      "question_id": "NYC911-429-MATCH-008",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Troubleshooting",
+      "stem": "Match the action to what it represents in Procedure 429.",
+      "answer": [
+        [
+          "Switch to backup select",
+          "Troubleshooting step"
+        ],
+        [
+          "Notify supervisor",
+          "Escalation step"
+        ],
+        [
+          "Log the time",
+          "Documentation step"
+        ]
+      ],
+      "hints": "Think: troubleshoot vs escalate vs document.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 2,
+        "pdf_page": 254,
+        "paragraph": "6d",
+        "coverage": "Dispatcher troubleshooting: switch backup select button or vice versa"
+      }
+    },
+    {
+      "question_id": "NYC911-429-FB-008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Troubleshooting",
+      "stem": "Procedure 429: Check to see if switching to the ________ select button (or vice versa) affects the issue.",
+      "answer": "backup",
+      "hints": "Opposite of primary.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 2,
+        "pdf_page": 254,
+        "paragraph": "6d",
+        "coverage": "Dispatcher troubleshooting: switch backup select button or vice versa"
+      }
+    },
+    {
+      "question_id": "NYC911-429-MCQ-009",
+      "type": "mcq",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Aviation Requests",
+      "stem": "Procedure 429: Why are special steps required when an unauthorized transmission requests an Aviation Unit response?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To speed up helicopter dispatch",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "To prevent unnecessary Aviation response and help identify those responsible",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "To bypass documentation",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "To avoid notifying supervisors",
+          "is_correct": false
+        }
+      ],
+      "hints": "The procedure states two goals: prevent unnecessary response + identify responsible parties.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 3,
+        "pdf_page": 255,
+        "paragraph": "6a-6c",
+        "coverage": "Unauthorized transmissions requesting aviation; ascertain designation/location/reason; create pickup incident; open route to Citywide"
+      }
+    },
+    {
+      "question_id": "NYC911-429-TF-009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Aviation Requests",
+      "stem": "Procedure 429: When aviation is requested via unauthorized transmissions, dispatchers must ascertain the full designation of the requesting unit.",
+      "answer": "true",
+      "hints": "This is listed as a required step.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 3,
+        "pdf_page": 255,
+        "paragraph": "6a-6c",
+        "coverage": "Unauthorized transmissions requesting aviation; ascertain designation/location/reason; create pickup incident; open route to Citywide"
+      }
+    },
+    {
+      "question_id": "NYC911-429-MATCH-009",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Aviation Requests",
+      "stem": "Match the required step to what it verifies (Procedure 429).",
+      "answer": [
+        [
+          "Ascertain full designation",
+          "Confirms who is requesting"
+        ],
+        [
+          "Ascertain location/reason",
+          "Validates the operational need"
+        ],
+        [
+          "Create pickup + open route to Citywide",
+          "Ensures proper routing when not on a job"
+        ]
+      ],
+      "hints": "Each step has a distinct verification purpose.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 3,
+        "pdf_page": 255,
+        "paragraph": "6a-6c",
+        "coverage": "Unauthorized transmissions requesting aviation; ascertain designation/location/reason; create pickup incident; open route to Citywide"
+      }
+    },
+    {
+      "question_id": "NYC911-429-FB-009",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Aviation Requests",
+      "stem": "Procedure 429: If the unit requesting aviation is not on a job, create a ________ incident and open the route to the Citywide dispatcher.",
+      "answer": "pickup",
+      "hints": "It’s the incident type named in the procedure.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 3,
+        "pdf_page": 255,
+        "paragraph": "6a-6c",
+        "coverage": "Unauthorized transmissions requesting aviation; ascertain designation/location/reason; create pickup incident; open route to Citywide"
+      }
+    },
+    {
+      "question_id": "NYC911-429-MCQ-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Aviation Note",
+      "stem": "Procedure 429 NOTE (Aviation): If the requesting unit does not properly identify themselves, the dispatcher should consider the request:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Supervisor-approved",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "High priority",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Unauthorized",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Verified",
+          "is_correct": false
+        }
+      ],
+      "hints": "The note is explicit about classification.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 3,
+        "pdf_page": 255,
+        "paragraph": "NOTE",
+        "coverage": "If requesting unit does not properly identify, consider request unauthorized"
+      }
+    },
+    {
+      "question_id": "NYC911-429-TF-010",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Aviation Note",
+      "stem": "Procedure 429 NOTE: If the requesting unit does not properly identify themselves, the dispatcher will consider the request UNAUTHORIZED.",
+      "answer": "true",
+      "hints": "This is stated word-for-word in the note.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 3,
+        "pdf_page": 255,
+        "paragraph": "NOTE",
+        "coverage": "If requesting unit does not properly identify, consider request unauthorized"
+      }
+    },
+    {
+      "question_id": "NYC911-429-MATCH-010",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Aviation Note",
+      "stem": "Match the note outcome to its meaning (Procedure 429).",
+      "answer": [
+        [
+          "Proper identification missing",
+          "Classify as unauthorized request"
+        ],
+        [
+          "Proper identification provided",
+          "Proceed with required verification steps"
+        ],
+        [
+          "Unit not on a job",
+          "Create pickup and open Citywide route"
+        ]
+      ],
+      "hints": "Identification changes how you proceed.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 3,
+        "pdf_page": 255,
+        "paragraph": "NOTE",
+        "coverage": "If requesting unit does not properly identify, consider request unauthorized"
+      }
+    },
+    {
+      "question_id": "NYC911-429-FB-010",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 429 – Radio Interference / Unauthorized Transmissions",
+      "subtopic": "Aviation Note",
+      "stem": "Procedure 429 NOTE: If the requesting unit does not properly identify, consider the request ________.",
+      "answer": "UNAUTHORIZED",
+      "hints": "The note uses all caps.",
+      "source": {
+        "procedure": 429,
+        "proc_page": 3,
+        "pdf_page": 255,
+        "paragraph": "NOTE",
+        "coverage": "If requesting unit does not properly identify, consider request unauthorized"
+      }
+    }
+  ]
+}

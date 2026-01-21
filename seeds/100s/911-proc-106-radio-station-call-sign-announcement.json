@@ -1,0 +1,1633 @@
+{
+  "lesson": {
+    "slug": "911-proc-106-radio-station-call-sign-announcement",
+    "title": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+    "topic": "Basic Radio Dispatching – Call Sign Announcements and Zone Identifiers",
+    "order": 106,
+    "objectives": [
+      "Explain the FCC/Department requirement to announce station call signs every 30 minutes during continuous operation.",
+      "State when the call sign announcement must be made and use the required announcement format.",
+      "Identify CAD designations, call signs, and precinct coverage for radio zones by borough.",
+      "Identify Transit Division call signs and CAD designations.",
+      "Identify citywide frequency CAD designations and associated call signs."
+    ],
+    "questionIds": [
+      "NYC911-106-MCQ-001",
+      "NYC911-106-TF-001",
+      "NYC911-106-MATCH-001",
+      "NYC911-106-FB-001",
+      "NYC911-106-MCQ-002",
+      "NYC911-106-TF-002",
+      "NYC911-106-MATCH-002",
+      "NYC911-106-FB-002",
+      "NYC911-106-MCQ-003",
+      "NYC911-106-TF-003",
+      "NYC911-106-MATCH-003",
+      "NYC911-106-FB-003",
+      "NYC911-106-MCQ-004",
+      "NYC911-106-TF-004",
+      "NYC911-106-MATCH-004",
+      "NYC911-106-FB-004",
+      "NYC911-106-MCQ-005",
+      "NYC911-106-TF-005",
+      "NYC911-106-MATCH-005",
+      "NYC911-106-FB-005",
+      "NYC911-106-MCQ-006",
+      "NYC911-106-TF-006",
+      "NYC911-106-MATCH-006",
+      "NYC911-106-FB-006",
+      "NYC911-106-MCQ-007",
+      "NYC911-106-TF-007",
+      "NYC911-106-MATCH-007",
+      "NYC911-106-FB-007",
+      "NYC911-106-MCQ-008",
+      "NYC911-106-TF-008",
+      "NYC911-106-MATCH-008",
+      "NYC911-106-FB-008",
+      "NYC911-106-MCQ-009",
+      "NYC911-106-TF-009",
+      "NYC911-106-MATCH-009",
+      "NYC911-106-FB-009",
+      "NYC911-106-MCQ-010",
+      "NYC911-106-TF-010",
+      "NYC911-106-MATCH-010",
+      "NYC911-106-FB-010",
+      "NYC911-106-MCQ-011",
+      "NYC911-106-TF-011",
+      "NYC911-106-MATCH-011",
+      "NYC911-106-FB-011",
+      "NYC911-106-MCQ-012",
+      "NYC911-106-TF-012",
+      "NYC911-106-MATCH-012",
+      "NYC911-106-FB-012"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-106-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Requirement",
+      "stem": "Procedure 106: How often must radio stations be identified by their assigned call signs during continuous operation?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Once per tour",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Every 10 minutes",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Every 30 minutes",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Only at roll call",
+          "is_correct": false
+        }
+      ],
+      "solution": "SCOPE states call signs must be announced every 30 minutes during continuous operation.",
+      "hints": "Look for the time interval required by FCC/Department procedure.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 1,
+        "pdf_page": 37,
+        "paragraph": "PURPOSE/SCOPE",
+        "coverage": "FCC/Dept requirement: identify station by call sign every 30 minutes; call signs identify zones; posted at zones; example WIF537 Zone 7 Manhattan"
+      }
+    },
+    {
+      "question_id": "NYC911-106-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Procedure 106 requires call sign identification every 30 minutes during periods of continuous operation.",
+      "answer": "true",
+      "hints": "That sentence appears in SCOPE.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 1,
+        "pdf_page": 37,
+        "paragraph": "PURPOSE/SCOPE",
+        "coverage": "FCC/Dept requirement: identify station by call sign every 30 minutes; call signs identify zones; posted at zones; example WIF537 Zone 7 Manhattan"
+      },
+      "subtopic": "Requirement"
+    },
+    {
+      "question_id": "NYC911-106-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Matching",
+      "stem": "Match the term to what Procedure 106 says it represents.",
+      "answer": [
+        [
+          "Call sign",
+          "Group of letters/numbers"
+        ],
+        [
+          "Radio zone",
+          "Specific geographic/operational channel"
+        ],
+        [
+          "Posted location",
+          "At each radio zone and citywide positions"
+        ]
+      ],
+      "hints": "Definitions are in the SCOPE paragraph.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 1,
+        "pdf_page": 37,
+        "paragraph": "PURPOSE/SCOPE",
+        "coverage": "FCC/Dept requirement: identify station by call sign every 30 minutes; call signs identify zones; posted at zones; example WIF537 Zone 7 Manhattan"
+      }
+    },
+    {
+      "question_id": "NYC911-106-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Procedure 106 SCOPE: Dispatchers must identify radio stations by their assigned call signs every ________ minutes during continuous operation.",
+      "answer": "30",
+      "hints": "It’s the only number tied to the interval rule.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 1,
+        "pdf_page": 37,
+        "paragraph": "PURPOSE/SCOPE",
+        "coverage": "FCC/Dept requirement: identify station by call sign every 30 minutes; call signs identify zones; posted at zones; example WIF537 Zone 7 Manhattan"
+      }
+    },
+    {
+      "question_id": "NYC911-106-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Broadcast Timing",
+      "stem": "Procedure 106: When must the dispatcher first broadcast the time and station call sign?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only when requested by a unit",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only at the half-hour mark",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "After the first job is dispatched",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Immediately after signing into the computer terminal",
+          "is_correct": true
+        }
+      ],
+      "solution": "The RADIO DISPATCHER section says to announce immediately after signing in.",
+      "hints": "It’s tied to logging into the terminal.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 1,
+        "pdf_page": 37,
+        "paragraph": "RADIO DISPATCHER",
+        "coverage": "Broadcast time and identify station immediately after signing in; repeat at least every 30 minutes; use standard statement; examples include WIF537 Zone 7 and WIH585 Transit Division 1"
+      }
+    },
+    {
+      "question_id": "NYC911-106-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Procedure 106 allows the dispatcher to skip the call sign announcement if the radio is busy, as long as it’s done once per hour.",
+      "answer": "false",
+      "hints": "The procedure requires at least every 30 minutes during continuous operation.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 1,
+        "pdf_page": 37,
+        "paragraph": "RADIO DISPATCHER",
+        "coverage": "Broadcast time and identify station immediately after signing in; repeat at least every 30 minutes; use standard statement; examples include WIF537 Zone 7 and WIH585 Transit Division 1"
+      },
+      "subtopic": "Broadcast Timing"
+    },
+    {
+      "question_id": "NYC911-106-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Matching",
+      "stem": "Match the example announcement to what it identifies.",
+      "answer": [
+        [
+          "“Radio Station WIF537, Radio Zone 7.”",
+          "Zone ID example"
+        ],
+        [
+          "“Radio Station WIH585, Transit Division 1.”",
+          "Transit ID example"
+        ],
+        [
+          "“All units the time is now ____ hours.”",
+          "Time-stamp component"
+        ]
+      ],
+      "hints": "Two examples are shown; the third is the time element.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 1,
+        "pdf_page": 37,
+        "paragraph": "RADIO DISPATCHER",
+        "coverage": "Broadcast time and identify station immediately after signing in; repeat at least every 30 minutes; use standard statement; examples include WIF537 Zone 7 and WIH585 Transit Division 1"
+      }
+    },
+    {
+      "question_id": "NYC911-106-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Procedure 106 example: “All units the time is now 2100 hours. NYC Police Department, Radio Station ________, Radio Zone 7.”",
+      "answer": "WIF537",
+      "hints": "This is the Manhattan Zone 7 example.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 1,
+        "pdf_page": 37,
+        "paragraph": "RADIO DISPATCHER",
+        "coverage": "Broadcast time and identify station immediately after signing in; repeat at least every 30 minutes; use standard statement; examples include WIF537 Zone 7 and WIH585 Transit Division 1"
+      }
+    },
+    {
+      "question_id": "NYC911-106-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Manhattan South (WTC)",
+      "stem": "Manhattan South (WTC): What is the RADIO CALL SIGN for CAD designation Z1?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "WIF549",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "WIF548",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "WIF000",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "WIF575",
+          "is_correct": false
+        }
+      ],
+      "solution": "In the Manhattan South (WTC) table, CAD Z1 maps to call sign WIF549.",
+      "hints": "Find the CAD designation in the table and read across to RADIO CALL SIGN.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 1,
+        "pdf_page": 37,
+        "paragraph": "MANHATTAN SOUTH RADIO ZONES / WTC",
+        "coverage": "Manhattan South (WTC) zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      }
+    },
+    {
+      "question_id": "NYC911-106-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Manhattan South (WTC): CAD designation Z4 corresponds to call sign WIF542.",
+      "answer": "true",
+      "hints": "This is a direct table lookup: CAD → call sign.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 1,
+        "pdf_page": 37,
+        "paragraph": "MANHATTAN SOUTH RADIO ZONES / WTC",
+        "coverage": "Manhattan South (WTC) zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      },
+      "subtopic": "Manhattan South (WTC)"
+    },
+    {
+      "question_id": "NYC911-106-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Manhattan South (WTC)",
+      "stem": "Manhattan South (WTC): Match the CAD designation to the correct RADIO CALL SIGN.",
+      "answer": [
+        [
+          "Z1",
+          "WIF549"
+        ],
+        [
+          "Z2",
+          "WIF575"
+        ],
+        [
+          "Z3",
+          "WIF548"
+        ]
+      ],
+      "hints": "Each CAD designation maps to one call sign in the zone list.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 1,
+        "pdf_page": 37,
+        "paragraph": "MANHATTAN SOUTH RADIO ZONES / WTC",
+        "coverage": "Manhattan South (WTC) zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      }
+    },
+    {
+      "question_id": "NYC911-106-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Manhattan South (WTC): CAD Z4 covers precincts: ________.",
+      "answer": "MTS(14), 17, MTN(18)",
+      "hints": "Look at the PRECINCTS column for that CAD row.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 1,
+        "pdf_page": 37,
+        "paragraph": "MANHATTAN SOUTH RADIO ZONES / WTC",
+        "coverage": "Manhattan South (WTC) zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      },
+      "subtopic": "Manhattan South (WTC)"
+    },
+    {
+      "question_id": "NYC911-106-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Manhattan North",
+      "stem": "Manhattan North: What is the RADIO CALL SIGN for CAD designation Z5?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "WIF576",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "WIF537",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "WIF539",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "WIF000",
+          "is_correct": false
+        }
+      ],
+      "solution": "In the Manhattan North table, CAD Z5 maps to call sign WIF576.",
+      "hints": "Find the CAD designation in the table and read across to RADIO CALL SIGN.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 2,
+        "pdf_page": 38,
+        "paragraph": "MANHATTAN NORTH RADIO ZONES",
+        "coverage": "Manhattan North zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      }
+    },
+    {
+      "question_id": "NYC911-106-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Manhattan North: CAD designation Z9 corresponds to call sign WIF541.",
+      "answer": "true",
+      "hints": "This is a direct table lookup: CAD → call sign.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 2,
+        "pdf_page": 38,
+        "paragraph": "MANHATTAN NORTH RADIO ZONES",
+        "coverage": "Manhattan North zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      },
+      "subtopic": "Manhattan North"
+    },
+    {
+      "question_id": "NYC911-106-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Manhattan North",
+      "stem": "Manhattan North: Match the CAD designation to the correct RADIO CALL SIGN.",
+      "answer": [
+        [
+          "Z5",
+          "WIF576"
+        ],
+        [
+          "Z6",
+          "WIF539"
+        ],
+        [
+          "Z7",
+          "WIF537"
+        ]
+      ],
+      "hints": "Each CAD designation maps to one call sign in the zone list.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 2,
+        "pdf_page": 38,
+        "paragraph": "MANHATTAN NORTH RADIO ZONES",
+        "coverage": "Manhattan North zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      }
+    },
+    {
+      "question_id": "NYC911-106-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Manhattan North: CAD Z9 covers precincts: ________.",
+      "answer": "33,34",
+      "hints": "Look at the PRECINCTS column for that CAD row.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 2,
+        "pdf_page": 38,
+        "paragraph": "MANHATTAN NORTH RADIO ZONES",
+        "coverage": "Manhattan North zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      },
+      "subtopic": "Manhattan North"
+    },
+    {
+      "question_id": "NYC911-106-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Bronx",
+      "stem": "Bronx: What is the RADIO CALL SIGN for CAD designation Z10?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "WIF571",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "WIF000",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "WIF543",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "WIF570",
+          "is_correct": false
+        }
+      ],
+      "solution": "In the Bronx table, CAD Z10 maps to call sign WIF571.",
+      "hints": "Find the CAD designation in the table and read across to RADIO CALL SIGN.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 2,
+        "pdf_page": 38,
+        "paragraph": "BRONX RADIO ZONES",
+        "coverage": "Bronx zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      }
+    },
+    {
+      "question_id": "NYC911-106-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Bronx: CAD designation Z15 corresponds to call sign WIF544.",
+      "answer": "true",
+      "hints": "This is a direct table lookup: CAD → call sign.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 2,
+        "pdf_page": 38,
+        "paragraph": "BRONX RADIO ZONES",
+        "coverage": "Bronx zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      },
+      "subtopic": "Bronx"
+    },
+    {
+      "question_id": "NYC911-106-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Bronx",
+      "stem": "Bronx: Match the CAD designation to the correct RADIO CALL SIGN.",
+      "answer": [
+        [
+          "Z10",
+          "WIF571"
+        ],
+        [
+          "Z11",
+          "WIF570"
+        ],
+        [
+          "Z12",
+          "WIF543"
+        ]
+      ],
+      "hints": "Each CAD designation maps to one call sign in the zone list.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 2,
+        "pdf_page": 38,
+        "paragraph": "BRONX RADIO ZONES",
+        "coverage": "Bronx zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      }
+    },
+    {
+      "question_id": "NYC911-106-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Bronx: CAD Z15 covers precincts: ________.",
+      "answer": "50,52",
+      "hints": "Look at the PRECINCTS column for that CAD row.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 2,
+        "pdf_page": 38,
+        "paragraph": "BRONX RADIO ZONES",
+        "coverage": "Bronx zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      },
+      "subtopic": "Bronx"
+    },
+    {
+      "question_id": "NYC911-106-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Brooklyn South",
+      "stem": "Brooklyn South: What is the RADIO CALL SIGN for CAD designation Z16?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "WIF557",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "WIF580",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "WIF000",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "WIF574",
+          "is_correct": false
+        }
+      ],
+      "solution": "In the Brooklyn South table, CAD Z16 maps to call sign WIF557.",
+      "hints": "Find the CAD designation in the table and read across to RADIO CALL SIGN.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 2,
+        "pdf_page": 38,
+        "paragraph": "BROOKLYN SOUTH RADIO ZONES",
+        "coverage": "Brooklyn South zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      }
+    },
+    {
+      "question_id": "NYC911-106-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Brooklyn South: CAD designation Z21 corresponds to call sign WIF555.",
+      "answer": "true",
+      "hints": "This is a direct table lookup: CAD → call sign.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 2,
+        "pdf_page": 38,
+        "paragraph": "BROOKLYN SOUTH RADIO ZONES",
+        "coverage": "Brooklyn South zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      },
+      "subtopic": "Brooklyn South"
+    },
+    {
+      "question_id": "NYC911-106-MATCH-006",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Brooklyn South",
+      "stem": "Brooklyn South: Match the CAD designation to the correct RADIO CALL SIGN.",
+      "answer": [
+        [
+          "Z16",
+          "WIF557"
+        ],
+        [
+          "Z17",
+          "WIF580"
+        ],
+        [
+          "Z18",
+          "WIF574"
+        ]
+      ],
+      "hints": "Each CAD designation maps to one call sign in the zone list.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 2,
+        "pdf_page": 38,
+        "paragraph": "BROOKLYN SOUTH RADIO ZONES",
+        "coverage": "Brooklyn South zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      }
+    },
+    {
+      "question_id": "NYC911-106-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Brooklyn South: CAD Z21 covers precincts: ________.",
+      "answer": "72,76,78",
+      "hints": "Look at the PRECINCTS column for that CAD row.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 2,
+        "pdf_page": 38,
+        "paragraph": "BROOKLYN SOUTH RADIO ZONES",
+        "coverage": "Brooklyn South zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      },
+      "subtopic": "Brooklyn South"
+    },
+    {
+      "question_id": "NYC911-106-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Brooklyn North",
+      "stem": "Brooklyn North: What is the RADIO CALL SIGN for CAD designation Z22?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "WIF554",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "WIF000",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "WIF553",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "WIF540",
+          "is_correct": false
+        }
+      ],
+      "solution": "In the Brooklyn North table, CAD Z22 maps to call sign WIF553.",
+      "hints": "Find the CAD designation in the table and read across to RADIO CALL SIGN.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 3,
+        "pdf_page": 39,
+        "paragraph": "BROOKLYN NORTH RADIO ZONES",
+        "coverage": "Brooklyn North zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      }
+    },
+    {
+      "question_id": "NYC911-106-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Brooklyn North: CAD designation Z26 corresponds to call sign WIF546.",
+      "answer": "true",
+      "hints": "This is a direct table lookup: CAD → call sign.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 3,
+        "pdf_page": 39,
+        "paragraph": "BROOKLYN NORTH RADIO ZONES",
+        "coverage": "Brooklyn North zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      },
+      "subtopic": "Brooklyn North"
+    },
+    {
+      "question_id": "NYC911-106-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Brooklyn North",
+      "stem": "Brooklyn North: Match the CAD designation to the correct RADIO CALL SIGN.",
+      "answer": [
+        [
+          "Z22",
+          "WIF553"
+        ],
+        [
+          "Z23",
+          "WIF540"
+        ],
+        [
+          "Z24",
+          "WIF554"
+        ]
+      ],
+      "hints": "Each CAD designation maps to one call sign in the zone list.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 3,
+        "pdf_page": 39,
+        "paragraph": "BROOKLYN NORTH RADIO ZONES",
+        "coverage": "Brooklyn North zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      }
+    },
+    {
+      "question_id": "NYC911-106-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Brooklyn North: CAD Z26 covers precincts: ________.",
+      "answer": "90,94",
+      "hints": "Look at the PRECINCTS column for that CAD row.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 3,
+        "pdf_page": 39,
+        "paragraph": "BROOKLYN NORTH RADIO ZONES",
+        "coverage": "Brooklyn North zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      },
+      "subtopic": "Brooklyn North"
+    },
+    {
+      "question_id": "NYC911-106-MCQ-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Queens South",
+      "stem": "Queens South: What is the RADIO CALL SIGN for CAD designation Z27?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "WIF552",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "WIF000",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "WIF550",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "WIF558",
+          "is_correct": false
+        }
+      ],
+      "solution": "In the Queens South table, CAD Z27 maps to call sign WIF552.",
+      "hints": "Find the CAD designation in the table and read across to RADIO CALL SIGN.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 3,
+        "pdf_page": 39,
+        "paragraph": "QUEENS SOUTH RADIO ZONES",
+        "coverage": "Queens South zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      }
+    },
+    {
+      "question_id": "NYC911-106-TF-008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Queens South: CAD designation Z30 corresponds to call sign WIF572.",
+      "answer": "true",
+      "hints": "This is a direct table lookup: CAD → call sign.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 3,
+        "pdf_page": 39,
+        "paragraph": "QUEENS SOUTH RADIO ZONES",
+        "coverage": "Queens South zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      },
+      "subtopic": "Queens South"
+    },
+    {
+      "question_id": "NYC911-106-MATCH-008",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Queens South",
+      "stem": "Queens South: Match the CAD designation to the correct RADIO CALL SIGN.",
+      "answer": [
+        [
+          "Z27",
+          "WIF552"
+        ],
+        [
+          "Z28",
+          "WIF550"
+        ],
+        [
+          "Z29",
+          "WIF558"
+        ]
+      ],
+      "hints": "Each CAD designation maps to one call sign in the zone list.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 3,
+        "pdf_page": 39,
+        "paragraph": "QUEENS SOUTH RADIO ZONES",
+        "coverage": "Queens South zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      }
+    },
+    {
+      "question_id": "NYC911-106-FB-008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Queens South: CAD Z30 covers precincts: ________.",
+      "answer": "105,113",
+      "hints": "Look at the PRECINCTS column for that CAD row.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 3,
+        "pdf_page": 39,
+        "paragraph": "QUEENS SOUTH RADIO ZONES",
+        "coverage": "Queens South zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      },
+      "subtopic": "Queens South"
+    },
+    {
+      "question_id": "NYC911-106-MCQ-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Queens North",
+      "stem": "Queens North: What is the RADIO CALL SIGN for CAD designation Z31?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "WIF000",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "WIF558 / WIM573",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "WIF577",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "WIF578",
+          "is_correct": true
+        }
+      ],
+      "solution": "In the Queens North table, CAD Z31 maps to call sign WIF578.",
+      "hints": "Find the CAD designation in the table and read across to RADIO CALL SIGN.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 3,
+        "pdf_page": 39,
+        "paragraph": "QUEENS NORTH RADIO ZONES",
+        "coverage": "Queens North zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      }
+    },
+    {
+      "question_id": "NYC911-106-TF-009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Queens North: CAD designation Z34 corresponds to call sign WIF572.",
+      "answer": "true",
+      "hints": "This is a direct table lookup: CAD → call sign.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 3,
+        "pdf_page": 39,
+        "paragraph": "QUEENS NORTH RADIO ZONES",
+        "coverage": "Queens North zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      },
+      "subtopic": "Queens North"
+    },
+    {
+      "question_id": "NYC911-106-MATCH-009",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Queens North",
+      "stem": "Queens North: Match the CAD designation to the correct RADIO CALL SIGN.",
+      "answer": [
+        [
+          "Z31",
+          "WIF578"
+        ],
+        [
+          "Z32",
+          "WIF577"
+        ],
+        [
+          "Z33",
+          "WIF558 / WIM573"
+        ]
+      ],
+      "hints": "Each CAD designation maps to one call sign in the zone list.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 3,
+        "pdf_page": 39,
+        "paragraph": "QUEENS NORTH RADIO ZONES",
+        "coverage": "Queens North zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      }
+    },
+    {
+      "question_id": "NYC911-106-FB-009",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Queens North: CAD Z34 covers precincts: ________.",
+      "answer": "110,115",
+      "hints": "Look at the PRECINCTS column for that CAD row.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 3,
+        "pdf_page": 39,
+        "paragraph": "QUEENS NORTH RADIO ZONES",
+        "coverage": "Queens North zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      },
+      "subtopic": "Queens North"
+    },
+    {
+      "question_id": "NYC911-106-MCQ-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Staten Island",
+      "stem": "Staten Island: What is the RADIO CALL SIGN for CAD designation Z35?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "WIM660",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "WIF000",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "WIM576",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "WIM660",
+          "is_correct": false
+        }
+      ],
+      "solution": "In the Staten Island table, CAD Z35 maps to call sign WIM576.",
+      "hints": "Find the CAD designation in the table and read across to RADIO CALL SIGN.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 3,
+        "pdf_page": 39,
+        "paragraph": "STATEN ISLAND RADIO ZONES",
+        "coverage": "Staten Island zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      }
+    },
+    {
+      "question_id": "NYC911-106-TF-010",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Staten Island: CAD designation Z36 corresponds to call sign WIM660.",
+      "answer": "true",
+      "hints": "This is a direct table lookup: CAD → call sign.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 3,
+        "pdf_page": 39,
+        "paragraph": "STATEN ISLAND RADIO ZONES",
+        "coverage": "Staten Island zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      },
+      "subtopic": "Staten Island"
+    },
+    {
+      "question_id": "NYC911-106-MATCH-010",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Staten Island",
+      "stem": "Staten Island: Match the CAD designation to the correct RADIO CALL SIGN.",
+      "answer": [
+        [
+          "Z35",
+          "WIM576"
+        ],
+        [
+          "Z36",
+          "WIM660"
+        ]
+      ],
+      "hints": "Each CAD designation maps to one call sign in the zone list.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 3,
+        "pdf_page": 39,
+        "paragraph": "STATEN ISLAND RADIO ZONES",
+        "coverage": "Staten Island zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      }
+    },
+    {
+      "question_id": "NYC911-106-FB-010",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Staten Island: CAD Z36 covers precincts: ________.",
+      "answer": "122,123",
+      "hints": "Look at the PRECINCTS column for that CAD row.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 3,
+        "pdf_page": 39,
+        "paragraph": "STATEN ISLAND RADIO ZONES",
+        "coverage": "Staten Island zone list (CAD designation ↔ call sign ↔ precinct coverage)"
+      },
+      "subtopic": "Staten Island"
+    },
+    {
+      "question_id": "NYC911-106-MCQ-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Transit Divisions",
+      "stem": "Transit Division table: What is the RADIO CALL SIGN for Transit Division 4?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "WIK930",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "WIM584",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "WIK928",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "WIH585",
+          "is_correct": false
+        }
+      ],
+      "solution": "Transit Division 4 maps to call sign WIK928.",
+      "hints": "Division 4 is Brooklyn transit.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 4,
+        "pdf_page": 40,
+        "paragraph": "TRANSIT DIVISION TABLE",
+        "coverage": "Transit division CAD designations and call signs"
+      }
+    },
+    {
+      "question_id": "NYC911-106-TF-011",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Transit Division 2 uses CAD designation TRAN Z58.",
+      "answer": "true",
+      "hints": "Division 2 row shows TRAN Z58.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 4,
+        "pdf_page": 40,
+        "paragraph": "TRANSIT DIVISION TABLE",
+        "coverage": "Transit division CAD designations and call signs"
+      },
+      "subtopic": "Transit Divisions"
+    },
+    {
+      "question_id": "NYC911-106-MATCH-011",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Transit Divisions",
+      "stem": "Transit Divisions: Match the Transit Division to its RADIO CALL SIGN.",
+      "answer": [
+        [
+          "Division 1",
+          "WIH585"
+        ],
+        [
+          "Division 2",
+          "WIM584"
+        ],
+        [
+          "Division 3",
+          "WIK930"
+        ]
+      ],
+      "hints": "Read across the Transit Division table.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 4,
+        "pdf_page": 40,
+        "paragraph": "TRANSIT DIVISION TABLE",
+        "coverage": "Transit division CAD designations and call signs"
+      }
+    },
+    {
+      "question_id": "NYC911-106-FB-011",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Transit Division table: Transit Division 1 precinct/borough coverage is ________.",
+      "answer": "Manhattan",
+      "hints": "Look at the PRECINCTS column for Division 1.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 4,
+        "pdf_page": 40,
+        "paragraph": "TRANSIT DIVISION TABLE",
+        "coverage": "Transit division CAD designations and call signs"
+      },
+      "subtopic": "Transit Divisions"
+    },
+    {
+      "question_id": "NYC911-106-MCQ-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Citywide Frequencies",
+      "stem": "Citywide Frequency table: What is the CAD DESIGNATION for the TRAFFIC citywide frequency?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "CW3A",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "SOD",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "CWA",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "HWY",
+          "is_correct": true
+        }
+      ],
+      "solution": "The citywide frequency table shows TRAFFIC with CAD designation HWY.",
+      "hints": "It’s the only one that looks like 'highway'.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 4,
+        "pdf_page": 40,
+        "paragraph": "CITYWIDE FREQUENCY TABLE",
+        "coverage": "Citywide frequencies (SOD, HWY/Traffic, Special Command A/B) and their call signs"
+      }
+    },
+    {
+      "question_id": "NYC911-106-TF-012",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Citywide Frequency table: Special Command “A” is listed with CAD designation CWA.",
+      "answer": "true",
+      "hints": "Special Command “A” row shows CWA.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 4,
+        "pdf_page": 40,
+        "paragraph": "CITYWIDE FREQUENCY TABLE",
+        "coverage": "Citywide frequencies (SOD, HWY/Traffic, Special Command A/B) and their call signs"
+      },
+      "subtopic": "Citywide Frequencies"
+    },
+    {
+      "question_id": "NYC911-106-MATCH-012",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "subtopic": "Citywide Frequencies",
+      "stem": "Citywide Frequencies: Match the frequency group to its CAD designation.",
+      "answer": [
+        [
+          "SOD",
+          "SOD"
+        ],
+        [
+          "TRAFFIC",
+          "HWY"
+        ],
+        [
+          "Special Command “B”",
+          "CW3A"
+        ]
+      ],
+      "hints": "Each row lists the CAD designation next to the frequency group.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 4,
+        "pdf_page": 40,
+        "paragraph": "CITYWIDE FREQUENCY TABLE",
+        "coverage": "Citywide frequencies (SOD, HWY/Traffic, Special Command A/B) and their call signs"
+      }
+    },
+    {
+      "question_id": "NYC911-106-FB-012",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 106 – RADIO STATION CALL SIGN ANNOUNCEMENT",
+      "stem": "Citywide Frequency table: One of the RADIO CALL SIGNS listed for SOD is ________.",
+      "answer": "WIF567",
+      "hints": "Look at the SOD row; several call signs are listed—any one correct is acceptable if your app supports exact match.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc106",
+        "call-signs"
+      ],
+      "source": {
+        "procedure": 106,
+        "proc_page": 4,
+        "pdf_page": 40,
+        "paragraph": "CITYWIDE FREQUENCY TABLE",
+        "coverage": "Citywide frequencies (SOD, HWY/Traffic, Special Command A/B) and their call signs"
+      },
+      "subtopic": "Citywide Frequencies"
+    }
+  ]
+}

@@ -1,0 +1,959 @@
+{
+  "lesson": {
+    "slug": "911-proc-201-radio-frequency-failure",
+    "title": "Procedure 201 – RADIO FREQUENCY FAILURE",
+    "topic": "Radio Failure Troubleshooting and ECS/Transit Radio Check Procedures",
+    "order": 201,
+    "objectives": [
+      "Identify when Procedure 201 is triggered (loss of transmitting/receiving capability).",
+      "Apply Step 1 diagnostics to identify whether the problem is transmit, receive, or signal quality related.",
+      "Apply Step 2 solutions, including console checks and switching to the Standby Base Station when needed.",
+      "Apply escalation steps: alternate Base Station, ECS takeover behavior, and required advisory transmission.",
+      "Apply supervisor notification and log book documentation requirements.",
+      "Apply Transit dispatcher actions when a field unit reports a malfunction.",
+      "Use platform radio check outcomes to describe the correct condition to radio repair."
+    ],
+    "questionIds": [
+      "NYC911-201-MCQ-001",
+      "NYC911-201-TF-001",
+      "NYC911-201-MATCH-001",
+      "NYC911-201-FB-001",
+      "NYC911-201-MCQ-002",
+      "NYC911-201-TF-002",
+      "NYC911-201-MATCH-002",
+      "NYC911-201-FB-002",
+      "NYC911-201-MCQ-003",
+      "NYC911-201-TF-003",
+      "NYC911-201-MATCH-003",
+      "NYC911-201-FB-003",
+      "NYC911-201-MCQ-004",
+      "NYC911-201-TF-004",
+      "NYC911-201-MATCH-004",
+      "NYC911-201-FB-004",
+      "NYC911-201-MCQ-005",
+      "NYC911-201-TF-005",
+      "NYC911-201-MATCH-005",
+      "NYC911-201-FB-005",
+      "NYC911-201-MCQ-006",
+      "NYC911-201-TF-006",
+      "NYC911-201-MATCH-006",
+      "NYC911-201-FB-006",
+      "NYC911-201-MCQ-007",
+      "NYC911-201-TF-007",
+      "NYC911-201-MATCH-007",
+      "NYC911-201-FB-007"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-201-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "subtopic": "Scope",
+      "stem": "Procedure 201 SCOPE: When is Procedure 201 used?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "When radio checks are completed normally",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "When units request a supervisor",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "When the dispatcher changes tours",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "When a radio failure causes loss of transmitting or receiving capabilities",
+          "is_correct": true
+        }
+      ],
+      "solution": "The SCOPE states the procedure applies when a radio failure results in loss of transmitting/receiving capabilities.",
+      "hints": "Look for 'radio failure' + 'loss of transmitting or receiving'.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 1,
+        "pdf_page": 79,
+        "paragraph": "SCOPE",
+        "coverage": "Radio failure causing loss of transmitting/receiving capabilities—procedure must be followed"
+      }
+    },
+    {
+      "question_id": "NYC911-201-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "stem": "Procedure 201 applies when a radio failure results in the loss of transmitting or receiving capabilities.",
+      "answer": "true",
+      "hints": "That’s the exact trigger stated in SCOPE.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 1,
+        "pdf_page": 79,
+        "paragraph": "SCOPE",
+        "coverage": "Radio failure causing loss of transmitting/receiving capabilities—procedure must be followed"
+      },
+      "subtopic": "Scope"
+    },
+    {
+      "question_id": "NYC911-201-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "subtopic": "Matching",
+      "stem": "Match the condition to whether Procedure 201 is triggered.",
+      "answer": [
+        [
+          "Loss of transmitting capability",
+          "Trigger: transmit loss"
+        ],
+        [
+          "Loss of receiving capability",
+          "Trigger: receive loss"
+        ],
+        [
+          "Normal communications",
+          "No trigger"
+        ]
+      ],
+      "hints": "Two conditions are explicitly in SCOPE; one is not.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 1,
+        "pdf_page": 79,
+        "paragraph": "SCOPE",
+        "coverage": "Radio failure causing loss of transmitting/receiving capabilities—procedure must be followed"
+      }
+    },
+    {
+      "question_id": "NYC911-201-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "stem": "Procedure 201 SCOPE: In the event of a radio ________ resulting in the loss of transmitting or receiving capabilities, this procedure will be adhered to.",
+      "answer": "failure",
+      "hints": "Single word in the SCOPE.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 1,
+        "pdf_page": 79,
+        "paragraph": "SCOPE",
+        "coverage": "Radio failure causing loss of transmitting/receiving capabilities—procedure must be followed"
+      }
+    },
+    {
+      "question_id": "NYC911-201-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "subtopic": "Identify the Problem",
+      "stem": "Procedure 201 (Step 1): Which question helps determine whether the dispatcher can RECEIVE from the field?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Is the ECS takeover activated?",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Can the units hear the dispatcher?",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Can the dispatcher hear the units?",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Has the log book been updated?",
+          "is_correct": false
+        }
+      ],
+      "solution": "Step 1a asks if the dispatcher can hear the units to identify the receiving side issue.",
+      "hints": "Receive = dispatcher hears units.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 1,
+        "pdf_page": 79,
+        "paragraph": "RADIO DISPATCHER 1a–1c",
+        "coverage": "Identify the problem: (a) can dispatcher hear units, (b) can units hear dispatcher, (c) reception quality (2x2/5x5)"
+      }
+    },
+    {
+      "question_id": "NYC911-201-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "stem": "Procedure 201 Step 1 includes checking reception quality using examples like 2x2 (bad) or 5x5 (good).",
+      "answer": "true",
+      "hints": "That wording appears in Step 1c.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 1,
+        "pdf_page": 79,
+        "paragraph": "RADIO DISPATCHER 1a–1c",
+        "coverage": "Identify the problem: (a) can dispatcher hear units, (b) can units hear dispatcher, (c) reception quality (2x2/5x5)"
+      },
+      "subtopic": "Identify the Problem"
+    },
+    {
+      "question_id": "NYC911-201-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "subtopic": "Matching",
+      "stem": "Match the Step 1 check to what it evaluates.",
+      "answer": [
+        [
+          "Can the dispatcher hear the units?",
+          "Check: dispatcher receiving"
+        ],
+        [
+          "Can the units hear the dispatcher?",
+          "Check: dispatcher transmitting"
+        ],
+        [
+          "Reception quality (2x2/5x5)",
+          "Check: signal clarity"
+        ]
+      ],
+      "hints": "Each item corresponds to a different diagnostic check.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 1,
+        "pdf_page": 79,
+        "paragraph": "RADIO DISPATCHER 1a–1c",
+        "coverage": "Identify the problem: (a) can dispatcher hear units, (b) can units hear dispatcher, (c) reception quality (2x2/5x5)"
+      }
+    },
+    {
+      "question_id": "NYC911-201-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "stem": "Procedure 201 Step 1c: What is the quality of the reception, if any (i.e., ____ (bad) or 5x5 (good))?",
+      "answer": "2x2",
+      "hints": "The 'bad' example is the shorter quality code.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 1,
+        "pdf_page": 79,
+        "paragraph": "RADIO DISPATCHER 1a–1c",
+        "coverage": "Identify the problem: (a) can dispatcher hear units, (b) can units hear dispatcher, (c) reception quality (2x2/5x5)"
+      }
+    },
+    {
+      "question_id": "NYC911-201-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "subtopic": "Solutions",
+      "stem": "Procedure 201 Solutions: Before troubleshooting further, what console indicator should be confirmed ON at the assigned radio zone?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The green select light",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "The blue mute light",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "The white monitor light",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "The amber hold light",
+          "is_correct": false
+        }
+      ],
+      "solution": "Solution 2a says to make sure the green select light is on at the assigned radio zone.",
+      "hints": "It’s the only option that includes 'select'.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 1,
+        "pdf_page": 79,
+        "paragraph": "SOLUTIONS 2a–2g",
+        "coverage": "Console checks (select light, transmit LED, mic/VU, volume, boom mic), continue+change headset if restored, else switch to Standby Base Station"
+      }
+    },
+    {
+      "question_id": "NYC911-201-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "stem": "Procedure 201 Solutions include verifying the red transmit LED is lit when keying up (foot switch or headset).",
+      "answer": "true",
+      "hints": "Solution 2b specifies verifying the red transmit LED.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 1,
+        "pdf_page": 79,
+        "paragraph": "SOLUTIONS 2a–2g",
+        "coverage": "Console checks (select light, transmit LED, mic/VU, volume, boom mic), continue+change headset if restored, else switch to Standby Base Station"
+      },
+      "subtopic": "Solutions"
+    },
+    {
+      "question_id": "NYC911-201-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "subtopic": "Matching",
+      "stem": "Match the troubleshooting action to the system element it checks.",
+      "answer": [
+        [
+          "Check green select light",
+          "Element: zone selection"
+        ],
+        [
+          "Verify red transmit LED while keying up",
+          "Element: transmit activation"
+        ],
+        [
+          "Check VU meter movement while speaking",
+          "Element: audio input level"
+        ]
+      ],
+      "hints": "Each action targets a specific console function.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 1,
+        "pdf_page": 79,
+        "paragraph": "SOLUTIONS 2a–2g",
+        "coverage": "Console checks (select light, transmit LED, mic/VU, volume, boom mic), continue+change headset if restored, else switch to Standby Base Station"
+      }
+    },
+    {
+      "question_id": "NYC911-201-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "stem": "Procedure 201 Solution 2g: If solutions do not re-establish contact, immediately switch to the ________ Base Station.",
+      "answer": "Standby",
+      "hints": "It’s the backup base station named in 2g.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 1,
+        "pdf_page": 79,
+        "paragraph": "SOLUTIONS 2a–2g",
+        "coverage": "Console checks (select light, transmit LED, mic/VU, volume, boom mic), continue+change headset if restored, else switch to Standby Base Station"
+      }
+    },
+    {
+      "question_id": "NYC911-201-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "subtopic": "ECS Takeover",
+      "stem": "Procedure 201: If utilizing the alternate Base Station does NOT re-establish contact with units, what must the dispatcher do next?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Immediately switch to the Emergency Control Station (ECS) takeover",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Request a detective respond",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Wait 10 minutes and retry",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Switch to a different radio zone only",
+          "is_correct": false
+        }
+      ],
+      "solution": "Step 3 directs immediate switch to ECS takeover if alternate Base Station fails.",
+      "hints": "It’s the step that names ECS takeover.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 2,
+        "pdf_page": 80,
+        "paragraph": "RADIO DISPATCHER 3–4",
+        "coverage": "If alternate Base Station fails, switch to ECS takeover; ECS removes dispatcher priority; transmit required advisory message"
+      }
+    },
+    {
+      "question_id": "NYC911-201-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "stem": "When ECS takeover is activated, dispatchers will no longer have priority while transmitting.",
+      "answer": "true",
+      "hints": "That’s stated directly under Step 4.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 2,
+        "pdf_page": 80,
+        "paragraph": "RADIO DISPATCHER 3–4",
+        "coverage": "If alternate Base Station fails, switch to ECS takeover; ECS removes dispatcher priority; transmit required advisory message"
+      },
+      "subtopic": "ECS Takeover"
+    },
+    {
+      "question_id": "NYC911-201-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "subtopic": "Matching",
+      "stem": "Match the situation to the required dispatcher action (Procedure 201).",
+      "answer": [
+        [
+          "Alternate Base Station fails",
+          "Action: switch to ECS takeover"
+        ],
+        [
+          "ECS takeover active",
+          "Action: transmit backup-system advisory"
+        ],
+        [
+          "Backup advisory transmitted",
+          "Action: keep transmissions brief"
+        ]
+      ],
+      "hints": "Each situation pairs with a distinct required action.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 2,
+        "pdf_page": 80,
+        "paragraph": "RADIO DISPATCHER 3–4",
+        "coverage": "If alternate Base Station fails, switch to ECS takeover; ECS removes dispatcher priority; transmit required advisory message"
+      }
+    },
+    {
+      "question_id": "NYC911-201-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "stem": "Procedure 201 Step 4 message: “Units be advised that we are operating on a ________ radio system.”",
+      "answer": "backup",
+      "hints": "The message describes the system type.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 2,
+        "pdf_page": 80,
+        "paragraph": "RADIO DISPATCHER 3–4",
+        "coverage": "If alternate Base Station fails, switch to ECS takeover; ECS removes dispatcher priority; transmit required advisory message"
+      }
+    },
+    {
+      "question_id": "NYC911-201-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "subtopic": "Supervisor + Log Book",
+      "stem": "Procedure 201: Who must be promptly notified and given a detailed description of the radio problem?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The news media",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "The caller",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "The radio supervisor",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "The desk officer only",
+          "is_correct": false
+        }
+      ],
+      "solution": "Step 5 directs prompt notification of the radio supervisor and a detailed description of the problem.",
+      "hints": "It’s the radio chain-of-command role.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 2,
+        "pdf_page": 80,
+        "paragraph": "RADIO DISPATCHER 5–6",
+        "coverage": "Notify radio supervisor; describe problem; then document in log book problem and supervisor notified"
+      }
+    },
+    {
+      "question_id": "NYC911-201-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "stem": "Procedure 201 requires documenting in the log book both the problem and the supervisor who was notified.",
+      "answer": "true",
+      "hints": "Step 6 states to document the problem and the supervisor notified.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 2,
+        "pdf_page": 80,
+        "paragraph": "RADIO DISPATCHER 5–6",
+        "coverage": "Notify radio supervisor; describe problem; then document in log book problem and supervisor notified"
+      },
+      "subtopic": "Supervisor + Log Book"
+    },
+    {
+      "question_id": "NYC911-201-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "subtopic": "Matching",
+      "stem": "Match the required step to what must be captured.",
+      "answer": [
+        [
+          "Notify supervisor",
+          "Capture: detailed problem description"
+        ],
+        [
+          "Log book documentation",
+          "Capture: problem summary"
+        ],
+        [
+          "Log book documentation (continued)",
+          "Capture: supervisor name"
+        ]
+      ],
+      "hints": "The procedure requires two distinct details in the log book.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 2,
+        "pdf_page": 80,
+        "paragraph": "RADIO DISPATCHER 5–6",
+        "coverage": "Notify radio supervisor; describe problem; then document in log book problem and supervisor notified"
+      }
+    },
+    {
+      "question_id": "NYC911-201-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "stem": "Procedure 201 Step 6: After notifying the radio supervisor, document in the ________ book the problem and the supervisor that was notified.",
+      "answer": "log",
+      "hints": "It’s the standard record book referenced.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 2,
+        "pdf_page": 80,
+        "paragraph": "RADIO DISPATCHER 5–6",
+        "coverage": "Notify radio supervisor; describe problem; then document in log book problem and supervisor notified"
+      }
+    },
+    {
+      "question_id": "NYC911-201-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "subtopic": "Transit – Field Reports",
+      "stem": "Transit Dispatchers (Procedure 201): If the reporting unit is ALONE, what must the dispatcher do?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Tell the unit to leave the station",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Have the unit call the media desk",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Wait until end of tour",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Dispatch another unit to the location",
+          "is_correct": true
+        }
+      ],
+      "solution": "Transit Step 1a says if the unit is alone, dispatch another unit to the location.",
+      "hints": "This ensures a second unit can perform checks.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 2,
+        "pdf_page": 80,
+        "paragraph": "TRANSIT DISPATCHERS 1a–1e",
+        "coverage": "If field unit reports malfunction: ensure partner/dispatch another unit; notify Field Supervisor; second unit checks from platforms to all areas; if verified obtain both portable radio numbers + notify patrol supervisor; notify radio supervisor"
+      }
+    },
+    {
+      "question_id": "NYC911-201-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "stem": "Transit Dispatchers: The radio check should start from the platforms and work toward all areas, including staircases.",
+      "answer": "true",
+      "hints": "That’s specified in Transit Step 1c.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 2,
+        "pdf_page": 80,
+        "paragraph": "TRANSIT DISPATCHERS 1a–1e",
+        "coverage": "If field unit reports malfunction: ensure partner/dispatch another unit; notify Field Supervisor; second unit checks from platforms to all areas; if verified obtain both portable radio numbers + notify patrol supervisor; notify radio supervisor"
+      },
+      "subtopic": "Transit – Field Reports"
+    },
+    {
+      "question_id": "NYC911-201-MATCH-006",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "subtopic": "Matching",
+      "stem": "Match the Transit requirement to its purpose.",
+      "answer": [
+        [
+          "Ascertain partner / dispatch another unit if alone",
+          "Purpose: enable radio checks"
+        ],
+        [
+          "Notify Field Supervisor to respond if practical",
+          "Purpose: supervisory involvement"
+        ],
+        [
+          "Obtain both portable radio numbers if verified",
+          "Purpose: equipment identification"
+        ]
+      ],
+      "hints": "Each item is a distinct requirement with a distinct purpose.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 2,
+        "pdf_page": 80,
+        "paragraph": "TRANSIT DISPATCHERS 1a–1e",
+        "coverage": "If field unit reports malfunction: ensure partner/dispatch another unit; notify Field Supervisor; second unit checks from platforms to all areas; if verified obtain both portable radio numbers + notify patrol supervisor; notify radio supervisor"
+      }
+    },
+    {
+      "question_id": "NYC911-201-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "stem": "Transit Dispatchers: If the malfunction is verified, obtain both portable radio ________ from the second unit.",
+      "answer": "numbers",
+      "hints": "They are the identifiers needed for reporting.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 2,
+        "pdf_page": 80,
+        "paragraph": "TRANSIT DISPATCHERS 1a–1e",
+        "coverage": "If field unit reports malfunction: ensure partner/dispatch another unit; notify Field Supervisor; second unit checks from platforms to all areas; if verified obtain both portable radio numbers + notify patrol supervisor; notify radio supervisor"
+      }
+    },
+    {
+      "question_id": "NYC911-201-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "subtopic": "Transit – Radio Repair Description",
+      "stem": "Transit Radio Check: Which result means the dispatcher cannot RECEIVE the field’s transmissions?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Steady open squelch sounds (hiss)",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dispatcher cannot hear field",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "No communication both ways",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Field cannot hear dispatcher",
+          "is_correct": false
+        }
+      ],
+      "solution": "The list includes 'Dispatcher cannot hear field' which indicates a receiving problem at the dispatcher side.",
+      "hints": "Receiving issue = dispatcher can’t hear field.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 3,
+        "pdf_page": 81,
+        "paragraph": "TRANSIT RADIO CHECK 2a–2e",
+        "coverage": "Platform checks determine what to describe to radio repair: field cannot hear dispatcher; dispatcher cannot hear field; no communication both ways; steady open squelch (hiss); interference noise (describe)"
+      }
+    },
+    {
+      "question_id": "NYC911-201-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "stem": "Transit Radio Check results include 'Steady open squelch sounds (hiss)' as a condition to describe to radio repair.",
+      "answer": "true",
+      "hints": "That condition appears as item (d).",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 3,
+        "pdf_page": 81,
+        "paragraph": "TRANSIT RADIO CHECK 2a–2e",
+        "coverage": "Platform checks determine what to describe to radio repair: field cannot hear dispatcher; dispatcher cannot hear field; no communication both ways; steady open squelch (hiss); interference noise (describe)"
+      },
+      "subtopic": "Transit – Radio Repair Description"
+    },
+    {
+      "question_id": "NYC911-201-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "subtopic": "Matching",
+      "stem": "Match the platform radio check finding to what it indicates.",
+      "answer": [
+        [
+          "Field cannot hear dispatcher",
+          "Indicates: downlink issue"
+        ],
+        [
+          "Dispatcher cannot hear field",
+          "Indicates: uplink issue"
+        ],
+        [
+          "No communication both ways",
+          "Indicates: total two-way failure"
+        ]
+      ],
+      "hints": "Each phrase indicates a different direction/extent of failure.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 3,
+        "pdf_page": 81,
+        "paragraph": "TRANSIT RADIO CHECK 2a–2e",
+        "coverage": "Platform checks determine what to describe to radio repair: field cannot hear dispatcher; dispatcher cannot hear field; no communication both ways; steady open squelch (hiss); interference noise (describe)"
+      }
+    },
+    {
+      "question_id": "NYC911-201-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 201 – RADIO FREQUENCY FAILURE",
+      "stem": "Transit Radio Check item (d): Steady open squelch sounds (____).",
+      "answer": "hiss",
+      "hints": "The parenthetical word names the sound.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc201",
+        "radio-frequency-failure"
+      ],
+      "source": {
+        "procedure": 201,
+        "proc_page": 3,
+        "pdf_page": 81,
+        "paragraph": "TRANSIT RADIO CHECK 2a–2e",
+        "coverage": "Platform checks determine what to describe to radio repair: field cannot hear dispatcher; dispatcher cannot hear field; no communication both ways; steady open squelch (hiss); interference noise (describe)"
+      }
+    }
+  ]
+}
