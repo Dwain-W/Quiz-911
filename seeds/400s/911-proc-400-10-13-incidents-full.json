@@ -1,0 +1,4203 @@
+{
+  "lesson": {
+    "slug": "911-proc-400-10-13-incidents",
+    "title": "Procedure 400 – 10-13 INCIDENTS",
+    "topic": "10-13 Incidents",
+    "order": 400,
+    "objectives": [
+      "Identify who the 10-13 code applies to and why it is critical.",
+      "Apply the required dispatching methods for 10-13 incidents received via radio or 911.",
+      "Control radio traffic and unit assignments during foot pursuits, vehicle pursuits, and police involved shootings.",
+      "Handle special 10-13 events (alarms at police facilities, suicidal MOS) per Procedure 400."
+    ],
+    "questionIds": [
+      "NYC911-400-MCQ-001",
+      "NYC911-400-TF-001",
+      "NYC911-400-MATCH-001",
+      "NYC911-400-FB-001",
+      "NYC911-400-MCQ-002",
+      "NYC911-400-TF-002",
+      "NYC911-400-MATCH-002",
+      "NYC911-400-FB-002",
+      "NYC911-400-MCQ-003",
+      "NYC911-400-TF-003",
+      "NYC911-400-MATCH-003",
+      "NYC911-400-FB-003",
+      "NYC911-400-MCQ-004",
+      "NYC911-400-TF-004",
+      "NYC911-400-MATCH-004",
+      "NYC911-400-FB-004",
+      "NYC911-400-MCQ-005",
+      "NYC911-400-TF-005",
+      "NYC911-400-MATCH-005",
+      "NYC911-400-FB-005",
+      "NYC911-400-MCQ-006",
+      "NYC911-400-TF-006",
+      "NYC911-400-MATCH-006",
+      "NYC911-400-FB-006",
+      "NYC911-400-MCQ-007",
+      "NYC911-400-TF-007",
+      "NYC911-400-MATCH-007",
+      "NYC911-400-FB-007",
+      "NYC911-400-MCQ-008",
+      "NYC911-400-TF-008",
+      "NYC911-400-MATCH-008",
+      "NYC911-400-FB-008",
+      "NYC911-400-MCQ-009",
+      "NYC911-400-TF-009",
+      "NYC911-400-MATCH-009",
+      "NYC911-400-FB-009",
+      "NYC911-400-MCQ-010",
+      "NYC911-400-TF-010",
+      "NYC911-400-MATCH-010",
+      "NYC911-400-FB-010",
+      "NYC911-400-MCQ-011",
+      "NYC911-400-TF-011",
+      "NYC911-400-MATCH-011",
+      "NYC911-400-FB-011",
+      "NYC911-400-MCQ-012",
+      "NYC911-400-TF-012",
+      "NYC911-400-MATCH-012",
+      "NYC911-400-FB-012",
+      "NYC911-400-MCQ-013",
+      "NYC911-400-TF-013",
+      "NYC911-400-MATCH-013",
+      "NYC911-400-FB-013",
+      "NYC911-400-MCQ-014",
+      "NYC911-400-TF-014",
+      "NYC911-400-MATCH-014",
+      "NYC911-400-FB-014",
+      "NYC911-400-MCQ-015",
+      "NYC911-400-TF-015",
+      "NYC911-400-MATCH-015",
+      "NYC911-400-FB-015",
+      "NYC911-400-MCQ-016",
+      "NYC911-400-TF-016",
+      "NYC911-400-MATCH-016",
+      "NYC911-400-FB-016",
+      "NYC911-400-MCQ-017",
+      "NYC911-400-TF-017",
+      "NYC911-400-MATCH-017",
+      "NYC911-400-FB-017",
+      "NYC911-400-MCQ-018",
+      "NYC911-400-TF-018",
+      "NYC911-400-MATCH-018",
+      "NYC911-400-FB-018",
+      "NYC911-400-MCQ-019",
+      "NYC911-400-TF-019",
+      "NYC911-400-MATCH-019",
+      "NYC911-400-FB-019",
+      "NYC911-400-MCQ-020",
+      "NYC911-400-TF-020",
+      "NYC911-400-MATCH-020",
+      "NYC911-400-FB-020",
+      "NYC911-400-MCQ-021",
+      "NYC911-400-TF-021",
+      "NYC911-400-MATCH-021",
+      "NYC911-400-FB-021",
+      "NYC911-400-MCQ-022",
+      "NYC911-400-TF-022",
+      "NYC911-400-MATCH-022",
+      "NYC911-400-FB-022",
+      "NYC911-400-MCQ-023",
+      "NYC911-400-TF-023",
+      "NYC911-400-MATCH-023",
+      "NYC911-400-FB-023",
+      "NYC911-400-MCQ-024",
+      "NYC911-400-TF-024",
+      "NYC911-400-MATCH-024",
+      "NYC911-400-FB-024",
+      "NYC911-400-MCQ-025",
+      "NYC911-400-TF-025",
+      "NYC911-400-MATCH-025",
+      "NYC911-400-FB-025",
+      "NYC911-400-MCQ-026",
+      "NYC911-400-TF-026",
+      "NYC911-400-MATCH-026",
+      "NYC911-400-FB-026",
+      "NYC911-400-MCQ-027",
+      "NYC911-400-TF-027",
+      "NYC911-400-MATCH-027",
+      "NYC911-400-FB-027",
+      "NYC911-400-MCQ-028",
+      "NYC911-400-TF-028",
+      "NYC911-400-MATCH-028",
+      "NYC911-400-FB-028",
+      "NYC911-400-MCQ-029",
+      "NYC911-400-TF-029",
+      "NYC911-400-MATCH-029",
+      "NYC911-400-FB-029",
+      "NYC911-400-MCQ-030",
+      "NYC911-400-TF-030",
+      "NYC911-400-MATCH-030",
+      "NYC911-400-FB-030",
+      "NYC911-400-MCQ-031",
+      "NYC911-400-TF-031",
+      "NYC911-400-MATCH-031",
+      "NYC911-400-FB-031"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-400-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "Scope",
+      "stem": "Procedure 400: What is the general nature of a 10-13 incident for a dispatcher?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Rapid-paced incident with multiple units responding and simultaneous radio traffic",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Routine administrative call",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Non-urgent call that can be queued",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Planned event with minimal radio traffic",
+          "is_correct": false
+        }
+      ],
+      "solution": "SCOPE describes 10-13 incidents as rapid-paced with many units and simultaneous transmissions.",
+      "hints": "Look for wording about pace and number of units.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 1,
+        "pdf_page": 139,
+        "paragraph": "SCOPE",
+        "coverage": "SCOPE"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400: A 10-13 is described as one of the most important incidents in a dispatcher’s queue.",
+      "answer": "true",
+      "hints": "That statement appears in the SCOPE section.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 1,
+        "pdf_page": 139,
+        "paragraph": "SCOPE",
+        "coverage": "SCOPE"
+      },
+      "subtopic": "Scope"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "Scope",
+      "stem": "Match the concept to what Procedure 400 emphasizes.",
+      "answer": [
+        [
+          "10-13 incident",
+          "Rapid-paced critical event"
+        ],
+        [
+          "Dispatch method",
+          "Difference between chaos and control"
+        ],
+        [
+          "Prompt dispatch",
+          "Always required"
+        ]
+      ],
+      "hints": "These phrases appear in the early guidance for dispatchers.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 1,
+        "pdf_page": 139,
+        "paragraph": "SCOPE",
+        "coverage": "SCOPE"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 SCOPE: A 10-13 is usually a rapid ________ incident with several units responding.",
+      "answer": "paced",
+      "hints": "The phrase is 'rapid paced'.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 1,
+        "pdf_page": 139,
+        "paragraph": "SCOPE",
+        "coverage": "SCOPE"
+      },
+      "subtopic": "Scope"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "FOR WHOM",
+      "stem": "Procedure 400 FOR WHOM: The 10-13 code is used for which group?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "All city employees",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Any civilian requesting assistance",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Private security guards",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Police Officers of NYPD and sworn law enforcement agents with power of arrest and authority to carry a gun",
+          "is_correct": true
+        }
+      ],
+      "solution": "FOR WHOM defines who the 10-13 code applies to (NYPD officers and other sworn agents with arrest authority).",
+      "hints": "Look for 'power of arrest' and 'authority to carry a gun'.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 2,
+        "pdf_page": 139,
+        "paragraph": "FOR WHOM",
+        "coverage": "FOR WHOM"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 FOR WHOM: The 10-13 signal code applies to uniformed Auxiliary Police on duty only (not private guards).",
+      "answer": "true",
+      "hints": "It is listed as an exception in the FOR WHOM section.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 2,
+        "pdf_page": 139,
+        "paragraph": "FOR WHOM",
+        "coverage": "FOR WHOM"
+      },
+      "subtopic": "FOR WHOM"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "FOR WHOM",
+      "stem": "Match the group to whether Procedure 400 indicates 10-13 applies.",
+      "answer": [
+        [
+          "NYPD Police Officer",
+          "Applies"
+        ],
+        [
+          "Auxiliary Police (on duty, uniformed)",
+          "Applies (exception)"
+        ],
+        [
+          "Private guards",
+          "Does not apply"
+        ]
+      ],
+      "hints": "The section explicitly lists an exception and an exclusion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 2,
+        "pdf_page": 139,
+        "paragraph": "FOR WHOM",
+        "coverage": "FOR WHOM"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 FOR WHOM: The 10-13 code applies to sworn agents who have the power of ________.",
+      "answer": "arrest",
+      "hints": "It’s the key authority described in the guidelines.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 2,
+        "pdf_page": 139,
+        "paragraph": "FOR WHOM",
+        "coverage": "FOR WHOM"
+      },
+      "subtopic": "FOR WHOM"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "1 – 1. The quick and efficient processing of 10-13's is vitally",
+      "stem": "Procedure 400 (1): Which item is explicitly referenced in this step?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10-13",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Delay all assignments",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ignore the step",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Use non-standard phrases",
+          "is_correct": false
+        }
+      ],
+      "solution": "This question targets a specific referenced item in the step.",
+      "hints": "Look for the explicit term/code in the step text.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 3,
+        "pdf_page": 139,
+        "paragraph": "1",
+        "coverage": "1. The quick and efficient processing of 10-13's is vitally important for the"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (1): This step includes at least one action the dispatcher MUST perform.",
+      "answer": "true",
+      "hints": "Look for 'MUST'.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 3,
+        "pdf_page": 139,
+        "paragraph": "1",
+        "coverage": "1. The quick and efficient processing of 10-13's is vitally important for the"
+      },
+      "subtopic": "1 – 1. The quick and efficient processing of 10-13's is vitally"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "1 – 1. The quick and efficient processing of 10-13's is vitally",
+      "stem": "Procedure 400 (1): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Supervisor action",
+          "Be notified/oversee"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 3,
+        "pdf_page": 139,
+        "paragraph": "1",
+        "coverage": "1. The quick and efficient processing of 10-13's is vitally important for the"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (1): Fill in the referenced code/term: ________.",
+      "answer": "10-13",
+      "hints": "It appears in the step text.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 3,
+        "pdf_page": 139,
+        "paragraph": "1",
+        "coverage": "1. The quick and efficient processing of 10-13's is vitally important for the"
+      },
+      "subtopic": "1 – 1. The quick and efficient processing of 10-13's is vitally"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "2 – 2. The dispatching method used to assign 10-13 events is ext",
+      "stem": "Procedure 400 (2): What should you do with the 10-13 alert tone/button?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Depress the 10-13 alert tone/button for approximately 6 seconds",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Wait until units request an alert",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hold the steady alert for 30 seconds",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Transmit 'SLOW IT DOWN' over the air",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 400 instructs depressing the 10-13 alert tone/button for about 6 seconds.",
+      "hints": "It’s a short, timed activation.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 4,
+        "pdf_page": 139,
+        "paragraph": "2",
+        "coverage": "2. The dispatching method used to assign 10-13 events is extremely"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (2): This step includes at least one action the dispatcher MUST perform.",
+      "answer": "true",
+      "hints": "Look for 'MUST'.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 4,
+        "pdf_page": 139,
+        "paragraph": "2",
+        "coverage": "2. The dispatching method used to assign 10-13 events is extremely"
+      },
+      "subtopic": "2 – 2. The dispatching method used to assign 10-13 events is ext"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "2 – 2. The dispatching method used to assign 10-13 events is ext",
+      "stem": "Procedure 400 (2): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Supervisor action",
+          "Be notified/oversee"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 4,
+        "pdf_page": 139,
+        "paragraph": "2",
+        "coverage": "2. The dispatching method used to assign 10-13 events is extremely"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (2): Fill in the referenced code/term: ________.",
+      "answer": "10-13",
+      "hints": "It appears in the step text.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 4,
+        "pdf_page": 139,
+        "paragraph": "2",
+        "coverage": "2. The dispatching method used to assign 10-13 events is extremely"
+      },
+      "subtopic": "2 – 2. The dispatching method used to assign 10-13 events is ext"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "3 – 10-13 3. When receiving a 10-13 via 911, the following proce",
+      "stem": "Procedure 400 (3): What should you do with the 10-13 alert tone/button?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Depress the 10-13 alert tone/button for approximately 6 seconds",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Wait until units request an alert",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Transmit 'SLOW IT DOWN' over the air",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hold the steady alert for 30 seconds",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 400 instructs depressing the 10-13 alert tone/button for about 6 seconds.",
+      "hints": "It’s a short, timed activation.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 5,
+        "pdf_page": 140,
+        "paragraph": "3",
+        "coverage": "10-13 3. When receiving a 10-13 via 911, the following procedure is adhered to:"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (3): This step contains a rule where the dispatcher will not transmit certain information under specific conditions.",
+      "answer": "true",
+      "hints": "Look for 'will not transmit'.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 5,
+        "pdf_page": 140,
+        "paragraph": "3",
+        "coverage": "10-13 3. When receiving a 10-13 via 911, the following procedure is adhered to:"
+      },
+      "subtopic": "3 – 10-13 3. When receiving a 10-13 via 911, the following proce"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "3 – 10-13 3. When receiving a 10-13 via 911, the following proce",
+      "stem": "Procedure 400 (3): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Patrol Supervisor",
+          "Respond/oversee field response"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 5,
+        "pdf_page": 140,
+        "paragraph": "3",
+        "coverage": "10-13 3. When receiving a 10-13 via 911, the following procedure is adhered to:"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (3): Transmit “________” to responding units.",
+      "answer": "ARRIVE ALIVE",
+      "hints": "Two words; safety phrase.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 5,
+        "pdf_page": 140,
+        "paragraph": "3",
+        "coverage": "10-13 3. When receiving a 10-13 via 911, the following procedure is adhered to:"
+      },
+      "subtopic": "3 – 10-13 3. When receiving a 10-13 via 911, the following proce"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "4 – 10-13 4. When a 10-13 is called off, use the steady alert bu",
+      "stem": "Procedure 400 (4): When a 10-13 is called off/No Further is advised, what must you transmit?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only notify EMS",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Use the steady alert button and transmit 'No Further Units' with a time check",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cancel units silently without time check",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Use the 10-13 alert tone again for 6 seconds",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 400 directs using steady alert and transmitting 'No Further Units' plus a time check.",
+      "hints": "Look for cancellation + time check.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 6,
+        "pdf_page": 141,
+        "paragraph": "4",
+        "coverage": "10-13 4. When a 10-13 is called off, use the steady alert button to cancel responding"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (4): This step includes required dispatcher actions to control the incident.",
+      "answer": "true",
+      "hints": "These are directive steps for control.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 6,
+        "pdf_page": 141,
+        "paragraph": "4",
+        "coverage": "10-13 4. When a 10-13 is called off, use the steady alert button to cancel responding"
+      },
+      "subtopic": "4 – 10-13 4. When a 10-13 is called off, use the steady alert bu"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-006",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "4 – 10-13 4. When a 10-13 is called off, use the steady alert bu",
+      "stem": "Procedure 400 (4): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Radio Supervisor",
+          "Be notified/updated"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 6,
+        "pdf_page": 141,
+        "paragraph": "4",
+        "coverage": "10-13 4. When a 10-13 is called off, use the steady alert button to cancel responding"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (4): If ANI/ALI differs, input a new event using code ________ (or 10Q2).",
+      "answer": "10Q1",
+      "hints": "It starts with 10Q.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 6,
+        "pdf_page": 141,
+        "paragraph": "4",
+        "coverage": "10-13 4. When a 10-13 is called off, use the steady alert button to cancel responding"
+      },
+      "subtopic": "4 – 10-13 4. When a 10-13 is called off, use the steady alert bu"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "5 – 10-13 5. A “10-85” FORTHWITH is a 10-13. In order to accompl",
+      "stem": "Procedure 400 (5): What must be documented when transmitting confirmed 10-13s from an adjacent precinct?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Document: 'No further response'",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Document on the event: \"Xmitted Zone 24\"",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Document: 'CIP Verified'",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Document: 'Zone 14 Notified'",
+          "is_correct": false
+        }
+      ],
+      "solution": "The note states to document \"Xmitted Zone 24\".",
+      "hints": "It’s a specific phrase with Zone 24.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 7,
+        "pdf_page": 141,
+        "paragraph": "5",
+        "coverage": "10-13 5. A “10-85” FORTHWITH is a 10-13. In order to accomplish this"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (5): This step includes at least one action the dispatcher MUST perform.",
+      "answer": "true",
+      "hints": "Look for 'MUST'.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 7,
+        "pdf_page": 141,
+        "paragraph": "5",
+        "coverage": "10-13 5. A “10-85” FORTHWITH is a 10-13. In order to accomplish this"
+      },
+      "subtopic": "5 – 10-13 5. A “10-85” FORTHWITH is a 10-13. In order to accompl"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "5 – 10-13 5. A “10-85” FORTHWITH is a 10-13. In order to accompl",
+      "stem": "Procedure 400 (5): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Supervisor action",
+          "Be notified/oversee"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 7,
+        "pdf_page": 141,
+        "paragraph": "5",
+        "coverage": "10-13 5. A “10-85” FORTHWITH is a 10-13. In order to accomplish this"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (5): Fill in the referenced code/term: ________.",
+      "answer": "10-13",
+      "hints": "It appears in the step text.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 7,
+        "pdf_page": 141,
+        "paragraph": "5",
+        "coverage": "10-13 5. A “10-85” FORTHWITH is a 10-13. In order to accomplish this"
+      },
+      "subtopic": "5 – 10-13 5. A “10-85” FORTHWITH is a 10-13. In order to accompl"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "6 – 10-85 6. When there is a request for additional units, radio",
+      "stem": "Procedure 400 (6): Which item is explicitly referenced in this step?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Delay all assignments",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "10-85",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ignore the step",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Use non-standard phrases",
+          "is_correct": false
+        }
+      ],
+      "solution": "This question targets a specific referenced item in the step.",
+      "hints": "Look for the explicit term/code in the step text.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 8,
+        "pdf_page": 142,
+        "paragraph": "6",
+        "coverage": "10-85 6. When there is a request for additional units, radio dispatcher’s must"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (6): This step includes at least one action the dispatcher MUST perform.",
+      "answer": "true",
+      "hints": "Look for 'MUST'.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 8,
+        "pdf_page": 142,
+        "paragraph": "6",
+        "coverage": "10-85 6. When there is a request for additional units, radio dispatcher’s must"
+      },
+      "subtopic": "6 – 10-85 6. When there is a request for additional units, radio"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-008",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "6 – 10-85 6. When there is a request for additional units, radio",
+      "stem": "Procedure 400 (6): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Patrol Supervisor",
+          "Respond/oversee field response"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 8,
+        "pdf_page": 142,
+        "paragraph": "6",
+        "coverage": "10-85 6. When there is a request for additional units, radio dispatcher’s must"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (6): Fill in the referenced code/term: ________.",
+      "answer": "10-85",
+      "hints": "It appears in the step text.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 8,
+        "pdf_page": 142,
+        "paragraph": "6",
+        "coverage": "10-85 6. When there is a request for additional units, radio dispatcher’s must"
+      },
+      "subtopic": "6 – 10-85 6. When there is a request for additional units, radio"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "7 – 7. Discharge of firearm by on or off duty uniformed members",
+      "stem": "Procedure 400 (7): Which item is explicitly referenced in this step?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ignore the step",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Delay all assignments",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Follow Procedure 400 directives for this step",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Use non-standard phrases",
+          "is_correct": false
+        }
+      ],
+      "solution": "This question targets a specific referenced item in the step.",
+      "hints": "Look for the explicit term/code in the step text.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 9,
+        "pdf_page": 142,
+        "paragraph": "7",
+        "coverage": "7. Discharge of firearm by on or off duty uniformed members of the service."
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (7): This step includes at least one action the dispatcher MUST perform.",
+      "answer": "true",
+      "hints": "Look for 'MUST'.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 9,
+        "pdf_page": 142,
+        "paragraph": "7",
+        "coverage": "7. Discharge of firearm by on or off duty uniformed members of the service."
+      },
+      "subtopic": "7 – 7. Discharge of firearm by on or off duty uniformed members"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-009",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "7 – 7. Discharge of firearm by on or off duty uniformed members",
+      "stem": "Procedure 400 (7): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Supervisor action",
+          "Be notified/oversee"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 9,
+        "pdf_page": 142,
+        "paragraph": "7",
+        "coverage": "7. Discharge of firearm by on or off duty uniformed members of the service."
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-009",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (7): Keep transmissions ________ and remain calm.",
+      "answer": "essential",
+      "hints": "The procedure uses this adjective for transmissions.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 9,
+        "pdf_page": 142,
+        "paragraph": "7",
+        "coverage": "7. Discharge of firearm by on or off duty uniformed members of the service."
+      },
+      "subtopic": "7 – 7. Discharge of firearm by on or off duty uniformed members"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "8 – FOOT 8. If a foot pursuit ensues from a pre-existing job, DO",
+      "stem": "Procedure 400 (8): In a foot pursuit from a pre-existing job, what should you do regarding the radio signal code?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only change after supervisor approval",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Always change to a new job number",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Change only if the suspect is unarmed",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Do NOT change the radio signal code when a foot pursuit ensues from a pre-existing job",
+          "is_correct": true
+        }
+      ],
+      "solution": "Foot pursuit guidance says DO NOT CHANGE the radio signal code.",
+      "hints": "The directive is written in all caps.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 10,
+        "pdf_page": 142,
+        "paragraph": "8",
+        "coverage": "FOOT 8. If a foot pursuit ensues from a pre-existing job, DO NOT CHANGE"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-010",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (8): This step includes required dispatcher actions to control the incident.",
+      "answer": "true",
+      "hints": "These are directive steps for control.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 10,
+        "pdf_page": 142,
+        "paragraph": "8",
+        "coverage": "FOOT 8. If a foot pursuit ensues from a pre-existing job, DO NOT CHANGE"
+      },
+      "subtopic": "8 – FOOT 8. If a foot pursuit ensues from a pre-existing job, DO"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-010",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "8 – FOOT 8. If a foot pursuit ensues from a pre-existing job, DO",
+      "stem": "Procedure 400 (8): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Supervisor action",
+          "Be notified/oversee"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 10,
+        "pdf_page": 142,
+        "paragraph": "8",
+        "coverage": "FOOT 8. If a foot pursuit ensues from a pre-existing job, DO NOT CHANGE"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-010",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (8): Fill in the referenced code/term: ________.",
+      "answer": "10-85",
+      "hints": "It appears in the step text.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 10,
+        "pdf_page": 142,
+        "paragraph": "8",
+        "coverage": "FOOT 8. If a foot pursuit ensues from a pre-existing job, DO NOT CHANGE"
+      },
+      "subtopic": "8 – FOOT 8. If a foot pursuit ensues from a pre-existing job, DO"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "9 – FOOT 9. Follow applicable foot pursuit procedures (location,",
+      "stem": "Procedure 400 (9): Which item is explicitly referenced in this step?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ignore the step",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Use non-standard phrases",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Delay all assignments",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Follow Procedure 400 directives for this step",
+          "is_correct": true
+        }
+      ],
+      "solution": "This question targets a specific referenced item in the step.",
+      "hints": "Look for the explicit term/code in the step text.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 11,
+        "pdf_page": 143,
+        "paragraph": "9",
+        "coverage": "FOOT 9. Follow applicable foot pursuit procedures (location, description of"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-011",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (9): This step includes required dispatcher actions to control the incident.",
+      "answer": "true",
+      "hints": "These are directive steps for control.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 11,
+        "pdf_page": 143,
+        "paragraph": "9",
+        "coverage": "FOOT 9. Follow applicable foot pursuit procedures (location, description of"
+      },
+      "subtopic": "9 – FOOT 9. Follow applicable foot pursuit procedures (location,"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-011",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "9 – FOOT 9. Follow applicable foot pursuit procedures (location,",
+      "stem": "Procedure 400 (9): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Supervisor action",
+          "Be notified/oversee"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 11,
+        "pdf_page": 143,
+        "paragraph": "9",
+        "coverage": "FOOT 9. Follow applicable foot pursuit procedures (location, description of"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-011",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (9): Keep transmissions ________ and remain calm.",
+      "answer": "essential",
+      "hints": "The procedure uses this adjective for transmissions.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 11,
+        "pdf_page": 143,
+        "paragraph": "9",
+        "coverage": "FOOT 9. Follow applicable foot pursuit procedures (location, description of"
+      },
+      "subtopic": "9 – FOOT 9. Follow applicable foot pursuit procedures (location,"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "1 – 1. Transmit the incident as a signal 10-13 OFFICER IN FOOT P",
+      "stem": "Procedure 400 (1): What safety phrase must be transmitted to responding units?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Transmit 'SLOW IT DOWN'",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Transmit \"ARRIVE ALIVE\"",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Broadcast only unit numbers",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Do not transmit any safety phrase",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 400 instructs transmitting \"ARRIVE ALIVE\".",
+      "hints": "It’s the same phrase used in other high-risk incidents.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 12,
+        "pdf_page": 143,
+        "paragraph": "1",
+        "coverage": "1. Transmit the incident as a signal 10-13 OFFICER IN FOOT PURSUIT."
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-012",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (1): This step includes required dispatcher actions to control the incident.",
+      "answer": "true",
+      "hints": "These are directive steps for control.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 12,
+        "pdf_page": 143,
+        "paragraph": "1",
+        "coverage": "1. Transmit the incident as a signal 10-13 OFFICER IN FOOT PURSUIT."
+      },
+      "subtopic": "1 – 1. Transmit the incident as a signal 10-13 OFFICER IN FOOT P"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-012",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "1 – 1. Transmit the incident as a signal 10-13 OFFICER IN FOOT P",
+      "stem": "Procedure 400 (1): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Supervisor action",
+          "Be notified/oversee"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 12,
+        "pdf_page": 143,
+        "paragraph": "1",
+        "coverage": "1. Transmit the incident as a signal 10-13 OFFICER IN FOOT PURSUIT."
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-012",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (1): Transmit “________” to responding units.",
+      "answer": "ARRIVE ALIVE",
+      "hints": "Two words; safety phrase.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 12,
+        "pdf_page": 143,
+        "paragraph": "1",
+        "coverage": "1. Transmit the incident as a signal 10-13 OFFICER IN FOOT PURSUIT."
+      },
+      "subtopic": "1 – 1. Transmit the incident as a signal 10-13 OFFICER IN FOOT P"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "4 – 4. Notify the Radio Supervisor.",
+      "stem": "Procedure 400 (4): Which item is explicitly referenced in this step?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ignore the step",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Delay all assignments",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Use non-standard phrases",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Follow Procedure 400 directives for this step",
+          "is_correct": true
+        }
+      ],
+      "solution": "This question targets a specific referenced item in the step.",
+      "hints": "Look for the explicit term/code in the step text.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 13,
+        "pdf_page": 143,
+        "paragraph": "4",
+        "coverage": "4. Notify the Radio Supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-013",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (4): This step includes required dispatcher actions to control the incident.",
+      "answer": "true",
+      "hints": "These are directive steps for control.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 13,
+        "pdf_page": 143,
+        "paragraph": "4",
+        "coverage": "4. Notify the Radio Supervisor."
+      },
+      "subtopic": "4 – 4. Notify the Radio Supervisor."
+    },
+    {
+      "question_id": "NYC911-400-MATCH-013",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "4 – 4. Notify the Radio Supervisor.",
+      "stem": "Procedure 400 (4): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Radio Supervisor",
+          "Be notified/updated"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 13,
+        "pdf_page": 143,
+        "paragraph": "4",
+        "coverage": "4. Notify the Radio Supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-013",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (4): Keep transmissions ________ and remain calm.",
+      "answer": "essential",
+      "hints": "The procedure uses this adjective for transmissions.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 13,
+        "pdf_page": 143,
+        "paragraph": "4",
+        "coverage": "4. Notify the Radio Supervisor."
+      },
+      "subtopic": "4 – 4. Notify the Radio Supervisor."
+    },
+    {
+      "question_id": "NYC911-400-MCQ-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "15 – VEHICLE 15. When the radio dispatcher is notified of a vehic",
+      "stem": "Procedure 400 (15): Which item is explicitly referenced in this step?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Delay all assignments",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Use non-standard phrases",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "10-88",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ignore the step",
+          "is_correct": false
+        }
+      ],
+      "solution": "This question targets a specific referenced item in the step.",
+      "hints": "Look for the explicit term/code in the step text.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 14,
+        "pdf_page": 143,
+        "paragraph": "15",
+        "coverage": "VEHICLE 15. When the radio dispatcher is notified of a vehicle pursuit over the air by a"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-014",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (15): This step includes required dispatcher actions to control the incident.",
+      "answer": "true",
+      "hints": "These are directive steps for control.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 14,
+        "pdf_page": 143,
+        "paragraph": "15",
+        "coverage": "VEHICLE 15. When the radio dispatcher is notified of a vehicle pursuit over the air by a"
+      },
+      "subtopic": "15 – VEHICLE 15. When the radio dispatcher is notified of a vehic"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-014",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "15 – VEHICLE 15. When the radio dispatcher is notified of a vehic",
+      "stem": "Procedure 400 (15): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Supervisor action",
+          "Be notified/oversee"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 14,
+        "pdf_page": 143,
+        "paragraph": "15",
+        "coverage": "VEHICLE 15. When the radio dispatcher is notified of a vehicle pursuit over the air by a"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-014",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (15): Fill in the referenced code/term: ________.",
+      "answer": "10-88",
+      "hints": "It appears in the step text.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 14,
+        "pdf_page": 143,
+        "paragraph": "15",
+        "coverage": "VEHICLE 15. When the radio dispatcher is notified of a vehicle pursuit over the air by a"
+      },
+      "subtopic": "15 – VEHICLE 15. When the radio dispatcher is notified of a vehic"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "6 – 6. Ascertain pertinent information as follows:",
+      "stem": "Procedure 400 (6): Which item is explicitly referenced in this step?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Use non-standard phrases",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ignore the step",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Delay all assignments",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Follow Procedure 400 directives for this step",
+          "is_correct": true
+        }
+      ],
+      "solution": "This question targets a specific referenced item in the step.",
+      "hints": "Look for the explicit term/code in the step text.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 15,
+        "pdf_page": 143,
+        "paragraph": "6",
+        "coverage": "6. Ascertain pertinent information as follows:"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-015",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (6): This step includes required dispatcher actions to control the incident.",
+      "answer": "true",
+      "hints": "These are directive steps for control.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 15,
+        "pdf_page": 143,
+        "paragraph": "6",
+        "coverage": "6. Ascertain pertinent information as follows:"
+      },
+      "subtopic": "6 – 6. Ascertain pertinent information as follows:"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-015",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "6 – 6. Ascertain pertinent information as follows:",
+      "stem": "Procedure 400 (6): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Supervisor action",
+          "Be notified/oversee"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 15,
+        "pdf_page": 143,
+        "paragraph": "6",
+        "coverage": "6. Ascertain pertinent information as follows:"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-015",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (6): Keep transmissions ________ and remain calm.",
+      "answer": "essential",
+      "hints": "The procedure uses this adjective for transmissions.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 15,
+        "pdf_page": 143,
+        "paragraph": "6",
+        "coverage": "6. Ascertain pertinent information as follows:"
+      },
+      "subtopic": "6 – 6. Ascertain pertinent information as follows:"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "17 – VEHICLE 17. Notify the Patrol Supervisor of the identity of",
+      "stem": "Procedure 400 (17): Which item is explicitly referenced in this step?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Follow Procedure 400 directives for this step",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Use non-standard phrases",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ignore the step",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Delay all assignments",
+          "is_correct": false
+        }
+      ],
+      "solution": "This question targets a specific referenced item in the step.",
+      "hints": "Look for the explicit term/code in the step text.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 16,
+        "pdf_page": 144,
+        "paragraph": "17",
+        "coverage": "VEHICLE 17. Notify the Patrol Supervisor of the identity of the pursuing unit and the"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-016",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (17): This step includes required dispatcher actions to control the incident.",
+      "answer": "true",
+      "hints": "These are directive steps for control.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 16,
+        "pdf_page": 144,
+        "paragraph": "17",
+        "coverage": "VEHICLE 17. Notify the Patrol Supervisor of the identity of the pursuing unit and the"
+      },
+      "subtopic": "17 – VEHICLE 17. Notify the Patrol Supervisor of the identity of"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-016",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "17 – VEHICLE 17. Notify the Patrol Supervisor of the identity of",
+      "stem": "Procedure 400 (17): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Patrol Supervisor",
+          "Respond/oversee field response"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 16,
+        "pdf_page": 144,
+        "paragraph": "17",
+        "coverage": "VEHICLE 17. Notify the Patrol Supervisor of the identity of the pursuing unit and the"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-016",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (17): Keep transmissions ________ and remain calm.",
+      "answer": "essential",
+      "hints": "The procedure uses this adjective for transmissions.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 16,
+        "pdf_page": 144,
+        "paragraph": "17",
+        "coverage": "VEHICLE 17. Notify the Patrol Supervisor of the identity of the pursuing unit and the"
+      },
+      "subtopic": "17 – VEHICLE 17. Notify the Patrol Supervisor of the identity of"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "9 – 9. Direct other units to assist and support the pursuing uni",
+      "stem": "Procedure 400 (9): Which item is explicitly referenced in this step?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ignore the step",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Delay all assignments",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Use non-standard phrases",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Follow Procedure 400 directives for this step",
+          "is_correct": true
+        }
+      ],
+      "solution": "This question targets a specific referenced item in the step.",
+      "hints": "Look for the explicit term/code in the step text.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 17,
+        "pdf_page": 144,
+        "paragraph": "9",
+        "coverage": "9. Direct other units to assist and support the pursuing unit, as directed by the"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-017",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (9): This step includes required dispatcher actions to control the incident.",
+      "answer": "true",
+      "hints": "These are directive steps for control.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 17,
+        "pdf_page": 144,
+        "paragraph": "9",
+        "coverage": "9. Direct other units to assist and support the pursuing unit, as directed by the"
+      },
+      "subtopic": "9 – 9. Direct other units to assist and support the pursuing uni"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-017",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "9 – 9. Direct other units to assist and support the pursuing uni",
+      "stem": "Procedure 400 (9): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Supervisor action",
+          "Be notified/oversee"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 17,
+        "pdf_page": 144,
+        "paragraph": "9",
+        "coverage": "9. Direct other units to assist and support the pursuing unit, as directed by the"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-017",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (9): Keep transmissions ________ and remain calm.",
+      "answer": "essential",
+      "hints": "The procedure uses this adjective for transmissions.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 17,
+        "pdf_page": 144,
+        "paragraph": "9",
+        "coverage": "9. Direct other units to assist and support the pursuing unit, as directed by the"
+      },
+      "subtopic": "9 – 9. Direct other units to assist and support the pursuing uni"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "2 – 2. If necessary, alert adjacent frequencies, Citywide, out o",
+      "stem": "Procedure 400 (2): Which item is explicitly referenced in this step?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Follow Procedure 400 directives for this step",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Delay all assignments",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ignore the step",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Use non-standard phrases",
+          "is_correct": false
+        }
+      ],
+      "solution": "This question targets a specific referenced item in the step.",
+      "hints": "Look for the explicit term/code in the step text.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 18,
+        "pdf_page": 144,
+        "paragraph": "2",
+        "coverage": "2. If necessary, alert adjacent frequencies, Citywide, out of city police"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-018",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (2): This step includes required dispatcher actions to control the incident.",
+      "answer": "true",
+      "hints": "These are directive steps for control.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 18,
+        "pdf_page": 144,
+        "paragraph": "2",
+        "coverage": "2. If necessary, alert adjacent frequencies, Citywide, out of city police"
+      },
+      "subtopic": "2 – 2. If necessary, alert adjacent frequencies, Citywide, out o"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-018",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "2 – 2. If necessary, alert adjacent frequencies, Citywide, out o",
+      "stem": "Procedure 400 (2): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Supervisor action",
+          "Be notified/oversee"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 18,
+        "pdf_page": 144,
+        "paragraph": "2",
+        "coverage": "2. If necessary, alert adjacent frequencies, Citywide, out of city police"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-018",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (2): Keep transmissions ________ and remain calm.",
+      "answer": "essential",
+      "hints": "The procedure uses this adjective for transmissions.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 18,
+        "pdf_page": 144,
+        "paragraph": "2",
+        "coverage": "2. If necessary, alert adjacent frequencies, Citywide, out of city police"
+      },
+      "subtopic": "2 – 2. If necessary, alert adjacent frequencies, Citywide, out o"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "3 – 3. If the registration plate number is known, run the plate",
+      "stem": "Procedure 400 (3): Which item is explicitly referenced in this step?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Follow Procedure 400 directives for this step",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ignore the step",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Use non-standard phrases",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Delay all assignments",
+          "is_correct": false
+        }
+      ],
+      "solution": "This question targets a specific referenced item in the step.",
+      "hints": "Look for the explicit term/code in the step text.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 19,
+        "pdf_page": 144,
+        "paragraph": "3",
+        "coverage": "3. If the registration plate number is known, run the plate and inform"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-019",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (3): This step includes required dispatcher actions to control the incident.",
+      "answer": "true",
+      "hints": "These are directive steps for control.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 19,
+        "pdf_page": 144,
+        "paragraph": "3",
+        "coverage": "3. If the registration plate number is known, run the plate and inform"
+      },
+      "subtopic": "3 – 3. If the registration plate number is known, run the plate"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-019",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "3 – 3. If the registration plate number is known, run the plate",
+      "stem": "Procedure 400 (3): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Supervisor action",
+          "Be notified/oversee"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 19,
+        "pdf_page": 144,
+        "paragraph": "3",
+        "coverage": "3. If the registration plate number is known, run the plate and inform"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-019",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (3): Keep transmissions ________ and remain calm.",
+      "answer": "essential",
+      "hints": "The procedure uses this adjective for transmissions.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 19,
+        "pdf_page": 144,
+        "paragraph": "3",
+        "coverage": "3. If the registration plate number is known, run the plate and inform"
+      },
+      "subtopic": "3 – 3. If the registration plate number is known, run the plate"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "5 – 5. If the pursuit is terminated by the field supervisor or C",
+      "stem": "Procedure 400 (5): When a 10-13 is called off/No Further is advised, what must you transmit?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Use the steady alert button and transmit 'No Further Units' with a time check",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cancel units silently without time check",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only notify EMS",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Use the 10-13 alert tone again for 6 seconds",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 400 directs using steady alert and transmitting 'No Further Units' plus a time check.",
+      "hints": "Look for cancellation + time check.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 20,
+        "pdf_page": 144,
+        "paragraph": "5",
+        "coverage": "5. If the pursuit is terminated by the field supervisor or Communications"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-020",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (5): This step contains a rule where the dispatcher will not transmit certain information under specific conditions.",
+      "answer": "true",
+      "hints": "Look for 'will not transmit'.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 20,
+        "pdf_page": 144,
+        "paragraph": "5",
+        "coverage": "5. If the pursuit is terminated by the field supervisor or Communications"
+      },
+      "subtopic": "5 – 5. If the pursuit is terminated by the field supervisor or C"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-020",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "5 – 5. If the pursuit is terminated by the field supervisor or C",
+      "stem": "Procedure 400 (5): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Radio Supervisor",
+          "Be notified/updated"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 20,
+        "pdf_page": 144,
+        "paragraph": "5",
+        "coverage": "5. If the pursuit is terminated by the field supervisor or Communications"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-020",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (5): Keep transmissions ________ and remain calm.",
+      "answer": "essential",
+      "hints": "The procedure uses this adjective for transmissions.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 20,
+        "pdf_page": 144,
+        "paragraph": "5",
+        "coverage": "5. If the pursuit is terminated by the field supervisor or Communications"
+      },
+      "subtopic": "5 – 5. If the pursuit is terminated by the field supervisor or C"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "6 – 6. The dispatcher will:",
+      "stem": "Procedure 400 (6): Which item is explicitly referenced in this step?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Use non-standard phrases",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ignore the step",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "10-88",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Delay all assignments",
+          "is_correct": false
+        }
+      ],
+      "solution": "This question targets a specific referenced item in the step.",
+      "hints": "Look for the explicit term/code in the step text.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 21,
+        "pdf_page": 145,
+        "paragraph": "6",
+        "coverage": "6. The dispatcher will:"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-021",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (6): This step includes required dispatcher actions to control the incident.",
+      "answer": "true",
+      "hints": "These are directive steps for control.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 21,
+        "pdf_page": 145,
+        "paragraph": "6",
+        "coverage": "6. The dispatcher will:"
+      },
+      "subtopic": "6 – 6. The dispatcher will:"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-021",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "6 – 6. The dispatcher will:",
+      "stem": "Procedure 400 (6): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Supervisor action",
+          "Be notified/oversee"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 21,
+        "pdf_page": 145,
+        "paragraph": "6",
+        "coverage": "6. The dispatcher will:"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-021",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (6): Fill in the referenced code/term: ________.",
+      "answer": "10-88",
+      "hints": "It appears in the step text.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 21,
+        "pdf_page": 145,
+        "paragraph": "6",
+        "coverage": "6. The dispatcher will:"
+      },
+      "subtopic": "6 – 6. The dispatcher will:"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "27 – POLICE 27. Police involved shootings or shots fired by or at",
+      "stem": "Procedure 400 (27): Which item is explicitly referenced in this step?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Delay all assignments",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Follow Procedure 400 directives for this step",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Use non-standard phrases",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ignore the step",
+          "is_correct": false
+        }
+      ],
+      "solution": "This question targets a specific referenced item in the step.",
+      "hints": "Look for the explicit term/code in the step text.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 22,
+        "pdf_page": 146,
+        "paragraph": "27",
+        "coverage": "POLICE 27. Police involved shootings or shots fired by or at MOS are fast paced, critical"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-022",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (27): This step includes at least one action the dispatcher MUST perform.",
+      "answer": "true",
+      "hints": "Look for 'MUST'.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 22,
+        "pdf_page": 146,
+        "paragraph": "27",
+        "coverage": "POLICE 27. Police involved shootings or shots fired by or at MOS are fast paced, critical"
+      },
+      "subtopic": "27 – POLICE 27. Police involved shootings or shots fired by or at"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-022",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "27 – POLICE 27. Police involved shootings or shots fired by or at",
+      "stem": "Procedure 400 (27): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Supervisor action",
+          "Be notified/oversee"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 22,
+        "pdf_page": 146,
+        "paragraph": "27",
+        "coverage": "POLICE 27. Police involved shootings or shots fired by or at MOS are fast paced, critical"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-022",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (27): Keep transmissions ________ and remain calm.",
+      "answer": "essential",
+      "hints": "The procedure uses this adjective for transmissions.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 22,
+        "pdf_page": 146,
+        "paragraph": "27",
+        "coverage": "POLICE 27. Police involved shootings or shots fired by or at MOS are fast paced, critical"
+      },
+      "subtopic": "27 – POLICE 27. Police involved shootings or shots fired by or at"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "8 – 8. Once you are alerted of a police involved shooting, ascer",
+      "stem": "Procedure 400 (8): Which item is explicitly referenced in this step?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ignore the step",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Delay all assignments",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Use non-standard phrases",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Follow Procedure 400 directives for this step",
+          "is_correct": true
+        }
+      ],
+      "solution": "This question targets a specific referenced item in the step.",
+      "hints": "Look for the explicit term/code in the step text.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 23,
+        "pdf_page": 146,
+        "paragraph": "8",
+        "coverage": "8. Once you are alerted of a police involved shooting, ascertain the location of"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-023",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (8): This step includes required dispatcher actions to control the incident.",
+      "answer": "true",
+      "hints": "These are directive steps for control.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 23,
+        "pdf_page": 146,
+        "paragraph": "8",
+        "coverage": "8. Once you are alerted of a police involved shooting, ascertain the location of"
+      },
+      "subtopic": "8 – 8. Once you are alerted of a police involved shooting, ascer"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-023",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "8 – 8. Once you are alerted of a police involved shooting, ascer",
+      "stem": "Procedure 400 (8): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Supervisor action",
+          "Be notified/oversee"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 23,
+        "pdf_page": 146,
+        "paragraph": "8",
+        "coverage": "8. Once you are alerted of a police involved shooting, ascertain the location of"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-023",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (8): Keep transmissions ________ and remain calm.",
+      "answer": "essential",
+      "hints": "The procedure uses this adjective for transmissions.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 23,
+        "pdf_page": 146,
+        "paragraph": "8",
+        "coverage": "8. Once you are alerted of a police involved shooting, ascertain the location of"
+      },
+      "subtopic": "8 – 8. Once you are alerted of a police involved shooting, ascer"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-024",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "9 – 9. Once you have created the event, assign two units and the",
+      "stem": "Procedure 400 (9): Which item is explicitly referenced in this step?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10-84",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Delay all assignments",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Use non-standard phrases",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ignore the step",
+          "is_correct": false
+        }
+      ],
+      "solution": "This question targets a specific referenced item in the step.",
+      "hints": "Look for the explicit term/code in the step text.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 24,
+        "pdf_page": 146,
+        "paragraph": "9",
+        "coverage": "9. Once you have created the event, assign two units and the patrol supervisor"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-024",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (9): This step includes required dispatcher actions to control the incident.",
+      "answer": "true",
+      "hints": "These are directive steps for control.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 24,
+        "pdf_page": 146,
+        "paragraph": "9",
+        "coverage": "9. Once you have created the event, assign two units and the patrol supervisor"
+      },
+      "subtopic": "9 – 9. Once you have created the event, assign two units and the"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-024",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "9 – 9. Once you have created the event, assign two units and the",
+      "stem": "Procedure 400 (9): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Patrol Supervisor",
+          "Respond/oversee field response"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 24,
+        "pdf_page": 146,
+        "paragraph": "9",
+        "coverage": "9. Once you have created the event, assign two units and the patrol supervisor"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-024",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (9): Fill in the referenced code/term: ________.",
+      "answer": "10-84",
+      "hints": "It appears in the step text.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 24,
+        "pdf_page": 146,
+        "paragraph": "9",
+        "coverage": "9. Once you have created the event, assign two units and the patrol supervisor"
+      },
+      "subtopic": "9 – 9. Once you have created the event, assign two units and the"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-025",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "30 – POLICE 30. If you are advised by the field units on scene th",
+      "stem": "Procedure 400 (30): For a confirmed police involved shooting with injuries, what must the dispatcher do?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Notify sanitation operations",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Wait for hospital to call back",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Send a direct message to EMS",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Broadcast EMS needs over citywide only",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 400 directs the dispatcher to send a direct message to EMS when injuries are confirmed.",
+      "hints": "It’s a direct action to EMS.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 25,
+        "pdf_page": 147,
+        "paragraph": "30",
+        "coverage": "POLICE 30. If you are advised by the field units on scene that there is a confirmed"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-025",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (30): This step includes at least one action the dispatcher MUST perform.",
+      "answer": "true",
+      "hints": "Look for 'MUST'.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 25,
+        "pdf_page": 147,
+        "paragraph": "30",
+        "coverage": "POLICE 30. If you are advised by the field units on scene that there is a confirmed"
+      },
+      "subtopic": "30 – POLICE 30. If you are advised by the field units on scene th"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-025",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "30 – POLICE 30. If you are advised by the field units on scene th",
+      "stem": "Procedure 400 (30): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "EMS",
+          "Receive direct message"
+        ],
+        [
+          "Radio Supervisor",
+          "Be notified/updated"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 25,
+        "pdf_page": 147,
+        "paragraph": "30",
+        "coverage": "POLICE 30. If you are advised by the field units on scene that there is a confirmed"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-025",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (30): Keep transmissions ________ and remain calm.",
+      "answer": "essential",
+      "hints": "The procedure uses this adjective for transmissions.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 25,
+        "pdf_page": 147,
+        "paragraph": "30",
+        "coverage": "POLICE 30. If you are advised by the field units on scene that there is a confirmed"
+      },
+      "subtopic": "30 – POLICE 30. If you are advised by the field units on scene th"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-026",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "1 – 1. Ascertain from the unit if they need a route set up to th",
+      "stem": "Procedure 400 (1): Which item is explicitly referenced in this step?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Follow Procedure 400 directives for this step",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ignore the step",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Delay all assignments",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Use non-standard phrases",
+          "is_correct": false
+        }
+      ],
+      "solution": "This question targets a specific referenced item in the step.",
+      "hints": "Look for the explicit term/code in the step text.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 26,
+        "pdf_page": 147,
+        "paragraph": "1",
+        "coverage": "1. Ascertain from the unit if they need a route set up to the hospital. Once you"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-026",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (1): This step includes required dispatcher actions to control the incident.",
+      "answer": "true",
+      "hints": "These are directive steps for control.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 26,
+        "pdf_page": 147,
+        "paragraph": "1",
+        "coverage": "1. Ascertain from the unit if they need a route set up to the hospital. Once you"
+      },
+      "subtopic": "1 – 1. Ascertain from the unit if they need a route set up to th"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-026",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "1 – 1. Ascertain from the unit if they need a route set up to th",
+      "stem": "Procedure 400 (1): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Supervisor action",
+          "Be notified/oversee"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 26,
+        "pdf_page": 147,
+        "paragraph": "1",
+        "coverage": "1. Ascertain from the unit if they need a route set up to the hospital. Once you"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-026",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (1): Keep transmissions ________ and remain calm.",
+      "answer": "essential",
+      "hints": "The procedure uses this adjective for transmissions.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 26,
+        "pdf_page": 147,
+        "paragraph": "1",
+        "coverage": "1. Ascertain from the unit if they need a route set up to the hospital. Once you"
+      },
+      "subtopic": "1 – 1. Ascertain from the unit if they need a route set up to th"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-027",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "2 – 2. Ascertain from the unit if the Blood Bank is needed (refe",
+      "stem": "Procedure 400 (2): Which item is explicitly referenced in this step?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Follow Procedure 400 directives for this step",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ignore the step",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Delay all assignments",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Use non-standard phrases",
+          "is_correct": false
+        }
+      ],
+      "solution": "This question targets a specific referenced item in the step.",
+      "hints": "Look for the explicit term/code in the step text.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 27,
+        "pdf_page": 147,
+        "paragraph": "2",
+        "coverage": "2. Ascertain from the unit if the Blood Bank is needed (refer to Radio"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-027",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (2): This step includes required dispatcher actions to control the incident.",
+      "answer": "true",
+      "hints": "These are directive steps for control.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 27,
+        "pdf_page": 147,
+        "paragraph": "2",
+        "coverage": "2. Ascertain from the unit if the Blood Bank is needed (refer to Radio"
+      },
+      "subtopic": "2 – 2. Ascertain from the unit if the Blood Bank is needed (refe"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-027",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "2 – 2. Ascertain from the unit if the Blood Bank is needed (refe",
+      "stem": "Procedure 400 (2): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Supervisor action",
+          "Be notified/oversee"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 27,
+        "pdf_page": 147,
+        "paragraph": "2",
+        "coverage": "2. Ascertain from the unit if the Blood Bank is needed (refer to Radio"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-027",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (2): Keep transmissions ________ and remain calm.",
+      "answer": "essential",
+      "hints": "The procedure uses this adjective for transmissions.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 27,
+        "pdf_page": 147,
+        "paragraph": "2",
+        "coverage": "2. Ascertain from the unit if the Blood Bank is needed (refer to Radio"
+      },
+      "subtopic": "2 – 2. Ascertain from the unit if the Blood Bank is needed (refe"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-028",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "3 – 3. Continuously transmit all updates and keep Radio Supervis",
+      "stem": "Procedure 400 (3): Which item is explicitly referenced in this step?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ignore the step",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Delay all assignments",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Follow Procedure 400 directives for this step",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Use non-standard phrases",
+          "is_correct": false
+        }
+      ],
+      "solution": "This question targets a specific referenced item in the step.",
+      "hints": "Look for the explicit term/code in the step text.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 28,
+        "pdf_page": 147,
+        "paragraph": "3",
+        "coverage": "3. Continuously transmit all updates and keep Radio Supervisor advised."
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-028",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (3): This step includes required dispatcher actions to control the incident.",
+      "answer": "true",
+      "hints": "These are directive steps for control.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 28,
+        "pdf_page": 147,
+        "paragraph": "3",
+        "coverage": "3. Continuously transmit all updates and keep Radio Supervisor advised."
+      },
+      "subtopic": "3 – 3. Continuously transmit all updates and keep Radio Supervis"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-028",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "3 – 3. Continuously transmit all updates and keep Radio Supervis",
+      "stem": "Procedure 400 (3): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Radio Supervisor",
+          "Be notified/updated"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 28,
+        "pdf_page": 147,
+        "paragraph": "3",
+        "coverage": "3. Continuously transmit all updates and keep Radio Supervisor advised."
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-028",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (3): Keep transmissions ________ and remain calm.",
+      "answer": "essential",
+      "hints": "The procedure uses this adjective for transmissions.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 28,
+        "pdf_page": 147,
+        "paragraph": "3",
+        "coverage": "3. Continuously transmit all updates and keep Radio Supervisor advised."
+      },
+      "subtopic": "3 – 3. Continuously transmit all updates and keep Radio Supervis"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-029",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "34 – 10-13 ALARM 34. The Department’s Alarm Board at Police Headq",
+      "stem": "Procedure 400 (34): What signal code is used to enter 10-13 alarms at police facilities?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Enter the 10-13 alarm as code 13X1",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Enter it as 10Q1",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Enter it as HWY",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Enter it as 90X",
+          "is_correct": false
+        }
+      ],
+      "solution": "Procedure 400 states 10-13 alarms at police facilities are entered using 13X1.",
+      "hints": "It’s an alphanumeric code starting with 13.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 29,
+        "pdf_page": 148,
+        "paragraph": "34",
+        "coverage": "10-13 ALARM 34. The Department’s Alarm Board at Police Headquarters Security is"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-029",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (34): This step includes required dispatcher actions to control the incident.",
+      "answer": "true",
+      "hints": "These are directive steps for control.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 29,
+        "pdf_page": 148,
+        "paragraph": "34",
+        "coverage": "10-13 ALARM 34. The Department’s Alarm Board at Police Headquarters Security is"
+      },
+      "subtopic": "34 – 10-13 ALARM 34. The Department’s Alarm Board at Police Headq"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-029",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "34 – 10-13 ALARM 34. The Department’s Alarm Board at Police Headq",
+      "stem": "Procedure 400 (34): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Patrol Supervisor",
+          "Respond/oversee field response"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 29,
+        "pdf_page": 148,
+        "paragraph": "34",
+        "coverage": "10-13 ALARM 34. The Department’s Alarm Board at Police Headquarters Security is"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-029",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (34): 10-13 alarms at police facilities are entered using code ________.",
+      "answer": "13X1",
+      "hints": "It begins with 13.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 29,
+        "pdf_page": 148,
+        "paragraph": "34",
+        "coverage": "10-13 ALARM 34. The Department’s Alarm Board at Police Headquarters Security is"
+      },
+      "subtopic": "34 – 10-13 ALARM 34. The Department’s Alarm Board at Police Headq"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-030",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "5 – 5. There are many commercially available devices that can pr",
+      "stem": "Procedure 400 (5): Which item is explicitly referenced in this step?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ignore the step",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Delay all assignments",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "10-84",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Use non-standard phrases",
+          "is_correct": false
+        }
+      ],
+      "solution": "This question targets a specific referenced item in the step.",
+      "hints": "Look for the explicit term/code in the step text.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 30,
+        "pdf_page": 148,
+        "paragraph": "5",
+        "coverage": "5. There are many commercially available devices that can produce a beam"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-030",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (5): This step includes at least one action the dispatcher MUST perform.",
+      "answer": "true",
+      "hints": "Look for 'MUST'.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 30,
+        "pdf_page": 148,
+        "paragraph": "5",
+        "coverage": "5. There are many commercially available devices that can produce a beam"
+      },
+      "subtopic": "5 – 5. There are many commercially available devices that can pr"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-030",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "5 – 5. There are many commercially available devices that can pr",
+      "stem": "Procedure 400 (5): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Patrol Supervisor",
+          "Respond/oversee field response"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 30,
+        "pdf_page": 148,
+        "paragraph": "5",
+        "coverage": "5. There are many commercially available devices that can produce a beam"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-030",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (5): Fill in the referenced code/term: ________.",
+      "answer": "10-84",
+      "hints": "It appears in the step text.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 30,
+        "pdf_page": 148,
+        "paragraph": "5",
+        "coverage": "5. There are many commercially available devices that can produce a beam"
+      },
+      "subtopic": "5 – 5. There are many commercially available devices that can pr"
+    },
+    {
+      "question_id": "NYC911-400-MCQ-031",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "36 – SUICIDAL MOS 36. Upon receipt of an event regarding a Suicid",
+      "stem": "Procedure 400 (36): Which item is explicitly referenced in this step?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Delay all assignments",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Use non-standard phrases",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ignore the step",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "10-13",
+          "is_correct": true
+        }
+      ],
+      "solution": "This question targets a specific referenced item in the step.",
+      "hints": "Look for the explicit term/code in the step text.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 31,
+        "pdf_page": 149,
+        "paragraph": "36",
+        "coverage": "SUICIDAL MOS 36. Upon receipt of an event regarding a Suicidal Law Enforcement Agent,"
+      }
+    },
+    {
+      "question_id": "NYC911-400-TF-031",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (36): This step contains a rule where the dispatcher will not transmit certain information under specific conditions.",
+      "answer": "true",
+      "hints": "Look for 'will not transmit'.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 31,
+        "pdf_page": 149,
+        "paragraph": "36",
+        "coverage": "SUICIDAL MOS 36. Upon receipt of an event regarding a Suicidal Law Enforcement Agent,"
+      },
+      "subtopic": "36 – SUICIDAL MOS 36. Upon receipt of an event regarding a Suicid"
+    },
+    {
+      "question_id": "NYC911-400-MATCH-031",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "subtopic": "36 – SUICIDAL MOS 36. Upon receipt of an event regarding a Suicid",
+      "stem": "Procedure 400 (36): Match the role/item to the correct responsibility.",
+      "answer": [
+        [
+          "Dispatcher action",
+          "Follow the step directives"
+        ],
+        [
+          "Unit action",
+          "Provide updates/requests"
+        ],
+        [
+          "Patrol Supervisor",
+          "Respond/oversee field response"
+        ]
+      ],
+      "hints": "Use the step text to determine who does what.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 31,
+        "pdf_page": 149,
+        "paragraph": "36",
+        "coverage": "SUICIDAL MOS 36. Upon receipt of an event regarding a Suicidal Law Enforcement Agent,"
+      }
+    },
+    {
+      "question_id": "NYC911-400-FB-031",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 400 – 10-13 INCIDENTS",
+      "stem": "Procedure 400 (36): Fill in the referenced code/term: ________.",
+      "answer": "10-13",
+      "hints": "It appears in the step text.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc400",
+        "10-13"
+      ],
+      "source": {
+        "procedure": 400,
+        "proc_page": 31,
+        "pdf_page": 149,
+        "paragraph": "36",
+        "coverage": "SUICIDAL MOS 36. Upon receipt of an event regarding a Suicidal Law Enforcement Agent,"
+      },
+      "subtopic": "36 – SUICIDAL MOS 36. Upon receipt of an event regarding a Suicid"
+    }
+  ]
+}

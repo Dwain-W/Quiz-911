@@ -1,0 +1,1327 @@
+{
+  "lesson": {
+    "slug": "911-proc-109-dispatching-incidents-full-coverage",
+    "title": "Procedure 109 – DISPATCHING INCIDENTS",
+    "topic": "DISPATCHING INCIDENTS",
+    "order": 109,
+    "objectives": [
+      "Transmit incidents using complete and clear radio procedures.",
+      "Apply location, base code, specific location, and pertinent information standards.",
+      "Handle acknowledgements, updates, and transit dispatch examples correctly."
+    ],
+    "questionIds": [
+      "NYC911-109-MCQ-001",
+      "NYC911-109-MCQ-002",
+      "NYC911-109-MCQ-003",
+      "NYC911-109-MCQ-004",
+      "NYC911-109-MCQ-005",
+      "NYC911-109-MCQ-006",
+      "NYC911-109-MCQ-007",
+      "NYC911-109-MCQ-008",
+      "NYC911-109-MCQ-009",
+      "NYC911-109-MCQ-010",
+      "NYC911-109-TF-001",
+      "NYC911-109-TF-002",
+      "NYC911-109-TF-003",
+      "NYC911-109-TF-004",
+      "NYC911-109-TF-005",
+      "NYC911-109-TF-006",
+      "NYC911-109-TF-007",
+      "NYC911-109-TF-008",
+      "NYC911-109-TF-009",
+      "NYC911-109-TF-010",
+      "NYC911-109-MATCH-001",
+      "NYC911-109-MATCH-002",
+      "NYC911-109-MATCH-003",
+      "NYC911-109-MATCH-004",
+      "NYC911-109-MATCH-005",
+      "NYC911-109-MATCH-006",
+      "NYC911-109-MATCH-007",
+      "NYC911-109-MATCH-008",
+      "NYC911-109-MATCH-009",
+      "NYC911-109-MATCH-010",
+      "NYC911-109-FB-001",
+      "NYC911-109-FB-002",
+      "NYC911-109-FB-003",
+      "NYC911-109-FB-004",
+      "NYC911-109-FB-005",
+      "NYC911-109-FB-006",
+      "NYC911-109-FB-007",
+      "NYC911-109-FB-008",
+      "NYC911-109-FB-009",
+      "NYC911-109-FB-010"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-109-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Scope",
+      "stem": "Procedure 109: Which elements must be included in a proper dispatch transmission?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only if weapons involved",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Optional element",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Location, base code, specific location, pertinent info",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Only for major crimes",
+          "is_correct": false
+        }
+      ],
+      "solution": "Location, base code, specific location, pertinent info",
+      "hints": "Stated directly in Procedure 109.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 1,
+        "pdf_page": 45,
+        "paragraph": "SCOPE",
+        "coverage": "Proper radio transmissions must include location, base code, specific location, and all pertinent information."
+      }
+    },
+    {
+      "question_id": "NYC911-109-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Location",
+      "stem": "Procedure 109: How should a street address be transmitted?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Optional element",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Twice: whole number and digits",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only for major crimes",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only if weapons involved",
+          "is_correct": false
+        }
+      ],
+      "solution": "Twice: whole number and digits",
+      "hints": "Stated directly in Procedure 109.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 2,
+        "pdf_page": 45,
+        "paragraph": "LOCATION",
+        "coverage": "Transmit street address twice; cross streets; common place names; station/booth info."
+      }
+    },
+    {
+      "question_id": "NYC911-109-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Location",
+      "stem": "Procedure 109: How often should cross streets be transmitted?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only for major crimes",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Optional element",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only if weapons involved",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Twice",
+          "is_correct": true
+        }
+      ],
+      "solution": "Twice",
+      "hints": "Stated directly in Procedure 109.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 2,
+        "pdf_page": 45,
+        "paragraph": "LOCATION",
+        "coverage": "Transmit street address twice; cross streets; common place names; station/booth info."
+      }
+    },
+    {
+      "question_id": "NYC911-109-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Base code",
+      "stem": "Procedure 109: What must accompany the base code?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Optional element",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Explanation of the code",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only if weapons involved",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only for major crimes",
+          "is_correct": false
+        }
+      ],
+      "solution": "Explanation of the code",
+      "hints": "Stated directly in Procedure 109.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 3,
+        "pdf_page": 45,
+        "paragraph": "BASE CODE",
+        "coverage": "Provide explanation of the base code according to its expansion."
+      }
+    },
+    {
+      "question_id": "NYC911-109-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Specific",
+      "stem": "Procedure 109: How should apartments be transmitted?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Using phonetic alphabet",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Only for major crimes",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only if weapons involved",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Optional element",
+          "is_correct": false
+        }
+      ],
+      "solution": "Using phonetic alphabet",
+      "hints": "Stated directly in Procedure 109.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 4,
+        "pdf_page": 45,
+        "paragraph": "SPECIFIC LOCATION",
+        "coverage": "Apartment phonetic, floor, IFO, corner, platform, LAT/LON."
+      }
+    },
+    {
+      "question_id": "NYC911-109-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Pertinent",
+      "stem": "Procedure 109: Which is considered pertinent information?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Optional element",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Weapons and direction of flight",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only for major crimes",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only if weapons involved",
+          "is_correct": false
+        }
+      ],
+      "solution": "Weapons and direction of flight",
+      "hints": "Stated directly in Procedure 109.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 5,
+        "pdf_page": 45,
+        "paragraph": "PERTINENT INFO",
+        "coverage": "Hazards, weapons, descriptions, direction of flight."
+      }
+    },
+    {
+      "question_id": "NYC911-109-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Example",
+      "stem": "Procedure 109: Before details, what must dispatcher await?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Unit acknowledgement",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Optional element",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only if weapons involved",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only for major crimes",
+          "is_correct": false
+        }
+      ],
+      "solution": "Unit acknowledgement",
+      "hints": "Stated directly in Procedure 109.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 10,
+        "pdf_page": 46,
+        "paragraph": "ACKNOWLEDGEMENT",
+        "coverage": "Await acknowledgement from unit before continuing."
+      }
+    },
+    {
+      "question_id": "NYC911-109-MCQ-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Updates",
+      "stem": "Procedure 109: What indicates new info is available?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Optional element",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only if weapons involved",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only for major crimes",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Update Button turns blue",
+          "is_correct": true
+        }
+      ],
+      "solution": "Update Button turns blue",
+      "hints": "Stated directly in Procedure 109.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 7,
+        "pdf_page": 46,
+        "paragraph": "UPDATES",
+        "coverage": "Transmit additional details ASAP; use Update Button (blue)."
+      }
+    },
+    {
+      "question_id": "NYC911-109-MCQ-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Transit",
+      "stem": "Procedure 109: In transit example, where is the aided located?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only if weapons involved",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Optional element",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only for major crimes",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "SB platform",
+          "is_correct": true
+        }
+      ],
+      "solution": "SB platform",
+      "hints": "Stated directly in Procedure 109.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 8,
+        "pdf_page": 47,
+        "paragraph": "TRANSIT EXAMPLE",
+        "coverage": "10-54 unconscious male on SB platform; EMS responding."
+      }
+    },
+    {
+      "question_id": "NYC911-109-MCQ-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "EMS",
+      "stem": "Procedure 109: In the transit example, EMS status is?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only if weapons involved",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only for major crimes",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Responding",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Optional element",
+          "is_correct": false
+        }
+      ],
+      "solution": "Responding",
+      "hints": "Stated directly in Procedure 109.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 8,
+        "pdf_page": 47,
+        "paragraph": "TRANSIT EXAMPLE",
+        "coverage": "10-54 unconscious male on SB platform; EMS responding."
+      }
+    },
+    {
+      "question_id": "NYC911-109-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Scope",
+      "stem": "Procedure 109: A proper transmission must include location, base code, specific location, and pertinent info.",
+      "answer": "true",
+      "hints": "Direct wording from the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 1,
+        "pdf_page": 45,
+        "paragraph": "SCOPE",
+        "coverage": "Proper radio transmissions must include location, base code, specific location, and all pertinent information."
+      }
+    },
+    {
+      "question_id": "NYC911-109-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Location",
+      "stem": "Procedure 109: Street addresses are transmitted only once.",
+      "answer": "false",
+      "hints": "Direct wording from the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 2,
+        "pdf_page": 45,
+        "paragraph": "LOCATION",
+        "coverage": "Transmit street address twice; cross streets; common place names; station/booth info."
+      }
+    },
+    {
+      "question_id": "NYC911-109-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Location",
+      "stem": "Procedure 109: Cross streets may be transmitted more than once.",
+      "answer": "true",
+      "hints": "Direct wording from the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 2,
+        "pdf_page": 45,
+        "paragraph": "LOCATION",
+        "coverage": "Transmit street address twice; cross streets; common place names; station/booth info."
+      }
+    },
+    {
+      "question_id": "NYC911-109-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Base code",
+      "stem": "Procedure 109: The base code must be explained.",
+      "answer": "true",
+      "hints": "Direct wording from the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 3,
+        "pdf_page": 45,
+        "paragraph": "BASE CODE",
+        "coverage": "Provide explanation of the base code according to its expansion."
+      }
+    },
+    {
+      "question_id": "NYC911-109-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Specific",
+      "stem": "Procedure 109: Apartments use phonetic alphabet.",
+      "answer": "true",
+      "hints": "Direct wording from the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 4,
+        "pdf_page": 45,
+        "paragraph": "SPECIFIC LOCATION",
+        "coverage": "Apartment phonetic, floor, IFO, corner, platform, LAT/LON."
+      }
+    },
+    {
+      "question_id": "NYC911-109-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Pertinent",
+      "stem": "Procedure 109: Weapons are pertinent information.",
+      "answer": "true",
+      "hints": "Direct wording from the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 5,
+        "pdf_page": 45,
+        "paragraph": "PERTINENT INFO",
+        "coverage": "Hazards, weapons, descriptions, direction of flight."
+      }
+    },
+    {
+      "question_id": "NYC911-109-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Example",
+      "stem": "Procedure 109: Dispatcher must await acknowledgement.",
+      "answer": "true",
+      "hints": "Direct wording from the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 10,
+        "pdf_page": 46,
+        "paragraph": "ACKNOWLEDGEMENT",
+        "coverage": "Await acknowledgement from unit before continuing."
+      }
+    },
+    {
+      "question_id": "NYC911-109-TF-008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Updates",
+      "stem": "Procedure 109: Additional info must be transmitted quickly.",
+      "answer": "true",
+      "hints": "Direct wording from the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 7,
+        "pdf_page": 46,
+        "paragraph": "UPDATES",
+        "coverage": "Transmit additional details ASAP; use Update Button (blue)."
+      }
+    },
+    {
+      "question_id": "NYC911-109-TF-009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Updates",
+      "stem": "Procedure 109: The Update Button illuminates when new info arrives.",
+      "answer": "true",
+      "hints": "Direct wording from the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 7,
+        "pdf_page": 46,
+        "paragraph": "UPDATES",
+        "coverage": "Transmit additional details ASAP; use Update Button (blue)."
+      }
+    },
+    {
+      "question_id": "NYC911-109-TF-010",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Transit",
+      "stem": "Procedure 109: Transit dispatchers must transmit updates quickly.",
+      "answer": "true",
+      "hints": "Direct wording from the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 9,
+        "pdf_page": 47,
+        "paragraph": "TRANSIT UPDATES",
+        "coverage": "Zone/Transit dispatchers transmit additional details ASAP."
+      }
+    },
+    {
+      "question_id": "NYC911-109-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Location rules",
+      "stem": "Procedure 109: Match item to rule.",
+      "answer": [
+        [
+          "Street address",
+          "Transmit twice"
+        ],
+        [
+          "Cross streets",
+          "Transmit twice (bounds)"
+        ],
+        [
+          "Common place",
+          "Use CAD name"
+        ]
+      ],
+      "hints": "Each answer is unique.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 2,
+        "pdf_page": 45,
+        "paragraph": "LOCATION",
+        "coverage": "Transmit street address twice; cross streets; common place names; station/booth info."
+      }
+    },
+    {
+      "question_id": "NYC911-109-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Dispatch parts",
+      "stem": "Procedure 109: Match component to purpose.",
+      "answer": [
+        [
+          "Base code",
+          "Incident type"
+        ],
+        [
+          "Specific location",
+          "Exact area"
+        ],
+        [
+          "Pertinent info",
+          "Unit safety"
+        ]
+      ],
+      "hints": "Each answer is unique.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 1,
+        "pdf_page": 45,
+        "paragraph": "SCOPE",
+        "coverage": "Proper radio transmissions must include location, base code, specific location, and all pertinent information."
+      }
+    },
+    {
+      "question_id": "NYC911-109-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Specific terms",
+      "stem": "Procedure 109: Match term to meaning.",
+      "answer": [
+        [
+          "IFO",
+          "In front of"
+        ],
+        [
+          "SB platform",
+          "Southbound platform"
+        ],
+        [
+          "LAT/LON",
+          "Cell site coordinates"
+        ]
+      ],
+      "hints": "Each answer is unique.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 4,
+        "pdf_page": 45,
+        "paragraph": "SPECIFIC LOCATION",
+        "coverage": "Apartment phonetic, floor, IFO, corner, platform, LAT/LON."
+      }
+    },
+    {
+      "question_id": "NYC911-109-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Example steps",
+      "stem": "Procedure 109: Match step to action.",
+      "answer": [
+        [
+          "Await acknowledgement",
+          "Pause before details"
+        ],
+        [
+          "Repeat location",
+          "Ensure clarity"
+        ],
+        [
+          "End with 'k'",
+          "Close transmission"
+        ]
+      ],
+      "hints": "Each answer is unique.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 6,
+        "pdf_page": 46,
+        "paragraph": "ZONE EXAMPLE",
+        "coverage": "10-52 arguing males example with acknowledgement and repeated location."
+      }
+    },
+    {
+      "question_id": "NYC911-109-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Update handling",
+      "stem": "Procedure 109: Match trigger to action.",
+      "answer": [
+        [
+          "New info",
+          "Transmit ASAP"
+        ],
+        [
+          "Blue button",
+          "Retrieve update"
+        ],
+        [
+          "Units",
+          "Stay informed"
+        ]
+      ],
+      "hints": "Each answer is unique.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 7,
+        "pdf_page": 46,
+        "paragraph": "UPDATES",
+        "coverage": "Transmit additional details ASAP; use Update Button (blue)."
+      }
+    },
+    {
+      "question_id": "NYC911-109-MATCH-006",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Transit phrasing",
+      "stem": "Procedure 109: Match element to example.",
+      "answer": [
+        [
+          "Third party",
+          "Railroad Clerk"
+        ],
+        [
+          "Location",
+          "Booth/station/platform"
+        ],
+        [
+          "EMS",
+          "Responding"
+        ]
+      ],
+      "hints": "Each answer is unique.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 8,
+        "pdf_page": 47,
+        "paragraph": "TRANSIT EXAMPLE",
+        "coverage": "10-54 unconscious male on SB platform; EMS responding."
+      }
+    },
+    {
+      "question_id": "NYC911-109-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Who dispatches",
+      "stem": "Procedure 109: Match dispatcher to role.",
+      "answer": [
+        [
+          "Radio dispatcher",
+          "Zone incidents"
+        ],
+        [
+          "Transit dispatcher",
+          "Subway incidents"
+        ],
+        [
+          "Zone/Transit",
+          "Send updates"
+        ]
+      ],
+      "hints": "Each answer is unique.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 9,
+        "pdf_page": 47,
+        "paragraph": "TRANSIT UPDATES",
+        "coverage": "Zone/Transit dispatchers transmit additional details ASAP."
+      }
+    },
+    {
+      "question_id": "NYC911-109-MATCH-008",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Pertinent details",
+      "stem": "Procedure 109: Match detail to reason.",
+      "answer": [
+        [
+          "Weapons",
+          "Officer safety"
+        ],
+        [
+          "Descriptions",
+          "Identification"
+        ],
+        [
+          "Direction of flight",
+          "Containment"
+        ]
+      ],
+      "hints": "Each answer is unique.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 5,
+        "pdf_page": 45,
+        "paragraph": "PERTINENT INFO",
+        "coverage": "Hazards, weapons, descriptions, direction of flight."
+      }
+    },
+    {
+      "question_id": "NYC911-109-MATCH-009",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Acknowledgement",
+      "stem": "Procedure 109: Match requirement to purpose.",
+      "answer": [
+        [
+          "Await acknowledgement",
+          "Unit readiness"
+        ],
+        [
+          "Proper wording",
+          "Clarity"
+        ],
+        [
+          "Repeat info",
+          "Avoid confusion"
+        ]
+      ],
+      "hints": "Each answer is unique.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 10,
+        "pdf_page": 46,
+        "paragraph": "ACKNOWLEDGEMENT",
+        "coverage": "Await acknowledgement from unit before continuing."
+      }
+    },
+    {
+      "question_id": "NYC911-109-MATCH-010",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Codes",
+      "stem": "Procedure 109: Match code to meaning.",
+      "answer": [
+        [
+          "10-52",
+          "Arguing males"
+        ],
+        [
+          "10-54",
+          "Unconscious aided"
+        ],
+        [
+          "Expansion",
+          "Explains code"
+        ]
+      ],
+      "hints": "Each answer is unique.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 6,
+        "pdf_page": 46,
+        "paragraph": "ZONE EXAMPLE",
+        "coverage": "10-52 arguing males example with acknowledgement and repeated location."
+      }
+    },
+    {
+      "question_id": "NYC911-109-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Scope",
+      "stem": "Procedure 109: A proper transmission must include location, base code, specific location, and ________ information.",
+      "answer": "pertinent",
+      "hints": "The word appears in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 1,
+        "pdf_page": 45,
+        "paragraph": "SCOPE",
+        "coverage": "Proper radio transmissions must include location, base code, specific location, and all pertinent information."
+      }
+    },
+    {
+      "question_id": "NYC911-109-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Location",
+      "stem": "Procedure 109: Street addresses are transmitted as whole numbers and single ________.",
+      "answer": "digits",
+      "hints": "The word appears in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 2,
+        "pdf_page": 45,
+        "paragraph": "LOCATION",
+        "coverage": "Transmit street address twice; cross streets; common place names; station/booth info."
+      }
+    },
+    {
+      "question_id": "NYC911-109-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Base code",
+      "stem": "Procedure 109: Dispatcher must provide an ________ of the base code.",
+      "answer": "explanation",
+      "hints": "The word appears in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 3,
+        "pdf_page": 45,
+        "paragraph": "BASE CODE",
+        "coverage": "Provide explanation of the base code according to its expansion."
+      }
+    },
+    {
+      "question_id": "NYC911-109-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Specific",
+      "stem": "Procedure 109: Apartments use the ________ alphabet.",
+      "answer": "phonetic",
+      "hints": "The word appears in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 4,
+        "pdf_page": 45,
+        "paragraph": "SPECIFIC LOCATION",
+        "coverage": "Apartment phonetic, floor, IFO, corner, platform, LAT/LON."
+      }
+    },
+    {
+      "question_id": "NYC911-109-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Pertinent",
+      "stem": "Procedure 109: Direction of ________ must be transmitted.",
+      "answer": "flight",
+      "hints": "The word appears in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 5,
+        "pdf_page": 45,
+        "paragraph": "PERTINENT INFO",
+        "coverage": "Hazards, weapons, descriptions, direction of flight."
+      }
+    },
+    {
+      "question_id": "NYC911-109-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Example",
+      "stem": "Procedure 109: Dispatcher must await ________ from the unit.",
+      "answer": "acknowledgement",
+      "hints": "The word appears in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 10,
+        "pdf_page": 46,
+        "paragraph": "ACKNOWLEDGEMENT",
+        "coverage": "Await acknowledgement from unit before continuing."
+      }
+    },
+    {
+      "question_id": "NYC911-109-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Updates",
+      "stem": "Procedure 109: Additional details transmitted as ________ as possible.",
+      "answer": "quickly",
+      "hints": "The word appears in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 7,
+        "pdf_page": 46,
+        "paragraph": "UPDATES",
+        "coverage": "Transmit additional details ASAP; use Update Button (blue)."
+      }
+    },
+    {
+      "question_id": "NYC911-109-FB-008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Update tool",
+      "stem": "Procedure 109: Update Button illuminates ________.",
+      "answer": "blue",
+      "hints": "The word appears in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 7,
+        "pdf_page": 46,
+        "paragraph": "UPDATES",
+        "coverage": "Transmit additional details ASAP; use Update Button (blue)."
+      }
+    },
+    {
+      "question_id": "NYC911-109-FB-009",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "Transit",
+      "stem": "Procedure 109: The aided is on the ________ platform.",
+      "answer": "SB",
+      "hints": "The word appears in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 8,
+        "pdf_page": 47,
+        "paragraph": "TRANSIT EXAMPLE",
+        "coverage": "10-54 unconscious male on SB platform; EMS responding."
+      }
+    },
+    {
+      "question_id": "NYC911-109-FB-010",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 109 – DISPATCHING INCIDENTS",
+      "subtopic": "EMS",
+      "stem": "Procedure 109: EMS is ________ in the example.",
+      "answer": "responding",
+      "hints": "The word appears in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc109"
+      ],
+      "source": {
+        "procedure": 109,
+        "proc_page": 8,
+        "pdf_page": 47,
+        "paragraph": "TRANSIT EXAMPLE",
+        "coverage": "10-54 unconscious male on SB platform; EMS responding."
+      }
+    }
+  ]
+}

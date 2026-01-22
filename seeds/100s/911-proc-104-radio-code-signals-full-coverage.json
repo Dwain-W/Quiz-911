@@ -1,0 +1,3816 @@
+{
+  "lesson": {
+    "slug": "911-proc-104-radio-code-signals-full-coverage",
+    "title": "Procedure 104 – RADIO CODE SIGNALS",
+    "topic": "Radio Code Signals",
+    "order": 104,
+    "objectives": [
+      "Identify radio code signals and their meanings.",
+      "Apply proper radio code usage during transmissions.",
+      "Use radio codes to ensure efficient and accurate communications."
+    ],
+    "questionIds": [
+      "NYC911-104-MCQ-0001",
+      "NYC911-104-TF-0001",
+      "NYC911-104-MATCH-0001",
+      "NYC911-104-FB-0001",
+      "NYC911-104-MCQ-0002",
+      "NYC911-104-TF-0002",
+      "NYC911-104-MATCH-0002",
+      "NYC911-104-FB-0002",
+      "NYC911-104-MCQ-0003",
+      "NYC911-104-TF-0003",
+      "NYC911-104-MATCH-0003",
+      "NYC911-104-FB-0003",
+      "NYC911-104-MCQ-0004",
+      "NYC911-104-TF-0004",
+      "NYC911-104-MATCH-0004",
+      "NYC911-104-FB-0004",
+      "NYC911-104-MCQ-0005",
+      "NYC911-104-TF-0005",
+      "NYC911-104-MATCH-0005",
+      "NYC911-104-FB-0005",
+      "NYC911-104-MCQ-0006",
+      "NYC911-104-TF-0006",
+      "NYC911-104-MATCH-0006",
+      "NYC911-104-FB-0006",
+      "NYC911-104-MCQ-0007",
+      "NYC911-104-TF-0007",
+      "NYC911-104-MATCH-0007",
+      "NYC911-104-FB-0007",
+      "NYC911-104-MCQ-0008",
+      "NYC911-104-TF-0008",
+      "NYC911-104-MATCH-0008",
+      "NYC911-104-FB-0008",
+      "NYC911-104-MCQ-0009",
+      "NYC911-104-TF-0009",
+      "NYC911-104-MATCH-0009",
+      "NYC911-104-FB-0009",
+      "NYC911-104-MCQ-0010",
+      "NYC911-104-TF-0010",
+      "NYC911-104-MATCH-0010",
+      "NYC911-104-FB-0010",
+      "NYC911-104-MCQ-0011",
+      "NYC911-104-TF-0011",
+      "NYC911-104-MATCH-0011",
+      "NYC911-104-FB-0011",
+      "NYC911-104-MCQ-0012",
+      "NYC911-104-TF-0012",
+      "NYC911-104-MATCH-0012",
+      "NYC911-104-FB-0012",
+      "NYC911-104-MCQ-0013",
+      "NYC911-104-TF-0013",
+      "NYC911-104-MATCH-0013",
+      "NYC911-104-FB-0013",
+      "NYC911-104-MCQ-0014",
+      "NYC911-104-TF-0014",
+      "NYC911-104-MATCH-0014",
+      "NYC911-104-FB-0014",
+      "NYC911-104-MCQ-0015",
+      "NYC911-104-TF-0015",
+      "NYC911-104-MATCH-0015",
+      "NYC911-104-FB-0015",
+      "NYC911-104-MCQ-0016",
+      "NYC911-104-TF-0016",
+      "NYC911-104-MATCH-0016",
+      "NYC911-104-FB-0016",
+      "NYC911-104-MCQ-0017",
+      "NYC911-104-TF-0017",
+      "NYC911-104-MATCH-0017",
+      "NYC911-104-FB-0017",
+      "NYC911-104-MCQ-0018",
+      "NYC911-104-TF-0018",
+      "NYC911-104-MATCH-0018",
+      "NYC911-104-FB-0018",
+      "NYC911-104-MCQ-0019",
+      "NYC911-104-TF-0019",
+      "NYC911-104-MATCH-0019",
+      "NYC911-104-FB-0019",
+      "NYC911-104-MCQ-0020",
+      "NYC911-104-TF-0020",
+      "NYC911-104-MATCH-0020",
+      "NYC911-104-FB-0020",
+      "NYC911-104-MCQ-0021",
+      "NYC911-104-TF-0021",
+      "NYC911-104-MATCH-0021",
+      "NYC911-104-FB-0021",
+      "NYC911-104-MCQ-0022",
+      "NYC911-104-TF-0022",
+      "NYC911-104-MATCH-0022",
+      "NYC911-104-FB-0022",
+      "NYC911-104-MCQ-0023",
+      "NYC911-104-TF-0023",
+      "NYC911-104-MATCH-0023",
+      "NYC911-104-FB-0023",
+      "NYC911-104-MCQ-0024",
+      "NYC911-104-TF-0024",
+      "NYC911-104-MATCH-0024",
+      "NYC911-104-FB-0024",
+      "NYC911-104-MCQ-0025",
+      "NYC911-104-TF-0025",
+      "NYC911-104-MATCH-0025",
+      "NYC911-104-FB-0025",
+      "NYC911-104-MCQ-0026",
+      "NYC911-104-TF-0026",
+      "NYC911-104-MATCH-0026",
+      "NYC911-104-FB-0026",
+      "NYC911-104-MCQ-0027",
+      "NYC911-104-TF-0027",
+      "NYC911-104-MATCH-0027",
+      "NYC911-104-FB-0027",
+      "NYC911-104-MCQ-0028",
+      "NYC911-104-TF-0028",
+      "NYC911-104-MATCH-0028",
+      "NYC911-104-FB-0028",
+      "NYC911-104-MCQ-0029",
+      "NYC911-104-TF-0029",
+      "NYC911-104-MATCH-0029",
+      "NYC911-104-FB-0029"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-104-MCQ-0001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-02",
+      "stem": "Procedure 104: What does radio code 10-02 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "REPORT TO YOUR COMMAND",
+          "is_correct": true
+        }
+      ],
+      "solution": "REPORT TO YOUR COMMAND",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 1,
+        "pdf_page": 23,
+        "paragraph": "CODE 10-02",
+        "coverage": "REPORT TO YOUR COMMAND"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-02",
+      "stem": "Procedure 104: Radio code 10-02 means 'REPORT TO YOUR COMMAND'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 1,
+        "pdf_page": 23,
+        "paragraph": "CODE 10-02",
+        "coverage": "REPORT TO YOUR COMMAND"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-02",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-02",
+          "REPORT TO YOUR COMMAND"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 1,
+        "pdf_page": 23,
+        "paragraph": "CODE 10-02",
+        "coverage": "REPORT TO YOUR COMMAND"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-02",
+      "stem": "Procedure 104: Radio code 10-02 refers to ________.",
+      "answer": "REPORT TO YOUR COMMAND",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 1,
+        "pdf_page": 23,
+        "paragraph": "CODE 10-02",
+        "coverage": "REPORT TO YOUR COMMAND"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-03",
+      "stem": "Procedure 104: What does radio code 10-03 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "CALL DISPATCHER BY TELEPHONE",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        }
+      ],
+      "solution": "CALL DISPATCHER BY TELEPHONE",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 2,
+        "pdf_page": 23,
+        "paragraph": "CODE 10-03",
+        "coverage": "CALL DISPATCHER BY TELEPHONE"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-03",
+      "stem": "Procedure 104: Radio code 10-03 means 'CALL DISPATCHER BY TELEPHONE'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 2,
+        "pdf_page": 23,
+        "paragraph": "CODE 10-03",
+        "coverage": "CALL DISPATCHER BY TELEPHONE"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-03",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-03",
+          "CALL DISPATCHER BY TELEPHONE"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 2,
+        "pdf_page": 23,
+        "paragraph": "CODE 10-03",
+        "coverage": "CALL DISPATCHER BY TELEPHONE"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-03",
+      "stem": "Procedure 104: Radio code 10-03 refers to ________.",
+      "answer": "CALL DISPATCHER BY TELEPHONE",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 2,
+        "pdf_page": 23,
+        "paragraph": "CODE 10-03",
+        "coverage": "CALL DISPATCHER BY TELEPHONE"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-05",
+      "stem": "Procedure 104: What does radio code 10-05 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "REPEAT MESSAGE",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "A different radio status",
+          "is_correct": false
+        }
+      ],
+      "solution": "REPEAT MESSAGE",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 3,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-05",
+        "coverage": "REPEAT MESSAGE"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-05",
+      "stem": "Procedure 104: Radio code 10-05 means 'REPEAT MESSAGE'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 3,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-05",
+        "coverage": "REPEAT MESSAGE"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-05",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-05",
+          "REPEAT MESSAGE"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 3,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-05",
+        "coverage": "REPEAT MESSAGE"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-05",
+      "stem": "Procedure 104: Radio code 10-05 refers to ________.",
+      "answer": "REPEAT MESSAGE",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 3,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-05",
+        "coverage": "REPEAT MESSAGE"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-06",
+      "stem": "Procedure 104: What does radio code 10-06 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "STAND BY",
+          "is_correct": true
+        }
+      ],
+      "solution": "STAND BY",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 4,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-06",
+        "coverage": "STAND BY"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-06",
+      "stem": "Procedure 104: Radio code 10-06 means 'STAND BY'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 4,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-06",
+        "coverage": "STAND BY"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-06",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-06",
+          "STAND BY"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 4,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-06",
+        "coverage": "STAND BY"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-06",
+      "stem": "Procedure 104: Radio code 10-06 refers to ________.",
+      "answer": "STAND BY",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 4,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-06",
+        "coverage": "STAND BY"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-07",
+      "stem": "Procedure 104: What does radio code 10-07 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "VERIFY ADDRESS",
+          "is_correct": true
+        }
+      ],
+      "solution": "VERIFY ADDRESS",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 5,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-07",
+        "coverage": "VERIFY ADDRESS"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-07",
+      "stem": "Procedure 104: Radio code 10-07 means 'VERIFY ADDRESS'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 5,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-07",
+        "coverage": "VERIFY ADDRESS"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0005",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-07",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-07",
+          "VERIFY ADDRESS"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 5,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-07",
+        "coverage": "VERIFY ADDRESS"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-07",
+      "stem": "Procedure 104: Radio code 10-07 refers to ________.",
+      "answer": "VERIFY ADDRESS",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 5,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-07",
+        "coverage": "VERIFY ADDRESS"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-08",
+      "stem": "Procedure 104: What does radio code 10-08 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "NOT USED",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        }
+      ],
+      "solution": "NOT USED",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 6,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-08",
+        "coverage": "NOT USED"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-08",
+      "stem": "Procedure 104: Radio code 10-08 means 'NOT USED'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 6,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-08",
+        "coverage": "NOT USED"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0006",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-08",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-08",
+          "NOT USED"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 6,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-08",
+        "coverage": "NOT USED"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-08",
+      "stem": "Procedure 104: Radio code 10-08 refers to ________.",
+      "answer": "NOT USED",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 6,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-08",
+        "coverage": "NOT USED"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-09",
+      "stem": "Procedure 104: What does radio code 10-09 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NOT USED",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "A different radio status",
+          "is_correct": false
+        }
+      ],
+      "solution": "NOT USED",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 7,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-09",
+        "coverage": "NOT USED"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-09",
+      "stem": "Procedure 104: Radio code 10-09 means 'NOT USED'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 7,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-09",
+        "coverage": "NOT USED"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0007",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-09",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-09",
+          "NOT USED"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 7,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-09",
+        "coverage": "NOT USED"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-09",
+      "stem": "Procedure 104: Radio code 10-09 refers to ________.",
+      "answer": "NOT USED",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 7,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-09",
+        "coverage": "NOT USED"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-14",
+      "stem": "Procedure 104: What does radio code 10-14 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "OCCUPIED AND SUSPICIOUS VERIFY IF STOLEN",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        }
+      ],
+      "solution": "OCCUPIED AND SUSPICIOUS VERIFY IF STOLEN",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 8,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-14",
+        "coverage": "OCCUPIED AND SUSPICIOUS VERIFY IF STOLEN"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-14",
+      "stem": "Procedure 104: Radio code 10-14 means 'OCCUPIED AND SUSPICIOUS VERIFY IF STOLEN'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 8,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-14",
+        "coverage": "OCCUPIED AND SUSPICIOUS VERIFY IF STOLEN"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0008",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-14",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-14",
+          "OCCUPIED AND SUSPICIOUS VERIFY IF STOLEN"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 8,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-14",
+        "coverage": "OCCUPIED AND SUSPICIOUS VERIFY IF STOLEN"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-14",
+      "stem": "Procedure 104: Radio code 10-14 refers to ________.",
+      "answer": "OCCUPIED AND SUSPICIOUS VERIFY IF STOLEN",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 8,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-14",
+        "coverage": "OCCUPIED AND SUSPICIOUS VERIFY IF STOLEN"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-15",
+      "stem": "Procedure 104: What does radio code 10-15 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "VERIFY IF STOLEN OCCUPIED OR NOT",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        }
+      ],
+      "solution": "VERIFY IF STOLEN OCCUPIED OR NOT",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 9,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-15",
+        "coverage": "VERIFY IF STOLEN OCCUPIED OR NOT"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-15",
+      "stem": "Procedure 104: Radio code 10-15 means 'VERIFY IF STOLEN OCCUPIED OR NOT'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 9,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-15",
+        "coverage": "VERIFY IF STOLEN OCCUPIED OR NOT"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0009",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-15",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-15",
+          "VERIFY IF STOLEN OCCUPIED OR NOT"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 9,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-15",
+        "coverage": "VERIFY IF STOLEN OCCUPIED OR NOT"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0009",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-15",
+      "stem": "Procedure 104: Radio code 10-15 refers to ________.",
+      "answer": "VERIFY IF STOLEN OCCUPIED OR NOT",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 9,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-15",
+        "coverage": "VERIFY IF STOLEN OCCUPIED OR NOT"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-16",
+      "stem": "Procedure 104: What does radio code 10-16 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "VEHICLE IS REPORTED STOLEN",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        }
+      ],
+      "solution": "VEHICLE IS REPORTED STOLEN",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 10,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-16",
+        "coverage": "VEHICLE IS REPORTED STOLEN"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0010",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-16",
+      "stem": "Procedure 104: Radio code 10-16 means 'VEHICLE IS REPORTED STOLEN'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 10,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-16",
+        "coverage": "VEHICLE IS REPORTED STOLEN"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0010",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-16",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-16",
+          "VEHICLE IS REPORTED STOLEN"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 10,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-16",
+        "coverage": "VEHICLE IS REPORTED STOLEN"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0010",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-16",
+      "stem": "Procedure 104: Radio code 10-16 refers to ________.",
+      "answer": "VEHICLE IS REPORTED STOLEN",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 10,
+        "pdf_page": 24,
+        "paragraph": "CODE 10-16",
+        "coverage": "VEHICLE IS REPORTED STOLEN"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-18",
+      "stem": "Procedure 104: What does radio code 10-18 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "WARRANT CHECK SHOWS ACTIVE WARRANT",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        }
+      ],
+      "solution": "WARRANT CHECK SHOWS ACTIVE WARRANT",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 11,
+        "pdf_page": 25,
+        "paragraph": "CODE 10-18",
+        "coverage": "WARRANT CHECK SHOWS ACTIVE WARRANT"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0011",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-18",
+      "stem": "Procedure 104: Radio code 10-18 means 'WARRANT CHECK SHOWS ACTIVE WARRANT'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 11,
+        "pdf_page": 25,
+        "paragraph": "CODE 10-18",
+        "coverage": "WARRANT CHECK SHOWS ACTIVE WARRANT"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0011",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-18",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-18",
+          "WARRANT CHECK SHOWS ACTIVE WARRANT"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 11,
+        "pdf_page": 25,
+        "paragraph": "CODE 10-18",
+        "coverage": "WARRANT CHECK SHOWS ACTIVE WARRANT"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0011",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-18",
+      "stem": "Procedure 104: Radio code 10-18 refers to ________.",
+      "answer": "WARRANT CHECK SHOWS ACTIVE WARRANT",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 11,
+        "pdf_page": 25,
+        "paragraph": "CODE 10-18",
+        "coverage": "WARRANT CHECK SHOWS ACTIVE WARRANT"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-19",
+      "stem": "Procedure 104: What does radio code 10-19 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "WARRANT CHECK NEGATIVE",
+          "is_correct": true
+        }
+      ],
+      "solution": "WARRANT CHECK NEGATIVE",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 12,
+        "pdf_page": 25,
+        "paragraph": "CODE 10-19",
+        "coverage": "WARRANT CHECK NEGATIVE"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0012",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-19",
+      "stem": "Procedure 104: Radio code 10-19 means 'WARRANT CHECK NEGATIVE'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 12,
+        "pdf_page": 25,
+        "paragraph": "CODE 10-19",
+        "coverage": "WARRANT CHECK NEGATIVE"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0012",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-19",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-19",
+          "WARRANT CHECK NEGATIVE"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 12,
+        "pdf_page": 25,
+        "paragraph": "CODE 10-19",
+        "coverage": "WARRANT CHECK NEGATIVE"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0012",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-19",
+      "stem": "Procedure 104: Radio code 10-19 refers to ________.",
+      "answer": "WARRANT CHECK NEGATIVE",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 12,
+        "pdf_page": 25,
+        "paragraph": "CODE 10-19",
+        "coverage": "WARRANT CHECK NEGATIVE"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-62",
+      "stem": "Procedure 104: What does radio code 10-62 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "OUT OF SERVICE (MECHANICAL)",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "A different radio status",
+          "is_correct": false
+        }
+      ],
+      "solution": "OUT OF SERVICE (MECHANICAL)",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 13,
+        "pdf_page": 26,
+        "paragraph": "CODE 10-62",
+        "coverage": "OUT OF SERVICE (MECHANICAL)"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0013",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-62",
+      "stem": "Procedure 104: Radio code 10-62 means 'OUT OF SERVICE (MECHANICAL)'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 13,
+        "pdf_page": 26,
+        "paragraph": "CODE 10-62",
+        "coverage": "OUT OF SERVICE (MECHANICAL)"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0013",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-62",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-62",
+          "OUT OF SERVICE (MECHANICAL)"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 13,
+        "pdf_page": 26,
+        "paragraph": "CODE 10-62",
+        "coverage": "OUT OF SERVICE (MECHANICAL)"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0013",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-62",
+      "stem": "Procedure 104: Radio code 10-62 refers to ________.",
+      "answer": "OUT OF SERVICE (MECHANICAL)",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 13,
+        "pdf_page": 26,
+        "paragraph": "CODE 10-62",
+        "coverage": "OUT OF SERVICE (MECHANICAL)"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-63",
+      "stem": "Procedure 104: What does radio code 10-63 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "MEAL",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        }
+      ],
+      "solution": "MEAL",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 14,
+        "pdf_page": 26,
+        "paragraph": "CODE 10-63",
+        "coverage": "MEAL"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0014",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-63",
+      "stem": "Procedure 104: Radio code 10-63 means 'MEAL'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 14,
+        "pdf_page": 26,
+        "paragraph": "CODE 10-63",
+        "coverage": "MEAL"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0014",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-63",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-63",
+          "MEAL"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 14,
+        "pdf_page": 26,
+        "paragraph": "CODE 10-63",
+        "coverage": "MEAL"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0014",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-63",
+      "stem": "Procedure 104: Radio code 10-63 refers to ________.",
+      "answer": "MEAL",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 14,
+        "pdf_page": 26,
+        "paragraph": "CODE 10-63",
+        "coverage": "MEAL"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-83",
+      "stem": "Procedure 104: What does radio code 10-83 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "REPORT/NOTIFICATION AT STATION HOUSE",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "A different radio status",
+          "is_correct": false
+        }
+      ],
+      "solution": "REPORT/NOTIFICATION AT STATION HOUSE",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 15,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-83",
+        "coverage": "REPORT/NOTIFICATION AT STATION HOUSE"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0015",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-83",
+      "stem": "Procedure 104: Radio code 10-83 means 'REPORT/NOTIFICATION AT STATION HOUSE'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 15,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-83",
+        "coverage": "REPORT/NOTIFICATION AT STATION HOUSE"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0015",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-83",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-83",
+          "REPORT/NOTIFICATION AT STATION HOUSE"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 15,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-83",
+        "coverage": "REPORT/NOTIFICATION AT STATION HOUSE"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0015",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-83",
+      "stem": "Procedure 104: Radio code 10-83 refers to ________.",
+      "answer": "REPORT/NOTIFICATION AT STATION HOUSE",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 15,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-83",
+        "coverage": "REPORT/NOTIFICATION AT STATION HOUSE"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-84",
+      "stem": "Procedure 104: What does radio code 10-84 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ARRIVED AT SCENE",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        }
+      ],
+      "solution": "ARRIVED AT SCENE",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 16,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-84",
+        "coverage": "ARRIVED AT SCENE"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0016",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-84",
+      "stem": "Procedure 104: Radio code 10-84 means 'ARRIVED AT SCENE'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 16,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-84",
+        "coverage": "ARRIVED AT SCENE"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0016",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-84",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-84",
+          "ARRIVED AT SCENE"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 16,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-84",
+        "coverage": "ARRIVED AT SCENE"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0016",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-84",
+      "stem": "Procedure 104: Radio code 10-84 refers to ________.",
+      "answer": "ARRIVED AT SCENE",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 16,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-84",
+        "coverage": "ARRIVED AT SCENE"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-85",
+      "stem": "Procedure 104: What does radio code 10-85 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "NEED ADDITIONAL UNIT(S), SPECIFY IF",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "A different radio status",
+          "is_correct": false
+        }
+      ],
+      "solution": "NEED ADDITIONAL UNIT(S), SPECIFY IF",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 17,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-85",
+        "coverage": "NEED ADDITIONAL UNIT(S), SPECIFY IF"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0017",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-85",
+      "stem": "Procedure 104: Radio code 10-85 means 'NEED ADDITIONAL UNIT(S), SPECIFY IF'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 17,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-85",
+        "coverage": "NEED ADDITIONAL UNIT(S), SPECIFY IF"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0017",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-85",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-85",
+          "NEED ADDITIONAL UNIT(S), SPECIFY IF"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 17,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-85",
+        "coverage": "NEED ADDITIONAL UNIT(S), SPECIFY IF"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0017",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-85",
+      "stem": "Procedure 104: Radio code 10-85 refers to ________.",
+      "answer": "NEED ADDITIONAL UNIT(S), SPECIFY IF",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 17,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-85",
+        "coverage": "NEED ADDITIONAL UNIT(S), SPECIFY IF"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-86",
+      "stem": "Procedure 104: What does radio code 10-86 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "FEMALE IN/OUT OF VEHICLE (Document mileage and",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "A different radio status",
+          "is_correct": false
+        }
+      ],
+      "solution": "FEMALE IN/OUT OF VEHICLE (Document mileage and",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 18,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-86",
+        "coverage": "FEMALE IN/OUT OF VEHICLE (Document mileage and"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0018",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-86",
+      "stem": "Procedure 104: Radio code 10-86 means 'FEMALE IN/OUT OF VEHICLE (Document mileage and'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 18,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-86",
+        "coverage": "FEMALE IN/OUT OF VEHICLE (Document mileage and"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0018",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-86",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-86",
+          "FEMALE IN/OUT OF VEHICLE (Document mileage and"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 18,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-86",
+        "coverage": "FEMALE IN/OUT OF VEHICLE (Document mileage and"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0018",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-86",
+      "stem": "Procedure 104: Radio code 10-86 refers to ________.",
+      "answer": "FEMALE IN/OUT OF VEHICLE (Document mileage and",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 18,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-86",
+        "coverage": "FEMALE IN/OUT OF VEHICLE (Document mileage and"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-87",
+      "stem": "Procedure 104: What does radio code 10-87 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "UNIT TO HOSPITAL (Specify hospital)",
+          "is_correct": true
+        }
+      ],
+      "solution": "UNIT TO HOSPITAL (Specify hospital)",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 19,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-87",
+        "coverage": "UNIT TO HOSPITAL (Specify hospital)"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0019",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-87",
+      "stem": "Procedure 104: Radio code 10-87 means 'UNIT TO HOSPITAL (Specify hospital)'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 19,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-87",
+        "coverage": "UNIT TO HOSPITAL (Specify hospital)"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0019",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-87",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-87",
+          "UNIT TO HOSPITAL (Specify hospital)"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 19,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-87",
+        "coverage": "UNIT TO HOSPITAL (Specify hospital)"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0019",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-87",
+      "stem": "Procedure 104: Radio code 10-87 refers to ________.",
+      "answer": "UNIT TO HOSPITAL (Specify hospital)",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 19,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-87",
+        "coverage": "UNIT TO HOSPITAL (Specify hospital)"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-88",
+      "stem": "Procedure 104: What does radio code 10-88 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "VEHICLE PURSUIT",
+          "is_correct": true
+        }
+      ],
+      "solution": "VEHICLE PURSUIT",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 20,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-88",
+        "coverage": "VEHICLE PURSUIT"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0020",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-88",
+      "stem": "Procedure 104: Radio code 10-88 means 'VEHICLE PURSUIT'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 20,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-88",
+        "coverage": "VEHICLE PURSUIT"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0020",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-88",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-88",
+          "VEHICLE PURSUIT"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 20,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-88",
+        "coverage": "VEHICLE PURSUIT"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0020",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-88",
+      "stem": "Procedure 104: Radio code 10-88 refers to ________.",
+      "answer": "VEHICLE PURSUIT",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 20,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-88",
+        "coverage": "VEHICLE PURSUIT"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-89",
+      "stem": "Procedure 104: What does radio code 10-89 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "OTHER INTERIM STATUS",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "A different radio status",
+          "is_correct": false
+        }
+      ],
+      "solution": "OTHER INTERIM STATUS",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 21,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-89",
+        "coverage": "OTHER INTERIM STATUS"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0021",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-89",
+      "stem": "Procedure 104: Radio code 10-89 means 'OTHER INTERIM STATUS'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 21,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-89",
+        "coverage": "OTHER INTERIM STATUS"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0021",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-89",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-89",
+          "OTHER INTERIM STATUS"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 21,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-89",
+        "coverage": "OTHER INTERIM STATUS"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0021",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-89",
+      "stem": "Procedure 104: Radio code 10-89 refers to ________.",
+      "answer": "OTHER INTERIM STATUS",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 21,
+        "pdf_page": 28,
+        "paragraph": "CODE 10-89",
+        "coverage": "OTHER INTERIM STATUS"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-91",
+      "stem": "Procedure 104: What does radio code 10-91 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "NON – CRIME CORRECTED",
+          "is_correct": true
+        }
+      ],
+      "solution": "NON – CRIME CORRECTED",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 22,
+        "pdf_page": 30,
+        "paragraph": "CODE 10-91",
+        "coverage": "NON – CRIME CORRECTED"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0022",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-91",
+      "stem": "Procedure 104: Radio code 10-91 means 'NON – CRIME CORRECTED'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 22,
+        "pdf_page": 30,
+        "paragraph": "CODE 10-91",
+        "coverage": "NON – CRIME CORRECTED"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0022",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-91",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-91",
+          "NON – CRIME CORRECTED"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 22,
+        "pdf_page": 30,
+        "paragraph": "CODE 10-91",
+        "coverage": "NON – CRIME CORRECTED"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0022",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-91",
+      "stem": "Procedure 104: Radio code 10-91 refers to ________.",
+      "answer": "NON – CRIME CORRECTED",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 22,
+        "pdf_page": 30,
+        "paragraph": "CODE 10-91",
+        "coverage": "NON – CRIME CORRECTED"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-92",
+      "stem": "Procedure 104: What does radio code 10-92 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "C ARREST – CRIME (FELONY / MISDEMEANOR)",
+          "is_correct": true
+        }
+      ],
+      "solution": "C ARREST – CRIME (FELONY / MISDEMEANOR)",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 23,
+        "pdf_page": 31,
+        "paragraph": "CODE 10-92",
+        "coverage": "C ARREST – CRIME (FELONY / MISDEMEANOR)"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0023",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-92",
+      "stem": "Procedure 104: Radio code 10-92 means 'C ARREST – CRIME (FELONY / MISDEMEANOR)'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 23,
+        "pdf_page": 31,
+        "paragraph": "CODE 10-92",
+        "coverage": "C ARREST – CRIME (FELONY / MISDEMEANOR)"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0023",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-92",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-92",
+          "C ARREST – CRIME (FELONY / MISDEMEANOR)"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 23,
+        "pdf_page": 31,
+        "paragraph": "CODE 10-92",
+        "coverage": "C ARREST – CRIME (FELONY / MISDEMEANOR)"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0023",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-92",
+      "stem": "Procedure 104: Radio code 10-92 refers to ________.",
+      "answer": "C ARREST – CRIME (FELONY / MISDEMEANOR)",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 23,
+        "pdf_page": 31,
+        "paragraph": "CODE 10-92",
+        "coverage": "C ARREST – CRIME (FELONY / MISDEMEANOR)"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0024",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-93",
+      "stem": "Procedure 104: What does radio code 10-93 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "C CRIME REPORT PREPARED (NO ARREST)",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "A different radio status",
+          "is_correct": false
+        }
+      ],
+      "solution": "C CRIME REPORT PREPARED (NO ARREST)",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 24,
+        "pdf_page": 31,
+        "paragraph": "CODE 10-93",
+        "coverage": "C CRIME REPORT PREPARED (NO ARREST)"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0024",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-93",
+      "stem": "Procedure 104: Radio code 10-93 means 'C CRIME REPORT PREPARED (NO ARREST)'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 24,
+        "pdf_page": 31,
+        "paragraph": "CODE 10-93",
+        "coverage": "C CRIME REPORT PREPARED (NO ARREST)"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0024",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-93",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-93",
+          "C CRIME REPORT PREPARED (NO ARREST)"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 24,
+        "pdf_page": 31,
+        "paragraph": "CODE 10-93",
+        "coverage": "C CRIME REPORT PREPARED (NO ARREST)"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0024",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-93",
+      "stem": "Procedure 104: Radio code 10-93 refers to ________.",
+      "answer": "C CRIME REPORT PREPARED (NO ARREST)",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 24,
+        "pdf_page": 31,
+        "paragraph": "CODE 10-93",
+        "coverage": "C CRIME REPORT PREPARED (NO ARREST)"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0025",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-94",
+      "stem": "Procedure 104: What does radio code 10-94 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "HANDLED BY PREVIOUS TOUR",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        }
+      ],
+      "solution": "HANDLED BY PREVIOUS TOUR",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 25,
+        "pdf_page": 31,
+        "paragraph": "CODE 10-94",
+        "coverage": "HANDLED BY PREVIOUS TOUR"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0025",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-94",
+      "stem": "Procedure 104: Radio code 10-94 means 'HANDLED BY PREVIOUS TOUR'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 25,
+        "pdf_page": 31,
+        "paragraph": "CODE 10-94",
+        "coverage": "HANDLED BY PREVIOUS TOUR"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0025",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-94",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-94",
+          "HANDLED BY PREVIOUS TOUR"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 25,
+        "pdf_page": 31,
+        "paragraph": "CODE 10-94",
+        "coverage": "HANDLED BY PREVIOUS TOUR"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0025",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-94",
+      "stem": "Procedure 104: Radio code 10-94 refers to ________.",
+      "answer": "HANDLED BY PREVIOUS TOUR",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 25,
+        "pdf_page": 31,
+        "paragraph": "CODE 10-94",
+        "coverage": "HANDLED BY PREVIOUS TOUR"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0026",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-95",
+      "stem": "Procedure 104: What does radio code 10-95 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "A NON-CRIME REFERRED TO ANOTHER AGENCY",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        }
+      ],
+      "solution": "A NON-CRIME REFERRED TO ANOTHER AGENCY",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 26,
+        "pdf_page": 31,
+        "paragraph": "CODE 10-95",
+        "coverage": "A NON-CRIME REFERRED TO ANOTHER AGENCY"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0026",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-95",
+      "stem": "Procedure 104: Radio code 10-95 means 'A NON-CRIME REFERRED TO ANOTHER AGENCY'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 26,
+        "pdf_page": 31,
+        "paragraph": "CODE 10-95",
+        "coverage": "A NON-CRIME REFERRED TO ANOTHER AGENCY"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0026",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-95",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-95",
+          "A NON-CRIME REFERRED TO ANOTHER AGENCY"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 26,
+        "pdf_page": 31,
+        "paragraph": "CODE 10-95",
+        "coverage": "A NON-CRIME REFERRED TO ANOTHER AGENCY"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0026",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-95",
+      "stem": "Procedure 104: Radio code 10-95 refers to ________.",
+      "answer": "A NON-CRIME REFERRED TO ANOTHER AGENCY",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 26,
+        "pdf_page": 31,
+        "paragraph": "CODE 10-95",
+        "coverage": "A NON-CRIME REFERRED TO ANOTHER AGENCY"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0027",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-97",
+      "stem": "Procedure 104: What does radio code 10-97 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "H PATIENT REMOVED TO HOSPITAL",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        }
+      ],
+      "solution": "H PATIENT REMOVED TO HOSPITAL",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 27,
+        "pdf_page": 32,
+        "paragraph": "CODE 10-97",
+        "coverage": "H PATIENT REMOVED TO HOSPITAL"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0027",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-97",
+      "stem": "Procedure 104: Radio code 10-97 means 'H PATIENT REMOVED TO HOSPITAL'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 27,
+        "pdf_page": 32,
+        "paragraph": "CODE 10-97",
+        "coverage": "H PATIENT REMOVED TO HOSPITAL"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0027",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-97",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-97",
+          "H PATIENT REMOVED TO HOSPITAL"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 27,
+        "pdf_page": 32,
+        "paragraph": "CODE 10-97",
+        "coverage": "H PATIENT REMOVED TO HOSPITAL"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0027",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-97",
+      "stem": "Procedure 104: Radio code 10-97 refers to ________.",
+      "answer": "H PATIENT REMOVED TO HOSPITAL",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 27,
+        "pdf_page": 32,
+        "paragraph": "CODE 10-97",
+        "coverage": "H PATIENT REMOVED TO HOSPITAL"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0028",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-98",
+      "stem": "Procedure 104: What does radio code 10-98 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "RESUMING PATROL (DOES NOT CLOSE EVENT)",
+          "is_correct": true
+        }
+      ],
+      "solution": "RESUMING PATROL (DOES NOT CLOSE EVENT)",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 28,
+        "pdf_page": 32,
+        "paragraph": "CODE 10-98",
+        "coverage": "RESUMING PATROL (DOES NOT CLOSE EVENT)"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0028",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-98",
+      "stem": "Procedure 104: Radio code 10-98 means 'RESUMING PATROL (DOES NOT CLOSE EVENT)'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 28,
+        "pdf_page": 32,
+        "paragraph": "CODE 10-98",
+        "coverage": "RESUMING PATROL (DOES NOT CLOSE EVENT)"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0028",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-98",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-98",
+          "RESUMING PATROL (DOES NOT CLOSE EVENT)"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 28,
+        "pdf_page": 32,
+        "paragraph": "CODE 10-98",
+        "coverage": "RESUMING PATROL (DOES NOT CLOSE EVENT)"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0028",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-98",
+      "stem": "Procedure 104: Radio code 10-98 refers to ________.",
+      "answer": "RESUMING PATROL (DOES NOT CLOSE EVENT)",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 28,
+        "pdf_page": 32,
+        "paragraph": "CODE 10-98",
+        "coverage": "RESUMING PATROL (DOES NOT CLOSE EVENT)"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MCQ-0029",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-99",
+      "stem": "Procedure 104: What does radio code 10-99 indicate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A different radio status",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "A supervisor-only signal",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "An unrelated patrol condition",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "OTHER FINAL DISPOSITION",
+          "is_correct": true
+        }
+      ],
+      "solution": "OTHER FINAL DISPOSITION",
+      "hints": "Answer is taken directly from the radio code list.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 29,
+        "pdf_page": 32,
+        "paragraph": "CODE 10-99",
+        "coverage": "OTHER FINAL DISPOSITION"
+      }
+    },
+    {
+      "question_id": "NYC911-104-TF-0029",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-99",
+      "stem": "Procedure 104: Radio code 10-99 means 'OTHER FINAL DISPOSITION'.",
+      "answer": "true",
+      "hints": "Verify against the radio code definitions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 29,
+        "pdf_page": 32,
+        "paragraph": "CODE 10-99",
+        "coverage": "OTHER FINAL DISPOSITION"
+      }
+    },
+    {
+      "question_id": "NYC911-104-MATCH-0029",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-99",
+      "stem": "Procedure 104: Match the radio code to its proper description.",
+      "answer": [
+        [
+          "10-99",
+          "OTHER FINAL DISPOSITION"
+        ],
+        [
+          "Plain language",
+          "Not preferred when code exists"
+        ],
+        [
+          "Dispatcher use",
+          "Transmit with pertinent information"
+        ]
+      ],
+      "hints": "Each code matches a specific expansion.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 29,
+        "pdf_page": 32,
+        "paragraph": "CODE 10-99",
+        "coverage": "OTHER FINAL DISPOSITION"
+      }
+    },
+    {
+      "question_id": "NYC911-104-FB-0029",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 104 – RADIO CODE SIGNALS",
+      "subtopic": "Code 10-99",
+      "stem": "Procedure 104: Radio code 10-99 refers to ________.",
+      "answer": "OTHER FINAL DISPOSITION",
+      "hints": "Use the exact radio code or expansion.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc104"
+      ],
+      "source": {
+        "procedure": 104,
+        "proc_page": 29,
+        "pdf_page": 32,
+        "paragraph": "CODE 10-99",
+        "coverage": "OTHER FINAL DISPOSITION"
+      }
+    }
+  ]
+}

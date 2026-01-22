@@ -1,0 +1,1328 @@
+{
+  "lesson": {
+    "slug": "911-proc-102-dispatcher-should-not-make-field-decisions-full",
+    "title": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+    "topic": "Basic Radio Dispatching – Authority and Field Decisions",
+    "order": 102,
+    "objectives": [
+      "State the parameters of a radio dispatcher’s authority under Procedure 102.",
+      "Describe what dispatchers should do instead of making field decisions.",
+      "Apply the correct escalation path to field supervisors.",
+      "Apply the correct responses and prohibited actions listed in Procedure 102."
+    ],
+    "questionIds": [
+      "NYC911-102-MCQ-001",
+      "NYC911-102-MCQ-002",
+      "NYC911-102-MCQ-003",
+      "NYC911-102-MCQ-004",
+      "NYC911-102-MCQ-005",
+      "NYC911-102-MCQ-006",
+      "NYC911-102-MCQ-007",
+      "NYC911-102-MCQ-008",
+      "NYC911-102-MCQ-009",
+      "NYC911-102-MCQ-010",
+      "NYC911-102-TF-001",
+      "NYC911-102-TF-002",
+      "NYC911-102-TF-003",
+      "NYC911-102-TF-004",
+      "NYC911-102-TF-005",
+      "NYC911-102-TF-006",
+      "NYC911-102-TF-007",
+      "NYC911-102-TF-008",
+      "NYC911-102-TF-009",
+      "NYC911-102-TF-010",
+      "NYC911-102-MATCH-001",
+      "NYC911-102-MATCH-002",
+      "NYC911-102-MATCH-003",
+      "NYC911-102-MATCH-004",
+      "NYC911-102-MATCH-005",
+      "NYC911-102-MATCH-006",
+      "NYC911-102-MATCH-007",
+      "NYC911-102-MATCH-008",
+      "NYC911-102-MATCH-009",
+      "NYC911-102-MATCH-010",
+      "NYC911-102-FB-001",
+      "NYC911-102-FB-002",
+      "NYC911-102-FB-003",
+      "NYC911-102-FB-004",
+      "NYC911-102-FB-005",
+      "NYC911-102-FB-006",
+      "NYC911-102-FB-007",
+      "NYC911-102-FB-008",
+      "NYC911-102-FB-009",
+      "NYC911-102-FB-010"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-102-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Purpose",
+      "stem": "Procedure 102: What is the PURPOSE of this procedure?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Define the parameters of a Radio Dispatcher’s authority",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Describe how to request DARP",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Explain how to issue summonses",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Define arrest procedures for units",
+          "is_correct": false
+        }
+      ],
+      "solution": "PURPOSE states it sets parameters of dispatcher authority.",
+      "hints": "Look at the PURPOSE line.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 1,
+        "pdf_page": 19,
+        "paragraph": "PURPOSE",
+        "coverage": "Parameters of a Radio Dispatcher’s authority."
+      }
+    },
+    {
+      "question_id": "NYC911-102-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Scope",
+      "stem": "Procedure 102: Dispatchers should be careful not to do what?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Document too many remarks",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Overstep their authority and make field decisions",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Assign too few units to jobs",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Overuse clearances",
+          "is_correct": false
+        }
+      ],
+      "solution": "SCOPE warns dispatchers not to overstep authority by making field decisions.",
+      "hints": "Key phrase: overstep authority.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 2,
+        "pdf_page": 19,
+        "paragraph": "SCOPE",
+        "coverage": "Do not overstep authority; assist field personnel with facts; refer to field supervisor; overtime response; examples where dispatcher takes control (road blocks/pursuit)."
+      }
+    },
+    {
+      "question_id": "NYC911-102-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Scope",
+      "stem": "Procedure 102: In which situations may dispatchers be expected to take control?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Assigning units to road blocks and pursuit situations",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ordering arrests for license checks",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Authorizing overtime",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Canceling events without approval",
+          "is_correct": false
+        }
+      ],
+      "solution": "SCOPE gives road blocks and pursuit situations as examples.",
+      "hints": "Look for examples after 'such as'.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 2,
+        "pdf_page": 19,
+        "paragraph": "SCOPE",
+        "coverage": "Do not overstep authority; assist field personnel with facts; refer to field supervisor; overtime response; examples where dispatcher takes control (road blocks/pursuit)."
+      }
+    },
+    {
+      "question_id": "NYC911-102-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Scope",
+      "stem": "Procedure 102: What is the dispatcher’s primary duty to field personnel?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Tell units what decision to make",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Order specialized resources without request",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Authorize overtime directly",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Provide available facts and information needed to assess the situation properly",
+          "is_correct": true
+        }
+      ],
+      "solution": "SCOPE states dispatchers assist by providing facts/information.",
+      "hints": "Think: information support, not decisions.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 2,
+        "pdf_page": 19,
+        "paragraph": "SCOPE",
+        "coverage": "Do not overstep authority; assist field personnel with facts; refer to field supervisor; overtime response; examples where dispatcher takes control (road blocks/pursuit)."
+      }
+    },
+    {
+      "question_id": "NYC911-102-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Scope",
+      "stem": "Procedure 102: If a field unit has difficulty making a decision, what should you do?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Close the event",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Refer the unit to the field supervisor",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Issue a direct order",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Transfer the job to another dispatcher",
+          "is_correct": false
+        }
+      ],
+      "solution": "SCOPE directs referring the unit to the field supervisor.",
+      "hints": "Look for 'refer that unit'.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 2,
+        "pdf_page": 19,
+        "paragraph": "SCOPE",
+        "coverage": "Do not overstep authority; assist field personnel with facts; refer to field supervisor; overtime response; examples where dispatcher takes control (road blocks/pursuit)."
+      }
+    },
+    {
+      "question_id": "NYC911-102-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Scope – Overtime",
+      "stem": "Procedure 102: A unit asks, “Central are you authorizing overtime?” What is the appropriate response?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ask the unit to call back later.",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "No, overtime is never authorized.",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Operational overtime is authorized by the patrol guide; you are to respond.",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Yes, overtime is authorized by Central.",
+          "is_correct": false
+        }
+      ],
+      "solution": "SCOPE provides the exact appropriate response.",
+      "hints": "This is quoted in the procedure.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 2,
+        "pdf_page": 19,
+        "paragraph": "SCOPE",
+        "coverage": "Do not overstep authority; assist field personnel with facts; refer to field supervisor; overtime response; examples where dispatcher takes control (road blocks/pursuit)."
+      }
+    },
+    {
+      "question_id": "NYC911-102-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Radio Dispatcher 1a",
+      "stem": "Procedure 102: Which is an example of a field decision a Radio Dispatcher should NOT make?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Order DARP without the unit’s request",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Refer a decision to a field supervisor",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Assign units to a pursuit",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Relay factual updates from a caller",
+          "is_correct": false
+        }
+      ],
+      "solution": "RADIO DISPATCHER 1a gives ordering DARP without request as improper.",
+      "hints": "Look at example 1a.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 3,
+        "pdf_page": 19,
+        "paragraph": "RADIO DISPATCHER 1a",
+        "coverage": "Do not order DARP without unit request."
+      }
+    },
+    {
+      "question_id": "NYC911-102-MCQ-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Radio Dispatcher 1b",
+      "stem": "Procedure 102: What should the Radio Dispatcher NOT advise regarding a license check?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Document the license check info",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Advise the unit to make an arrest",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Notify a supervisor",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Request additional details",
+          "is_correct": false
+        }
+      ],
+      "solution": "RADIO DISPATCHER 1b says not to advise an arrest re license check.",
+      "hints": "Example 1b is about arrests.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 4,
+        "pdf_page": 19,
+        "paragraph": "RADIO DISPATCHER 1b",
+        "coverage": "Do not advise a field unit to make an arrest regarding a license check."
+      }
+    },
+    {
+      "question_id": "NYC911-102-MCQ-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Note – Authority",
+      "stem": "Procedure 102 NOTE: Decisions in these examples should be made by whom?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The field unit or patrol supervisor",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "The radio dispatcher",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "The complainant",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "The desk officer only",
+          "is_correct": false
+        }
+      ],
+      "solution": "NOTE says decisions should be made by the field unit or patrol supervisor only.",
+      "hints": "Look for 'field unit or patrol supervisor'.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 5,
+        "pdf_page": 19,
+        "paragraph": "NOTE",
+        "coverage": "These are examples; decisions belong to field unit or patrol supervisor only."
+      }
+    },
+    {
+      "question_id": "NYC911-102-MCQ-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Note – Meal Request",
+      "stem": "Procedure 102 NOTE: If a unit requests a meal while several events are holding, what should the dispatcher do?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Approve the meal immediately",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Advise the patrol supervisor of the request",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Deny the meal request",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Place the unit out of service without notice",
+          "is_correct": false
+        }
+      ],
+      "solution": "NOTE says advise the patrol supervisor when multiple events are holding.",
+      "hints": "This is a supervisor-notification rule.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 6,
+        "pdf_page": 19,
+        "paragraph": "NOTE",
+        "coverage": "Meal request when several events: advise patrol supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-102-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Purpose",
+      "stem": "Procedure 102: The purpose is to define the parameters of a radio dispatcher’s authority.",
+      "answer": "true",
+      "hints": "This is stated in the PURPOSE section.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 1,
+        "pdf_page": 19,
+        "paragraph": "PURPOSE",
+        "coverage": "Parameters of a Radio Dispatcher’s authority."
+      }
+    },
+    {
+      "question_id": "NYC911-102-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Scope",
+      "stem": "Procedure 102: Dispatchers should make field decisions whenever a unit asks for guidance.",
+      "answer": "false",
+      "hints": "The procedure warns against making field decisions; refer to supervisor.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 2,
+        "pdf_page": 19,
+        "paragraph": "SCOPE",
+        "coverage": "Do not overstep authority; assist field personnel with facts; refer to field supervisor; overtime response; examples where dispatcher takes control (road blocks/pursuit)."
+      }
+    },
+    {
+      "question_id": "NYC911-102-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Scope",
+      "stem": "Procedure 102: Dispatchers may be expected to take control in road block and pursuit situations.",
+      "answer": "true",
+      "hints": "These are given as examples in SCOPE.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 2,
+        "pdf_page": 19,
+        "paragraph": "SCOPE",
+        "coverage": "Do not overstep authority; assist field personnel with facts; refer to field supervisor; overtime response; examples where dispatcher takes control (road blocks/pursuit)."
+      }
+    },
+    {
+      "question_id": "NYC911-102-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Scope",
+      "stem": "Procedure 102: The dispatcher’s role is to provide available facts and information to help field personnel assess situations.",
+      "answer": "true",
+      "hints": "That’s stated in SCOPE.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 2,
+        "pdf_page": 19,
+        "paragraph": "SCOPE",
+        "coverage": "Do not overstep authority; assist field personnel with facts; refer to field supervisor; overtime response; examples where dispatcher takes control (road blocks/pursuit)."
+      }
+    },
+    {
+      "question_id": "NYC911-102-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Scope",
+      "stem": "Procedure 102: If a unit has difficulty deciding, the dispatcher should make the decision and transmit it.",
+      "answer": "false",
+      "hints": "The procedure says refer to the field supervisor.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 2,
+        "pdf_page": 19,
+        "paragraph": "SCOPE",
+        "coverage": "Do not overstep authority; assist field personnel with facts; refer to field supervisor; overtime response; examples where dispatcher takes control (road blocks/pursuit)."
+      }
+    },
+    {
+      "question_id": "NYC911-102-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Overtime Response",
+      "stem": "Procedure 102: The correct response to 'Central are you authorizing overtime?' is to cite operational overtime being authorized by the patrol guide and instruct the unit to respond.",
+      "answer": "true",
+      "hints": "The procedure provides that exact response.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 2,
+        "pdf_page": 19,
+        "paragraph": "SCOPE",
+        "coverage": "Do not overstep authority; assist field personnel with facts; refer to field supervisor; overtime response; examples where dispatcher takes control (road blocks/pursuit)."
+      }
+    },
+    {
+      "question_id": "NYC911-102-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Radio Dispatcher 1a",
+      "stem": "Procedure 102: The dispatcher may order DARP for an event without a unit request if it seems helpful.",
+      "answer": "false",
+      "hints": "Example 1a says not to order DARP without request.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 3,
+        "pdf_page": 19,
+        "paragraph": "RADIO DISPATCHER 1a",
+        "coverage": "Do not order DARP without unit request."
+      }
+    },
+    {
+      "question_id": "NYC911-102-TF-008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Radio Dispatcher 1b",
+      "stem": "Procedure 102: A dispatcher should advise a unit to make an arrest regarding a license check.",
+      "answer": "false",
+      "hints": "Example 1b says not to advise an arrest re license check.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 4,
+        "pdf_page": 19,
+        "paragraph": "RADIO DISPATCHER 1b",
+        "coverage": "Do not advise a field unit to make an arrest regarding a license check."
+      }
+    },
+    {
+      "question_id": "NYC911-102-TF-009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Note – Authority",
+      "stem": "Procedure 102 NOTE: The field unit or patrol supervisor should make certain decisions, not the dispatcher.",
+      "answer": "true",
+      "hints": "NOTE states this directly.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 5,
+        "pdf_page": 19,
+        "paragraph": "NOTE",
+        "coverage": "These are examples; decisions belong to field unit or patrol supervisor only."
+      }
+    },
+    {
+      "question_id": "NYC911-102-TF-010",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Meal Request Note",
+      "stem": "Procedure 102 NOTE: If several events are holding and a unit requests a meal, the dispatcher should advise the patrol supervisor.",
+      "answer": "true",
+      "hints": "This is stated in the NOTE.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 6,
+        "pdf_page": 19,
+        "paragraph": "NOTE",
+        "coverage": "Meal request when several events: advise patrol supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-102-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Core Roles",
+      "stem": "Match the item to what Procedure 102 says the dispatcher should do.",
+      "answer": [
+        [
+          "Dispatcher role",
+          "Provide facts/information"
+        ],
+        [
+          "If unit unsure",
+          "Refer to field supervisor"
+        ],
+        [
+          "Avoid",
+          "Field decisions"
+        ]
+      ],
+      "hints": "These are core themes in SCOPE.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 2,
+        "pdf_page": 19,
+        "paragraph": "SCOPE",
+        "coverage": "Do not overstep authority; assist field personnel with facts; refer to field supervisor; overtime response; examples where dispatcher takes control (road blocks/pursuit)."
+      }
+    },
+    {
+      "question_id": "NYC911-102-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Control Examples",
+      "stem": "Match the situation to how Procedure 102 treats it.",
+      "answer": [
+        [
+          "Road blocks",
+          "Example: take control"
+        ],
+        [
+          "Pursuit situations",
+          "Example: take control (pursuit)"
+        ],
+        [
+          "License-check arrest advice",
+          "Example: do NOT do"
+        ]
+      ],
+      "hints": "Two are take-control examples; one is a prohibited example.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 2,
+        "pdf_page": 19,
+        "paragraph": "SCOPE",
+        "coverage": "Do not overstep authority; assist field personnel with facts; refer to field supervisor; overtime response; examples where dispatcher takes control (road blocks/pursuit)."
+      }
+    },
+    {
+      "question_id": "NYC911-102-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Overtime Question",
+      "stem": "Match the prompt to the correct handling.",
+      "answer": [
+        [
+          "Overtime question",
+          "Use patrol guide response"
+        ],
+        [
+          "Authority boundary",
+          "Do not overstep"
+        ],
+        [
+          "Decision difficulty",
+          "Refer supervisor"
+        ]
+      ],
+      "hints": "These map to SCOPE guidance.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 2,
+        "pdf_page": 19,
+        "paragraph": "SCOPE",
+        "coverage": "Do not overstep authority; assist field personnel with facts; refer to field supervisor; overtime response; examples where dispatcher takes control (road blocks/pursuit)."
+      }
+    },
+    {
+      "question_id": "NYC911-102-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Improper Field Decisions",
+      "stem": "Match the example to its classification.",
+      "answer": [
+        [
+          "Order DARP without request",
+          "Improper example 1a"
+        ],
+        [
+          "Advise arrest on license check",
+          "Improper example 1b"
+        ],
+        [
+          "Provide facts",
+          "Proper dispatcher role"
+        ]
+      ],
+      "hints": "Examples 1a and 1b are explicitly listed.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 5,
+        "pdf_page": 19,
+        "paragraph": "NOTE",
+        "coverage": "These are examples; decisions belong to field unit or patrol supervisor only."
+      }
+    },
+    {
+      "question_id": "NYC911-102-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Who decides",
+      "stem": "Match the decision area to the correct decision-maker/handling.",
+      "answer": [
+        [
+          "Field decision",
+          "Field unit/supervisor decides"
+        ],
+        [
+          "Dispatcher support",
+          "Facts/information provided"
+        ],
+        [
+          "Meal request w/ many events",
+          "Patrol supervisor advised"
+        ]
+      ],
+      "hints": "Procedure assigns decisions to field/supervisor; dispatcher supports.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 6,
+        "pdf_page": 19,
+        "paragraph": "NOTE",
+        "coverage": "Meal request when several events: advise patrol supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-102-MATCH-006",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Key Phrases",
+      "stem": "Match the phrase to where it appears.",
+      "answer": [
+        [
+          "Parameters of authority",
+          "PURPOSE section"
+        ],
+        [
+          "Overstep authority",
+          "SCOPE section"
+        ],
+        [
+          "Two examples",
+          "NOTE section"
+        ]
+      ],
+      "hints": "Each phrase is tied to a specific section heading.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 1,
+        "pdf_page": 19,
+        "paragraph": "PURPOSE",
+        "coverage": "Parameters of a Radio Dispatcher’s authority."
+      }
+    },
+    {
+      "question_id": "NYC911-102-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Required vs Prohibited",
+      "stem": "Match the action to whether it is required or prohibited.",
+      "answer": [
+        [
+          "Provide available facts",
+          "Required action"
+        ],
+        [
+          "Order DARP without request",
+          "Prohibited action"
+        ],
+        [
+          "Advise arrest on license check",
+          "Prohibited advice"
+        ]
+      ],
+      "hints": "One required, two prohibited per examples.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 3,
+        "pdf_page": 19,
+        "paragraph": "RADIO DISPATCHER 1a",
+        "coverage": "Do not order DARP without unit request."
+      }
+    },
+    {
+      "question_id": "NYC911-102-MATCH-008",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Escalation Path",
+      "stem": "Match the situation to the next step.",
+      "answer": [
+        [
+          "Unit can’t decide",
+          "Refer to field supervisor"
+        ],
+        [
+          "Meal request + many events",
+          "Advise patrol supervisor"
+        ],
+        [
+          "Need control in pursuit",
+          "Assign units to road blocks"
+        ]
+      ],
+      "hints": "Each reflects a branch of the procedure guidance.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 6,
+        "pdf_page": 19,
+        "paragraph": "NOTE",
+        "coverage": "Meal request when several events: advise patrol supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-102-MATCH-009",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Authority Boundaries",
+      "stem": "Match the role to its authority boundary.",
+      "answer": [
+        [
+          "Dispatcher",
+          "Assist with information"
+        ],
+        [
+          "Field unit",
+          "Makes field decision"
+        ],
+        [
+          "Patrol supervisor",
+          "Authorizes decision"
+        ]
+      ],
+      "hints": "Procedure distinguishes who decides vs who supports.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 5,
+        "pdf_page": 19,
+        "paragraph": "NOTE",
+        "coverage": "These are examples; decisions belong to field unit or patrol supervisor only."
+      }
+    },
+    {
+      "question_id": "NYC911-102-MATCH-010",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Do/Exception/Reply",
+      "stem": "Match the instruction category to the correct example.",
+      "answer": [
+        [
+          "Boundary rule",
+          "Do not make field decisions"
+        ],
+        [
+          "Exception example",
+          "Road blocks/pursuits"
+        ],
+        [
+          "Standard reply",
+          "Patrol guide overtime response"
+        ]
+      ],
+      "hints": "Procedure includes a boundary, examples, and a quoted response.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 2,
+        "pdf_page": 19,
+        "paragraph": "SCOPE",
+        "coverage": "Do not overstep authority; assist field personnel with facts; refer to field supervisor; overtime response; examples where dispatcher takes control (road blocks/pursuit)."
+      }
+    },
+    {
+      "question_id": "NYC911-102-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Purpose",
+      "stem": "Procedure 102 PURPOSE: Parameters of a Radio Dispatcher’s ________.",
+      "answer": "authority",
+      "hints": "It’s the key word in the PURPOSE line.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 1,
+        "pdf_page": 19,
+        "paragraph": "PURPOSE",
+        "coverage": "Parameters of a Radio Dispatcher’s authority."
+      }
+    },
+    {
+      "question_id": "NYC911-102-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Scope",
+      "stem": "Procedure 102 SCOPE: Dispatchers should not overstep their authority and make ________ decisions.",
+      "answer": "field",
+      "hints": "It modifies 'decisions'.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 2,
+        "pdf_page": 19,
+        "paragraph": "SCOPE",
+        "coverage": "Do not overstep authority; assist field personnel with facts; refer to field supervisor; overtime response; examples where dispatcher takes control (road blocks/pursuit)."
+      }
+    },
+    {
+      "question_id": "NYC911-102-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Scope",
+      "stem": "Procedure 102: Dispatchers may take control in assigning units to road blocks and ________ situations.",
+      "answer": "pursuit",
+      "hints": "It’s paired with road blocks.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 2,
+        "pdf_page": 19,
+        "paragraph": "SCOPE",
+        "coverage": "Do not overstep authority; assist field personnel with facts; refer to field supervisor; overtime response; examples where dispatcher takes control (road blocks/pursuit)."
+      }
+    },
+    {
+      "question_id": "NYC911-102-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Scope",
+      "stem": "Procedure 102: Dispatchers assist field personnel by providing available ________ and information.",
+      "answer": "facts",
+      "hints": "It appears right before 'and information'.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 2,
+        "pdf_page": 19,
+        "paragraph": "SCOPE",
+        "coverage": "Do not overstep authority; assist field personnel with facts; refer to field supervisor; overtime response; examples where dispatcher takes control (road blocks/pursuit)."
+      }
+    },
+    {
+      "question_id": "NYC911-102-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Scope",
+      "stem": "Procedure 102: If a field unit has difficulty making a decision, refer the unit to the field ________.",
+      "answer": "supervisor",
+      "hints": "This is the escalation path.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 2,
+        "pdf_page": 19,
+        "paragraph": "SCOPE",
+        "coverage": "Do not overstep authority; assist field personnel with facts; refer to field supervisor; overtime response; examples where dispatcher takes control (road blocks/pursuit)."
+      }
+    },
+    {
+      "question_id": "NYC911-102-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Overtime Response",
+      "stem": "Procedure 102: “Operational overtime is authorized by the ________ guide; you are to respond.”",
+      "answer": "patrol",
+      "hints": "It’s the guide named in the quoted response.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 2,
+        "pdf_page": 19,
+        "paragraph": "SCOPE",
+        "coverage": "Do not overstep authority; assist field personnel with facts; refer to field supervisor; overtime response; examples where dispatcher takes control (road blocks/pursuit)."
+      }
+    },
+    {
+      "question_id": "NYC911-102-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Radio Dispatcher 1a",
+      "stem": "Procedure 102 Example 1a: A dispatcher should not order ________ without the unit’s request.",
+      "answer": "DARP",
+      "hints": "It’s the specific resource named.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 3,
+        "pdf_page": 19,
+        "paragraph": "RADIO DISPATCHER 1a",
+        "coverage": "Do not order DARP without unit request."
+      }
+    },
+    {
+      "question_id": "NYC911-102-FB-008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Radio Dispatcher 1b",
+      "stem": "Procedure 102 Example 1b: A dispatcher should not advise a field unit to make an ________ regarding a license check.",
+      "answer": "ARREST",
+      "hints": "It’s written in all caps in the example.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 4,
+        "pdf_page": 19,
+        "paragraph": "RADIO DISPATCHER 1b",
+        "coverage": "Do not advise a field unit to make an arrest regarding a license check."
+      }
+    },
+    {
+      "question_id": "NYC911-102-FB-009",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Note – Authority",
+      "stem": "Procedure 102 NOTE: Decisions should be made by the field unit or patrol ________ only.",
+      "answer": "supervisor",
+      "hints": "This is stated in NOTE.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 5,
+        "pdf_page": 19,
+        "paragraph": "NOTE",
+        "coverage": "These are examples; decisions belong to field unit or patrol supervisor only."
+      }
+    },
+    {
+      "question_id": "NYC911-102-FB-010",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 102 – Dispatcher Should Not Make Field Decisions",
+      "subtopic": "Meal Request Note",
+      "stem": "Procedure 102 NOTE: When a unit requests a meal and several events are holding, advise the patrol supervisor of the ________.",
+      "answer": "request",
+      "hints": "It’s the noun at the end of the NOTE sentence.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc102"
+      ],
+      "source": {
+        "procedure": 102,
+        "proc_page": 6,
+        "pdf_page": 19,
+        "paragraph": "NOTE",
+        "coverage": "Meal request when several events: advise patrol supervisor."
+      }
+    }
+  ]
+}

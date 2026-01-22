@@ -1,0 +1,2768 @@
+{
+  "lesson": {
+    "slug": "911-proc-415-ambulance-call-procedure-full-coverage",
+    "title": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+    "topic": "Ambulance Call Procedure",
+    "order": 415,
+    "objectives": [
+      "Handle ambulance calls requiring police response.",
+      "Apply EMS notification rules.",
+      "Document and finalize ambulance events correctly."
+    ],
+    "questionIds": [
+      "NYC911-415-MCQ-001",
+      "NYC911-415-TF-001",
+      "NYC911-415-MATCH-001",
+      "NYC911-415-FB-001",
+      "NYC911-415-MCQ-002",
+      "NYC911-415-TF-002",
+      "NYC911-415-MATCH-002",
+      "NYC911-415-FB-002",
+      "NYC911-415-MCQ-003",
+      "NYC911-415-TF-003",
+      "NYC911-415-MATCH-003",
+      "NYC911-415-FB-003",
+      "NYC911-415-MCQ-004",
+      "NYC911-415-TF-004",
+      "NYC911-415-MATCH-004",
+      "NYC911-415-FB-004",
+      "NYC911-415-MCQ-005",
+      "NYC911-415-TF-005",
+      "NYC911-415-MATCH-005",
+      "NYC911-415-FB-005",
+      "NYC911-415-MCQ-006",
+      "NYC911-415-TF-006",
+      "NYC911-415-MATCH-006",
+      "NYC911-415-FB-006",
+      "NYC911-415-MCQ-007",
+      "NYC911-415-TF-007",
+      "NYC911-415-MATCH-007",
+      "NYC911-415-FB-007",
+      "NYC911-415-MCQ-008",
+      "NYC911-415-TF-008",
+      "NYC911-415-MATCH-008",
+      "NYC911-415-FB-008",
+      "NYC911-415-MCQ-009",
+      "NYC911-415-TF-009",
+      "NYC911-415-MATCH-009",
+      "NYC911-415-FB-009",
+      "NYC911-415-MCQ-010",
+      "NYC911-415-TF-010",
+      "NYC911-415-MATCH-010",
+      "NYC911-415-FB-010",
+      "NYC911-415-MCQ-011",
+      "NYC911-415-TF-011",
+      "NYC911-415-MATCH-011",
+      "NYC911-415-FB-011",
+      "NYC911-415-MCQ-012",
+      "NYC911-415-TF-012",
+      "NYC911-415-MATCH-012",
+      "NYC911-415-FB-012",
+      "NYC911-415-MCQ-013",
+      "NYC911-415-TF-013",
+      "NYC911-415-MATCH-013",
+      "NYC911-415-FB-013",
+      "NYC911-415-MCQ-014",
+      "NYC911-415-TF-014",
+      "NYC911-415-MATCH-014",
+      "NYC911-415-FB-014",
+      "NYC911-415-MCQ-015",
+      "NYC911-415-TF-015",
+      "NYC911-415-MATCH-015",
+      "NYC911-415-FB-015",
+      "NYC911-415-MCQ-016",
+      "NYC911-415-TF-016",
+      "NYC911-415-MATCH-016",
+      "NYC911-415-FB-016",
+      "NYC911-415-MCQ-017",
+      "NYC911-415-TF-017",
+      "NYC911-415-MATCH-017",
+      "NYC911-415-FB-017",
+      "NYC911-415-MCQ-018",
+      "NYC911-415-TF-018",
+      "NYC911-415-MATCH-018",
+      "NYC911-415-FB-018",
+      "NYC911-415-MCQ-019",
+      "NYC911-415-TF-019",
+      "NYC911-415-MATCH-019",
+      "NYC911-415-FB-019",
+      "NYC911-415-MCQ-020",
+      "NYC911-415-TF-020",
+      "NYC911-415-MATCH-020",
+      "NYC911-415-FB-020",
+      "NYC911-415-MCQ-021",
+      "NYC911-415-TF-021",
+      "NYC911-415-MATCH-021",
+      "NYC911-415-FB-021"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-415-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "PURPOSE",
+      "stem": "Procedure 415 (PURPOSE): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Police response and EMS notification",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        }
+      ],
+      "solution": "Police response and EMS notification",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 1,
+        "pdf_page": 187,
+        "paragraph": "PURPOSE",
+        "coverage": "Ambulance calls requiring police response and EMS notification"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "PURPOSE",
+      "stem": "Procedure 415 (PURPOSE): Ambulance calls requiring police response and EMS notification.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 1,
+        "pdf_page": 187,
+        "paragraph": "PURPOSE",
+        "coverage": "Ambulance calls requiring police response and EMS notification"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "PURPOSE",
+      "stem": "Procedure 415 (PURPOSE): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "PURPOSE"
+        ],
+        [
+          "Requirement",
+          "Police response and EMS notification"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 1,
+        "pdf_page": 187,
+        "paragraph": "PURPOSE",
+        "coverage": "Ambulance calls requiring police response and EMS notification"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "PURPOSE",
+      "stem": "Procedure 415 (PURPOSE): Ambulance calls requiring police response and EMS notification.",
+      "answer": "Police",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 1,
+        "pdf_page": 187,
+        "paragraph": "PURPOSE",
+        "coverage": "Ambulance calls requiring police response and EMS notification"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "ZONE/TRANSIT EMS CALLS",
+      "stem": "Procedure 415 (ZONE/TRANSIT EMS CALLS): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Telephone notification only with complainant",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        }
+      ],
+      "solution": "Telephone notification only with complainant",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 2,
+        "pdf_page": 187,
+        "paragraph": "ZONE/TRANSIT EMS CALLS",
+        "coverage": "EMS requests telephone notification only when complainant is on the line"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "ZONE/TRANSIT EMS CALLS",
+      "stem": "Procedure 415 (ZONE/TRANSIT EMS CALLS): EMS requests telephone notification only when complainant is on the line.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 2,
+        "pdf_page": 187,
+        "paragraph": "ZONE/TRANSIT EMS CALLS",
+        "coverage": "EMS requests telephone notification only when complainant is on the line"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "ZONE/TRANSIT EMS CALLS",
+      "stem": "Procedure 415 (ZONE/TRANSIT EMS CALLS): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "ZONE/TRANSIT EMS CALLS"
+        ],
+        [
+          "Requirement",
+          "Telephone notification only with complainant"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 2,
+        "pdf_page": 187,
+        "paragraph": "ZONE/TRANSIT EMS CALLS",
+        "coverage": "EMS requests telephone notification only when complainant is on the line"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "ZONE/TRANSIT EMS CALLS",
+      "stem": "Procedure 415 (ZONE/TRANSIT EMS CALLS): EMS requests telephone notification only when complainant is on the line.",
+      "answer": "Telephone",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 2,
+        "pdf_page": 187,
+        "paragraph": "ZONE/TRANSIT EMS CALLS",
+        "coverage": "EMS requests telephone notification only when complainant is on the line"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "NO COMPLAINANT",
+      "stem": "Procedure 415 (NO COMPLAINANT): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "No EMS telephone call",
+          "is_correct": true
+        }
+      ],
+      "solution": "No EMS telephone call",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 3,
+        "pdf_page": 187,
+        "paragraph": "NO COMPLAINANT",
+        "coverage": "No need to telephone EMS if no complainant is on the line"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "NO COMPLAINANT",
+      "stem": "Procedure 415 (NO COMPLAINANT): No need to telephone EMS if no complainant is on the line.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 3,
+        "pdf_page": 187,
+        "paragraph": "NO COMPLAINANT",
+        "coverage": "No need to telephone EMS if no complainant is on the line"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "NO COMPLAINANT",
+      "stem": "Procedure 415 (NO COMPLAINANT): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "NO COMPLAINANT"
+        ],
+        [
+          "Requirement",
+          "No EMS telephone call"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 3,
+        "pdf_page": 187,
+        "paragraph": "NO COMPLAINANT",
+        "coverage": "No need to telephone EMS if no complainant is on the line"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "NO COMPLAINANT",
+      "stem": "Procedure 415 (NO COMPLAINANT): ________ need to telephone EMS if no complainant is on the line.",
+      "answer": "No",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 3,
+        "pdf_page": 187,
+        "paragraph": "NO COMPLAINANT",
+        "coverage": "No need to telephone EMS if no complainant is on the line"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "PICK UP CASES",
+      "stem": "Procedure 415 (PICK UP CASES): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Open AMB route",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Only during emergencies",
+          "is_correct": false
+        }
+      ],
+      "solution": "Open AMB route",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 4,
+        "pdf_page": 187,
+        "paragraph": "PICK UP CASES",
+        "coverage": "Pickup cases input without telephone notification and AMB route opened"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "PICK UP CASES",
+      "stem": "Procedure 415 (PICK UP CASES): Pickup cases input without telephone notification and AMB route opened.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 4,
+        "pdf_page": 187,
+        "paragraph": "PICK UP CASES",
+        "coverage": "Pickup cases input without telephone notification and AMB route opened"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "PICK UP CASES",
+      "stem": "Procedure 415 (PICK UP CASES): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "PICK UP CASES"
+        ],
+        [
+          "Requirement",
+          "Open AMB route"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 4,
+        "pdf_page": 187,
+        "paragraph": "PICK UP CASES",
+        "coverage": "Pickup cases input without telephone notification and AMB route opened"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "PICK UP CASES",
+      "stem": "Procedure 415 (PICK UP CASES): Pickup cases input without telephone notification and AMB route opened.",
+      "answer": "Open",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 4,
+        "pdf_page": 187,
+        "paragraph": "PICK UP CASES",
+        "coverage": "Pickup cases input without telephone notification and AMB route opened"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "MULTIPLE REQUESTS",
+      "stem": "Procedure 415 (MULTIPLE REQUESTS): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Document multiple requests",
+          "is_correct": true
+        }
+      ],
+      "solution": "Document multiple requests",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 5,
+        "pdf_page": 187,
+        "paragraph": "MULTIPLE REQUESTS",
+        "coverage": "Two or more requests and cancellations must be input and documented"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "MULTIPLE REQUESTS",
+      "stem": "Procedure 415 (MULTIPLE REQUESTS): Two or more requests and cancellations must be input and documented.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 5,
+        "pdf_page": 187,
+        "paragraph": "MULTIPLE REQUESTS",
+        "coverage": "Two or more requests and cancellations must be input and documented"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "MULTIPLE REQUESTS",
+      "stem": "Procedure 415 (MULTIPLE REQUESTS): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "MULTIPLE REQUESTS"
+        ],
+        [
+          "Requirement",
+          "Document multiple requests"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 5,
+        "pdf_page": 187,
+        "paragraph": "MULTIPLE REQUESTS",
+        "coverage": "Two or more requests and cancellations must be input and documented"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "MULTIPLE REQUESTS",
+      "stem": "Procedure 415 (MULTIPLE REQUESTS): Two or more requests and cancellations must be input and documented.",
+      "answer": "Document",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 5,
+        "pdf_page": 187,
+        "paragraph": "MULTIPLE REQUESTS",
+        "coverage": "Two or more requests and cancellations must be input and documented"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "PICK UP AUTO ROUTE",
+      "stem": "Procedure 415 (PICK UP AUTO ROUTE): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Automatically routed",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        }
+      ],
+      "solution": "Automatically routed",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 6,
+        "pdf_page": 188,
+        "paragraph": "PICK UP AUTO ROUTE",
+        "coverage": "53H, 53I, 53X, 54s, 55s, 59Es, 66s, 34K, 34S, 13S auto routed to EMS"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "PICK UP AUTO ROUTE",
+      "stem": "Procedure 415 (PICK UP AUTO ROUTE): 53H, 53I, 53X, 54s, 55s, 59Es, 66s, 34K, 34S, 13S auto routed to EMS.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 6,
+        "pdf_page": 188,
+        "paragraph": "PICK UP AUTO ROUTE",
+        "coverage": "53H, 53I, 53X, 54s, 55s, 59Es, 66s, 34K, 34S, 13S auto routed to EMS"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-006",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "PICK UP AUTO ROUTE",
+      "stem": "Procedure 415 (PICK UP AUTO ROUTE): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "PICK UP AUTO ROUTE"
+        ],
+        [
+          "Requirement",
+          "Automatically routed"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 6,
+        "pdf_page": 188,
+        "paragraph": "PICK UP AUTO ROUTE",
+        "coverage": "53H, 53I, 53X, 54s, 55s, 59Es, 66s, 34K, 34S, 13S auto routed to EMS"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "PICK UP AUTO ROUTE",
+      "stem": "Procedure 415 (PICK UP AUTO ROUTE): 53H, 53I, 53X, 54s, 55s, 59Es, 66s, 34K, 34S, 13S auto routed to EMS.",
+      "answer": "Automatically",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 6,
+        "pdf_page": 188,
+        "paragraph": "PICK UP AUTO ROUTE",
+        "coverage": "53H, 53I, 53X, 54s, 55s, 59Es, 66s, 34K, 34S, 13S auto routed to EMS"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "PICK UP MANUAL",
+      "stem": "Procedure 415 (PICK UP MANUAL): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Manual EMS route",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        }
+      ],
+      "solution": "Manual EMS route",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 7,
+        "pdf_page": 188,
+        "paragraph": "PICK UP MANUAL",
+        "coverage": "30s, 31s, 39s require manual EMS routing"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "PICK UP MANUAL",
+      "stem": "Procedure 415 (PICK UP MANUAL): 30s, 31s, 39s require manual EMS routing.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 7,
+        "pdf_page": 188,
+        "paragraph": "PICK UP MANUAL",
+        "coverage": "30s, 31s, 39s require manual EMS routing"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "PICK UP MANUAL",
+      "stem": "Procedure 415 (PICK UP MANUAL): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "PICK UP MANUAL"
+        ],
+        [
+          "Requirement",
+          "Manual EMS route"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 7,
+        "pdf_page": 188,
+        "paragraph": "PICK UP MANUAL",
+        "coverage": "30s, 31s, 39s require manual EMS routing"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "PICK UP MANUAL",
+      "stem": "Procedure 415 (PICK UP MANUAL): 30s, 31s, 39s require manual EMS routing.",
+      "answer": "Manual",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 7,
+        "pdf_page": 188,
+        "paragraph": "PICK UP MANUAL",
+        "coverage": "30s, 31s, 39s require manual EMS routing"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MCQ-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "REMARKS COMMAND",
+      "stem": "Procedure 415 (REMARKS COMMAND): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Preceded by command",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only during emergencies",
+          "is_correct": false
+        }
+      ],
+      "solution": "Preceded by command",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 8,
+        "pdf_page": 189,
+        "paragraph": "REMARKS COMMAND",
+        "coverage": "Specific EMS remarks must be preceded by proper command"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "REMARKS COMMAND",
+      "stem": "Procedure 415 (REMARKS COMMAND): Specific EMS remarks must be preceded by proper command.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 8,
+        "pdf_page": 189,
+        "paragraph": "REMARKS COMMAND",
+        "coverage": "Specific EMS remarks must be preceded by proper command"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-008",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "REMARKS COMMAND",
+      "stem": "Procedure 415 (REMARKS COMMAND): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "REMARKS COMMAND"
+        ],
+        [
+          "Requirement",
+          "Preceded by command"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 8,
+        "pdf_page": 189,
+        "paragraph": "REMARKS COMMAND",
+        "coverage": "Specific EMS remarks must be preceded by proper command"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "REMARKS COMMAND",
+      "stem": "Procedure 415 (REMARKS COMMAND): Specific EMS remarks must be preceded by proper command.",
+      "answer": "Preceded",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 8,
+        "pdf_page": 189,
+        "paragraph": "REMARKS COMMAND",
+        "coverage": "Specific EMS remarks must be preceded by proper command"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MCQ-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "REMARKS FIELD",
+      "stem": "Procedure 415 (REMARKS FIELD): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Remarks field",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        }
+      ],
+      "solution": "Remarks field",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 9,
+        "pdf_page": 189,
+        "paragraph": "REMARKS FIELD",
+        "coverage": "Remarks field can be used to send EMS message"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "REMARKS FIELD",
+      "stem": "Procedure 415 (REMARKS FIELD): Remarks field can be used to send EMS message.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 9,
+        "pdf_page": 189,
+        "paragraph": "REMARKS FIELD",
+        "coverage": "Remarks field can be used to send EMS message"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-009",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "REMARKS FIELD",
+      "stem": "Procedure 415 (REMARKS FIELD): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "REMARKS FIELD"
+        ],
+        [
+          "Requirement",
+          "Remarks field"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 9,
+        "pdf_page": 189,
+        "paragraph": "REMARKS FIELD",
+        "coverage": "Remarks field can be used to send EMS message"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-009",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "REMARKS FIELD",
+      "stem": "Procedure 415 (REMARKS FIELD): ________ field can be used to send EMS message.",
+      "answer": "Remarks",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 9,
+        "pdf_page": 189,
+        "paragraph": "REMARKS FIELD",
+        "coverage": "Remarks field can be used to send EMS message"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MCQ-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "COMMAND LINE",
+      "stem": "Procedure 415 (COMMAND LINE): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Command line",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Only during emergencies",
+          "is_correct": false
+        }
+      ],
+      "solution": "Command line",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 10,
+        "pdf_page": 189,
+        "paragraph": "COMMAND LINE",
+        "coverage": "Command line may also be used to message EMS"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-010",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "COMMAND LINE",
+      "stem": "Procedure 415 (COMMAND LINE): Command line may also be used to message EMS.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 10,
+        "pdf_page": 189,
+        "paragraph": "COMMAND LINE",
+        "coverage": "Command line may also be used to message EMS"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-010",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "COMMAND LINE",
+      "stem": "Procedure 415 (COMMAND LINE): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "COMMAND LINE"
+        ],
+        [
+          "Requirement",
+          "Command line"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 10,
+        "pdf_page": 189,
+        "paragraph": "COMMAND LINE",
+        "coverage": "Command line may also be used to message EMS"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-010",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "COMMAND LINE",
+      "stem": "Procedure 415 (COMMAND LINE): ________ line may also be used to message EMS.",
+      "answer": "Command",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 10,
+        "pdf_page": 189,
+        "paragraph": "COMMAND LINE",
+        "coverage": "Command line may also be used to message EMS"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MCQ-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "ECU COMMAND",
+      "stem": "Procedure 415 (ECU COMMAND): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ECU command",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only during emergencies",
+          "is_correct": false
+        }
+      ],
+      "solution": "ECU command",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 11,
+        "pdf_page": 190,
+        "paragraph": "ECU COMMAND",
+        "coverage": "ECU command used to send EMS details"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-011",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "ECU COMMAND",
+      "stem": "Procedure 415 (ECU COMMAND): ECU command used to send EMS details.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 11,
+        "pdf_page": 190,
+        "paragraph": "ECU COMMAND",
+        "coverage": "ECU command used to send EMS details"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-011",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "ECU COMMAND",
+      "stem": "Procedure 415 (ECU COMMAND): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "ECU COMMAND"
+        ],
+        [
+          "Requirement",
+          "ECU command"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 11,
+        "pdf_page": 190,
+        "paragraph": "ECU COMMAND",
+        "coverage": "ECU command used to send EMS details"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-011",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "ECU COMMAND",
+      "stem": "Procedure 415 (ECU COMMAND): ________ command used to send EMS details.",
+      "answer": "ECU",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 11,
+        "pdf_page": 190,
+        "paragraph": "ECU COMMAND",
+        "coverage": "ECU command used to send EMS details"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MCQ-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "10A*E FORMAT",
+      "stem": "Procedure 415 (10A*E FORMAT): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "10A*E format",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Only during emergencies",
+          "is_correct": false
+        }
+      ],
+      "solution": "10A*E format",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 12,
+        "pdf_page": 190,
+        "paragraph": "10A*E FORMAT",
+        "coverage": "Use proper 10A*E format for EMS info"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-012",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "10A*E FORMAT",
+      "stem": "Procedure 415 (10A*E FORMAT): Use proper 10A*E format for EMS info.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 12,
+        "pdf_page": 190,
+        "paragraph": "10A*E FORMAT",
+        "coverage": "Use proper 10A*E format for EMS info"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-012",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "10A*E FORMAT",
+      "stem": "Procedure 415 (10A*E FORMAT): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "10A*E FORMAT"
+        ],
+        [
+          "Requirement",
+          "10A*E format"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 12,
+        "pdf_page": 190,
+        "paragraph": "10A*E FORMAT",
+        "coverage": "Use proper 10A*E format for EMS info"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-012",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "10A*E FORMAT",
+      "stem": "Procedure 415 (10A*E FORMAT): Use proper ________ format for EMS info.",
+      "answer": "10A*E",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 12,
+        "pdf_page": 190,
+        "paragraph": "10A*E FORMAT",
+        "coverage": "Use proper 10A*E format for EMS info"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MCQ-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "CANCELLATIONS",
+      "stem": "Procedure 415 (CANCELLATIONS): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Cancellation remarks",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        }
+      ],
+      "solution": "Cancellation remarks",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 13,
+        "pdf_page": 191,
+        "paragraph": "CANCELLATIONS",
+        "coverage": "Cancellations must be included in remarks"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-013",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "CANCELLATIONS",
+      "stem": "Procedure 415 (CANCELLATIONS): Cancellations must be included in remarks.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 13,
+        "pdf_page": 191,
+        "paragraph": "CANCELLATIONS",
+        "coverage": "Cancellations must be included in remarks"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-013",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "CANCELLATIONS",
+      "stem": "Procedure 415 (CANCELLATIONS): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "CANCELLATIONS"
+        ],
+        [
+          "Requirement",
+          "Cancellation remarks"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 13,
+        "pdf_page": 191,
+        "paragraph": "CANCELLATIONS",
+        "coverage": "Cancellations must be included in remarks"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-013",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "CANCELLATIONS",
+      "stem": "Procedure 415 (CANCELLATIONS): ________s must be included in remarks.",
+      "answer": "Cancellation",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 13,
+        "pdf_page": 191,
+        "paragraph": "CANCELLATIONS",
+        "coverage": "Cancellations must be included in remarks"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MCQ-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "SECOND REQUEST",
+      "stem": "Procedure 415 (SECOND REQUEST): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Second request",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Only during emergencies",
+          "is_correct": false
+        }
+      ],
+      "solution": "Second request",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 14,
+        "pdf_page": 192,
+        "paragraph": "SECOND REQUEST",
+        "coverage": "Second ambulance requests documented"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-014",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "SECOND REQUEST",
+      "stem": "Procedure 415 (SECOND REQUEST): Second ambulance requests documented.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 14,
+        "pdf_page": 192,
+        "paragraph": "SECOND REQUEST",
+        "coverage": "Second ambulance requests documented"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-014",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "SECOND REQUEST",
+      "stem": "Procedure 415 (SECOND REQUEST): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "SECOND REQUEST"
+        ],
+        [
+          "Requirement",
+          "Second request"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 14,
+        "pdf_page": 192,
+        "paragraph": "SECOND REQUEST",
+        "coverage": "Second ambulance requests documented"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-014",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "SECOND REQUEST",
+      "stem": "Procedure 415 (SECOND REQUEST): ________ ambulance requests documented.",
+      "answer": "Second",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 14,
+        "pdf_page": 192,
+        "paragraph": "SECOND REQUEST",
+        "coverage": "Second ambulance requests documented"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MCQ-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "UPDATES",
+      "stem": "Procedure 415 (UPDATES): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Transmit updates",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        }
+      ],
+      "solution": "Transmit updates",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 15,
+        "pdf_page": 193,
+        "paragraph": "UPDATES",
+        "coverage": "Updates to EMS incidents must be transmitted"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-015",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "UPDATES",
+      "stem": "Procedure 415 (UPDATES): Updates to EMS incidents must be transmitted.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 15,
+        "pdf_page": 193,
+        "paragraph": "UPDATES",
+        "coverage": "Updates to EMS incidents must be transmitted"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-015",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "UPDATES",
+      "stem": "Procedure 415 (UPDATES): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "UPDATES"
+        ],
+        [
+          "Requirement",
+          "Transmit updates"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 15,
+        "pdf_page": 193,
+        "paragraph": "UPDATES",
+        "coverage": "Updates to EMS incidents must be transmitted"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-015",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "UPDATES",
+      "stem": "Procedure 415 (UPDATES): Updates to EMS incidents must be transmitted.",
+      "answer": "Transmit",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 15,
+        "pdf_page": 193,
+        "paragraph": "UPDATES",
+        "coverage": "Updates to EMS incidents must be transmitted"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MCQ-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "ZONE/TRANSIT ROLE",
+      "stem": "Procedure 415 (ZONE/TRANSIT ROLE): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Zone/Transit dispatcher",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only during emergencies",
+          "is_correct": false
+        }
+      ],
+      "solution": "Zone/Transit dispatcher",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 16,
+        "pdf_page": 194,
+        "paragraph": "ZONE/TRANSIT ROLE",
+        "coverage": "Zone/Transit dispatcher responsibilities apply"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-016",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "ZONE/TRANSIT ROLE",
+      "stem": "Procedure 415 (ZONE/TRANSIT ROLE): Zone/Transit dispatcher responsibilities apply.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 16,
+        "pdf_page": 194,
+        "paragraph": "ZONE/TRANSIT ROLE",
+        "coverage": "Zone/Transit dispatcher responsibilities apply"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-016",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "ZONE/TRANSIT ROLE",
+      "stem": "Procedure 415 (ZONE/TRANSIT ROLE): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "ZONE/TRANSIT ROLE"
+        ],
+        [
+          "Requirement",
+          "Zone/Transit dispatcher"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 16,
+        "pdf_page": 194,
+        "paragraph": "ZONE/TRANSIT ROLE",
+        "coverage": "Zone/Transit dispatcher responsibilities apply"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-016",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "ZONE/TRANSIT ROLE",
+      "stem": "Procedure 415 (ZONE/TRANSIT ROLE): ________ dispatcher responsibilities apply.",
+      "answer": "Zone/Transit",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 16,
+        "pdf_page": 194,
+        "paragraph": "ZONE/TRANSIT ROLE",
+        "coverage": "Zone/Transit dispatcher responsibilities apply"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MCQ-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "SUPERVISOR",
+      "stem": "Procedure 415 (SUPERVISOR): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Supervisor notification",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        }
+      ],
+      "solution": "Supervisor notification",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 17,
+        "pdf_page": 195,
+        "paragraph": "SUPERVISOR",
+        "coverage": "Notify supervisor when required"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-017",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "SUPERVISOR",
+      "stem": "Procedure 415 (SUPERVISOR): Notify supervisor when required.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 17,
+        "pdf_page": 195,
+        "paragraph": "SUPERVISOR",
+        "coverage": "Notify supervisor when required"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-017",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "SUPERVISOR",
+      "stem": "Procedure 415 (SUPERVISOR): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "SUPERVISOR"
+        ],
+        [
+          "Requirement",
+          "Supervisor notification"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 17,
+        "pdf_page": 195,
+        "paragraph": "SUPERVISOR",
+        "coverage": "Notify supervisor when required"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-017",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "SUPERVISOR",
+      "stem": "Procedure 415 (SUPERVISOR): Notify supervisor when required.",
+      "answer": "Supervisor",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 17,
+        "pdf_page": 195,
+        "paragraph": "SUPERVISOR",
+        "coverage": "Notify supervisor when required"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MCQ-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "DOCUMENTATION",
+      "stem": "Procedure 415 (DOCUMENTATION): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Documentation",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        }
+      ],
+      "solution": "Documentation",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 18,
+        "pdf_page": 196,
+        "paragraph": "DOCUMENTATION",
+        "coverage": "All EMS interactions documented"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-018",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "DOCUMENTATION",
+      "stem": "Procedure 415 (DOCUMENTATION): All EMS interactions documented.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 18,
+        "pdf_page": 196,
+        "paragraph": "DOCUMENTATION",
+        "coverage": "All EMS interactions documented"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-018",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "DOCUMENTATION",
+      "stem": "Procedure 415 (DOCUMENTATION): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "DOCUMENTATION"
+        ],
+        [
+          "Requirement",
+          "Documentation"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 18,
+        "pdf_page": 196,
+        "paragraph": "DOCUMENTATION",
+        "coverage": "All EMS interactions documented"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-018",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "DOCUMENTATION",
+      "stem": "Procedure 415 (DOCUMENTATION): All EMS interactions documented.",
+      "answer": "Documentation",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 18,
+        "pdf_page": 196,
+        "paragraph": "DOCUMENTATION",
+        "coverage": "All EMS interactions documented"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MCQ-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "FINALIZATION",
+      "stem": "Procedure 415 (FINALIZATION): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Finalize event",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        }
+      ],
+      "solution": "Finalize event",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 19,
+        "pdf_page": 197,
+        "paragraph": "FINALIZATION",
+        "coverage": "Finalize ambulance event correctly"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-019",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "FINALIZATION",
+      "stem": "Procedure 415 (FINALIZATION): Finalize ambulance event correctly.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 19,
+        "pdf_page": 197,
+        "paragraph": "FINALIZATION",
+        "coverage": "Finalize ambulance event correctly"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-019",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "FINALIZATION",
+      "stem": "Procedure 415 (FINALIZATION): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "FINALIZATION"
+        ],
+        [
+          "Requirement",
+          "Finalize event"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 19,
+        "pdf_page": 197,
+        "paragraph": "FINALIZATION",
+        "coverage": "Finalize ambulance event correctly"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-019",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "FINALIZATION",
+      "stem": "Procedure 415 (FINALIZATION): ________ ambulance event correctly.",
+      "answer": "Finalize",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 19,
+        "pdf_page": 197,
+        "paragraph": "FINALIZATION",
+        "coverage": "Finalize ambulance event correctly"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MCQ-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "AMB ROUTE",
+      "stem": "Procedure 415 (AMB ROUTE): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "AMB route open",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only during emergencies",
+          "is_correct": false
+        }
+      ],
+      "solution": "AMB route open",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 20,
+        "pdf_page": 198,
+        "paragraph": "AMB ROUTE",
+        "coverage": "AMB route must remain open as required"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-020",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "AMB ROUTE",
+      "stem": "Procedure 415 (AMB ROUTE): AMB route must remain open as required.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 20,
+        "pdf_page": 198,
+        "paragraph": "AMB ROUTE",
+        "coverage": "AMB route must remain open as required"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-020",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "AMB ROUTE",
+      "stem": "Procedure 415 (AMB ROUTE): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "AMB ROUTE"
+        ],
+        [
+          "Requirement",
+          "AMB route open"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 20,
+        "pdf_page": 198,
+        "paragraph": "AMB ROUTE",
+        "coverage": "AMB route must remain open as required"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-020",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "AMB ROUTE",
+      "stem": "Procedure 415 (AMB ROUTE): ________ route must remain open as required.",
+      "answer": "AMB",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 20,
+        "pdf_page": 198,
+        "paragraph": "AMB ROUTE",
+        "coverage": "AMB route must remain open as required"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MCQ-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "REVIEW",
+      "stem": "Procedure 415 (REVIEW): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Review before closure",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Only if supervisor requests",
+          "is_correct": false
+        }
+      ],
+      "solution": "Review before closure",
+      "hints": "Directly stated in Procedure 415.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 21,
+        "pdf_page": 199,
+        "paragraph": "REVIEW",
+        "coverage": "Review event before closure"
+      }
+    },
+    {
+      "question_id": "NYC911-415-TF-021",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "REVIEW",
+      "stem": "Procedure 415 (REVIEW): Review event before closure.",
+      "answer": "true",
+      "hints": "Check the exact wording of the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 21,
+        "pdf_page": 199,
+        "paragraph": "REVIEW",
+        "coverage": "Review event before closure"
+      }
+    },
+    {
+      "question_id": "NYC911-415-MATCH-021",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "REVIEW",
+      "stem": "Procedure 415 (REVIEW): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "REVIEW"
+        ],
+        [
+          "Requirement",
+          "Review before closure"
+        ],
+        [
+          "Applies to",
+          "Ambulance calls"
+        ]
+      ],
+      "hints": "Each match corresponds to a specific EMS rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 21,
+        "pdf_page": 199,
+        "paragraph": "REVIEW",
+        "coverage": "Review event before closure"
+      }
+    },
+    {
+      "question_id": "NYC911-415-FB-021",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 415 – AMBULANCE CALL PROCEDURE",
+      "subtopic": "REVIEW",
+      "stem": "Procedure 415 (REVIEW): ________ event before closure.",
+      "answer": "Review",
+      "hints": "Use the exact command or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc415"
+      ],
+      "source": {
+        "procedure": 415,
+        "proc_page": 21,
+        "pdf_page": 199,
+        "paragraph": "REVIEW",
+        "coverage": "Review event before closure"
+      }
+    }
+  ]
+}

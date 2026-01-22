@@ -1,0 +1,1327 @@
+{
+  "lesson": {
+    "slug": "911-proc-107-gas-availability-information-full-coverage",
+    "title": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+    "topic": "GAS AVAILABILITY INFORMATION",
+    "order": 107,
+    "objectives": [
+      "Relay gas availability using required phrasing and positive-only broadcasts.",
+      "Apply Out-of-Service handling and monitoring responsibilities.",
+      "Input station house locations using 68Q1/68Q2 and create/assign the event."
+    ],
+    "questionIds": [
+      "NYC911-107-MCQ-001",
+      "NYC911-107-MCQ-002",
+      "NYC911-107-MCQ-003",
+      "NYC911-107-MCQ-004",
+      "NYC911-107-MCQ-005",
+      "NYC911-107-MCQ-006",
+      "NYC911-107-MCQ-007",
+      "NYC911-107-MCQ-008",
+      "NYC911-107-MCQ-009",
+      "NYC911-107-MCQ-010",
+      "NYC911-107-TF-001",
+      "NYC911-107-TF-002",
+      "NYC911-107-TF-003",
+      "NYC911-107-TF-004",
+      "NYC911-107-TF-005",
+      "NYC911-107-TF-006",
+      "NYC911-107-TF-007",
+      "NYC911-107-TF-008",
+      "NYC911-107-TF-009",
+      "NYC911-107-TF-010",
+      "NYC911-107-MATCH-001",
+      "NYC911-107-MATCH-002",
+      "NYC911-107-MATCH-003",
+      "NYC911-107-MATCH-004",
+      "NYC911-107-MATCH-005",
+      "NYC911-107-MATCH-006",
+      "NYC911-107-MATCH-007",
+      "NYC911-107-MATCH-008",
+      "NYC911-107-MATCH-009",
+      "NYC911-107-MATCH-010",
+      "NYC911-107-FB-001",
+      "NYC911-107-FB-002",
+      "NYC911-107-FB-003",
+      "NYC911-107-FB-004",
+      "NYC911-107-FB-005",
+      "NYC911-107-FB-006",
+      "NYC911-107-FB-007",
+      "NYC911-107-FB-008",
+      "NYC911-107-FB-009",
+      "NYC911-107-FB-010"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-107-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Frequency",
+      "stem": "Procedure 107: How often is gas availability obtained each tour?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Twice each tour",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Every hour",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only when requested",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Once per day",
+          "is_correct": false
+        }
+      ],
+      "solution": "Twice each tour",
+      "hints": "Look for the exact instruction on pages 41–42.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 1,
+        "pdf_page": 41,
+        "paragraph": "SCOPE",
+        "coverage": "Communications Section obtains gas availability twice each tour from the Fuel Control Unit and distributes it to all dispatchers."
+      }
+    },
+    {
+      "question_id": "NYC911-107-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Source unit",
+      "stem": "Procedure 107: Gas availability information is obtained from which unit?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Radio Supervisor",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Fuel Control Unit",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Citywide Operations",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "NYPD Garage Unit",
+          "is_correct": false
+        }
+      ],
+      "solution": "Fuel Control Unit",
+      "hints": "Look for the exact instruction on pages 41–42.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 1,
+        "pdf_page": 41,
+        "paragraph": "SCOPE",
+        "coverage": "Communications Section obtains gas availability twice each tour from the Fuel Control Unit and distributes it to all dispatchers."
+      }
+    },
+    {
+      "question_id": "NYC911-107-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Report shows",
+      "stem": "Procedure 107: The gas availability report indicates what?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Which units are on meal",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Which precincts have gas",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Which borough has traffic",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Which cars are out of service",
+          "is_correct": false
+        }
+      ],
+      "solution": "Which precincts have gas",
+      "hints": "Look for the exact instruction on pages 41–42.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 2,
+        "pdf_page": 41,
+        "paragraph": "RADIO DISPATCHER 1",
+        "coverage": "Gas availability report indicates what precincts have gas; dispatchers advise field units using: “Fuel Control Unit has advised that gas is available at…” and relay precincts concerned."
+      }
+    },
+    {
+      "question_id": "NYC911-107-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Required phrase",
+      "stem": "Procedure 107: How should dispatchers phrase gas availability advice to units?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Proceed to nearest station immediately",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Fuel Control Unit has advised that gas is available at...",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Gas is low everywhere",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "No gas available in…",
+          "is_correct": false
+        }
+      ],
+      "solution": "Fuel Control Unit has advised that gas is available at...",
+      "hints": "Look for the exact instruction on pages 41–42.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 2,
+        "pdf_page": 41,
+        "paragraph": "RADIO DISPATCHER 1",
+        "coverage": "Gas availability report indicates what precincts have gas; dispatchers advise field units using: “Fuel Control Unit has advised that gas is available at…” and relay precincts concerned."
+      }
+    },
+    {
+      "question_id": "NYC911-107-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Negative reports",
+      "stem": "Procedure 107: What is dispatchers NOT supposed to broadcast?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Fuel control phrase",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Negative reports such as “NO GAS AVAILABLE IN…”",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Where gas is available",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Precincts concerned",
+          "is_correct": false
+        }
+      ],
+      "solution": "Negative reports such as “NO GAS AVAILABLE IN…”",
+      "hints": "Look for the exact instruction on pages 41–42.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 3,
+        "pdf_page": 41,
+        "paragraph": "NOTE",
+        "coverage": "Do not broadcast negative reports like “NO GAS AVAILABLE IN…”. Transmit where gas IS available and report problems to the radio supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-107-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Problems",
+      "stem": "Procedure 107: If there are problems with gas availability info, who should be notified?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Unit dispatcher",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Radio supervisor",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Desk officer",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Complainant",
+          "is_correct": false
+        }
+      ],
+      "solution": "Radio supervisor",
+      "hints": "Look for the exact instruction on pages 41–42.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 3,
+        "pdf_page": 41,
+        "paragraph": "NOTE",
+        "coverage": "Do not broadcast negative reports like “NO GAS AVAILABLE IN…”. Transmit where gas IS available and report problems to the radio supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-107-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Put unit OOS",
+      "stem": "Procedure 107: Which is an approved way to put a unit Out of Service?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Change precinct manually",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Use Command Line or right-click unit in Unit Monitor",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only supervisor can do it",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Remove it from the system",
+          "is_correct": false
+        }
+      ],
+      "solution": "Use Command Line or right-click unit in Unit Monitor",
+      "hints": "Look for the exact instruction on pages 41–42.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 4,
+        "pdf_page": 41,
+        "paragraph": "RADIO DISPATCHER 2",
+        "coverage": "To put a unit Out of Service: use Command Line or right-click the unit in Unit Monitor (procedure shows both methods)."
+      }
+    },
+    {
+      "question_id": "NYC911-107-MCQ-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "OOS effect",
+      "stem": "Procedure 107: When a unit is Out of Service, where will it NOT appear?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Radio log book",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Unit alarms",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Event monitor",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Unit monitor",
+          "is_correct": false
+        }
+      ],
+      "solution": "Unit alarms",
+      "hints": "Look for the exact instruction on pages 41–42.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 5,
+        "pdf_page": 42,
+        "paragraph": "NOTE (OOS)",
+        "coverage": "When units are put out of service, they will not show in unit alarms; dispatcher must periodically scan Unit Monitor to ensure units are returned to available status."
+      }
+    },
+    {
+      "question_id": "NYC911-107-MCQ-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Monitoring",
+      "stem": "Procedure 107: What must the dispatcher do regarding OOS units?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Wait for auto-return only",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ignore until end of tour",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only check if asked",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Periodically scan the Unit Monitor to ensure units return to available",
+          "is_correct": true
+        }
+      ],
+      "solution": "Periodically scan the Unit Monitor to ensure units return to available",
+      "hints": "Look for the exact instruction on pages 41–42.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 5,
+        "pdf_page": 42,
+        "paragraph": "NOTE (OOS)",
+        "coverage": "When units are put out of service, they will not show in unit alarms; dispatcher must periodically scan Unit Monitor to ensure units are returned to available status."
+      }
+    },
+    {
+      "question_id": "NYC911-107-MCQ-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "68Q1/68Q2",
+      "stem": "Procedure 107: When a unit advises a location for a station house assignment, what does the dispatcher use?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10-13 with address",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Signal code only",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "68Q1 or 68Q2 with the location given",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "No input required",
+          "is_correct": false
+        }
+      ],
+      "solution": "68Q1 or 68Q2 with the location given",
+      "hints": "Look for the exact instruction on pages 41–42.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 6,
+        "pdf_page": 42,
+        "paragraph": "RADIO DISPATCHER 3",
+        "coverage": "Sometimes units handle precinct assignments from station house; unit advises dispatcher of location; dispatcher inputs job using location given by unit using 68Q1 or 68Q2; create an event and assign appropriate unit (example: “Central show me on a 61 to 315 Sutter Ave”)."
+      }
+    },
+    {
+      "question_id": "NYC911-107-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Scope",
+      "stem": "Procedure 107: Gas availability is obtained twice each tour from the Fuel Control Unit.",
+      "answer": "true",
+      "hints": "Directly stated in the procedure wording.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 1,
+        "pdf_page": 41,
+        "paragraph": "SCOPE",
+        "coverage": "Communications Section obtains gas availability twice each tour from the Fuel Control Unit and distributes it to all dispatchers."
+      }
+    },
+    {
+      "question_id": "NYC911-107-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Scope",
+      "stem": "Procedure 107: Gas availability information is distributed only to supervisors, not dispatchers.",
+      "answer": "false",
+      "hints": "Directly stated in the procedure wording.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 1,
+        "pdf_page": 41,
+        "paragraph": "SCOPE",
+        "coverage": "Communications Section obtains gas availability twice each tour from the Fuel Control Unit and distributes it to all dispatchers."
+      }
+    },
+    {
+      "question_id": "NYC911-107-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Phrase",
+      "stem": "Procedure 107: Dispatchers should tell units: “Fuel Control Unit has advised that gas is available at…”",
+      "answer": "true",
+      "hints": "Directly stated in the procedure wording.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 2,
+        "pdf_page": 41,
+        "paragraph": "RADIO DISPATCHER 1",
+        "coverage": "Gas availability report indicates what precincts have gas; dispatchers advise field units using: “Fuel Control Unit has advised that gas is available at…” and relay precincts concerned."
+      }
+    },
+    {
+      "question_id": "NYC911-107-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Negative",
+      "stem": "Procedure 107: Dispatchers should broadcast: “NO GAS AVAILABLE IN…” to warn units.",
+      "answer": "false",
+      "hints": "Directly stated in the procedure wording.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 3,
+        "pdf_page": 41,
+        "paragraph": "NOTE",
+        "coverage": "Do not broadcast negative reports like “NO GAS AVAILABLE IN…”. Transmit where gas IS available and report problems to the radio supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-107-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Problems",
+      "stem": "Procedure 107: Dispatchers should report any problems to the radio supervisor.",
+      "answer": "true",
+      "hints": "Directly stated in the procedure wording.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 3,
+        "pdf_page": 41,
+        "paragraph": "NOTE",
+        "coverage": "Do not broadcast negative reports like “NO GAS AVAILABLE IN…”. Transmit where gas IS available and report problems to the radio supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-107-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "OOS methods",
+      "stem": "Procedure 107: Putting a unit Out of Service can be done from the Command Line or by right-clicking the unit in Unit Monitor.",
+      "answer": "true",
+      "hints": "Directly stated in the procedure wording.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 4,
+        "pdf_page": 41,
+        "paragraph": "RADIO DISPATCHER 2",
+        "coverage": "To put a unit Out of Service: use Command Line or right-click the unit in Unit Monitor (procedure shows both methods)."
+      }
+    },
+    {
+      "question_id": "NYC911-107-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "OOS alarms",
+      "stem": "Procedure 107: Out-of-service units will still show in unit alarms.",
+      "answer": "false",
+      "hints": "Directly stated in the procedure wording.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 5,
+        "pdf_page": 42,
+        "paragraph": "NOTE (OOS)",
+        "coverage": "When units are put out of service, they will not show in unit alarms; dispatcher must periodically scan Unit Monitor to ensure units are returned to available status."
+      }
+    },
+    {
+      "question_id": "NYC911-107-TF-008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Monitoring",
+      "stem": "Procedure 107: It is the dispatcher’s responsibility to periodically scan Unit Monitor to ensure OOS units return to available.",
+      "answer": "true",
+      "hints": "Directly stated in the procedure wording.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 5,
+        "pdf_page": 42,
+        "paragraph": "NOTE (OOS)",
+        "coverage": "When units are put out of service, they will not show in unit alarms; dispatcher must periodically scan Unit Monitor to ensure units are returned to available status."
+      }
+    },
+    {
+      "question_id": "NYC911-107-TF-009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Station house jobs",
+      "stem": "Procedure 107: When a unit handles a station house assignment, it may come over the air and provide the location.",
+      "answer": "true",
+      "hints": "Directly stated in the procedure wording.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 6,
+        "pdf_page": 42,
+        "paragraph": "RADIO DISPATCHER 3",
+        "coverage": "Sometimes units handle precinct assignments from station house; unit advises dispatcher of location; dispatcher inputs job using location given by unit using 68Q1 or 68Q2; create an event and assign appropriate unit (example: “Central show me on a 61 to 315 Sutter Ave”)."
+      }
+    },
+    {
+      "question_id": "NYC911-107-TF-010",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "68Q use",
+      "stem": "Procedure 107: Station house locations given by a unit are input using 68Q1 or 68Q2.",
+      "answer": "true",
+      "hints": "Directly stated in the procedure wording.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 6,
+        "pdf_page": 42,
+        "paragraph": "RADIO DISPATCHER 3",
+        "coverage": "Sometimes units handle precinct assignments from station house; unit advises dispatcher of location; dispatcher inputs job using location given by unit using 68Q1 or 68Q2; create an event and assign appropriate unit (example: “Central show me on a 61 to 315 Sutter Ave”)."
+      }
+    },
+    {
+      "question_id": "NYC911-107-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Sources",
+      "stem": "Procedure 107: Match the item to what it provides.",
+      "answer": [
+        [
+          "Fuel Control Unit",
+          "Provides gas availability info"
+        ],
+        [
+          "Communications Section",
+          "Obtains & distributes report"
+        ],
+        [
+          "Dispatchers",
+          "Relay availability to field units"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 1,
+        "pdf_page": 41,
+        "paragraph": "SCOPE",
+        "coverage": "Communications Section obtains gas availability twice each tour from the Fuel Control Unit and distributes it to all dispatchers."
+      }
+    },
+    {
+      "question_id": "NYC911-107-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Broadcasting",
+      "stem": "Procedure 107: Match the instruction to what it means.",
+      "answer": [
+        [
+          "Transmit positive availability",
+          "State where gas IS available"
+        ],
+        [
+          "Avoid negative broadcast",
+          "Do not say 'NO GAS AVAILABLE IN…'"
+        ],
+        [
+          "Report problems",
+          "Notify radio supervisor of issues"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 3,
+        "pdf_page": 41,
+        "paragraph": "NOTE",
+        "coverage": "Do not broadcast negative reports like “NO GAS AVAILABLE IN…”. Transmit where gas IS available and report problems to the radio supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-107-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Phrase parts",
+      "stem": "Procedure 107: Match the phrase element to its purpose.",
+      "answer": [
+        [
+          "Fuel Control Unit has advised",
+          "Identifies information source"
+        ],
+        [
+          "Gas is available at",
+          "States availability locations"
+        ],
+        [
+          "Relay precincts concerned",
+          "Lists precincts involved"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 2,
+        "pdf_page": 41,
+        "paragraph": "RADIO DISPATCHER 1",
+        "coverage": "Gas availability report indicates what precincts have gas; dispatchers advise field units using: “Fuel Control Unit has advised that gas is available at…” and relay precincts concerned."
+      }
+    },
+    {
+      "question_id": "NYC911-107-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "OOS methods",
+      "stem": "Procedure 107: Match the method to the action.",
+      "answer": [
+        [
+          "Command Line",
+          "Set OOS via command entry"
+        ],
+        [
+          "Right-click Unit Monitor",
+          "Set OOS via unit monitor menu"
+        ],
+        [
+          "Unit alarms",
+          "No alerts for OOS units"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 4,
+        "pdf_page": 41,
+        "paragraph": "RADIO DISPATCHER 2",
+        "coverage": "To put a unit Out of Service: use Command Line or right-click the unit in Unit Monitor (procedure shows both methods)."
+      }
+    },
+    {
+      "question_id": "NYC911-107-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "OOS follow-up",
+      "stem": "Procedure 107: Match the requirement to the reason.",
+      "answer": [
+        [
+          "Scan Unit Monitor",
+          "Ensure unit returns to available"
+        ],
+        [
+          "OOS status",
+          "Hidden from alarms"
+        ],
+        [
+          "Dispatcher responsibility",
+          "Must actively check status"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 5,
+        "pdf_page": 42,
+        "paragraph": "NOTE (OOS)",
+        "coverage": "When units are put out of service, they will not show in unit alarms; dispatcher must periodically scan Unit Monitor to ensure units are returned to available status."
+      }
+    },
+    {
+      "question_id": "NYC911-107-MATCH-006",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Station house handling",
+      "stem": "Procedure 107: Match the scenario to the dispatcher action.",
+      "answer": [
+        [
+          "Station house assignment",
+          "Unit advises location over air"
+        ],
+        [
+          "Location advised",
+          "Dispatcher inputs job using that location"
+        ],
+        [
+          "Input code",
+          "Use 68Q1/68Q2"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 6,
+        "pdf_page": 42,
+        "paragraph": "RADIO DISPATCHER 3",
+        "coverage": "Sometimes units handle precinct assignments from station house; unit advises dispatcher of location; dispatcher inputs job using location given by unit using 68Q1 or 68Q2; create an event and assign appropriate unit (example: “Central show me on a 61 to 315 Sutter Ave”)."
+      }
+    },
+    {
+      "question_id": "NYC911-107-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Event creation",
+      "stem": "Procedure 107: Match the step to the requirement.",
+      "answer": [
+        [
+          "Create an event",
+          "Build the incident entry"
+        ],
+        [
+          "Assign appropriate unit",
+          "Attach the correct unit"
+        ],
+        [
+          "Example '61 to address'",
+          "Sample unit transmission"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 6,
+        "pdf_page": 42,
+        "paragraph": "RADIO DISPATCHER 3",
+        "coverage": "Sometimes units handle precinct assignments from station house; unit advises dispatcher of location; dispatcher inputs job using location given by unit using 68Q1 or 68Q2; create an event and assign appropriate unit (example: “Central show me on a 61 to 315 Sutter Ave”)."
+      }
+    },
+    {
+      "question_id": "NYC911-107-MATCH-008",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Timing",
+      "stem": "Procedure 107: Match the timing to the task.",
+      "answer": [
+        [
+          "Twice each tour",
+          "Obtain availability report"
+        ],
+        [
+          "When advising units",
+          "Use approved phrase"
+        ],
+        [
+          "While units are OOS",
+          "Scan monitor periodically"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 1,
+        "pdf_page": 41,
+        "paragraph": "SCOPE",
+        "coverage": "Communications Section obtains gas availability twice each tour from the Fuel Control Unit and distributes it to all dispatchers."
+      }
+    },
+    {
+      "question_id": "NYC911-107-MATCH-009",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Allowed vs prohibited",
+      "stem": "Procedure 107: Match the statement to its status.",
+      "answer": [
+        [
+          "'Gas is available at…'",
+          "Allowed phrasing"
+        ],
+        [
+          "'NO GAS AVAILABLE IN…'",
+          "Prohibited phrasing"
+        ],
+        [
+          "'Report problems'",
+          "Supervisor notification"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 3,
+        "pdf_page": 41,
+        "paragraph": "NOTE",
+        "coverage": "Do not broadcast negative reports like “NO GAS AVAILABLE IN…”. Transmit where gas IS available and report problems to the radio supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-107-MATCH-010",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Where it appears",
+      "stem": "Procedure 107: Match the item to where it is found.",
+      "answer": [
+        [
+          "Unit Monitor",
+          "Displays status list"
+        ],
+        [
+          "Unit alarms",
+          "No OOS alarm entry"
+        ],
+        [
+          "Radio transmission",
+          "Message to field units"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 5,
+        "pdf_page": 42,
+        "paragraph": "NOTE (OOS)",
+        "coverage": "When units are put out of service, they will not show in unit alarms; dispatcher must periodically scan Unit Monitor to ensure units are returned to available status."
+      }
+    },
+    {
+      "question_id": "NYC911-107-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Scope",
+      "stem": "Procedure 107: The Communications Section obtains gas availability ________ each tour.",
+      "answer": "twice",
+      "hints": "The missing word appears directly in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 1,
+        "pdf_page": 41,
+        "paragraph": "SCOPE",
+        "coverage": "Communications Section obtains gas availability twice each tour from the Fuel Control Unit and distributes it to all dispatchers."
+      }
+    },
+    {
+      "question_id": "NYC911-107-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Source",
+      "stem": "Procedure 107: Gas availability is obtained from the ________ Control Unit.",
+      "answer": "Fuel",
+      "hints": "The missing word appears directly in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 1,
+        "pdf_page": 41,
+        "paragraph": "SCOPE",
+        "coverage": "Communications Section obtains gas availability twice each tour from the Fuel Control Unit and distributes it to all dispatchers."
+      }
+    },
+    {
+      "question_id": "NYC911-107-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Report meaning",
+      "stem": "Procedure 107: The gas availability report indicates what ________ have gas.",
+      "answer": "precincts",
+      "hints": "The missing word appears directly in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 2,
+        "pdf_page": 41,
+        "paragraph": "RADIO DISPATCHER 1",
+        "coverage": "Gas availability report indicates what precincts have gas; dispatchers advise field units using: “Fuel Control Unit has advised that gas is available at…” and relay precincts concerned."
+      }
+    },
+    {
+      "question_id": "NYC911-107-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Phrase",
+      "stem": "Procedure 107: Dispatchers advise: “Fuel Control Unit has advised that gas is ________ at…”",
+      "answer": "available",
+      "hints": "The missing word appears directly in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 2,
+        "pdf_page": 41,
+        "paragraph": "RADIO DISPATCHER 1",
+        "coverage": "Gas availability report indicates what precincts have gas; dispatchers advise field units using: “Fuel Control Unit has advised that gas is available at…” and relay precincts concerned."
+      }
+    },
+    {
+      "question_id": "NYC911-107-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Negative note",
+      "stem": "Procedure 107: Dispatchers will not broadcast ________ reports such as “NO GAS AVAILABLE IN…”",
+      "answer": "negative",
+      "hints": "The missing word appears directly in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 3,
+        "pdf_page": 41,
+        "paragraph": "NOTE",
+        "coverage": "Do not broadcast negative reports like “NO GAS AVAILABLE IN…”. Transmit where gas IS available and report problems to the radio supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-107-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Problems",
+      "stem": "Procedure 107: Report any problems to the radio ________.",
+      "answer": "supervisor",
+      "hints": "The missing word appears directly in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 3,
+        "pdf_page": 41,
+        "paragraph": "NOTE",
+        "coverage": "Do not broadcast negative reports like “NO GAS AVAILABLE IN…”. Transmit where gas IS available and report problems to the radio supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-107-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "OOS",
+      "stem": "Procedure 107: To put a unit ________ of Service, use Command Line or right-click in Unit Monitor.",
+      "answer": "Out",
+      "hints": "The missing word appears directly in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 4,
+        "pdf_page": 41,
+        "paragraph": "RADIO DISPATCHER 2",
+        "coverage": "To put a unit Out of Service: use Command Line or right-click the unit in Unit Monitor (procedure shows both methods)."
+      }
+    },
+    {
+      "question_id": "NYC911-107-FB-008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Alarms",
+      "stem": "Procedure 107: When units are out of service, they will not show in unit ________.",
+      "answer": "alarms",
+      "hints": "The missing word appears directly in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 5,
+        "pdf_page": 42,
+        "paragraph": "NOTE (OOS)",
+        "coverage": "When units are put out of service, they will not show in unit alarms; dispatcher must periodically scan Unit Monitor to ensure units are returned to available status."
+      }
+    },
+    {
+      "question_id": "NYC911-107-FB-009",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Monitor",
+      "stem": "Procedure 107: Dispatcher must periodically scan the unit ________ to ensure units return to available.",
+      "answer": "monitor",
+      "hints": "The missing word appears directly in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 5,
+        "pdf_page": 42,
+        "paragraph": "NOTE (OOS)",
+        "coverage": "When units are put out of service, they will not show in unit alarms; dispatcher must periodically scan Unit Monitor to ensure units are returned to available status."
+      }
+    },
+    {
+      "question_id": "NYC911-107-FB-010",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 107 – GAS AVAILABILITY INFORMATION",
+      "subtopic": "Input",
+      "stem": "Procedure 107: Dispatcher inputs the job using ________Q1 or 68Q2 when location is provided by the unit.",
+      "answer": "68",
+      "hints": "The missing word appears directly in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc107"
+      ],
+      "source": {
+        "procedure": 107,
+        "proc_page": 6,
+        "pdf_page": 42,
+        "paragraph": "RADIO DISPATCHER 3",
+        "coverage": "Sometimes units handle precinct assignments from station house; unit advises dispatcher of location; dispatcher inputs job using location given by unit using 68Q1 or 68Q2; create an event and assign appropriate unit (example: “Central show me on a 61 to 315 Sutter Ave”)."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1329 @@
+{
+  "lesson": {
+    "slug": "911-proc-401-plainclothes-operations-full-coverage",
+    "title": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+    "topic": "PLAINCLOTHES OPERATIONS",
+    "order": 401,
+    "objectives": [
+      "Apply assignment rules for plainclothes units, including exclusions and supervisor approvals.",
+      "Broadcast required advisories when plainclothes and uniformed units respond to serious incidents.",
+      "Handle stakeout operation notifications, postings, and approved radio terminology to protect cover.",
+      "Apply authorization rules for broadcasting full details during dangerous stakeout situations.",
+      "Maintain continuity by informing relief dispatchers and notifying radio supervisors of problems."
+    ],
+    "questionIds": [
+      "NYC911-401-MCQ-001",
+      "NYC911-401-MCQ-002",
+      "NYC911-401-MCQ-003",
+      "NYC911-401-MCQ-004",
+      "NYC911-401-MCQ-005",
+      "NYC911-401-MCQ-006",
+      "NYC911-401-MCQ-007",
+      "NYC911-401-MCQ-008",
+      "NYC911-401-MCQ-009",
+      "NYC911-401-MCQ-010",
+      "NYC911-401-TF-001",
+      "NYC911-401-TF-002",
+      "NYC911-401-TF-003",
+      "NYC911-401-TF-004",
+      "NYC911-401-TF-005",
+      "NYC911-401-TF-006",
+      "NYC911-401-TF-007",
+      "NYC911-401-TF-008",
+      "NYC911-401-TF-009",
+      "NYC911-401-TF-010",
+      "NYC911-401-MATCH-001",
+      "NYC911-401-MATCH-002",
+      "NYC911-401-MATCH-003",
+      "NYC911-401-MATCH-004",
+      "NYC911-401-MATCH-005",
+      "NYC911-401-MATCH-006",
+      "NYC911-401-MATCH-007",
+      "NYC911-401-MATCH-008",
+      "NYC911-401-MATCH-009",
+      "NYC911-401-MATCH-010",
+      "NYC911-401-FB-001",
+      "NYC911-401-FB-002",
+      "NYC911-401-FB-003",
+      "NYC911-401-FB-004",
+      "NYC911-401-FB-005",
+      "NYC911-401-FB-006",
+      "NYC911-401-FB-007",
+      "NYC911-401-FB-008",
+      "NYC911-401-FB-009",
+      "NYC911-401-FB-010"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-401-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "Purpose",
+      "stem": "Procedure 401: Why should assignment of plainclothes officers be avoided in most cases?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Because radios cannot reach them",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "To reduce paperwork",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "To prevent confrontations between uniformed and non-uniformed personnel",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "To avoid using marked units",
+          "is_correct": false
+        }
+      ],
+      "solution": "To prevent confrontations between uniformed and non-uniformed personnel",
+      "hints": "Use the plainclothes operations procedure wording.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 1,
+        "pdf_page": 151,
+        "paragraph": "PURPOSE",
+        "coverage": "Response to most assignments will be made by marked units containing uniformed Police Officers. Assignment of Plainclothes Officers should be avoided, in most cases, to prevent confrontations between uniformed and non-uniformed personnel."
+      }
+    },
+    {
+      "question_id": "NYC911-401-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "1.a",
+      "stem": "Procedure 401: When may plainclothes units be assigned to crimes in progress?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "When no uniformed units are available (excluding sale of drugs in any building)",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Any time a crime is reported",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only when a supervisor is on scene",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only after EMS arrives",
+          "is_correct": false
+        }
+      ],
+      "solution": "When no uniformed units are available (excluding sale of drugs in any building)",
+      "hints": "Use the plainclothes operations procedure wording.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 2,
+        "pdf_page": 151,
+        "paragraph": "RADIO DISPATCHER 1.a",
+        "coverage": "Plainclothes units may be assigned to crimes in progress when no uniformed units are available (excluding a report of sale of drugs in any building)."
+      }
+    },
+    {
+      "question_id": "NYC911-401-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "1.a Exclusion",
+      "stem": "Procedure 401: Which situation is excluded from assigning plainclothes units under 1.a?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A robbery in progress",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "A report of sale of drugs in any building",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "A burglary report",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "A noise complaint",
+          "is_correct": false
+        }
+      ],
+      "solution": "A report of sale of drugs in any building",
+      "hints": "Use the plainclothes operations procedure wording.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 2,
+        "pdf_page": 151,
+        "paragraph": "RADIO DISPATCHER 1.a",
+        "coverage": "Plainclothes units may be assigned to crimes in progress when no uniformed units are available (excluding a report of sale of drugs in any building)."
+      }
+    },
+    {
+      "question_id": "NYC911-401-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "1.b",
+      "stem": "Procedure 401: When may plainclothes units be assigned to 10-13 calls?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "When close enough to be among the first arriving unit at the scene",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Only if the caller requests",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only if it is a summons job",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only after uniformed arrive",
+          "is_correct": false
+        }
+      ],
+      "solution": "When close enough to be among the first arriving unit at the scene",
+      "hints": "Use the plainclothes operations procedure wording.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 3,
+        "pdf_page": 151,
+        "paragraph": "RADIO DISPATCHER 1.b",
+        "coverage": "Plainclothes units may be assigned to 10-13 calls when close enough to be among the first arriving unit at the scene."
+      }
+    },
+    {
+      "question_id": "NYC911-401-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "1.c",
+      "stem": "Procedure 401: Which condition requires radio supervisor approval for assigning plainclothes units?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Any lost property report",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Any traffic condition",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Other situations in an alert/backlog situation or when plainclothes could better investigate",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Any routine complaint",
+          "is_correct": false
+        }
+      ],
+      "solution": "Other situations in an alert/backlog situation or when plainclothes could better investigate",
+      "hints": "Use the plainclothes operations procedure wording.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 4,
+        "pdf_page": 151,
+        "paragraph": "RADIO DISPATCHER 1.c",
+        "coverage": "Plainclothes units may be assigned to other situations with radio supervisor approval in an alert/backlog situation or when incident could be better investigated by plainclothes."
+      }
+    },
+    {
+      "question_id": "NYC911-401-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "1.d",
+      "stem": "Procedure 401: What must the dispatcher do when plainclothes and uniformed units are both responding to a serious incident?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Tell uniformed to stand down",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Broadcast an advisory message and remind plainclothes to display the color of the day",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cancel the assignment",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Transmit the stakeout details over air",
+          "is_correct": false
+        }
+      ],
+      "solution": "Broadcast an advisory message and remind plainclothes to display the color of the day",
+      "hints": "Use the plainclothes operations procedure wording.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 5,
+        "pdf_page": 151,
+        "paragraph": "RADIO DISPATCHER 1.d",
+        "coverage": "Broadcast an advisory message as soon as dispatcher becomes aware plainclothes units are responding to a serious incident where uniformed personnel are also responding; remind plainclothes to display the color of the day."
+      }
+    },
+    {
+      "question_id": "NYC911-401-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "3",
+      "stem": "Procedure 401: Who must supervising officers notify prior to starting any plainclothes operation?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Precinct desk officer",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "FDNY dispatcher",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "EMS chief",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Communications Section Platoon Commanders",
+          "is_correct": true
+        }
+      ],
+      "solution": "Communications Section Platoon Commanders",
+      "hints": "Use the plainclothes operations procedure wording.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 7,
+        "pdf_page": 152,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 3",
+        "coverage": "Supervising Officers of all Plainclothes Operations must notify Communications Section Platoon Commanders prior to start; all incoming calls regarding Plainclothes Operations forwarded to Platoon Commanders/Assistant Platoon Commanders."
+      }
+    },
+    {
+      "question_id": "NYC911-401-MCQ-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "4",
+      "stem": "Procedure 401: If an incident occurs at the posted plainclothes-operation location, what should the dispatcher advise?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "That only undercover units should respond",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "That no units should respond",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "That a stakeout is happening there",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "That there may be plainclothes officers in the vicinity/location",
+          "is_correct": true
+        }
+      ],
+      "solution": "That there may be plainclothes officers in the vicinity/location",
+      "hints": "Use the plainclothes operations procedure wording.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 8,
+        "pdf_page": 152,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 4",
+        "coverage": "Coordinator gives notice to radio supervisor for posting at terminal; when incident occurs at posted location, advise units there are plainclothes in vicinity (particularly Housing/Transit); avoid saying 'stakeout' over air; use approved terminology."
+      }
+    },
+    {
+      "question_id": "NYC911-401-MCQ-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "5",
+      "stem": "Procedure 401: When may the dispatcher give full details over the air at a known stakeout location?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only after the job is closed",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Always, to help units",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only if there is no supervisor",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "When a dangerous situation is occurring and Radio Supervisor authorizes",
+          "is_correct": true
+        }
+      ],
+      "solution": "When a dangerous situation is occurring and Radio Supervisor authorizes",
+      "hints": "Use the plainclothes operations procedure wording.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 9,
+        "pdf_page": 152,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 5",
+        "coverage": "If dangerous situation at known stakeout with potential injuries, dispatcher may give full details over air, but only if authorized by Radio Supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-401-MCQ-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "6",
+      "stem": "Procedure 401: What must dispatchers do regarding the relief dispatcher?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ensure the relief dispatcher is aware of the plainclothes operation",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Only notify if FD is responding",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only notify after an arrest",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ignore operations during tour change",
+          "is_correct": false
+        }
+      ],
+      "solution": "Ensure the relief dispatcher is aware of the plainclothes operation",
+      "hints": "Use the plainclothes operations procedure wording.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 10,
+        "pdf_page": 152,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 6",
+        "coverage": "Radio dispatchers must ensure relief dispatcher is aware of the plainclothes operation and notify Radio Supervisor if any problems occur."
+      }
+    },
+    {
+      "question_id": "NYC911-401-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "Purpose",
+      "stem": "Procedure 401: Most assignments are responded to by marked units containing uniformed Police Officers.",
+      "answer": "true",
+      "hints": "Verify against Procedure 401 text.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 1,
+        "pdf_page": 151,
+        "paragraph": "PURPOSE",
+        "coverage": "Response to most assignments will be made by marked units containing uniformed Police Officers. Assignment of Plainclothes Officers should be avoided, in most cases, to prevent confrontations between uniformed and non-uniformed personnel."
+      }
+    },
+    {
+      "question_id": "NYC911-401-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "Purpose",
+      "stem": "Procedure 401: Procedure 401 encourages assigning plainclothes officers to most routine assignments.",
+      "answer": "false",
+      "hints": "Verify against Procedure 401 text.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 1,
+        "pdf_page": 151,
+        "paragraph": "PURPOSE",
+        "coverage": "Response to most assignments will be made by marked units containing uniformed Police Officers. Assignment of Plainclothes Officers should be avoided, in most cases, to prevent confrontations between uniformed and non-uniformed personnel."
+      }
+    },
+    {
+      "question_id": "NYC911-401-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "1.a",
+      "stem": "Procedure 401: Plainclothes units may be assigned to crimes in progress only when no uniformed units are available (with an exclusion).",
+      "answer": "true",
+      "hints": "Verify against Procedure 401 text.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 2,
+        "pdf_page": 151,
+        "paragraph": "RADIO DISPATCHER 1.a",
+        "coverage": "Plainclothes units may be assigned to crimes in progress when no uniformed units are available (excluding a report of sale of drugs in any building)."
+      }
+    },
+    {
+      "question_id": "NYC911-401-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "1.b",
+      "stem": "Procedure 401: Plainclothes units may be assigned to 10-13 calls when close enough to be among first arriving units.",
+      "answer": "true",
+      "hints": "Verify against Procedure 401 text.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 3,
+        "pdf_page": 151,
+        "paragraph": "RADIO DISPATCHER 1.b",
+        "coverage": "Plainclothes units may be assigned to 10-13 calls when close enough to be among the first arriving unit at the scene."
+      }
+    },
+    {
+      "question_id": "NYC911-401-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "1.c",
+      "stem": "Procedure 401: Radio supervisor approval is never needed for assigning plainclothes units.",
+      "answer": "false",
+      "hints": "Verify against Procedure 401 text.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 4,
+        "pdf_page": 151,
+        "paragraph": "RADIO DISPATCHER 1.c",
+        "coverage": "Plainclothes units may be assigned to other situations with radio supervisor approval in an alert/backlog situation or when incident could be better investigated by plainclothes."
+      }
+    },
+    {
+      "question_id": "NYC911-401-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "1.d",
+      "stem": "Procedure 401: When plainclothes units respond to a serious incident with uniformed units, the dispatcher should broadcast an advisory message.",
+      "answer": "true",
+      "hints": "Verify against Procedure 401 text.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 5,
+        "pdf_page": 151,
+        "paragraph": "RADIO DISPATCHER 1.d",
+        "coverage": "Broadcast an advisory message as soon as dispatcher becomes aware plainclothes units are responding to a serious incident where uniformed personnel are also responding; remind plainclothes to display the color of the day."
+      }
+    },
+    {
+      "question_id": "NYC911-401-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "4",
+      "stem": "Procedure 401: The dispatcher should state flatly over the air that there is a stakeout at the location.",
+      "answer": "false",
+      "hints": "Verify against Procedure 401 text.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 8,
+        "pdf_page": 152,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 4",
+        "coverage": "Coordinator gives notice to radio supervisor for posting at terminal; when incident occurs at posted location, advise units there are plainclothes in vicinity (particularly Housing/Transit); avoid saying 'stakeout' over air; use approved terminology."
+      }
+    },
+    {
+      "question_id": "NYC911-401-TF-008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "4",
+      "stem": "Procedure 401: The procedure notes that many people (including criminals) listen to police frequencies.",
+      "answer": "true",
+      "hints": "Verify against Procedure 401 text.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 8,
+        "pdf_page": 152,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 4",
+        "coverage": "Coordinator gives notice to radio supervisor for posting at terminal; when incident occurs at posted location, advise units there are plainclothes in vicinity (particularly Housing/Transit); avoid saying 'stakeout' over air; use approved terminology."
+      }
+    },
+    {
+      "question_id": "NYC911-401-TF-009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "5",
+      "stem": "Procedure 401: A dispatcher may give full details over the air at a known stakeout if authorized by the Radio Supervisor.",
+      "answer": "true",
+      "hints": "Verify against Procedure 401 text.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 9,
+        "pdf_page": 152,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 5",
+        "coverage": "If dangerous situation at known stakeout with potential injuries, dispatcher may give full details over air, but only if authorized by Radio Supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-401-TF-010",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "6",
+      "stem": "Procedure 401: Radio dispatchers must notify the Radio Supervisor if any problems occur related to the plainclothes operation.",
+      "answer": "true",
+      "hints": "Verify against Procedure 401 text.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 10,
+        "pdf_page": 152,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 6",
+        "coverage": "Radio dispatchers must ensure relief dispatcher is aware of the plainclothes operation and notify Radio Supervisor if any problems occur."
+      }
+    },
+    {
+      "question_id": "NYC911-401-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "Assignment triggers",
+      "stem": "Procedure 401: Match the situation to when plainclothes may be assigned.",
+      "answer": [
+        [
+          "Crimes in progress (no uniformed)",
+          "Assignable (except drug sale in building)"
+        ],
+        [
+          "10-13 call (close enough)",
+          "Assignable if among first arriving"
+        ],
+        [
+          "Other situations",
+          "Requires radio supervisor approval"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 4,
+        "pdf_page": 151,
+        "paragraph": "RADIO DISPATCHER 1.c",
+        "coverage": "Plainclothes units may be assigned to other situations with radio supervisor approval in an alert/backlog situation or when incident could be better investigated by plainclothes."
+      }
+    },
+    {
+      "question_id": "NYC911-401-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "Key roles",
+      "stem": "Procedure 401: Match the role to their required action.",
+      "answer": [
+        [
+          "Supervising Officers",
+          "Notify Platoon Commanders prior to start"
+        ],
+        [
+          "Coordinator",
+          "Provide operation notice to radio supervisor for posting"
+        ],
+        [
+          "Radio Dispatcher",
+          "Advise responding units of plainclothes in vicinity"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 8,
+        "pdf_page": 152,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 4",
+        "coverage": "Coordinator gives notice to radio supervisor for posting at terminal; when incident occurs at posted location, advise units there are plainclothes in vicinity (particularly Housing/Transit); avoid saying 'stakeout' over air; use approved terminology."
+      }
+    },
+    {
+      "question_id": "NYC911-401-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "Do / Avoid",
+      "stem": "Procedure 401: Match the communication guidance to correct behavior.",
+      "answer": [
+        [
+          "Avoid saying 'stakeout'",
+          "Protect cover / prevent ruining operation"
+        ],
+        [
+          "Use approved wording",
+          "'Use caution…members in plainclothes/civilian clothes'"
+        ],
+        [
+          "Broadcast advisory early",
+          "When aware plainclothes + uniformed respond"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 8,
+        "pdf_page": 152,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 4",
+        "coverage": "Coordinator gives notice to radio supervisor for posting at terminal; when incident occurs at posted location, advise units there are plainclothes in vicinity (particularly Housing/Transit); avoid saying 'stakeout' over air; use approved terminology."
+      }
+    },
+    {
+      "question_id": "NYC911-401-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "Forwarding calls",
+      "stem": "Procedure 401: Match the incoming-call rule to the destination.",
+      "answer": [
+        [
+          "Incoming calls about plainclothes ops",
+          "Forward to Platoon Commanders/APCs"
+        ],
+        [
+          "Operation start notifications",
+          "To Communications Section Platoon Commanders"
+        ],
+        [
+          "Problems during op",
+          "Notify Radio Supervisor"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 7,
+        "pdf_page": 152,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 3",
+        "coverage": "Supervising Officers of all Plainclothes Operations must notify Communications Section Platoon Commanders prior to start; all incoming calls regarding Plainclothes Operations forwarded to Platoon Commanders/Assistant Platoon Commanders."
+      }
+    },
+    {
+      "question_id": "NYC911-401-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "Examples",
+      "stem": "Procedure 401: Match the example phrase to its purpose.",
+      "answer": [
+        [
+          "Use caution…members of the force in plainclothes",
+          "Generic advisory without saying stakeout"
+        ],
+        [
+          "There may be members…in civilian clothes",
+          "Alternate approved advisory wording"
+        ],
+        [
+          "Display the color of the day",
+          "Reminder to avoid misidentification"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 8,
+        "pdf_page": 152,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 4",
+        "coverage": "Coordinator gives notice to radio supervisor for posting at terminal; when incident occurs at posted location, advise units there are plainclothes in vicinity (particularly Housing/Transit); avoid saying 'stakeout' over air; use approved terminology."
+      }
+    },
+    {
+      "question_id": "NYC911-401-MATCH-006",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "Limitations",
+      "stem": "Procedure 401: Match the condition to what the dispatcher may do.",
+      "answer": [
+        [
+          "Dangerous situation at known stakeout",
+          "May give full details if authorized"
+        ],
+        [
+          "Routine incident at posted location",
+          "Use cautious advisory wording only"
+        ],
+        [
+          "Sale of drugs in a building report",
+          "Not covered by 1.a assignment"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 9,
+        "pdf_page": 152,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 5",
+        "coverage": "If dangerous situation at known stakeout with potential injuries, dispatcher may give full details over air, but only if authorized by Radio Supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-401-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "Purpose mapping",
+      "stem": "Procedure 401: Match the concept to the procedure’s reason.",
+      "answer": [
+        [
+          "Marked unit",
+          "Typical response for most assignments"
+        ],
+        [
+          "Avoid plainclothes assignment",
+          "Reduce uniformed/non-uniformed confrontations"
+        ],
+        [
+          "Advisory broadcast",
+          "Prevent friendly-fire / confusion"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 1,
+        "pdf_page": 151,
+        "paragraph": "PURPOSE",
+        "coverage": "Response to most assignments will be made by marked units containing uniformed Police Officers. Assignment of Plainclothes Officers should be avoided, in most cases, to prevent confrontations between uniformed and non-uniformed personnel."
+      }
+    },
+    {
+      "question_id": "NYC911-401-MATCH-008",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "Tour relief",
+      "stem": "Procedure 401: Match the dispatcher responsibility to the correct target.",
+      "answer": [
+        [
+          "Ensure relief dispatcher aware",
+          "Continuity between tours"
+        ],
+        [
+          "Notify Radio Supervisor of problems",
+          "Escalate operational issues"
+        ],
+        [
+          "Forward incoming op calls",
+          "Route to Platoon Commanders"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 10,
+        "pdf_page": 152,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 6",
+        "coverage": "Radio dispatchers must ensure relief dispatcher is aware of the plainclothes operation and notify Radio Supervisor if any problems occur."
+      }
+    },
+    {
+      "question_id": "NYC911-401-MATCH-009",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "Stakeout definition",
+      "stem": "Procedure 401: Match the phrase to the definition element.",
+      "answer": [
+        [
+          "Ongoing for extended period",
+          "Long duration initiative"
+        ],
+        [
+          "Specific location/area",
+          "Fixed target area"
+        ],
+        [
+          "No uniformed officers present",
+          "Undercover-only presence"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 6,
+        "pdf_page": 151,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 2",
+        "coverage": "Any undercover initiative ongoing for an extended period at a specific location/area with no uniformed officers (e.g., search warrant executions, prolonged stakeouts, etc.)."
+      }
+    },
+    {
+      "question_id": "NYC911-401-MATCH-010",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "Approval requirements",
+      "stem": "Procedure 401: Match the action to the approval requirement.",
+      "answer": [
+        [
+          "Assign plainclothes in alert/backlog other situations",
+          "Radio supervisor approval"
+        ],
+        [
+          "Give full details at dangerous stakeout scene",
+          "Radio Supervisor authorization"
+        ],
+        [
+          "Broadcast advisory when both responding",
+          "No approval stated—do promptly"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 9,
+        "pdf_page": 152,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 5",
+        "coverage": "If dangerous situation at known stakeout with potential injuries, dispatcher may give full details over air, but only if authorized by Radio Supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-401-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "Purpose",
+      "stem": "Procedure 401: Assignment of ________ Officers should be avoided in most cases.",
+      "answer": "Plainclothes",
+      "hints": "Fill with the exact term/phrase from Procedure 401.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 1,
+        "pdf_page": 151,
+        "paragraph": "PURPOSE",
+        "coverage": "Response to most assignments will be made by marked units containing uniformed Police Officers. Assignment of Plainclothes Officers should be avoided, in most cases, to prevent confrontations between uniformed and non-uniformed personnel."
+      }
+    },
+    {
+      "question_id": "NYC911-401-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "1.a Exclusion",
+      "stem": "Procedure 401: Under 1.a, exclude a report of sale of drugs in any ________.",
+      "answer": "building",
+      "hints": "Fill with the exact term/phrase from Procedure 401.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 2,
+        "pdf_page": 151,
+        "paragraph": "RADIO DISPATCHER 1.a",
+        "coverage": "Plainclothes units may be assigned to crimes in progress when no uniformed units are available (excluding a report of sale of drugs in any building)."
+      }
+    },
+    {
+      "question_id": "NYC911-401-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "1.b",
+      "stem": "Procedure 401: Plainclothes may be assigned to ________ calls when close enough.",
+      "answer": "10-13",
+      "hints": "Fill with the exact term/phrase from Procedure 401.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 3,
+        "pdf_page": 151,
+        "paragraph": "RADIO DISPATCHER 1.b",
+        "coverage": "Plainclothes units may be assigned to 10-13 calls when close enough to be among the first arriving unit at the scene."
+      }
+    },
+    {
+      "question_id": "NYC911-401-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "1.c",
+      "stem": "Procedure 401: Other situations require radio supervisor’s ________.",
+      "answer": "approval",
+      "hints": "Fill with the exact term/phrase from Procedure 401.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 4,
+        "pdf_page": 151,
+        "paragraph": "RADIO DISPATCHER 1.c",
+        "coverage": "Plainclothes units may be assigned to other situations with radio supervisor approval in an alert/backlog situation or when incident could be better investigated by plainclothes."
+      }
+    },
+    {
+      "question_id": "NYC911-401-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "1.d",
+      "stem": "Procedure 401: Dispatcher should remind plainclothes units to display the color of the ________.",
+      "answer": "day",
+      "hints": "Fill with the exact term/phrase from Procedure 401.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 5,
+        "pdf_page": 151,
+        "paragraph": "RADIO DISPATCHER 1.d",
+        "coverage": "Broadcast an advisory message as soon as dispatcher becomes aware plainclothes units are responding to a serious incident where uniformed personnel are also responding; remind plainclothes to display the color of the day."
+      }
+    },
+    {
+      "question_id": "NYC911-401-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "3",
+      "stem": "Procedure 401: Supervising Officers must notify Communications Section Platoon Commanders prior to the ________ of any Plainclothes Operation.",
+      "answer": "start",
+      "hints": "Fill with the exact term/phrase from Procedure 401.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 7,
+        "pdf_page": 152,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 3",
+        "coverage": "Supervising Officers of all Plainclothes Operations must notify Communications Section Platoon Commanders prior to start; all incoming calls regarding Plainclothes Operations forwarded to Platoon Commanders/Assistant Platoon Commanders."
+      }
+    },
+    {
+      "question_id": "NYC911-401-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "4",
+      "stem": "Procedure 401: Avoid saying flatly over the air that there is a ________ at the incident location.",
+      "answer": "stakeout",
+      "hints": "Fill with the exact term/phrase from Procedure 401.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 8,
+        "pdf_page": 152,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 4",
+        "coverage": "Coordinator gives notice to radio supervisor for posting at terminal; when incident occurs at posted location, advise units there are plainclothes in vicinity (particularly Housing/Transit); avoid saying 'stakeout' over air; use approved terminology."
+      }
+    },
+    {
+      "question_id": "NYC911-401-FB-008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "4 Approved wording",
+      "stem": "Procedure 401: Example wording: \"Use caution, there may be members of the force in ________ at the scene.\"",
+      "answer": "plainclothes",
+      "hints": "Fill with the exact term/phrase from Procedure 401.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 8,
+        "pdf_page": 152,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 4",
+        "coverage": "Coordinator gives notice to radio supervisor for posting at terminal; when incident occurs at posted location, advise units there are plainclothes in vicinity (particularly Housing/Transit); avoid saying 'stakeout' over air; use approved terminology."
+      }
+    },
+    {
+      "question_id": "NYC911-401-FB-009",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "5",
+      "stem": "Procedure 401: Giving full details over the air at a known stakeout should first be authorized by the Radio ________.",
+      "answer": "Supervisor",
+      "hints": "Fill with the exact term/phrase from Procedure 401.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 9,
+        "pdf_page": 152,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 5",
+        "coverage": "If dangerous situation at known stakeout with potential injuries, dispatcher may give full details over air, but only if authorized by Radio Supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-401-FB-010",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 401 – PLAINCLOTHES OPERATIONS",
+      "subtopic": "6",
+      "stem": "Procedure 401: Dispatchers must ensure the ________ dispatcher is aware of the plainclothes operation.",
+      "answer": "relief",
+      "hints": "Fill with the exact term/phrase from Procedure 401.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc401"
+      ],
+      "source": {
+        "procedure": 401,
+        "proc_page": 10,
+        "pdf_page": 152,
+        "paragraph": "PLAINCLOTHES (STAKE-OUT) OPERATIONS 6",
+        "coverage": "Radio dispatchers must ensure relief dispatcher is aware of the plainclothes operation and notify Radio Supervisor if any problems occur."
+      }
+    }
+  ]
+}

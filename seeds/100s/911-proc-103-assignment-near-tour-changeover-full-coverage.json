@@ -1,0 +1,1328 @@
+{
+  "lesson": {
+    "slug": "911-proc-103-assignment-near-tour-changeover-full-coverage",
+    "title": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+    "topic": "ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+    "order": 103,
+    "objectives": [
+      "Assign pending events near tour changeover when units are available, especially priorities.",
+      "Poll units for finals/reassignment and notify patrol supervisors when all units are assigned.",
+      "Apply NR and NCA handling, including transmitting pending jobs, documentation, and time checks.",
+      "Follow the rule that only field units/supervisors may decide to delay response when units are available."
+    ],
+    "questionIds": [
+      "NYC911-103-MCQ-001",
+      "NYC911-103-MCQ-002",
+      "NYC911-103-MCQ-003",
+      "NYC911-103-MCQ-004",
+      "NYC911-103-MCQ-005",
+      "NYC911-103-MCQ-006",
+      "NYC911-103-MCQ-007",
+      "NYC911-103-MCQ-008",
+      "NYC911-103-MCQ-009",
+      "NYC911-103-MCQ-010",
+      "NYC911-103-TF-001",
+      "NYC911-103-TF-002",
+      "NYC911-103-TF-003",
+      "NYC911-103-TF-004",
+      "NYC911-103-TF-005",
+      "NYC911-103-TF-006",
+      "NYC911-103-TF-007",
+      "NYC911-103-TF-008",
+      "NYC911-103-TF-009",
+      "NYC911-103-TF-010",
+      "NYC911-103-MATCH-001",
+      "NYC911-103-MATCH-002",
+      "NYC911-103-MATCH-003",
+      "NYC911-103-MATCH-004",
+      "NYC911-103-MATCH-005",
+      "NYC911-103-MATCH-006",
+      "NYC911-103-MATCH-007",
+      "NYC911-103-MATCH-008",
+      "NYC911-103-MATCH-009",
+      "NYC911-103-MATCH-010",
+      "NYC911-103-FB-001",
+      "NYC911-103-FB-002",
+      "NYC911-103-FB-003",
+      "NYC911-103-FB-004",
+      "NYC911-103-FB-005",
+      "NYC911-103-FB-006",
+      "NYC911-103-FB-007",
+      "NYC911-103-FB-008",
+      "NYC911-103-FB-009",
+      "NYC911-103-FB-010"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-103-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Scope",
+      "stem": "Procedure 103: When field units are available near tour changeover, dispatchers must attempt to assign what?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only supervisor requests",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Events that are pending (especially priorities)",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only deferred jobs",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only routine reports",
+          "is_correct": false
+        }
+      ],
+      "solution": "Events that are pending (especially priorities)",
+      "hints": "Look for the exact wording on page 21.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 1,
+        "pdf_page": 21,
+        "paragraph": "SCOPE",
+        "coverage": "As long as there are field units available, dispatchers must attempt to assign events that are pending (especially priorities). If there are no units available, it is the dispatcher’s responsibility to transmit pending events and make proper documentation."
+      }
+    },
+    {
+      "question_id": "NYC911-103-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Scope",
+      "stem": "Procedure 103: If there are NO units available, what is the dispatcher’s responsibility?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Wait until next tour",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only notify the desk officer",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Cancel all pending jobs",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Transmit pending events and make proper documentation",
+          "is_correct": true
+        }
+      ],
+      "solution": "Transmit pending events and make proper documentation",
+      "hints": "Look for the exact wording on page 21.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 1,
+        "pdf_page": 21,
+        "paragraph": "SCOPE",
+        "coverage": "As long as there are field units available, dispatchers must attempt to assign events that are pending (especially priorities). If there are no units available, it is the dispatcher’s responsibility to transmit pending events and make proper documentation."
+      }
+    },
+    {
+      "question_id": "NYC911-103-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 1",
+      "stem": "Procedure 103: What is the first listed action for the radio dispatcher in Procedure 103?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Request EMS",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Broadcast signal codes",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Close the event monitor",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Poll units to advise their finals or reassignment for the following shift",
+          "is_correct": true
+        }
+      ],
+      "solution": "Poll units to advise their finals or reassignment for the following shift",
+      "hints": "Look for the exact wording on page 21.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 2,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 1",
+        "coverage": "Poll units to advise their finals or reassignment for the following shift."
+      }
+    },
+    {
+      "question_id": "NYC911-103-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 1 Example",
+      "stem": "Procedure 103: Which example transmission best matches Procedure 103 Step 1?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "\"10-84 at post\"",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "\"Switch to Citywide\"",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "\"Give me a 10-13\"",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "\"73A K, can you advise any finals for your jobs on your queue\"?",
+          "is_correct": true
+        }
+      ],
+      "solution": "\"73A K, can you advise any finals for your jobs on your queue\"?",
+      "hints": "Look for the exact wording on page 21.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 2,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 1",
+        "coverage": "Poll units to advise their finals or reassignment for the following shift."
+      }
+    },
+    {
+      "question_id": "NYC911-103-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 2",
+      "stem": "Procedure 103: If all units are on assignment, who must be notified about jobs pending in the event monitor?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The patrol supervisor",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "The media",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "The precinct desk",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "The complainant",
+          "is_correct": false
+        }
+      ],
+      "solution": "The patrol supervisor",
+      "hints": "Look for the exact wording on page 21.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 3,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 2",
+        "coverage": "If all units are on assignment, notify the patrol supervisor of all jobs pending in the event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-103-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 2 Detail",
+      "stem": "Procedure 103: Under Step 2, what specifically must be reported to the patrol supervisor?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only traffic jobs",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "All jobs pending in the event monitor",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only priority jobs",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only aided cases",
+          "is_correct": false
+        }
+      ],
+      "solution": "All jobs pending in the event monitor",
+      "hints": "Look for the exact wording on page 21.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 3,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 2",
+        "coverage": "If all units are on assignment, notify the patrol supervisor of all jobs pending in the event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-103-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 3",
+      "stem": "Procedure 103: If a unit appears available but cannot be reached over the air for assignment, what must the dispatcher do?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "No Response (NR) that unit",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Mark it 10-84",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Assign it anyway",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Close the unit",
+          "is_correct": false
+        }
+      ],
+      "solution": "No Response (NR) that unit",
+      "hints": "Look for the exact wording on page 21.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 4,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 3",
+        "coverage": "If a unit(s) appears available and cannot be reached over the air for assignment, No Response (NR) that unit."
+      }
+    },
+    {
+      "question_id": "NYC911-103-MCQ-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 4",
+      "stem": "Procedure 103: Under Step 4, what must be documented in the remarks field?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "No Contact Information",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "No Cars Available (NCA)",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "No Supervisor Available",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "No Response (NR)",
+          "is_correct": false
+        }
+      ],
+      "solution": "No Cars Available (NCA)",
+      "hints": "Look for the exact wording on page 21.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 5,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 4",
+        "coverage": "Transmit all pending jobs and document No Cars Available (NCA) in the remarks field (e.g. Xmitted NCA D1234), followed by a transmission including a time check."
+      }
+    },
+    {
+      "question_id": "NYC911-103-MCQ-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 4 Example",
+      "stem": "Procedure 103: Which is the example format given for documenting NCA?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Xmitted EMS D1234",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Xmitted NR D1234",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Xmitted FD D1234",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Xmitted NCA D1234",
+          "is_correct": true
+        }
+      ],
+      "solution": "Xmitted NCA D1234",
+      "hints": "Look for the exact wording on page 21.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 5,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 4",
+        "coverage": "Transmit all pending jobs and document No Cars Available (NCA) in the remarks field (e.g. Xmitted NCA D1234), followed by a transmission including a time check."
+      }
+    },
+    {
+      "question_id": "NYC911-103-MCQ-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Note",
+      "stem": "Procedure 103: Who can decide to delay response when units are available?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Any patrol unit from another borough",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Call taker",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Dispatcher",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Field units or field supervisors only",
+          "is_correct": true
+        }
+      ],
+      "solution": "Field units or field supervisors only",
+      "hints": "Look for the exact wording on page 21.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 6,
+        "pdf_page": 21,
+        "paragraph": "NOTE",
+        "coverage": "Any decision to delay response to an assignment when there are units available will be made only by the field units or field supervisors."
+      }
+    },
+    {
+      "question_id": "NYC911-103-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Scope",
+      "stem": "Procedure 103: Procedure 103 says dispatchers must attempt to assign pending events when field units are available.",
+      "answer": "true",
+      "hints": "Decide True/False based on the exact sentence in the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 1,
+        "pdf_page": 21,
+        "paragraph": "SCOPE",
+        "coverage": "As long as there are field units available, dispatchers must attempt to assign events that are pending (especially priorities). If there are no units available, it is the dispatcher’s responsibility to transmit pending events and make proper documentation."
+      }
+    },
+    {
+      "question_id": "NYC911-103-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Scope",
+      "stem": "Procedure 103: If there are no units available, dispatchers should wait for the next tour and take no further action.",
+      "answer": "false",
+      "hints": "Decide True/False based on the exact sentence in the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 1,
+        "pdf_page": 21,
+        "paragraph": "SCOPE",
+        "coverage": "As long as there are field units available, dispatchers must attempt to assign events that are pending (especially priorities). If there are no units available, it is the dispatcher’s responsibility to transmit pending events and make proper documentation."
+      }
+    },
+    {
+      "question_id": "NYC911-103-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 1",
+      "stem": "Procedure 103: Procedure 103 Step 1 directs dispatchers to poll units about finals or reassignment for the following shift.",
+      "answer": "true",
+      "hints": "Decide True/False based on the exact sentence in the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 2,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 1",
+        "coverage": "Poll units to advise their finals or reassignment for the following shift."
+      }
+    },
+    {
+      "question_id": "NYC911-103-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 2",
+      "stem": "Procedure 103: If all units are on assignment, the dispatcher must notify the patrol supervisor of all jobs pending in the event monitor.",
+      "answer": "true",
+      "hints": "Decide True/False based on the exact sentence in the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 3,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 2",
+        "coverage": "If all units are on assignment, notify the patrol supervisor of all jobs pending in the event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-103-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 2",
+      "stem": "Procedure 103: Procedure 103 says to notify the complainant of all pending jobs in the event monitor.",
+      "answer": "false",
+      "hints": "Decide True/False based on the exact sentence in the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 3,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 2",
+        "coverage": "If all units are on assignment, notify the patrol supervisor of all jobs pending in the event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-103-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 3",
+      "stem": "Procedure 103: If a unit appears available but cannot be reached over the air, the dispatcher should mark the unit as NR.",
+      "answer": "true",
+      "hints": "Decide True/False based on the exact sentence in the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 4,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 3",
+        "coverage": "If a unit(s) appears available and cannot be reached over the air for assignment, No Response (NR) that unit."
+      }
+    },
+    {
+      "question_id": "NYC911-103-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 3",
+      "stem": "Procedure 103: If a unit cannot be reached over the air, Procedure 103 requires assigning the unit anyway.",
+      "answer": "false",
+      "hints": "Decide True/False based on the exact sentence in the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 4,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 3",
+        "coverage": "If a unit(s) appears available and cannot be reached over the air for assignment, No Response (NR) that unit."
+      }
+    },
+    {
+      "question_id": "NYC911-103-TF-008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 4",
+      "stem": "Procedure 103: Procedure 103 requires transmitting all pending jobs and documenting NCA in remarks.",
+      "answer": "true",
+      "hints": "Decide True/False based on the exact sentence in the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 5,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 4",
+        "coverage": "Transmit all pending jobs and document No Cars Available (NCA) in the remarks field (e.g. Xmitted NCA D1234), followed by a transmission including a time check."
+      }
+    },
+    {
+      "question_id": "NYC911-103-TF-009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 4",
+      "stem": "Procedure 103: After documenting NCA, Procedure 103 requires a transmission including a time check.",
+      "answer": "true",
+      "hints": "Decide True/False based on the exact sentence in the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 5,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 4",
+        "coverage": "Transmit all pending jobs and document No Cars Available (NCA) in the remarks field (e.g. Xmitted NCA D1234), followed by a transmission including a time check."
+      }
+    },
+    {
+      "question_id": "NYC911-103-TF-010",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Note",
+      "stem": "Procedure 103: Any decision to delay response when units are available can be made by the dispatcher.",
+      "answer": "false",
+      "hints": "Decide True/False based on the exact sentence in the procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 6,
+        "pdf_page": 21,
+        "paragraph": "NOTE",
+        "coverage": "Any decision to delay response to an assignment when there are units available will be made only by the field units or field supervisors."
+      }
+    },
+    {
+      "question_id": "NYC911-103-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step sequencing",
+      "stem": "Procedure 103: Match the step number to the action.",
+      "answer": [
+        [
+          "Step 1",
+          "Poll units for finals/reassignment"
+        ],
+        [
+          "Step 2",
+          "Notify patrol supervisor of pending jobs"
+        ],
+        [
+          "Step 3",
+          "NR unit if cannot be reached"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 2,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 1",
+        "coverage": "Poll units to advise their finals or reassignment for the following shift."
+      }
+    },
+    {
+      "question_id": "NYC911-103-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Key abbreviations",
+      "stem": "Procedure 103: Match the abbreviation to its meaning in this procedure.",
+      "answer": [
+        [
+          "NR",
+          "No Response"
+        ],
+        [
+          "NCA",
+          "No Cars Available"
+        ],
+        [
+          "Event monitor",
+          "Pending jobs list view"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 4,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 3",
+        "coverage": "If a unit(s) appears available and cannot be reached over the air for assignment, No Response (NR) that unit."
+      }
+    },
+    {
+      "question_id": "NYC911-103-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "When-to-do",
+      "stem": "Procedure 103: Match the condition to the required action.",
+      "answer": [
+        [
+          "Units available",
+          "Attempt to assign pending events"
+        ],
+        [
+          "No units available",
+          "Transmit pending + document"
+        ],
+        [
+          "All units assigned",
+          "Notify patrol supervisor"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 1,
+        "pdf_page": 21,
+        "paragraph": "SCOPE",
+        "coverage": "As long as there are field units available, dispatchers must attempt to assign events that are pending (especially priorities). If there are no units available, it is the dispatcher’s responsibility to transmit pending events and make proper documentation."
+      }
+    },
+    {
+      "question_id": "NYC911-103-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Documentation",
+      "stem": "Procedure 103: Match the item to where it goes.",
+      "answer": [
+        [
+          "NCA",
+          "Remarks field entry"
+        ],
+        [
+          "Time check",
+          "On-air time statement"
+        ],
+        [
+          "Pending jobs",
+          "Transmit over radio"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 5,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 4",
+        "coverage": "Transmit all pending jobs and document No Cars Available (NCA) in the remarks field (e.g. Xmitted NCA D1234), followed by a transmission including a time check."
+      }
+    },
+    {
+      "question_id": "NYC911-103-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Notifications",
+      "stem": "Procedure 103: Match the recipient to what they receive.",
+      "answer": [
+        [
+          "Patrol supervisor",
+          "List of pending jobs"
+        ],
+        [
+          "Units",
+          "Poll for finals/reassignment"
+        ],
+        [
+          "Radio channel",
+          "NCA + time check broadcast"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 3,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 2",
+        "coverage": "If all units are on assignment, notify the patrol supervisor of all jobs pending in the event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-103-MATCH-006",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Scope focus",
+      "stem": "Procedure 103: Match the phrase to the procedure emphasis.",
+      "answer": [
+        [
+          "Especially priorities",
+          "Pending events focus"
+        ],
+        [
+          "Proper documentation",
+          "Required record entry"
+        ],
+        [
+          "Transmit pending events",
+          "Required broadcast"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 1,
+        "pdf_page": 21,
+        "paragraph": "SCOPE",
+        "coverage": "As long as there are field units available, dispatchers must attempt to assign events that are pending (especially priorities). If there are no units available, it is the dispatcher’s responsibility to transmit pending events and make proper documentation."
+      }
+    },
+    {
+      "question_id": "NYC911-103-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 4 components",
+      "stem": "Procedure 103: Match the Step 4 element to its requirement.",
+      "answer": [
+        [
+          "Transmit pending jobs",
+          "Required: transmit"
+        ],
+        [
+          "Document NCA",
+          "Required: document"
+        ],
+        [
+          "Include time check",
+          "Required: time check"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 5,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 4",
+        "coverage": "Transmit all pending jobs and document No Cars Available (NCA) in the remarks field (e.g. Xmitted NCA D1234), followed by a transmission including a time check."
+      }
+    },
+    {
+      "question_id": "NYC911-103-MATCH-008",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Delay decisions",
+      "stem": "Procedure 103: Match who can decide to delay response when units are available.",
+      "answer": [
+        [
+          "Dispatcher",
+          "May NOT decide delay"
+        ],
+        [
+          "Field units",
+          "May decide delay (unit)"
+        ],
+        [
+          "Field supervisors",
+          "May decide delay (supervisor)"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 6,
+        "pdf_page": 21,
+        "paragraph": "NOTE",
+        "coverage": "Any decision to delay response to an assignment when there are units available will be made only by the field units or field supervisors."
+      }
+    },
+    {
+      "question_id": "NYC911-103-MATCH-009",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Tour changeover",
+      "stem": "Procedure 103: Match the scenario to the correct response.",
+      "answer": [
+        [
+          "Near changeover w/ cars",
+          "Assign pending events"
+        ],
+        [
+          "No cars",
+          "Transmit + NCA"
+        ],
+        [
+          "Unreachable car",
+          "NR unit"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 1,
+        "pdf_page": 21,
+        "paragraph": "SCOPE",
+        "coverage": "As long as there are field units available, dispatchers must attempt to assign events that are pending (especially priorities). If there are no units available, it is the dispatcher’s responsibility to transmit pending events and make proper documentation."
+      }
+    },
+    {
+      "question_id": "NYC911-103-MATCH-010",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Examples",
+      "stem": "Procedure 103: Match the example text to its purpose.",
+      "answer": [
+        [
+          "\"73A K…advise any finals…\"",
+          "Example: polling finals"
+        ],
+        [
+          "\"Xmitted NCA D1234\"",
+          "Example: documenting NCA"
+        ],
+        [
+          "\"The time is 1500 hours…\"",
+          "Example: time check message"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 5,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 4",
+        "coverage": "Transmit all pending jobs and document No Cars Available (NCA) in the remarks field (e.g. Xmitted NCA D1234), followed by a transmission including a time check."
+      }
+    },
+    {
+      "question_id": "NYC911-103-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Scope",
+      "stem": "Procedure 103: As long as there are field units available, dispatchers must attempt to assign events that are ________.",
+      "answer": "pending",
+      "hints": "The missing word is in the exact sentence on page 21.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 1,
+        "pdf_page": 21,
+        "paragraph": "SCOPE",
+        "coverage": "As long as there are field units available, dispatchers must attempt to assign events that are pending (especially priorities). If there are no units available, it is the dispatcher’s responsibility to transmit pending events and make proper documentation."
+      }
+    },
+    {
+      "question_id": "NYC911-103-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Scope",
+      "stem": "Procedure 103: If there are no units available, it is the dispatcher’s responsibility to ________ pending events.",
+      "answer": "transmit",
+      "hints": "The missing word is in the exact sentence on page 21.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 1,
+        "pdf_page": 21,
+        "paragraph": "SCOPE",
+        "coverage": "As long as there are field units available, dispatchers must attempt to assign events that are pending (especially priorities). If there are no units available, it is the dispatcher’s responsibility to transmit pending events and make proper documentation."
+      }
+    },
+    {
+      "question_id": "NYC911-103-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 1",
+      "stem": "Procedure 103: Step 1: Poll units to advise their ________ or reassignment for the following shift.",
+      "answer": "finals",
+      "hints": "The missing word is in the exact sentence on page 21.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 2,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 1",
+        "coverage": "Poll units to advise their finals or reassignment for the following shift."
+      }
+    },
+    {
+      "question_id": "NYC911-103-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 2",
+      "stem": "Procedure 103: Step 2: If all units are on assignment, notify the ________ supervisor.",
+      "answer": "patrol",
+      "hints": "The missing word is in the exact sentence on page 21.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 3,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 2",
+        "coverage": "If all units are on assignment, notify the patrol supervisor of all jobs pending in the event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-103-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 2",
+      "stem": "Procedure 103: Step 2: Notify the patrol supervisor of all jobs pending in the event ________.",
+      "answer": "monitor",
+      "hints": "The missing word is in the exact sentence on page 21.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 3,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 2",
+        "coverage": "If all units are on assignment, notify the patrol supervisor of all jobs pending in the event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-103-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 3",
+      "stem": "Procedure 103: Step 3: If a unit appears available and cannot be reached over the air, ________ that unit.",
+      "answer": "NR",
+      "hints": "The missing word is in the exact sentence on page 21.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 4,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 3",
+        "coverage": "If a unit(s) appears available and cannot be reached over the air for assignment, No Response (NR) that unit."
+      }
+    },
+    {
+      "question_id": "NYC911-103-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 4",
+      "stem": "Procedure 103: Step 4: Document No Cars Available (________) in the remarks field.",
+      "answer": "NCA",
+      "hints": "The missing word is in the exact sentence on page 21.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 5,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 4",
+        "coverage": "Transmit all pending jobs and document No Cars Available (NCA) in the remarks field (e.g. Xmitted NCA D1234), followed by a transmission including a time check."
+      }
+    },
+    {
+      "question_id": "NYC911-103-FB-008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 4 Example",
+      "stem": "Procedure 103: Example remarks: Xmitted ________ D1234.",
+      "answer": "NCA",
+      "hints": "The missing word is in the exact sentence on page 21.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 5,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 4",
+        "coverage": "Transmit all pending jobs and document No Cars Available (NCA) in the remarks field (e.g. Xmitted NCA D1234), followed by a transmission including a time check."
+      }
+    },
+    {
+      "question_id": "NYC911-103-FB-009",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Step 4",
+      "stem": "Procedure 103: Step 4: After documenting NCA, follow with a transmission including a time ________.",
+      "answer": "check",
+      "hints": "The missing word is in the exact sentence on page 21.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 5,
+        "pdf_page": 21,
+        "paragraph": "RADIO DISPATCHER 4",
+        "coverage": "Transmit all pending jobs and document No Cars Available (NCA) in the remarks field (e.g. Xmitted NCA D1234), followed by a transmission including a time check."
+      }
+    },
+    {
+      "question_id": "NYC911-103-FB-010",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 103 – ASSIGNMENT NEAR THE TOUR CHANGEOVER",
+      "subtopic": "Note",
+      "stem": "Procedure 103: Any decision to delay response when units are available will be made only by field units or field ________.",
+      "answer": "supervisors",
+      "hints": "The missing word is in the exact sentence on page 21.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc103"
+      ],
+      "source": {
+        "procedure": 103,
+        "proc_page": 6,
+        "pdf_page": 21,
+        "paragraph": "NOTE",
+        "coverage": "Any decision to delay response to an assignment when there are units available will be made only by the field units or field supervisors."
+      }
+    }
+  ]
+}

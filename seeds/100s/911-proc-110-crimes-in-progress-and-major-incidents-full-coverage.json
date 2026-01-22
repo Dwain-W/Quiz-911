@@ -1,0 +1,1327 @@
+{
+  "lesson": {
+    "slug": "911-proc-110-crimes-in-progress-and-major-incidents-full-coverage",
+    "title": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+    "topic": "CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+    "order": 110,
+    "objectives": [
+      "Apply required dispatch time standards for Critical/Serious and Non-critical Crimes in Progress.",
+      "Use the required holding steps (a–g) to secure units, notify supervisors, and document actions.",
+      "Understand queue/event monitor behavior when time standards are missed and when to pull adjacent precinct units."
+    ],
+    "questionIds": [
+      "NYC911-110-MCQ-001",
+      "NYC911-110-MCQ-002",
+      "NYC911-110-MCQ-003",
+      "NYC911-110-MCQ-004",
+      "NYC911-110-MCQ-005",
+      "NYC911-110-MCQ-006",
+      "NYC911-110-MCQ-007",
+      "NYC911-110-MCQ-008",
+      "NYC911-110-MCQ-009",
+      "NYC911-110-MCQ-010",
+      "NYC911-110-TF-001",
+      "NYC911-110-TF-002",
+      "NYC911-110-TF-003",
+      "NYC911-110-TF-004",
+      "NYC911-110-TF-005",
+      "NYC911-110-TF-006",
+      "NYC911-110-TF-007",
+      "NYC911-110-TF-008",
+      "NYC911-110-TF-009",
+      "NYC911-110-TF-010",
+      "NYC911-110-MATCH-001",
+      "NYC911-110-MATCH-002",
+      "NYC911-110-MATCH-003",
+      "NYC911-110-MATCH-004",
+      "NYC911-110-MATCH-005",
+      "NYC911-110-MATCH-006",
+      "NYC911-110-MATCH-007",
+      "NYC911-110-MATCH-008",
+      "NYC911-110-MATCH-009",
+      "NYC911-110-MATCH-010",
+      "NYC911-110-FB-001",
+      "NYC911-110-FB-002",
+      "NYC911-110-FB-003",
+      "NYC911-110-FB-004",
+      "NYC911-110-FB-005",
+      "NYC911-110-FB-006",
+      "NYC911-110-FB-007",
+      "NYC911-110-FB-008",
+      "NYC911-110-FB-009",
+      "NYC911-110-FB-010"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-110-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Purpose",
+      "stem": "Procedure 110: What is the stated purpose of Procedure 110?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Tracking property vouchers",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Assigning units to all Crimes In Progress",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Recording meal breaks",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Handling radio interference",
+          "is_correct": false
+        }
+      ],
+      "solution": "Assigning units to all Crimes In Progress",
+      "hints": "Use the exact time limits and step letters from pages 49–50.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 1,
+        "pdf_page": 49,
+        "paragraph": "PURPOSE",
+        "coverage": "Assigning units to all Crimes In Progress."
+      }
+    },
+    {
+      "question_id": "NYC911-110-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Scope",
+      "stem": "Procedure 110: What must the dispatcher do to every event according to the scope?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Promptly assign a unit",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Close it if pending",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Wait for supervisor approval",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hold it until end of tour",
+          "is_correct": false
+        }
+      ],
+      "solution": "Promptly assign a unit",
+      "hints": "Use the exact time limits and step letters from pages 49–50.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 2,
+        "pdf_page": 49,
+        "paragraph": "SCOPE",
+        "coverage": "Promptly assign a unit to every event; make every effort to assign Crimes in Progress as soon as they hit the dispatch queue."
+      }
+    },
+    {
+      "question_id": "NYC911-110-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Critical timing",
+      "stem": "Procedure 110: Critical/Serious crimes in progress must be dispatched within how long?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Five minutes",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Thirty seconds",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Two minutes",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "One (1) minute",
+          "is_correct": true
+        }
+      ],
+      "solution": "One (1) minute",
+      "hints": "Use the exact time limits and step letters from pages 49–50.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 3,
+        "pdf_page": 49,
+        "paragraph": "CRITICAL/SERIOUS CRIMES",
+        "coverage": "Critical/Serious Crimes in Progress list: 10S’s, 13s, 30s, 31s, 32Ps, 32Qs, 32Vs, 33s, 34Ks, 34Qs, 34Ss, 34Ws, 51s, 66s. Must be dispatched within one minute; otherwise event turns red in pending queue/event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Critical queue",
+      "stem": "Procedure 110: If a critical/serious crime in progress is not assigned in time, what happens in the queue/monitor?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The event disappears",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "The event turns red",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "The event becomes green",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "The event auto-assigns",
+          "is_correct": false
+        }
+      ],
+      "solution": "The event turns red",
+      "hints": "Use the exact time limits and step letters from pages 49–50.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 3,
+        "pdf_page": 49,
+        "paragraph": "CRITICAL/SERIOUS CRIMES",
+        "coverage": "Critical/Serious Crimes in Progress list: 10S’s, 13s, 30s, 31s, 32Ps, 32Qs, 32Vs, 33s, 34Ks, 34Qs, 34Ss, 34Ws, 51s, 66s. Must be dispatched within one minute; otherwise event turns red in pending queue/event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Non-critical timing",
+      "stem": "Procedure 110: Non-critical crimes in progress must be dispatched within how long?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "One minute",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ten minutes",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Three minutes",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Two (2) minutes",
+          "is_correct": true
+        }
+      ],
+      "solution": "Two (2) minutes",
+      "hints": "Use the exact time limits and step letters from pages 49–50.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 4,
+        "pdf_page": 49,
+        "paragraph": "NON-CRITICAL CRIMES",
+        "coverage": "Non-Critical Crimes in Progress list: 39Cs, 39Gs, 39Ps, 39Qs, 39Vs. Must be dispatched within two minutes; otherwise turns red in pending queue/event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Non-critical list",
+      "stem": "Procedure 110: Which of the following is a non-critical crime in progress per Procedure 110?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "13",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "39Q",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "66",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "34Q",
+          "is_correct": false
+        }
+      ],
+      "solution": "39Q",
+      "hints": "Use the exact time limits and step letters from pages 49–50.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 4,
+        "pdf_page": 49,
+        "paragraph": "NON-CRITICAL CRIMES",
+        "coverage": "Non-Critical Crimes in Progress list: 39Cs, 39Gs, 39Ps, 39Qs, 39Vs. Must be dispatched within two minutes; otherwise turns red in pending queue/event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Holding event action",
+      "stem": "Procedure 110: When a Crime in Progress is being held, what must the dispatcher do first per the list?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Notify radio supervisor immediately",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Call each available unit in the Precinct Run-down, including the Patrol Supervisor",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pull adjacent precinct units first",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Close the event",
+          "is_correct": false
+        }
+      ],
+      "solution": "Call each available unit in the Precinct Run-down, including the Patrol Supervisor",
+      "hints": "Use the exact time limits and step letters from pages 49–50.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 5,
+        "pdf_page": 49,
+        "paragraph": "RADIO DISPATCHER (a)",
+        "coverage": "Call each available unit in the Precinct Run-down, including the Patrol Supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-MCQ-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Assigned units",
+      "stem": "Procedure 110: When holding a crime in progress, what should the dispatcher do with units already assigned to events?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Poll them to see if they can be assigned to the crime in progress",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Assign them without contact",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ignore them until cleared",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Mark them out of service",
+          "is_correct": false
+        }
+      ],
+      "solution": "Poll them to see if they can be assigned to the crime in progress",
+      "hints": "Use the exact time limits and step letters from pages 49–50.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 6,
+        "pdf_page": 49,
+        "paragraph": "RADIO DISPATCHER (b)",
+        "coverage": "Poll all units assigned to events; ascertain if units are still on assignment or can be assigned to the crime in progress."
+      }
+    },
+    {
+      "question_id": "NYC911-110-MCQ-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "No units available",
+      "stem": "Procedure 110: If there are no units available and crimes in progress are being held, what must the dispatcher document in remarks?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "“pending”",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "“transmitted”",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "“NR”",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "“NCA”",
+          "is_correct": false
+        }
+      ],
+      "solution": "“transmitted”",
+      "hints": "Use the exact time limits and step letters from pages 49–50.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 10,
+        "pdf_page": 50,
+        "paragraph": "RADIO DISPATCHER (f)",
+        "coverage": "If no units available and holding crimes in progress: transmit the event, document “transmitted” in remarks, and notify the radio supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-MCQ-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Adjacent precincts",
+      "stem": "Procedure 110: When there are no units to respond to Critical Crimes in Progress and/or Major incidents, what should the dispatcher do?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Pull units from adjacent precinct",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cancel the event",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hold until next tour",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only notify patrol supervisor",
+          "is_correct": false
+        }
+      ],
+      "solution": "Pull units from adjacent precinct",
+      "hints": "Use the exact time limits and step letters from pages 49–50.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 11,
+        "pdf_page": 50,
+        "paragraph": "RADIO DISPATCHER (g)",
+        "coverage": "Pull units from adjacent precinct when there are no units to respond to Critical Crimes in Progress and/or Major incidents (see Procedure 118)."
+      }
+    },
+    {
+      "question_id": "NYC911-110-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Purpose",
+      "stem": "Procedure 110: Procedure 110 is about assigning units to all Crimes In Progress.",
+      "answer": "true",
+      "hints": "Answer based on the exact wording on pages 49–50.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 1,
+        "pdf_page": 49,
+        "paragraph": "PURPOSE",
+        "coverage": "Assigning units to all Crimes In Progress."
+      }
+    },
+    {
+      "question_id": "NYC911-110-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Scope",
+      "stem": "Procedure 110: The dispatcher may delay assigning a unit to an event if it is not a crime in progress.",
+      "answer": "false",
+      "hints": "Answer based on the exact wording on pages 49–50.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 2,
+        "pdf_page": 49,
+        "paragraph": "SCOPE",
+        "coverage": "Promptly assign a unit to every event; make every effort to assign Crimes in Progress as soon as they hit the dispatch queue."
+      }
+    },
+    {
+      "question_id": "NYC911-110-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Critical list",
+      "stem": "Procedure 110: 32Vs and 34Ws are listed as Critical/Serious Crimes in Progress.",
+      "answer": "true",
+      "hints": "Answer based on the exact wording on pages 49–50.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 3,
+        "pdf_page": 49,
+        "paragraph": "CRITICAL/SERIOUS CRIMES",
+        "coverage": "Critical/Serious Crimes in Progress list: 10S’s, 13s, 30s, 31s, 32Ps, 32Qs, 32Vs, 33s, 34Ks, 34Qs, 34Ss, 34Ws, 51s, 66s. Must be dispatched within one minute; otherwise event turns red in pending queue/event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Critical timing",
+      "stem": "Procedure 110: Critical/Serious crimes in progress must be dispatched within two minutes.",
+      "answer": "false",
+      "hints": "Answer based on the exact wording on pages 49–50.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 3,
+        "pdf_page": 49,
+        "paragraph": "CRITICAL/SERIOUS CRIMES",
+        "coverage": "Critical/Serious Crimes in Progress list: 10S’s, 13s, 30s, 31s, 32Ps, 32Qs, 32Vs, 33s, 34Ks, 34Qs, 34Ss, 34Ws, 51s, 66s. Must be dispatched within one minute; otherwise event turns red in pending queue/event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Non-critical list",
+      "stem": "Procedure 110: 39Cs, 39Gs, 39Ps, 39Qs, and 39Vs are listed as non-critical crimes in progress.",
+      "answer": "true",
+      "hints": "Answer based on the exact wording on pages 49–50.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 4,
+        "pdf_page": 49,
+        "paragraph": "NON-CRITICAL CRIMES",
+        "coverage": "Non-Critical Crimes in Progress list: 39Cs, 39Gs, 39Ps, 39Qs, 39Vs. Must be dispatched within two minutes; otherwise turns red in pending queue/event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Non-critical queue",
+      "stem": "Procedure 110: If a non-critical crime in progress is not assigned within two minutes, it turns red in the pending queue/event monitor.",
+      "answer": "true",
+      "hints": "Answer based on the exact wording on pages 49–50.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 4,
+        "pdf_page": 49,
+        "paragraph": "NON-CRITICAL CRIMES",
+        "coverage": "Non-Critical Crimes in Progress list: 39Cs, 39Gs, 39Ps, 39Qs, 39Vs. Must be dispatched within two minutes; otherwise turns red in pending queue/event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Step a",
+      "stem": "Procedure 110: When holding a crime in progress, dispatcher calls each available unit in the precinct run-down, including Patrol Supervisor.",
+      "answer": "true",
+      "hints": "Answer based on the exact wording on pages 49–50.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 5,
+        "pdf_page": 49,
+        "paragraph": "RADIO DISPATCHER (a)",
+        "coverage": "Call each available unit in the Precinct Run-down, including the Patrol Supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-TF-008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Step d",
+      "stem": "Procedure 110: Procedure 110 requires notifying the Patrol Supervisor over the air and documenting that they were notified.",
+      "answer": "true",
+      "hints": "Answer based on the exact wording on pages 49–50.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 8,
+        "pdf_page": 49,
+        "paragraph": "RADIO DISPATCHER (d)",
+        "coverage": "Notify the Patrol Supervisor over the air and document that the Patrol Supervisor was notified."
+      }
+    },
+    {
+      "question_id": "NYC911-110-TF-009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Step f",
+      "stem": "Procedure 110: If no units are available, dispatcher should transmit the event, document “transmitted”, and notify the radio supervisor.",
+      "answer": "true",
+      "hints": "Answer based on the exact wording on pages 49–50.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 10,
+        "pdf_page": 50,
+        "paragraph": "RADIO DISPATCHER (f)",
+        "coverage": "If no units available and holding crimes in progress: transmit the event, document “transmitted” in remarks, and notify the radio supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-TF-010",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Step g",
+      "stem": "Procedure 110: Pulling units from adjacent precincts is referenced for critical crimes/major incidents when no units can respond.",
+      "answer": "true",
+      "hints": "Answer based on the exact wording on pages 49–50.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 11,
+        "pdf_page": 50,
+        "paragraph": "RADIO DISPATCHER (g)",
+        "coverage": "Pull units from adjacent precinct when there are no units to respond to Critical Crimes in Progress and/or Major incidents (see Procedure 118)."
+      }
+    },
+    {
+      "question_id": "NYC911-110-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Time standards",
+      "stem": "Procedure 110: Match the category to the dispatch time requirement.",
+      "answer": [
+        [
+          "Critical/Serious CIP",
+          "Within 1 minute"
+        ],
+        [
+          "Non-critical CIP",
+          "Within 2 minutes"
+        ],
+        [
+          "Late assignment",
+          "Turns red in queue/monitor"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 3,
+        "pdf_page": 49,
+        "paragraph": "CRITICAL/SERIOUS CRIMES",
+        "coverage": "Critical/Serious Crimes in Progress list: 10S’s, 13s, 30s, 31s, 32Ps, 32Qs, 32Vs, 33s, 34Ks, 34Qs, 34Ss, 34Ws, 51s, 66s. Must be dispatched within one minute; otherwise event turns red in pending queue/event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Critical list examples",
+      "stem": "Procedure 110: Match the code to the correct list.",
+      "answer": [
+        [
+          "13",
+          "Critical/Serious list"
+        ],
+        [
+          "39Q",
+          "Non-critical list"
+        ],
+        [
+          "66",
+          "Critical/Serious list (66)"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 3,
+        "pdf_page": 49,
+        "paragraph": "CRITICAL/SERIOUS CRIMES",
+        "coverage": "Critical/Serious Crimes in Progress list: 10S’s, 13s, 30s, 31s, 32Ps, 32Qs, 32Vs, 33s, 34Ks, 34Qs, 34Ss, 34Ws, 51s, 66s. Must be dispatched within one minute; otherwise event turns red in pending queue/event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Holding actions",
+      "stem": "Procedure 110: Match the step letter to the action.",
+      "answer": [
+        [
+          "(a)",
+          "Call each available unit in precinct run-down"
+        ],
+        [
+          "(b)",
+          "Poll units already assigned to events"
+        ],
+        [
+          "(c)",
+          "Poll out-of-service units for availability"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 5,
+        "pdf_page": 49,
+        "paragraph": "RADIO DISPATCHER (a)",
+        "coverage": "Call each available unit in the Precinct Run-down, including the Patrol Supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Supervisor steps",
+      "stem": "Procedure 110: Match the step to its supervisor-related requirement.",
+      "answer": [
+        [
+          "(d)",
+          "Notify PS over air + document notification"
+        ],
+        [
+          "(e)",
+          "Assign PS to incident if available"
+        ],
+        [
+          "(a)",
+          "Include PS when calling available units"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 8,
+        "pdf_page": 49,
+        "paragraph": "RADIO DISPATCHER (d)",
+        "coverage": "Notify the Patrol Supervisor over the air and document that the Patrol Supervisor was notified."
+      }
+    },
+    {
+      "question_id": "NYC911-110-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "No units available handling",
+      "stem": "Procedure 110: Match the item to what Procedure 110 requires.",
+      "answer": [
+        [
+          "Transmit event",
+          "Required when holding with no units"
+        ],
+        [
+          "Remarks entry",
+          "Document 'transmitted'"
+        ],
+        [
+          "Notify radio supervisor",
+          "Required notification"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 10,
+        "pdf_page": 50,
+        "paragraph": "RADIO DISPATCHER (f)",
+        "coverage": "If no units available and holding crimes in progress: transmit the event, document “transmitted” in remarks, and notify the radio supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-MATCH-006",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Queue behavior",
+      "stem": "Procedure 110: Match the category to what happens if late.",
+      "answer": [
+        [
+          "Critical late",
+          "Turns red after 1 minute"
+        ],
+        [
+          "Non-critical late",
+          "Turns red after 2 minutes"
+        ],
+        [
+          "On-time dispatch",
+          "Avoids red status"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 4,
+        "pdf_page": 49,
+        "paragraph": "NON-CRITICAL CRIMES",
+        "coverage": "Non-Critical Crimes in Progress list: 39Cs, 39Gs, 39Ps, 39Qs, 39Vs. Must be dispatched within two minutes; otherwise turns red in pending queue/event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Polling targets",
+      "stem": "Procedure 110: Match who is polled to why.",
+      "answer": [
+        [
+          "Available units",
+          "Potential immediate assignment"
+        ],
+        [
+          "Assigned units",
+          "May be freed/reassigned"
+        ],
+        [
+          "OOS units",
+          "May be ready to return"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 6,
+        "pdf_page": 49,
+        "paragraph": "RADIO DISPATCHER (b)",
+        "coverage": "Poll all units assigned to events; ascertain if units are still on assignment or can be assigned to the crime in progress."
+      }
+    },
+    {
+      "question_id": "NYC911-110-MATCH-008",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Major incident support",
+      "stem": "Procedure 110: Match the condition to the action.",
+      "answer": [
+        [
+          "No units for critical/major",
+          "Pull adjacent precinct units"
+        ],
+        [
+          "Reference",
+          "See Procedure 118"
+        ],
+        [
+          "Adjacent precinct",
+          "Provides additional responders"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 11,
+        "pdf_page": 50,
+        "paragraph": "RADIO DISPATCHER (g)",
+        "coverage": "Pull units from adjacent precinct when there are no units to respond to Critical Crimes in Progress and/or Major incidents (see Procedure 118)."
+      }
+    },
+    {
+      "question_id": "NYC911-110-MATCH-009",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Scope focus",
+      "stem": "Procedure 110: Match the phrase to what it means in Procedure 110.",
+      "answer": [
+        [
+          "Promptly assign a unit",
+          "Immediate assignment expectation"
+        ],
+        [
+          "Dispatch queue",
+          "Where events appear"
+        ],
+        [
+          "Every effort",
+          "Prioritize CIP quickly"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 2,
+        "pdf_page": 49,
+        "paragraph": "SCOPE",
+        "coverage": "Promptly assign a unit to every event; make every effort to assign Crimes in Progress as soon as they hit the dispatch queue."
+      }
+    },
+    {
+      "question_id": "NYC911-110-MATCH-010",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Documentation",
+      "stem": "Procedure 110: Match what must be documented to where/what.",
+      "answer": [
+        [
+          "Notify PS",
+          "Document PS notified"
+        ],
+        [
+          "Transmit event",
+          "Document 'transmitted'"
+        ],
+        [
+          "Holding CIP",
+          "Track efforts to obtain units"
+        ]
+      ],
+      "hints": "Each right-side option is used once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 8,
+        "pdf_page": 49,
+        "paragraph": "RADIO DISPATCHER (d)",
+        "coverage": "Notify the Patrol Supervisor over the air and document that the Patrol Supervisor was notified."
+      }
+    },
+    {
+      "question_id": "NYC911-110-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Purpose",
+      "stem": "Procedure 110: Procedure 110 purpose: assigning units to all Crimes In ________.",
+      "answer": "Progress",
+      "hints": "The missing word appears directly in Procedure 110.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 1,
+        "pdf_page": 49,
+        "paragraph": "PURPOSE",
+        "coverage": "Assigning units to all Crimes In Progress."
+      }
+    },
+    {
+      "question_id": "NYC911-110-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Scope",
+      "stem": "Procedure 110: It is necessary for a dispatcher to promptly ________ a unit to every event.",
+      "answer": "assign",
+      "hints": "The missing word appears directly in Procedure 110.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 2,
+        "pdf_page": 49,
+        "paragraph": "SCOPE",
+        "coverage": "Promptly assign a unit to every event; make every effort to assign Crimes in Progress as soon as they hit the dispatch queue."
+      }
+    },
+    {
+      "question_id": "NYC911-110-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Critical timing",
+      "stem": "Procedure 110: Critical/Serious Crimes in Progress must be dispatched within one (1) ________.",
+      "answer": "minute",
+      "hints": "The missing word appears directly in Procedure 110.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 3,
+        "pdf_page": 49,
+        "paragraph": "CRITICAL/SERIOUS CRIMES",
+        "coverage": "Critical/Serious Crimes in Progress list: 10S’s, 13s, 30s, 31s, 32Ps, 32Qs, 32Vs, 33s, 34Ks, 34Qs, 34Ss, 34Ws, 51s, 66s. Must be dispatched within one minute; otherwise event turns red in pending queue/event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Critical monitor",
+      "stem": "Procedure 110: If not assigned within one minute, the event will turn ________ in the pending queue/event monitor.",
+      "answer": "red",
+      "hints": "The missing word appears directly in Procedure 110.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 3,
+        "pdf_page": 49,
+        "paragraph": "CRITICAL/SERIOUS CRIMES",
+        "coverage": "Critical/Serious Crimes in Progress list: 10S’s, 13s, 30s, 31s, 32Ps, 32Qs, 32Vs, 33s, 34Ks, 34Qs, 34Ss, 34Ws, 51s, 66s. Must be dispatched within one minute; otherwise event turns red in pending queue/event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Non-critical timing",
+      "stem": "Procedure 110: Non-critical Crimes in Progress must be dispatched within two (2) ________.",
+      "answer": "minutes",
+      "hints": "The missing word appears directly in Procedure 110.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 4,
+        "pdf_page": 49,
+        "paragraph": "NON-CRITICAL CRIMES",
+        "coverage": "Non-Critical Crimes in Progress list: 39Cs, 39Gs, 39Ps, 39Qs, 39Vs. Must be dispatched within two minutes; otherwise turns red in pending queue/event monitor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Step a",
+      "stem": "Procedure 110: When holding a CIP event, call each available unit in the Precinct ________-down.",
+      "answer": "Run",
+      "hints": "The missing word appears directly in Procedure 110.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 5,
+        "pdf_page": 49,
+        "paragraph": "RADIO DISPATCHER (a)",
+        "coverage": "Call each available unit in the Precinct Run-down, including the Patrol Supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Step c",
+      "stem": "Procedure 110: Poll all out of service units to see if they are ready to be returned to ________ status.",
+      "answer": "available",
+      "hints": "The missing word appears directly in Procedure 110.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 7,
+        "pdf_page": 49,
+        "paragraph": "RADIO DISPATCHER (c)",
+        "coverage": "Poll all out-of-service units to ascertain if they are ready to be returned to available status."
+      }
+    },
+    {
+      "question_id": "NYC911-110-FB-008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Step d",
+      "stem": "Procedure 110: Notify the Patrol Supervisor over the ________ and document the notification.",
+      "answer": "air",
+      "hints": "The missing word appears directly in Procedure 110.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 8,
+        "pdf_page": 49,
+        "paragraph": "RADIO DISPATCHER (d)",
+        "coverage": "Notify the Patrol Supervisor over the air and document that the Patrol Supervisor was notified."
+      }
+    },
+    {
+      "question_id": "NYC911-110-FB-009",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Step f",
+      "stem": "Procedure 110: If no units are available, document “________” in the remarks.",
+      "answer": "transmitted",
+      "hints": "The missing word appears directly in Procedure 110.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 10,
+        "pdf_page": 50,
+        "paragraph": "RADIO DISPATCHER (f)",
+        "coverage": "If no units available and holding crimes in progress: transmit the event, document “transmitted” in remarks, and notify the radio supervisor."
+      }
+    },
+    {
+      "question_id": "NYC911-110-FB-010",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 110 – CRIMES IN PROGRESS AND MAJOR INCIDENTS",
+      "subtopic": "Step g",
+      "stem": "Procedure 110: Pull units from ________ precinct when there are no units to respond to critical/major incidents.",
+      "answer": "adjacent",
+      "hints": "The missing word appears directly in Procedure 110.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc110"
+      ],
+      "source": {
+        "procedure": 110,
+        "proc_page": 11,
+        "pdf_page": 50,
+        "paragraph": "RADIO DISPATCHER (g)",
+        "coverage": "Pull units from adjacent precinct when there are no units to respond to Critical Crimes in Progress and/or Major incidents (see Procedure 118)."
+      }
+    }
+  ]
+}

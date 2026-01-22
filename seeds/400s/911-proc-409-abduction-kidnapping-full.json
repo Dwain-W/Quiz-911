@@ -1,0 +1,1329 @@
+{
+  "lesson": {
+    "slug": "911-proc-409-abduction-kidnapping-full",
+    "title": "Procedure 409 – Abduction and Kidnapping Incidents",
+    "topic": "Abduction and Kidnapping",
+    "order": 409,
+    "objectives": [
+      "State the prime objective for abduction/kidnapping investigations.",
+      "Differentiate abduction (10Y3) from kidnapping (69S).",
+      "Apply dispatcher steps for abduction incidents.",
+      "Apply dispatcher restrictions and steps for kidnapping incidents.",
+      "Apply the NOTE exception for immediate RMP dispatch."
+    ],
+    "questionIds": [
+      "NYC911-409-MCQ-001",
+      "NYC911-409-MCQ-002",
+      "NYC911-409-MCQ-003",
+      "NYC911-409-MCQ-004",
+      "NYC911-409-MCQ-005",
+      "NYC911-409-MCQ-006",
+      "NYC911-409-MCQ-007",
+      "NYC911-409-MCQ-008",
+      "NYC911-409-MCQ-009",
+      "NYC911-409-MCQ-010",
+      "NYC911-409-TF-001",
+      "NYC911-409-TF-002",
+      "NYC911-409-TF-003",
+      "NYC911-409-TF-004",
+      "NYC911-409-TF-005",
+      "NYC911-409-TF-006",
+      "NYC911-409-TF-007",
+      "NYC911-409-TF-008",
+      "NYC911-409-TF-009",
+      "NYC911-409-TF-010",
+      "NYC911-409-MATCH-001",
+      "NYC911-409-MATCH-002",
+      "NYC911-409-MATCH-003",
+      "NYC911-409-MATCH-004",
+      "NYC911-409-MATCH-005",
+      "NYC911-409-MATCH-006",
+      "NYC911-409-MATCH-007",
+      "NYC911-409-MATCH-008",
+      "NYC911-409-MATCH-009",
+      "NYC911-409-MATCH-010",
+      "NYC911-409-FB-001",
+      "NYC911-409-FB-002",
+      "NYC911-409-FB-003",
+      "NYC911-409-FB-004",
+      "NYC911-409-FB-005",
+      "NYC911-409-FB-006",
+      "NYC911-409-FB-007",
+      "NYC911-409-FB-008",
+      "NYC911-409-FB-009",
+      "NYC911-409-FB-010"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-409-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Purpose",
+      "stem": "Procedure 409: What is the prime objective in abduction/kidnapping investigations?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Immediate arrest of the suspect",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Evidence collection only",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "The safe return of the victim",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Media notification",
+          "is_correct": false
+        }
+      ],
+      "solution": "PURPOSE states the prime objective is the safe return of the victim.",
+      "hints": "Look for 'prime objective' language.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 1,
+        "pdf_page": 167,
+        "paragraph": "PURPOSE",
+        "coverage": "Prime objective: safe return of the victim"
+      }
+    },
+    {
+      "question_id": "NYC911-409-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Abduction Definition",
+      "stem": "Procedure 409: Which code is used to enter an abduction incident?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10Y3",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "69S",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "90X",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "10-13",
+          "is_correct": false
+        }
+      ],
+      "solution": "Abductions are coded 10Y3.",
+      "hints": "Abduction and kidnapping have different codes.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 2,
+        "pdf_page": 167,
+        "paragraph": "ABDUCTIONS – DEFINITION",
+        "coverage": "Abduction definition; force/persuasion/fraud; code 10Y3"
+      }
+    },
+    {
+      "question_id": "NYC911-409-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Abduction Definition",
+      "stem": "Procedure 409: Abduction involves taking a victim by which methods?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Force, persuasion, or fraud",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ransom demand only",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Accidental separation",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Past occurrence only",
+          "is_correct": false
+        }
+      ],
+      "solution": "The definition lists force, persuasion, or fraud.",
+      "hints": "Think 'how the victim is taken'.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 2,
+        "pdf_page": 167,
+        "paragraph": "ABDUCTIONS – DEFINITION",
+        "coverage": "Abduction definition; force/persuasion/fraud; code 10Y3"
+      }
+    },
+    {
+      "question_id": "NYC911-409-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Abduction Dispatcher Actions",
+      "stem": "Procedure 409: For an abduction, what should the dispatcher do immediately?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Place the job in the defer queue",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Assign no units",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Assign a unit and the Patrol Supervisor",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Wait until the caller calls back",
+          "is_correct": false
+        }
+      ],
+      "solution": "Immediate assignment is required for abductions.",
+      "hints": "This is the ABDUCTIONS dispatcher step.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 3,
+        "pdf_page": 167,
+        "paragraph": "ABDUCTIONS – RADIO DISPATCHER",
+        "coverage": "Assign unit & Patrol Supervisor; notify Radio Supervisor"
+      }
+    },
+    {
+      "question_id": "NYC911-409-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Abduction Dispatcher Actions",
+      "stem": "Procedure 409: Who must be notified on an abduction incident?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Highway & Special Operations Dispatcher",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Radio Supervisor",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Transit Division",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Sanitation Operations",
+          "is_correct": false
+        }
+      ],
+      "solution": "Radio Supervisor notification is required.",
+      "hints": "Look for 'notify' under ABDUCTIONS.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 3,
+        "pdf_page": 167,
+        "paragraph": "ABDUCTIONS – RADIO DISPATCHER",
+        "coverage": "Assign unit & Patrol Supervisor; notify Radio Supervisor"
+      }
+    },
+    {
+      "question_id": "NYC911-409-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Kidnapping Definition",
+      "stem": "Procedure 409: Which condition must be present for a kidnapping classification?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Victim is currently on scene",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only threats were made today",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "A past occurrence where a ransom has been demanded",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "No ransom demand exists",
+          "is_correct": false
+        }
+      ],
+      "solution": "Kidnapping is a past occurrence and ransom demanded.",
+      "hints": "Two parts: past + ransom.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 4,
+        "pdf_page": 167,
+        "paragraph": "KIDNAPPING – DEFINITION",
+        "coverage": "Past occurrence; ransom demanded; code 69S"
+      }
+    },
+    {
+      "question_id": "NYC911-409-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Kidnapping Definition",
+      "stem": "Procedure 409: Which code is used to enter a kidnapping incident?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10Y3",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "10-84",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "13X1",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "69S",
+          "is_correct": true
+        }
+      ],
+      "solution": "Kidnapping incidents are coded 69S.",
+      "hints": "Two digits and a letter.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 4,
+        "pdf_page": 167,
+        "paragraph": "KIDNAPPING – DEFINITION",
+        "coverage": "Past occurrence; ransom demanded; code 69S"
+      }
+    },
+    {
+      "question_id": "NYC911-409-MCQ-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Kidnapping Dispatcher Actions",
+      "stem": "Procedure 409: During a kidnapping incident, which action is prohibited?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Documenting the job",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Assigning an RMP",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Notifying the Radio Supervisor",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Placing the job in the defer queue",
+          "is_correct": false
+        }
+      ],
+      "solution": "Dispatcher will not assign an RMP for kidnapping incidents.",
+      "hints": "Look for 'WILL NOT ASSIGN'.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 5,
+        "pdf_page": 167,
+        "paragraph": "KIDNAPPING – RADIO DISPATCHER",
+        "coverage": "Will not assign RMP; notify Radio Supervisor; defer queue"
+      }
+    },
+    {
+      "question_id": "NYC911-409-MCQ-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Kidnapping Dispatcher Actions",
+      "stem": "Procedure 409: What must happen to a kidnapping job in the system?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It must be placed in the defer queue",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "It must be assigned to an RMP",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "It must be transferred to another precinct",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "It must be immediately closed",
+          "is_correct": false
+        }
+      ],
+      "solution": "Kidnapping incidents must be placed in the defer queue.",
+      "hints": "Find 'defer queue' in the steps.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 5,
+        "pdf_page": 167,
+        "paragraph": "KIDNAPPING – RADIO DISPATCHER",
+        "coverage": "Will not assign RMP; notify Radio Supervisor; defer queue"
+      }
+    },
+    {
+      "question_id": "NYC911-409-MCQ-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Exception Note",
+      "stem": "Procedure 409 NOTE: When may an RMP be immediately dispatched?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only after a detective arrives",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only when the victim is on scene, has returned, or is still being abducted",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "After ransom is paid",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "For any kidnapping report",
+          "is_correct": false
+        }
+      ],
+      "solution": "The NOTE provides the limited exception for immediate RMP dispatch.",
+      "hints": "Exception depends on victim status.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 6,
+        "pdf_page": 167,
+        "paragraph": "NOTE",
+        "coverage": "Immediate RMP only if victim on scene/returned/still being abducted"
+      }
+    },
+    {
+      "question_id": "NYC911-409-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Purpose",
+      "stem": "Procedure 409: The prime objective is the safe return of the victim.",
+      "answer": "true",
+      "hints": "PURPOSE states this directly.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 1,
+        "pdf_page": 167,
+        "paragraph": "PURPOSE",
+        "coverage": "Prime objective: safe return of the victim"
+      }
+    },
+    {
+      "question_id": "NYC911-409-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Abduction Definition",
+      "stem": "Procedure 409: Abduction incidents are entered using code 10Y3.",
+      "answer": "true",
+      "hints": "This code is specified in the abduction definition.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 2,
+        "pdf_page": 167,
+        "paragraph": "ABDUCTIONS – DEFINITION",
+        "coverage": "Abduction definition; force/persuasion/fraud; code 10Y3"
+      }
+    },
+    {
+      "question_id": "NYC911-409-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Abduction Definition",
+      "stem": "Procedure 409: Abduction requires that a ransom has been demanded.",
+      "answer": "false",
+      "hints": "Ransom demand is part of kidnapping per this procedure.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 2,
+        "pdf_page": 167,
+        "paragraph": "ABDUCTIONS – DEFINITION",
+        "coverage": "Abduction definition; force/persuasion/fraud; code 10Y3"
+      }
+    },
+    {
+      "question_id": "NYC911-409-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Abduction Dispatcher Actions",
+      "stem": "Procedure 409: For abduction incidents, the dispatcher assigns a unit and Patrol Supervisor immediately.",
+      "answer": "true",
+      "hints": "This is a dispatcher step under ABDUCTIONS.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 3,
+        "pdf_page": 167,
+        "paragraph": "ABDUCTIONS – RADIO DISPATCHER",
+        "coverage": "Assign unit & Patrol Supervisor; notify Radio Supervisor"
+      }
+    },
+    {
+      "question_id": "NYC911-409-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Abduction Dispatcher Actions",
+      "stem": "Procedure 409: For abduction incidents, the dispatcher places the job in the defer queue.",
+      "answer": "false",
+      "hints": "Defer queue is specified for kidnapping, not abduction.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 3,
+        "pdf_page": 167,
+        "paragraph": "ABDUCTIONS – RADIO DISPATCHER",
+        "coverage": "Assign unit & Patrol Supervisor; notify Radio Supervisor"
+      }
+    },
+    {
+      "question_id": "NYC911-409-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Kidnapping Definition",
+      "stem": "Procedure 409: Kidnapping is defined as a past occurrence where a ransom has been demanded.",
+      "answer": "true",
+      "hints": "This is the kidnapping definition.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 4,
+        "pdf_page": 167,
+        "paragraph": "KIDNAPPING – DEFINITION",
+        "coverage": "Past occurrence; ransom demanded; code 69S"
+      }
+    },
+    {
+      "question_id": "NYC911-409-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Kidnapping Definition",
+      "stem": "Procedure 409: Kidnapping incidents are entered as code 10Y3.",
+      "answer": "false",
+      "hints": "10Y3 is for abduction; kidnapping uses 69S.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 4,
+        "pdf_page": 167,
+        "paragraph": "KIDNAPPING – DEFINITION",
+        "coverage": "Past occurrence; ransom demanded; code 69S"
+      }
+    },
+    {
+      "question_id": "NYC911-409-TF-008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Kidnapping Dispatcher Actions",
+      "stem": "Procedure 409: During kidnapping incidents, the dispatcher will not assign an RMP.",
+      "answer": "true",
+      "hints": "Stated explicitly under KIDNAPPING dispatcher actions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 5,
+        "pdf_page": 167,
+        "paragraph": "KIDNAPPING – RADIO DISPATCHER",
+        "coverage": "Will not assign RMP; notify Radio Supervisor; defer queue"
+      }
+    },
+    {
+      "question_id": "NYC911-409-TF-009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Kidnapping Dispatcher Actions",
+      "stem": "Procedure 409: During kidnapping incidents, the job must be placed in the defer queue.",
+      "answer": "true",
+      "hints": "Defer queue is required per the steps.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 5,
+        "pdf_page": 167,
+        "paragraph": "KIDNAPPING – RADIO DISPATCHER",
+        "coverage": "Will not assign RMP; notify Radio Supervisor; defer queue"
+      }
+    },
+    {
+      "question_id": "NYC911-409-TF-010",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Exception Note",
+      "stem": "Procedure 409 NOTE: An RMP may be immediately dispatched for any kidnapping report regardless of victim status.",
+      "answer": "false",
+      "hints": "The NOTE restricts immediate dispatch to specific victim status conditions.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 6,
+        "pdf_page": 167,
+        "paragraph": "NOTE",
+        "coverage": "Immediate RMP only if victim on scene/returned/still being abducted"
+      }
+    },
+    {
+      "question_id": "NYC911-409-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Codes",
+      "stem": "Match the incident type to its entry code/objective.",
+      "answer": [
+        [
+          "Abduction",
+          "10Y3"
+        ],
+        [
+          "Kidnapping",
+          "69S"
+        ],
+        [
+          "Prime objective",
+          "Safe return"
+        ]
+      ],
+      "hints": "Two codes map to incident types; objective is stated in PURPOSE.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 1,
+        "pdf_page": 167,
+        "paragraph": "PURPOSE",
+        "coverage": "Prime objective: safe return of the victim"
+      }
+    },
+    {
+      "question_id": "NYC911-409-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Abduction Definition",
+      "stem": "Match the method to how it is listed in the abduction definition.",
+      "answer": [
+        [
+          "Force",
+          "Method 1"
+        ],
+        [
+          "Persuasion",
+          "Method 2"
+        ],
+        [
+          "Fraud",
+          "Method 3"
+        ]
+      ],
+      "hints": "The definition lists three methods; match each to its label.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 2,
+        "pdf_page": 167,
+        "paragraph": "ABDUCTIONS – DEFINITION",
+        "coverage": "Abduction definition; force/persuasion/fraud; code 10Y3"
+      }
+    },
+    {
+      "question_id": "NYC911-409-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Abduction Actions",
+      "stem": "Match the dispatcher action to what Procedure 409 requires for abductions.",
+      "answer": [
+        [
+          "Assign unit",
+          "Immediate action"
+        ],
+        [
+          "Assign Patrol Supervisor",
+          "Supervisor assigned"
+        ],
+        [
+          "Notify Radio Supervisor",
+          "Required notification"
+        ]
+      ],
+      "hints": "All three are listed under ABDUCTIONS dispatcher actions.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 3,
+        "pdf_page": 167,
+        "paragraph": "ABDUCTIONS – RADIO DISPATCHER",
+        "coverage": "Assign unit & Patrol Supervisor; notify Radio Supervisor"
+      }
+    },
+    {
+      "question_id": "NYC911-409-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Kidnapping Definition",
+      "stem": "Match the kidnapping element to its meaning.",
+      "answer": [
+        [
+          "Past occurrence",
+          "Already occurred"
+        ],
+        [
+          "Ransom demanded",
+          "Payment requested"
+        ],
+        [
+          "Code 69S",
+          "Kidnapping entry code"
+        ]
+      ],
+      "hints": "Each term appears in the kidnapping definition.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 4,
+        "pdf_page": 167,
+        "paragraph": "KIDNAPPING – DEFINITION",
+        "coverage": "Past occurrence; ransom demanded; code 69S"
+      }
+    },
+    {
+      "question_id": "NYC911-409-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Kidnapping Actions",
+      "stem": "Match the kidnapping dispatcher instruction to its status.",
+      "answer": [
+        [
+          "Assign RMP",
+          "Prohibited"
+        ],
+        [
+          "Notify Radio Supervisor",
+          "Required"
+        ],
+        [
+          "Defer queue",
+          "Required step"
+        ]
+      ],
+      "hints": "One instruction is prohibited; two are required.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 5,
+        "pdf_page": 167,
+        "paragraph": "KIDNAPPING – RADIO DISPATCHER",
+        "coverage": "Will not assign RMP; notify Radio Supervisor; defer queue"
+      }
+    },
+    {
+      "question_id": "NYC911-409-MATCH-006",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Exception Note",
+      "stem": "Match the victim status to the dispatch rule in the NOTE.",
+      "answer": [
+        [
+          "Victim on scene",
+          "Immediate RMP allowed"
+        ],
+        [
+          "Victim returned",
+          "Immediate RMP allowed (returned)"
+        ],
+        [
+          "Still being abducted",
+          "Immediate RMP allowed (in-progress)"
+        ]
+      ],
+      "hints": "The NOTE lists these three victim-status conditions.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 6,
+        "pdf_page": 167,
+        "paragraph": "NOTE",
+        "coverage": "Immediate RMP only if victim on scene/returned/still being abducted"
+      }
+    },
+    {
+      "question_id": "NYC911-409-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Section Purpose",
+      "stem": "Match the section heading to what it provides.",
+      "answer": [
+        [
+          "PURPOSE",
+          "Goal statement"
+        ],
+        [
+          "ABDUCTIONS",
+          "Abduction rules"
+        ],
+        [
+          "KIDNAPPING",
+          "Kidnapping rules"
+        ]
+      ],
+      "hints": "Each section describes different content.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 1,
+        "pdf_page": 167,
+        "paragraph": "PURPOSE",
+        "coverage": "Prime objective: safe return of the victim"
+      }
+    },
+    {
+      "question_id": "NYC911-409-MATCH-008",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Who does what",
+      "stem": "Match the task to who it is assigned to in Procedure 409.",
+      "answer": [
+        [
+          "Assign unit",
+          "Dispatcher"
+        ],
+        [
+          "Notify Radio Supervisor",
+          "Dispatcher (notify)"
+        ],
+        [
+          "Defer queue placement",
+          "Dispatcher (system)"
+        ]
+      ],
+      "hints": "The dispatcher performs all three tasks per the steps.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 5,
+        "pdf_page": 167,
+        "paragraph": "KIDNAPPING – RADIO DISPATCHER",
+        "coverage": "Will not assign RMP; notify Radio Supervisor; defer queue"
+      }
+    },
+    {
+      "question_id": "NYC911-409-MATCH-009",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Abduction vs Kidnapping",
+      "stem": "Match the incident type to the key distinguishing feature.",
+      "answer": [
+        [
+          "Abduction",
+          "Taken by force/persuasion/fraud"
+        ],
+        [
+          "Kidnapping",
+          "Ransom demanded (past)"
+        ],
+        [
+          "NOTE exception",
+          "Victim status"
+        ]
+      ],
+      "hints": "Each match is a defining feature.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 2,
+        "pdf_page": 167,
+        "paragraph": "ABDUCTIONS – DEFINITION",
+        "coverage": "Abduction definition; force/persuasion/fraud; code 10Y3"
+      }
+    },
+    {
+      "question_id": "NYC911-409-MATCH-010",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Allowed vs Prohibited",
+      "stem": "Match the action to whether it is allowed/prohibited/required in Procedure 409.",
+      "answer": [
+        [
+          "Assign RMP (kidnapping)",
+          "Prohibited action"
+        ],
+        [
+          "Notify Radio Supervisor",
+          "Required action"
+        ],
+        [
+          "Assign unit (abduction)",
+          "Immediate required"
+        ]
+      ],
+      "hints": "These are explicit directives in the procedure.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 5,
+        "pdf_page": 167,
+        "paragraph": "KIDNAPPING – RADIO DISPATCHER",
+        "coverage": "Will not assign RMP; notify Radio Supervisor; defer queue"
+      }
+    },
+    {
+      "question_id": "NYC911-409-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Purpose",
+      "stem": "Procedure 409: The prime objective is the ________ return of the victim.",
+      "answer": "safe",
+      "hints": "Adjective in the PURPOSE statement.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 1,
+        "pdf_page": 167,
+        "paragraph": "PURPOSE",
+        "coverage": "Prime objective: safe return of the victim"
+      }
+    },
+    {
+      "question_id": "NYC911-409-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Abduction Definition",
+      "stem": "Procedure 409: Abduction incidents are entered using code ________.",
+      "answer": "10Y3",
+      "hints": "Three characters starting with 10.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 2,
+        "pdf_page": 167,
+        "paragraph": "ABDUCTIONS – DEFINITION",
+        "coverage": "Abduction definition; force/persuasion/fraud; code 10Y3"
+      }
+    },
+    {
+      "question_id": "NYC911-409-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Abduction Definition",
+      "stem": "Procedure 409: Abduction involves taking a victim by force, persuasion, or ________.",
+      "answer": "fraud",
+      "hints": "The third method listed.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 2,
+        "pdf_page": 167,
+        "paragraph": "ABDUCTIONS – DEFINITION",
+        "coverage": "Abduction definition; force/persuasion/fraud; code 10Y3"
+      }
+    },
+    {
+      "question_id": "NYC911-409-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Abduction Actions",
+      "stem": "Procedure 409: For an abduction, assign a unit and the ________ Supervisor immediately.",
+      "answer": "Patrol",
+      "hints": "The supervisor type named.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 3,
+        "pdf_page": 167,
+        "paragraph": "ABDUCTIONS – RADIO DISPATCHER",
+        "coverage": "Assign unit & Patrol Supervisor; notify Radio Supervisor"
+      }
+    },
+    {
+      "question_id": "NYC911-409-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Abduction Actions",
+      "stem": "Procedure 409: For an abduction, notify the ________ Supervisor.",
+      "answer": "Radio",
+      "hints": "Supervisor to be notified.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 3,
+        "pdf_page": 167,
+        "paragraph": "ABDUCTIONS – RADIO DISPATCHER",
+        "coverage": "Assign unit & Patrol Supervisor; notify Radio Supervisor"
+      }
+    },
+    {
+      "question_id": "NYC911-409-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Kidnapping Definition",
+      "stem": "Procedure 409: Kidnapping is a ________ occurrence where a ransom has been demanded.",
+      "answer": "past",
+      "hints": "Timing word in the definition.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 4,
+        "pdf_page": 167,
+        "paragraph": "KIDNAPPING – DEFINITION",
+        "coverage": "Past occurrence; ransom demanded; code 69S"
+      }
+    },
+    {
+      "question_id": "NYC911-409-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Kidnapping Definition",
+      "stem": "Procedure 409: Kidnapping incidents are entered using code ________.",
+      "answer": "69S",
+      "hints": "Two digits and a letter.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 4,
+        "pdf_page": 167,
+        "paragraph": "KIDNAPPING – DEFINITION",
+        "coverage": "Past occurrence; ransom demanded; code 69S"
+      }
+    },
+    {
+      "question_id": "NYC911-409-FB-008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Kidnapping Actions",
+      "stem": "Procedure 409: For kidnapping incidents, the dispatcher will not assign an ________.",
+      "answer": "RMP",
+      "hints": "The unit type prohibited.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 5,
+        "pdf_page": 167,
+        "paragraph": "KIDNAPPING – RADIO DISPATCHER",
+        "coverage": "Will not assign RMP; notify Radio Supervisor; defer queue"
+      }
+    },
+    {
+      "question_id": "NYC911-409-FB-009",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Kidnapping Actions",
+      "stem": "Procedure 409: For kidnapping incidents, the job must be placed in the ________ queue.",
+      "answer": "defer",
+      "hints": "Queue name in the steps.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 5,
+        "pdf_page": 167,
+        "paragraph": "KIDNAPPING – RADIO DISPATCHER",
+        "coverage": "Will not assign RMP; notify Radio Supervisor; defer queue"
+      }
+    },
+    {
+      "question_id": "NYC911-409-FB-010",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 409 – Abduction and Kidnapping Incidents",
+      "subtopic": "Exception Note",
+      "stem": "Procedure 409 NOTE: Immediate RMP dispatch is allowed only if the ________ is on scene/returned/still being abducted.",
+      "answer": "victim",
+      "hints": "Person taken.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc409"
+      ],
+      "source": {
+        "procedure": 409,
+        "proc_page": 6,
+        "pdf_page": 167,
+        "paragraph": "NOTE",
+        "coverage": "Immediate RMP only if victim on scene/returned/still being abducted"
+      }
+    }
+  ]
+}

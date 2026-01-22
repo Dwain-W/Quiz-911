@@ -1,0 +1,1328 @@
+{
+  "lesson": {
+    "slug": "911-proc-108-descriptions-full-coverage",
+    "title": "Procedure 108 – DESCRIPTIONS",
+    "topic": "DESCRIPTIONS",
+    "order": 108,
+    "objectives": [
+      "Transmit detailed/precise descriptions to support reasonable suspicion and officer safety.",
+      "Use DESC-PER/DESC-VEH to add/edit/view Supplemental Information and understand DUPCAN carryover.",
+      "Handle name/plate alerts, automatic Informer/NYSPIN runs, and supervisor review of warrant hits.",
+      "Rebroadcast and document additional description details received over the radio."
+    ],
+    "questionIds": [
+      "NYC911-108-MCQ-001",
+      "NYC911-108-MCQ-002",
+      "NYC911-108-MCQ-003",
+      "NYC911-108-MCQ-004",
+      "NYC911-108-MCQ-005",
+      "NYC911-108-MCQ-006",
+      "NYC911-108-MCQ-007",
+      "NYC911-108-MCQ-008",
+      "NYC911-108-MCQ-009",
+      "NYC911-108-MCQ-010",
+      "NYC911-108-TF-001",
+      "NYC911-108-TF-002",
+      "NYC911-108-TF-003",
+      "NYC911-108-TF-004",
+      "NYC911-108-TF-005",
+      "NYC911-108-TF-006",
+      "NYC911-108-TF-007",
+      "NYC911-108-TF-008",
+      "NYC911-108-TF-009",
+      "NYC911-108-TF-010",
+      "NYC911-108-MATCH-001",
+      "NYC911-108-MATCH-002",
+      "NYC911-108-MATCH-003",
+      "NYC911-108-MATCH-004",
+      "NYC911-108-MATCH-005",
+      "NYC911-108-MATCH-006",
+      "NYC911-108-MATCH-007",
+      "NYC911-108-MATCH-008",
+      "NYC911-108-MATCH-009",
+      "NYC911-108-MATCH-010",
+      "NYC911-108-FB-001",
+      "NYC911-108-FB-002",
+      "NYC911-108-FB-003",
+      "NYC911-108-FB-004",
+      "NYC911-108-FB-005",
+      "NYC911-108-FB-006",
+      "NYC911-108-FB-007",
+      "NYC911-108-FB-008",
+      "NYC911-108-FB-009",
+      "NYC911-108-FB-010"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-108-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Why details matter",
+      "stem": "Procedure 108: According to scope, detailed descriptions help provide what for a stop and frisk?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A case closing code",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Reasonable suspicion",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "A supervisor callback",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Probable cause for arrest",
+          "is_correct": false
+        }
+      ],
+      "solution": "Reasonable suspicion",
+      "hints": "Focus on the exact requirement on pages 43–44.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 1,
+        "pdf_page": 43,
+        "paragraph": "SCOPE",
+        "coverage": "Legal bulletins stress detailed/precise descriptions: clothing type/color, exact location, and if weapons are involved; good description provides reasonable suspicion for stop/frisk; attempt to be complete/exact."
+      }
+    },
+    {
+      "question_id": "NYC911-108-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "What to include",
+      "stem": "Procedure 108: Scope highlights necessity for detailing clothing type/color, exact location, and whether what is involved?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Weapons",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Patrol borough",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Officer shield numbers",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Weather conditions",
+          "is_correct": false
+        }
+      ],
+      "solution": "Weapons",
+      "hints": "Focus on the exact requirement on pages 43–44.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 1,
+        "pdf_page": 43,
+        "paragraph": "SCOPE",
+        "coverage": "Legal bulletins stress detailed/precise descriptions: clothing type/color, exact location, and if weapons are involved; good description provides reasonable suspicion for stop/frisk; attempt to be complete/exact."
+      }
+    },
+    {
+      "question_id": "NYC911-108-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Perp fields",
+      "stem": "Procedure 108: Which set is part of a full perpetrator description attempt?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Tour schedule, meal, sector",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "VIN, registration class, insurance",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Sex, age, outer clothing, direction of flight",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Crime complaint number, arrest number, voucher",
+          "is_correct": false
+        }
+      ],
+      "solution": "Sex, age, outer clothing, direction of flight",
+      "hints": "Focus on the exact requirement on pages 43–44.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 2,
+        "pdf_page": 43,
+        "paragraph": "PERPETRATOR DESCRIPTION FIELDS",
+        "coverage": "Full perpetrator description attempt: sex, color/complexion, age, height, weight, outer clothing, weapon, direction of flight, mode of flight."
+      }
+    },
+    {
+      "question_id": "NYC911-108-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Vehicle fields",
+      "stem": "Procedure 108: Which item is listed under vehicle description fields?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Outer clothing",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Complexion",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Plate",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Height",
+          "is_correct": false
+        }
+      ],
+      "solution": "Plate",
+      "hints": "Focus on the exact requirement on pages 43–44.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 3,
+        "pdf_page": 43,
+        "paragraph": "VEHICLE DESCRIPTION FIELDS",
+        "coverage": "Vehicle description attempt: make, model, year, plate, color, type (SUV, Van, Truck, etc)."
+      }
+    },
+    {
+      "question_id": "NYC911-108-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Buttons",
+      "stem": "Procedure 108: Which event monitor buttons are used for descriptions?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "DESC-PER and DESC-VEH",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "OPS and ARD",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "FD and EMS",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "ANI and ALI",
+          "is_correct": false
+        }
+      ],
+      "solution": "DESC-PER and DESC-VEH",
+      "hints": "Focus on the exact requirement on pages 43–44.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 4,
+        "pdf_page": 43,
+        "paragraph": "DESC-PER / DESC-VEH FEATURE",
+        "coverage": "Event monitor includes DESC-PER and DESC-VEH buttons to quickly obtain/transmit descriptions."
+      }
+    },
+    {
+      "question_id": "NYC911-108-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Supp Info",
+      "stem": "Procedure 108: The DESC-PER/DESC-VEH feature is utilized to add/edit/view what?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Unit alarms",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Radio log book entry",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Supplemental Information",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Final disposition",
+          "is_correct": false
+        }
+      ],
+      "solution": "Supplemental Information",
+      "hints": "Focus on the exact requirement on pages 43–44.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 5,
+        "pdf_page": 43,
+        "paragraph": "FEATURE MUST BE UTILIZED",
+        "coverage": "Dispatcher must use the feature for quick entry to add/edit/view Supplemental Information for an event."
+      }
+    },
+    {
+      "question_id": "NYC911-108-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "DUPCAN effect",
+      "stem": "Procedure 108: When an event is DUPCAN, info from canceled event appears where?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only in calltaker notes",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Deleted permanently",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only in canceled event",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Supp Info and remarks of the primary event",
+          "is_correct": true
+        }
+      ],
+      "solution": "Supp Info and remarks of the primary event",
+      "hints": "Focus on the exact requirement on pages 43–44.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 6,
+        "pdf_page": 43,
+        "paragraph": "NOTE – DUPCAN",
+        "coverage": "When event is DUPCAN, all info added to canceled event automatically appears in Supp Info and remarks of the primary event."
+      }
+    },
+    {
+      "question_id": "NYC911-108-MCQ-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Alert meaning",
+      "stem": "Procedure 108: Dispatchers are alerted when what is available for an event?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Radio interference",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Gas availability",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Meal break approval",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Person/name information",
+          "is_correct": true
+        }
+      ],
+      "solution": "Person/name information",
+      "hints": "Focus on the exact requirement on pages 43–44.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 7,
+        "pdf_page": 43,
+        "paragraph": "NAME/PLATE ALERT",
+        "coverage": "Dispatchers are alerted when person/name information is available for an event."
+      }
+    },
+    {
+      "question_id": "NYC911-108-MCQ-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Auto run",
+      "stem": "Procedure 108: When calltaker adds a name/plate, the info runs automatically in what system(s)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "CAD only",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "FD link only",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Informer/NYSPIN",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Email system",
+          "is_correct": false
+        }
+      ],
+      "solution": "Informer/NYSPIN",
+      "hints": "Focus on the exact requirement on pages 43–44.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 8,
+        "pdf_page": 43,
+        "paragraph": "AUTOMATIC RUN",
+        "coverage": "When calltaker adds a name/plate, it automatically runs in Informer/NYSPIN."
+      }
+    },
+    {
+      "question_id": "NYC911-108-MCQ-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Radio updates",
+      "stem": "Procedure 108: When new description arrives over radio, dispatcher must rebroadcast and also do what?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Delete old info",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ignore unless a supervisor asks",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Document additional details in the event",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Wait until end of tour",
+          "is_correct": false
+        }
+      ],
+      "solution": "Document additional details in the event",
+      "hints": "Focus on the exact requirement on pages 43–44.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 9,
+        "pdf_page": 44,
+        "paragraph": "ADDITIONAL RADIO DESCRIPTION",
+        "coverage": "When additional description items are received over the radio, rebroadcast and document them so they become part of the permanent record."
+      }
+    },
+    {
+      "question_id": "NYC911-108-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Scope",
+      "stem": "Procedure 108: Procedure 108 stresses detailed descriptions including clothing type/color, exact location, and weapons involvement.",
+      "answer": "true",
+      "hints": "True/False is determined by the wording in Procedure 108.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 1,
+        "pdf_page": 43,
+        "paragraph": "SCOPE",
+        "coverage": "Legal bulletins stress detailed/precise descriptions: clothing type/color, exact location, and if weapons are involved; good description provides reasonable suspicion for stop/frisk; attempt to be complete/exact."
+      }
+    },
+    {
+      "question_id": "NYC911-108-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Scope",
+      "stem": "Procedure 108: A good description helps give officers reasonable suspicion to stop and frisk based on the description.",
+      "answer": "true",
+      "hints": "True/False is determined by the wording in Procedure 108.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 1,
+        "pdf_page": 43,
+        "paragraph": "SCOPE",
+        "coverage": "Legal bulletins stress detailed/precise descriptions: clothing type/color, exact location, and if weapons are involved; good description provides reasonable suspicion for stop/frisk; attempt to be complete/exact."
+      }
+    },
+    {
+      "question_id": "NYC911-108-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Perp list",
+      "stem": "Procedure 108: Perpetrator description attempts include direction and mode of flight.",
+      "answer": "true",
+      "hints": "True/False is determined by the wording in Procedure 108.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 2,
+        "pdf_page": 43,
+        "paragraph": "PERPETRATOR DESCRIPTION FIELDS",
+        "coverage": "Full perpetrator description attempt: sex, color/complexion, age, height, weight, outer clothing, weapon, direction of flight, mode of flight."
+      }
+    },
+    {
+      "question_id": "NYC911-108-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Vehicle list",
+      "stem": "Procedure 108: Vehicle description fields include outer clothing and complexion.",
+      "answer": "false",
+      "hints": "True/False is determined by the wording in Procedure 108.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 3,
+        "pdf_page": 43,
+        "paragraph": "VEHICLE DESCRIPTION FIELDS",
+        "coverage": "Vehicle description attempt: make, model, year, plate, color, type (SUV, Van, Truck, etc)."
+      }
+    },
+    {
+      "question_id": "NYC911-108-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Buttons",
+      "stem": "Procedure 108: DESC-PER and DESC-VEH buttons are located on the event monitor window.",
+      "answer": "true",
+      "hints": "True/False is determined by the wording in Procedure 108.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 4,
+        "pdf_page": 43,
+        "paragraph": "DESC-PER / DESC-VEH FEATURE",
+        "coverage": "Event monitor includes DESC-PER and DESC-VEH buttons to quickly obtain/transmit descriptions."
+      }
+    },
+    {
+      "question_id": "NYC911-108-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Feature use",
+      "stem": "Procedure 108: The dispatcher must utilize the feature for quick entry to add, edit, or view Supp Info.",
+      "answer": "true",
+      "hints": "True/False is determined by the wording in Procedure 108.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 5,
+        "pdf_page": 43,
+        "paragraph": "FEATURE MUST BE UTILIZED",
+        "coverage": "Dispatcher must use the feature for quick entry to add/edit/view Supplemental Information for an event."
+      }
+    },
+    {
+      "question_id": "NYC911-108-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "DUPCAN",
+      "stem": "Procedure 108: When an event is DUPCAN, canceled-event info automatically appears in the primary event’s Supp Info and remarks.",
+      "answer": "true",
+      "hints": "True/False is determined by the wording in Procedure 108.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 6,
+        "pdf_page": 43,
+        "paragraph": "NOTE – DUPCAN",
+        "coverage": "When event is DUPCAN, all info added to canceled event automatically appears in Supp Info and remarks of the primary event."
+      }
+    },
+    {
+      "question_id": "NYC911-108-TF-008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Auto run",
+      "stem": "Procedure 108: When a calltaker adds a name/plate, it automatically runs in Informer/NYSPIN.",
+      "answer": "true",
+      "hints": "True/False is determined by the wording in Procedure 108.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 8,
+        "pdf_page": 43,
+        "paragraph": "AUTOMATIC RUN",
+        "coverage": "When calltaker adds a name/plate, it automatically runs in Informer/NYSPIN."
+      }
+    },
+    {
+      "question_id": "NYC911-108-TF-009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Radio add",
+      "stem": "Procedure 108: Additional description received over radio should be rebroadcast and documented for the permanent record.",
+      "answer": "true",
+      "hints": "True/False is determined by the wording in Procedure 108.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 9,
+        "pdf_page": 44,
+        "paragraph": "ADDITIONAL RADIO DESCRIPTION",
+        "coverage": "When additional description items are received over the radio, rebroadcast and document them so they become part of the permanent record."
+      }
+    },
+    {
+      "question_id": "NYC911-108-TF-010",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Warrant",
+      "stem": "Procedure 108: Dispatchers must notify supervisors to review all warrant hits.",
+      "answer": "true",
+      "hints": "True/False is determined by the wording in Procedure 108.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 10,
+        "pdf_page": 44,
+        "paragraph": "WARRANT HIT SUPERVISOR REVIEW",
+        "coverage": "Dispatchers must notify supervisors to review all warrant hits."
+      }
+    },
+    {
+      "question_id": "NYC911-108-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Scope items",
+      "stem": "Procedure 108: Match the scope emphasis to the example detail.",
+      "answer": [
+        [
+          "Clothing details",
+          "Type and color of clothing"
+        ],
+        [
+          "Location detail",
+          "Exact location"
+        ],
+        [
+          "Weapons involvement",
+          "Weapons involved"
+        ]
+      ],
+      "hints": "Each right-side option is used only once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 1,
+        "pdf_page": 43,
+        "paragraph": "SCOPE",
+        "coverage": "Legal bulletins stress detailed/precise descriptions: clothing type/color, exact location, and if weapons are involved; good description provides reasonable suspicion for stop/frisk; attempt to be complete/exact."
+      }
+    },
+    {
+      "question_id": "NYC911-108-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Perpetrator fields",
+      "stem": "Procedure 108: Match the field to the category.",
+      "answer": [
+        [
+          "Sex",
+          "Perp descriptor"
+        ],
+        [
+          "Direction of flight",
+          "Perp descriptor (movement)"
+        ],
+        [
+          "Weapon",
+          "Perp descriptor (threat)"
+        ]
+      ],
+      "hints": "Each right-side option is used only once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 2,
+        "pdf_page": 43,
+        "paragraph": "PERPETRATOR DESCRIPTION FIELDS",
+        "coverage": "Full perpetrator description attempt: sex, color/complexion, age, height, weight, outer clothing, weapon, direction of flight, mode of flight."
+      }
+    },
+    {
+      "question_id": "NYC911-108-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Vehicle fields",
+      "stem": "Procedure 108: Match the field to the vehicle list item.",
+      "answer": [
+        [
+          "Make",
+          "Vehicle descriptor"
+        ],
+        [
+          "Plate",
+          "Vehicle descriptor (Plate)"
+        ],
+        [
+          "Type",
+          "Vehicle descriptor (SUV/Van/Truck)"
+        ]
+      ],
+      "hints": "Each right-side option is used only once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 3,
+        "pdf_page": 43,
+        "paragraph": "VEHICLE DESCRIPTION FIELDS",
+        "coverage": "Vehicle description attempt: make, model, year, plate, color, type (SUV, Van, Truck, etc)."
+      }
+    },
+    {
+      "question_id": "NYC911-108-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Buttons to use",
+      "stem": "Procedure 108: Match the button to what it supports.",
+      "answer": [
+        [
+          "DESC-PER",
+          "Perpetrator description entry"
+        ],
+        [
+          "DESC-VEH",
+          "Vehicle description entry"
+        ],
+        [
+          "Supplemental Info",
+          "Storage location in event"
+        ]
+      ],
+      "hints": "Each right-side option is used only once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 4,
+        "pdf_page": 43,
+        "paragraph": "DESC-PER / DESC-VEH FEATURE",
+        "coverage": "Event monitor includes DESC-PER and DESC-VEH buttons to quickly obtain/transmit descriptions."
+      }
+    },
+    {
+      "question_id": "NYC911-108-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Feature actions",
+      "stem": "Procedure 108: Match the action to what the feature allows.",
+      "answer": [
+        [
+          "Add",
+          "Enter new Supp Info"
+        ],
+        [
+          "Edit",
+          "Modify existing Supp Info"
+        ],
+        [
+          "View",
+          "Display Supp Info"
+        ]
+      ],
+      "hints": "Each right-side option is used only once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 5,
+        "pdf_page": 43,
+        "paragraph": "FEATURE MUST BE UTILIZED",
+        "coverage": "Dispatcher must use the feature for quick entry to add/edit/view Supplemental Information for an event."
+      }
+    },
+    {
+      "question_id": "NYC911-108-MATCH-006",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "DUPCAN behavior",
+      "stem": "Procedure 108: Match the event status to what happens.",
+      "answer": [
+        [
+          "DUPCAN",
+          "Info from canceled event carries over"
+        ],
+        [
+          "Primary event",
+          "Receives info in Supp Info/remarks"
+        ],
+        [
+          "Canceled event",
+          "Where info was entered first"
+        ]
+      ],
+      "hints": "Each right-side option is used only once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 6,
+        "pdf_page": 43,
+        "paragraph": "NOTE – DUPCAN",
+        "coverage": "When event is DUPCAN, all info added to canceled event automatically appears in Supp Info and remarks of the primary event."
+      }
+    },
+    {
+      "question_id": "NYC911-108-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Automatic processing",
+      "stem": "Procedure 108: Match the trigger to the system action.",
+      "answer": [
+        [
+          "Calltaker adds name",
+          "Runs in Informer/NYSPIN (name)"
+        ],
+        [
+          "Calltaker adds plate",
+          "Runs in Informer/NYSPIN (plate)"
+        ],
+        [
+          "Dispatcher alerted",
+          "Indicates person/name info available"
+        ]
+      ],
+      "hints": "Each right-side option is used only once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 8,
+        "pdf_page": 43,
+        "paragraph": "AUTOMATIC RUN",
+        "coverage": "When calltaker adds a name/plate, it automatically runs in Informer/NYSPIN."
+      }
+    },
+    {
+      "question_id": "NYC911-108-MATCH-008",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Radio updates",
+      "stem": "Procedure 108: Match the dispatcher action to why it is done.",
+      "answer": [
+        [
+          "Rebroadcast",
+          "Ensure units receive update"
+        ],
+        [
+          "Document",
+          "Make it permanent record"
+        ],
+        [
+          "Additional items",
+          "Increase completeness"
+        ]
+      ],
+      "hints": "Each right-side option is used only once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 9,
+        "pdf_page": 44,
+        "paragraph": "ADDITIONAL RADIO DESCRIPTION",
+        "coverage": "When additional description items are received over the radio, rebroadcast and document them so they become part of the permanent record."
+      }
+    },
+    {
+      "question_id": "NYC911-108-MATCH-009",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Reasonable suspicion",
+      "stem": "Procedure 108: Match the concept to what it supports.",
+      "answer": [
+        [
+          "Good description",
+          "Reasonable suspicion basis"
+        ],
+        [
+          "Complete/exact",
+          "Better identification"
+        ],
+        [
+          "Weapon detail",
+          "Officer safety awareness"
+        ]
+      ],
+      "hints": "Each right-side option is used only once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 1,
+        "pdf_page": 43,
+        "paragraph": "SCOPE",
+        "coverage": "Legal bulletins stress detailed/precise descriptions: clothing type/color, exact location, and if weapons are involved; good description provides reasonable suspicion for stop/frisk; attempt to be complete/exact."
+      }
+    },
+    {
+      "question_id": "NYC911-108-MATCH-010",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Supervisor notification",
+      "stem": "Procedure 108: Match the item to the required action.",
+      "answer": [
+        [
+          "Warrant hit",
+          "Notify supervisor"
+        ],
+        [
+          "Supervisor review",
+          "Required follow-up"
+        ],
+        [
+          "Dispatcher",
+          "Performs notification"
+        ]
+      ],
+      "hints": "Each right-side option is used only once.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 10,
+        "pdf_page": 44,
+        "paragraph": "WARRANT HIT SUPERVISOR REVIEW",
+        "coverage": "Dispatchers must notify supervisors to review all warrant hits."
+      }
+    },
+    {
+      "question_id": "NYC911-108-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Scope",
+      "stem": "Procedure 108: Legal bulletins highlight the necessity for detailed and ________ descriptions.",
+      "answer": "precise",
+      "hints": "The missing word is stated directly in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 1,
+        "pdf_page": 43,
+        "paragraph": "SCOPE",
+        "coverage": "Legal bulletins stress detailed/precise descriptions: clothing type/color, exact location, and if weapons are involved; good description provides reasonable suspicion for stop/frisk; attempt to be complete/exact."
+      }
+    },
+    {
+      "question_id": "NYC911-108-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Scope",
+      "stem": "Procedure 108: A good description provides the required level of ________ suspicion to stop and frisk.",
+      "answer": "reasonable",
+      "hints": "The missing word is stated directly in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 1,
+        "pdf_page": 43,
+        "paragraph": "SCOPE",
+        "coverage": "Legal bulletins stress detailed/precise descriptions: clothing type/color, exact location, and if weapons are involved; good description provides reasonable suspicion for stop/frisk; attempt to be complete/exact."
+      }
+    },
+    {
+      "question_id": "NYC911-108-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Perp",
+      "stem": "Procedure 108: Attempt to get the perpetrator’s direction of ________.",
+      "answer": "flight",
+      "hints": "The missing word is stated directly in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 2,
+        "pdf_page": 43,
+        "paragraph": "PERPETRATOR DESCRIPTION FIELDS",
+        "coverage": "Full perpetrator description attempt: sex, color/complexion, age, height, weight, outer clothing, weapon, direction of flight, mode of flight."
+      }
+    },
+    {
+      "question_id": "NYC911-108-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Vehicle",
+      "stem": "Procedure 108: Vehicle description attempts include make, model, year, and ________.",
+      "answer": "plate",
+      "hints": "The missing word is stated directly in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 3,
+        "pdf_page": 43,
+        "paragraph": "VEHICLE DESCRIPTION FIELDS",
+        "coverage": "Vehicle description attempt: make, model, year, plate, color, type (SUV, Van, Truck, etc)."
+      }
+    },
+    {
+      "question_id": "NYC911-108-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Buttons",
+      "stem": "Procedure 108: Event monitor includes “DESC-PER” and “DESC-________” buttons.",
+      "answer": "VEH",
+      "hints": "The missing word is stated directly in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 4,
+        "pdf_page": 43,
+        "paragraph": "DESC-PER / DESC-VEH FEATURE",
+        "coverage": "Event monitor includes DESC-PER and DESC-VEH buttons to quickly obtain/transmit descriptions."
+      }
+    },
+    {
+      "question_id": "NYC911-108-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Supp Info",
+      "stem": "Procedure 108: The feature is used to add/edit/view ________ Information for an event.",
+      "answer": "Supplemental",
+      "hints": "The missing word is stated directly in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 5,
+        "pdf_page": 43,
+        "paragraph": "FEATURE MUST BE UTILIZED",
+        "coverage": "Dispatcher must use the feature for quick entry to add/edit/view Supplemental Information for an event."
+      }
+    },
+    {
+      "question_id": "NYC911-108-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "DUPCAN",
+      "stem": "Procedure 108: When an event is “DUPCAN”, info appears in Supp Info and ________ of the primary event.",
+      "answer": "remarks",
+      "hints": "The missing word is stated directly in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 6,
+        "pdf_page": 43,
+        "paragraph": "NOTE – DUPCAN",
+        "coverage": "When event is DUPCAN, all info added to canceled event automatically appears in Supp Info and remarks of the primary event."
+      }
+    },
+    {
+      "question_id": "NYC911-108-FB-008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Auto",
+      "stem": "Procedure 108: Name/plate info automatically runs in Informer/________.",
+      "answer": "NYSPIN",
+      "hints": "The missing word is stated directly in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 8,
+        "pdf_page": 43,
+        "paragraph": "AUTOMATIC RUN",
+        "coverage": "When calltaker adds a name/plate, it automatically runs in Informer/NYSPIN."
+      }
+    },
+    {
+      "question_id": "NYC911-108-FB-009",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Radio add",
+      "stem": "Procedure 108: When additional description is received over the radio, rebroadcast and ________ the details in the event.",
+      "answer": "document",
+      "hints": "The missing word is stated directly in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 9,
+        "pdf_page": 44,
+        "paragraph": "ADDITIONAL RADIO DESCRIPTION",
+        "coverage": "When additional description items are received over the radio, rebroadcast and document them so they become part of the permanent record."
+      }
+    },
+    {
+      "question_id": "NYC911-108-FB-010",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 108 – DESCRIPTIONS",
+      "subtopic": "Warrant",
+      "stem": "Procedure 108: Dispatchers must notify supervisors to review all ________ hits.",
+      "answer": "warrant",
+      "hints": "The missing word is stated directly in the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc108"
+      ],
+      "source": {
+        "procedure": 108,
+        "proc_page": 10,
+        "pdf_page": 44,
+        "paragraph": "WARRANT HIT SUPERVISOR REVIEW",
+        "coverage": "Dispatchers must notify supervisors to review all warrant hits."
+      }
+    }
+  ]
+}

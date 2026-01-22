@@ -1,0 +1,1368 @@
+{
+  "lesson": {
+    "slug": "911-proc-411-verification-of-unfounded-addresses",
+    "title": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+    "topic": "Verification of Unfounded Addresses",
+    "order": 411,
+    "objectives": [
+      "Apply Procedure 411 when a unit cannot locate an incident at the transmitted location.",
+      "Verify unfounded addresses by contacting the original source and using callback verification.",
+      "Apply Steps 2a–2d for crime-in-progress/major-incident calls when callback fails and/or location is unfounded.",
+      "Apply Transit Six-Wire verification steps when the source is the Transit Authority."
+    ],
+    "questionIds": [
+      "NYC911-411-MCQ-001",
+      "NYC911-411-TF-001",
+      "NYC911-411-MATCH-001",
+      "NYC911-411-FB-001",
+      "NYC911-411-MCQ-002",
+      "NYC911-411-TF-002",
+      "NYC911-411-MATCH-002",
+      "NYC911-411-FB-002",
+      "NYC911-411-MCQ-003",
+      "NYC911-411-TF-003",
+      "NYC911-411-MATCH-003",
+      "NYC911-411-FB-003",
+      "NYC911-411-MCQ-004",
+      "NYC911-411-TF-004",
+      "NYC911-411-MATCH-004",
+      "NYC911-411-FB-004",
+      "NYC911-411-MCQ-005",
+      "NYC911-411-TF-005",
+      "NYC911-411-MATCH-005",
+      "NYC911-411-FB-005",
+      "NYC911-411-MCQ-006",
+      "NYC911-411-TF-006",
+      "NYC911-411-MATCH-006",
+      "NYC911-411-FB-006",
+      "NYC911-411-MCQ-007",
+      "NYC911-411-TF-007",
+      "NYC911-411-MATCH-007",
+      "NYC911-411-FB-007",
+      "NYC911-411-MCQ-008",
+      "NYC911-411-TF-008",
+      "NYC911-411-MATCH-008",
+      "NYC911-411-FB-008",
+      "NYC911-411-MCQ-009",
+      "NYC911-411-TF-009",
+      "NYC911-411-MATCH-009",
+      "NYC911-411-FB-009",
+      "NYC911-411-MCQ-010",
+      "NYC911-411-TF-010",
+      "NYC911-411-MATCH-010",
+      "NYC911-411-FB-010"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-411-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "subtopic": "Scope",
+      "stem": "Procedure 411: When is this procedure applied?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "When a supervisor arrives on scene",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "When a summons is issued",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "When a field unit cannot find the incident at the location transmitted",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "When a unit requests a meal break",
+          "is_correct": false
+        }
+      ],
+      "solution": "The SCOPE states it applies when the unit cannot locate the incident at the transmitted location.",
+      "hints": "Focus on 'cannot find the incident at the location transmitted'.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "SCOPE",
+        "coverage": "When unit cannot find incident at transmitted location; dispatcher must display job and check if correct location"
+      }
+    },
+    {
+      "question_id": "NYC911-411-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "stem": "Procedure 411: If a unit cannot find the incident location, the dispatcher must display the job and verify the response location.",
+      "answer": "true",
+      "hints": "That is stated in SCOPE.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "SCOPE",
+        "coverage": "When unit cannot find incident at transmitted location; dispatcher must display job and check if correct location"
+      },
+      "subtopic": "Scope"
+    },
+    {
+      "question_id": "NYC911-411-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "subtopic": "Scope",
+      "stem": "Match the situation to the dispatcher’s immediate responsibility (Procedure 411).",
+      "answer": [
+        [
+          "Unit can’t find incident",
+          "Display job on screen"
+        ],
+        [
+          "Verify response location",
+          "Confirm unit responded correctly"
+        ],
+        [
+          "Verified correct location",
+          "Begin address verification"
+        ]
+      ],
+      "hints": "Think sequence: show job → check location → verify address.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "SCOPE",
+        "coverage": "When unit cannot find incident at transmitted location; dispatcher must display job and check if correct location"
+      }
+    },
+    {
+      "question_id": "NYC911-411-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "stem": "Procedure 411 SCOPE: ...display the job on the ________.",
+      "answer": "screen",
+      "hints": "It’s what you view the job details on.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "SCOPE",
+        "coverage": "When unit cannot find incident at transmitted location; dispatcher must display job and check if correct location"
+      },
+      "subtopic": "Scope"
+    },
+    {
+      "question_id": "NYC911-411-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "subtopic": "Verify Address with Original Source",
+      "stem": "Procedure 411 Step 1: If the address appears correct but the incident cannot be located, what must the dispatcher do?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Wait for a second unit before doing anything",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Contact the original source of the event and verify the address",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Tell the unit to leave without documenting",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Immediately close the job as unfounded",
+          "is_correct": false
+        }
+      ],
+      "solution": "Step 1 requires contacting the original source to verify the address.",
+      "hints": "You’re verifying the address, not accepting 'unfounded' immediately.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "RADIO DISPATCHERS Step 1",
+        "coverage": "If address is correct and incident cannot be located, contact original source and verify address"
+      }
+    },
+    {
+      "question_id": "NYC911-411-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "stem": "Procedure 411: If the incident cannot be located, the dispatcher should contact the original source to verify the address.",
+      "answer": "true",
+      "hints": "That is the direct instruction in Step 1.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "RADIO DISPATCHERS Step 1",
+        "coverage": "If address is correct and incident cannot be located, contact original source and verify address"
+      },
+      "subtopic": "Verify Address with Original Source"
+    },
+    {
+      "question_id": "NYC911-411-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "subtopic": "Verify Address with Original Source",
+      "stem": "Match the condition to the required dispatcher action.",
+      "answer": [
+        [
+          "Address correct but not located",
+          "Verify with original source"
+        ],
+        [
+          "Original source contacted",
+          "Confirm address details"
+        ],
+        [
+          "Verification completed",
+          "Decide next operational step"
+        ]
+      ],
+      "hints": "Don’t jump to disposition until verification is attempted.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "RADIO DISPATCHERS Step 1",
+        "coverage": "If address is correct and incident cannot be located, contact original source and verify address"
+      }
+    },
+    {
+      "question_id": "NYC911-411-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "stem": "Procedure 411 Step 1: The dispatcher should contact the original ________ of the event...",
+      "answer": "source",
+      "hints": "It’s who/what originated the event information.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "RADIO DISPATCHERS Step 1",
+        "coverage": "If address is correct and incident cannot be located, contact original source and verify address"
+      },
+      "subtopic": "Verify Address with Original Source"
+    },
+    {
+      "question_id": "NYC911-411-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "subtopic": "Unfounded Disposition Rule",
+      "stem": "Procedure 411: What should dispatchers NOT do regarding unfounded address dispositions?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Accept an unfounded disposition without attempting to verify the address",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Check the call back number",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Interview the caller when possible",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Display the job details",
+          "is_correct": false
+        }
+      ],
+      "solution": "The procedure explicitly says not to accept unfounded dispositions without attempting verification.",
+      "hints": "Key phrase: 'should not accept … without attempting to verify'.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "RADIO DISPATCHERS",
+        "coverage": "Do not accept unfounded dispositions for unfounded addresses without attempting to verify"
+      }
+    },
+    {
+      "question_id": "NYC911-411-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "stem": "Procedure 411 allows accepting unfounded dispositions for unfounded addresses without any verification attempt.",
+      "answer": "false",
+      "hints": "The procedure says dispatchers should NOT accept them without attempting verification.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "RADIO DISPATCHERS",
+        "coverage": "Do not accept unfounded dispositions for unfounded addresses without attempting to verify"
+      },
+      "subtopic": "Unfounded Disposition Rule"
+    },
+    {
+      "question_id": "NYC911-411-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "subtopic": "Unfounded Disposition Rule",
+      "stem": "Match the dispatcher behavior to the correct label.",
+      "answer": [
+        [
+          "Attempt address verification",
+          "Compliant behavior"
+        ],
+        [
+          "Accept unfounded without verification",
+          "Non-compliant behavior"
+        ],
+        [
+          "Contact original source",
+          "Verification action"
+        ]
+      ],
+      "hints": "Only one option skips verification.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "RADIO DISPATCHERS",
+        "coverage": "Do not accept unfounded dispositions for unfounded addresses without attempting to verify"
+      }
+    },
+    {
+      "question_id": "NYC911-411-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "stem": "Procedure 411: ...without attempting to ________ them.",
+      "answer": "verify",
+      "hints": "It means confirm the address is correct.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "RADIO DISPATCHERS",
+        "coverage": "Do not accept unfounded dispositions for unfounded addresses without attempting to verify"
+      },
+      "subtopic": "Unfounded Disposition Rule"
+    },
+    {
+      "question_id": "NYC911-411-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "subtopic": "Callback Verification",
+      "stem": "Procedure 411 Step 1a: Which action is part of verifying an unfounded address when the source is the original caller?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Transmit unit assumptions",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Run a warrant check",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Check the callback number and interview the original caller",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Request a tow truck",
+          "is_correct": false
+        }
+      ],
+      "solution": "Step 1a describes checking the callback and interviewing the original caller.",
+      "hints": "It’s about the caller, not enforcement actions.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "RADIO DISPATCHERS Step 1a",
+        "coverage": "Verification includes checking callback number and interviewing original caller"
+      }
+    },
+    {
+      "question_id": "NYC911-411-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "stem": "Procedure 411 lists checking the call back number and interviewing the original caller as part of verification.",
+      "answer": "true",
+      "hints": "Those steps are listed under verification.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "RADIO DISPATCHERS Step 1a",
+        "coverage": "Verification includes checking callback number and interviewing original caller"
+      },
+      "subtopic": "Callback Verification"
+    },
+    {
+      "question_id": "NYC911-411-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "subtopic": "Callback Verification",
+      "stem": "Match the verification item to what it involves.",
+      "answer": [
+        [
+          "Check callback number",
+          "Use phone contact detail"
+        ],
+        [
+          "Interview original caller",
+          "Re-verify location info"
+        ],
+        [
+          "Verified details",
+          "Confirm address accuracy"
+        ]
+      ],
+      "hints": "Two are actions; one is the result.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "RADIO DISPATCHERS Step 1a",
+        "coverage": "Verification includes checking callback number and interviewing original caller"
+      }
+    },
+    {
+      "question_id": "NYC911-411-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "stem": "Procedure 411 Step 1a: ...call back ________...",
+      "answer": "number",
+      "hints": "It’s what you dial to reach the caller.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "RADIO DISPATCHERS Step 1a",
+        "coverage": "Verification includes checking callback number and interviewing original caller"
+      },
+      "subtopic": "Callback Verification"
+    },
+    {
+      "question_id": "NYC911-411-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "subtopic": "Crime in Progress / Major Incident No Answer",
+      "stem": "Procedure 411 Step 2: When do the special verification steps (2a–2d) apply?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "When a summons is issued",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "When the job is transferred to another borough",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "When units respond to a crime in progress/major incident and there is no callback answer and/or the location is unfounded",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "When a routine complaint is delayed",
+          "is_correct": false
+        }
+      ],
+      "solution": "Step 2 states these steps apply in crime-in-progress/major incident situations with no callback answer or unfounded location.",
+      "hints": "Look for: serious incident + no answer/unfounded.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "RADIO DISPATCHERS Step 2",
+        "coverage": "If units responding to crime in progress/major incident and callback no answer and/or location unfounded, follow steps 2a–2d"
+      }
+    },
+    {
+      "question_id": "NYC911-411-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "stem": "Procedure 411 Step 2 applies to crime in progress/major incident responses when there is no answer on callback and/or the location is unfounded.",
+      "answer": "true",
+      "hints": "That is the exact trigger for Step 2.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "RADIO DISPATCHERS Step 2",
+        "coverage": "If units responding to crime in progress/major incident and callback no answer and/or location unfounded, follow steps 2a–2d"
+      },
+      "subtopic": "Crime in Progress / Major Incident No Answer"
+    },
+    {
+      "question_id": "NYC911-411-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "subtopic": "Crime in Progress / Major Incident No Answer",
+      "stem": "Match the scenario to the correct Step 2 outcome.",
+      "answer": [
+        [
+          "Crime in progress + no callback answer",
+          "Use Steps 2a–2d (CIP)"
+        ],
+        [
+          "Major incident + location unfounded",
+          "Use Steps 2a–2d (MI)"
+        ],
+        [
+          "Minor complaint + callback answered",
+          "Step 2 not triggered"
+        ]
+      ],
+      "hints": "Step 2 is for high-priority incidents with verification problems.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "RADIO DISPATCHERS Step 2",
+        "coverage": "If units responding to crime in progress/major incident and callback no answer and/or location unfounded, follow steps 2a–2d"
+      }
+    },
+    {
+      "question_id": "NYC911-411-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "stem": "Procedure 411 Step 2: ...and/or the location is ________:",
+      "answer": "unfounded",
+      "hints": "It means units can’t confirm the location.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "RADIO DISPATCHERS Step 2",
+        "coverage": "If units responding to crime in progress/major incident and callback no answer and/or location unfounded, follow steps 2a–2d"
+      },
+      "subtopic": "Crime in Progress / Major Incident No Answer"
+    },
+    {
+      "question_id": "NYC911-411-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "subtopic": "Step 2a – Cellphone Call Check",
+      "stem": "Procedure 411 Step 2a: What must the dispatcher ensure first in this situation?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "That the call was from a cellphone",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "That the caller used a landline",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "That the job is already unfounded",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "That the unit is back in service",
+          "is_correct": false
+        }
+      ],
+      "solution": "Step 2a instructs ensuring the call was from a cellphone.",
+      "hints": "It’s about the device type.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "Step 2a",
+        "coverage": "Ensure the call was from a cellphone"
+      }
+    },
+    {
+      "question_id": "NYC911-411-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "stem": "Procedure 411 Step 2a requires ensuring the call was from a cellphone.",
+      "answer": "true",
+      "hints": "That is the direct instruction.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "Step 2a",
+        "coverage": "Ensure the call was from a cellphone"
+      },
+      "subtopic": "Step 2a – Cellphone Call Check"
+    },
+    {
+      "question_id": "NYC911-411-MATCH-006",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "subtopic": "Step 2a – Cellphone Call Check",
+      "stem": "Match the Step 2 item to what it checks or does.",
+      "answer": [
+        [
+          "Step 2a",
+          "Device type check"
+        ],
+        [
+          "Step 2b",
+          "Phone-at-scene validation"
+        ],
+        [
+          "Step 2c",
+          "Supervisor notification"
+        ]
+      ],
+      "hints": "Only one step is about 'device type'.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "Step 2a",
+        "coverage": "Ensure the call was from a cellphone"
+      }
+    },
+    {
+      "question_id": "NYC911-411-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "stem": "Procedure 411 Step 2a: Ensure the call was from a ________.",
+      "answer": "cellphone",
+      "hints": "A mobile phone.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "Step 2a",
+        "coverage": "Ensure the call was from a cellphone"
+      },
+      "subtopic": "Step 2a – Cellphone Call Check"
+    },
+    {
+      "question_id": "NYC911-411-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "subtopic": "Step 2b – Confirm Phone Location",
+      "stem": "Procedure 411 Step 2b: What must be confirmed about the cellphone that placed the 911 call?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "That it is turned off",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "That it is registered to the unit",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "That it belongs to the supervisor",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "That it is where the emergency is taking place",
+          "is_correct": true
+        }
+      ],
+      "solution": "Step 2b requires confirming the phone is at the emergency location.",
+      "hints": "It’s about the phone being at the scene.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "Step 2b",
+        "coverage": "Ensure the cellphone that placed the call is where the emergency is taking place"
+      }
+    },
+    {
+      "question_id": "NYC911-411-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "stem": "Procedure 411 Step 2b focuses on confirming the cellphone’s location relative to the emergency.",
+      "answer": "true",
+      "hints": "The step says to ensure the cellphone is where the emergency is taking place.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "Step 2b",
+        "coverage": "Ensure the cellphone that placed the call is where the emergency is taking place"
+      },
+      "subtopic": "Step 2b – Confirm Phone Location"
+    },
+    {
+      "question_id": "NYC911-411-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "subtopic": "Step 2b – Confirm Phone Location",
+      "stem": "Match the verification focus to the correct Step 2 item.",
+      "answer": [
+        [
+          "Phone came from cellphone",
+          "2a"
+        ],
+        [
+          "Phone is at emergency location",
+          "2b"
+        ],
+        [
+          "Request RapidSOS search",
+          "2d"
+        ]
+      ],
+      "hints": "Each action maps to one step letter.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "Step 2b",
+        "coverage": "Ensure the cellphone that placed the call is where the emergency is taking place"
+      }
+    },
+    {
+      "question_id": "NYC911-411-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "stem": "Procedure 411 Step 2b: ...where the ________ is taking place.",
+      "answer": "emergency",
+      "hints": "The incident.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "Step 2b",
+        "coverage": "Ensure the cellphone that placed the call is where the emergency is taking place"
+      },
+      "subtopic": "Step 2b – Confirm Phone Location"
+    },
+    {
+      "question_id": "NYC911-411-MCQ-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "subtopic": "Step 2c – Notify Supervisor",
+      "stem": "Procedure 411 Step 2c: What must be done immediately in this scenario?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Close the job immediately",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Notify the Supervisor",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ignore the callback failure",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Wait for the next tour",
+          "is_correct": false
+        }
+      ],
+      "solution": "Step 2c directs immediate supervisor notification.",
+      "hints": "It’s an escalation step.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "Step 2c",
+        "coverage": "Immediately notify the Supervisor"
+      }
+    },
+    {
+      "question_id": "NYC911-411-TF-008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "stem": "Procedure 411 Step 2c requires the dispatcher to immediately notify the Supervisor.",
+      "answer": "true",
+      "hints": "That instruction is explicit.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "Step 2c",
+        "coverage": "Immediately notify the Supervisor"
+      },
+      "subtopic": "Step 2c – Notify Supervisor"
+    },
+    {
+      "question_id": "NYC911-411-MATCH-008",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "subtopic": "Step 2c – Notify Supervisor",
+      "stem": "Match the Step 2 letter to the action.",
+      "answer": [
+        [
+          "2c",
+          "Notify Supervisor"
+        ],
+        [
+          "2a",
+          "Confirm cellphone call"
+        ],
+        [
+          "2b",
+          "Confirm phone at scene"
+        ]
+      ],
+      "hints": "Only one step tells you to notify a supervisor.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "Step 2c",
+        "coverage": "Immediately notify the Supervisor"
+      }
+    },
+    {
+      "question_id": "NYC911-411-FB-008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "stem": "Procedure 411 Step 2c: Immediately notify the ________.",
+      "answer": "Supervisor",
+      "hints": "The supervisor is informed right away.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "Step 2c",
+        "coverage": "Immediately notify the Supervisor"
+      },
+      "subtopic": "Step 2c – Notify Supervisor"
+    },
+    {
+      "question_id": "NYC911-411-MCQ-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "subtopic": "Step 2d – RapidSOS Search",
+      "stem": "Procedure 411 Step 2d: What should the dispatcher request from the supervisor?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A case number assignment",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "A tow request",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "A RapidSOS search",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "A roll call list",
+          "is_correct": false
+        }
+      ],
+      "solution": "Step 2d states to request a RapidSOS search from the supervisor.",
+      "hints": "It’s the only option that’s a named search tool.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "Step 2d",
+        "coverage": "Request a RapidSOS search from the supervisor"
+      }
+    },
+    {
+      "question_id": "NYC911-411-TF-009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "stem": "Procedure 411 Step 2d involves requesting a RapidSOS search from the supervisor.",
+      "answer": "true",
+      "hints": "The step explicitly says this.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "Step 2d",
+        "coverage": "Request a RapidSOS search from the supervisor"
+      },
+      "subtopic": "Step 2d – RapidSOS Search"
+    },
+    {
+      "question_id": "NYC911-411-MATCH-009",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "subtopic": "Step 2d – RapidSOS Search",
+      "stem": "Match the method to the purpose in Procedure 411.",
+      "answer": [
+        [
+          "RapidSOS search",
+          "Locate/validate cellphone position"
+        ],
+        [
+          "Callback interview",
+          "Confirm address with caller"
+        ],
+        [
+          "Display job on screen",
+          "Verify transmitted location"
+        ]
+      ],
+      "hints": "Each method supports verification.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "Step 2d",
+        "coverage": "Request a RapidSOS search from the supervisor"
+      }
+    },
+    {
+      "question_id": "NYC911-411-FB-009",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "stem": "Procedure 411 Step 2d: Request a ________ search from the supervisor.",
+      "answer": "RapidSOS",
+      "hints": "It’s the tool name.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 1,
+        "pdf_page": 171,
+        "paragraph": "Step 2d",
+        "coverage": "Request a RapidSOS search from the supervisor"
+      },
+      "subtopic": "Step 2d – RapidSOS Search"
+    },
+    {
+      "question_id": "NYC911-411-MCQ-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "subtopic": "Transit – Six-Wire Source Verification",
+      "stem": "Procedure 411 (Transit) Step 4: If the incident came from Six-wire of the Transit Authority, how should the dispatcher verify the unfounded location?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Request a RapidSOS search from units",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Accept the unfounded disposition immediately",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Broadcast the caller’s identity",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Contact the Transit Authority source via Six-Wire and by telephone",
+          "is_correct": true
+        }
+      ],
+      "solution": "Transit Step 4 lists two verification methods: Six-Wire contact and telephone call.",
+      "hints": "It’s a two-part verification method.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 2,
+        "pdf_page": 172,
+        "paragraph": "TRANSIT DISPATCHERS Step 4",
+        "coverage": "If incident came from Six-wire of Transit Authority, verify unfounded location by contacting via Six-Wire and by telephone"
+      }
+    },
+    {
+      "question_id": "NYC911-411-TF-010",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "stem": "Procedure 411 (Transit) requires contacting the Transit Authority source via Six-Wire and calling by telephone to verify an unfounded location.",
+      "answer": "true",
+      "hints": "Both methods are listed under Transit dispatchers Step 4.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 2,
+        "pdf_page": 172,
+        "paragraph": "TRANSIT DISPATCHERS Step 4",
+        "coverage": "If incident came from Six-wire of Transit Authority, verify unfounded location by contacting via Six-Wire and by telephone"
+      },
+      "subtopic": "Transit – Six-Wire Source Verification"
+    },
+    {
+      "question_id": "NYC911-411-MATCH-010",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "subtopic": "Transit – Six-Wire Source Verification",
+      "stem": "Transit Step 4: Match the contact method to the channel used.",
+      "answer": [
+        [
+          "Six-Wire contact",
+          "Transit Six-Wire channel"
+        ],
+        [
+          "Telephone contact",
+          "Phone call to TA source"
+        ],
+        [
+          "Verification result",
+          "Confirmed/updated location"
+        ]
+      ],
+      "hints": "Two are methods; one is the outcome.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 2,
+        "pdf_page": 172,
+        "paragraph": "TRANSIT DISPATCHERS Step 4",
+        "coverage": "If incident came from Six-wire of Transit Authority, verify unfounded location by contacting via Six-Wire and by telephone"
+      }
+    },
+    {
+      "question_id": "NYC911-411-FB-010",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 411 – VERIFICATION OF UNFOUNDED ADDRESSES",
+      "stem": "Procedure 411 Transit Step 4: If the incident came from ________ of the Transit Authority...",
+      "answer": "Six-wire",
+      "hints": "It’s the named Transit Authority source.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc411",
+        "unfounded-address"
+      ],
+      "source": {
+        "procedure": 411,
+        "proc_page": 2,
+        "pdf_page": 172,
+        "paragraph": "TRANSIT DISPATCHERS Step 4",
+        "coverage": "If incident came from Six-wire of Transit Authority, verify unfounded location by contacting via Six-Wire and by telephone"
+      },
+      "subtopic": "Transit – Six-Wire Source Verification"
+    }
+  ]
+}

@@ -1,0 +1,1327 @@
+{
+  "lesson": {
+    "slug": "911-proc-105-radio-dispatcher-log-book-full-coverage",
+    "title": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+    "topic": "RADIO DISPATCHER LOG BOOK",
+    "order": 105,
+    "objectives": [
+      "Sign into and out of the Radio Dispatcher Log Book correctly.",
+      "Apply correction rules and documentation standards.",
+      "Maintain accurate records of frequency control."
+    ],
+    "questionIds": [
+      "NYC911-105-MCQ-001",
+      "NYC911-105-MCQ-002",
+      "NYC911-105-MCQ-003",
+      "NYC911-105-MCQ-004",
+      "NYC911-105-MCQ-005",
+      "NYC911-105-MCQ-006",
+      "NYC911-105-MCQ-007",
+      "NYC911-105-MCQ-008",
+      "NYC911-105-MCQ-009",
+      "NYC911-105-MCQ-010",
+      "NYC911-105-TF-001",
+      "NYC911-105-TF-002",
+      "NYC911-105-TF-003",
+      "NYC911-105-TF-004",
+      "NYC911-105-TF-005",
+      "NYC911-105-TF-006",
+      "NYC911-105-TF-007",
+      "NYC911-105-TF-008",
+      "NYC911-105-TF-009",
+      "NYC911-105-TF-010",
+      "NYC911-105-MATCH-001",
+      "NYC911-105-MATCH-002",
+      "NYC911-105-MATCH-003",
+      "NYC911-105-MATCH-004",
+      "NYC911-105-MATCH-005",
+      "NYC911-105-MATCH-006",
+      "NYC911-105-MATCH-007",
+      "NYC911-105-MATCH-008",
+      "NYC911-105-MATCH-009",
+      "NYC911-105-MATCH-010",
+      "NYC911-105-FB-001",
+      "NYC911-105-FB-002",
+      "NYC911-105-FB-003",
+      "NYC911-105-FB-004",
+      "NYC911-105-FB-005",
+      "NYC911-105-FB-006",
+      "NYC911-105-FB-007",
+      "NYC911-105-FB-008",
+      "NYC911-105-FB-009",
+      "NYC911-105-FB-010"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "NYC911-105-MCQ-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Sign-in",
+      "stem": "Procedure 105: When must a dispatcher sign the Radio Log Book?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "At end of tour",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "When taking over the frequency",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only if told",
+          "is_correct": false
+        }
+      ],
+      "solution": "When taking over the frequency",
+      "hints": "Refer to the log book rules.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 1,
+        "pdf_page": 35,
+        "paragraph": "SIGN-IN",
+        "coverage": "Dispatchers must sign the Radio Log Book when taking over a frequency."
+      }
+    },
+    {
+      "question_id": "NYC911-105-MCQ-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Time",
+      "stem": "Procedure 105: What time must be entered before leaving?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Tour start",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Meal time",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Arrival time",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Time relieved",
+          "is_correct": true
+        }
+      ],
+      "solution": "Time relieved",
+      "hints": "Refer to the log book rules.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 2,
+        "pdf_page": 35,
+        "paragraph": "TIME ENTRY",
+        "coverage": "Dispatcher must enter the time relieved before leaving."
+      }
+    },
+    {
+      "question_id": "NYC911-105-MCQ-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Responsibility",
+      "stem": "Procedure 105: Who must sign the log book?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Any unit",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Supervisor",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "The dispatcher",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Desk officer",
+          "is_correct": false
+        }
+      ],
+      "solution": "The dispatcher",
+      "hints": "Refer to the log book rules.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 3,
+        "pdf_page": 35,
+        "paragraph": "RESPONSIBILITY",
+        "coverage": "Signing is a personal dispatcher responsibility."
+      }
+    },
+    {
+      "question_id": "NYC911-105-MCQ-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "No erasure",
+      "stem": "Procedure 105: What is prohibited in log book entries?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Dating",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Writing",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Erasing entries",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Signing",
+          "is_correct": false
+        }
+      ],
+      "solution": "Erasing entries",
+      "hints": "Refer to the log book rules.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 4,
+        "pdf_page": 35,
+        "paragraph": "NO ERASURE",
+        "coverage": "No entry may be erased or destroyed."
+      }
+    },
+    {
+      "question_id": "NYC911-105-MCQ-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Corrections",
+      "stem": "Procedure 105: How are corrections made?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Rewrite page",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Single line through error",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Erase",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Use whiteout",
+          "is_correct": false
+        }
+      ],
+      "solution": "Single line through error",
+      "hints": "Refer to the log book rules.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 5,
+        "pdf_page": 35,
+        "paragraph": "CORRECTIONS",
+        "coverage": "Corrections require a single line through the error."
+      }
+    },
+    {
+      "question_id": "NYC911-105-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Initials",
+      "stem": "Procedure 105: What must accompany corrections?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Dispatcher initials",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Supervisor signature",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Badge only",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Date only",
+          "is_correct": false
+        }
+      ],
+      "solution": "Dispatcher initials",
+      "hints": "Refer to the log book rules.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 6,
+        "pdf_page": 35,
+        "paragraph": "INITIALS",
+        "coverage": "Corrections must be initialed."
+      }
+    },
+    {
+      "question_id": "NYC911-105-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Purpose",
+      "stem": "Procedure 105: Why is the log book maintained?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Log arrests",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Document frequency control",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Track calls",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Record breaks",
+          "is_correct": false
+        }
+      ],
+      "solution": "Document frequency control",
+      "hints": "Refer to the log book rules.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 7,
+        "pdf_page": 35,
+        "paragraph": "PURPOSE",
+        "coverage": "Log book documents control of the frequency."
+      }
+    },
+    {
+      "question_id": "NYC911-105-MCQ-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Accuracy",
+      "stem": "Procedure 105: Entries must be accurate and what else?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Complete",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Optional",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "In pencil",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Fast",
+          "is_correct": false
+        }
+      ],
+      "solution": "Complete",
+      "hints": "Refer to the log book rules.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 8,
+        "pdf_page": 35,
+        "paragraph": "ACCURACY",
+        "coverage": "Entries must be accurate and complete."
+      }
+    },
+    {
+      "question_id": "NYC911-105-MCQ-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Control",
+      "stem": "Procedure 105: What does the log book show?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Which borough",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Who is off duty",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Who controls the frequency",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Which cars available",
+          "is_correct": false
+        }
+      ],
+      "solution": "Who controls the frequency",
+      "hints": "Refer to the log book rules.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 9,
+        "pdf_page": 35,
+        "paragraph": "CONTROL",
+        "coverage": "Log book reflects who controls the frequency."
+      }
+    },
+    {
+      "question_id": "NYC911-105-MCQ-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Compliance",
+      "stem": "Procedure 105: Improper log completion is what?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Minor note",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Optional",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "No issue",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Procedure violation",
+          "is_correct": true
+        }
+      ],
+      "solution": "Procedure violation",
+      "hints": "Refer to the log book rules.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 10,
+        "pdf_page": 35,
+        "paragraph": "COMPLIANCE",
+        "coverage": "Improper completion violates procedure."
+      }
+    },
+    {
+      "question_id": "NYC911-105-TF-001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Sign-in",
+      "stem": "Procedure 105: Dispatchers must sign in when taking over a frequency.",
+      "answer": "true",
+      "hints": "Check page 35.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 1,
+        "pdf_page": 35,
+        "paragraph": "SIGN-IN",
+        "coverage": "Dispatchers must sign the Radio Log Book when taking over a frequency."
+      }
+    },
+    {
+      "question_id": "NYC911-105-TF-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Time",
+      "stem": "Procedure 105: Time relieved must be entered before leaving.",
+      "answer": "true",
+      "hints": "Check page 35.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 2,
+        "pdf_page": 35,
+        "paragraph": "TIME ENTRY",
+        "coverage": "Dispatcher must enter the time relieved before leaving."
+      }
+    },
+    {
+      "question_id": "NYC911-105-TF-003",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Responsibility",
+      "stem": "Procedure 105: Supervisors sign the log book.",
+      "answer": "false",
+      "hints": "Check page 35.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 3,
+        "pdf_page": 35,
+        "paragraph": "RESPONSIBILITY",
+        "coverage": "Signing is a personal dispatcher responsibility."
+      }
+    },
+    {
+      "question_id": "NYC911-105-TF-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "No erasure",
+      "stem": "Procedure 105: Entries may be erased if incorrect.",
+      "answer": "false",
+      "hints": "Check page 35.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 4,
+        "pdf_page": 35,
+        "paragraph": "NO ERASURE",
+        "coverage": "No entry may be erased or destroyed."
+      }
+    },
+    {
+      "question_id": "NYC911-105-TF-005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Corrections",
+      "stem": "Procedure 105: Corrections are made with a single line.",
+      "answer": "true",
+      "hints": "Check page 35.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 5,
+        "pdf_page": 35,
+        "paragraph": "CORRECTIONS",
+        "coverage": "Corrections require a single line through the error."
+      }
+    },
+    {
+      "question_id": "NYC911-105-TF-006",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Initials",
+      "stem": "Procedure 105: Corrections must be initialed.",
+      "answer": "true",
+      "hints": "Check page 35.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 6,
+        "pdf_page": 35,
+        "paragraph": "INITIALS",
+        "coverage": "Corrections must be initialed."
+      }
+    },
+    {
+      "question_id": "NYC911-105-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Purpose",
+      "stem": "Procedure 105: Log book documents frequency control.",
+      "answer": "true",
+      "hints": "Check page 35.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 7,
+        "pdf_page": 35,
+        "paragraph": "PURPOSE",
+        "coverage": "Log book documents control of the frequency."
+      }
+    },
+    {
+      "question_id": "NYC911-105-TF-008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Accuracy",
+      "stem": "Procedure 105: Incomplete entries are acceptable.",
+      "answer": "false",
+      "hints": "Check page 35.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 8,
+        "pdf_page": 35,
+        "paragraph": "ACCURACY",
+        "coverage": "Entries must be accurate and complete."
+      }
+    },
+    {
+      "question_id": "NYC911-105-TF-009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Control",
+      "stem": "Procedure 105: Log book reflects who controls the frequency.",
+      "answer": "true",
+      "hints": "Check page 35.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 9,
+        "pdf_page": 35,
+        "paragraph": "CONTROL",
+        "coverage": "Log book reflects who controls the frequency."
+      }
+    },
+    {
+      "question_id": "NYC911-105-TF-010",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Compliance",
+      "stem": "Procedure 105: Improper completion violates procedure.",
+      "answer": "true",
+      "hints": "Check page 35.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 10,
+        "pdf_page": 35,
+        "paragraph": "COMPLIANCE",
+        "coverage": "Improper completion violates procedure."
+      }
+    },
+    {
+      "question_id": "NYC911-105-MATCH-001",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Basics",
+      "stem": "Procedure 105: Match requirement to description.",
+      "answer": [
+        [
+          "Sign-in",
+          "Taking over frequency"
+        ],
+        [
+          "Time relieved",
+          "Entered before leaving"
+        ],
+        [
+          "Responsibility",
+          "Dispatcher duty"
+        ]
+      ],
+      "hints": "Each right-side option is unique.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 1,
+        "pdf_page": 35,
+        "paragraph": "SIGN-IN",
+        "coverage": "Dispatchers must sign the Radio Log Book when taking over a frequency."
+      }
+    },
+    {
+      "question_id": "NYC911-105-MATCH-002",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Corrections",
+      "stem": "Procedure 105: Match rule to meaning.",
+      "answer": [
+        [
+          "No erasure",
+          "Entries cannot be removed"
+        ],
+        [
+          "Single line",
+          "Correction method"
+        ],
+        [
+          "Initials",
+          "Who validates correction"
+        ]
+      ],
+      "hints": "Each right-side option is unique.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 5,
+        "pdf_page": 35,
+        "paragraph": "CORRECTIONS",
+        "coverage": "Corrections require a single line through the error."
+      }
+    },
+    {
+      "question_id": "NYC911-105-MATCH-003",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Purpose",
+      "stem": "Procedure 105: Match item to purpose.",
+      "answer": [
+        [
+          "Log book",
+          "Frequency control record"
+        ],
+        [
+          "Signature",
+          "Dispatcher accountability"
+        ],
+        [
+          "Time entry",
+          "Relief documentation"
+        ]
+      ],
+      "hints": "Each right-side option is unique.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 7,
+        "pdf_page": 35,
+        "paragraph": "PURPOSE",
+        "coverage": "Log book documents control of the frequency."
+      }
+    },
+    {
+      "question_id": "NYC911-105-MATCH-004",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Accuracy",
+      "stem": "Procedure 105: Match standard to expectation.",
+      "answer": [
+        [
+          "Accurate",
+          "Correct info"
+        ],
+        [
+          "Complete",
+          "All info present"
+        ],
+        [
+          "Personal",
+          "Individual responsibility"
+        ]
+      ],
+      "hints": "Each right-side option is unique.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 8,
+        "pdf_page": 35,
+        "paragraph": "ACCURACY",
+        "coverage": "Entries must be accurate and complete."
+      }
+    },
+    {
+      "question_id": "NYC911-105-MATCH-005",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Violations",
+      "stem": "Procedure 105: Match action to result.",
+      "answer": [
+        [
+          "Erase entry",
+          "Violation"
+        ],
+        [
+          "Fail to sign",
+          "Violation type"
+        ],
+        [
+          "Proper correction",
+          "Compliance status"
+        ]
+      ],
+      "hints": "Each right-side option is unique.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 10,
+        "pdf_page": 35,
+        "paragraph": "COMPLIANCE",
+        "coverage": "Improper completion violates procedure."
+      }
+    },
+    {
+      "question_id": "NYC911-105-MATCH-006",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Timing",
+      "stem": "Procedure 105: Match time to action.",
+      "answer": [
+        [
+          "Take over",
+          "Sign log"
+        ],
+        [
+          "Relief",
+          "Enter time"
+        ],
+        [
+          "Leaving",
+          "Verify entry"
+        ]
+      ],
+      "hints": "Each right-side option is unique.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 2,
+        "pdf_page": 35,
+        "paragraph": "TIME ENTRY",
+        "coverage": "Dispatcher must enter the time relieved before leaving."
+      }
+    },
+    {
+      "question_id": "NYC911-105-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Control",
+      "stem": "Procedure 105: Match item to function.",
+      "answer": [
+        [
+          "Log book",
+          "Shows control"
+        ],
+        [
+          "Signature",
+          "Identifies dispatcher"
+        ],
+        [
+          "Time",
+          "Shows relief moment"
+        ]
+      ],
+      "hints": "Each right-side option is unique.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 9,
+        "pdf_page": 35,
+        "paragraph": "CONTROL",
+        "coverage": "Log book reflects who controls the frequency."
+      }
+    },
+    {
+      "question_id": "NYC911-105-MATCH-008",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Entries",
+      "stem": "Procedure 105: Match rule to reason.",
+      "answer": [
+        [
+          "No obliteration",
+          "Integrity protection"
+        ],
+        [
+          "Initialed correction",
+          "Accountability proof"
+        ],
+        [
+          "Complete entry",
+          "Accuracy assurance"
+        ]
+      ],
+      "hints": "Each right-side option is unique.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 4,
+        "pdf_page": 35,
+        "paragraph": "NO ERASURE",
+        "coverage": "No entry may be erased or destroyed."
+      }
+    },
+    {
+      "question_id": "NYC911-105-MATCH-009",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Duties",
+      "stem": "Procedure 105: Match role to duty.",
+      "answer": [
+        [
+          "Dispatcher",
+          "Sign and correct"
+        ],
+        [
+          "Supervisor",
+          "Oversight role"
+        ],
+        [
+          "Log book",
+          "Official record"
+        ]
+      ],
+      "hints": "Each right-side option is unique.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 3,
+        "pdf_page": 35,
+        "paragraph": "RESPONSIBILITY",
+        "coverage": "Signing is a personal dispatcher responsibility."
+      }
+    },
+    {
+      "question_id": "NYC911-105-MATCH-010",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Compliance",
+      "stem": "Procedure 105: Match behavior to status.",
+      "answer": [
+        [
+          "Proper entry",
+          "In compliance"
+        ],
+        [
+          "Missing entry",
+          "Violation recorded"
+        ],
+        [
+          "Erased entry",
+          "Serious violation"
+        ]
+      ],
+      "hints": "Each right-side option is unique.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 10,
+        "pdf_page": 35,
+        "paragraph": "COMPLIANCE",
+        "coverage": "Improper completion violates procedure."
+      }
+    },
+    {
+      "question_id": "NYC911-105-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Sign-in",
+      "stem": "Procedure 105: Dispatchers must ________ the Radio Log Book when taking over the frequency.",
+      "answer": "sign",
+      "hints": "Exact wording from the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 1,
+        "pdf_page": 35,
+        "paragraph": "SIGN-IN",
+        "coverage": "Dispatchers must sign the Radio Log Book when taking over a frequency."
+      }
+    },
+    {
+      "question_id": "NYC911-105-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Time",
+      "stem": "Procedure 105: Dispatcher must enter the time they are ________ before leaving.",
+      "answer": "relieved",
+      "hints": "Exact wording from the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 2,
+        "pdf_page": 35,
+        "paragraph": "TIME ENTRY",
+        "coverage": "Dispatcher must enter the time relieved before leaving."
+      }
+    },
+    {
+      "question_id": "NYC911-105-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Responsibility",
+      "stem": "Procedure 105: Signing the log book is a ________ responsibility.",
+      "answer": "personal",
+      "hints": "Exact wording from the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 3,
+        "pdf_page": 35,
+        "paragraph": "RESPONSIBILITY",
+        "coverage": "Signing is a personal dispatcher responsibility."
+      }
+    },
+    {
+      "question_id": "NYC911-105-FB-004",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "No erasure",
+      "stem": "Procedure 105: No entry will be erased or ________.",
+      "answer": "destroyed",
+      "hints": "Exact wording from the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 4,
+        "pdf_page": 35,
+        "paragraph": "NO ERASURE",
+        "coverage": "No entry may be erased or destroyed."
+      }
+    },
+    {
+      "question_id": "NYC911-105-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Corrections",
+      "stem": "Procedure 105: Corrections require a ________ line through the error.",
+      "answer": "single",
+      "hints": "Exact wording from the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 5,
+        "pdf_page": 35,
+        "paragraph": "CORRECTIONS",
+        "coverage": "Corrections require a single line through the error."
+      }
+    },
+    {
+      "question_id": "NYC911-105-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Initials",
+      "stem": "Procedure 105: Corrections must be ________ by the dispatcher.",
+      "answer": "initialed",
+      "hints": "Exact wording from the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 6,
+        "pdf_page": 35,
+        "paragraph": "INITIALS",
+        "coverage": "Corrections must be initialed."
+      }
+    },
+    {
+      "question_id": "NYC911-105-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Purpose",
+      "stem": "Procedure 105: Log book documents control of the ________.",
+      "answer": "frequency",
+      "hints": "Exact wording from the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 7,
+        "pdf_page": 35,
+        "paragraph": "PURPOSE",
+        "coverage": "Log book documents control of the frequency."
+      }
+    },
+    {
+      "question_id": "NYC911-105-FB-008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Accuracy",
+      "stem": "Procedure 105: Entries must be accurate and ________.",
+      "answer": "complete",
+      "hints": "Exact wording from the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 8,
+        "pdf_page": 35,
+        "paragraph": "ACCURACY",
+        "coverage": "Entries must be accurate and complete."
+      }
+    },
+    {
+      "question_id": "NYC911-105-FB-009",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Control",
+      "stem": "Procedure 105: Log book reflects who has ________ of the frequency.",
+      "answer": "control",
+      "hints": "Exact wording from the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 9,
+        "pdf_page": 35,
+        "paragraph": "CONTROL",
+        "coverage": "Log book reflects who controls the frequency."
+      }
+    },
+    {
+      "question_id": "NYC911-105-FB-010",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 105 – RADIO DISPATCHER LOG BOOK",
+      "subtopic": "Compliance",
+      "stem": "Procedure 105: Improper completion violates ________.",
+      "answer": "procedure",
+      "hints": "Exact wording from the procedure.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc105"
+      ],
+      "source": {
+        "procedure": 105,
+        "proc_page": 10,
+        "pdf_page": 35,
+        "paragraph": "COMPLIANCE",
+        "coverage": "Improper completion violates procedure."
+      }
+    }
+  ]
+}

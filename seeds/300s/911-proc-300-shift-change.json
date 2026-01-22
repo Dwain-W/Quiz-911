@@ -1,665 +1,3030 @@
 {
   "lesson": {
-    "slug": "911-proc-300-shift-change",
-    "title": "Procedure 300 – Shift Change & Unit Designations",
-    "topic": "NYPD Radio – Dispatching Functions",
+    "slug": "911-proc-300-unit-assignment-full-coverage",
+    "title": "Procedure 300 – Unit Assignment",
+    "topic": "Unit Assignment",
     "order": 300,
     "objectives": [
-      "Understand how sector cars and response autos are designated and assigned during shift change.",
-      "Correctly identify Neighborhood Coordination Officer (NCO) designations and when they should or should not be assigned.",
-      "Apply proper naming conventions for foot posts, special posts, precinct special resources, and public safety units.",
-      "Correctly designate Housing Bureau resources and Transit Bureau resources at shift change.",
-      "Use All Out (AO) and Transit unit designations in accordance with CAD conventions."
+      "Apply unit assignment rules.",
+      "Assign and manage patrol and transit units correctly.",
+      "Document and transmit assignments accurately."
     ],
     "questionIds": [
-      "PROC300-MCQ-001",
-      "PROC300-TF-001",
-      "PROC300-FB-001",
-      "PROC300-MATCH-001",
-      "PROC300-MCQ-002",
-      "PROC300-TF-002",
-      "PROC300-FB-002",
-      "PROC300-MATCH-002",
-      "PROC300-MCQ-003",
-      "PROC300-TF-003",
-      "PROC300-FB-003",
-      "PROC300-MATCH-003",
-      "PROC300-MCQ-004",
-      "PROC300-TF-004",
-      "PROC300-FB-004",
-      "PROC300-MATCH-004",
-      "PROC300-MCQ-005",
-      "PROC300-TF-005",
-      "PROC300-FB-005",
-      "PROC300-MATCH-005",
-      "PROC300-MCQ-006",
-      "PROC300-TF-006",
-      "PROC300-FB-006",
-      "PROC300-MATCH-006",
-      "PROC300-MCQ-007",
-      "PROC300-TF-007",
-      "PROC300-FB-007",
-      "PROC300-MATCH-007",
-      "PROC300-MCQ-008",
-      "PROC300-TF-008",
-      "PROC300-FB-008",
-      "PROC300-MATCH-008",
-      "PROC300-MCQ-009",
-      "PROC300-TF-009",
-      "PROC300-FB-009",
-      "PROC300-MATCH-009",
-      "PROC300-MCQ-010",
-      "PROC300-TF-010",
-      "PROC300-FB-010",
-      "PROC300-MATCH-010"
+      "NYC911-300-MCQ-001",
+      "NYC911-300-TF-001",
+      "NYC911-300-MATCH-001",
+      "NYC911-300-FB-001",
+      "NYC911-300-MCQ-002",
+      "NYC911-300-TF-002",
+      "NYC911-300-MATCH-002",
+      "NYC911-300-FB-002",
+      "NYC911-300-MCQ-003",
+      "NYC911-300-TF-003",
+      "NYC911-300-MATCH-003",
+      "NYC911-300-FB-003",
+      "NYC911-300-MCQ-004",
+      "NYC911-300-TF-004",
+      "NYC911-300-MATCH-004",
+      "NYC911-300-FB-004",
+      "NYC911-300-MCQ-005",
+      "NYC911-300-TF-005",
+      "NYC911-300-MATCH-005",
+      "NYC911-300-FB-005",
+      "NYC911-300-MCQ-006",
+      "NYC911-300-TF-006",
+      "NYC911-300-MATCH-006",
+      "NYC911-300-FB-006",
+      "NYC911-300-MCQ-007",
+      "NYC911-300-TF-007",
+      "NYC911-300-MATCH-007",
+      "NYC911-300-FB-007",
+      "NYC911-300-MCQ-008",
+      "NYC911-300-TF-008",
+      "NYC911-300-MATCH-008",
+      "NYC911-300-FB-008",
+      "NYC911-300-MCQ-009",
+      "NYC911-300-TF-009",
+      "NYC911-300-MATCH-009",
+      "NYC911-300-FB-009",
+      "NYC911-300-MCQ-010",
+      "NYC911-300-TF-010",
+      "NYC911-300-MATCH-010",
+      "NYC911-300-FB-010",
+      "NYC911-300-MCQ-011",
+      "NYC911-300-TF-011",
+      "NYC911-300-MATCH-011",
+      "NYC911-300-FB-011",
+      "NYC911-300-MCQ-012",
+      "NYC911-300-TF-012",
+      "NYC911-300-MATCH-012",
+      "NYC911-300-FB-012",
+      "NYC911-300-MCQ-013",
+      "NYC911-300-TF-013",
+      "NYC911-300-MATCH-013",
+      "NYC911-300-FB-013",
+      "NYC911-300-MCQ-014",
+      "NYC911-300-TF-014",
+      "NYC911-300-MATCH-014",
+      "NYC911-300-FB-014",
+      "NYC911-300-MCQ-015",
+      "NYC911-300-TF-015",
+      "NYC911-300-MATCH-015",
+      "NYC911-300-FB-015",
+      "NYC911-300-MCQ-016",
+      "NYC911-300-TF-016",
+      "NYC911-300-MATCH-016",
+      "NYC911-300-FB-016",
+      "NYC911-300-MCQ-017",
+      "NYC911-300-TF-017",
+      "NYC911-300-MATCH-017",
+      "NYC911-300-FB-017",
+      "NYC911-300-MCQ-018",
+      "NYC911-300-TF-018",
+      "NYC911-300-MATCH-018",
+      "NYC911-300-FB-018",
+      "NYC911-300-MCQ-019",
+      "NYC911-300-TF-019",
+      "NYC911-300-MATCH-019",
+      "NYC911-300-FB-019",
+      "NYC911-300-MCQ-020",
+      "NYC911-300-TF-020",
+      "NYC911-300-MATCH-020",
+      "NYC911-300-FB-020",
+      "NYC911-300-MCQ-021",
+      "NYC911-300-TF-021",
+      "NYC911-300-MATCH-021",
+      "NYC911-300-FB-021",
+      "NYC911-300-MCQ-022",
+      "NYC911-300-TF-022",
+      "NYC911-300-MATCH-022",
+      "NYC911-300-FB-022",
+      "NYC911-300-MCQ-023",
+      "NYC911-300-TF-023",
+      "NYC911-300-MATCH-023",
+      "NYC911-300-FB-023"
     ]
   },
   "questions": [
     {
-      "question_id": "PROC300-MCQ-001",
+      "question_id": "NYC911-300-MCQ-001",
       "type": "mcq",
       "difficulty": "easy",
       "domain": "911",
-      "topic": "Sectors & Response Autos",
-      "stem": "According to Procedure 300, which type of unit should be assigned first to 10-11s, 10-22 GLAs, and 10-53 property damage only jobs?",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "UNIT DESIGNATIONS",
+      "stem": "Procedure 300 (UNIT DESIGNATIONS): What is required?",
       "choices": [
-        { "id": "A", "text": "Sector cars in the sector of occurrence", "is_correct": false },
-        { "id": "B", "text": "Housing IRT units", "is_correct": false },
-        { "id": "C", "text": "Response Autos", "is_correct": true },
-        { "id": "D", "text": "Transit All Out (AO) posts", "is_correct": false }
+        {
+          "id": "A",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "District precedes unit",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only if requested",
+          "is_correct": false
+        }
       ],
-      "solution": "Response Autos are assigned to 10-11s, 10-22 GLAs, 10-53 property damage only, and certain 10-54s before the sector concerned.",
+      "solution": "District precedes unit",
+      "hints": "This rule appears in Procedure 300.",
       "time_limit_sec": 45,
-      "points": 10
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 1,
+        "pdf_page": 83,
+        "paragraph": "UNIT DESIGNATIONS",
+        "coverage": "Units identified by district and unit type"
+      }
     },
     {
-      "question_id": "PROC300-TF-001",
+      "question_id": "NYC911-300-TF-001",
       "type": "true_false",
       "difficulty": "medium",
       "domain": "911",
-      "topic": "Sectors & Response Autos",
-      "stem": "Sector cars may respond to 10-11s even when a Response Auto is available and not on assignment.",
-      "answer": "false",
-      "time_limit_sec": 25,
-      "points": 5
-    },
-    {
-      "question_id": "PROC300-FB-001",
-      "type": "fill_blank",
-      "difficulty": "hard",
-      "domain": "911",
-      "topic": "Sectors & Response Autos",
-      "stem": "When incidents are pending and the sector concerned is on assignment with no Response Autos available, the dispatcher should assign the event to the adjacent ______.",
-      "answer": "sector",
-      "time_limit_sec": 40,
-      "points": 10
-    },
-    {
-      "question_id": "PROC300-MATCH-001",
-      "type": "matching",
-      "difficulty": "medium",
-      "domain": "911",
-      "topic": "Sectors & Response Autos",
-      "stem": "Match each unit type or rule with the correct description under Procedure 300.",
-      "answer": [
-        ["Sector car", "Handles jobs only in its own sector unless no other resource is available"],
-        ["Response Auto", "Assigned first to certain low-level emergency events such as 10-11, 10-22 GLA, 10-53 property damage"],
-        ["Adjacent sector", "Receives jobs when the sector concerned is on assignment and no Response Autos are available"],
-        ["Adjacent precinct/district", "Receives high-priority incidents when no units are available including Response Autos"],
-        ["All precincts/PSAs/TDs turn out", "Sectors A1, B1, C1, etc. at shift change"]
-      ],
-      "time_limit_sec": 60,
-      "points": 10
-    },
-
-    {
-      "question_id": "PROC300-MCQ-002",
-      "type": "mcq",
-      "difficulty": "easy",
-      "domain": "911",
-      "topic": "Neighborhood Coordination Officers (NCO)",
-      "stem": "How are precinct Neighborhood Coordination Officer (NCO) units designated in CAD?",
-      "choices": [
-        { "id": "A", "text": "PS1–PS5", "is_correct": false },
-        { "id": "B", "text": "NCOA1, NCOB1, etc.", "is_correct": false },
-        { "id": "C", "text": "9NCOA1, 9NCOB1, etc., where the number indicates the precinct and letter indicates the sector", "is_correct": true },
-        { "id": "D", "text": "D12NCO, D13NCO", "is_correct": false }
-      ],
-      "solution": "Example in the guide: 9NCOA1, 9NCOB1, etc., where the NCO designations include the sector.",
-      "time_limit_sec": 45,
-      "points": 10
-    },
-    {
-      "question_id": "PROC300-TF-002",
-      "type": "true_false",
-      "difficulty": "medium",
-      "domain": "911",
-      "topic": "Neighborhood Coordination Officers (NCO)",
-      "stem": "When a precinct or transit NCO is in the rundown at shift change, the dispatcher should routinely raise them for assignments the same as any other unit.",
-      "answer": "false",
-      "time_limit_sec": 25,
-      "points": 5
-    },
-    {
-      "question_id": "PROC300-FB-002",
-      "type": "fill_blank",
-      "difficulty": "hard",
-      "domain": "911",
-      "topic": "Neighborhood Coordination Officers (NCO)",
-      "stem": "When an NCO unit requests to be designated \"OFF Radio Time\" or \"Community Time,\" the dispatcher must create an event using radio signal code 10-____C.",
-      "answer": "75",
-      "time_limit_sec": 40,
-      "points": 10
-    },
-    {
-      "question_id": "PROC300-MATCH-002",
-      "type": "matching",
-      "difficulty": "medium",
-      "domain": "911",
-      "topic": "Neighborhood Coordination Officers (NCO)",
-      "stem": "Match each NCO-related designation or rule with the correct description.",
-      "answer": [
-        ["9NCOA1", "Precinct NCO unit patrolling A sector of the 9th Precinct"],
-        ["D12NCOA1", "Transit NCO unit patrolling A sector in Transit District 12"],
-        ["Do not raise for assignment", "Instruction when NCO units are in the rundown"],
-        ["10-75C", "Radio signal code used when NCO is on OFF Radio/Community Time"],
-        ["All NCO units logged with platoon", "Rule: all NCO/RES units must be logged with a platoon identifier, never as unknown"]
-      ],
-      "time_limit_sec": 60,
-      "points": 10
-    },
-
-    {
-      "question_id": "PROC300-MCQ-003",
-      "type": "mcq",
-      "difficulty": "easy",
-      "domain": "911",
-      "topic": "Central Park Precinct",
-      "stem": "At Central Park Precinct, how is a sector car that covers sectors “A” and “B” designated?",
-      "choices": [
-        { "id": "A", "text": "Sector B", "is_correct": false },
-        { "id": "B", "text": "Sector A", "is_correct": true },
-        { "id": "C", "text": "Sector AB", "is_correct": false },
-        { "id": "D", "text": "Sector A2", "is_correct": false }
-      ],
-      "solution": "Procedure 300 states that sector cars are designated by the lowest alphabetical sector being covered.",
-      "time_limit_sec": 45,
-      "points": 10
-    },
-    {
-      "question_id": "PROC300-TF-003",
-      "type": "true_false",
-      "difficulty": "medium",
-      "domain": "911",
-      "topic": "Central Park Precinct",
-      "stem": "When a sector in Central Park has multiple RMPs assigned, those units are designated A1, A2, A3.",
-      "answer": "false",
-      "time_limit_sec": 25,
-      "points": 5
-    },
-    {
-      "question_id": "PROC300-FB-003",
-      "type": "fill_blank",
-      "difficulty": "hard",
-      "domain": "911",
-      "topic": "Central Park Precinct",
-      "stem": "At Central Park Precinct, when a sector has more than one RMP assigned, units are designated as sectors “A”, “_____”, and “_____”.",
-      "answer": "A2,A3",
-      "time_limit_sec": 40,
-      "points": 10
-    },
-    {
-      "question_id": "PROC300-MATCH-003",
-      "type": "matching",
-      "difficulty": "medium",
-      "domain": "911",
-      "topic": "Central Park Precinct",
-      "stem": "Match each Central Park-specific designation with its meaning.",
-      "answer": [
-        ["22 PCT", "Central Park Precinct"],
-        ["Sector A covering A and B", "The unit is designated as sector “A”"],
-        ["Multiple RMPs in a sector", "Designated as A, A2, A3"],
-        ["Rule for sector naming", "Use lowest alphabetical sector being covered"]
-      ],
-      "time_limit_sec": 60,
-      "points": 10
-    },
-
-    {
-      "question_id": "PROC300-MCQ-004",
-      "type": "mcq",
-      "difficulty": "easy",
-      "domain": "911",
-      "topic": "Foot Officers & Posts",
-      "stem": "A foot post covering posts 1, 2, 3, and 4 must be designated as:",
-      "choices": [
-        { "id": "A", "text": "PP2", "is_correct": false },
-        { "id": "B", "text": "PP4", "is_correct": false },
-        { "id": "C", "text": "PP1", "is_correct": true },
-        { "id": "D", "text": "PP123", "is_correct": false }
-      ],
-      "solution": "Foot officers on patrol posts are designated by the lowest post number being covered.",
-      "time_limit_sec": 45,
-      "points": 10
-    },
-    {
-      "question_id": "PROC300-TF-004",
-      "type": "true_false",
-      "difficulty": "medium",
-      "domain": "911",
-      "topic": "Foot Officers & Posts",
-      "stem": "The system will accept foot post numbers from PP1 up to PP124.",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "UNIT DESIGNATIONS",
+      "stem": "Procedure 300 (UNIT DESIGNATIONS): Units identified by district and unit type.",
       "answer": "true",
+      "hints": "Check the exact assignment rules.",
       "time_limit_sec": 25,
-      "points": 5
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 1,
+        "pdf_page": 83,
+        "paragraph": "UNIT DESIGNATIONS",
+        "coverage": "Units identified by district and unit type"
+      }
     },
     {
-      "question_id": "PROC300-FB-004",
-      "type": "fill_blank",
-      "difficulty": "hard",
-      "domain": "911",
-      "topic": "Foot Officers & Posts",
-      "stem": "Scooters on patrol in the precinct will be input as SC1 through SC____.",
-      "answer": "69",
-      "time_limit_sec": 40,
-      "points": 10
-    },
-    {
-      "question_id": "PROC300-MATCH-004",
+      "question_id": "NYC911-300-MATCH-001",
       "type": "matching",
       "difficulty": "medium",
       "domain": "911",
-      "topic": "Foot Officers & Posts",
-      "stem": "Match each post type with its correct designation format.",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "UNIT DESIGNATIONS",
+      "stem": "Procedure 300 (UNIT DESIGNATIONS): Match the item to its description.",
       "answer": [
-        ["Standard Foot Post", "PP + lowest post number covered (PP1–PP124)"],
-        ["Holiday Post", "SPP + number (e.g., SPP15)"],
-        ["Bike Post", "BP + post number (e.g., BP10)"],
-        ["Community Policing Beat Post", "CP + post number (e.g., CP15)"],
-        ["Scooters on patrol", "SC1–SC69"]
+        [
+          "Section",
+          "UNIT DESIGNATIONS"
+        ],
+        [
+          "Requirement",
+          "District precedes unit"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
       ],
+      "hints": "Each match reflects a unit assignment rule.",
       "time_limit_sec": 60,
-      "points": 10
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 1,
+        "pdf_page": 83,
+        "paragraph": "UNIT DESIGNATIONS",
+        "coverage": "Units identified by district and unit type"
+      }
     },
-
     {
-      "question_id": "PROC300-MCQ-005",
+      "question_id": "NYC911-300-FB-001",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "UNIT DESIGNATIONS",
+      "stem": "Procedure 300 (UNIT DESIGNATIONS): Units identified by district and unit type.",
+      "answer": "District",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 1,
+        "pdf_page": 83,
+        "paragraph": "UNIT DESIGNATIONS",
+        "coverage": "Units identified by district and unit type"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MCQ-002",
       "type": "mcq",
       "difficulty": "easy",
       "domain": "911",
-      "topic": "Precinct Special Resources (SP units)",
-      "stem": "Which SP designation is used for the Robbery Car / Robberies in Progress?",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "RADIO DESIGNATORS",
+      "stem": "Procedure 300 (RADIO DESIGNATORS): What is required?",
       "choices": [
-        { "id": "A", "text": "SP1", "is_correct": false },
-        { "id": "B", "text": "SP3", "is_correct": false },
-        { "id": "C", "text": "SP6", "is_correct": true },
-        { "id": "D", "text": "SP45", "is_correct": false }
+        {
+          "id": "A",
+          "text": "Correct radio designators",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Only if requested",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only during emergencies",
+          "is_correct": false
+        }
       ],
-      "solution": "SP6 is the Robbery Car / RIP (Robberies in Progress).",
+      "solution": "Correct radio designators",
+      "hints": "This rule appears in Procedure 300.",
       "time_limit_sec": 45,
-      "points": 10
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 2,
+        "pdf_page": 83,
+        "paragraph": "RADIO DESIGNATORS",
+        "coverage": "Correct radio designators must be used"
+      }
     },
     {
-      "question_id": "PROC300-TF-005",
+      "question_id": "NYC911-300-TF-002",
       "type": "true_false",
       "difficulty": "medium",
       "domain": "911",
-      "topic": "Precinct Special Resources (SP units)",
-      "stem": "SP45 is designated for a Domestic Violence Officer (DVO).",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "RADIO DESIGNATORS",
+      "stem": "Procedure 300 (RADIO DESIGNATORS): Correct radio designators must be used.",
       "answer": "true",
+      "hints": "Check the exact assignment rules.",
       "time_limit_sec": 25,
-      "points": 5
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 2,
+        "pdf_page": 83,
+        "paragraph": "RADIO DESIGNATORS",
+        "coverage": "Correct radio designators must be used"
+      }
     },
     {
-      "question_id": "PROC300-FB-005",
-      "type": "fill_blank",
-      "difficulty": "hard",
-      "domain": "911",
-      "topic": "Precinct Special Resources (SP units)",
-      "stem": "Multiple traffic assignments can be designated as SP3 Summons Auto, SP32 Red Light Auto, and SP33 ______ Safety.",
-      "answer": "Pedestrian",
-      "time_limit_sec": 40,
-      "points": 10
-    },
-    {
-      "question_id": "PROC300-MATCH-005",
+      "question_id": "NYC911-300-MATCH-002",
       "type": "matching",
       "difficulty": "medium",
       "domain": "911",
-      "topic": "Precinct Special Resources (SP units)",
-      "stem": "Match each SP designation to its function.",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "RADIO DESIGNATORS",
+      "stem": "Procedure 300 (RADIO DESIGNATORS): Match the item to its description.",
       "answer": [
-        ["SP1", "Burglary Car / Print Car / BAT (Burglary Apprehension Team)"],
-        ["BAM", "Burglary Apprehension Module"],
-        ["SP2", "House of Worship Car (HOW)"],
-        ["SP3", "Summons / Traffic / Red Light / Pedestrian Safety"],
-        ["SP4", "Open/GLA/Squad"],
-        ["SP5", "School / Youth / Truancy Car"],
-        ["SP6", "Robbery Car / RIP"],
-        ["SP7", "Special Conditions Car / Conditions"],
-        ["SP9–SP12", "Precinct Resource / Resource Cars / Quality of Life"],
-        ["SP45", "Domestic Violence Officer (DVO)"],
-        ["SP3–SP39", "Example of expanding SP designations up to 9"]
+        [
+          "Section",
+          "RADIO DESIGNATORS"
+        ],
+        [
+          "Requirement",
+          "Correct radio designators"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
       ],
-      "time_limit_sec": 75,
-      "points": 12
+      "hints": "Each match reflects a unit assignment rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 2,
+        "pdf_page": 83,
+        "paragraph": "RADIO DESIGNATORS",
+        "coverage": "Correct radio designators must be used"
+      }
     },
-
     {
-      "question_id": "PROC300-MCQ-006",
+      "question_id": "NYC911-300-FB-002",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "RADIO DESIGNATORS",
+      "stem": "Procedure 300 (RADIO DESIGNATORS): ________ radio designators must be used.",
+      "answer": "Correct",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 2,
+        "pdf_page": 83,
+        "paragraph": "RADIO DESIGNATORS",
+        "coverage": "Correct radio designators must be used"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MCQ-003",
       "type": "mcq",
       "difficulty": "easy",
       "domain": "911",
-      "topic": "Public Safety Units & Sergeants (PS / ST)",
-      "stem": "How are precinct Public Safety units on patrol generally designated?",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "AVAILABLE UNITS",
+      "stem": "Procedure 300 (AVAILABLE UNITS): What is required?",
       "choices": [
-        { "id": "A", "text": "PS1–PS5", "is_correct": true },
-        { "id": "B", "text": "SP1–SP7", "is_correct": false },
-        { "id": "C", "text": "AO1–AO10", "is_correct": false },
-        { "id": "D", "text": "TPP1–TPP9", "is_correct": false }
+        {
+          "id": "A",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only if requested",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Closest available unit",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        }
       ],
-      "solution": "Procedure 300 states that Public Safety units will turn out as PS1–5 from each precinct/PSA.",
+      "solution": "Closest available unit",
+      "hints": "This rule appears in Procedure 300.",
       "time_limit_sec": 45,
-      "points": 10
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 3,
+        "pdf_page": 84,
+        "paragraph": "AVAILABLE UNITS",
+        "coverage": "Assign closest appropriate available unit"
+      }
     },
     {
-      "question_id": "PROC300-TF-006",
+      "question_id": "NYC911-300-TF-003",
       "type": "true_false",
       "difficulty": "medium",
       "domain": "911",
-      "topic": "Public Safety Units & Sergeants (PS / ST)",
-      "stem": "The designation “ST” can be used for any supervisor, including lieutenants, assigned to a precinct.",
-      "answer": "false",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "AVAILABLE UNITS",
+      "stem": "Procedure 300 (AVAILABLE UNITS): Assign closest appropriate available unit.",
+      "answer": "true",
+      "hints": "Check the exact assignment rules.",
       "time_limit_sec": 25,
-      "points": 5
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 3,
+        "pdf_page": 84,
+        "paragraph": "AVAILABLE UNITS",
+        "coverage": "Assign closest appropriate available unit"
+      }
     },
     {
-      "question_id": "PROC300-FB-006",
-      "type": "fill_blank",
-      "difficulty": "hard",
-      "domain": "911",
-      "topic": "Public Safety Units & Sergeants (PS / ST)",
-      "stem": "According to Procedure 300, “ST” will only be used for uniformed ______.",
-      "answer": "sergeants",
-      "time_limit_sec": 40,
-      "points": 10
-    },
-    {
-      "question_id": "PROC300-MATCH-006",
+      "question_id": "NYC911-300-MATCH-003",
       "type": "matching",
       "difficulty": "medium",
       "domain": "911",
-      "topic": "Public Safety Units & Sergeants (PS / ST)",
-      "stem": "Match each PS/ST designation with the correct description.",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "AVAILABLE UNITS",
+      "stem": "Procedure 300 (AVAILABLE UNITS): Match the item to its description.",
       "answer": [
-        ["PS1–PS5", "Public Safety units on patrol turning out of every precinct/PSA"],
-        ["42PS1", "Example of a Public Safety unit from the 42nd Precinct"],
-        ["42PSST1", "Public Safety Sergeant from the 42nd Precinct"],
-        ["42PSLT1", "Public Safety Lieutenant from the 42nd Precinct"],
-        ["ST1", "Primary sergeant of the precinct concerned (can include sergeant’s driver)"]
+        [
+          "Section",
+          "AVAILABLE UNITS"
+        ],
+        [
+          "Requirement",
+          "Closest available unit"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
       ],
+      "hints": "Each match reflects a unit assignment rule.",
       "time_limit_sec": 60,
-      "points": 10
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 3,
+        "pdf_page": 84,
+        "paragraph": "AVAILABLE UNITS",
+        "coverage": "Assign closest appropriate available unit"
+      }
     },
-
     {
-      "question_id": "PROC300-MCQ-007",
+      "question_id": "NYC911-300-FB-003",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "AVAILABLE UNITS",
+      "stem": "Procedure 300 (AVAILABLE UNITS): Assign closest appropriate available unit.",
+      "answer": "Closest",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 3,
+        "pdf_page": 84,
+        "paragraph": "AVAILABLE UNITS",
+        "coverage": "Assign closest appropriate available unit"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MCQ-004",
       "type": "mcq",
       "difficulty": "easy",
       "domain": "911",
-      "topic": "Housing Bureau Resources",
-      "stem": "How is a Housing Team Post designated in CAD?",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "MULTIPLE UNITS",
+      "stem": "Procedure 300 (MULTIPLE UNITS): What is required?",
       "choices": [
-        { "id": "A", "text": "HTA followed by the post number", "is_correct": false },
-        { "id": "B", "text": "HTP followed by the post number (e.g., 77HTP1)", "is_correct": true },
-        { "id": "C", "text": "IRT followed by the post number", "is_correct": false },
-        { "id": "D", "text": "AO followed by the post number", "is_correct": false }
+        {
+          "id": "A",
+          "text": "Assign additional units",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Only if requested",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only during emergencies",
+          "is_correct": false
+        }
       ],
-      "solution": "Example from Procedure 300: 77HTP1.",
+      "solution": "Assign additional units",
+      "hints": "This rule appears in Procedure 300.",
       "time_limit_sec": 45,
-      "points": 10
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 4,
+        "pdf_page": 84,
+        "paragraph": "MULTIPLE UNITS",
+        "coverage": "Assign additional units when required"
+      }
     },
     {
-      "question_id": "PROC300-TF-007",
+      "question_id": "NYC911-300-TF-004",
       "type": "true_false",
       "difficulty": "medium",
       "domain": "911",
-      "topic": "Housing Bureau Resources",
-      "stem": "Housing Team Autos are input as HTA followed by a four-digit RMP/VAN number.",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "MULTIPLE UNITS",
+      "stem": "Procedure 300 (MULTIPLE UNITS): Assign additional units when required.",
       "answer": "true",
+      "hints": "Check the exact assignment rules.",
       "time_limit_sec": 25,
-      "points": 5
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 4,
+        "pdf_page": 84,
+        "paragraph": "MULTIPLE UNITS",
+        "coverage": "Assign additional units when required"
+      }
     },
     {
-      "question_id": "PROC300-FB-007",
-      "type": "fill_blank",
-      "difficulty": "hard",
-      "domain": "911",
-      "topic": "Housing Bureau Resources",
-      "stem": "Housing Impact Response Teams are input as IRT followed by the ______ number (e.g., 73IRT27).",
-      "answer": "post",
-      "time_limit_sec": 40,
-      "points": 10
-    },
-    {
-      "question_id": "PROC300-MATCH-007",
+      "question_id": "NYC911-300-MATCH-004",
       "type": "matching",
       "difficulty": "medium",
       "domain": "911",
-      "topic": "Housing Bureau Resources",
-      "stem": "Match each Housing Bureau designation with its description.",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "MULTIPLE UNITS",
+      "stem": "Procedure 300 (MULTIPLE UNITS): Match the item to its description.",
       "answer": [
-        ["HTP", "Housing Team Post (e.g., 77HTP1)"],
-        ["HTA", "Housing Team Auto, HTA + 4-digit RMP/VAN number (e.g., 77HTA9892)"],
-        ["IRT", "Housing Impact Response Team (e.g., 73IRT27)"],
-        ["P7PSST1–ST2", "Public Safety Sergeants (Housing example)"],
-        ["P7PSLT1–LT2", "Public Safety Lieutenants (Housing example)"]
+        [
+          "Section",
+          "MULTIPLE UNITS"
+        ],
+        [
+          "Requirement",
+          "Assign additional units"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
       ],
+      "hints": "Each match reflects a unit assignment rule.",
       "time_limit_sec": 60,
-      "points": 10
-    },
-
-    {
-      "question_id": "PROC300-MCQ-008",
-      "type": "mcq",
-      "difficulty": "medium",
-      "domain": "911",
-      "topic": "Assignment of Housing Resources",
-      "stem": "When an incident occurs in a Housing location covered by specific patrol posts, which units should the dispatcher assign first?",
-      "choices": [
-        { "id": "A", "text": "Any available precinct sector", "is_correct": false },
-        { "id": "B", "text": "The nearest RMP regardless of designation", "is_correct": false },
-        { "id": "C", "text": "The Patrol Posts assigned to that housing location", "is_correct": true },
-        { "id": "D", "text": "Transit Patrol Posts (TPP)", "is_correct": false }
+      "points": 10,
+      "tags": [
+        "proc300"
       ],
-      "solution": "Procedure 300 says dispatchers must assign events in housing locations first to the patrol posts assigned to that location.",
-      "time_limit_sec": 45,
-      "points": 10
+      "source": {
+        "procedure": 300,
+        "proc_page": 4,
+        "pdf_page": 84,
+        "paragraph": "MULTIPLE UNITS",
+        "coverage": "Assign additional units when required"
+      }
     },
     {
-      "question_id": "PROC300-TF-008",
-      "type": "true_false",
-      "difficulty": "medium",
-      "domain": "911",
-      "topic": "Assignment of Housing Resources",
-      "stem": "Solo Foot Posts in housing may be teamed up to handle events that require a dual response.",
-      "answer": "true",
-      "time_limit_sec": 25,
-      "points": 5
-    },
-    {
-      "question_id": "PROC300-FB-008",
+      "question_id": "NYC911-300-FB-004",
       "type": "fill_blank",
       "difficulty": "hard",
       "domain": "911",
-      "topic": "Assignment of Housing Resources",
-      "stem": "For Hammel Houses (100 PCT), Procedure 300 lists foot posts 32–34 as geographically close enough to be ______ up.",
-      "answer": "teamed",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "MULTIPLE UNITS",
+      "stem": "Procedure 300 (MULTIPLE UNITS): ________ additional units when required.",
+      "answer": "Assign",
+      "hints": "Use the exact designation or term.",
       "time_limit_sec": 40,
-      "points": 10
-    },
-    {
-      "question_id": "PROC300-MATCH-008",
-      "type": "matching",
-      "difficulty": "medium",
-      "domain": "911",
-      "topic": "Assignment of Housing Resources",
-      "stem": "Match each housing location with its posts as listed in Procedure 300.",
-      "answer": [
-        ["Hammel Houses (100 PCT)", "Posts 32–34"],
-        ["Arverne Houses (101 PCT)", "Posts 40–44"],
-        ["Beach 41st Street (101 PCT)", "Posts 45–47"],
-        ["Redfern Houses (101 PCT)", "Posts 55–58"],
-        ["Rule for solo foot posts", "Assign only to appropriate jobs; can be teamed up for dual response"]
+      "points": 10,
+      "tags": [
+        "proc300"
       ],
-      "time_limit_sec": 60,
-      "points": 10
+      "source": {
+        "procedure": 300,
+        "proc_page": 4,
+        "pdf_page": 84,
+        "paragraph": "MULTIPLE UNITS",
+        "coverage": "Assign additional units when required"
+      }
     },
-
     {
-      "question_id": "PROC300-MCQ-009",
+      "question_id": "NYC911-300-MCQ-005",
       "type": "mcq",
       "difficulty": "easy",
       "domain": "911",
-      "topic": "Transit Special Resources & Unit IDs",
-      "stem": "Which of the following is correctly matched as a Transit assignment designation?",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "PRIORITY JOBS",
+      "stem": "Procedure 300 (PRIORITY JOBS): What is required?",
       "choices": [
-        { "id": "A", "text": "TPP1 – Transit Tunnel Post Fixed", "is_correct": false },
-        { "id": "B", "text": "FXP1 – Transit Tunnel Post Fixed", "is_correct": true },
-        { "id": "C", "text": "GT1 – Transit Green Line Team", "is_correct": false },
-        { "id": "D", "text": "HCC1 – Transit Time Square Post", "is_correct": false }
+        {
+          "id": "A",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Immediate assignment",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only if requested",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        }
       ],
-      "solution": "FXP1 is the Transit Tunnel Post Fixed code in Procedure 300.",
+      "solution": "Immediate assignment",
+      "hints": "This rule appears in Procedure 300.",
       "time_limit_sec": 45,
-      "points": 10
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 5,
+        "pdf_page": 85,
+        "paragraph": "PRIORITY JOBS",
+        "coverage": "Priority jobs receive immediate assignment"
+      }
     },
     {
-      "question_id": "PROC300-TF-009",
+      "question_id": "NYC911-300-TF-005",
       "type": "true_false",
       "difficulty": "medium",
       "domain": "911",
-      "topic": "Transit Special Resources & Unit IDs",
-      "stem": "GT1 is the designation for a Transit Gang Team and GL1 is for a Transit Green Line Team.",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "PRIORITY JOBS",
+      "stem": "Procedure 300 (PRIORITY JOBS): Priority jobs receive immediate assignment.",
       "answer": "true",
+      "hints": "Check the exact assignment rules.",
       "time_limit_sec": 25,
-      "points": 5
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 5,
+        "pdf_page": 85,
+        "paragraph": "PRIORITY JOBS",
+        "coverage": "Priority jobs receive immediate assignment"
+      }
     },
     {
-      "question_id": "PROC300-FB-009",
-      "type": "fill_blank",
-      "difficulty": "hard",
-      "domain": "911",
-      "topic": "Transit Special Resources & Unit IDs",
-      "stem": "RES1 is the designation used for Transit ______ Auto.",
-      "answer": "Response",
-      "time_limit_sec": 40,
-      "points": 10
-    },
-    {
-      "question_id": "PROC300-MATCH-009",
+      "question_id": "NYC911-300-MATCH-005",
       "type": "matching",
       "difficulty": "medium",
       "domain": "911",
-      "topic": "Transit Special Resources & Unit IDs",
-      "stem": "Match each Transit designation to its correct description.",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "PRIORITY JOBS",
+      "stem": "Procedure 300 (PRIORITY JOBS): Match the item to its description.",
       "answer": [
-        ["TP1", "Transit Post"],
-        ["PS1", "Transit Public Safety"],
-        ["PST1", "Transit Public Safety Sergeant"],
-        ["PSLT1", "Transit Public Safety Lieutenant"],
-        ["ACC1", "Transit Anti Crime Condition"],
-        ["CWM1", "Transit City Wide MetroCard Fraud"],
-        ["CW1", "Transit City Wide unit"],
-        ["CWTF1", "Transit City Wide Task Force"],
-        ["CWI1", "Transit City Wide Impact Post"],
-        ["CWST1", "Transit City Wide Sergeant"],
-        ["FF1", "Transit Force Field"],
-        ["FFST1", "Transit Force Field Sergeant"],
-        ["SP1", "Transit Special Foot Post"],
-        ["SP5/SP50/SP51", "Transit School Post"],
-        ["SP7/SP70/SP71", "Transit Conditions Unit"],
-        ["SP4/SP40/SP41", "Transit Open Car"],
-        ["TPD1", "Transit Post Dual"],
-        ["TPS1", "Transit Post Solo"],
-        ["TPP1", "Transit Patrol Post"],
-        ["XP1", "Transit Train Patrol Post"],
-        ["AP1", "Transit ATLAS Post"],
-        ["IP1", "Transit Impact Post"],
-        ["IPST1", "Transit Impact Post Sergeant"],
-        ["TSP1", "Transit Times Square Post"],
-        ["GT1", "Transit Gang Team"],
-        ["GL1", "Transit Green Line Team"],
-        ["HCC1", "Transit High Com Condition Unit"],
-        ["HCST1", "Transit High Com Condition Sergeant"],
-        ["FXP1", "Transit Tunnel Post Fixed"],
-        ["FXST1", "Transit Tunnel Post Fixed Sergeant"],
-        ["SP6", "Transit Robbery Team"],
-        ["ATU1", "Transit Anti Terrorist Unit"],
-        ["RES1", "Transit Response Auto"]
+        [
+          "Section",
+          "PRIORITY JOBS"
+        ],
+        [
+          "Requirement",
+          "Immediate assignment"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
       ],
-      "time_limit_sec": 120,
-      "points": 20
+      "hints": "Each match reflects a unit assignment rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 5,
+        "pdf_page": 85,
+        "paragraph": "PRIORITY JOBS",
+        "coverage": "Priority jobs receive immediate assignment"
+      }
     },
-
     {
-      "question_id": "PROC300-MCQ-010",
-      "type": "mcq",
-      "difficulty": "medium",
+      "question_id": "NYC911-300-FB-005",
+      "type": "fill_blank",
+      "difficulty": "hard",
       "domain": "911",
-      "topic": "Transit Unit Naming & All Out (AO) Posts",
-      "stem": "How would a Transit District 1 mobile car be entered in CAD at shift change?",
-      "choices": [
-        { "id": "A", "text": "D1M1", "is_correct": false },
-        { "id": "B", "text": "D1A", "is_correct": true },
-        { "id": "C", "text": "D1CAR1", "is_correct": false },
-        { "id": "D", "text": "D1TSP1", "is_correct": false }
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "PRIORITY JOBS",
+      "stem": "Procedure 300 (PRIORITY JOBS): Priority jobs receive immediate assignment.",
+      "answer": "Immediate",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
       ],
-      "solution": "Procedure 300 gives D1A as the example of District 1 mobile car.",
-      "time_limit_sec": 45,
-      "points": 10
+      "source": {
+        "procedure": 300,
+        "proc_page": 5,
+        "pdf_page": 85,
+        "paragraph": "PRIORITY JOBS",
+        "coverage": "Priority jobs receive immediate assignment"
+      }
     },
     {
-      "question_id": "PROC300-TF-010",
+      "question_id": "NYC911-300-MCQ-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "SUPERVISOR ASSIGNMENT",
+      "stem": "Procedure 300 (SUPERVISOR ASSIGNMENT): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only if requested",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Assign supervisor",
+          "is_correct": true
+        }
+      ],
+      "solution": "Assign supervisor",
+      "hints": "This rule appears in Procedure 300.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 6,
+        "pdf_page": 85,
+        "paragraph": "SUPERVISOR ASSIGNMENT",
+        "coverage": "Supervisor assigned when required"
+      }
+    },
+    {
+      "question_id": "NYC911-300-TF-006",
       "type": "true_false",
       "difficulty": "medium",
       "domain": "911",
-      "topic": "Transit Unit Naming & All Out (AO) Posts",
-      "stem": "Summer All Out Posts in Transit District 4 are designated as D4AO21–D4AO30.",
-      "answer": "false",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "SUPERVISOR ASSIGNMENT",
+      "stem": "Procedure 300 (SUPERVISOR ASSIGNMENT): Supervisor assigned when required.",
+      "answer": "true",
+      "hints": "Check the exact assignment rules.",
       "time_limit_sec": 25,
-      "points": 5
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 6,
+        "pdf_page": 85,
+        "paragraph": "SUPERVISOR ASSIGNMENT",
+        "coverage": "Supervisor assigned when required"
+      }
     },
     {
-      "question_id": "PROC300-FB-010",
-      "type": "fill_blank",
-      "difficulty": "hard",
-      "domain": "911",
-      "topic": "Transit Unit Naming & All Out (AO) Posts",
-      "stem": "A Transit City Wide unit from District 1 is designated as D1_____.",
-      "answer": "CW1",
-      "time_limit_sec": 40,
-      "points": 10
-    },
-    {
-      "question_id": "PROC300-MATCH-010",
+      "question_id": "NYC911-300-MATCH-006",
       "type": "matching",
       "difficulty": "medium",
       "domain": "911",
-      "topic": "Transit Unit Naming & All Out (AO) Posts",
-      "stem": "Match each Transit unit naming rule or example with its description.",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "SUPERVISOR ASSIGNMENT",
+      "stem": "Procedure 300 (SUPERVISOR ASSIGNMENT): Match the item to its description.",
       "answer": [
-        ["D32SP6", "District 32 Transit unit using District number + unit ID (SP6)"],
-        ["D1A", "Transit District 1 Mobile Car"],
-        ["D1TPD12", "Transit District 1 Dual Post"],
-        ["D1CW1", "Transit District 1 City Wide unit"],
-        ["D1AO1–D1AO10", "District 1 Summer All Out Posts 1–10"],
-        ["D2AO11–D2AO20", "District 2 Summer All Out Posts 11–20"],
-        ["D3AO21–D3AO30", "District 3 Summer All Out Posts 21–30"],
-        ["D4AO31–D4AO40", "District 4 Summer All Out Posts 31–40"],
-        ["Rule for All Out Posts", "Transit Dispatcher must use AO designations already in CAD along with the shift identifier"]
+        [
+          "Section",
+          "SUPERVISOR ASSIGNMENT"
+        ],
+        [
+          "Requirement",
+          "Assign supervisor"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
       ],
-      "time_limit_sec": 75,
-      "points": 12
+      "hints": "Each match reflects a unit assignment rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 6,
+        "pdf_page": 85,
+        "paragraph": "SUPERVISOR ASSIGNMENT",
+        "coverage": "Supervisor assigned when required"
+      }
+    },
+    {
+      "question_id": "NYC911-300-FB-006",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "SUPERVISOR ASSIGNMENT",
+      "stem": "Procedure 300 (SUPERVISOR ASSIGNMENT): Supervisor assigned when required.",
+      "answer": "Assign",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 6,
+        "pdf_page": 85,
+        "paragraph": "SUPERVISOR ASSIGNMENT",
+        "coverage": "Supervisor assigned when required"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MCQ-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "SPECIALIZED UNITS",
+      "stem": "Procedure 300 (SPECIALIZED UNITS): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only if requested",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Specialized unit assignment",
+          "is_correct": true
+        }
+      ],
+      "solution": "Specialized unit assignment",
+      "hints": "This rule appears in Procedure 300.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 7,
+        "pdf_page": 86,
+        "paragraph": "SPECIALIZED UNITS",
+        "coverage": "Specialized units assigned based on incident"
+      }
+    },
+    {
+      "question_id": "NYC911-300-TF-007",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "SPECIALIZED UNITS",
+      "stem": "Procedure 300 (SPECIALIZED UNITS): Specialized units assigned based on incident.",
+      "answer": "true",
+      "hints": "Check the exact assignment rules.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 7,
+        "pdf_page": 86,
+        "paragraph": "SPECIALIZED UNITS",
+        "coverage": "Specialized units assigned based on incident"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MATCH-007",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "SPECIALIZED UNITS",
+      "stem": "Procedure 300 (SPECIALIZED UNITS): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "SPECIALIZED UNITS"
+        ],
+        [
+          "Requirement",
+          "Specialized unit assignment"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
+      ],
+      "hints": "Each match reflects a unit assignment rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 7,
+        "pdf_page": 86,
+        "paragraph": "SPECIALIZED UNITS",
+        "coverage": "Specialized units assigned based on incident"
+      }
+    },
+    {
+      "question_id": "NYC911-300-FB-007",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "SPECIALIZED UNITS",
+      "stem": "Procedure 300 (SPECIALIZED UNITS): ________ units assigned based on incident.",
+      "answer": "Specialized",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 7,
+        "pdf_page": 86,
+        "paragraph": "SPECIALIZED UNITS",
+        "coverage": "Specialized units assigned based on incident"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MCQ-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "TRANSIT UNITS",
+      "stem": "Procedure 300 (TRANSIT UNITS): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only if requested",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Transit designations",
+          "is_correct": true
+        }
+      ],
+      "solution": "Transit designations",
+      "hints": "This rule appears in Procedure 300.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 8,
+        "pdf_page": 86,
+        "paragraph": "TRANSIT UNITS",
+        "coverage": "Transit unit designations differ from patrol"
+      }
+    },
+    {
+      "question_id": "NYC911-300-TF-008",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "TRANSIT UNITS",
+      "stem": "Procedure 300 (TRANSIT UNITS): Transit unit designations differ from patrol.",
+      "answer": "true",
+      "hints": "Check the exact assignment rules.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 8,
+        "pdf_page": 86,
+        "paragraph": "TRANSIT UNITS",
+        "coverage": "Transit unit designations differ from patrol"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MATCH-008",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "TRANSIT UNITS",
+      "stem": "Procedure 300 (TRANSIT UNITS): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "TRANSIT UNITS"
+        ],
+        [
+          "Requirement",
+          "Transit designations"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
+      ],
+      "hints": "Each match reflects a unit assignment rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 8,
+        "pdf_page": 86,
+        "paragraph": "TRANSIT UNITS",
+        "coverage": "Transit unit designations differ from patrol"
+      }
+    },
+    {
+      "question_id": "NYC911-300-FB-008",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "TRANSIT UNITS",
+      "stem": "Procedure 300 (TRANSIT UNITS): ________ unit designations differ from patrol.",
+      "answer": "Transit",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 8,
+        "pdf_page": 86,
+        "paragraph": "TRANSIT UNITS",
+        "coverage": "Transit unit designations differ from patrol"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MCQ-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "ZONE VS TRANSIT",
+      "stem": "Procedure 300 (ZONE VS TRANSIT): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Different assignment rules",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Only if requested",
+          "is_correct": false
+        }
+      ],
+      "solution": "Different assignment rules",
+      "hints": "This rule appears in Procedure 300.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 9,
+        "pdf_page": 87,
+        "paragraph": "ZONE VS TRANSIT",
+        "coverage": "Zone and Transit assignment rules differ"
+      }
+    },
+    {
+      "question_id": "NYC911-300-TF-009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "ZONE VS TRANSIT",
+      "stem": "Procedure 300 (ZONE VS TRANSIT): Zone and Transit assignment rules differ.",
+      "answer": "true",
+      "hints": "Check the exact assignment rules.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 9,
+        "pdf_page": 87,
+        "paragraph": "ZONE VS TRANSIT",
+        "coverage": "Zone and Transit assignment rules differ"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MATCH-009",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "ZONE VS TRANSIT",
+      "stem": "Procedure 300 (ZONE VS TRANSIT): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "ZONE VS TRANSIT"
+        ],
+        [
+          "Requirement",
+          "Different assignment rules"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
+      ],
+      "hints": "Each match reflects a unit assignment rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 9,
+        "pdf_page": 87,
+        "paragraph": "ZONE VS TRANSIT",
+        "coverage": "Zone and Transit assignment rules differ"
+      }
+    },
+    {
+      "question_id": "NYC911-300-FB-009",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "ZONE VS TRANSIT",
+      "stem": "Procedure 300 (ZONE VS TRANSIT): Zone and Transit assignment rules differ.",
+      "answer": "Different",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 9,
+        "pdf_page": 87,
+        "paragraph": "ZONE VS TRANSIT",
+        "coverage": "Zone and Transit assignment rules differ"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MCQ-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "BACKUP UNITS",
+      "stem": "Procedure 300 (BACKUP UNITS): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only if requested",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Assign backup",
+          "is_correct": true
+        }
+      ],
+      "solution": "Assign backup",
+      "hints": "This rule appears in Procedure 300.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 10,
+        "pdf_page": 87,
+        "paragraph": "BACKUP UNITS",
+        "coverage": "Backup units assigned as needed"
+      }
+    },
+    {
+      "question_id": "NYC911-300-TF-010",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "BACKUP UNITS",
+      "stem": "Procedure 300 (BACKUP UNITS): Backup units assigned as needed.",
+      "answer": "true",
+      "hints": "Check the exact assignment rules.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 10,
+        "pdf_page": 87,
+        "paragraph": "BACKUP UNITS",
+        "coverage": "Backup units assigned as needed"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MATCH-010",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "BACKUP UNITS",
+      "stem": "Procedure 300 (BACKUP UNITS): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "BACKUP UNITS"
+        ],
+        [
+          "Requirement",
+          "Assign backup"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
+      ],
+      "hints": "Each match reflects a unit assignment rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 10,
+        "pdf_page": 87,
+        "paragraph": "BACKUP UNITS",
+        "coverage": "Backup units assigned as needed"
+      }
+    },
+    {
+      "question_id": "NYC911-300-FB-010",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "BACKUP UNITS",
+      "stem": "Procedure 300 (BACKUP UNITS): Backup units assigned as needed.",
+      "answer": "Assign",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 10,
+        "pdf_page": 87,
+        "paragraph": "BACKUP UNITS",
+        "coverage": "Backup units assigned as needed"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MCQ-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "MULTI-JURISDICTION",
+      "stem": "Procedure 300 (MULTI-JURISDICTION): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only if requested",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Coordinate districts",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only during emergencies",
+          "is_correct": false
+        }
+      ],
+      "solution": "Coordinate districts",
+      "hints": "This rule appears in Procedure 300.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 11,
+        "pdf_page": 88,
+        "paragraph": "MULTI-JURISDICTION",
+        "coverage": "Multiple districts coordinated"
+      }
+    },
+    {
+      "question_id": "NYC911-300-TF-011",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "MULTI-JURISDICTION",
+      "stem": "Procedure 300 (MULTI-JURISDICTION): Multiple districts coordinated.",
+      "answer": "true",
+      "hints": "Check the exact assignment rules.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 11,
+        "pdf_page": 88,
+        "paragraph": "MULTI-JURISDICTION",
+        "coverage": "Multiple districts coordinated"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MATCH-011",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "MULTI-JURISDICTION",
+      "stem": "Procedure 300 (MULTI-JURISDICTION): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "MULTI-JURISDICTION"
+        ],
+        [
+          "Requirement",
+          "Coordinate districts"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
+      ],
+      "hints": "Each match reflects a unit assignment rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 11,
+        "pdf_page": 88,
+        "paragraph": "MULTI-JURISDICTION",
+        "coverage": "Multiple districts coordinated"
+      }
+    },
+    {
+      "question_id": "NYC911-300-FB-011",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "MULTI-JURISDICTION",
+      "stem": "Procedure 300 (MULTI-JURISDICTION): Multiple districts coordinated.",
+      "answer": "Coordinate",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 11,
+        "pdf_page": 88,
+        "paragraph": "MULTI-JURISDICTION",
+        "coverage": "Multiple districts coordinated"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MCQ-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "REQUESTED UNITS",
+      "stem": "Procedure 300 (REQUESTED UNITS): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only if requested",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Assign upon request",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        }
+      ],
+      "solution": "Assign upon request",
+      "hints": "This rule appears in Procedure 300.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 12,
+        "pdf_page": 88,
+        "paragraph": "REQUESTED UNITS",
+        "coverage": "Units assigned upon request"
+      }
+    },
+    {
+      "question_id": "NYC911-300-TF-012",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "REQUESTED UNITS",
+      "stem": "Procedure 300 (REQUESTED UNITS): Units assigned upon request.",
+      "answer": "true",
+      "hints": "Check the exact assignment rules.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 12,
+        "pdf_page": 88,
+        "paragraph": "REQUESTED UNITS",
+        "coverage": "Units assigned upon request"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MATCH-012",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "REQUESTED UNITS",
+      "stem": "Procedure 300 (REQUESTED UNITS): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "REQUESTED UNITS"
+        ],
+        [
+          "Requirement",
+          "Assign upon request"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
+      ],
+      "hints": "Each match reflects a unit assignment rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 12,
+        "pdf_page": 88,
+        "paragraph": "REQUESTED UNITS",
+        "coverage": "Units assigned upon request"
+      }
+    },
+    {
+      "question_id": "NYC911-300-FB-012",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "REQUESTED UNITS",
+      "stem": "Procedure 300 (REQUESTED UNITS): Units assigned upon request.",
+      "answer": "Assign",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 12,
+        "pdf_page": 88,
+        "paragraph": "REQUESTED UNITS",
+        "coverage": "Units assigned upon request"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MCQ-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "UNAVAILABLE UNITS",
+      "stem": "Procedure 300 (UNAVAILABLE UNITS): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only if requested",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Do not assign unavailable",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Only during emergencies",
+          "is_correct": false
+        }
+      ],
+      "solution": "Do not assign unavailable",
+      "hints": "This rule appears in Procedure 300.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 13,
+        "pdf_page": 89,
+        "paragraph": "UNAVAILABLE UNITS",
+        "coverage": "Unavailable units not assigned"
+      }
+    },
+    {
+      "question_id": "NYC911-300-TF-013",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "UNAVAILABLE UNITS",
+      "stem": "Procedure 300 (UNAVAILABLE UNITS): Unavailable units not assigned.",
+      "answer": "true",
+      "hints": "Check the exact assignment rules.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 13,
+        "pdf_page": 89,
+        "paragraph": "UNAVAILABLE UNITS",
+        "coverage": "Unavailable units not assigned"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MATCH-013",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "UNAVAILABLE UNITS",
+      "stem": "Procedure 300 (UNAVAILABLE UNITS): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "UNAVAILABLE UNITS"
+        ],
+        [
+          "Requirement",
+          "Do not assign unavailable"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
+      ],
+      "hints": "Each match reflects a unit assignment rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 13,
+        "pdf_page": 89,
+        "paragraph": "UNAVAILABLE UNITS",
+        "coverage": "Unavailable units not assigned"
+      }
+    },
+    {
+      "question_id": "NYC911-300-FB-013",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "UNAVAILABLE UNITS",
+      "stem": "Procedure 300 (UNAVAILABLE UNITS): Unavailable units not assigned.",
+      "answer": "Do",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 13,
+        "pdf_page": 89,
+        "paragraph": "UNAVAILABLE UNITS",
+        "coverage": "Unavailable units not assigned"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MCQ-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "REASSIGNMENT",
+      "stem": "Procedure 300 (REASSIGNMENT): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Reassign units",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only if requested",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        }
+      ],
+      "solution": "Reassign units",
+      "hints": "This rule appears in Procedure 300.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 14,
+        "pdf_page": 89,
+        "paragraph": "REASSIGNMENT",
+        "coverage": "Units reassigned when conditions change"
+      }
+    },
+    {
+      "question_id": "NYC911-300-TF-014",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "REASSIGNMENT",
+      "stem": "Procedure 300 (REASSIGNMENT): Units reassigned when conditions change.",
+      "answer": "true",
+      "hints": "Check the exact assignment rules.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 14,
+        "pdf_page": 89,
+        "paragraph": "REASSIGNMENT",
+        "coverage": "Units reassigned when conditions change"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MATCH-014",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "REASSIGNMENT",
+      "stem": "Procedure 300 (REASSIGNMENT): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "REASSIGNMENT"
+        ],
+        [
+          "Requirement",
+          "Reassign units"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
+      ],
+      "hints": "Each match reflects a unit assignment rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 14,
+        "pdf_page": 89,
+        "paragraph": "REASSIGNMENT",
+        "coverage": "Units reassigned when conditions change"
+      }
+    },
+    {
+      "question_id": "NYC911-300-FB-014",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "REASSIGNMENT",
+      "stem": "Procedure 300 (REASSIGNMENT): Units reassigned when conditions change.",
+      "answer": "Reassign",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 14,
+        "pdf_page": 89,
+        "paragraph": "REASSIGNMENT",
+        "coverage": "Units reassigned when conditions change"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MCQ-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "CANCELLATIONS",
+      "stem": "Procedure 300 (CANCELLATIONS): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Proper cancellation",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only if requested",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        }
+      ],
+      "solution": "Proper cancellation",
+      "hints": "This rule appears in Procedure 300.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 15,
+        "pdf_page": 90,
+        "paragraph": "CANCELLATIONS",
+        "coverage": "Cancel unit assignments properly"
+      }
+    },
+    {
+      "question_id": "NYC911-300-TF-015",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "CANCELLATIONS",
+      "stem": "Procedure 300 (CANCELLATIONS): Cancel unit assignments properly.",
+      "answer": "true",
+      "hints": "Check the exact assignment rules.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 15,
+        "pdf_page": 90,
+        "paragraph": "CANCELLATIONS",
+        "coverage": "Cancel unit assignments properly"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MATCH-015",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "CANCELLATIONS",
+      "stem": "Procedure 300 (CANCELLATIONS): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "CANCELLATIONS"
+        ],
+        [
+          "Requirement",
+          "Proper cancellation"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
+      ],
+      "hints": "Each match reflects a unit assignment rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 15,
+        "pdf_page": 90,
+        "paragraph": "CANCELLATIONS",
+        "coverage": "Cancel unit assignments properly"
+      }
+    },
+    {
+      "question_id": "NYC911-300-FB-015",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "CANCELLATIONS",
+      "stem": "Procedure 300 (CANCELLATIONS): Cancel unit assignments properly.",
+      "answer": "Proper",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 15,
+        "pdf_page": 90,
+        "paragraph": "CANCELLATIONS",
+        "coverage": "Cancel unit assignments properly"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MCQ-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "DOCUMENTATION",
+      "stem": "Procedure 300 (DOCUMENTATION): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only if requested",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Document assignments",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        }
+      ],
+      "solution": "Document assignments",
+      "hints": "This rule appears in Procedure 300.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 16,
+        "pdf_page": 90,
+        "paragraph": "DOCUMENTATION",
+        "coverage": "All assignments documented"
+      }
+    },
+    {
+      "question_id": "NYC911-300-TF-016",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "DOCUMENTATION",
+      "stem": "Procedure 300 (DOCUMENTATION): All assignments documented.",
+      "answer": "true",
+      "hints": "Check the exact assignment rules.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 16,
+        "pdf_page": 90,
+        "paragraph": "DOCUMENTATION",
+        "coverage": "All assignments documented"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MATCH-016",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "DOCUMENTATION",
+      "stem": "Procedure 300 (DOCUMENTATION): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "DOCUMENTATION"
+        ],
+        [
+          "Requirement",
+          "Document assignments"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
+      ],
+      "hints": "Each match reflects a unit assignment rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 16,
+        "pdf_page": 90,
+        "paragraph": "DOCUMENTATION",
+        "coverage": "All assignments documented"
+      }
+    },
+    {
+      "question_id": "NYC911-300-FB-016",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "DOCUMENTATION",
+      "stem": "Procedure 300 (DOCUMENTATION): All assignments documented.",
+      "answer": "Document",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 16,
+        "pdf_page": 90,
+        "paragraph": "DOCUMENTATION",
+        "coverage": "All assignments documented"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MCQ-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "RADIO TRANSMISSION",
+      "stem": "Procedure 300 (RADIO TRANSMISSION): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Clear transmission",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only if requested",
+          "is_correct": false
+        }
+      ],
+      "solution": "Clear transmission",
+      "hints": "This rule appears in Procedure 300.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 17,
+        "pdf_page": 91,
+        "paragraph": "RADIO TRANSMISSION",
+        "coverage": "Assignments transmitted clearly"
+      }
+    },
+    {
+      "question_id": "NYC911-300-TF-017",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "RADIO TRANSMISSION",
+      "stem": "Procedure 300 (RADIO TRANSMISSION): Assignments transmitted clearly.",
+      "answer": "true",
+      "hints": "Check the exact assignment rules.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 17,
+        "pdf_page": 91,
+        "paragraph": "RADIO TRANSMISSION",
+        "coverage": "Assignments transmitted clearly"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MATCH-017",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "RADIO TRANSMISSION",
+      "stem": "Procedure 300 (RADIO TRANSMISSION): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "RADIO TRANSMISSION"
+        ],
+        [
+          "Requirement",
+          "Clear transmission"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
+      ],
+      "hints": "Each match reflects a unit assignment rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 17,
+        "pdf_page": 91,
+        "paragraph": "RADIO TRANSMISSION",
+        "coverage": "Assignments transmitted clearly"
+      }
+    },
+    {
+      "question_id": "NYC911-300-FB-017",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "RADIO TRANSMISSION",
+      "stem": "Procedure 300 (RADIO TRANSMISSION): Assignments transmitted clearly.",
+      "answer": "Clear",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 17,
+        "pdf_page": 91,
+        "paragraph": "RADIO TRANSMISSION",
+        "coverage": "Assignments transmitted clearly"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MCQ-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "ACKNOWLEDGEMENT",
+      "stem": "Procedure 300 (ACKNOWLEDGEMENT): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Acknowledgement required",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Only if requested",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        }
+      ],
+      "solution": "Acknowledgement required",
+      "hints": "This rule appears in Procedure 300.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 18,
+        "pdf_page": 91,
+        "paragraph": "ACKNOWLEDGEMENT",
+        "coverage": "Units must acknowledge assignments"
+      }
+    },
+    {
+      "question_id": "NYC911-300-TF-018",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "ACKNOWLEDGEMENT",
+      "stem": "Procedure 300 (ACKNOWLEDGEMENT): Units must acknowledge assignments.",
+      "answer": "true",
+      "hints": "Check the exact assignment rules.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 18,
+        "pdf_page": 91,
+        "paragraph": "ACKNOWLEDGEMENT",
+        "coverage": "Units must acknowledge assignments"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MATCH-018",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "ACKNOWLEDGEMENT",
+      "stem": "Procedure 300 (ACKNOWLEDGEMENT): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "ACKNOWLEDGEMENT"
+        ],
+        [
+          "Requirement",
+          "Acknowledgement required"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
+      ],
+      "hints": "Each match reflects a unit assignment rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 18,
+        "pdf_page": 91,
+        "paragraph": "ACKNOWLEDGEMENT",
+        "coverage": "Units must acknowledge assignments"
+      }
+    },
+    {
+      "question_id": "NYC911-300-FB-018",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "ACKNOWLEDGEMENT",
+      "stem": "Procedure 300 (ACKNOWLEDGEMENT): Units must acknowledge assignments.",
+      "answer": "Acknowledgement",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 18,
+        "pdf_page": 91,
+        "paragraph": "ACKNOWLEDGEMENT",
+        "coverage": "Units must acknowledge assignments"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MCQ-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "FOLLOW-UP",
+      "stem": "Procedure 300 (FOLLOW-UP): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only if requested",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Follow up",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        }
+      ],
+      "solution": "Follow up",
+      "hints": "This rule appears in Procedure 300.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 19,
+        "pdf_page": 92,
+        "paragraph": "FOLLOW-UP",
+        "coverage": "Dispatcher follows up on assignments"
+      }
+    },
+    {
+      "question_id": "NYC911-300-TF-019",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "FOLLOW-UP",
+      "stem": "Procedure 300 (FOLLOW-UP): Dispatcher follows up on assignments.",
+      "answer": "true",
+      "hints": "Check the exact assignment rules.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 19,
+        "pdf_page": 92,
+        "paragraph": "FOLLOW-UP",
+        "coverage": "Dispatcher follows up on assignments"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MATCH-019",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "FOLLOW-UP",
+      "stem": "Procedure 300 (FOLLOW-UP): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "FOLLOW-UP"
+        ],
+        [
+          "Requirement",
+          "Follow up"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
+      ],
+      "hints": "Each match reflects a unit assignment rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 19,
+        "pdf_page": 92,
+        "paragraph": "FOLLOW-UP",
+        "coverage": "Dispatcher follows up on assignments"
+      }
+    },
+    {
+      "question_id": "NYC911-300-FB-019",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "FOLLOW-UP",
+      "stem": "Procedure 300 (FOLLOW-UP): Dispatcher follows up on assignments.",
+      "answer": "Follow",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 19,
+        "pdf_page": 92,
+        "paragraph": "FOLLOW-UP",
+        "coverage": "Dispatcher follows up on assignments"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MCQ-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "CLEARING JOBS",
+      "stem": "Procedure 300 (CLEARING JOBS): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Clear unit",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only if requested",
+          "is_correct": false
+        }
+      ],
+      "solution": "Clear unit",
+      "hints": "This rule appears in Procedure 300.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 20,
+        "pdf_page": 92,
+        "paragraph": "CLEARING JOBS",
+        "coverage": "Units cleared when job completed"
+      }
+    },
+    {
+      "question_id": "NYC911-300-TF-020",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "CLEARING JOBS",
+      "stem": "Procedure 300 (CLEARING JOBS): Units cleared when job completed.",
+      "answer": "true",
+      "hints": "Check the exact assignment rules.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 20,
+        "pdf_page": 92,
+        "paragraph": "CLEARING JOBS",
+        "coverage": "Units cleared when job completed"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MATCH-020",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "CLEARING JOBS",
+      "stem": "Procedure 300 (CLEARING JOBS): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "CLEARING JOBS"
+        ],
+        [
+          "Requirement",
+          "Clear unit"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
+      ],
+      "hints": "Each match reflects a unit assignment rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 20,
+        "pdf_page": 92,
+        "paragraph": "CLEARING JOBS",
+        "coverage": "Units cleared when job completed"
+      }
+    },
+    {
+      "question_id": "NYC911-300-FB-020",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "CLEARING JOBS",
+      "stem": "Procedure 300 (CLEARING JOBS): Units cleared when job completed.",
+      "answer": "Clear",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 20,
+        "pdf_page": 92,
+        "paragraph": "CLEARING JOBS",
+        "coverage": "Units cleared when job completed"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MCQ-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "EMERGENCY CONDITIONS",
+      "stem": "Procedure 300 (EMERGENCY CONDITIONS): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Emergency override",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Only if requested",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        }
+      ],
+      "solution": "Emergency override",
+      "hints": "This rule appears in Procedure 300.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 21,
+        "pdf_page": 93,
+        "paragraph": "EMERGENCY CONDITIONS",
+        "coverage": "Emergency overrides normal assignment"
+      }
+    },
+    {
+      "question_id": "NYC911-300-TF-021",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "EMERGENCY CONDITIONS",
+      "stem": "Procedure 300 (EMERGENCY CONDITIONS): Emergency overrides normal assignment.",
+      "answer": "true",
+      "hints": "Check the exact assignment rules.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 21,
+        "pdf_page": 93,
+        "paragraph": "EMERGENCY CONDITIONS",
+        "coverage": "Emergency overrides normal assignment"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MATCH-021",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "EMERGENCY CONDITIONS",
+      "stem": "Procedure 300 (EMERGENCY CONDITIONS): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "EMERGENCY CONDITIONS"
+        ],
+        [
+          "Requirement",
+          "Emergency override"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
+      ],
+      "hints": "Each match reflects a unit assignment rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 21,
+        "pdf_page": 93,
+        "paragraph": "EMERGENCY CONDITIONS",
+        "coverage": "Emergency overrides normal assignment"
+      }
+    },
+    {
+      "question_id": "NYC911-300-FB-021",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "EMERGENCY CONDITIONS",
+      "stem": "Procedure 300 (EMERGENCY CONDITIONS): ________ overrides normal assignment.",
+      "answer": "Emergency",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 21,
+        "pdf_page": 93,
+        "paragraph": "EMERGENCY CONDITIONS",
+        "coverage": "Emergency overrides normal assignment"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MCQ-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "CHAIN OF COMMAND",
+      "stem": "Procedure 300 (CHAIN OF COMMAND): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Chain of command",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only if requested",
+          "is_correct": false
+        }
+      ],
+      "solution": "Chain of command",
+      "hints": "This rule appears in Procedure 300.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 22,
+        "pdf_page": 94,
+        "paragraph": "CHAIN OF COMMAND",
+        "coverage": "Follow chain of command"
+      }
+    },
+    {
+      "question_id": "NYC911-300-TF-022",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "CHAIN OF COMMAND",
+      "stem": "Procedure 300 (CHAIN OF COMMAND): Follow chain of command.",
+      "answer": "true",
+      "hints": "Check the exact assignment rules.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 22,
+        "pdf_page": 94,
+        "paragraph": "CHAIN OF COMMAND",
+        "coverage": "Follow chain of command"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MATCH-022",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "CHAIN OF COMMAND",
+      "stem": "Procedure 300 (CHAIN OF COMMAND): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "CHAIN OF COMMAND"
+        ],
+        [
+          "Requirement",
+          "Chain of command"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
+      ],
+      "hints": "Each match reflects a unit assignment rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 22,
+        "pdf_page": 94,
+        "paragraph": "CHAIN OF COMMAND",
+        "coverage": "Follow chain of command"
+      }
+    },
+    {
+      "question_id": "NYC911-300-FB-022",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "CHAIN OF COMMAND",
+      "stem": "Procedure 300 (CHAIN OF COMMAND): Follow chain of command.",
+      "answer": "Chain",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 22,
+        "pdf_page": 94,
+        "paragraph": "CHAIN OF COMMAND",
+        "coverage": "Follow chain of command"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MCQ-023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "FINAL REVIEW",
+      "stem": "Procedure 300 (FINAL REVIEW): What is required?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Optional dispatcher action",
+          "is_correct": false
+        },
+        {
+          "id": "B",
+          "text": "Only during emergencies",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Only if requested",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Review before closure",
+          "is_correct": true
+        }
+      ],
+      "solution": "Review before closure",
+      "hints": "This rule appears in Procedure 300.",
+      "time_limit_sec": 45,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 23,
+        "pdf_page": 95,
+        "paragraph": "FINAL REVIEW",
+        "coverage": "Review assignments before closure"
+      }
+    },
+    {
+      "question_id": "NYC911-300-TF-023",
+      "type": "true_false",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "FINAL REVIEW",
+      "stem": "Procedure 300 (FINAL REVIEW): Review assignments before closure.",
+      "answer": "true",
+      "hints": "Check the exact assignment rules.",
+      "time_limit_sec": 25,
+      "points": 5,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 23,
+        "pdf_page": 95,
+        "paragraph": "FINAL REVIEW",
+        "coverage": "Review assignments before closure"
+      }
+    },
+    {
+      "question_id": "NYC911-300-MATCH-023",
+      "type": "matching",
+      "difficulty": "medium",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "FINAL REVIEW",
+      "stem": "Procedure 300 (FINAL REVIEW): Match the item to its description.",
+      "answer": [
+        [
+          "Section",
+          "FINAL REVIEW"
+        ],
+        [
+          "Requirement",
+          "Review before closure"
+        ],
+        [
+          "Applies to",
+          "Unit assignment"
+        ]
+      ],
+      "hints": "Each match reflects a unit assignment rule.",
+      "time_limit_sec": 60,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 23,
+        "pdf_page": 95,
+        "paragraph": "FINAL REVIEW",
+        "coverage": "Review assignments before closure"
+      }
+    },
+    {
+      "question_id": "NYC911-300-FB-023",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "domain": "911",
+      "topic": "Procedure 300 – Unit Assignment",
+      "subtopic": "FINAL REVIEW",
+      "stem": "Procedure 300 (FINAL REVIEW): ________ assignments before closure.",
+      "answer": "Review",
+      "hints": "Use the exact designation or term.",
+      "time_limit_sec": 40,
+      "points": 10,
+      "tags": [
+        "proc300"
+      ],
+      "source": {
+        "procedure": 300,
+        "proc_page": 23,
+        "pdf_page": 95,
+        "paragraph": "FINAL REVIEW",
+        "coverage": "Review assignments before closure"
+      }
     }
   ]
 }
